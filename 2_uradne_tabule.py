@@ -9,8 +9,10 @@ import copy
 
 # Base URL of the website
 BASE_URL = "https://www.minv.sk"
-# Suffix to add to the district URL to get to the 'Životné prostredie / Úradná tabuľa' section
+# Suffix for the specific environmental board
 DEPARTMENT_SUFFIX = "&odbor=10&sekcia=uradna-tabula"
+# Suffix for the general board (fallback)
+GENERAL_BOARD_SUFFIX = "&sekcia=uradna-tabula"
 
 # Regex to match a date string like "DD.MM.YYYY" or "D.M.YYYY" etc.
 # Flexible for leading zeros and space after dot
@@ -34,7 +36,9 @@ def is_potential_date_paragraph(p_tag):
 
 def scrape_district_environmental_board(district_url):
     """
-    Scrapes the environmental public notice board for a given district URL.
+    Scrapes the public notice board for a given district URL.
+    Tries the specific environmental board first. If it returns 404,
+    falls back to the general public notice board.
     Handles both table-based and paragraph-based structures.
     Extracts categories (or uses empty for paragraphs), document name, date, and URL.
 
@@ -48,37 +52,85 @@ def scrape_district_environmental_board(district_url):
               Returns an empty list if the page, the relevant content, or data
               cannot be found or parsed.
     Raises:
-        requests.exceptions.RequestException: If a network error occurs.
+        requests.exceptions.RequestException: If a network error occurs (after potential fallback).
+        requests.exceptions.HTTPError: If a non-404 HTTP error occurs, or if the fallback also fails.
+        ValueError: If expected HTML structure (like #popis or relevant H2) is missing.
         Exception: If any other parsing error occurs.
     """
-    # Construct the full URL
-    full_url = urljoin(BASE_URL, district_url + DEPARTMENT_SUFFIX)
-    print(f"Sťahujem: {full_url}")
+    # Construct the initial URL for the specific environmental board
+    specific_url = urljoin(BASE_URL, district_url + DEPARTMENT_SUFFIX)
+    print(f"Skúšam špecifickú URL: {specific_url}")
 
-    # The function will now raise exceptions on error instead of returning []
-    # try...except blocks are moved to the main loop for retry logic
+    response = None
+    request_url = specific_url # Keep track of the URL actually requested
 
     # Add a small delay and set timeout
     time.sleep(1) # Keep a small delay before each request
 
-    response = requests.get(full_url, timeout=20) # Increased timeout slightly
-    response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)
+    try:
+        response = requests.get(specific_url, timeout=20) # Increased timeout slightly
+        response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)
+        print(f"Úspešne stiahnuté: {specific_url}")
+        target_h2_text_specific = 'životné prostredie / úradná tabuľa'
+        target_h2_text_general = None # Not needed if specific URL worked
 
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 404:
+            print(f"Špecifická URL {specific_url} vrátila 404. Skúšam všeobecnú úradnú tabuľu.")
+            # Construct the fallback URL for the general board
+            fallback_url = urljoin(BASE_URL, district_url + GENERAL_BOARD_SUFFIX)
+            request_url = fallback_url # Update the URL we are now trying
+            print(f"Skúšam všeobecnú URL: {fallback_url}")
+
+            time.sleep(1) # Delay before fallback request
+
+            # Make the second request for the general board
+            response = requests.get(fallback_url, timeout=20)
+            # Raise status for the *fallback* request. If this fails, the exception propagates.
+            response.raise_for_status()
+            print(f"Úspešne stiahnuté (všeobecná): {fallback_url}")
+            # Set the expected H2 text for the general board
+            target_h2_text_specific = None # Specific H2 won't be present
+            target_h2_text_general = 'úradná tabuľa'
+
+        else:
+            # If the error was not 404, re-raise it
+            print(f"Chyba pri sťahovaní {specific_url}: {e}")
+            raise e
+    except requests.exceptions.RequestException as e:
+         # Handle connection errors, timeouts etc. for the first request
+         print(f"Chyba pripojenia pri sťahovaní {specific_url}: {e}")
+         raise e
+
+
+    # --- Parsing starts here, using the 'response' from the successful request ---
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # Find the section containing the main content (usually #popis)
     popis_section = soup.find('div', id='popis')
     if not popis_section:
         # Raise an exception instead of printing and returning []
-        raise ValueError(f"Sekcia #popis nenájdená na {full_url}.")
+        raise ValueError(f"Sekcia #popis nenájdená na {request_url}.")
 
     # Find the specific H2 title for the target content within the #popis section
-    # Use a lambda function to match the text containing the target string (case-insensitive)
-    h2_target = popis_section.find('h2', string=lambda text: text and 'životné prostredie / úradná tabuľa' in text.lower())
+    h2_target = None
+    if target_h2_text_specific:
+        # Try finding the specific H2 first (if specific URL was used)
+        h2_target = popis_section.find('h2', string=lambda text: text and target_h2_text_specific in text.lower())
+
+    if not h2_target and target_h2_text_general:
+         # If specific not found (or fallback URL was used), try the general H2
+         print(f"Hľadám všeobecný nadpis '{target_h2_text_general}' na {request_url}")
+         # Use strip() and exact match (case-insensitive) for the general title
+         h2_target = popis_section.find('h2', string=lambda text: text and text.strip().lower() == target_h2_text_general)
 
     if not h2_target:
-         # Raise an exception instead of printing and returning []
-         raise ValueError(f"Nadpis 'Životné prostredie / Úradná tabuľa' nenájdený na {full_url}.")
+         # If neither relevant H2 is found, raise the error
+         error_msg = f"Relevantný nadpis ('{target_h2_text_specific or 'Životné prostredie / Úradná tabuľa'}' ani '{target_h2_text_general or 'Úradná tabuľa'}') nenájdený na {request_url}."
+         raise ValueError(error_msg)
+    else:
+        print(f"Nájdený nadpis: '{h2_target.get_text(strip=True)}'")
+
 
     # Try to find the target table immediately following the H2 title
     target_table = h2_target.find_next_sibling('table', class_='tabdoc')
@@ -86,21 +138,31 @@ def scrape_district_environmental_board(district_url):
     categories_data_dict = {} # Dictionary to group documents by category name
 
     if target_table:
-        print(f"Nájdená tabuľková štruktúra pre {district_url}")
+        print(f"Nájdená tabuľková štruktúra pre {district_url} na {request_url}")
         # --- Logic for TABLE structure ---
         current_category = None
         for row in target_table.find_all('tr'):
             category_cell = row.find('td', class_='tddocup')
             if category_cell:
                 category_name = category_cell.get_text(strip=True)
-                current_category = category_name
-                if current_category and current_category not in categories_data_dict:
-                    categories_data_dict[current_category] = []
-                continue
+                # Handle potential empty category names from merged cells
+                if category_name:
+                    current_category = category_name
+                    if current_category not in categories_data_dict:
+                        categories_data_dict[current_category] = []
+                # If category_name is empty, we assume it continues the previous category
+                elif current_category is None:
+                    # Edge case: first row has no category name? Use a default.
+                    current_category = "Nezaradené (tabuľka)"
+                    if current_category not in categories_data_dict:
+                        categories_data_dict[current_category] = []
+
+                continue # Skip to next row after processing category cell
 
             document_name_cell = row.find('td', class_='document-name')
             if document_name_cell:
                 link = document_name_cell.find('a', class_='govuk-link')
+                # Ensure we have a category context before adding documents
                 if link and current_category is not None and current_category in categories_data_dict:
                     full_cell_text = document_name_cell.get_text(strip=True)
                     document_name = link.get_text(strip=True)
@@ -108,12 +170,14 @@ def scrape_district_environmental_board(district_url):
                     # Extract date from the text before the link's text, using '|' as a potential separator
                     date_str = None
                     link_text_index = full_cell_text.find(document_name)
-                    if link_text_index != -1: # If link text is found within the cell text
+                    if link_text_index > 0: # Check if link text is found *and* there's text before it
                         potential_date_part = full_cell_text[:link_text_index].strip()
-                        # Now, check if this potential date part contains a '|'
-                        pipe_index = potential_date_part.find('|')
-                        if pipe_index != -1:
-                            date_str = potential_date_part[:pipe_index].strip()
+                        # Remove trailing '|' if present
+                        if potential_date_part.endswith('|'):
+                            potential_date_part = potential_date_part[:-1].strip()
+                        # Basic check if it looks like a date (can be improved with regex if needed)
+                        if '.' in potential_date_part and len(potential_date_part) <= 12: # Simple heuristic
+                             date_str = potential_date_part
                         # Alternative simpler split if structure is consistent:
                         # parts = full_cell_text.split('|', 1)
                         # if len(parts) > 1: date_str = parts[0].strip()
@@ -129,9 +193,9 @@ def scrape_district_environmental_board(district_url):
                             "url": full_document_url
                         })
                     else:
-                        print(f"Upozornenie: Dokument v kategórii '{current_category}' na {full_url} má odkaz bez platného 'href'.", file=sys.stderr)
+                        print(f"Upozornenie: Dokument v kategórii '{current_category}' na {request_url} má odkaz bez platného 'href'.", file=sys.stderr)
     else:
-        print(f"Tabuľka nenájdená, pokúšam sa parsovať odstavce pre {district_url}")
+        print(f"Tabuľka nenájdená, pokúšam sa parsovať odstavce pre {district_url} na {request_url}")
         # --- Logic for PARAGRAPH structure ---
         current_date = None
         paragraph_documents = [] # List to collect documents found in paragraphs
@@ -142,14 +206,19 @@ def scrape_district_environmental_board(district_url):
         # Stop when another H2 or non-paragraph element is encountered (that isn't a table already checked)
         next_siblings = h2_target.find_next_siblings()
         if len(next_siblings) == 0:
-            print(f"Úradná tabuľa je prázdna (žiadne elementy pod nadpisom) pre {district_url}")
+            print(f"Úradná tabuľa je prázdna (žiadne elementy pod nadpisom) pre {district_url} na {request_url}")
         else:
+            processed_paragraph = False # Flag to check if any relevant paragraphs were found
             for element in next_siblings:
                 # Stop processing if we hit the end of relevant content (e.g., another H2)
                 if element.name == 'h2': # Or check for other structural dividers if necessary
                     break
+                # Only process 'p' tags directly under the H2 section
                 if element.name != 'p':
-                    # Ignore non-paragraph elements unless they signal the end of the list
+                    # Allow specific non-p tags if needed, otherwise ignore
+                    # Example: Sometimes <hr> might appear, ignore it.
+                    # if element.name not in ['hr', 'br']: # Example
+                    #    print(f"Ignorujem element '{element.name}' za nadpisom.")
                     continue
 
 
@@ -169,12 +238,14 @@ def scrape_district_environmental_board(district_url):
                             "nazov": document_name,
                             "url": full_document_url
                         })
+                        processed_paragraph = True # Mark that we found a document
                     else:
-                        print(f"Upozornenie: Dokument v odstavci na {full_url} má odkaz bez platného 'href'.", file=sys.stderr)
+                        print(f"Upozornenie: Dokument v odstavci na {request_url} má odkaz bez platného 'href'.", file=sys.stderr)
 
                 elif is_potential_date_paragraph(element):
                      # This paragraph looks like a date marker and has no link
                      current_date = element.get_text(strip=True)
+                     processed_paragraph = True # Mark that we found a date
                      #print(f"Detekovaný dátum: {current_date}") # For debugging
 
                 # else: Paragraph is neither a link nor a date, ignore it (e.g., introductory text)
@@ -183,9 +254,13 @@ def scrape_district_environmental_board(district_url):
             if paragraph_documents:
                  # Add the default category with the collected documents only if documents were found
                  categories_data_dict[default_category_name] = paragraph_documents
-                 print(f"Nájdené {len(paragraph_documents)} dokumentov v odstavcoch pre {district_url}")
+                 print(f"Nájdené {len(paragraph_documents)} dokumentov v odstavcoch pre {district_url} na {request_url}")
+            elif processed_paragraph:
+                 # We found dates or other paragraphs but no actual document links
+                 print(f"Nenašli sa žiadne odkazy na dokumenty v odstavcoch (možno len dátumy?) pre {district_url} na {request_url}")
             else:
-                 print(f"Nenašli sa žiadne dokumenty v odstavcoch pre {district_url}")
+                 # No relevant paragraphs found at all
+                 print(f"Nenašli sa žiadne relevantné odstavce (dátumy ani dokumenty) pre {district_url} na {request_url}")
 
 
     # Convert the dictionary format (category: [docs]) to the desired list format ([{"kategoria": k, "dokumenty": v}, ...])
@@ -231,8 +306,8 @@ def main(input_json_file, output_json_file):
         for okres_data in kraj_data.get('okresy', []):
             # Initialize with an empty list, will be populated on success
             okres_data['dokumenty_zivotne_prostredie'] = []
-            # Remove original URL if not needed in final output (optional)
-            # okres_data.pop('url', None) # Keep URL for processing, remove later if needed
+            # Keep URL for processing, remove later if needed
+            # okres_data.pop('url', None)
 
     # --- Retry Logic ---
     retry_delays = [10, 60, 400] # Delays in seconds
@@ -259,12 +334,12 @@ def main(input_json_file, output_json_file):
                              okres_data['error'] = "Chýba URL okresu" # Mark as error so it's not retried unnecessarily
                         continue # Skip this district if no URL
 
-                    print(f"Spracovávam okres: {okres_name} (Kraj: {kraj_name})")
+                    print(f"\nSpracovávam okres: {okres_name} (Kraj: {kraj_name})")
                     try:
                         # Add a small delay between districts, especially important during retries
                         time.sleep(0.5)
 
-                        # Call the scraping function
+                        # Call the scraping function (which now includes fallback logic)
                         district_environmental_data = scrape_district_environmental_board(okres_url)
 
                         # Success: Assign data and remove any previous error marker
@@ -272,8 +347,9 @@ def main(input_json_file, output_json_file):
                         okres_data.pop('error', None) # Remove error key if it existed
                         print(f"Okres {okres_name} úspešne spracovaný.")
 
-                    except Exception as e:
-                        error_message = f"Chyba pri spracovaní (pokus {attempt + 1}): {e}"
+                    except (requests.exceptions.RequestException, requests.exceptions.HTTPError, ValueError) as e:
+                        # Catch specific errors from scraping function (network, HTTP, parsing structure)
+                        error_message = f"Chyba pri spracovaní (pokus {attempt + 1}): {type(e).__name__} - {e}"
                         print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
                         # Store the error message
                         okres_data['error'] = error_message
@@ -281,6 +357,14 @@ def main(input_json_file, output_json_file):
                         okres_data['dokumenty_zivotne_prostredie'] = []
                         # Add to list for potential retry
                         districts_to_retry.append(okres_data) # Keep track of failed districts
+                    except Exception as e:
+                        # Catch any other unexpected errors during scraping
+                        error_message = f"Neočakávaná chyba pri spracovaní (pokus {attempt + 1}): {type(e).__name__} - {e}"
+                        print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
+                        okres_data['error'] = error_message
+                        okres_data['dokumenty_zivotne_prostredie'] = []
+                        districts_to_retry.append(okres_data)
+
 
         # --- End of pass through all districts ---
 
@@ -321,13 +405,20 @@ if __name__ == "__main__":
     # Define input and output filenames
     input_file = '1_zoznam_okresov.json'
     # Use a different name to avoid overwriting the test file during development
-    output_file = '2_uradne_tabule_test.json'
+    # output_file = '2_uradne_tabule_test.json' # Original test name
+    output_file = '2_uradne_tabule_vystup.json' # New output name
 
     main(input_file, output_file)
     # Example for testing a specific district (uncomment if needed)
     # try:
-    #     b = scrape_district_environmental_board('/?okresne-urady-klientske-centra&urad=6') # Example district
+    #     # Test a district likely needing fallback (e.g., Bratislava)
+    #     # Bratislava URL from 1_zoznam_okresov.json might be /?okresne-urady-klientske-centra&urad=1
+    #     # Test with a known working one (if any) e.g. '/?okresne-urady-klientske-centra&urad=6'
+    #     # Test with one likely using paragraphs (if known)
+    #     test_district_url = '/?okresne-urady-klientske-centra&urad=1' # Example: Bratislava
+    #     print(f"\n--- Testujem špecifický okres: {test_district_url} ---")
+    #     b = scrape_district_environmental_board(test_district_url)
     #     print('Test scrape result:', json.dumps(b, indent=2, ensure_ascii=False))
     # except Exception as e:
-    #     print(f"Test scrape failed: {e}")
+    #     print(f"Test scrape failed for {test_district_url}: {e}", file=sys.stderr)
 
