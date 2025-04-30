@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -46,11 +47,12 @@ def scrape_district_environmental_board(district_url):
         district_url (str): The base URL for the district page (e.g., "/?okresne-urady-klientske-centra&urad=35").
 
     Returns:
-        list: A list of dictionaries, where each dictionary represents a category
-              and contains a list of documents. Each document dictionary includes
-              'datum', 'nazov', and 'url'.
-              Returns an empty list if the page, the relevant content, or data
-              cannot be found or parsed.
+        tuple: A tuple containing:
+            - list: A list of dictionaries, where each dictionary represents a category
+                    and contains a list of documents. Each document dictionary includes
+                    'datum', 'nazov', and 'url'. Returns an empty list if the page,
+                    the relevant content, or data cannot be found or parsed.
+            - str: The URL from which the data was successfully scraped.
     Raises:
         requests.exceptions.RequestException: If a network error occurs (after potential fallback).
         requests.exceptions.HTTPError: If a non-404 HTTP error occurs, or if the fallback also fails.
@@ -270,7 +272,8 @@ def scrape_district_environmental_board(district_url):
     # Optional: Sort categories by name for consistent output order
     result_list_of_categories.sort(key=lambda x: x['kategoria'])
 
-    return result_list_of_categories
+    # *** ZMENA: Vrátiť aj request_url ***
+    return result_list_of_categories, request_url
 
     # Removed the broad try...except Exception block from here; errors will propagate up
 
@@ -280,6 +283,7 @@ def main(input_json_file, output_json_file):
     Loads input JSON, scrapes data from district environmental boards with retry logic,
     and structures the results, keeping documents nested under categories within each district.
     If scraping fails after retries, an 'error' key is added to the district data.
+    The source URL used for scraping is also added.
 
     Args:
         input_json_file (str): Path to the input JSON file.
@@ -306,6 +310,8 @@ def main(input_json_file, output_json_file):
         for okres_data in kraj_data.get('okresy', []):
             # Initialize with an empty list, will be populated on success
             okres_data['dokumenty_zivotne_prostredie'] = []
+            # *** ZMENA: Inicializovať kľúč pre zdrojovú URL ***
+            okres_data['url_tabule'] = None
             # Keep URL for processing, remove later if needed
             # okres_data.pop('url', None)
 
@@ -339,13 +345,15 @@ def main(input_json_file, output_json_file):
                         # Add a small delay between districts, especially important during retries
                         time.sleep(0.5)
 
+                        # *** ZMENA: Získať dáta aj zdrojovú URL ***
                         # Call the scraping function (which now includes fallback logic)
-                        district_environmental_data = scrape_district_environmental_board(okres_url)
+                        district_environmental_data, source_url = scrape_district_environmental_board(okres_url)
 
                         # Success: Assign data and remove any previous error marker
+                        okres_data['url_tabule'] = source_url
                         okres_data['dokumenty_zivotne_prostredie'] = district_environmental_data
                         okres_data.pop('error', None) # Remove error key if it existed
-                        print(f"Okres {okres_name} úspešne spracovaný.")
+                        print(f"Okres {okres_name} úspešne spracovaný (zdroj: {source_url}).") # Pridaná informácia o zdroji
 
                     except (requests.exceptions.RequestException, requests.exceptions.HTTPError, ValueError) as e:
                         # Catch specific errors from scraping function (network, HTTP, parsing structure)
@@ -353,6 +361,7 @@ def main(input_json_file, output_json_file):
                         print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
                         # Store the error message
                         okres_data['error'] = error_message
+                        okres_data['url_tabule'] = None
                         # Ensure document list is empty or reflects failure state
                         okres_data['dokumenty_zivotne_prostredie'] = []
                         # Add to list for potential retry
@@ -362,7 +371,9 @@ def main(input_json_file, output_json_file):
                         error_message = f"Neočakávaná chyba pri spracovaní (pokus {attempt + 1}): {type(e).__name__} - {e}"
                         print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
                         okres_data['error'] = error_message
+                        okres_data['url_tabule'] = None
                         okres_data['dokumenty_zivotne_prostredie'] = []
+                        # *** ZMENA: Nechať zdrojovú URL ako None ***
                         districts_to_retry.append(okres_data)
 
 
@@ -384,10 +395,10 @@ def main(input_json_file, output_json_file):
             # The loop will end naturally
 
     # --- Post-processing: Clean up URLs if desired ---
-    for kraj_data in output_data:
-        kraj_data.pop('url', None) # Remove kraj URL
-        for okres_data in kraj_data.get('okresy', []):
-            okres_data.pop('url', None) # Remove okres URL
+    # for kraj_data in output_data:
+    #     kraj_data.pop('url', None) # Remove kraj URL
+    #     for okres_data in kraj_data.get('okresy', []):
+    #         okres_data.pop('url', None) # Remove okres URL
 
 
     # Save the final output JSON
@@ -417,8 +428,9 @@ if __name__ == "__main__":
     #     # Test with one likely using paragraphs (if known)
     #     test_district_url = '/?okresne-urady-klientske-centra&urad=1' # Example: Bratislava
     #     print(f"\n--- Testujem špecifický okres: {test_district_url} ---")
-    #     b = scrape_district_environmental_board(test_district_url)
+    #     b, source = scrape_district_environmental_board(test_district_url) # *** ZMENA: Získať aj URL ***
     #     print('Test scrape result:', json.dumps(b, indent=2, ensure_ascii=False))
+    #     print(f'Test scrape source URL: {source}') # *** ZMENA: Vypísať URL ***
     # except Exception as e:
     #     print(f"Test scrape failed for {test_district_url}: {e}", file=sys.stderr)
 
