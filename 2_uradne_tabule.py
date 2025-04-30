@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import sys
-from requests.compat import urljoin # Use compat for older python versions if needed, but urljoin is standard
-import copy # Import copy module for deep copying the input structure
+from requests.compat import urljoin
+import copy
 
 # Base URL of the website
 BASE_URL = "https://www.minv.sk"
@@ -14,7 +14,7 @@ DEPARTMENT_SUFFIX = "&odbor=10&sekcia=uradna-tabula"
 def scrape_district_environmental_board(district_url):
     """
     Scrapes the environmental public notice board for a given district URL.
-    Extracts category, document name, date, and URL.
+    Extracts categories and nested documents (name, date, URL).
 
     Args:
         district_url (str): The base URL for the district page (e.g., "/?okresne-urady-klientske-centra&urad=35").
@@ -23,8 +23,8 @@ def scrape_district_environmental_board(district_url):
         list: A list of dictionaries, where each dictionary represents a category
               and contains a list of documents. Each document dictionary includes
               'datum', 'nazov', and 'url'.
-              Returns an empty list if the page or the relevant table is not found
-              or cannot be parsed.
+              Returns an empty list if the page, the relevant table, or data
+              within the table is not found or cannot be parsed correctly.
     """
     # Construct the full URL for the environmental public notice board
     full_url = urljoin(BASE_URL, district_url + DEPARTMENT_SUFFIX)
@@ -33,7 +33,7 @@ def scrape_district_environmental_board(district_url):
     try:
         # Add a small delay to be polite to the server
         time.sleep(1)
-        response = requests.get(full_url, timeout=10) # Added timeout for robustness
+        response = requests.get(full_url, timeout=15) # Increased timeout slightly
         response.raise_for_status() # Raise an HTTPError for bad responses (4xx or 5xx)
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -45,8 +45,7 @@ def scrape_district_environmental_board(district_url):
             return [] # Return empty list if the main section is missing
 
         # Find the specific H2 title for the target table within the #popis section
-        # Use a lambda function to match the text containing the target string
-        # Case-insensitive search just in case
+        # Use a lambda function to match the text containing the target string (case-insensitive)
         h2_target = popis_section.find('h2', string=lambda text: text and 'životné prostredie / úradná tabuľa' in text.lower())
 
         target_table = None
@@ -59,30 +58,31 @@ def scrape_district_environmental_board(district_url):
             print(f"Tabuľka 'Životné prostredie / Úradná tabuľa' nenájdená po H2 titulku na {full_url}. Preskakujem s prázdnymi dátami.")
             return [] # Return empty list if the target table is missing
 
-        categories_data = {}
+        categories_data_dict = {} # Use a dictionary to group documents by category name
         current_category = None
 
         # Iterate over table rows
         for row in target_table.find_all('tr'):
-            # Check for category row (class="tddocup")
+            # Check for category row (class="tddocup") - This row contains the category name
             category_cell = row.find('td', class_='tddocup')
             if category_cell:
                 # Extract text, strip whitespace and potential bold tags
-                # get_text(strip=True) usually handles basic tags like <strong>
                 category_name = category_cell.get_text(strip=True)
                 current_category = category_name
-                # Initialize the list for this category if it doesn't exist
-                if current_category and current_category not in categories_data: # Ensure category name is not empty
-                    categories_data[current_category] = []
-                continue # Move to the next row
+                # Initialize the list of documents for this category if it doesn't exist
+                if current_category and current_category not in categories_data_dict: # Ensure category name is not empty
+                    categories_data_dict[current_category] = []
+                continue # Move to the next row (this row only contains category)
 
-            # Check for document row (class="document-name")
+            # Check for document row (class="document-name") - This row contains document info
             document_name_cell = row.find('td', class_='document-name')
             if document_name_cell:
-                link = document_name_cell.find('a', class_='govuk-link') # Find the link within the cell
+                # Find the link within the document name cell
+                link = document_name_cell.find('a', class_='govuk-link')
 
                 # Ensure a link exists and we have a current category to assign the document to
-                if link and current_category is not None and current_category in categories_data:
+                # Also ensure the current_category exists in our dictionary keys (it might not if a tddocup row was missing/malformed)
+                if link and current_category is not None and current_category in categories_data_dict:
                     # Get the full text content of the cell (e.g., "DD. MM. YYYY | Document Name (size)")
                     full_cell_text = document_name_cell.get_text(strip=True)
 
@@ -94,14 +94,12 @@ def scrape_district_environmental_board(district_url):
                     pipe_index = full_cell_text.find('|')
 
                     date_str = None
-                    # If '|' is found and is not at the beginning
+                    # If '|' is found and is not at the very beginning, the part before it is the date
                     if pipe_index > 0:
-                         # The part before '|' is the date string
                          date_str = full_cell_text[:pipe_index].strip()
-                         # Remove the date string and '|' from the document_name if needed,
-                         # but we already got the name from the link text, which is safer.
+                    # If '|' is not found or is at the beginning, date_str remains None
 
-                    # Get the document URL
+                    # Get the document URL from the link's href attribute
                     relative_url = link.get('href')
                     full_document_url = None
                     if relative_url:
@@ -111,22 +109,22 @@ def scrape_district_environmental_board(district_url):
                     # Append the document data if we have a valid URL.
                     # Documents without a URL are not useful in this context.
                     if full_document_url:
-                         categories_data[current_category].append({
+                         # Append the document details to the list of documents for the current category
+                         categories_data_dict[current_category].append({
                              "datum": date_str, # Add the extracted date string (can be None)
                              "nazov": document_name,
                              "url": full_document_url
                          })
                     else:
-                         print(f"Upozornenie: Dokument v kategórii '{current_category}' v okrese {full_url} má odkaz bez platného 'href' atribútu. Preskakujem.", file=sys.stderr)
-                # else: Row had 'document-name' but no link or no valid current_category. Ignore.
+                         # Log a warning if a link was found but had no href attribute
+                         print(f"Upozornenie: Dokument v kategórii '{current_category}' na {full_url} má odkaz bez platného 'href' atribútu. Preskakujem.", file=sys.stderr)
+                # else: Row had 'document-name' but no link, no valid current_category, or current_category not in dict. Ignore.
 
-        # This function originally returned a list of category blocks.
-        # For the new output structure, we need a flat list of all documents from this district.
-        all_documents_for_district = []
-        for category, documents in categories_data.items():
-             all_documents_for_district.extend(documents)
+        # Convert the dictionary format (category: [docs]) to the desired list format ([{"kategoria": k, "dokumenty": v}, ...])
+        # Filter out categories that ended up with no documents (shouldn't happen often, but good practice)
+        result_list_of_categories = [{"kategoria": k, "dokumenty": v} for k, v in categories_data_dict.items() if v]
 
-        return all_documents_for_district # Return a single list of documents for this district
+        return result_list_of_categories # Return the list of category blocks for this district
 
     except requests.exceptions.Timeout:
         print(f"Chyba timeout pri sťahovaní {full_url}.", file=sys.stderr)
@@ -143,7 +141,8 @@ def scrape_district_environmental_board(district_url):
 def main(input_json_file, output_json_file):
     """
     Loads input JSON, scrapes data from district environmental boards,
-    and structures the results according to the desired output format.
+    and structures the results according to the desired output format,
+    keeping documents nested under categories within each district.
 
     Args:
         input_json_file (str): Path to the input JSON file.
@@ -165,7 +164,7 @@ def main(input_json_file, output_json_file):
     # Create a deep copy of the input data structure to add the scraped documents to
     output_data = copy.deepcopy(input_data)
 
-    # Iterate through kraje and okresy in the output structure
+    # Iterate through kraje and okresy in the output structure (the copied data)
     for kraj_data in output_data:
         kraj_name = kraj_data.get('kraj', 'Neznámy kraj')
         okresy = kraj_data.get('okresy', [])
@@ -173,32 +172,33 @@ def main(input_json_file, output_json_file):
 
         for okres_data in okresy:
             okres_name = okres_data.get('nazov', 'Neznámy okres')
-            okres_url = okres_data.get('url') # Get the URL from the original input structure
+            # Get the URL from the original structure (which is now in okres_data of output_data)
+            okres_url = okres_data.get('url')
 
-            # Initialize documents list for this district in the output structure
-            # Will be populated or remain empty if scraping fails
-            okres_data['dokumenty'] = []
+            # Initialize the list for scraped documents for this district in the output structure.
+            # It will contain the list of category blocks returned by the scraper.
+            okres_data['dokumenty_zivotne_prostredie'] = []
 
             if okres_url:
                 print(f"Spracovávam okres: {okres_name}")
                 # Scrape the environmental board for this district.
-                # This function is modified to return a flat list of documents.
-                district_documents = scrape_district_environmental_board(okres_url)
+                # This function now returns a list of category blocks (e.g., [{"kategoria": "...", "dokumenty": [...]}, ...]).
+                district_environmental_data = scrape_district_environmental_board(okres_url)
 
-                # Add the scraped documents to the 'dokumenty' list for this district
-                okres_data['dokumenty'].extend(district_documents)
+                # Assign the scraped category blocks data directly to the new key for this district
+                okres_data['dokumenty_zivotne_prostredie'] = district_environmental_data
 
-                # Remove the original 'url' key for the district itself if it's not needed in the output
-                if 'url' in okres_data:
-                    del okres_data['url']
+                # Optional: Remove the original 'url' key for the district itself if it's not needed in the output
+                # If you want to keep the district URL, comment out or remove the next line:
+                okres_data.pop('url', None) # .pop(key, default) removes key if it exists, without error if not
+
             else:
                 print(f"Upozornenie: Okres '{okres_name}' v kraji '{kraj_name}' nemá 'url'. Pre tento okres nebudú stiahnuté dokumenty.")
+                # The 'dokumenty_zivotne_prostredie' list for this district will remain empty [] as initialized.
 
-
-        # Remove the original 'url' key for the kraj itself if it's not needed in the output
-        # (Based on the requested output structure, kraj URL is not included)
-        if 'url' in kraj_data:
-             del kraj_data['url']
+        # Optional: Remove the original 'url' key for the kraj itself if it's not needed in the output
+        # If you want to keep the kraj URL, comment out or remove the next line:
+        kraj_data.pop('url', None) # .pop(key, default)
 
 
     # Save the output JSON
