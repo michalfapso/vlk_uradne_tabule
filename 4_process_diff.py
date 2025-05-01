@@ -3,6 +3,7 @@ import requests
 import os
 import urllib.parse
 import sys
+import glob # Import modulu glob
 
 # Import funkcie na extrakciu textu z PDF
 from pdf_to_txt import extract_text_from_pdf
@@ -40,12 +41,12 @@ def get_file_suffix(content_type):
         return mime_to_suffix.get(main_type, '.bin') # Predvolená hodnota '.bin'
     return '.bin' # Predvolená hodnota, ak hlavička Content-Type chýba
 
-def download_document(doc_url, doc_id, output_dir='docs'):
+def download_document(doc_url, output_dir, output_filename_nosuffix):
     """
     Stiahne dokument z danej URL a uloží ho do súboru docs/ID.SUFFIX.
     """
     try:
-        print(f"Pokúšam sa stiahnuť dokument ID {doc_id} z: {doc_url}")
+        print(f"Pokúšam sa stiahnuť dokument z: {doc_url}")
 
         # Použitie stream=True je dobré pre veľké súbory, ale tu to nemusí byť nutné
         # Pridaný timeout, aby sa predišlo nekonečnému čakaniu
@@ -55,7 +56,7 @@ def download_document(doc_url, doc_id, output_dir='docs'):
         content_type = response.headers.get('Content-Type')
         suffix = get_file_suffix(content_type)
 
-        filename = f"{doc_id}{suffix}"
+        filename = f"{output_filename_nosuffix}{suffix}"
         filepath = os.path.join(output_dir, filename)
 
         # Vytvorenie výstupného adresára, ak neexistuje
@@ -95,6 +96,7 @@ def process_json_file(json_filepath):
         print(f"Chyba: Neočakávaná štruktúra JSON. Očakáva sa zoznam na najvyššej úrovni.", file=sys.stderr)
         return
 
+    docs_dir = 'docs' # Definujeme výstupný adresár
     download_attempts = 0
 
     # Prejdite štruktúru JSON podľa poskytnutého vzoru
@@ -118,20 +120,41 @@ def process_json_file(json_filepath):
                                          doc_id = query_params['subor'][0]
 
                                     if doc_id:
-                                        downloaded_file = download_document(doc_url, doc_id)
-                                        # Ak bol súbor úspešne stiahnutý a je to PDF
-                                        if downloaded_file and downloaded_file.endswith('.pdf'):
-                                            print(f"Pokúšam sa extrahovať text z PDF: {downloaded_file}")
-                                            try:
-                                                text = extract_text_from_pdf(downloaded_file)
-                                                txt_filepath = os.path.splitext(downloaded_file)[0] + '.txt'
-                                                with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
-                                                    txt_file.write(text)
-                                                print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
-                                            except Exception as e:
-                                                # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
-                                                print(f"Chyba pri extrakcii textu z {downloaded_file}: {e}", file=sys.stderr)
-                                        download_attempts += 1
+                                        existing_filepath = None
+
+                                        # Skontroluj, či súbor s daným ID už existuje (s akoukoľvek príponou)
+                                        # Vytvoríme vzor pre glob, ktorý hľadá súbory začínajúce na doc_id a s ľubovoľnou príponou
+                                        output_dir = f"{docs_dir}/{kraj_data['kraj']}/{okres_data['nazov']}/{doc_id}"
+                                        existing_files = glob.glob(f"{output_dir}/orig.*")
+                                        changed = False
+                                        orig_file = None
+                                        if bool(existing_files): # Stiahnuť, ak zoznam existujúcich súborov je prázdny
+                                            print(f"Súbor pre ID {doc_id} už existuje: {existing_files[0]}. Preskakujem sťahovanie.")
+                                            orig_file = existing_files[0]
+                                        else:
+                                            download_attempts += 1 # Počítame pokus o stiahnutie
+                                            orig_file = download_document(doc_url, output_dir, 'orig')
+                                            changed = True
+
+                                        # Ak bol súbor úspešne stiahnutý a je to PDF, extrahuj text
+                                        # (aj keď .txt už existuje - podľa požiadavky)
+                                        if orig_file and orig_file.endswith('.pdf'):
+                                            txt_filepath = f"{output_dir}/text.txt"
+                                            # Skontroluj, či textový súbor už existuje
+                                            if changed or not os.path.exists(txt_filepath):
+                                                print(f"Súbor {txt_filepath} neexistuje. Pokúšam sa extrahovať text z PDF: {orig_file}")
+                                                try:
+                                                    text = extract_text_from_pdf(orig_file)
+                                                    with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
+                                                        txt_file.write(text)
+                                                    print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
+                                                except Exception as e:
+                                                    # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
+                                                    print(f"Chyba pri extrakcii textu z {orig_file}: {e}", file=sys.stderr)
+                                            else:
+                                                print(f"Súbor {txt_filepath} už existuje. Preskakujem extrakciu textu.")
+                                                
+                                        
                                     else:
                                         print(f"Upozornenie: Nepodarilo sa nájsť parameter 'subor' v URL: {doc_url}. Preskakujem.", file=sys.stderr)
                                 else:
@@ -143,7 +166,7 @@ def process_json_file(json_filepath):
         else:
             print(f"Upozornenie: Neočakávaná štruktúra. 'okresy' chýba alebo nie je zoznam v kraji: {kraj_data}. Preskakujem.", file=sys.stderr)
 
-    print(f"\nSpracovanie dokončené. Pokúsil som sa stiahnuť {download_attempts} dokumentov, pre ktoré bolo nájdené ID 'subor'.")
+    print(f"\nSpracovanie dokončené. Pokúsil som sa stiahnuť {download_attempts} nových dokumentov (pre ktoré bolo nájdené ID 'subor' a ešte neexistovali lokálne).")
 
 
 if __name__ == "__main__":
