@@ -4,6 +4,9 @@ import os
 import urllib.parse
 import sys
 
+# Import funkcie na extrakciu textu z PDF
+from pdf_to_txt import extract_text_from_pdf
+
 def get_file_suffix(content_type):
     """
     Určí príponu súboru na základe hlavičky Content-Type.
@@ -115,7 +118,19 @@ def process_json_file(json_filepath):
                                          doc_id = query_params['subor'][0]
 
                                     if doc_id:
-                                        download_document(doc_url, doc_id)
+                                        downloaded_file = download_document(doc_url, doc_id)
+                                        # Ak bol súbor úspešne stiahnutý a je to PDF
+                                        if downloaded_file and downloaded_file.endswith('.pdf'):
+                                            print(f"Pokúšam sa extrahovať text z PDF: {downloaded_file}")
+                                            try:
+                                                text = extract_text_from_pdf(downloaded_file)
+                                                txt_filepath = os.path.splitext(downloaded_file)[0] + '.txt'
+                                                with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
+                                                    txt_file.write(text)
+                                                print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
+                                            except Exception as e:
+                                                # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
+                                                print(f"Chyba pri extrakcii textu z {downloaded_file}: {e}", file=sys.stderr)
                                         download_attempts += 1
                                     else:
                                         print(f"Upozornenie: Nepodarilo sa nájsť parameter 'subor' v URL: {doc_url}. Preskakujem.", file=sys.stderr)
