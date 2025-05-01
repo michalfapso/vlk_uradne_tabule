@@ -3,7 +3,9 @@ import requests
 import os
 import urllib.parse
 import sys
-import glob # Import modulu glob
+import glob
+import litellm
+import traceback
 
 # Import funkcie na extrakciu textu z PDF
 from pdf_to_txt import extract_text_from_pdf
@@ -78,6 +80,54 @@ def download_document(doc_url, output_dir, output_filename_nosuffix):
         print(f"Vyskytla sa neočakávaná chyba pre URL {doc_url}: {e}", file=sys.stderr)
 
 
+
+def analyze(text_content):
+    """
+    Analyzuje textový obsah pomocou LLM (cez litellm) a uloží výsledok ako JSON.
+    """
+
+    print(f"Spúšťam analýzu textu cez LLM")
+
+    prompt = f"""Analyzuj tento dokument z nástenky okresného úradu životného prostredia, ktorý bol skonvertovaný z PDF do textu. Vráť len JSON s nasledujúcou štruktúrou:
+```json
+{{
+  "typ_zasahu": [...],
+  "typ_uzemia": "..."
+  "zhrnutie": "..."
+}}
+```
+
+Zisti, či sa dokument týka nejakého zásahu ("výrub", "odstrel", "chémia", "stavba", "cesta", ...) a zdetekované typy zásahov zapíš do poľa "typ_zasahu". Ak si nie si istý, o aký typ zásahu ide, daj do toho poľa iba "neviem".
+
+Ak sa dokument týka nejakého chráneného územia, do "typ_uzemia" daj "chránené" alebo aj konkrétnejšie "národný park" alebo "prírodná rezervácia", prípadne číslo stupňa ochrany (napr. "5. stupeň"). Ak sa netýka chráneného územia, daj tam "nechránené". Ak si nie si istý, daj tam "neviem". Ak sa netýka žiadneho územia, nechaj tam prázdny reťazec.
+
+Do "zhrnutie" daj krátke zhrnutie dokumentu hlavne s dôrazom na typy zásahov a chránených území.
+
+Text dokumentu:
+---
+{text_content}
+---
+"""
+
+    try:
+        # Použi litellm na volanie LLM (napr. gpt-4o-mini alebo iný model)
+        # Uisti sa, že máš nastavené API kľúče ako environmentálne premenné
+        response = litellm.completion(
+            model="gemini/gemini-2.5-flash-preview-04-17", # Alebo iný model podľa tvojho výberu a dostupnosti
+            messages=[{"role": "user", "content": prompt}],
+            response_format={ "type": "json_object" }, # Požiadame o JSON výstup
+            # reasoning_effort="medium"
+        )
+
+        # Extrahuj obsah odpovede (mal by to byť JSON string)
+        analysis_result_str = response.choices[0].message.content
+        return analysis_result_str
+
+    except Exception as e:
+        print(f"Chyba počas LLM analýzy: {e}", file=sys.stderr)
+        print(traceback.format_exc(), file=sys.stderr) # Vypíš detail chyby
+
+
 def process_json_file(json_filepath):
     """
     Načíta JSON súbor, prejde jeho štruktúru a stiahne dokumenty.
@@ -122,8 +172,8 @@ def process_json_file(json_filepath):
                                     if doc_id:
                                         existing_filepath = None
 
-                                        # Skontroluj, či súbor s daným ID už existuje (s akoukoľvek príponou)
-                                        # Vytvoríme vzor pre glob, ktorý hľadá súbory začínajúce na doc_id a s ľubovoľnou príponou
+                                        #--------------------------------------------------
+                                        # Download
                                         output_dir = f"{docs_dir}/{kraj_data['kraj']}/{okres_data['nazov']}/{doc_id}"
                                         existing_files = glob.glob(f"{output_dir}/orig.*")
                                         changed = False
@@ -136,10 +186,10 @@ def process_json_file(json_filepath):
                                             orig_file = download_document(doc_url, output_dir, 'orig')
                                             changed = True
 
-                                        # Ak bol súbor úspešne stiahnutý a je to PDF, extrahuj text
-                                        # (aj keď .txt už existuje - podľa požiadavky)
-                                        if orig_file and orig_file.endswith('.pdf'):
-                                            txt_filepath = f"{output_dir}/text.txt"
+                                        #--------------------------------------------------
+                                        # Convert to text
+                                        txt_filepath = f"{output_dir}/text.txt"
+                                        if orig_file.endswith('.pdf'):
                                             # Skontroluj, či textový súbor už existuje
                                             if changed or not os.path.exists(txt_filepath):
                                                 print(f"Súbor {txt_filepath} neexistuje. Pokúšam sa extrahovať text z PDF: {orig_file}")
@@ -147,13 +197,57 @@ def process_json_file(json_filepath):
                                                     text = extract_text_from_pdf(orig_file)
                                                     with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
                                                         txt_file.write(text)
+                                                    changed = True
                                                     print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
                                                 except Exception as e:
                                                     # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
                                                     print(f"Chyba pri extrakcii textu z {orig_file}: {e}", file=sys.stderr)
                                             else:
                                                 print(f"Súbor {txt_filepath} už existuje. Preskakujem extrakciu textu.")
-                                                
+                                        else:
+                                            print(f"Chyba: Neočakávaná prípona dokumentu '{orig_file}'", file=sys.stderr)
+                                        
+                                        text = ''
+                                        with open(txt_filepath, 'r', encoding='utf-8') as txt_file:
+                                            text = txt_file.read()
+                                        #--------------------------------------------------
+                                        # Analyze with AI
+                                        analysis_filepath_txt = f"{output_dir}/analysis.txt"
+                                        if changed or not os.path.exists(analysis_filepath_txt) or os.path.getsize(analysis_filepath_txt) < 10:
+                                            try:
+                                                analysis_result_str = analyze(text)
+                                                changed = True
+                                            except Exception as e:
+                                                print(f"Chyba pri analýze: {e}", file=sys.stderr)
+
+                                            try:
+                                                with open(analysis_filepath_txt, 'w', encoding='utf-8') as f:
+                                                    f.write(analysis_result_str)
+                                                print(f"Analýza úspešne uložená do: {analysis_filepath_txt}")
+                                            except Exception as e:
+                                                print(f"Chyba pri ukladaní analýzy do súboru: {e}", file=sys.stderr)
+                                        else:
+                                            print(f"Súbor {analysis_filepath_txt} už existuje. Preskakujem analyzovanie.")
+                                            
+                                        analysis_result_str = ''
+                                        with open(analysis_filepath_txt, 'r', encoding='utf-8') as f:
+                                            analysis_result_str = f.read()
+
+                                        analysis_filepath_json = f"{output_dir}/analysis.json"
+                                        if changed or not os.path.exists(analysis_filepath_json):
+                                            try:
+                                                analysis_result_data = json.loads(analysis_result_str)
+                                                with open(analysis_filepath_json, 'w', encoding='utf-8') as f:
+                                                    json.dump(analysis_result_data, f, indent=2, ensure_ascii=False)
+                                                print(f"Analýza úspešne uložená do: {analysis_filepath_json}")
+                                            except json.JSONDecodeError as json_e:
+                                                print(f"Chyba: LLM nevrátil platný JSON pre {output_dir}. Odpoveď: {analysis_result_str}. Chyba: {json_e}", file=sys.stderr)
+                                                # Môžeš sem uložiť pôvodnú odpoveď LLM do error súboru, ak chceš
+                                                # with open(os.path.join(output_dir, "analyza_error.txt"), 'w', encoding='utf-8') as f_err:
+                                                #     f_err.write(analysis_result_str)
+                                        else:
+                                            print(f"Súbor {analysis_filepath_json} už existuje. Preskakujem konverziu do JSONu.")
+
                                         
                                     else:
                                         print(f"Upozornenie: Nepodarilo sa nájsť parameter 'subor' v URL: {doc_url}. Preskakujem.", file=sys.stderr)
