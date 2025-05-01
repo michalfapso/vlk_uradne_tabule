@@ -270,7 +270,7 @@ def scrape_district_environmental_board(district_url):
     result_list_of_categories = [{"kategoria": k, "dokumenty": v} for k, v in categories_data_dict.items() if v]
 
     # Optional: Sort categories by name for consistent output order
-    result_list_of_categories.sort(key=lambda x: x['kategoria'])
+    # result_list_of_categories.sort(key=lambda x: x['kategoria'])
 
     # *** ZMENA: Vrátiť aj request_url ***
     return result_list_of_categories, request_url
@@ -417,7 +417,7 @@ if __name__ == "__main__":
     input_file = '1_zoznam_okresov.json'
     # Use a different name to avoid overwriting the test file during development
     # output_file = '2_uradne_tabule_test.json' # Original test name
-    output_file = '2_uradne_tabule_vystup.json' # New output name
+    output_file = '2_uradne_tabule.json' # New output name
 
     main(input_file, output_file)
     # Example for testing a specific district (uncomment if needed)
