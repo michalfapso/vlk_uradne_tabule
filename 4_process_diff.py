@@ -129,18 +129,18 @@ Text dokumentu:
         print(traceback.format_exc(), file=sys.stderr) # Vypíš detail chyby
 
 
-def process_json_file(json_filepath):
+def process_json_file(json_filepath_in, json_filepath_out):
     """
     Načíta JSON súbor, prejde jeho štruktúru a stiahne dokumenty.
     """
     try:
-        with open(json_filepath, 'r', encoding='utf-8') as f:
+        with open(json_filepath_in, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
-        print(f"Chyba: JSON súbor nenájdený na ceste: {json_filepath}", file=sys.stderr)
+        print(f"Chyba: JSON súbor nenájdený na ceste: {json_filepath_in}", file=sys.stderr)
         return
     except json.JSONDecodeError:
-        print(f"Chyba: Nepodarilo sa dekódovať JSON zo súboru: {json_filepath}. Skontrolujte formát.", file=sys.stderr)
+        print(f"Chyba: Nepodarilo sa dekódovať JSON zo súboru: {json_filepath_in}. Skontrolujte formát.", file=sys.stderr)
         return
 
     if not isinstance(data, list):
@@ -173,6 +173,7 @@ def process_json_file(json_filepath):
                                     if doc_id:
                                         existing_filepath = None
 
+                                        dokument_data['analyza'] = None # Inicializácia kľúča pre analýzu
                                         #--------------------------------------------------
                                         # Download
                                         output_dir = f"{docs_dir}/{kraj_data['kraj']}/{okres_data['nazov']}/{doc_id}"
@@ -232,7 +233,7 @@ def process_json_file(json_filepath):
                                         # Analyze with AI
                                         analysis_filepath_txt = f"{output_dir}/analysis.txt"
                                         if changed or not os.path.exists(analysis_filepath_txt) or os.path.getsize(analysis_filepath_txt) < 10:
-                                            try:
+                                            try: # Try to analyze
                                                 analysis_result_str = analyze(text)
                                                 changed = True
                                             except Exception as e:
@@ -247,12 +248,13 @@ def process_json_file(json_filepath):
                                         else:
                                             print(f"Súbor {analysis_filepath_txt} už existuje. Preskakujem analyzovanie.")
                                             
-                                        analysis_result_str = ''
-                                        with open(analysis_filepath_txt, 'r', encoding='utf-8') as f:
-                                            analysis_result_str = f.read()
+                                        # Načítanie textovej analýzy (aj keď sme ju práve negenerovali)
+                                        if os.path.exists(analysis_filepath_txt):
+                                            with open(analysis_filepath_txt, 'r', encoding='utf-8') as f:
+                                                analysis_result_str = f.read()
 
                                         analysis_filepath_json = f"{output_dir}/analysis.json"
-                                        if changed or not os.path.exists(analysis_filepath_json):
+                                        if (changed or not os.path.exists(analysis_filepath_json)) and 'analysis_result_str' in locals() and analysis_result_str:
                                             try:
                                                 analysis_result_data = json.loads(analysis_result_str)
                                                 with open(analysis_filepath_json, 'w', encoding='utf-8') as f:
@@ -266,6 +268,15 @@ def process_json_file(json_filepath):
                                         else:
                                             print(f"Súbor {analysis_filepath_json} už existuje. Preskakujem konverziu do JSONu.")
 
+                                        # Načítanie JSON analýzy a pridanie do dokumentu
+                                        if os.path.exists(analysis_filepath_json):
+                                            try:
+                                                with open(analysis_filepath_json, 'r', encoding='utf-8') as f_analysis:
+                                                    analysis_data = json.load(f_analysis)
+                                                    dokument_data['analyza'] = analysis_data # Pridanie analýzy do dát dokumentu
+                                            except json.JSONDecodeError as e:
+                                                print(f"Chyba pri načítaní JSON analýzy zo súboru {analysis_filepath_json}: {e}", file=sys.stderr)
+                                                dokument_data['analyza'] = {"error": f"Failed to load analysis JSON: {e}"}
                                         
                                     else:
                                         print(f"Upozornenie: Nepodarilo sa nájsť parameter 'subor' v URL: {doc_url}. Preskakujem.", file=sys.stderr)
@@ -280,11 +291,20 @@ def process_json_file(json_filepath):
 
     print(f"\nSpracovanie dokončené. Pokúsil som sa stiahnuť {download_attempts} nových dokumentov (pre ktoré bolo nájdené ID 'subor' a ešte neexistovali lokálne).")
 
+    # Výpis výsledného JSON na štandardný výstup
+    try:
+        print("Ukladám výstupný JSON s analýzami")
+        # print(json.dumps(data, indent=2, ensure_ascii=False))
+        json.dump(data, open(json_filepath_out, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Nastala chyba pri generovaní výstupného JSON: {e}", file=sys.stderr)
+
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Použitie: python vas_skript.py <cesta_k_json_suboru>")
+    if len(sys.argv) < 3:
+        print("Použitie: python skript.py cesta_k_vstupnemu_json_suboru cesta_k_vystupnemu_json_suboru")
         sys.exit(1)
 
-    json_file_path = sys.argv[1]
-    process_json_file(json_file_path)
+    json_in = sys.argv[1]
+    json_out = sys.argv[2]
+    process_json_file(json_in, json_out)
