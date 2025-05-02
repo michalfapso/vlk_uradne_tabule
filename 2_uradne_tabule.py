@@ -7,6 +7,8 @@ import sys
 import re # Import regex module for more robust date parsing
 from requests.compat import urljoin
 import copy
+from datetime import datetime
+from convert_date_to_iso import date_str_to_iso
 
 # Base URL of the website
 BASE_URL = "https://www.minv.sk"
@@ -18,6 +20,9 @@ GENERAL_BOARD_SUFFIX = "&sekcia=uradna-tabula"
 # Regex to match a date string like "DD.MM.YYYY" or "D.M.YYYY" etc.
 # Flexible for leading zeros and space after dot
 DATE_REGEX = re.compile(r'\d{1,2}\.\s*\d{1,2}\.\s*\d{2,4}')
+
+def is_potential_date_str(s):
+    return DATE_REGEX.fullmatch(s) and len(s) < 15 # fullmatch ensures only the pattern is present
 
 def is_potential_date_paragraph(p_tag):
     """
@@ -31,7 +36,7 @@ def is_potential_date_paragraph(p_tag):
         return False
     # Check if the text matches the date pattern and is not excessively long
     # Adding a length check helps avoid matching dates buried in other text
-    if DATE_REGEX.fullmatch(text) and len(text) < 15: # fullmatch ensures only the pattern is present
+    if is_potential_date_str(text): # fullmatch ensures only the pattern is present
         return True
     return False
 
@@ -178,8 +183,8 @@ def scrape_district_environmental_board(district_url):
                         if potential_date_part.endswith('|'):
                             potential_date_part = potential_date_part[:-1].strip()
                         # Basic check if it looks like a date (can be improved with regex if needed)
-                        if '.' in potential_date_part and len(potential_date_part) <= 12: # Simple heuristic
-                             date_str = potential_date_part
+                        if is_potential_date_str(potential_date_part): # Simple heuristic
+                            date_str = potential_date_part
                         # Alternative simpler split if structure is consistent:
                         # parts = full_cell_text.split('|', 1)
                         # if len(parts) > 1: date_str = parts[0].strip()
@@ -190,7 +195,7 @@ def scrape_district_environmental_board(district_url):
 
                     if full_document_url:
                         categories_data_dict[current_category].append({
-                            "datum": date_str,
+                            "datum": date_str_to_iso(date_str),
                             "nazov": document_name,
                             "url": full_document_url
                         })
@@ -236,7 +241,7 @@ def scrape_district_environmental_board(district_url):
                     if full_document_url:
                         # Append document with the last seen date and the default category
                         paragraph_documents.append({
-                            "datum": current_date, # Use the last detected date
+                            "datum": date_str_to_iso(current_date), # Use the last detected date
                             "nazov": document_name,
                             "url": full_document_url
                         })
@@ -433,4 +438,3 @@ if __name__ == "__main__":
     #     print(f'Test scrape source URL: {source}') # *** ZMENA: Vypísať URL ***
     # except Exception as e:
     #     print(f"Test scrape failed for {test_district_url}: {e}", file=sys.stderr)
-
