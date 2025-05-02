@@ -6,6 +6,7 @@ import sys
 import glob
 import litellm
 import traceback
+import subprocess # Pridaný import pre volanie externých príkazov
 
 # Import funkcie na extrakciu textu z PDF
 from pdf_to_txt import extract_text_from_pdf
@@ -178,35 +179,52 @@ def process_json_file(json_filepath):
                                         existing_files = glob.glob(f"{output_dir}/orig.*")
                                         changed = False
                                         orig_file = None
-                                        if bool(existing_files): # Stiahnuť, ak zoznam existujúcich súborov je prázdny
-                                            print(f"Súbor pre ID {doc_id} už existuje: {existing_files[0]}. Preskakujem sťahovanie.")
-                                            orig_file = existing_files[0]
-                                        else:
+                                        if not bool(existing_files) or os.path.getsize(existing_files[0]) < 10: # Stiahnuť, ak zoznam existujúcich súborov je prázdny
                                             download_attempts += 1 # Počítame pokus o stiahnutie
                                             orig_file = download_document(doc_url, output_dir, 'orig')
                                             changed = True
+                                        else:
+                                            print(f"Súbor pre ID {doc_id} už existuje: {existing_files[0]}. Preskakujem sťahovanie.")
+                                            orig_file = existing_files[0]
 
                                         #--------------------------------------------------
                                         # Convert to text
                                         txt_filepath = f"{output_dir}/text.txt"
-                                        if orig_file.endswith('.pdf'):
-                                            # Skontroluj, či textový súbor už existuje
-                                            if changed or not os.path.exists(txt_filepath):
-                                                print(f"Súbor {txt_filepath} neexistuje. Pokúšam sa extrahovať text z PDF: {orig_file}")
-                                                try:
+                                        # Skontroluj, či textový súbor už existuje
+                                        if changed or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
+                                            print(f"Súbor {txt_filepath} neexistuje. Pokúšam sa extrahovať text z {orig_file}")
+                                            try:
+                                                if orig_file.endswith('.pdf'):
                                                     text = extract_text_from_pdf(orig_file)
                                                     with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
                                                         txt_file.write(text)
-                                                    changed = True
-                                                    print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
-                                                except Exception as e:
-                                                    # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
-                                                    print(f"Chyba pri extrakcii textu z {orig_file}: {e}", file=sys.stderr)
-                                            else:
-                                                print(f"Súbor {txt_filepath} už existuje. Preskakujem extrakciu textu.")
+                                                elif orig_file.endswith(('.doc', '.docx')):
+                                                    try:
+                                                        # Použi pandoc na konverziu do markdown a uloženie do txt_filepath
+                                                        # '-f docx' by mal fungovať aj pre .doc, ale môžeme byť explicitnejší ak treba
+                                                        pandoc_format = 'docx' if orig_file.endswith('.docx') else 'doc'
+                                                        cmd = ['pandoc', '-f', pandoc_format, '-t', 'markdown', '-o', txt_filepath, orig_file]
+                                                        print(f"Spúšťam konverziu word dokumentu: {cmd}")
+                                                        result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace') # Added errors='replace' for robustness
+                                                        print(f"Pandoc stdout:\n{result.stdout}") # Print stdout
+                                                        print(f"Pandoc stderr:\n{result.stderr}") # Print stderr
+                                                        print(f'result:{result}')
+                                                        print(f"Word dokument úspešne konvertovaný a uložený do: {txt_filepath}")
+                                                    except FileNotFoundError:
+                                                        print(f"Chyba: Príkaz 'pandoc' nebol nájdený. Uistite sa, že je pandoc nainštalovaný a v systémovej PATH.", file=sys.stderr)
+                                                    except subprocess.CalledProcessError as e:
+                                                        print(f"Chyba pri konverzii Word dokumentu {orig_file} pomocou pandoc: {e}\nStderr: {e.stderr}", file=sys.stderr)
+                                                    except Exception as e:
+                                                        print(f"Neočakávaná chyba pri konverzii Word dokumentu {orig_file}: {e}", file=sys.stderr)
+
+                                                changed = True
+                                                print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
+                                            except Exception as e:
+                                                # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
+                                                print(f"Chyba pri extrakcii textu z {orig_file}: {e}", file=sys.stderr)
                                         else:
-                                            print(f"Chyba: Neočakávaná prípona dokumentu '{orig_file}'", file=sys.stderr)
-                                        
+                                            print(f"Súbor {txt_filepath} už existuje. Preskakujem extrakciu textu.")
+
                                         text = ''
                                         with open(txt_filepath, 'r', encoding='utf-8') as txt_file:
                                             text = txt_file.read()
