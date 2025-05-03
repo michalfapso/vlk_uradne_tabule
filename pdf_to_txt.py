@@ -1,3 +1,6 @@
+# Uses fits (PyMuPDF) for extracting text directly from pdf when possible
+# and fallbacks to Gemini OCR for scanned documents
+
 import argparse
 import os
 import sys

@@ -1,0 +1,12 @@
+python3 4_process_diff.py 3_diff.json 4_diff_analysis.json
+
+#--------------------------------------------------
+# Meta analysis
+# 1. Get random N documents
+python3 get_random_documents.py -i 2_uradne_tabule.json -o get_random_documents_100.json -n 100
+# 2. Download and convert them to .txt
+python3 4_process_diff.py get_random_documents_100.json get_random_documents_100_out.json --skip-analysis
+# 3. Concatenate .txt docs and create a prompt asking to create a prompt
+python3 meta_analysis.py get_random_documents_100.json
+# 4. Prompt was written to meta_analysis_prompt.md, so just paste it to any LLM
+#--------------------------------------------------
