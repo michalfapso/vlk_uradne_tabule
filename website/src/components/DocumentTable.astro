@@ -1,0 +1,248 @@
+---
+// src/components/DocumentTable.astro
+import { TabulatorFull as Tabulator } from 'tabulator-tables'; // Import here for type safety if needed, but primarily loaded client-side
+
+const {
+  id = 'document-table', // Default ID
+  data = [],             // Default to empty array
+  title = 'Dokumenty',   // Default title
+  description = 'Zoznam dokumentov.', // Default description
+} = Astro.props;
+
+// --- Príprava dát (moved inside component) ---
+// Sploštenie vnorenej štruktúry dát do jedného poľa dokumentov
+// This assumes the input 'data' prop has the same structure as the original JSON import
+const allDocuments = data.flatMap(krajData =>
+  krajData.okresy?.flatMap(okresData => // Add optional chaining for safety
+    okresData.dokumenty_zivotne_prostredie?.flatMap(kategoriaData => // Add optional chaining
+      kategoriaData.dokumenty?.map(doc => ({ // Add optional chaining
+        ...doc, // Pôvodné vlastnosti dokumentu (datum, nazov, url, analyza)
+        kraj: krajData.kraj, // Pridanie názvu kraja
+        kraj_url: krajData.url,
+        okres: okresData.nazov, // Pridanie názvu okresu
+        okres_url: okresData.url,
+        has_analysis: !!doc.analyza // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
+      })) || [] // Default to empty array if documents are missing
+    ) || [] // Default to empty array if kategoriaData is missing
+  ) || [] // Default to empty array if okresy are missing
+);
+
+// Generate unique ID for the toggle button to avoid conflicts if multiple tables are on the page
+const toggleButtonId = `${id}-toggle-summaries-btn`;
+---
+
+{/* Component's HTML Structure */}
+<div class="document-table-container">
+    <h1>{title}</h1>
+    <button id={toggleButtonId} style="width:14rem; margin-bottom: 15px; padding: 8px 12px; cursor: pointer;">Rozbaliť všetky</button>
+    <p>{description}</p>
+    {allDocuments.length === 0 ? (
+        <p>Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.</p>
+    ) : (
+        <div id={id}></div>
+    )}
+</div>
+
+{/* Global Tabulator CSS */}
+<style is:global>
+  @import 'tabulator-tables/dist/css/tabulator.min.css';
+</style>
+
+{/* Script to load Tabulator onto the window object */}
+<script>
+  // Import Tabulator from the installed package
+  import { TabulatorFull as Tabulator } from 'tabulator-tables';
+  // Make Tabulator available globally ONLY IF IT ISN'T ALREADY
+  // This prevents errors if multiple components try to load it,
+  // though ideally this is handled at a higher level (e.g., layout)
+  if (!window.Tabulator) {
+      window.Tabulator = Tabulator;
+      console.log('[DocumentTable] Tabulator loaded onto window.');
+  } else {
+      console.log('[DocumentTable] Tabulator already exists on window.');
+  }
+</script>
+
+{/* Inline script for Tabulator initialization */}
+<script define:vars={{ tableId: id, tableData: allDocuments, btnId: toggleButtonId }} is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Ensure Tabulator is available
+        if (!window.Tabulator) {
+            console.error(`[DocumentTable ${tableId}] Tabulator class not found on window object.`);
+            // Optionally wait a bit more or listen for a custom event if loading is complex
+            return;
+        }
+
+        const documents = tableData;
+        const container = document.getElementById(tableId);
+        const toggleBtn = document.getElementById(btnId);
+
+        if (!container) {
+            console.error(`[DocumentTable ${tableId}] Container element #${tableId} not found.`);
+            return;
+        }
+
+        // Funkcia na formátovanie dátumu (musíme ju definovať aj na klientovi)
+        const formatClientDate = (dateString) => {
+          if (!dateString) return 'N/A';
+          try {
+              const date = new Date(dateString);
+              return date.toLocaleDateString('sk-SK');
+          } catch (e) {
+              console.error("Chyba pri formátovaní dátumu:", dateString, e);
+              return 'Neplatný dátum';
+          }
+        };
+
+        // Inicializácia Tabulatora
+        if (documents.length > 0) {
+            let allSummariesVisible = false; // Stav pre hromadné zobrazenie/skrytie
+            const table = new window.Tabulator(`#${tableId}`, { // Use the dynamic ID
+                data: documents,
+                height: "100%",
+                maxHeight:"100%",
+                layout: "fitDataStretch",
+                responsiveLayout: "collapse",
+                pagination: "local",
+                paginationSize: 20,
+                paginationSizeSelector: [10, 20, 50, 100],
+                rowFormatter: function(row) {
+                    var element = row.getElement();
+                    var data = row.getData();
+
+                    var summaryContainer = document.createElement("div");
+                    summaryContainer.className = "row-summary";
+                    summaryContainer.style.display = "none";
+                    summaryContainer.style.padding = "10px 15px";
+                    summaryContainer.style.borderTop = "1px solid #eee";
+                    summaryContainer.style.backgroundColor = "#f9f9f9";
+                    summaryContainer.style.whiteSpace = "pre-wrap"; // Remove this if using <pre> for JSON
+
+                    let summaryHtml = '';
+                    if (data.has_analysis) {
+                        summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || 'Bez zhrnutia textu.'}<br><br>`; // Add line breaks for spacing
+
+                        if (data.analyza) {
+                            const detailsElement = document.createElement('details');
+                            const summaryElement = document.createElement('summary');
+                            summaryElement.style.cursor = 'pointer';
+                            summaryElement.style.fontWeight = 'bold';
+                            summaryElement.textContent = 'Kompletná analýza (JSON)';
+                            detailsElement.appendChild(summaryElement);
+
+                            const preElement = document.createElement('pre');
+                            preElement.style.whiteSpace = 'pre-wrap'; // Ensure JSON wraps
+                            preElement.style.wordBreak = 'break-all'; // Ensure long strings break
+                            preElement.style.marginTop = '5px'; // Add some space above JSON
+                            try {
+                                preElement.textContent = JSON.stringify(data.analyza, null, 2); // Use 2 spaces for indentation
+                            } catch (e) {
+                                console.error("Chyba pri stringify data.analyza:", data.analyza, e);
+                                preElement.textContent = 'Chyba pri generovaní JSON analýzy.';
+                            }
+                            detailsElement.appendChild(preElement);
+                            summaryContainer.appendChild(detailsElement); // Append details element directly
+                        } else {
+                            summaryHtml += '<strong>Objekt analýzy nie je dostupný.</strong>';
+                        }
+                    } else {
+                         summaryHtml = 'Bez analýzy.';
+                    }
+
+                    // Add the summary text (if any) before the details element
+                    const summaryTextNode = document.createElement('div');
+                    summaryTextNode.innerHTML = summaryHtml;
+                    summaryContainer.insertBefore(summaryTextNode, summaryContainer.firstChild);
+
+                    element.appendChild(summaryContainer);
+                },
+                columns: [
+                    { title: "Dátum", field: "datum", hozAlign: "left", sorter: "date", sorterParams:{ format:"YYYY-MM-DD" }, formatter: (cell) => formatClientDate(cell.getValue()), width: 90 },
+                    { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                        const value = cell.getValue();
+                        const data = cell.getData();
+                        const url = `https://www.minv.sk${data.kraj_url}`;
+                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
+                    }},
+                    { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                        const value = cell.getValue();
+                        const data = cell.getData();
+                        const url = `https://www.minv.sk${data.okres_url}`;
+                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
+                    }},
+                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                        if (!cell.getData().has_analysis) return 'Bez analýzy';
+                        const value = cell.getValue();
+                        return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
+                    }},
+                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                        if (!cell.getData().has_analysis) return '-';
+                        const value = cell.getValue();
+                        return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
+                    }},
+                    { title: "Názov dokumentu", field: "nazov", hozAlign: "left", headerFilter: "input", minWidth: 300, formatter: (cell) => {
+                        const url = cell.getData().url;
+                        const nazov = cell.getValue();
+                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
+                    }},
+                ],
+            });
+            table.on("rowClick", function(e, row){
+                // Check if the click originated from within the summary container or its children
+                const targetElement = e.target;
+                if (targetElement.closest('.row-summary')) {
+                    return; // Do nothing if the click was inside the summary area
+                }
+
+                const summaryContainer = row.getElement().querySelector(".row-summary");
+                if (summaryContainer) {
+                    summaryContainer.style.display = summaryContainer.style.display === "none" ? "block" : "none";
+                }
+            });
+
+            // Funkcionalita pre tlačidlo na hromadné zobrazenie/skrytie
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', () => {
+                    allSummariesVisible = !allSummariesVisible;
+                    table.getRows().forEach(row => { // getRows() gets all rows, visible or not
+                        const summaryContainer = row.getElement().querySelector(".row-summary");
+                        if (summaryContainer) {
+                            summaryContainer.style.display = allSummariesVisible ? "block" : "none";
+                        }
+                    });
+                    toggleBtn.textContent = allSummariesVisible ? 'Zabaliť všetky' : 'Rozbaliť všetky';
+                });
+            } else {
+                 console.warn(`[DocumentTable ${tableId}] Toggle button #${btnId} not found.`);
+            }
+        } else {
+            // Optional: Handle case where container exists but no documents to show
+            // container.innerHTML = '<p>Žiadne dokumenty na zobrazenie.</p>';
+            if (toggleBtn) toggleBtn.style.display = 'none'; // Hide button if no data
+        }
+    });
+</script>
+
+{/* Scoped component styles */}
+<style>
+    .document-table-container {
+      /* Add any container-specific styles if needed */
+      margin-bottom: 2rem; /* Example: Add space below the component */
+    }
+
+    /* Styles previously in index.astro */
+    .tabulator .tabulator-cell a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    .tabulator .tabulator-cell a:hover {
+        color: blue;
+    }
+    .tabulator-cell {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    .row-summary {
+        font-size: 0.9em;
+    }
+</style>

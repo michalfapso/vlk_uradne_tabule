@@ -1,0 +1,54 @@
+---
+// Minimal props, just the ID is needed for this test
+const {
+  id = 'tabulator-minimal-test' // Default ID if none is passed
+} = Astro.props;
+---
+
+{/* The div element where Tabulator will render. Use the passed ID. */}
+<div id={id}>
+  <!-- Placeholder content -->
+</div>
+
+<style>
+  /* Import Tabulator CSS - Use is:global if you want it applied globally,
+     or remove it if you want to try containing the styles (though Tabulator
+     styles are often global).
+     NOTE: Keep this import global if Tabulator needs it globally. */
+  @import 'tabulator-tables/dist/css/tabulator.min.css';
+
+  /* Basic styling for the container */
+  div {
+    min-height: 100px; /* Give it some size */
+    border: 1px dashed lightgray; /* Make it visible */
+  }
+</style>
+
+{/* Script 1: Handle the module import. This runs first. */}
+<script>
+  // Import Tabulator from the installed package
+  // If this line runs in the browser unprocessed, you get the "bare specifier" error.
+  import { TabulatorFull as Tabulator } from 'tabulator-tables';
+  // Make Tabulator available globally or within scope for the next script
+  window.Tabulator = Tabulator;
+</script>
+
+{/* Script 2: Use the imported module and the injected variables */}
+<script define:vars={{ tableId: id }}>
+  // Wait for the DOM to be fully loaded AND the Tabulator class to be available
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log(`[TabulatorPureJS] DOMContentLoaded. Attempting to initialize on #${tableId}`);
+    const container = document.getElementById(tableId);
+
+    // Check if both the container exists and Tabulator is on the window object
+    if (container && window.Tabulator) {
+      // Initialize with minimal config, using window.Tabulator explicitly
+      new window.Tabulator(container, { placeholder: "Minimal Tabulator Initialized" });
+      console.log(`[TabulatorPureJS] Initialized successfully on #${tableId}`);
+    } else if (!container) {
+      console.error(`[TabulatorPureJS] Container element #${tableId} not found after DOMContentLoaded.`);
+    } else if (!window.Tabulator) {
+      console.error(`[TabulatorPureJS] Tabulator class not found on window object after DOMContentLoaded.`);
+    }
+  });
+</script>

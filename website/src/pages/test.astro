@@ -1,0 +1,50 @@
+---
+// src/pages/index.astro
+import Layout from '../layouts/Layout.astro';
+import TabulatorPureJS from '../components/TabulatorPureJS.astro';
+
+// Define your data and columns in the page's frontmatter
+const pageTableData = [
+  {id:1, name:"Alice", age:"25", city:"New York"},
+  {id:2, name:"Bob", age:"30", city:"London"},
+  {id:3, name:"Charlie", age:"22", city:"Paris"},
+];
+
+const pageTableColumns = [
+  {title:"ID", field:"id"},
+  {title:"Name", field:"name"},
+  {title:"Age", field:"age", hozAlign:"center"},
+  {title:"City", field:"city"},
+];
+
+// Optional: Tabulator options
+const pageTableOptions = {
+  height:"200px", // Example option
+  layout:"fitDataFill",
+  pagination: "local",
+  paginationSize: 3,
+};
+---
+
+<Layout title="Pure JS Tabulator Example">
+  <main>
+    <h1>Tabulator with Pure JS in Astro</h1>
+
+    <p>This table is rendered using Tabulator within a pure Astro component using a client-side script.</p>
+
+    {/* Use the component, passing data and columns */}
+    <TabulatorPureJS id="table1"/>
+
+    <p>and another one:</p>
+    <TabulatorPureJS id="table2"/>
+  </main>
+</Layout>
+
+<style>
+  main {
+    padding: 1rem;
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+  }
+</style>
