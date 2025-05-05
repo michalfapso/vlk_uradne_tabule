@@ -25,3 +25,11 @@ python3 4_process_documents.py --input ../data/get_random_documents_100.json --o
 python3 meta_analysis.py ../data/get_random_documents_100.json
 # 4. Prompt was written to meta_analysis_prompt.md, so just paste it to any LLM
 #--------------------------------------------------
+
+#--------------------------------------------------
+# Certificate authority - SSL Bundle
+# Download "CA Disig R2I2 Certification Service" PEM file from https://eidas.disig.sk/sk/certifikaty/ca/ into "disig_subcar2i2.pem"
+cd analyzer
+cat ~/.local/lib/python3.10/site-packages/certifi/cacert.pem \
+    disig_subcar2i2.pem \
+    > custom_ca_bundle.pem
