@@ -27,7 +27,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }} # Get the deployment URL from the deploy step
 
     env:
-      REQUESTS_CA_BUNDLE: ${{ github.workspace }}/custom_ca_bundle.pem # Set custom CA bundle for requests
+      REQUESTS_CA_BUNDLE: ${{ github.workspace }}/analyzer/custom_ca_bundle.pem # Set custom CA bundle for requests
 
     steps:
       - name: Checkout code
