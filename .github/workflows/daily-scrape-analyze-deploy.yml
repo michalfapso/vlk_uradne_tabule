@@ -89,6 +89,9 @@ jobs:
       - name: 4. Process new documents (convert, analyze)
         run: python 4_process_documents.py --input ../data/3_diff.json --output ../data/4_diff_analysis.json --docs-dir ../data/docs
         working-directory: ./analyzer # Run this command in the analyzer directory
+        env:
+          # Pass the Gemini API key secret to the script's environment
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Upload Diff Analysis Artifact
         # Upload even if the processing step had issues
