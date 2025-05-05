@@ -208,7 +208,7 @@ Text dokumentu:
         print(traceback.format_exc(), file=sys.stderr) # Vypíš detail chyby
 
 
-def process_json_file(json_filepath_in, json_filepath_out, skip_analysis=False):
+def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analysis=False):
     """
     Načíta JSON súbor, prejde jeho štruktúru a stiahne dokumenty.
     """
@@ -226,7 +226,6 @@ def process_json_file(json_filepath_in, json_filepath_out, skip_analysis=False):
         print(f"Chyba: Neočakávaná štruktúra JSON. Očakáva sa zoznam na najvyššej úrovni.", file=sys.stderr)
         return
 
-    docs_dir = 'docs' # Definujeme výstupný adresár
     download_attempts = 0
 
     # Prejdite štruktúru JSON podľa poskytnutého vzoru
@@ -388,8 +387,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Spracuje JSON súbor s dokumentmi, stiahne ich, extrahuje text a voliteľne analyzuje.")
     parser.add_argument('--input', required=True, help='Cesta k vstupnému JSON súboru.')
     parser.add_argument('--output', required=True, help='Cesta k výstupnému JSON súboru.')
+    parser.add_argument('--docs-dir', required=True, help='Adresár pre ukladanie stiahnutých dokumentov a ich textových verzií.')
     parser.add_argument("--skip-analysis", action="store_true", help="Preskočí krok analýzy dokumentov pomocou LLM.")
 
     args = parser.parse_args()
 
-    process_json_file(args.input, args.output, args.skip_analysis)
+    process_json_file(args.input, args.output, args.docs_dir, args.skip_analysis)
