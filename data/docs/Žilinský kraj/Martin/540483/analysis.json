@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": "25/045067",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-04-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Sklabinský Podzámok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sklabinský Podzámok",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "133"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kantorský potok"
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "Národný park Veľká Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Žiadosť Slovenského vodohospodárskeho podniku o súhlas alebo výnimku na odstránenie nežiadúcich drevín (výrub) na vodnom toku Kantorský potok v katastrálnom území Sklabinský Podzámok (Okres Martin). Činnosť súvisí s plánom obnovy a odolnosti a je zrejme v blízkosti alebo na území Národného parku Veľká Fatra."
+}

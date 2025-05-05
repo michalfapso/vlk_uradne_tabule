@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-SB-OSZP-2025/000084-023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "v lehote do 10 dní odo dňa doručenia tohto listu",
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s., Komenského 50, 042 48 Košice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Sabinov",
+    "obec": "Lipany, Ďačov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lipany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1374/12"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1569/1",
+              "1569/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ďačov",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1576"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Krivany – preložka zhýbky pri SVP"
+  },
+  "typ_dokumentu": "Oboznámenie s podkladmi rozhodnutia - Verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "úprava vodného toku",
+    "demontáž potrubia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument informuje o oboznámení sa s podkladmi konania o vydanie stavebného povolenia pre Východoslovenskú vodárenskú spoločnosť na preložku vodovodného potrubia pod riekou Torysa v katastrálnych územiach Lipany a Ďačov. Stavba je nevyhnutná z dôvodu havarijného stavu existujúceho potrubia. Verejnosť a účastníci konania sa môžu vyjadriť k podkladom do 10 dní od doručenia."
+}

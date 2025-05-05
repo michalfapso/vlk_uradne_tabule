@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-05-06",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Predajná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Predajná",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1966",
+              "3212",
+              "2895",
+              "2894",
+              "2634",
+              "2661",
+              "4494",
+              "4496",
+              "4492",
+              "4449",
+              "4469",
+              "4471"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o začatí konania o vydanie súhlasu na výrub drevín v katastrálnom území Predajná, okres Brezno. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia."
+}

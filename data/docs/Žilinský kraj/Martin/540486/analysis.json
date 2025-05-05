@@ -1,0 +1,40 @@
+{
+  "cislo_konania_spisu": "26384/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Trnovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnovo",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "238"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Trnovský potok"
+  },
+  "typ_dokumentu": "Žiadosť o súhlas/výnimku",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "Národný park Veľká Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je žiadosťou SVP, š.p. pre Okresný úrad Martin o vydanie súhlasu alebo výnimky na výrub drevín a krov v k.ú. Trnovo na vodnom toku Trnovský potok z dôvodu ochrany pred povodňami. Správa Národného parku Veľká Fatra je informovaná."
+}

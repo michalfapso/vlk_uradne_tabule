@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "9650/2024/OŽP/1273",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Martin",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2068/200"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2-1333/101"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Záturčie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1333/1",
+              "1333/"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Turiec (rkm 5,400 - 6,100)"
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "Národný park Veľká Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Žiadosť od SVP pre Okresný úrad Martin o súhlas na výrub drevín a krovia na vodnom toku Turiec v k.ú. Martin a Záturčie (Martin), z dôvodu protipovodňovej ochrany. Správa NP Veľká Fatra je informovaná."
+}

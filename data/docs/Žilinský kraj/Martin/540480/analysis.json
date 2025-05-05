@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "00890/2025 -2-",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záturčie",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1332/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Priekopa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3391/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Turiec, rkm 3,200-4,100"
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Národný park Veľká Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Žiadosť SVP na Okresný úrad Martin o súhlas/výnimku na výrub nežiadúcich drevín na vodnom toku Turiec v katastrálnych územiach Záturčie a Priekopa (mesto Martin) pre účely revitalizácie z plánu obnovy. Požaduje sa povolenie výrubu aj vo vegetačnom období. Správa Národného parku Veľká Fatra je informovaná."
+}
