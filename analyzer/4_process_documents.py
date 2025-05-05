@@ -386,10 +386,10 @@ def process_json_file(json_filepath_in, json_filepath_out, skip_analysis=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Spracuje JSON súbor s dokumentmi, stiahne ich, extrahuje text a voliteľne analyzuje.")
-    parser.add_argument("json_in", help="Cesta k vstupnému JSON súboru.")
-    parser.add_argument("json_out", help="Cesta k výstupnému JSON súboru.")
+    parser.add_argument('--input', required=True, help='Cesta k vstupnému JSON súboru.')
+    parser.add_argument('--output', required=True, help='Cesta k výstupnému JSON súboru.')
     parser.add_argument("--skip-analysis", action="store_true", help="Preskočí krok analýzy dokumentov pomocou LLM.")
 
     args = parser.parse_args()
 
-    process_json_file(args.json_in, args.json_out, args.skip_analysis)
+    process_json_file(args.input, args.output, args.skip_analysis)

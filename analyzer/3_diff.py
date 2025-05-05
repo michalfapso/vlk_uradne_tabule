@@ -77,42 +77,32 @@ def find_new_documents(old_urls_set, new_data):
 
     return new_data_structure
 
+def load_json_file(filepath):
+    """Loads a JSON file, handles errors, and exits on failure."""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data
+    except FileNotFoundError:
+        print(f"Chyba: JSON súbor nebol nájdený na '{filepath}'", file=sys.stderr)
+        sys.exit(1)
+    except json.JSONDecodeError:
+        print(f"Chyba: Nepodarilo sa dekódovať JSON zo súboru '{filepath}'", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"Nastala neočakávaná chyba pri čítaní JSON súboru '{filepath}': {e}", file=sys.stderr)
+        sys.exit(1)
+
 def main():
     parser = argparse.ArgumentParser(description="Nájde nové dokumenty v novšom JSON súbore oproti staršiemu JSON súboru.")
-    parser.add_argument("stary_json", help="Cesta ku staršiemu JSON súboru.")
-    parser.add_argument("novy_json", help="Cesta k novšiemu JSON súboru.")
-    # Voliteľný argument pre výstupný súbor, ak by ste nechceli vypisovať na stdout
-    # parser.add_argument("-o", "--vystup", help="Cesta na uloženie výstupného JSON súboru (predvolené je stdout).")
+    parser.add_argument('--old', required=True, help='Cesta k staršiemu JSON súboru.')
+    parser.add_argument('--new', required=True, help='Cesta k novšiemu JSON súboru.')
 
     args = parser.parse_args()
 
-    # Načítanie starého JSON súboru
-    try:
-        with open(args.stary_json, 'r', encoding='utf-8') as f_old:
-            old_data = json.load(f_old)
-    except FileNotFoundError:
-        print(f"Chyba: Starý JSON súbor nebol nájdený na '{args.stary_json}'", file=sys.stderr)
-        sys.exit(1)
-    except json.JSONDecodeError:
-        print(f"Chyba: Nepodarilo sa dekódovať JSON zo súboru '{args.stary_json}'", file=sys.stderr)
-        sys.exit(1)
-    except Exception as e:
-        print(f"Nastala neočakávaná chyba pri čítaní starého JSON súboru: {e}", file=sys.stderr)
-        sys.exit(1)
-
-    # Načítanie nového JSON súboru
-    try:
-        with open(args.novy_json, 'r', encoding='utf-8') as f_new:
-            new_data = json.load(f_new)
-    except FileNotFoundError:
-        print(f"Chyba: Nový JSON súbor nebol nájdený na '{args.novy_json}'", file=sys.stderr)
-        sys.exit(1)
-    except json.JSONDecodeError:
-        print(f"Chyba: Nepodarilo sa dekódovať JSON zo súboru '{args.novy_json}'", file=sys.stderr)
-        sys.exit(1)
-    except Exception as e:
-        print(f"Nastala neočakávaná chyba pri čítaní nového JSON súboru: {e}", file=sys.stderr)
-        sys.exit(1)
+    # Načítanie starého a nového JSON súboru pomocou pomocnej funkcie
+    old_data = load_json_file(args.old)
+    new_data = load_json_file(args.new)
 
     # Vytvorenie množiny URL zo starých dát pre rýchle vyhľadávanie
     old_urls_set = build_document_url_set(old_data)
@@ -122,11 +112,7 @@ def main():
 
     # Výpis výsledku do JSON formátu na štandardný výstup (stdout)
     try:
-        # if args.vystup:
-        #     with open(args.vystup, 'w', encoding='utf-8') as f_out:
-        #         json.dump(new_documents, f_out, indent=2, ensure_ascii=False)
-        # else:
-        print(json.dumps(new_documents, indent=2, ensure_ascii=False)) # ensure_ascii=False pre správne zobrazenie slovenských znakov
+        print(json.dumps(new_documents, indent=2, ensure_ascii=False))
     except Exception as e:
         print(f"Nastala chyba pri zápise výstupného JSON súboru: {e}", file=sys.stderr)
         sys.exit(1)

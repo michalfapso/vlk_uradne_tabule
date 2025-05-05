@@ -1,7 +1,20 @@
-python3 4_process_diff.py 3_diff.json 4_diff_analysis.json
+# Get the list of districts (kraje a ich okresy) from the official website.
+python3 1_zoznam_okresov.py > 1_zoznam_okresov.json
+
+# Get the official board contents (documents list) from each district's enviromental office.
+python3 2_uradne_tabule.py --input 1_zoznam_okresov.json --output 2_uradne_tabule.json
+
+# Diff previous json with the current one to see which documents were added.
+python3 3_diff.py --old 2_uradne_tabule_old.json --new 2_uradne_tabule.json
+
+# For each new document, convert it to text, analyze via LLM and generate a json.
+python3 4_process_documents.py --input 3_diff.json --output 4_diff_analysis.json
+
+mv 2_uradne_tabule.json 2_uradne_tabule_old.json
 
 #--------------------------------------------------
-# Meta analysis
+# Meta analysis - The idea is to provide examples of multiple documents to LLM and ask it to create a prompt for itself.
+# 
 # 1. Get random N documents
 python3 get_random_documents.py -i 2_uradne_tabule.json -o get_random_documents_100.json -n 100
 # 2. Download and convert them to .txt

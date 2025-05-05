@@ -9,6 +9,7 @@ from requests.compat import urljoin
 import copy
 from datetime import datetime
 from convert_date_to_iso import date_str_to_iso
+import argparse # Pridaný import pre argparse
 
 # Base URL of the website
 BASE_URL = "https://www.minv.sk"
@@ -418,12 +419,15 @@ def main(input_json_file, output_json_file):
 
 
 if __name__ == "__main__":
-    # Define input and output filenames
-    input_file = '1_zoznam_okresov.json'
-    # Use a different name to avoid overwriting the test file during development
-    # output_file = '2_uradne_tabule_test.json' # Original test name
-    output_file = '2_uradne_tabule.json' # New output name
+    # Nastavenie spracovania argumentov príkazového riadka
+    parser = argparse.ArgumentParser(description="Stiahne dokumenty z úradných tabúľ okresných úradov (ŽP) na základe vstupného JSON zoznamu okresov.")
+    parser.add_argument('-i', '--input', required=True, help='Cesta k vstupnému JSON súboru (napr. 1_zoznam_okresov.json).')
+    parser.add_argument('-o', '--output', required=True, help='Cesta k výstupnému JSON súboru (napr. 2_uradne_tabule.json).')
 
+    # Parsuje argumenty
+    args = parser.parse_args()
+    input_file = args.input
+    output_file = args.output
     main(input_file, output_file)
     # Example for testing a specific district (uncomment if needed)
     # try:
