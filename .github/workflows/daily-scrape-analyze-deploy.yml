@@ -31,6 +31,10 @@ jobs:
         # Checks out your repository under $GITHUB_WORKSPACE
         uses: actions/checkout@v4
 
+      - name: Update CA Certificates
+        # Update the runner's certificate store to avoid SSL verification errors
+        run: sudo apt-get update && sudo apt-get install -y ca-certificates
+
       # --- Scraper and Analyzer Steps ---
 
       - name: Set up Python
