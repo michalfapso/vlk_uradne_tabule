@@ -1,6 +1,6 @@
 # This workflow orchestrates the daily data scrape/analysis,
 # commits the updated data, builds the Astro site, and deploys it to GitHub Pages.
-name: Build and Deploy Website
+name: Scrape, Analyze, and Deploy Website
 
 on:
   # Schedule the workflow to run daily at 20:00 UTC
