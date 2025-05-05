@@ -1,0 +1,56 @@
+name: Build and Deploy Website
+
+on:
+  # Allow manual triggering of the workflow from the GitHub Actions tab
+  workflow_dispatch: {}
+
+# Set permissions needed for the actions
+permissions:
+  pages: write # Needed to deploy to GitHub Pages
+  id-token: write # Needed for the Deploy Pages action (OIDC)
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest # Use a standard runner environment
+
+    # Configure the GitHub Pages environment (required by deploy-pages@v4)
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # Get the deployment URL from the deploy step
+
+    steps:
+      - name: Checkout code
+        # Checks out your repository under $GITHUB_WORKSPACE
+        uses: actions/checkout@v4
+
+      # --- Website Build and Deploy Steps ---
+
+      - name: Set up Node.js
+        # Use a Node.js version compatible with Astro
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Or 'lts/*', specify a version suitable for your Astro build
+          cache: 'npm' # Cache npm dependencies for faster runs
+          cache-dependency-path: ./website/package-lock.json # Point cache to website directory
+
+      - name: Install Website Dependencies
+        # Install dependencies listed in website/package.json
+        run: npm install
+        working-directory: ./website
+
+      - name: Build Astro Site
+        # Run the Astro build command.
+        run: npm run build
+        working-directory: ./website
+
+      - name: Upload Pages artifact
+        # Upload the static build output (from website/dist) as a workflow artifact
+        # that the deploy-pages action will use.
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './website/dist' # Specify the directory where Astro outputs its build files
+
+      - name: Deploy to GitHub Pages
+        # Deploy the uploaded artifact to GitHub Pages.
+        id: deployment # Assign an ID to this step to reference its outputs (like the URL)
+        uses: actions/deploy-pages@v4
