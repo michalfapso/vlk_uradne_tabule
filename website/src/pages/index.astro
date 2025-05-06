@@ -6,17 +6,20 @@ import DocumentTable from '../components/DocumentTable.astro';
 import data from '../../../data/4_diff_analysis.json';
 
 // Define props for the component
-const pageTitle = "Nové dokumenty na úradných tabuliach ŽP";
+const pageTitle = "Nové dokumenty na úradných tabuliach ŽP za posledný deň";
 const pageDescription = "Zoznam dokumentov pridaných za posledný deň na úradné tabule okresných úradov životného prostredia.";
 ---
 
 <Layout title={pageTitle}>
     <main>
+        <h1>{pageTitle}</h1>
+        <p>
+            <a href="last_7_days" class="btn btn-primary">Zobraz dokumenty za posledných 7 dní</a>
+        </p>
         {/* Use the component, passing the imported data and other props */}
         <DocumentTable
             id="env-documents-table" {/* Optional: Provide a specific ID */}
             data={data}              {/* Pass the raw imported data */}
-            title={pageTitle}
             description={pageDescription}
         />
         {/* You could potentially add another DocumentTable here with different data/props */}

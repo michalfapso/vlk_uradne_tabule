@@ -5,7 +5,6 @@ import { TabulatorFull as Tabulator } from 'tabulator-tables'; // Import here fo
 const {
   id = 'document-table', // Default ID
   data = [],             // Default to empty array
-  title = 'Dokumenty',   // Default title
   description = 'Zoznam dokumentov.', // Default description
 } = Astro.props;
 
@@ -21,11 +20,14 @@ const allDocuments = data.flatMap(krajData =>
         kraj_url: krajData.url,
         okres: okresData.nazov, // Pridanie názvu okresu
         okres_url: okresData.url,
+        okres_url_tabule: okresData.url_tabule,
         has_analysis: !!doc.analyza // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
       })) || [] // Default to empty array if documents are missing
     ) || [] // Default to empty array if kategoriaData is missing
   ) || [] // Default to empty array if okresy are missing
 );
+
+console.log('allDocuments:', allDocuments);
 
 // Generate unique ID for the toggle button to avoid conflicts if multiple tables are on the page
 const toggleButtonId = `${id}-toggle-summaries-btn`;
@@ -33,7 +35,6 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
 {/* Component's HTML Structure */}
 <div class="document-table-container">
-    <h1>{title}</h1>
     <button id={toggleButtonId} style="width:14rem; margin-bottom: 15px; padding: 8px 12px; cursor: pointer;">Rozbaliť všetky</button>
     <p>{description}</p>
     {allDocuments.length === 0 ? (
@@ -104,8 +105,8 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 layout: "fitDataStretch",
                 responsiveLayout: "collapse",
                 pagination: "local",
-                paginationSize: 20,
-                paginationSizeSelector: [10, 20, 50, 100],
+                paginationSize: 100,
+                paginationSizeSelector: [10, 20, 50, 100, 200, 500],
                 rowFormatter: function(row) {
                     var element = row.getElement();
                     var data = row.getData();
@@ -157,7 +158,10 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     element.appendChild(summaryContainer);
                 },
                 columns: [
-                    { title: "Dátum", field: "datum", hozAlign: "left", sorter: "date", sorterParams:{ format:"YYYY-MM-DD" }, formatter: (cell) => formatClientDate(cell.getValue()), width: 90 },
+                    { title: "Dátum", field: "datum", hozAlign: "left", 
+                        // sorter: "date", sorterParams:{ format:"YYYY-MM-DD" },
+                        // formatter: (cell) => formatClientDate(cell.getValue()),
+                        width: 90 },
                     { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
@@ -167,7 +171,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
-                        const url = `https://www.minv.sk${data.okres_url}`;
+                        const url = `${data.okres_url_tabule}#popis`;
                         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
                     }},
                     { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
