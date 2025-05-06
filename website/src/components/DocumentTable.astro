@@ -97,6 +97,41 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
         // Inicializácia Tabulatora
         if (documents.length > 0) {
+            const fn_tooltip = function(cell){
+                // cell: Tabulator cell component
+                // cell.target: The actual HTML element the mouse is over
+
+                // Find the closest ancestor (or self) of cell.target that has the class 'tabulator-cell'
+                let elementToMeasure = cell.target.closest('.tabulator-cell');
+
+                // If closest() didn't find it (e.g., cell.target is not inside a .tabulator-cell,
+                // or the DOM structure is unexpected), fall back to the cell's root element.
+                if (!elementToMeasure) {
+                    console.warn(`[fn_tooltip] '.tabulator-cell' not found via cell.target.closest(). Falling back to cell.getElement(). Target:`, cell.target);
+                    elementToMeasure = cell.getElement(); // This is the cell's main DOM element.
+                }
+
+                // Debugging logs (updated)
+                // console.log('[fn_tooltip] Tabulator cell component:', cell);
+                // console.log('[fn_tooltip] Event target (original element):', cell.target);
+                // console.log('[fn_tooltip] Element selected for measurement:', elementToMeasure);
+
+                if (elementToMeasure) {
+                    // Now, elementToMeasure is the '.tabulator-cell' (or the element assumed to be it).
+                    // Perform the scrollWidth vs clientWidth check on this element.
+                    // console.log(`[fn_tooltip] Measuring ${elementToMeasure.className} - scrollWidth: ${elementToMeasure.scrollWidth}, clientWidth: ${elementToMeasure.clientWidth}`);
+                    if (elementToMeasure.scrollWidth > elementToMeasure.clientWidth) {
+                        // If it overflows, return the outerText of the original event target (cell.target),
+                        // consistent with the original function's behavior for the tooltip content.
+                        return cell.target.outerText;
+                    }
+                } else {
+                    // This should be rare, meaning neither closest() nor getElement() yielded a valid element.
+                    console.error('[fn_tooltip] Could not determine element to measure, even after fallback. Cell:', cell);
+                }
+                return ''; // In all other cases (no overflow, element not found), return an empty string for no tooltip.
+            };
+
             let allSummariesVisible = false; // Stav pre hromadné zobrazenie/skrytie
             const table = new window.Tabulator(`#${tableId}`, { // Use the dynamic ID
                 data: documents,
@@ -158,33 +193,33 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     element.appendChild(summaryContainer);
                 },
                 columns: [
-                    { title: "Dátum", field: "datum", hozAlign: "left", 
+                    { title: "Dátum", field: "datum", hozAlign: "left", tooltip: fn_tooltip,
                         // sorter: "date", sorterParams:{ format:"YYYY-MM-DD" },
                         // formatter: (cell) => formatClientDate(cell.getValue()),
                         width: 90 },
-                    { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                    { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
                         const url = `https://www.minv.sk${data.kraj_url}`;
                         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
                     }},
-                    { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                    { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
                         const url = `${data.okres_url_tabule}#popis`;
                         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
                     }},
-                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return 'Bez analýzy';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
                     }},
-                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, formatter: (cell) => {
+                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return '-';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
                     }},
-                    { title: "Názov dokumentu", field: "nazov", hozAlign: "left", headerFilter: "input", minWidth: 300, formatter: (cell) => {
+                    { title: "Názov dokumentu", field: "nazov", hozAlign: "left", headerFilter: "input", minWidth: 300, tooltip: fn_tooltip, formatter: (cell) => {
                         const url = cell.getData().url;
                         const nazov = cell.getValue();
                         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
