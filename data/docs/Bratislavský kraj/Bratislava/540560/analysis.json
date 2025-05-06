@@ -1,0 +1,41 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "YIT Slovakia a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava – Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bratislava - Petržalka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5920/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytné súbory Viedenská cesta - západ"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba cesty",
+    "výstavba infraštruktúry",
+    "úprava krajiny"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o začatí zisťovacieho konania v procese posudzovania vplyvov na životné prostredie pre navrhovanú činnosť \"Obytné súbory Viedenská cesta - západ\" od navrhovateľa YIT Slovakia a.s. v katastrálnom území Bratislava - Petržalka. Navrhovaná činnosť je výstavba obytnej zóny s infraštruktúrou. Dokument neuvádza dotknuté chránené územia ani druhy."
+}

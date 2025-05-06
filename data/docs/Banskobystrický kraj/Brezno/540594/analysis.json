@@ -1,0 +1,38 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-05-06",
+  "lehoty_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Zdenko Krahulec",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Heľpa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Heľpa",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4051/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba oplotenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na oplotenie pozemku E-KN 4051/2 v katastrálnom území Heľpa, mimo zastavaného územia obce. Konanie je vedené podľa zákona o ochrane prírody a krajiny a verejnosť sa môže prihlásiť ako účastník konania do 5 pracovných dní od zverejnenia."
+}
