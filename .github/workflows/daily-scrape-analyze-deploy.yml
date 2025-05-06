@@ -6,7 +6,7 @@ on:
   # Schedule the workflow to run daily at 20:00 UTC
   # You can adjust the time/frequency using cron syntax: https://crontab.guru/
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
 
   # Allow manual triggering of the workflow from the GitHub Actions tab
   workflow_dispatch: {}
@@ -34,9 +34,8 @@ jobs:
         # Checks out your repository under $GITHUB_WORKSPACE
         uses: actions/checkout@v4
 
-      - name: Update CA Certificates
-        # Update the runner's certificate store to avoid SSL verification errors
-        run: sudo apt-get update && sudo apt-get install -y ca-certificates
+      - name: Install required packages
+        run: sudo apt-get update && sudo apt-get install -y pandoc
 
       # --- Scraper and Analyzer Steps ---
 
