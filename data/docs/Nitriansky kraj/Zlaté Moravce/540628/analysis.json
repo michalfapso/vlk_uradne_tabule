@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/000013-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "7 pracovných dní odo dňa doručenia",
+  "ziadatel_navrhovatel": "FERIVAL s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zlaté Moravce",
+    "obec": "Veľké Vozokany, Čierne Kľačany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Vozokany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5257/3",
+              "5258/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čierne Kľačany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "822/2",
+              "822/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Veľké Vozokany"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania - verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "vypúšťanie odpadových vôd",
+    "používanie odlučovačov ropných látok"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o začatí konania pre FERIVAL s.r.o. na povolenie výstavby vodnej stavby (vodovod a dažďová kanalizácia so vsakovaním a odlučovačmi ropných látok) v obciach Veľké Vozokany a Čierne Kľačany. Lehota na vyjadrenie je 7 pracovných dní od doručenia verejnej vyhlášky. Dokument nespomína chránené územia ani druhy."
+}

@@ -1,0 +1,41 @@
+{
+  "cislo_konania_spisu": "OUML/146/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Medzilaborce",
+    "obec": "Zbojné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zbojné",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "823"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodný tok Výrava rkm 10,600 - 10,800"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstraňovanie brehových porastov"
+  ],
+  "typ_uzemia": [
+    "CHKO Východné Karpaty",
+    "vodný tok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie SVP o plánovanom výrube krovitých porastov na brehoch vodného toku Výrava v katastrálnom území Zbojné, okres Medzilaborce (rkm 10,6 - 10,8) v období 01.10.2025 - 28.02.2026, za účelom údržby a ochrany pred povodňami. Dokument bol zaslaný Správe CHKO Východné Karpaty."
+}

@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/006290",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolanie",
+  "ziadatel_navrhovatel": "Mesto Nové Mesto nad Váhom",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5781/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-1324"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Cintorín Nové Mesto nad Váhom"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba cintorína",
+    "výstavba budovy",
+    "výstavba ciest",
+    "úprava terénu",
+    "sadové úpravy",
+    "vsakovanie vôd",
+    "nakladanie s odpadmi",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty",
+    "chránené druhy živočíchov",
+    "chránené druhy rastlín",
+    "dreviny rastúce mimo lesa",
+    "invázne nepôvodné druhy rastlín"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia-sea/informacny-system",
+  "zhrnutie": "Záväzné stanovisko Okresného úradu Nové Mesto nad Váhom k zámeru \"Cintorín Nové Mesto nad Váhom\" v k.ú. Nové Mesto nad Váhom. Dokument určuje, že činnosť nebude posudzovaná podľa zákona EIA/SEA, ak budú dodržané stanovené opatrenia. Projekt zahŕňa výstavbu cintorína na ornej pôde v území s 1. stupňom ochrany s opatreniami na ochranu vôd, pôdy, prírody a zmiernenie vplyvov."
+}

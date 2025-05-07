@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Vranov nad Topľou",
+    "obec": "Sačurov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sačurov",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "283/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodný tok Olšava"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub krovitých porastov",
+    "odstraňovanie brehových porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "krovité porasty",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "SVP oznamuje okresnému úradu plánovaný výrub krovitých a brehových porastov na vodnom toku Olšava v k.ú. Sačurov (parc. KN-C č. 283/1) v okrese Vranov nad Topľou v období vegetačného pokoja od 01.10.2025 do 28.02.2026. Dokument je oznámením podľa zákona o ochrane prírody a krajiny, bez uvedenia lehoty na vyjadrenie alebo informácie o konkrétnom type chráneného územia v mieste realizácie."
+}
