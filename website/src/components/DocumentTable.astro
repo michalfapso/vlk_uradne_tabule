@@ -235,20 +235,63 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
                 const summaryContainer = row.getElement().querySelector(".row-summary");
                 if (summaryContainer) {
-                    summaryContainer.style.display = summaryContainer.style.display === "none" ? "block" : "none";
+                    // summaryContainer.style.display = summaryContainer.style.display === "none" ? "block" : "none";
+
+                    // const currentScrollY = window.scrollY;
+                    const tableElement = table.element; // Get the main table container element
+                    const originalTableMinHeight = tableElement.style.minHeight; // Store original minHeight
+
+                    // Set minHeight to current actual height to prevent collapse during DOM change/redraw
+                    tableElement.style.minHeight = tableElement.offsetHeight + "px";
+
+                    const isHidden = summaryContainer.style.display === "none";
+                    summaryContainer.style.display = isHidden ? "block" : "none";
+
+                    // With the minHeight trick, we might not need an explicit Tabulator redraw call for a single row,
+                    // as Tabulator might implicitly handle it or the browser reflow is stabilized.
+                    // The problematic row.recalcHeight() is removed.
+                    // table.redraw(true);
+
+                    // Restore scroll position on the next animation frame
+                    // This gives the browser and Tabulator time to adjust to the new height
+                    // requestAnimationFrame(() => {
+                        // window.scrollTo(0, currentScrollY);
+                        // After scrolling and potential redraw, restore original minHeight or remove it
+                        // tableElement.style.minHeight = originalTableMinHeight || '';
+                        // setTimeout(() => {
+                            // tableElement.style.minHeight = originalTableMinHeight || '';
+                        // }, 0);
+                    // });
                 }
             });
 
             // Funkcionalita pre tlačidlo na hromadné zobrazenie/skrytie
             if (toggleBtn) {
                 toggleBtn.addEventListener('click', () => {
+                    const currentScrollY = window.scrollY;
+                    const tableElement = table.element;
+                    const originalTableMinHeight = tableElement.style.minHeight;
+
+                    // Set minHeight to current actual height
+                    tableElement.style.minHeight = tableElement.offsetHeight + "px";
+
                     allSummariesVisible = !allSummariesVisible;
                     table.getRows().forEach(row => { // getRows() gets all rows, visible or not
                         const summaryContainer = row.getElement().querySelector(".row-summary");
                         if (summaryContainer) {
                             summaryContainer.style.display = allSummariesVisible ? "block" : "none";
+                            // No need to call recalcHeight on each row here if we do a full table.redraw
                         }
                     });
+
+                    // After all display styles are set, redraw the table to account for height changes.
+                    // table.redraw(true);
+
+                    // requestAnimationFrame(() => {
+                    //     window.scrollTo(0, currentScrollY);
+                    //     // Restore original minHeight or remove it
+                    //     tableElement.style.minHeight = originalTableMinHeight || '';
+                    // });
                     toggleBtn.textContent = allSummariesVisible ? 'Zabaliť všetky' : 'Rozbaliť všetky';
                 });
             } else {
