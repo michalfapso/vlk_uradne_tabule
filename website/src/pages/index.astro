@@ -14,7 +14,7 @@ const pageDescription = "Zoznam dokumentov pridaných za posledný deň na úrad
     <main>
         <h1>{pageTitle}</h1>
         <p>
-            <a href={import.meta.env.BASE_URL} class="btn btn-primary">Zobraz dokumenty za posledných 7 dní</a>
+            <a href={import.meta.env.BASE_URL + 'last_7_days'} class="btn btn-primary">Zobraz dokumenty za posledných 7 dní</a>
         </p>
         {/* Use the component, passing the imported data and other props */}
         <DocumentTable
