@@ -83,6 +83,28 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             return;
         }
 
+        // Sorter function for fields that might be arrays, strings, null, or undefined
+        const arrayOrStringSorter = (a, b, aRow, bRow, column, dir, sorterParams) => {
+            // a and b are the raw values from the field (e.g., analyza.typ_zasahu)
+            let strA, strB;
+
+            const processValue = (val) => {
+                if (Array.isArray(val)) {
+                    return val.join(', '); // Join array elements into a string
+                }
+                if (val === null || typeof val === 'undefined') {
+                    return ""; // Treat null/undefined as empty string for sorting
+                }
+                return String(val); // Ensure it's a string for comparison
+            };
+
+            strA = processValue(a);
+            strB = processValue(b);
+
+            // Perform case-insensitive comparison using localeCompare
+            return strA.localeCompare(strB, undefined, { sensitivity: 'base' });
+        };
+
         // Funkcia na formátovanie dátumu (musíme ju definovať aj na klientovi)
         const formatClientDate = (dateString) => {
           if (!dateString) return 'N/A';
@@ -135,6 +157,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             let allSummariesVisible = false; // Stav pre hromadné zobrazenie/skrytie
             const table = new window.Tabulator(`#${tableId}`, { // Use the dynamic ID
                 data: documents,
+                // height: "600",
                 height: "100%",
                 maxHeight:"100%",
                 layout: "fitDataStretch",
@@ -209,12 +232,12 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         const url = `${data.okres_url_tabule}#popis`;
                         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
                     }},
-                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
+                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return 'Bez analýzy';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
                     }},
-                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
+                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return '-';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
