@@ -7,6 +7,9 @@ import glob
 import litellm
 import traceback
 import argparse # Pridaný import pre argparse
+import hashlib # Pridaný import pre hashovanie
+import zipfile # Pridaný import pre prácu so ZIP súbormi
+import shutil # Pridaný import pre operácie so súborovým systémom (napr. rmtree)
 import subprocess # Pridaný import pre volanie externých príkazov
 
 # Import funkcie na extrakciu textu z PDF
@@ -81,36 +84,97 @@ def download_document(doc_url, output_dir, output_filename_nosuffix):
     except Exception as e: # Zachytí akékoľvek iné neočakávané chyby
         print(f"Vyskytla sa neočakávaná chyba pre URL {doc_url}: {e}", file=sys.stderr)
 
+def get_doc_id(doc_url: str) -> str | None:
+    """
+    Určí ID dokumentu z URL.
+    1. Skúsi parameter 'subor'.
+    2. Skúsi názov súboru z URL cesty.
+    3. Ak neúspešné, vráti hash celej URL.
+    """
+    if not doc_url:
+        return None
 
+    parsed_url = urllib.parse.urlparse(doc_url)
+    query_params = urllib.parse.parse_qs(parsed_url.query)
 
-def analyze(text_content):
+    # 1. Skontroluj parameter 'subor'
+    if 'subor' in query_params and query_params['subor']:
+        return query_params['subor'][0]
+
+    # 2. Ak názov súboru začína na 'OU-', použij ho
+    path = parsed_url.path
+    if path:
+        filename_with_ext = os.path.basename(path)
+        if filename_with_ext and filename_with_ext.startswith('OU-'):
+            filename_without_ext, ext = os.path.splitext(filename_with_ext)
+            return filename_without_ext
+
+    # 3. Ak nič z vyššie uvedeného, vygeneruj hash z URL
+    try:
+        url_bytes = doc_url.encode('utf-8')
+        hash_object = hashlib.sha256(url_bytes)
+        hex_dig = hash_object.hexdigest()
+        return f"urlhash_{hex_dig[:16]}" # Použije prvých 16 znakov hashu
+    except Exception as e:
+        print(f"Chyba pri generovaní hashu pre URL {doc_url}: {e}", file=sys.stderr)
+        return None
+
+def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str) -> str | None:
+    """
+    Konvertuje jeden súbor (PDF, DOC, DOCX, TXT) na textový obsah.
+    Pre DOC/DOCX, pandoc výstup je dočasne uložený a potom prečítaný.
+    temp_dir_for_conversion_output sa používa na ukladanie dočasných výstupov pandocu.
+    """
+    try:
+        if not os.path.exists(source_file_path):
+            print(f"Zdrojový súbor pre konverziu neexistuje: {source_file_path}", file=sys.stderr)
+            return None
+
+        print(f"Pokúšam sa konvertovať súbor na text: {source_file_path}")
+        if source_file_path.lower().endswith('.pdf'):
+            return extract_text_from_pdf(source_file_path)
+        elif source_file_path.lower().endswith(('.doc', '.docx')):
+            pandoc_format = 'docx' if source_file_path.lower().endswith('.docx') else 'doc'
+            
+            os.makedirs(temp_dir_for_conversion_output, exist_ok=True)
+            # Unikátny názov pre dočasný pandoc výstup, aby sa predišlo kolíziám
+            temp_pandoc_md_path = os.path.join(temp_dir_for_conversion_output, f"pandoc_out_{hashlib.md5(source_file_path.encode()).hexdigest()}.md")
+
+            cmd = ['pandoc', '-f', pandoc_format, '-t', 'markdown', '--wrap=none', '-o', temp_pandoc_md_path, source_file_path]
+            print(f"Spúšťam pandoc: {' '.join(cmd)}")
+            result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+            
+            if os.path.exists(temp_pandoc_md_path) and os.path.getsize(temp_pandoc_md_path) > 0:
+                with open(temp_pandoc_md_path, 'r', encoding='utf-8') as f_md:
+                    content = f_md.read()
+                os.remove(temp_pandoc_md_path) # Vyčistenie dočasného súboru
+                return content
+            else:
+                print(f"Chyba: Pandoc nevytvoril súbor {temp_pandoc_md_path} alebo je prázdny pre {source_file_path}.", file=sys.stderr)
+                if result.stderr: print(f"Pandoc stderr: {result.stderr}", file=sys.stderr)
+                return None
+        elif source_file_path.lower().endswith('.txt'):
+            with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f_txt:
+                return f_txt.read()
+        else:
+            print(f"Nepodporovaný typ súboru pre priamu konverziu na text: {source_file_path}", file=sys.stderr)
+            return None
+    except FileNotFoundError: # Špecificky pre pandoc
+        print(f"Chyba: Príkaz 'pandoc' nebol nájdený. Uistite sa, že je pandoc nainštalovaný a v systémovej PATH.", file=sys.stderr)
+        return None
+    except subprocess.CalledProcessError as e:
+        print(f"Chyba pri konverzii súboru {source_file_path} pomocou pandoc: {e}\nStdout: {e.stdout}\nStderr: {e.stderr}", file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f"Neočakávaná chyba pri konverzii súboru {source_file_path} na text: {e}", file=sys.stderr)
+        traceback.print_exc(file=sys.stderr)
+        return None
+
+def analyze(text_content: str):
     """
     Analyzuje textový obsah pomocou LLM (cez litellm) a uloží výsledok ako JSON.
     """
-
     print(f"Spúšťam analýzu textu cez LLM")
-
-#     prompt = f"""Analyzuj tento dokument z nástenky okresného úradu životného prostredia, ktorý bol skonvertovaný z PDF do textu. Vráť len JSON s nasledujúcou štruktúrou:
-# ```json
-# {{
-#   "typ_zasahu": [...],
-#   "typ_uzemia": "..."
-#   "zhrnutie": "..."
-# }}
-# ```
-
-# Zisti, či sa dokument týka nejakého zásahu ("výrub", "odstrel", "chémia", "stavba", "cesta", ...) a zdetekované typy zásahov zapíš do poľa "typ_zasahu", môžeš do toho poľa zapísať viacero hodnôt, ak treba. Ak si nie si istý, o aký typ zásahu ide, daj do toho poľa iba "neviem".
-
-# Ak sa dokument týka nejakého chráneného územia, do "typ_uzemia" daj "chránené". Ak ale vieš, o aký typ chráneného územia konkrétne ide (CHKO, národný park, prírodná rezervácia, ...) alebo vieš číslo stupňa ochrany (napr. "5. stupeň"), zapíš do "typ_uzemia" takýto konkrétnejší údaj. Ak sa netýka chráneného územia, daj tam "nechránené". Ak sa v dokumente nespomína, či ide o chránené územie, daj tam "neviem". Ak sa netýka žiadneho územia, nechaj tam prázdny reťazec.
-
-# Do "zhrnutie" daj krátke zhrnutie dokumentu hlavne s dôrazom na typy zásahov a chránených území.
-
-# Text dokumentu:
-# ---
-# {text_content}
-# ---
-# """
-
     prompt = """
 Analyzuj text dokumentu z úradnej tabule okresného úradu životného prostredia, ktorý bol skonvertovaný z PDF do textu. Tvojou úlohou je extrahovať kľúčové informácie do štruktúrovaného formátu JSON. Tento JSON má pomôcť rýchlo identifikovať dokumenty relevantné pre organizáciu Lesoochranárske zoskupenie VLK (LZ VLK).
 
@@ -207,6 +271,226 @@ Text dokumentu:
         print(f"Chyba počas LLM analýzy: {e}", file=sys.stderr)
         print(traceback.format_exc(), file=sys.stderr) # Vypíš detail chyby
 
+def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_analysis: bool = False) -> tuple[str | None, dict | None, bool]:
+    """
+    Spracuje jeden dokument: stiahne, extrahuje text, analyzuje.
+    Vracia tuple (doc_id, výsledok_analýzy_alebo_chyba, bol_pokus_o_stiahnutie_suboru).
+    """
+    doc_id = get_doc_id(doc_url)
+
+    if doc_id is None:
+        error_msg = f"Nepodarilo sa získať doc_id pre URL: {doc_url}"
+        print(error_msg, file=sys.stderr)
+        # Vrátime None pre doc_id, chybovú hlášku a False pre pokus o stiahnutie
+        return (None, {"error": error_msg}, False)
+    
+    output_dir = os.path.abspath(os.path.join(docs_dir, kraj, okres, doc_id)) # Použitie absolútnej cesty
+    os.makedirs(output_dir, exist_ok=True) # Vytvorenie adresára tu, aby existoval pre všetky súbory
+
+    try:
+        #--------------------------------------------------
+        # Download
+        existing_files = glob.glob(os.path.join(output_dir, "orig.*"))
+        changed = False
+        orig_file = None
+
+        if not existing_files or (existing_files and os.path.getsize(existing_files[0]) < 10):
+            orig_file = download_document(doc_url, output_dir, 'orig')
+            if orig_file:
+                changed = True
+            else:
+                # Stiahnutie zlyhalo
+                return (doc_id, {"error": f"Download failed for doc_id {doc_id} from {doc_url}"}) # Oprava: vrátiť tuple
+        else:
+            print(f"Súbor pre ID {doc_id} už existuje: {existing_files[0]}. Preskakujem sťahovanie.")
+            orig_file = existing_files[0]
+
+        #--------------------------------------------------
+        # Convert to text
+        txt_filepath = os.path.join(output_dir, "text.txt")
+        text_extraction_successful = False
+        text_content_for_analysis = "" 
+        text_was_reextracted_this_run = False
+
+        needs_initial_text_extraction_check = changed or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10
+
+        if needs_initial_text_extraction_check:
+            print(f"Potrebná (re)extrakcia textu pre {doc_id} (orig_changed={changed}, text_path={txt_filepath}).")
+            if orig_file.lower().endswith(('.zip', '.rar')): # Spracovanie archívov
+                extracted_dir = os.path.join(output_dir, "extracted")
+                if os.path.exists(extracted_dir): # Vždy vyčistiť a re-extrahovať, ak je potrebná extrakcia textu
+                    print(f"Čistím predchádzajúci extrahovaný adresár: {extracted_dir}")
+                    shutil.rmtree(extracted_dir)
+                os.makedirs(extracted_dir, exist_ok=True)
+
+                extracted_files_paths_to_process = []
+                if orig_file.lower().endswith('.zip'):
+                    try:
+                        with zipfile.ZipFile(orig_file, 'r') as zip_ref:
+                            zip_ref.extractall(extracted_dir) # Extrahuje so zachovaním štruktúry adresárov
+                        print(f"Úspešne extrahovaný ZIP archív {orig_file} do {extracted_dir}")
+                        # Prejdi extrahované súbory
+                        for root, _, files in os.walk(extracted_dir):
+                            for f_name in files:
+                                # Ignoruj súbory v našich špeciálnych adresároch (napr. _pandoc_temp)
+                                if "_pandoc_temp" not in root:
+                                     extracted_files_paths_to_process.append(os.path.join(root, f_name))
+                    except zipfile.BadZipFile:
+                        print(f"Chyba: Poškodený ZIP súbor {orig_file}", file=sys.stderr)
+                    except Exception as e_zip:
+                        print(f"Chyba pri spracovaní ZIP súboru {orig_file}: {e_zip}", file=sys.stderr)
+                
+                elif orig_file.lower().endswith('.rar'):
+                    print(f"Spracovanie RAR súborov ({orig_file}) zatiaľ nie je implementované. Vyžaduje knižnicu 'rarfile' alebo 'patool' a príkaz 'unrar'.", file=sys.stderr)
+                    # Tu by bola logika pre RAR, napr. s patoolib
+
+                all_extracted_texts_content = []
+                # Dočasný adresár pre medzivýstupy pandocu z _convert_to_text
+                temp_conversion_output_dir = os.path.join(extracted_dir, "_pandoc_temp")
+
+                for item_path in extracted_files_paths_to_process:
+                    if os.path.isfile(item_path):
+                        sub_filename_base, _ = os.path.splitext(os.path.basename(item_path))
+                        # Adresár pre text.txt konkrétneho extrahovaného súboru
+                        sub_item_text_output_dir = os.path.join(extracted_dir, sub_filename_base)
+                        os.makedirs(sub_item_text_output_dir, exist_ok=True)
+                        
+                        item_text_content = _convert_to_text(item_path, temp_conversion_output_dir)
+                        
+                        if item_text_content:
+                            sub_item_txt_filepath = os.path.join(sub_item_text_output_dir, "text.txt")
+                            with open(sub_item_txt_filepath, 'w', encoding='utf-8') as f_sub_out:
+                                f_sub_out.write(item_text_content)
+                            all_extracted_texts_content.append(item_text_content)
+                            print(f"Text extrahovaný z {os.path.basename(item_path)} do {sub_item_txt_filepath}")
+                        else:
+                            print(f"Nepodarilo sa extrahovať text z {os.path.basename(item_path)}.", file=sys.stderr)
+                
+                if os.path.exists(temp_conversion_output_dir): # Vyčistenie dočasného adresára pandocu
+                    shutil.rmtree(temp_conversion_output_dir)
+
+                if all_extracted_texts_content:
+                    final_concatenated_text = "\n\n--- Nový Súbor v Archíve ---\n\n".join(all_extracted_texts_content)
+                    with open(txt_filepath, 'w', encoding='utf-8') as main_txt_file:
+                        main_txt_file.write(final_concatenated_text)
+                    text_extraction_successful = True
+                    text_was_reextracted_this_run = True
+                    print(f"Všetky texty z archívu {orig_file} spojené do {txt_filepath}")
+                else:
+                    print(f"Archív {orig_file} spracovaný, ale nepodarilo sa extrahovať žiadny textový obsah z jeho súborov.", file=sys.stderr)
+                    if os.path.exists(txt_filepath): os.remove(txt_filepath) # Zaistiť, aby neostal starý/prázdny súbor
+
+            else: # Nie je archív, priama konverzia
+                temp_single_conversion_dir = os.path.join(output_dir, "_pandoc_temp_single")
+                single_file_text_content = _convert_to_text(orig_file, temp_single_conversion_dir)
+                if os.path.exists(temp_single_conversion_dir):
+                    shutil.rmtree(temp_single_conversion_dir)
+
+                if single_file_text_content:
+                    with open(txt_filepath, 'w', encoding='utf-8') as f_txt:
+                        f_txt.write(single_file_text_content)
+                    text_extraction_successful = True
+                    text_was_reextracted_this_run = True
+                    print(f"Text úspešne extrahovaný z {orig_file} a uložený do: {txt_filepath}")
+                else:
+                    print(f"Extrakcia textu z {orig_file} nebola vykonaná alebo zlyhala.", file=sys.stderr)
+                    if os.path.exists(txt_filepath): os.remove(txt_filepath)
+        else:
+            print(f"Súbor {txt_filepath} už existuje a je aktuálny. Preskakujem extrakciu textu.")
+            if os.path.exists(txt_filepath) and os.path.getsize(txt_filepath) > 0:
+                 text_extraction_successful = True
+            else:
+                 print(f"Upozornenie: Textový súbor {txt_filepath} mal existovať, ale neexistuje alebo je prázdny.", file=sys.stderr)
+                 text_extraction_successful = False
+            # text_was_reextracted_this_run zostáva False
+
+        if skip_analysis:
+            print(f"Preskakujem analýzu pre ID {doc_id} (--skip-analysis).")
+            return (doc_id, None) # Vráti None pre analýzu
+
+        # Načítanie text_content_for_analysis z finálneho txt_filepath
+        if text_extraction_successful and os.path.exists(txt_filepath) and os.path.getsize(txt_filepath) > 0:
+            try:
+                with open(txt_filepath, 'r', encoding='utf-8') as f_final_txt:
+                    text_content_for_analysis = f_final_txt.read()
+            except Exception as e:
+                print(f"Chyba pri čítaní finálneho textového súboru {txt_filepath}: {e}", file=sys.stderr)
+                text_extraction_successful = False # Označiť ako neúspešné, ak sa nedá prečítať
+        
+        if not text_extraction_successful or not text_content_for_analysis.strip():
+            msg = f"Nie je dostupný žiadny textový obsah pre analýzu pre ID {doc_id} v {txt_filepath} (extraction_successful={text_extraction_successful}). Preskakujem analýzu."
+            print(msg, file=sys.stderr)
+            return (doc_id, {"error": msg})
+
+        #--------------------------------------------------
+        # Analyze with AI
+        analysis_filepath_txt = os.path.join(output_dir, "analysis.txt")
+        analysis_result_str = None
+
+        needs_ai_analysis_run = text_was_reextracted_this_run or \
+                                not os.path.exists(analysis_filepath_txt) or \
+                                os.path.getsize(analysis_filepath_txt) < 10
+
+        if needs_ai_analysis_run:
+            print(f"Spúšťam AI analýzu pre {doc_id} (text_reextracted={text_was_reextracted_this_run}, analysis_path={analysis_filepath_txt})")
+            try:
+                analysis_result_str = analyze(text_content_for_analysis)
+                if analysis_result_str:
+                    with open(analysis_filepath_txt, 'w', encoding='utf-8') as f:
+                        f.write(analysis_result_str)
+                    print(f"Analýza úspešne uložená do: {analysis_filepath_txt}")
+                else:
+                    print(f"LLM analýza zlyhala alebo nevrátila obsah pre ID {doc_id}.", file=sys.stderr)
+                    # analysis_result_str zostáva None
+            except Exception as e:
+                print(f"Chyba pri LLM analýze alebo ukladaní analysis.txt pre ID {doc_id}: {e}", file=sys.stderr)
+                # analysis_result_str zostáva None
+        else:
+            print(f"Súbor {analysis_filepath_txt} už existuje a je aktuálny. Preskakujem AI analýzu, načítavam existujúci.")
+            # Načítaj existujúci analysis.txt, ak sme ho teraz negenerovali
+            if os.path.exists(analysis_filepath_txt):
+                try:
+                    with open(analysis_filepath_txt, 'r', encoding='utf-8') as f:
+                        analysis_result_str = f.read()
+                except Exception as e:
+                    print(f"Chyba pri čítaní existujúceho {analysis_filepath_txt}: {e}", file=sys.stderr)
+
+        if not analysis_result_str:
+            msg = f"Výsledok analýzy (analysis.txt) nie je dostupný pre ID {doc_id}."
+            print(msg, file=sys.stderr)
+            return (doc_id, {"error": msg})
+
+        analysis_filepath_json = os.path.join(output_dir, "analysis.json")
+        # Generuj/aktualizuj JSON, ak bol text analýzy (re)generovaný alebo ak JSON chýba/je malý,
+        # alebo ak 'needs_ai_analysis_run' signalizuje potrebu aktualizácie.
+        if needs_ai_analysis_run or not os.path.exists(analysis_filepath_json) or os.path.getsize(analysis_filepath_json) < 10:
+            try:
+                print(f"Generujem/aktualizujem {analysis_filepath_json}")
+                analysis_result_data = json.loads(analysis_result_str)
+                with open(analysis_filepath_json, 'w', encoding='utf-8') as f:
+                    json.dump(analysis_result_data, f, indent=2, ensure_ascii=False)
+                print(f"Analýza úspešne uložená do: {analysis_filepath_json}")
+            except json.JSONDecodeError as json_e:
+                print(f"Chyba: LLM nevrátil platný JSON pre {output_dir}. Odpoveď: {analysis_result_str}. Chyba: {json_e}", file=sys.stderr)
+                return (doc_id, {"error": f"LLM did not return valid JSON for doc_id {doc_id}: {json_e}"})
+        else:
+            print(f"Súbor {analysis_filepath_json} už existuje a je aktuálny. Preskakujem konverziu do JSONu.")
+
+        # Načítanie JSON analýzy a pridanie do dokumentu
+        if os.path.exists(analysis_filepath_json):
+            try:
+                with open(analysis_filepath_json, 'r', encoding='utf-8') as f_analysis:
+                    analysis_data = json.load(f_analysis)
+                    return (doc_id, analysis_data)
+            except json.JSONDecodeError as e:
+                print(f"Chyba pri načítaní JSON analýzy zo súboru {analysis_filepath_json}: {e}", file=sys.stderr)
+                return (doc_id, {"error": f"Failed to load analysis JSON for doc_id {doc_id}: {e}"})
+        
+        return (doc_id, {"error": f"Analysis JSON ({analysis_filepath_json}) not found or not created for doc_id {doc_id}"}) # Ak sa nedostaneme k vráteniu analýzy
+    except Exception as e:
+        print(f"Neočekávaná chyba v process_document pre doc_id {doc_id}, URL {doc_url}: {e}", file=sys.stderr)
+        traceback.print_exc(file=sys.stderr)
+        return (doc_id, {"error": f"Unexpected error processing doc_id {doc_id}: {str(e)}"})
 
 def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analysis=False):
     """
@@ -226,8 +510,6 @@ def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analys
         print(f"Chyba: Neočakávaná štruktúra JSON. Očakáva sa zoznam na najvyššej úrovni.", file=sys.stderr)
         return
 
-    download_attempts = 0
-
     # Prejdite štruktúru JSON podľa poskytnutého vzoru
     for kraj_data in data:
         if isinstance(kraj_data, dict) and 'okresy' in kraj_data and isinstance(kraj_data['okresy'], list):
@@ -236,143 +518,29 @@ def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analys
                     for kategoria_data in okres_data['dokumenty_zivotne_prostredie']:
                         if isinstance(kategoria_data, dict) and 'dokumenty' in kategoria_data and isinstance(kategoria_data['dokumenty'], list):
                             for dokument_data in kategoria_data['dokumenty']:
-                                if isinstance(dokument_data, dict) and 'url' in dokument_data and isinstance(dokument_data['url'], str):
+                                if isinstance(dokument_data, dict) and 'url' in dokument_data:
                                     doc_url = dokument_data['url']
+                                    if not isinstance(doc_url, str) or not doc_url.strip():
+                                        print(f"Upozornenie: Neplatná alebo prázdna URL v dokumente: {dokument_data}. Preskakujem.", file=sys.stderr)
+                                        dokument_data['doc_id'] = None
+                                        dokument_data['analyza'] = {"error": "Invalid or empty URL"}
+                                        continue
 
-                                    # Parsuje URL a extrahuje parameter 'subor'
-                                    parsed_url = urllib.parse.urlparse(doc_url)
-                                    query_params = urllib.parse.parse_qs(parsed_url.query)
-
-                                    doc_id = None
-                                    if 'subor' in query_params and query_params['subor']:
-                                         # parse_qs vracia zoznam hodnôt, vezmeme prvý prvok
-                                         doc_id = query_params['subor'][0]
-
-                                    if doc_id:
-                                        existing_filepath = None
-
-                                        dokument_data['analyza'] = None # Inicializácia kľúča pre analýzu
-                                        #--------------------------------------------------
-                                        # Download
-                                        output_dir = f"{docs_dir}/{kraj_data['kraj']}/{okres_data['nazov']}/{doc_id}"
-                                        existing_files = glob.glob(f"{output_dir}/orig.*")
-                                        changed = False
-                                        orig_file = None
-                                        if not bool(existing_files) or os.path.getsize(existing_files[0]) < 10: # Stiahnuť, ak zoznam existujúcich súborov je prázdny
-                                            download_attempts += 1 # Počítame pokus o stiahnutie
-                                            orig_file = download_document(doc_url, output_dir, 'orig')
-                                            changed = True
-                                        else:
-                                            print(f"Súbor pre ID {doc_id} už existuje: {existing_files[0]}. Preskakujem sťahovanie.")
-                                            orig_file = existing_files[0]
-
-                                        #--------------------------------------------------
-                                        # Convert to text
-                                        txt_filepath = f"{output_dir}/text.txt"
-                                        # Skontroluj, či textový súbor už existuje
-                                        if changed or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
-                                            print(f"Súbor {txt_filepath} neexistuje. Pokúšam sa extrahovať text z {orig_file}")
-                                            try:
-                                                if orig_file.endswith('.pdf'):
-                                                    text = extract_text_from_pdf(orig_file)
-                                                    with open(txt_filepath, 'w', encoding='utf-8') as txt_file:
-                                                        txt_file.write(text)
-                                                elif orig_file.endswith(('.doc', '.docx')):
-                                                    try:
-                                                        # Použi pandoc na konverziu do markdown a uloženie do txt_filepath
-                                                        # '-f docx' by mal fungovať aj pre .doc, ale môžeme byť explicitnejší ak treba
-                                                        pandoc_format = 'docx' if orig_file.endswith('.docx') else 'doc'
-                                                        cmd = ['pandoc', '-f', pandoc_format, '-t', 'markdown', '-o', txt_filepath, orig_file]
-                                                        print(f"Spúšťam konverziu word dokumentu: {cmd}")
-                                                        result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace') # Added errors='replace' for robustness
-                                                        print(f"Pandoc stdout:\n{result.stdout}") # Print stdout
-                                                        print(f"Pandoc stderr:\n{result.stderr}") # Print stderr
-                                                        print(f'result:{result}')
-                                                        print(f"Word dokument úspešne konvertovaný a uložený do: {txt_filepath}")
-                                                    except FileNotFoundError:
-                                                        print(f"Chyba: Príkaz 'pandoc' nebol nájdený. Uistite sa, že je pandoc nainštalovaný a v systémovej PATH.", file=sys.stderr)
-                                                    except subprocess.CalledProcessError as e:
-                                                        print(f"Chyba pri konverzii Word dokumentu {orig_file} pomocou pandoc: {e}\nStderr: {e.stderr}", file=sys.stderr)
-                                                    except Exception as e:
-                                                        print(f"Neočakávaná chyba pri konverzii Word dokumentu {orig_file}: {e}", file=sys.stderr)
-
-                                                changed = True
-                                                print(f"Text úspešne extrahovaný a uložený do: {txt_filepath}")
-                                            except Exception as e:
-                                                # Chybu pri extrakcii logujeme, ale pokračujeme ďalej
-                                                print(f"Chyba pri extrakcii textu z {orig_file}: {e}", file=sys.stderr)
-                                        else:
-                                            print(f"Súbor {txt_filepath} už existuje. Preskakujem extrakciu textu.")
-
-                                        if skip_analysis:
-                                            print(f"Preskakujem analýzu pre ID {doc_id} (--skip-analysis).")
-                                            continue # Preskoč na ďalší dokument
-
-                                        text = ''
-                                        with open(txt_filepath, 'r', encoding='utf-8') as txt_file:
-                                            text = txt_file.read()
-                                        #--------------------------------------------------
-                                        # Analyze with AI
-                                        analysis_filepath_txt = f"{output_dir}/analysis.txt"
-
-                                        if changed or not os.path.exists(analysis_filepath_txt) or os.path.getsize(analysis_filepath_txt) < 10:
-                                            try: # Try to analyze
-                                                analysis_result_str = analyze(text)
-                                                changed = True
-                                            except Exception as e:
-                                                print(f"Chyba pri analýze: {e}", file=sys.stderr)
-
-                                            try:
-                                                with open(analysis_filepath_txt, 'w', encoding='utf-8') as f:
-                                                    f.write(analysis_result_str)
-                                                print(f"Analýza úspešne uložená do: {analysis_filepath_txt}")
-                                            except Exception as e:
-                                                print(f"Chyba pri ukladaní analýzy do súboru: {e}", file=sys.stderr)
-                                        else:
-                                            print(f"Súbor {analysis_filepath_txt} už existuje. Preskakujem analyzovanie.")
-
-                                        # Načítanie textovej analýzy (aj keď sme ju práve negenerovali)
-                                        if os.path.exists(analysis_filepath_txt):
-                                            with open(analysis_filepath_txt, 'r', encoding='utf-8') as f:
-                                                analysis_result_str = f.read()
-
-                                        analysis_filepath_json = f"{output_dir}/analysis.json"
-                                        if (changed or not os.path.exists(analysis_filepath_json)) and 'analysis_result_str' in locals() and analysis_result_str:
-                                            try:
-                                                analysis_result_data = json.loads(analysis_result_str)
-                                                with open(analysis_filepath_json, 'w', encoding='utf-8') as f:
-                                                    json.dump(analysis_result_data, f, indent=2, ensure_ascii=False)
-                                                print(f"Analýza úspešne uložená do: {analysis_filepath_json}")
-                                            except json.JSONDecodeError as json_e:
-                                                print(f"Chyba: LLM nevrátil platný JSON pre {output_dir}. Odpoveď: {analysis_result_str}. Chyba: {json_e}", file=sys.stderr)
-                                                # Môžeš sem uložiť pôvodnú odpoveď LLM do error súboru, ak chceš
-                                                # with open(os.path.join(output_dir, "analyza_error.txt"), 'w', encoding='utf-8') as f_err:
-                                                #     f_err.write(analysis_result_str)
-                                        else:
-                                            print(f"Súbor {analysis_filepath_json} už existuje. Preskakujem konverziu do JSONu.")
-
-                                        # Načítanie JSON analýzy a pridanie do dokumentu
-                                        if os.path.exists(analysis_filepath_json):
-                                            try:
-                                                with open(analysis_filepath_json, 'r', encoding='utf-8') as f_analysis:
-                                                    analysis_data = json.load(f_analysis)
-                                                    dokument_data['analyza'] = analysis_data # Pridanie analýzy do dát dokumentu
-                                            except json.JSONDecodeError as e:
-                                                print(f"Chyba pri načítaní JSON analýzy zo súboru {analysis_filepath_json}: {e}", file=sys.stderr)
-                                                dokument_data['analyza'] = {"error": f"Failed to load analysis JSON: {e}"}
-
-                                    else:
-                                        print(f"Upozornenie: Nepodarilo sa nájsť parameter 'subor' v URL: {doc_url}. Preskakujem.", file=sys.stderr)
+                                    doc_id, analysis_result = process_document(
+                                        kraj_data['kraj'], okres_data['nazov'], doc_url, docs_dir, skip_analysis
+                                    )
+                                    dokument_data['doc_id'] = doc_id
+                                    dokument_data['analyza'] = analysis_result
                                 else:
-                                     print(f"Upozornenie: Chýba alebo má neplatný typ 'url' v zázname dokumentu: {dokument_data}. Preskakujem.", file=sys.stderr)
+                                    print(f"Upozornenie: Chýba alebo má neplatný typ 'url' v zázname dokumentu: {dokument_data}. Preskakujem.", file=sys.stderr)
                         else:
                             print(f"Upozornenie: Neočakávaná štruktúra. 'dokumenty' chýba alebo nie je zoznam v kategórii: {kategoria_data}. Preskakujem.", file=sys.stderr)
                 else:
-                     print(f"Upozornenie: Neočakávaná štruktúra. 'dokumenty_zivotne_prostredie' chýba alebo nie je zoznam v okrese: {okres_data}. Preskakujem.", file=sys.stderr)
+                    print(f"Upozornenie: Neočakávaná štruktúra. 'dokumenty_zivotne_prostredie' chýba alebo nie je zoznam v okrese: {okres_data}. Preskakujem.", file=sys.stderr)
         else:
             print(f"Upozornenie: Neočakávaná štruktúra. 'okresy' chýba alebo nie je zoznam v kraji: {kraj_data}. Preskakujem.", file=sys.stderr)
 
-    print(f"\nSpracovanie dokončené. Pokúsil som sa stiahnuť {download_attempts} nových dokumentov (pre ktoré bolo nájdené ID 'subor' a ešte neexistovali lokálne).")
+    print(f"\nSpracovanie dokončené.")
 
     # Výpis výsledného JSON na štandardný výstup
     try:
@@ -384,6 +552,19 @@ def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analys
 
 
 if __name__ == "__main__":
+    # TEST:
+    # print(f"Spúšťam test")
+    # doc_id, analysis = process_document(
+    #     'Banskobystrický kraj',
+    #     'Banská Bystrica',
+    #     # 'https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=540792',
+    #     'https://www.minv.sk/?okresne-urady-klientske-centra&urad=51&odbor=10&sekcia=uradna-tabula&subor=540951', # zip
+    #     '../data/docs_test',
+    #     skip_analysis=False # Alebo True, ak chces testovat len stahovanie/extrakciu
+    # )
+    # print(f"Test - Returned DOC_ID: {doc_id}, Result: {analysis}")
+    # exit(0)
+
     parser = argparse.ArgumentParser(description="Spracuje JSON súbor s dokumentmi, stiahne ich, extrahuje text a voliteľne analyzuje.")
     parser.add_argument('--input', required=True, help='Cesta k vstupnému JSON súboru.')
     parser.add_argument('--output', required=True, help='Cesta k výstupnému JSON súboru.')
@@ -393,3 +574,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     process_json_file(args.input, args.output, args.docs_dir, args.skip_analysis)
+    
