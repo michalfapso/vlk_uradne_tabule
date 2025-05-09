@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZPP-2025/00022",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolanie",
+  "ziadatel_navrhovatel": "MAČAj, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Hlohovec",
+    "obec": "Ratkovce a Žlkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ratkovce",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "691/1",
+              "692/1",
+              "692/2",
+              "693/1",
+              "694/1",
+              "695/1",
+              "698/1",
+              "698/2",
+              "699/1",
+              "699/2",
+              "699/3"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "690/1",
+              "690/2",
+              "690/3",
+              "690/4",
+              "690/5",
+              "690/6",
+              "690/7",
+              "690/8",
+              "690/9",
+              "690/10",
+              "690/11",
+              "690/12",
+              "690/13",
+              "690/17",
+              "723/1",
+              "724/1",
+              "725/1",
+              "795/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Žlkovce",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1229/106"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1413/1",
+              "1296",
+              "1721/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Skladový areál Ratkovce"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba skladov",
+    "výstavba ciest a spevnených plôch",
+    "vodné stavby (dažďová kanalizácia, retenčná nádrž, výtlak do Manivier)",
+    "inštalácia chladiacej technológie",
+    "inštalácia vykurovania (propán)",
+    "oplotenie a terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "I. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "poľné vtáky",
+    "menšie cicavce",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/skladovy-areal-ratkovce",
+  "zhrnutie": "OÚ Hlohovec vydal záväzné stanovisko zo zisťovacieho konania k výstavbe \"Skladového areálu Ratkovce\" v obciach Ratkovce a Žlkovce. Projekt sa nebude posudzovať podľa zákona o EIA, ale sú stanovené podmienky pre zmiernenie vplyvov (napr. hluková štúdia, zeleň, nakladanie s vodami do kanála Manivier). Lokalita je v I. stupni územnej ochrany."
+}

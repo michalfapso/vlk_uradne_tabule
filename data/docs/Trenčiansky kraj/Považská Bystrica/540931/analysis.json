@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/000826-014",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa jeho oznámenia (pre odvolanie)",
+  "ziadatel_navrhovatel": "VIKO spol. s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Teplá",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "641/1",
+              "641/3",
+              "641/4",
+              "641/5",
+              "641/6",
+              "641/7",
+              "641/8",
+              "641/11",
+              "641/12",
+              "641/13",
+              "641/16",
+              "641/17",
+              "641/18",
+              "641/19",
+              "642",
+              "936/4",
+              "937/3",
+              "643/1",
+              "643/2",
+              "936/2",
+              "937/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "124/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "výrobný areál VIKO"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "Modernizácia výrobného areálu",
+    "výstavba nových priestorov",
+    "rekonštrukcia",
+    "asanácia",
+    "výstavba oplotenia",
+    "protipovodňový múr",
+    "povrchová úprava kovov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody",
+    "CHKO Strážovské vrchy",
+    "Ochranné pásmo NPR Manínska tiesňava",
+    "PR Klapy",
+    "Územie európskeho významu",
+    "SKUEV0256 Strážovské vrchy",
+    "Chránené vtáčie územie",
+    "SKCHVU028 Strážovské vrchy",
+    "biokoridor nadregionálneho významu NRBk2 Rieka Váh",
+    "genofondová lokalita GL 36 Štrkovisko",
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Manínsky potok (chránená rybárska oblasť)",
+    "vodné vtáctvo",
+    "obojživelníky",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Považská Bystrica, odbor starostlivosti o životné prostredie, o tom, že zmena navrhovanej činnosti 'Modernizácia výrobného areálu VIKO Považská Teplá' v katastrálnom území Považská Teplá (obec Považská Bystrica) sa nebude posudzovať podľa zákona EIA. Projekt zahŕňa výstavbu nových hál a rekonštrukciu existujúcich objektov v rámci jestvujúceho areálu. Lokalita sa nachádza v území s 1. stupňom ochrany prírody a v blízkosti CHKO Strážovské vrchy, Natura 2000 území a rieky Váh (inundačné územie), čo si vyžaduje protipovodňové opatrenia. Dokument obsahuje podmienky na eliminovanie vplyvov a reaguje na pripomienky, najmä Združenia domových samospráv."
+}
