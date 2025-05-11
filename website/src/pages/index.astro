@@ -1,25 +1,166 @@
 ---
 import Layout from '../layouts/Layout.astro';
-// Import the new component
 import DocumentTable from '../components/DocumentTable.astro';
 // Import dát vygenerovaných Python skriptom
-import data from '../../../data/4_diff_analysis.json';
+// import data from '../../../data/4_diff_analysis.json';
+
+// Import Node.js built-in modules for file system and path manipulation
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+// Import the initial JSON data.
+// We'll use 3_diff_test.json as specified by the structure requirements.
+import rawInputData from '../../../data/2_uradne_tabule_old.json';
 
 // Define props for the component
-const pageTitle = "Nové dokumenty na úradných tabuliach ŽP za posledný deň";
+const pageTitle = "Nové dokumenty na úradných tabuliach ŽP";
 const pageDescription = "Zoznam dokumentov pridaných za posledný deň na úradné tabule okresných úradov životného prostredia.";
+
+// Define the directory of the current Astro file to help resolve paths
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+console.log('dirname:', __dirname);
+console.log('filename:', __filename);
+
+
+// Helper function to get a date string in YYYY-MM-DD format for N days ago
+function getDateStringDaysAgo(days) {
+    const date = new Date();
+    date.setDate(date.getDate() - days);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+// Function to filter documents by date
+function filterData(inputData, oldestDateString) {
+    const filteredKraje = [];
+
+    for (const kraj of inputData) {
+        const newKraj = { ...kraj, okresy: [] }; // Start with a new kraj, copy non-array properties
+        if (kraj.okresy) {
+            for (const okres of kraj.okresy) {
+                const newOkres = { ...okres, dokumenty_zivotne_prostredie: [] };
+                if (okres.dokumenty_zivotne_prostredie) {
+                    for (const kategoria of okres.dokumenty_zivotne_prostredie) {
+                        let filteredDocs = [];
+                        if (kategoria.dokumenty) {
+                            // Direct string comparison works for YYYY-MM-DD format
+                            filteredDocs = kategoria.dokumenty.filter(doc => doc.datum && doc.datum >= oldestDateString);
+                        }
+
+                        if (filteredDocs.length > 0) {
+                            // Add kategoria with filtered documents
+                            newOkres.dokumenty_zivotne_prostredie.push({
+                                ...kategoria,
+                                dokumenty: filteredDocs
+                            });
+                        }
+                    }
+                }
+
+                // Only add okres if it has any kategorie with documents
+                if (newOkres.dokumenty_zivotne_prostredie.length > 0) {
+                    newKraj.okresy.push(newOkres);
+                }
+            }
+        }
+
+        // Only add kraj if it has any okresy with documents
+        if (newKraj.okresy.length > 0) {
+            filteredKraje.push(newKraj);
+        }
+    }
+    return filteredKraje;
+}
+
+// Function to enrich document data with content from corresponding analysis.json files
+function enrichDocumentsWithAnalysis(inputData) {
+    // Deep copy the input data to avoid modifying the original imported object/cache
+    const processedData = structuredClone(inputData);
+
+    for (const kraj of processedData) {
+        const krajName = kraj.kraj;
+        if (kraj.okresy) {
+            for (const okres of kraj.okresy) {
+                const okresName = okres.nazov;
+                if (okres.dokumenty_zivotne_prostredie) {
+                    for (const kategoria of okres.dokumenty_zivotne_prostredie) {
+                        if (kategoria.dokumenty) {
+                            for (const doc of kategoria.dokumenty) {
+                                if (doc.url) {
+                                    const urlParts = doc.url.split('?');
+                                    if (urlParts.length > 1) {
+                                        const queryParams = new URLSearchParams(urlParts[1]);
+                                        const suborId = queryParams.get('subor');
+
+                                        if (suborId) {
+                                            // Construct the path to the analysis.json file.
+                                            // The path is relative from index.astro to project_root/data/docs/...
+                                            const analysisFilePath = path.resolve(
+                                                __dirname, // Current file's directory (website/src/pages)
+                                                '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
+                                                'data',
+                                                'docs',
+                                                krajName,
+                                                okresName,
+                                                suborId,
+                                                'analysis.json'
+                                            );
+
+                                            try {
+                                                if (fs.existsSync(analysisFilePath)) {
+                                                    const analysisContent = fs.readFileSync(analysisFilePath, 'utf-8');
+                                                    doc.analyza = JSON.parse(analysisContent);
+                                                } else {
+                                                    doc.analyza = { message: "Analysis file not found." };
+                                                }
+                                            } catch (error) {
+                                                console.error(`Error reading/parsing analysis file ${analysisFilePath}:`, error);
+                                                doc.analyza = { error: `Failed to load analysis: ${error.message}` };
+                                            }
+                                        } else {
+                                            doc.analyza = { message: "'subor' parameter not found in URL." };
+                                        }
+                                    } else {
+                                        doc.analyza = { message: "URL does not contain query parameters." };
+                                    }
+                                } else {
+                                    doc.analyza = { message: "Document has no URL." };
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return processedData;
+}
+
+const OLDEST_DATE_TO_SHOW = getDateStringDaysAgo(7);
+console.log(`Filtering documents newer than or equal to: ${OLDEST_DATE_TO_SHOW}`);
+const rawInputDataFiltered = filterData(rawInputData, OLDEST_DATE_TO_SHOW);
+
+// Process the imported data to include analysis content
+const data = enrichDocumentsWithAnalysis(rawInputDataFiltered);
+console.log('Processed data:', JSON.stringify(data, null, 2));
 ---
 
 <Layout title={pageTitle}>
     <main>
         <h1>{pageTitle}</h1>
         <p>
-            <a href={import.meta.env.BASE_URL + 'last_7_days'} class="btn btn-primary">Zobraz dokumenty za posledných 7 dní</a>
+            <a href={import.meta.env.BASE_URL + 'last_day'} class="btn btn-primary">Zobraz iba dokumenty za posledný deň</a>
         </p>
         {/* Use the component, passing the imported data and other props */}
         <DocumentTable
             id="env-documents-table" {/* Optional: Provide a specific ID */}
             data={data}              {/* Pass the raw imported data */}
+            title={pageTitle}
             description={pageDescription}
         />
         {/* You could potentially add another DocumentTable here with different data/props */}
