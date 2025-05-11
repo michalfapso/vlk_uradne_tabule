@@ -84,11 +84,24 @@ def download_document(doc_url, output_dir, output_filename_nosuffix):
     except Exception as e: # Zachytí akékoľvek iné neočakávané chyby
         print(f"Vyskytla sa neočakávaná chyba pre URL {doc_url}: {e}", file=sys.stderr)
 
+# List of Pandoc-supported file suffixes and their corresponding Pandoc input formats.
+# This mapping is used in the _convert_to_text function.
+PANDOC_FORMAT_MAPPINGS = [
+    # (File Suffix, Pandoc Input Format, Optional Notes)
+    ('.docx', 'docx'),
+    ('.doc', 'rtf'),  # Using 'rtf' for .doc as Pandoc often handles it well this way
+    ('.rtf', 'rtf'),
+    ('.pptx', 'pptx'),
+    ('.ppt', 'ppt'),   # Note: Pandoc's direct .ppt to text conversion might be limited
+    ('.xlsx', 'xlsx'), # Note: Pandoc's direct .xlsx to text conversion might be limited
+    ('.xls', 'xls'),   # Note: Pandoc's direct .xls to text conversion might be limited
+]
+
 def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str) -> str | None:
     """
-    Konvertuje jeden súbor (PDF, DOC, DOCX, TXT) na textový obsah.
-    Pre DOC/DOCX, pandoc výstup je dočasne uložený a potom prečítaný.
-    temp_dir_for_conversion_output sa používa na ukladanie dočasných výstupov pandocu.
+    Konvertuje jeden súbor (PDF, DOC, DOCX, RTF, PPT, PPTX, XLS, XLSX, TXT) na textový obsah.
+    Pre formáty spracovávané Pandocom je výstup dočasne uložený a potom prečítaný.
+    temp_dir_for_conversion_output sa používa na ukladanie dočasných výstupov Pandocu.
     """
     try:
         if not os.path.exists(source_file_path):
@@ -96,16 +109,28 @@ def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str)
             return None
 
         print(f"Pokúšam sa konvertovať súbor na text: {source_file_path}")
-        if source_file_path.lower().endswith('.pdf'):
+        file_lower = source_file_path.lower()
+
+        if file_lower.endswith('.pdf'):
             return extract_text_from_pdf(source_file_path)
-        elif source_file_path.lower().endswith(('.doc', '.docx')):
-            pandoc_format = 'docx' if source_file_path.lower().endswith('.docx') else 'doc'
-            
+        
+        if file_lower.endswith('.txt'):
+            with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f_txt:
+                return f_txt.read()
+
+        # Try Pandoc conversion for other supported formats defined in PANDOC_FORMAT_MAPPINGS
+        pandoc_input_format = None
+        for ext, fmt in PANDOC_FORMAT_MAPPINGS:
+            if file_lower.endswith(ext):
+                pandoc_input_format = fmt
+                break
+        
+        if pandoc_input_format:
             os.makedirs(temp_dir_for_conversion_output, exist_ok=True)
             # Unikátny názov pre dočasný pandoc výstup, aby sa predišlo kolíziám
-            temp_pandoc_md_path = os.path.join(temp_dir_for_conversion_output, f"pandoc_out_{hashlib.md5(source_file_path.encode()).hexdigest()}.md")
+            temp_pandoc_md_path = os.path.join(temp_dir_for_conversion_output, f"pandoc_out_{hashlib.md5(file_lower.encode()).hexdigest()}.md")
 
-            cmd = ['pandoc', '-f', pandoc_format, '-t', 'markdown', '--wrap=none', '-o', temp_pandoc_md_path, source_file_path]
+            cmd = ['pandoc', '-f', pandoc_input_format, '-t', 'markdown', '--wrap=none', '-o', temp_pandoc_md_path, source_file_path]
             print(f"Spúšťam pandoc: {' '.join(cmd)}")
             result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
             
@@ -118,12 +143,10 @@ def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str)
                 print(f"Chyba: Pandoc nevytvoril súbor {temp_pandoc_md_path} alebo je prázdny pre {source_file_path}.", file=sys.stderr)
                 if result.stderr: print(f"Pandoc stderr: {result.stderr}", file=sys.stderr)
                 return None
-        elif source_file_path.lower().endswith('.txt'):
-            with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f_txt:
-                return f_txt.read()
-        else:
-            print(f"Nepodporovaný typ súboru pre priamu konverziu na text: {source_file_path}", file=sys.stderr)
-            return None
+        
+        # If not PDF, TXT, or any Pandoc-supported format from the list
+        print(f"Nepodporovaný typ súboru pre priamu konverziu na text: {source_file_path}", file=sys.stderr)
+        return None
     except FileNotFoundError: # Špecificky pre pandoc
         print(f"Chyba: Príkaz 'pandoc' nebol nájdený. Uistite sa, že je pandoc nainštalovaný a v systémovej PATH.", file=sys.stderr)
         return None
