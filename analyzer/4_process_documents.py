@@ -97,11 +97,11 @@ PANDOC_FORMAT_MAPPINGS = [
     ('.xls', 'xls'),   # Note: Pandoc's direct .xls to text conversion might be limited
 ]
 
-def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str) -> str | None:
+def _convert_to_text(source_file_path: str, output_text_filepath: str) -> bool:
     """
     Konvertuje jeden súbor (PDF, DOC, DOCX, RTF, PPT, PPTX, XLS, XLSX, TXT) na textový obsah.
-    Pre formáty spracovávané Pandocom je výstup dočasne uložený a potom prečítaný.
-    temp_dir_for_conversion_output sa používa na ukladanie dočasných výstupov Pandocu.
+    Výsledný text je uložený priamo do súboru `output_text_filepath`.
+    Vracia True v prípade úspechu, False v prípade neúspechu.
     """
     try:
         if not os.path.exists(source_file_path):
@@ -112,12 +112,24 @@ def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str)
         file_lower = source_file_path.lower()
 
         if file_lower.endswith('.pdf'):
-            return extract_text_from_pdf(source_file_path)
+            text_content = extract_text_from_pdf(source_file_path)
+            if text_content is not None:
+                with open(output_text_filepath, 'w', encoding='utf-8') as f_out:
+                    f_out.write(text_content)
+                return True
+            else:
+                print(f"Extrakcia textu z PDF {source_file_path} zlyhala alebo vrátila None.", file=sys.stderr)
+                return False
         
         if file_lower.endswith('.txt'):
-            with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f_txt:
-                return f_txt.read()
-
+            try:
+                with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f_in, \
+                     open(output_text_filepath, 'w', encoding='utf-8') as f_out:
+                    f_out.write(f_in.read())
+                return True
+            except Exception as e_txt:
+                print(f"Chyba pri kopírovaní TXT súboru {source_file_path} do {output_text_filepath}: {e_txt}", file=sys.stderr)
+                return False
         # Try Pandoc conversion for other supported formats defined in PANDOC_FORMAT_MAPPINGS
         pandoc_input_format = None
         for ext, fmt in PANDOC_FORMAT_MAPPINGS:
@@ -126,37 +138,36 @@ def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str)
                 break
         
         if pandoc_input_format:
-            os.makedirs(temp_dir_for_conversion_output, exist_ok=True)
-            # Unikátny názov pre dočasný pandoc výstup, aby sa predišlo kolíziám
-            temp_pandoc_md_path = os.path.join(temp_dir_for_conversion_output, f"pandoc_out_{hashlib.md5(file_lower.encode()).hexdigest()}.md")
-
-            cmd = ['pandoc', '-f', pandoc_input_format, '-t', 'markdown', '--wrap=none', '-o', temp_pandoc_md_path, source_file_path]
+            # Výstupný adresár pre output_text_filepath by mal byť už vytvorený volajúcim
+            cmd = ['pandoc', '-f', pandoc_input_format, '-t', 'markdown', '--wrap=none', '-o', output_text_filepath, source_file_path]
             print(f"Spúšťam pandoc: {' '.join(cmd)}")
             result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
             
-            if os.path.exists(temp_pandoc_md_path) and os.path.getsize(temp_pandoc_md_path) > 0:
-                with open(temp_pandoc_md_path, 'r', encoding='utf-8') as f_md:
-                    content = f_md.read()
-                os.remove(temp_pandoc_md_path) # Vyčistenie dočasného súboru
-                return content
+            if os.path.exists(output_text_filepath) and os.path.getsize(output_text_filepath) > 0:
+                return True # Úspešne konvertované a uložené
             else:
-                print(f"Chyba: Pandoc nevytvoril súbor {temp_pandoc_md_path} alebo je prázdny pre {source_file_path}.", file=sys.stderr)
+                print(f"Chyba: Pandoc síce bežal, ale nevytvoril súbor {output_text_filepath} alebo je prázdny pre {source_file_path}.", file=sys.stderr)
                 if result.stderr: print(f"Pandoc stderr: {result.stderr}", file=sys.stderr)
-                return None
+                if os.path.exists(output_text_filepath): # Odstrániť prázdny/neúspešný súbor
+                    try:
+                        os.remove(output_text_filepath)
+                    except OSError as e_rm:
+                        print(f"Nepodarilo sa odstrániť neúspešný výstupný súbor {output_text_filepath}: {e_rm}", file=sys.stderr)
+                return False
         
         # If not PDF, TXT, or any Pandoc-supported format from the list
         print(f"Nepodporovaný typ súboru pre priamu konverziu na text: {source_file_path}", file=sys.stderr)
-        return None
+        return False
     except FileNotFoundError: # Špecificky pre pandoc
         print(f"Chyba: Príkaz 'pandoc' nebol nájdený. Uistite sa, že je pandoc nainštalovaný a v systémovej PATH.", file=sys.stderr)
-        return None
+        return False
     except subprocess.CalledProcessError as e:
         print(f"Chyba pri konverzii súboru {source_file_path} pomocou pandoc: {e}\nStdout: {e.stdout}\nStderr: {e.stderr}", file=sys.stderr)
-        return None
+        return False
     except Exception as e:
         print(f"Neočakávaná chyba pri konverzii súboru {source_file_path} na text: {e}", file=sys.stderr)
         traceback.print_exc(file=sys.stderr)
-        return None
+        return False
 
 def analyze(text_content: str):
     """
@@ -331,8 +342,7 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
                     # Tu by bola logika pre RAR, napr. s patoolib
 
                 all_extracted_texts_content = []
-                # Dočasný adresár pre medzivýstupy pandocu z _convert_to_text
-                temp_conversion_output_dir = os.path.join(extracted_dir, "_pandoc_temp")
+                # temp_conversion_output_dir už nie je potrebný pre _convert_to_text
 
                 for item_path in extracted_files_paths_to_process:
                     if os.path.isfile(item_path):
@@ -341,21 +351,20 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
                         sub_item_text_output_dir = os.path.join(extracted_dir, sub_filename_base)
                         os.makedirs(sub_item_text_output_dir, exist_ok=True)
                         
-                        item_text_content = _convert_to_text(item_path, temp_conversion_output_dir)
+                        sub_item_txt_filepath = os.path.join(sub_item_text_output_dir, "text.txt")
+                        conversion_ok = _convert_to_text(item_path, sub_item_txt_filepath)
                         
-                        if item_text_content:
-                            sub_item_txt_filepath = os.path.join(sub_item_text_output_dir, "text.txt")
-                            with open(sub_item_txt_filepath, 'w', encoding='utf-8') as f_sub_out:
-                                f_sub_out.write(item_text_content)
-                            all_extracted_texts_content.append(item_text_content)
+                        if conversion_ok:
+                            with open(sub_item_txt_filepath, 'r', encoding='utf-8') as f_sub_in:
+                                item_text_content_from_file = f_sub_in.read()
+                            all_extracted_texts_content.append(item_text_content_from_file)
                             print(f"Text extrahovaný z {os.path.basename(item_path)} do {sub_item_txt_filepath}")
                         else:
                             print(f"Nepodarilo sa extrahovať text z {os.path.basename(item_path)}.", file=sys.stderr)
                 
-                if os.path.exists(temp_conversion_output_dir): # Vyčistenie dočasného adresára pandocu
-                    shutil.rmtree(temp_conversion_output_dir)
-
                 if all_extracted_texts_content:
+                    # Spojenie textov z jednotlivých súborov v archíve do hlavného text.txt
+                    # (Ak by sme chceli zachovať iba odkazy na jednotlivé text.txt súbory, logika by bola iná)
                     final_concatenated_text = "\n\n--- Nový Súbor v Archíve ---\n\n".join(all_extracted_texts_content)
                     with open(txt_filepath, 'w', encoding='utf-8') as main_txt_file:
                         main_txt_file.write(final_concatenated_text)
@@ -367,14 +376,10 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
                     if os.path.exists(txt_filepath): os.remove(txt_filepath) # Zaistiť, aby neostal starý/prázdny súbor
 
             else: # Nie je archív, priama konverzia
-                temp_single_conversion_dir = os.path.join(output_dir, "_pandoc_temp_single")
-                single_file_text_content = _convert_to_text(orig_file, temp_single_conversion_dir)
-                if os.path.exists(temp_single_conversion_dir):
-                    shutil.rmtree(temp_single_conversion_dir)
+                conversion_ok = _convert_to_text(orig_file, txt_filepath)
 
-                if single_file_text_content:
-                    with open(txt_filepath, 'w', encoding='utf-8') as f_txt:
-                        f_txt.write(single_file_text_content)
+                if conversion_ok:
+                    # _convert_to_text už uložil súbor do txt_filepath
                     text_extraction_successful = True
                     text_was_reextracted_this_run = True
                     print(f"Text úspešne extrahovaný z {orig_file} a uložený do: {txt_filepath}")
