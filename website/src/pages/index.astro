@@ -13,6 +13,9 @@ import { fileURLToPath } from 'node:url';
 // We'll use 3_diff_test.json as specified by the structure requirements.
 import rawInputData from '../../../data/2_uradne_tabule_old.json';
 
+// Import the getDocId function
+import { getDocId } from '../scripts/getDocId.js';
+
 // Define props for the component
 const pageTitle = "Nové dokumenty na úradných tabuliach ŽP za posledných 7 dní";
 const pageDescription = "Zoznam dokumentov pridaných za posledný deň na úradné tabule okresných úradov životného prostredia.";
@@ -92,41 +95,34 @@ function enrichDocumentsWithAnalysis(inputData) {
                         if (kategoria.dokumenty) {
                             for (const doc of kategoria.dokumenty) {
                                 if (doc.url) {
-                                    const urlParts = doc.url.split('?');
-                                    if (urlParts.length > 1) {
-                                        const queryParams = new URLSearchParams(urlParts[1]);
-                                        const suborId = queryParams.get('subor');
+                                    const docId = getDocId(doc.url); // Použitie getDocId
 
-                                        if (suborId) {
-                                            // Construct the path to the analysis.json file.
-                                            // The path is relative from index.astro to project_root/data/docs/...
-                                            const analysisFilePath = path.resolve(
-                                                __dirname, // Current file's directory (website/src/pages)
-                                                '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
-                                                'data',
-                                                'docs',
-                                                krajName,
-                                                okresName,
-                                                suborId,
-                                                'analysis.json'
-                                            );
+                                    if (docId) {
+                                        // Construct the path to the analysis.json file.
+                                        const analysisFilePath = path.resolve(
+                                            __dirname, // Current file's directory (website/src/pages)
+                                            '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
+                                            'data',
+                                            'docs',
+                                            krajName,
+                                            okresName,
+                                            docId, // Použitie docId získaného z getDocId
+                                            'analysis.json'
+                                        );
 
-                                            try {
-                                                if (fs.existsSync(analysisFilePath)) {
-                                                    const analysisContent = fs.readFileSync(analysisFilePath, 'utf-8');
-                                                    doc.analyza = JSON.parse(analysisContent);
-                                                } else {
-                                                    doc.analyza = { message: "Analysis file not found." };
-                                                }
-                                            } catch (error) {
-                                                console.error(`Error reading/parsing analysis file ${analysisFilePath}:`, error);
-                                                doc.analyza = { error: `Failed to load analysis: ${error.message}` };
+                                        try {
+                                            if (fs.existsSync(analysisFilePath)) {
+                                                const analysisContent = fs.readFileSync(analysisFilePath, 'utf-8');
+                                                doc.analyza = JSON.parse(analysisContent);
+                                            } else {
+                                                doc.analyza = { message: `Analysis file not found for docId: ${docId}` };
                                             }
-                                        } else {
-                                            doc.analyza = { message: "'subor' parameter not found in URL." };
+                                        } catch (error) {
+                                            console.error(`Error reading/parsing analysis file ${analysisFilePath}:`, error);
+                                            doc.analyza = { error: `Failed to load analysis: ${error.message}` };
                                         }
                                     } else {
-                                        doc.analyza = { message: "URL does not contain query parameters." };
+                                        doc.analyza = { message: `Could not determine document ID from URL: ${doc.url}` };
                                     }
                                 } else {
                                     doc.analyza = { message: "Document has no URL." };
