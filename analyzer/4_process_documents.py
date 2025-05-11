@@ -1,7 +1,6 @@
 import json
 import requests
 import os
-import urllib.parse
 import sys
 import glob
 import litellm
@@ -14,6 +13,7 @@ import subprocess # Pridaný import pre volanie externých príkazov
 
 # Import funkcie na extrakciu textu z PDF
 from pdf_to_txt import extract_text_from_pdf
+from get_doc_id import get_doc_id
 
 def get_file_suffix(content_type):
     """
@@ -83,41 +83,6 @@ def download_document(doc_url, output_dir, output_filename_nosuffix):
         print(f"Chyba pri zápise súboru {filepath}: {e}", file=sys.stderr)
     except Exception as e: # Zachytí akékoľvek iné neočakávané chyby
         print(f"Vyskytla sa neočakávaná chyba pre URL {doc_url}: {e}", file=sys.stderr)
-
-def get_doc_id(doc_url: str) -> str | None:
-    """
-    Určí ID dokumentu z URL.
-    1. Skúsi parameter 'subor'.
-    2. Skúsi názov súboru z URL cesty.
-    3. Ak neúspešné, vráti hash celej URL.
-    """
-    if not doc_url:
-        return None
-
-    parsed_url = urllib.parse.urlparse(doc_url)
-    query_params = urllib.parse.parse_qs(parsed_url.query)
-
-    # 1. Skontroluj parameter 'subor'
-    if 'subor' in query_params and query_params['subor']:
-        return query_params['subor'][0]
-
-    # 2. Ak názov súboru začína na 'OU-', použij ho
-    path = parsed_url.path
-    if path:
-        filename_with_ext = os.path.basename(path)
-        if filename_with_ext and filename_with_ext.startswith('OU-'):
-            filename_without_ext, ext = os.path.splitext(filename_with_ext)
-            return filename_without_ext
-
-    # 3. Ak nič z vyššie uvedeného, vygeneruj hash z URL
-    try:
-        url_bytes = doc_url.encode('utf-8')
-        hash_object = hashlib.sha256(url_bytes)
-        hex_dig = hash_object.hexdigest()
-        return f"urlhash_{hex_dig[:16]}" # Použije prvých 16 znakov hashu
-    except Exception as e:
-        print(f"Chyba pri generovaní hashu pre URL {doc_url}: {e}", file=sys.stderr)
-        return None
 
 def _convert_to_text(source_file_path: str, temp_dir_for_conversion_output: str) -> str | None:
     """
@@ -312,9 +277,7 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
         text_content_for_analysis = "" 
         text_was_reextracted_this_run = False
 
-        needs_initial_text_extraction_check = changed or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10
-
-        if needs_initial_text_extraction_check:
+        if changed or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
             print(f"Potrebná (re)extrakcia textu pre {doc_id} (orig_changed={changed}, text_path={txt_filepath}).")
             if orig_file.lower().endswith(('.zip', '.rar')): # Spracovanie archívov
                 extracted_dir = os.path.join(output_dir, "extracted")
