@@ -185,42 +185,40 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     summaryContainer.style.whiteSpace = "pre-wrap"; // Remove this if using <pre> for JSON
 
                     let summaryHtml = '';
-                    if (data.has_analysis) {
+                    if (data.analyza) {
                         summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || 'Bez zhrnutia textu.'}<br><br>`; // Add line breaks for spacing
-                        summaryHtml += '<b>docID:</b> ' + (data.docId || 'N/A') + '<br><br>';
+                    }
+                    summaryHtml += '<b>docID:</b> ' + (data.docId || 'N/A') + '<br><br>';
 
-                        if (data.status) {
-                            summaryHtml += `<b>Chyby:</b><br>`;
-                            data.status.forEach((status) => {
-                                summaryHtml += `${status.date} ${window.statusTypeToIcon(status.type)} ${status.text}<br>`;
-                            });
-                            summaryHtml += '<br>';
-                        }
-                        if (data.analyza) {
-                            const detailsElement = document.createElement('details');
-                            const summaryElement = document.createElement('summary');
-                            summaryElement.style.cursor = 'pointer';
-                            summaryElement.style.fontWeight = 'bold';
-                            summaryElement.textContent = 'Kompletná analýza (JSON)';
-                            detailsElement.appendChild(summaryElement);
+                    if (data.status) {
+                        summaryHtml += `<b>Chyby:</b><br>`;
+                        data.status.forEach((status) => {
+                            summaryHtml += `${status.date} ${window.statusTypeToIcon(status.type)} ${status.text}<br>`;
+                        });
+                        summaryHtml += '<br>';
+                    }
+                    if (data.analyza) {
+                        const detailsElement = document.createElement('details');
+                        const summaryElement = document.createElement('summary');
+                        summaryElement.style.cursor = 'pointer';
+                        summaryElement.style.fontWeight = 'bold';
+                        summaryElement.textContent = 'Kompletná analýza (JSON)';
+                        detailsElement.appendChild(summaryElement);
 
-                            const preElement = document.createElement('pre');
-                            preElement.style.whiteSpace = 'pre-wrap'; // Ensure JSON wraps
-                            preElement.style.wordBreak = 'break-all'; // Ensure long strings break
-                            preElement.style.marginTop = '5px'; // Add some space above JSON
-                            try {
-                                preElement.textContent = JSON.stringify(data.analyza, null, 2); // Use 2 spaces for indentation
-                            } catch (e) {
-                                console.error("Chyba pri stringify data.analyza:", data.analyza, e);
-                                preElement.textContent = 'Chyba pri generovaní JSON analýzy.';
-                            }
-                            detailsElement.appendChild(preElement);
-                            summaryContainer.appendChild(detailsElement); // Append details element directly
-                        } else {
-                            summaryHtml += '<strong>Objekt analýzy nie je dostupný.</strong>';
+                        const preElement = document.createElement('pre');
+                        preElement.style.whiteSpace = 'pre-wrap'; // Ensure JSON wraps
+                        preElement.style.wordBreak = 'break-all'; // Ensure long strings break
+                        preElement.style.marginTop = '5px'; // Add some space above JSON
+                        try {
+                            preElement.textContent = JSON.stringify(data.analyza, null, 2); // Use 2 spaces for indentation
+                        } catch (e) {
+                            console.error("Chyba pri stringify data.analyza:", data.analyza, e);
+                            preElement.textContent = 'Chyba pri generovaní JSON analýzy.';
                         }
+                        detailsElement.appendChild(preElement);
+                        summaryContainer.appendChild(detailsElement); // Append details element directly
                     } else {
-                         summaryHtml = 'Bez analýzy.';
+                        summaryHtml += '<strong>Objekt analýzy nie je dostupný.</strong>';
                     }
 
                     // Add the summary text (if any) before the details element
