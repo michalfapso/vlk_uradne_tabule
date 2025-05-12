@@ -1,11 +1,12 @@
 ---
 // src/components/DocumentTable.astro
 import { TabulatorFull as Tabulator } from 'tabulator-tables'; // Import here for type safety if needed, but primarily loaded client-side
+import { statusTypeToIcon } from '../scripts/statusTypeToIcon.js'; // Import utility function for status type to icon mapping
 
 const {
   id = 'document-table', // Default ID
   data = [],             // Default to empty array
-  description = 'Zoznam dokumentov.', // Default description
+  description = 'Zoznam dokumentov:', // Default description
 } = Astro.props;
 
 // --- Príprava dát (moved inside component) ---
@@ -35,8 +36,8 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
 {/* Component's HTML Structure */}
 <div class="document-table-container">
+    <h3>{description}</h3>
     <button id={toggleButtonId} style="width:14rem; margin-bottom: 15px; padding: 8px 12px; cursor: pointer;">Rozbaliť všetky</button>
-    <p>{description}</p>
     {allDocuments.length === 0 ? (
         <p>Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.</p>
     ) : (
@@ -61,6 +62,12 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
       console.log('[DocumentTable] Tabulator loaded onto window.');
   } else {
       console.log('[DocumentTable] Tabulator already exists on window.');
+  }
+
+  import { statusTypeToIcon } from '../scripts/statusTypeToIcon.js'; // Import the utility function
+  // Make statusTypeToIcon available globally
+  if (!window.statusTypeToIcon) {
+      window.statusTypeToIcon = statusTypeToIcon;
   }
 </script>
 
@@ -180,7 +187,15 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     let summaryHtml = '';
                     if (data.has_analysis) {
                         summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || 'Bez zhrnutia textu.'}<br><br>`; // Add line breaks for spacing
+                        summaryHtml += '<b>docID:</b> ' + (data.docId || 'N/A') + '<br><br>';
 
+                        if (data.status) {
+                            summaryHtml += `<b>Status:</b><br>`;
+                            data.status.forEach((status) => {
+                                summaryHtml += `${status.date} ${window.statusTypeToIcon(status.type)} ${status.text}<br>`;
+                            });
+                            summaryHtml += '<br>';
+                        }
                         if (data.analyza) {
                             const detailsElement = document.createElement('details');
                             const summaryElement = document.createElement('summary');

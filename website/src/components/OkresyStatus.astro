@@ -1,0 +1,156 @@
+---
+// src/components/OkresyStatus.astro
+import { TabulatorFull as Tabulator } from 'tabulator-tables'; // Import for type safety, loaded client-side
+import { statusTypeToIcon } from '../scripts/statusTypeToIcon.js'; // Import utility function for status type to icon mapping
+
+const {
+  id = 'okresy-status-table', // Default ID
+  data = [],                   // Default to empty array (this will be statusOkresy)
+  description = 'Prehľad chybových hlásení pre okresy:',
+} = Astro.props;
+
+// --- Príprava dát ---
+// Sploštenie štruktúry dát do jedného poľa stavových hlásení
+const processedStatusMessages = [];
+if (Array.isArray(data)) {
+  data.forEach(krajData => {
+    if (krajData && krajData.okresy && Array.isArray(krajData.okresy)) {
+      krajData.okresy.forEach(okresData => {
+        if (okresData && okresData.status && Array.isArray(okresData.status) && okresData.status.length > 0) {
+          okresData.status.forEach(statusEntry => {
+            if (statusEntry) {
+              processedStatusMessages.push({
+                kraj: krajData.kraj || 'Neznámy kraj',
+                okres: okresData.nazov || 'Neznámy okres',
+                okres_url_tabule: okresData.url_tabule,
+                datum: statusEntry.date,
+                typ: statusEntry.type,
+                sprava: statusEntry.text
+              });
+            }
+          });
+        }
+      });
+    }
+  });
+}
+
+// console.log('[OkresyStatus] Processed status messages:', processedStatusMessages);
+---
+
+{processedStatusMessages.length > 0 && (
+  <div class="status-table-container">
+    <h3>{description}</h3>
+    <div id={id}></div>
+  </div>
+)}
+
+
+{/* Global Tabulator CSS (if not already loaded by another component like DocumentTable) */}
+<style is:global>
+  @import 'tabulator-tables/dist/css/tabulator.min.css';
+</style>
+
+{/* Script to load Tabulator onto the window object */}
+<script>
+  import { TabulatorFull as Tabulator } from 'tabulator-tables';
+  if (!window.Tabulator) {
+      window.Tabulator = Tabulator;
+      console.log('[OkresyStatus] Tabulator loaded onto window.');
+  } else {
+      console.log('[OkresyStatus] Tabulator already exists on window.');
+  }
+</script>
+
+{/* Inline script for Tabulator initialization */}
+<script define:vars={{ tableId: id, tableData: processedStatusMessages }} is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+      if (!window.Tabulator) {
+          console.error(`[OkresyStatus ${tableId}] Tabulator class not found on window object.`);
+          return;
+      }
+
+      const statusMessages = tableData;
+      const container = document.getElementById(tableId);
+
+      if (!container) {
+          return;
+      }
+
+      // Tooltip function (similar to DocumentTable.astro)
+      const fn_tooltip = function(cell){
+          let elementToMeasure = cell.target.closest('.tabulator-cell');
+          if (!elementToMeasure) {
+              elementToMeasure = cell.getElement(); // Fallback to cell's root element
+          }
+
+          if (elementToMeasure) {
+              if (elementToMeasure.scrollWidth > elementToMeasure.clientWidth) {
+                  return cell.getElement().innerText; // Return the cell's full text content
+              }
+          }
+          return ''; // No tooltip if no overflow or element not found
+      };
+
+      // Funkcia na formátovanie dátumu a času
+      const formatClientDateTime = (dateTimeString) => {
+        if (!dateTimeString) return 'N/A';
+        try {
+            const date = new Date(dateTimeString);
+            return date.toLocaleString('sk-SK', {
+                year: 'numeric', month: '2-digit', day: '2-digit',
+                hour: '2-digit', minute: '2-digit', second: '2-digit',
+                hour12: false
+            });
+        } catch (e) {
+            console.error("Chyba pri formátovaní dátumu a času:", dateTimeString, e);
+            return 'Neplatný dátum';
+        }
+      };
+
+      if (statusMessages.length > 0) {
+          const table = new window.Tabulator(`#${tableId}`, {
+              data: statusMessages,
+              layout: "fitDataStretch", // Last column stretches
+              responsiveLayout: "collapse", // Collapse columns if not enough space
+              pagination: "local",
+              paginationSize: 10,
+              paginationSizeSelector: [10, 20, 50, 100],
+              columns: [
+                  { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 150, tooltip: fn_tooltip },
+                  { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
+                      const value = cell.getValue();
+                      const data = cell.getData();
+                      const url = `${data.okres_url_tabule}#popis`;
+                      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
+                  }},
+                  {
+                      title: "Dátum", field: "datum", hozAlign: "left", width: 180, tooltip: fn_tooltip,
+                      formatter: (cell) => formatClientDateTime(cell.getValue()),
+                      // Default string sort on "YYYY-MM-DD HH:MM:SS" is chronological
+                  },
+                  {
+                      title: "Typ", field: "typ", hozAlign: "center", width: 80, tooltip: fn_tooltip,
+                      headerFilter: "select", headerFilterParams: {values: {"error":"Chyba", "warning":"Varovanie", "info":"Info", "":""}},
+                      formatter: (cell) => {
+                          const type = cell.getValue();
+                          return statusTypeToIcon(type);
+                      }
+                  },
+                  { title: "Správa", field: "sprava", hozAlign: "left", headerFilter: "input", minWidth: 300, tooltip: fn_tooltip }
+              ],
+          });
+      }
+  });
+</script>
+
+{/* Scoped component styles */}
+<style>
+  .status-table-container {
+    margin-bottom: 2rem;
+  }
+  .tabulator-cell { /* Ensure text wrapping and breaking similar to DocumentTable */
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
+</style>
