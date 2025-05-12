@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-05-13",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2247",
+              "2246",
+              "2245",
+              "2554",
+              "2580",
+              "375",
+              "C",
+              "373"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Predajná",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1892",
+              "1893",
+              "1894",
+              "1895",
+              "1897",
+              "1898",
+              "1899",
+              "1890",
+              "1900",
+              "1903",
+              "1905",
+              "1996",
+              "1998"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie hospodárskych zvierat",
+    "košarovanie hospodárskych zvierat"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Upovedomenie o začatí správneho konania vo veci žiadosti o vydanie súhlasu na pasenie, napájanie, preháňanie, nocovanie a košarovanie hospodárskych zvierat podľa zákona o ochrane prírody a krajiny. Dotknutými pozemkami sú parcely C-KN v katastrálnych územiach Jasenie a Predajná, okres Brezno. Dokument informuje o možnosti prihlásiť sa do konania v lehote 5 pracovných dní od zverejnenia (13.05.2025)."
+}
