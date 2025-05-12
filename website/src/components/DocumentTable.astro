@@ -190,7 +190,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         summaryHtml += '<b>docID:</b> ' + (data.docId || 'N/A') + '<br><br>';
 
                         if (data.status) {
-                            summaryHtml += `<b>Status:</b><br>`;
+                            summaryHtml += `<b>Chyby:</b><br>`;
                             data.status.forEach((status) => {
                                 summaryHtml += `${status.date} ${window.statusTypeToIcon(status.type)} ${status.text}<br>`;
                             });
@@ -260,7 +260,9 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     { title: "Názov dokumentu", field: "nazov", hozAlign: "left", headerFilter: "input", minWidth: 300, tooltip: fn_tooltip, formatter: (cell) => {
                         const url = cell.getData().url;
                         const nazov = cell.getValue();
-                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
+                        const status = cell.getData().status;
+
+                        return `${status ? window.statusTypeToIcon(status[0].type)+' ' : ''}<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
                     }},
                 ],
             });
