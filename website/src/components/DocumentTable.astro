@@ -22,7 +22,8 @@ const allDocuments = data.flatMap(krajData =>
         okres: okresData.nazov, // Pridanie názvu okresu
         okres_url: okresData.url,
         okres_url_tabule: okresData.url_tabule,
-        has_analysis: !!doc.analyza // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
+        has_analysis: !!doc.analyza, // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
+        doc_kategoria: kategoriaData.kategoria,
       })) || [] // Default to empty array if documents are missing
     ) || [] // Default to empty array if kategoriaData is missing
   ) || [] // Default to empty array if okresy are missing
@@ -262,8 +263,11 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         const url = cell.getData().url;
                         const nazov = cell.getValue();
                         const status = cell.getData().status;
+                        const kategoria = cell.getData().doc_kategoria;
 
-                        return `${status ? window.statusTypeToIcon(status[0].type)+' ' : ''}<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
+                        return `${status ? window.statusTypeToIcon(status[0].type)+' ' : ''}`
+                            + `${kategoria ? `<span>${kategoria}</span> / ` : ''}`
+                            + `<a href="${url}" target="_blank" rel="noopener noreferrer">${nazov}</a>`;
                     }},
                 ],
             });
