@@ -1,0 +1,277 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/017149",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-13",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 8. júla 2025 o 9,30 hod.",
+  "ziadatel_navrhovatel": "Regionálna vodárenská spoločnosť Vlára – Váh, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": [
+      "Ilava",
+      "Trenčín"
+    ],
+    "obec": [
+      "Borčice",
+      "Bolešov",
+      "Kameničany",
+      "Slavnica",
+      "Nemšová"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Borčice",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "93/11",
+              "103/4",
+              "107",
+              "141",
+              "142/3",
+              "156",
+              "157",
+              "266/1",
+              "363",
+              "365/11",
+              "365/12",
+              "365/13",
+              "142/4",
+              "85/1",
+              "86",
+              "85/2"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "223/1",
+              "73/151",
+              "223/2",
+              "225",
+              "73/152",
+              "224/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bolešov",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "909",
+              "910",
+              "59/3",
+              "60/2",
+              "61/28",
+              "61/37",
+              "61/38",
+              "61/39",
+              "61/40",
+              "61/42",
+              "61/44",
+              "61/46",
+              "61/48",
+              "66/1",
+              "191",
+              "195/1",
+              "198",
+              "233",
+              "275",
+              "285",
+              "304",
+              "354",
+              "400/1",
+              "403",
+              "417/5",
+              "417/6",
+              "447",
+              "449/1",
+              "773/3",
+              "773/4",
+              "806",
+              "807",
+              "867/1",
+              "898/1",
+              "899",
+              "942/1",
+              "62/5",
+              "449/4",
+              "449/6",
+              "806/4",
+              "806/5",
+              "940",
+              "942/2",
+              "942/5"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "1-9000/21",
+              "49",
+              "9000/14",
+              "9000/17",
+              "1-9000/20",
+              "94/54",
+              "3/101",
+              "4/1",
+              "4/5",
+              "94/55",
+              "95",
+              "9000/3",
+              "9000/15",
+              "1-9000/10",
+              "1-9000/7",
+              "1-9000/14",
+              "1-9000/13",
+              "1-9000/27",
+              "1-61",
+              "9000/16"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kameničany",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "399",
+              "423/1",
+              "428/1",
+              "429/2",
+              "429/16",
+              "431/1",
+              "34",
+              "37",
+              "82",
+              "190",
+              "280",
+              "302",
+              "343",
+              "388",
+              "394",
+              "395/1",
+              "426",
+              "427",
+              "433",
+              "423/7"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "74/306",
+              "74/106",
+              "1005",
+              "45/102",
+              "66/1",
+              "1004/502",
+              "47",
+              "46/501",
+              "1001/1",
+              "1032",
+              "1001/2",
+              "1010/501",
+              "106/303",
+              "82",
+              "42",
+              "41/2",
+              "1009/2",
+              "1-9000/34",
+              "1003"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Slavnica",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "464/2",
+              "19",
+              "20",
+              "47",
+              "63/3",
+              "75",
+              "111",
+              "120/2",
+              "121",
+              "122/4",
+              "151/10",
+              "152",
+              "153/1",
+              "153/20",
+              "153/24",
+              "186",
+              "187",
+              "269/1",
+              "269/2",
+              "469/1"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "8/200",
+              "9004",
+              "39",
+              "40",
+              "9007",
+              "9038",
+              "19/102",
+              "22",
+              "141/1",
+              "9012",
+              "6/10",
+              "6/16",
+              "8/100",
+              "6/251",
+              "8/101",
+              "9051",
+              "127/18"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nemšová",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "3295",
+              "3296",
+              "3301",
+              "3330"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": []
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Odkanalizovanie mikroregiónu Vlára – Váh a intenzifikácia ČOV Nemšová"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba čerpacej stanice"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Verejná vyhláška oznamuje začatie kolaudačného konania pre vodnú stavbu \"Odkanalizovanie mikroregiónu Vlára – Váh a intenzifikácia ČOV Nemšová\" (kanalizácia a čerpacie stanice) v obciach Borčice, Bolešov, Kameničany, Slavnica a Nemšová (okresy Ilava a Trenčín). Konanie vedie OÚ Trenčín na návrh Regionálnej vodárenskej spoločnosti Vlára – Váh, s.r.o. Súčasťou konania je ústne pojednávanie a miestne zisťovanie dňa 8. júla 2025. Na námietky po tomto termíne sa neprihliadne."
+}
