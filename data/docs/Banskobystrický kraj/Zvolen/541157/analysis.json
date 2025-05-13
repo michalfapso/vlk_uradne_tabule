@@ -1,0 +1,38 @@
+{
+  "cislo_konania_spisu": "011936/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Pliešovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pliešovce-Zaježová",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "10306",
+              "10332/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "čistenie poľnohospodárskych pozemkov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Informácia o začatí konania o žiadosti o výrub 95 ks drevín na parcelách KNC v katastrálnom území Pliešovce-Zaježová, okres Zvolen. Dôvodom je čistenie poľnohospodárskych pozemkov. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia."
+}

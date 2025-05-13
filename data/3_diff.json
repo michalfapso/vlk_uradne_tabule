@@ -1,8 +1,261 @@
 [
   {
+    "kraj": "Banskobystrický kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=1",
+    "okresy": [
+      {
+        "nazov": "Banská Bystrica",
+        "url": "/?okresne-urady-klientske-centra&urad=39",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Dokumenty na stiahnutie",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Rozšírenie verejného vodovodu Kordíky (419,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=541207"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Brezno",
+        "url": "/?okresne-urady-klientske-centra&urad=40",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Posudzovanie vplyvov na životné prostredie",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "EIA02-ROZ-ADA-2025 Rozhodnutie_ Riešenie rozvojovej lokality Dolná Lehota - juh (15,4 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=541165"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lučenec",
+        "url": "/?okresne-urady-klientske-centra&urad=41",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Správne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Zverejnenie informácie o začatí správneho konania č. OU-LC-OSZP-2025/007863 (555,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=41&odbor=10&sekcia=uradna-tabula&subor=541086"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zvolen",
+        "url": "/?okresne-urady-klientske-centra&urad=44",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Výruby ext 134",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "2697964 - Výruby ext 134 (69,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=44&odbor=10&sekcia=uradna-tabula&subor=541157"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Bratislavský kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=2",
+    "okresy": [
+      {
+        "nazov": "Bratislava",
+        "url": "/?okresne-urady-klientske-centra&urad=1",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Oznamy",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Rozhodnutie po nadobudnutí právoplatnosti Územný plán zóny Tehelná ZaD č.1 (442,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541181"
+              },
+              {
+                "datum": "2025-05-13",
+                "nazov": "Informácia pre verejnosť - EIA- Zámer Hotel FT2 Prístavná, Bratislava (133,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541180"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Košický kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=3",
+    "okresy": [
+      {
+        "nazov": "Košice-okolie",
+        "url": "/?okresne-urady-klientske-centra&urad=66",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "IBV 17 RD Bohdanovce - SO 03 Splašková kanalizácia, SO 04 Vodovod, k. ú. Bohdanovce - oznámenie o začatí vodoprávneho konania VEREJNOU VYHLÁŠKOU (178,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=541168"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Trebišov",
+        "url": "/?okresne-urady-klientske-centra&urad=70",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Vyrub internet SVP0525 (128,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=541160"
+              },
+              {
+                "datum": "2025-05-13",
+                "nazov": "Oznámenie SVP 010044 (130,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=541159"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Nitriansky kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=4",
+    "okresy": [
+      {
+        "nazov": "Nitra",
+        "url": "/?okresne-urady-klientske-centra&urad=21",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Životné prostredie",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Zverejnenie konania vo veci vydania súhlasu podľa §6 ods.5 zákona č.543-2002 Z.z. o ochrane prírody a krajiny (123,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=541185"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zlaté Moravce",
+        "url": "/?okresne-urady-klientske-centra&urad=27",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Vodoprávne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Vodoprávne stavebné povolenie na vodnú stavbu SO 301.1 Rozvádzacie vodovodné potrubie, ktorá bude vybudovaná v rámci stavby Obytná zóna Čierne Kľačany-Dolinka (387,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=27&odbor=10&sekcia=uradna-tabula&subor=541221"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Prešovský kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=5",
+    "okresy": [
+      {
+        "nazov": "Bardejov",
+        "url": "/?okresne-urady-klientske-centra&urad=53",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Zverejnené rozhodnutia",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Začatie konania vo veci povolenia užívania vodnej stavby ,,Vetva V1“ ako súčasť hlavnej stavby ,,Rozšírenie verejného vodovodu v obci Kľušov“ a nariadenie ústneho pojednávania spojeného s miestnym zisťovaním - oznámenie verejnou vyhláškou (2,0 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=541212"
+              },
+              {
+                "datum": "2025-05-13",
+                "nazov": "Žiadosť o výrub 5 ks drevín na pozemku podľa registra C KN parc. č. 5355/3 v k. ú. Bardejov (232,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=541150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Stará Ľubovňa",
+        "url": "/?okresne-urady-klientske-centra&urad=57",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Začaté správne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "OU-SL-OSZP-2025/006854 - upovedomenie o začatom správnom konaní vo veci žiadosti o vydanie súhlasu na výrub drevín na pozemku par.č. KN/C 6014 k. ú. Vyšné Ružbachy (143,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=57&odbor=10&sekcia=uradna-tabula&subor=541186"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Svidník",
+        "url": "/?okresne-urady-klientske-centra&urad=59",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejná vyhláška",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "OSŽP - 2025-05-12 - Verejná vyhláška - rozšírenie vodovodu Matovce (331,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=59&odbor=10&sekcia=uradna-tabula&subor=541084"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "kraj": "Trenčiansky kraj",
     "url": "/?okresne-urady-klientske-centra&kraj=6",
     "okresy": [
+      {
+        "nazov": "Považská Bystrica",
+        "url": "/?okresne-urady-klientske-centra&urad=15",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Vodné hospodárstvo",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "S.O.02 - Rozšírenie verejného vodovodu a S.O.03 - Rozšírenie verejnej kanalizácie (528,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=541155"
+              }
+            ]
+          }
+        ]
+      },
       {
         "nazov": "Trenčín",
         "url": "/?okresne-urady-klientske-centra&urad=12",
@@ -14,6 +267,81 @@
                 "datum": "2025-05-13",
                 "nazov": "Oznámenie o začatí kolaudačného konania a nariadenie ústneho pojednávania spojeného s miestnym zisťovaním týkajúce sa vodnej stavby „Odkanalizovanie mikroregiónu Vlára – Váh a intenzifikácia ČOV Nemšová“ (199,3 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=541223"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Trnavský kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=7",
+    "okresy": [
+      {
+        "nazov": "Dunajská Streda",
+        "url": "/?okresne-urady-klientske-centra&urad=6",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "OU-DS-OSZP-2025/017676-003 Hor (PDF, 167 kB)",
+                "url": "https://www.minv.sk/swift_data/source/miestna_statna_sprava/okres_ds/doku/oszp/2025/1305_2025/OU-DS-OSZP-2025_017676-003 Hor.pdf"
+              },
+              {
+                "datum": "2025-05-13",
+                "nazov": "OU-DS-OSZP-2025/017677-003 Hor (PDF, 167 kB)",
+                "url": "https://www.minv.sk/swift_data/source/miestna_statna_sprava/okres_ds/doku/oszp/2025/1305_2025/OU-DS-OSZP-2025_017677-003 Hor.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Trnava",
+        "url": "/?okresne-urady-klientske-centra&urad=5",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Verejná vyhláška OU-TT-OSZP3-2025/034038-002 - Karpatky Dlhá (170,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=541200"
+              }
+            ]
+          },
+          {
+            "kategoria": "Informácie pre verejnosť",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "Informácia pre verejnosť - Zámer - Plán otvárky, prípravy a dobývania vyhradeného ložiska čadiča - Lošonec (228,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=541196"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Žilinský kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=8",
+    "okresy": [
+      {
+        "nazov": "Žilina",
+        "url": "/?okresne-urady-klientske-centra&urad=28",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Technoalpin East Europe, s. r. o. – Areál Technoalpin – Dolný Hričov – vodné stavby",
+            "dokumenty": [
+              {
+                "datum": "2025-05-13",
+                "nazov": "2025_034592_008 (330,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=28&odbor=10&sekcia=uradna-tabula&subor=541217"
               }
             ]
           }

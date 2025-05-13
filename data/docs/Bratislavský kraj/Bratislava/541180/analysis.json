@@ -1,0 +1,35 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "INVEST 46 a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Bratislava-Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Prístavná, Bratislava"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o zisťovacom konaní",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba garáže",
+    "výstavba komunikácie",
+    "výstavba technickej infraštruktúry",
+    "inštalácia zdroja znečisťovania ovzdušia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o zisťovacom konaní pre zámer výstavby hotela, garáže, komunikácií a infraštruktúry na Prístavnej ulici v Bratislave-Ružinove, k.ú. Nivy. Dokument nespomína dotknuté chránené územia ani druhy."
+}

@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/000815",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2025/000815-007",
+  "datum_dokumentu": "2025-05-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "PB INVCT s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "6004",
+              "2832/221",
+              "2832/42",
+              "2832/222",
+              "2832/258"
+            ]
+          },
+          {
+            "typ": "KNE",
+            "cisla": [
+              "6004"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Šurabová"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie verejného vodovodu",
+    "rozšírenie verejnej kanalizácie"
+  ],
+  "typ_uzemia": [
+    "inundačné územie",
+    "ochranné pásmo vodného toku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie rozhodnutia o stavebnom povolení na rozšírenie verejného vodovodu a kanalizácie pre PB INVCT s.r.o. v Považskej Bystrici, lokalita Šurabová, na uvedených parcelách. Časť stavby zasahuje do inundačného územia a ochranného pásma vodného toku Domanižanka. Dokument neuvádza konkrétne chránené druhy."
+}
