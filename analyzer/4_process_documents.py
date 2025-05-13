@@ -627,17 +627,17 @@ def process_json_file(json_filepath_in, json_filepath_out, docs_dir, skip_analys
 
 if __name__ == "__main__":
     # TEST:
-    print(f"Spúšťam test")
-    doc_id, analysis = process_document(
-        'Banskobystrický kraj',
-        'Banská Bystrica',
-        'https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=540792',
-        # 'https://www.minv.sk/?okresne-urady-klientske-centra&urad=51&odbor=10&sekcia=uradna-tabula&subor=540951', # zip
-        '../data/docs_test',
-        skip_analysis=False # Alebo True, ak chces testovat len stahovanie/extrakciu
-    )
-    print(f"Test - Returned DOC_ID: {doc_id}, Result: {analysis}")
-    exit(0)
+    # print(f"Spúšťam test")
+    # doc_id, analysis = process_document(
+    #     'Banskobystrický kraj',
+    #     'Banská Bystrica',
+    #     'https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=540792',
+    #     # 'https://www.minv.sk/?okresne-urady-klientske-centra&urad=51&odbor=10&sekcia=uradna-tabula&subor=540951', # zip
+    #     '../data/docs_test',
+    #     skip_analysis=False # Alebo True, ak chces testovat len stahovanie/extrakciu
+    # )
+    # print(f"Test - Returned DOC_ID: {doc_id}, Result: {analysis}")
+    # exit(0)
 
     parser = argparse.ArgumentParser(description="Spracuje JSON súbor s dokumentmi, stiahne ich, extrahuje text a voliteľne analyzuje.")
     parser.add_argument('--input', required=True, help='Cesta k vstupnému JSON súboru.')
