@@ -3,19 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import OkresyStatus from '../components/OkresyStatus.astro';
 import DocumentTable from '../components/DocumentTable.astro';
 // Import dát vygenerovaných Python skriptom
-// import data from '../../../data/4_diff_analysis.json';
+// import data from '../../../data/minv/4_diff_analysis.json';
 
 // Import Node.js built-in modules for file system and path manipulation
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// Import zoznam okresov
-import zoznamOkresovData from '../../../data/1_zoznam_okresov.json';
-
 // Import the initial JSON data.
 // We'll use 3_diff_test.json as specified by the structure requirements.
-import rawInputData from '../../../data/2_uradne_tabule_old.json';
+import rawInputData from '../../../data/minv/2_uradne_tabule_old.json';
 
 // Import the getDocId function
 import { getDocId } from '../scripts/getDocId.js';
@@ -227,7 +224,7 @@ for (const kraj of okresyStatus) {
             }
         }
     } else if (!krajName) {
-        console.warn("Kraj v 'zoznamOkresovData' nemá definovaný názov (kraj.kraj). Preskakujem načítanie statusov pre jeho okresy.");
+        console.warn("Kraj v 'rawInputData' nemá definovaný názov (kraj.kraj). Preskakujem načítanie statusov pre jeho okresy.");
     }
 }
 // Pre ucely ladenia mozes odkomentovat nasledujuci riadok:

@@ -52,29 +52,29 @@ jobs:
         working-directory: ./analyzer # Run this command in the analyzer directory
 
       - name: 1. Get list of districts
-        run: python 1_zoznam_okresov.py > ../data/1_zoznam_okresov.json
+        run: python minv/1_zoznam_okresov.py > ../data/minv/1_zoznam_okresov.json
         working-directory: ./analyzer # Run this command in the analyzer directory
 
       - name: Upload District List Artifact
         uses: actions/upload-artifact@v4
         with:
           name: 1-district-list
-          path: ./data/1_zoznam_okresov.json
+          path: ./data/minv/1_zoznam_okresov.json
 
       - name: 2. Get official board contents
-        run: python 2_uradne_tabule.py --input ../data/1_zoznam_okresov.json --output ../data/2_uradne_tabule.json
+        run: python minv/2_uradne_tabule.py --input ../data/minv/1_zoznam_okresov.json --output ../data/minv/2_uradne_tabule.json
         working-directory: ./analyzer # Run this command in the analyzer directory
 
       - name: Upload Board Contents Artifact
         uses: actions/upload-artifact@v4
         with:
           name: 2-board-contents
-          path: ./data/2_uradne_tabule.json
+          path: ./data/minv/2_uradne_tabule.json
 
       - name: 3. Diff new vs old board contents
         # Use || true because this step might fail if the _old file doesn't exist on the first run, but we want to continue.
         # Subsequent steps should handle an empty diff file gracefully.
-        run: python 3_diff.py --old ../data/2_uradne_tabule_old.json --new ../data/2_uradne_tabule.json > ../data/3_diff.json || true
+        run: python minv/3_diff.py --old ../data/minv/2_uradne_tabule_old.json --new ../data/minv/2_uradne_tabule.json > ../data/minv/3_diff.json || true
         working-directory: ./analyzer # Run this command in the analyzer directory
 
       - name: Upload Board Diff Artifact
@@ -83,25 +83,25 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: 3-board-diff
-          path: ./data/3_diff.json
+          path: ./data/minv/3_diff.json
 
       - name: 4. Process new documents (convert, analyze)
-        run: python 4_process_documents.py --input ../data/3_diff.json --docs-dir ../data/docs
+        run: python minv/4_process_documents.py --input ../data/minv/3_diff.json --docs-dir ../data/docs
         working-directory: ./analyzer # Run this command in the analyzer directory
         env:
           # Pass the Gemini API key secret to the script's environment
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Upload Diff Analysis Artifact
-        # Upload even if the processing step had issues
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: 4-diff-analysis
-          path: ./data/4_diff_analysis.json
+      # - name: Upload Diff Analysis Artifact
+      #   # Upload even if the processing step had issues
+      #   if: always()
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: 4-diff-analysis
+      #     path: ./data/4_diff_analysis.json
 
       - name: 5. Archive current board contents for next diff
-        run: mv ../data/2_uradne_tabule.json ../data/2_uradne_tabule_old.json
+        run: mv ../data/minv/2_uradne_tabule.json ../data/minv/2_uradne_tabule_old.json
         working-directory: ./analyzer # Run this command in the analyzer directory
 
       - name: Commit and Push Data Changes
