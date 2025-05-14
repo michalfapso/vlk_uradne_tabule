@@ -1,0 +1,203 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa národného parku Malá Fatra so sídlom vo Varíne",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Dolný Kubín",
+    "obec": "Istebné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Tižina",
+        "parcely": []
+      },
+      {
+        "nazov": "Krasňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Nezbudská Lúčka",
+        "parcely": []
+      },
+      {
+        "nazov": "Terchová",
+        "parcely": []
+      },
+      {
+        "nazov": "Varín",
+        "parcely": []
+      },
+      {
+        "nazov": "Istebné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kraľovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Párnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Zázrivá",
+        "parcely": []
+      },
+      {
+        "nazov": "Lipovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Šútovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Turany",
+        "parcely": []
+      },
+      {
+        "nazov": "Turčianske Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Kubínska hoľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Veličná",
+        "parcely": []
+      },
+      {
+        "nazov": "Hruštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravská Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Žaškov",
+        "parcely": []
+      },
+      {
+        "nazov": "Strečno",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Tižina",
+        "parcely": []
+      },
+      {
+        "nazov": "Ratkovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Stankovany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Národný park Malá Fatra a jeho ochranné pásmo"
+  },
+  "typ_dokumentu": "Projekt ochrany",
+  "typ_zasahu": [
+    "manažment lesov",
+    "manažment nelesných biotopov",
+    "manažment vôd",
+    "regulácia aktivít návštevníkov",
+    "regulácia výstavby a infraštruktúry",
+    "regulácia poľovníctva a rybárstva",
+    "regulácia používania chemických látok"
+  ],
+  "typ_uzemia": [
+    "Národný park",
+    "ochranné pásmo",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Prírodná pamiatka",
+    "Chránený areál",
+    "Územie európskeho významu (SKUEV)",
+    "Chránené vtáčie územie (SKCHVU)",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "kyjanôčka zelená",
+    "zvonček hrubokoreňový",
+    "črievičník papučkový",
+    "klinček lesklý",
+    "poniklec slovenský",
+    "vrchovka karpatská",
+    "tis obyčajný",
+    "pimprlík mokraďový",
+    "pimprlík močiarny",
+    "korýtko riečne",
+    "fuzáč alpský",
+    "fuzáč karpatský",
+    "bystruška potočná",
+    "plocháč červený",
+    "roháč obyčajný",
+    "pralesník oranžovoštíty",
+    "drevník ryhovaný",
+    "boros Schneiderov",
+    "jasoň chochlačkový",
+    "spriadač kostihojový",
+    "kunka žltobruchá",
+    "mlok karpatský",
+    "mlok hrebenatý",
+    "ropucha zelená",
+    "rosnička zelená",
+    "užovka hladká",
+    "užovka stromová",
+    "užovka fŕkaná",
+    "hlavátka podunajská",
+    "hlaváč bieloplutvý",
+    "pôtik kapcavý",
+    "výr skalný",
+    "kuvičok vrabčí",
+    "sova dlhochvostá",
+    "orol skalný",
+    "sokol sťahovavý",
+    "včelár lesný",
+    "bocian čierny",
+    "chrapkáč poľný",
+    "ďateľ bielochrbtý",
+    "ďateľ hnedkavý",
+    "tesár čierny",
+    "ďubník trojprstý",
+    "žlna sivá",
+    "muchárik bielokrký",
+    "muchárik malý",
+    "strakoš obyčajný",
+    "hlucháň hôrny",
+    "jariabok hôrny",
+    "tetrov hoľniak",
+    "lelek lesný",
+    "podkovár veľký",
+    "podkovár malý",
+    "netopier Bechsteinov",
+    "netopier veľký",
+    "uchaňa čierna",
+    "rys ostrovid",
+    "vlk dravý",
+    "vydra riečna",
+    "medveď hnedý",
+    "ichtyofauna",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument predstavuje projekt ochrany Národného parku Malá Fatra a jeho ochranného pásma. Navrhuje zonáciu územia (2. až 5. stupeň ochrany) a stanovuje pravidlá pre rôzne činnosti ako manažment lesov, nelesných biotopov, vôd, regulácia návštevníkov, výstavby, poľovníctva a používania chemických látok. Predmetom ochrany sú špecifické biotopy a druhy európskeho a národného významu vrátane veľkých šeliem, vtákov, hmyzu a rastlín. Územie sa nachádza v Žilinskom kraji a zasahuje do okresov Dolný Kubín, Martin, Žilina, Námestovo a Ružomberok."
+}

@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/345464-019",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/345464-019",
+  "datum_dokumentu": "2025-04-10",
+  "datum_zverejnenia": "2025-05-14",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "FIZZ – t, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava V",
+    "obec": "Bratislava-Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3694/29",
+              "3694/119",
+              "3694/497",
+              "3694/642",
+              "3694/630",
+              "3694/631"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "bývalom priemyselnom areáli Matador"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výrub drevín",
+    "výsadba zelene",
+    "modrozelená infraštruktúra",
+    "vodné hospodárenie"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "navrhovaný regionálny biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáky",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/fizz-park-polyfunkcny-komplex",
+  "zhrnutie": "Rozhodnutie Okresného úradu Bratislava v zisťovacom konaní pre zámer „FIZZ PARK – POLYFUNKČNÝ KOMPLEX“ v Bratislave-Petržalke (bývalý areál Matador) stanovuje, že zámer sa nebude posudzovať podľa zákona EIA pri dodržaní stanovených podmienok. Podmienky zahŕňajú výrub drevín mimo hniezdneho obdobia vtákov, náhradnú výsadbu, realizáciu modrozelenej infraštruktúry a vsakovanie zrážkovej vody. Lokalita sa nachádza v 1. stupni územnej ochrany a v navrhovanom regionálnom biokoridore, ale nie v špecifických chránených územiach ani Natura 2000."
+}

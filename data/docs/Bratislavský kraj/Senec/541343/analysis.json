@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/004118-017",
+  "cislo_rozhodnutia": "OU-SC-OSZP-2025/004118-017",
+  "datum_dokumentu": "2025-05-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Villas Bau s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Senec",
+    "obec": "Hrubá Borša",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrubá Borša",
+        "parcely": [
+          {
+            "typ": "Neuvedené",
+            "cisla": [
+              "194/4",
+              "194/173",
+              "194/174"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Rodinný park Hrubá Borša"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba rodinných domov",
+    "výstavba inžinierskych sietí",
+    "záber poľnohospodárskej pôdy",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "Chránená vodohospodárska oblasť Žitný ostrov",
+    "ochranné pásmo vodárenského zdroja",
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/rodinny-park-hruba-borsa",
+  "zhrnutie": "Rozhodnutie Okresného úradu Senec zo zisťovacieho konania, ktoré určuje, že zámer \"Rodinný park Hrubá Borša\" (výstavba 43 rodinných domov a infraštruktúry) v obci Hrubá Borša na parcelách 194/4, 194/173, 194/174 nebude posudzovaný podľa zákona o EIA za stanovených podmienok. Lokalita sa nachádza v CHVO Žitný ostrov a ochrannom pásme vodárenského zdroja, pod 1. stupňom ochrany."
+}
