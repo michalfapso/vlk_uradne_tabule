@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/001277-010",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/001277-0084430/2025",
+  "datum_dokumentu": "2025-05-15",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Lehota na vyjadrenie/vstup do konania k oznámeniu uplynula (8 pracovných dní od doručenia oznámenia). Lehota na odvolanie proti tomuto rozhodnutiu je 15 dní od jeho doručenia.",
+  "ziadatel_navrhovatel": "Obec Cífer",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Cífer",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Cífer",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1026",
+              "1027",
+              "1018/5",
+              "976",
+              "569/3",
+              "975",
+              "950/1",
+              "970",
+              "971",
+              "972",
+              "973",
+              "974",
+              "10708/1",
+              "10722"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "423/101",
+              "978",
+              "827/2",
+              "979/1",
+              "979/2",
+              "423/1",
+              "424",
+              "722"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kaplnská ulica"
+  },
+  "typ_dokumentu": "Povolenie na uskutočnenie vodnej stavby - verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby (vodovod)",
+    "rozšírenie vodovodu",
+    "výkopové práce",
+    "križovanie vodného toku"
+  ],
+  "typ_uzemia": [
+    "I. stupeň územnej ochrany",
+    "regionálny biokoridor",
+    "vodný tok (Gidra)",
+    "brehové porasty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je povolením na uskutočnenie vodnej stavby (rozšírenie vodovodu na Kaplanskej ulici) v obci Cífer. Stavba sa nachádza na území s I. stupňom územnej ochrany, dotýka sa regionálneho biokoridoru Gidra a križuje vodný tok Gidra. Dokument obsahuje podmienky pre realizáciu, vrátane potenciálneho výrubu drevín a archeologického výskumu."
+}

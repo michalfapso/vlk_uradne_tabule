@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/005982-040",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-15",
+  "datum_zverejnenia": "2025-05-15",
+  "lehoty_na_vyjadrenie": "do 15 dní od zverejnenia (pre dotknutú verejnosť)",
+  "ziadatel_navrhovatel": "FS Stone s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský samosprávny kraj",
+    "okres": "Senec",
+    "obec": "Most pri Bratislave",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Most pri Bratislave",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2409/1",
+              "2409/19",
+              "2409/20"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zelená voda"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "spätná rekultivácia",
+    "zásyp odpadmi",
+    "úprava terénu",
+    "výstavba prístupovej cesty"
+  ],
+  "typ_uzemia": [
+    "Chránená vodohospodárska oblasť Žitný ostrov",
+    "Územie európskeho významu SKUEV0822 Malý Dunaj",
+    "2. stupeň ochrany",
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "syseľ pasienkový",
+    "vydra riečna",
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/spatna-rekultivacia-uzemia-vykopu-v-k-u-most-pri-bratislave",
+  "zhrnutie": "Tento dokument je záväzným stanoviskom zo zisťovacieho konania EIA pre navrhovanú činnosť \"Spätná rekultivácia územia výkopu\" (zasypávanie neoprávnenej štrkovej jamy) v Moste pri Bratislave. Lokalita sa nachádza v CHVO Žitný ostrov a v blízkosti SKUEV Malý Dunaj (2. stupeň ochrany) s výskytom chránených druhov (bobor vodný, syseľ pasienkový). Dokument konštatuje, že kvôli významným potenciálnym negatívnym vplyvom, najmä na podzemné vody a zdravie obyvateľov, je potrebné, aby sa navrhovaná činnosť posudzovala v plnom rozsahu podľa zákona EIA."
+}
