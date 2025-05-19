@@ -1,18 +1,6 @@
-cd analyzer
-
-# Get the list of districts (kraje a ich okresy) from the official website.
-python3 1_zoznam_okresov.py > ../data/1_zoznam_okresov.json
-
-# Get the official board contents (documents list) from each district's enviromental office.
-python3 2_uradne_tabule.py --input ../data/1_zoznam_okresov.json --output ../data/2_uradne_tabule.json
-
-# Diff previous json with the current one to see which documents were added.
-python3 3_diff.py --old ../data/2_uradne_tabule_old.json --new ../data/2_uradne_tabule.json > ../data/3_diff.json
-
-# For each new document, convert it to text, analyze via LLM and generate a json.
-python3 4_process_documents.py --input ../data/3_diff.json --output ../data/4_diff_analysis.json --docs-dir ../data/docs
-
-mv ../data/2_uradne_tabule.json ../data/2_uradne_tabule_old.json
+Parsing and analyzing documents from the official Slovak government website
+- analyzer/minv
+- analyzer/minzp
 
 #--------------------------------------------------
 # Meta analysis - The idea is to provide examples of multiple documents to LLM and ask it to create a prompt for itself.
