@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-ZA-A0-A0/0",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024-04-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Juraj ...",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prievidza",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "++H-B+",
+              "++H-B+--",
+              "++H-B+-+",
+              "++H-B+c+"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zátfan",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "+0-",
+              "A--",
+              "A0-",
+              "0--",
+              "+-"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "úprava vodného toku",
+    "úprava brehových porastov"
+  ],
+  "typ_uzemia": [
+    "3. stupeň ochrany",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené živočíchy",
+    "chránené rastliny"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument oznamuje konanie vo veci výrubu drevín na pozemkoch v katastrálnych územiach Prievidza a Zátfan, vrátane úpravy vodného toku a brehových porastov. Realizácia sa dotýka 3. stupňa ochrany a ochranného pásma, pričom sa spomína vzťah konania k chráneným živočíchom a rastlinám."
+}

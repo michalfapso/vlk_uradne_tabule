@@ -1,0 +1,40 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-05-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "KSR-Kamenołomy SR, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": "Kráľovce-Krnišov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krnišov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1584/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lom Tepličky (DP Krnišov)"
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "využívanie odpadov na spätné zasypávanie",
+    "úprava terénu",
+    "likvidácia lomu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je žiadosťou spoločnosti KSR-Kamenołomy SR, s.r.o. o súhlas na využívanie stavebných odpadov (zemina, kamenivo) na spätné zasypávanie a úpravu terénu v rámci likvidácie časti lomu Tepličky (DP Krnišov). Realizácia je plánovaná na pozemku C-KN 1584/2 v k.ú. Krnišov, obec Kráľovce-Krnišov, okres Krupina. Dokument nespomína dotknuté chránené územia ani chránené druhy."
+}

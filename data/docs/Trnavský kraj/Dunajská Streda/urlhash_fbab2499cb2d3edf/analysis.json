@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "SVP 5929/2025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-03-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Dunajská Streda",
+    "obec": "Dunajská Klátov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dunajská Klátov",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "185/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "melioračnom kanáli pri Starom Klátovskom kanáli"
+  },
+  "typ_dokumentu": "Oznámenie o odstraňovaní drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "orez drevín"
+  ],
+  "typ_uzemia": [
+    "CHKO Dunajské Luhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba sp.",
+    "topoľ sp.",
+    "ruža šípová",
+    "malina ostružina",
+    "baza čierna"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK oznamuje odstraňovanie drevín (výrub stromov a krovitého porastu) pri melioračnom kanáli pri Starom Klátovskom kanáli v katastrálnom území Dunajská Klátov z dôvodu bezpečnosti. Dokument bol zaslaný Okresnému úradu Dunajská Streda a ŠOP SR, Správe CHKO Dunajské Luhy."
+}
