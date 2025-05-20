@@ -11,74 +11,87 @@
             "kategoria": "Dokumenty na stiahnutie",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Informácie pre verejnosť (560,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=541682",
-                "doc_id": "541682",
+                "datum": "2025-05-20",
+                "nazov": "Rozhodnutie - vodovod Suchý vrch Pod Flosom 1 (443,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=541930",
+                "doc_id": "541930",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-BB-OSZP2-2025/026604",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": null,
-                  "datum_zverejnenia": "2025-05-16",
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": "KSR – Kameňolomy SR, s.r.o.",
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": null,
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Zverejnenie informácií podľa § 38 ods. 2 zákona EIA",
-                  "typ_zasahu": [
-                    "spätné zasypávanie terénu",
-                    "využívanie odpadov"
-                  ],
-                  "typ_uzemia": [
-                    "neviem"
-                  ],
-                  "je_v_chranenom_uzemi": null,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/efektivne-vyuzivanie-odpadov-na-spatne-zasypavanie-terenu",
-                  "zhrnutie": "Oznámenie o zverejnení informácií podľa zákona EIA o projekte 'Efektívne využívanie odpadov na spätné zasypávanie terénu' od navrhovateľa KSR – Kameňolomy SR, s.r.o.. Dokument obsahuje odkaz na detaily na enviroportáli. Miesto realizácie ani dotknuté územia či druhy nie sú v tomto dokumente špecifikované."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o udelenie súhlasu (1,2 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=541683",
-                "doc_id": "541683",
-                "analyza": {
-                  "cislo_konania_spisu": null,
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2023-05-14",
+                  "cislo_konania_spisu": "OU-BB-OSZP2-2025/000793-139",
+                  "cislo_rozhodnutia": "OU-BB-OSZP2-2025/000793-139",
+                  "datum_dokumentu": "2025-05-20",
                   "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": "KSR-Kamenołomy SR, s.r.o.",
+                  "lehoty_na_vyjadrenie": "do 15 dní od doručenia (posledný deň 15-dňového vyvesenia verejnej vyhlášky)",
+                  "ziadatel_navrhovatel": "Flos finance, s.r.o., MB TECH BB, s.r.o.",
                   "miesto_realizacie": {
                     "kraj": "Banskobystrický kraj",
-                    "okres": "Krupina",
-                    "obec": "Kráľovce-Krnišov",
+                    "okres": "Banská Bystrica",
+                    "obec": "Banská Bystrica, Malachov",
                     "katastralne_uzemia": [
                       {
-                        "nazov": "Krnišov",
+                        "nazov": "Radvaň",
                         "parcely": [
                           {
                             "typ": "C-KN",
                             "cisla": [
-                              "1584/2"
+                              "4007/1",
+                              "4007/12",
+                              "4007/38",
+                              "3693/104",
+                              "3693/3",
+                              "3681/362",
+                              "5030/278",
+                              "3681/391",
+                              "5030/5",
+                              "3681/792",
+                              "3684/1",
+                              "3684/7",
+                              "2855/2",
+                              "4168/10",
+                              "2850/1",
+                              "4056/1",
+                              "4007/66"
+                            ]
+                          },
+                          {
+                            "typ": "E-KN",
+                            "cisla": [
+                              "642/1",
+                              "389/1",
+                              "382/2",
+                              "380/1",
+                              "493/1",
+                              "483/2",
+                              "840/1",
+                              "1065/3",
+                              "484/1",
+                              "642/3",
+                              "642/2",
+                              "1061"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "nazov": "Malachov",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "408/2"
                             ]
                           }
                         ]
                       }
                     ],
-                    "nazov_lokality": "Lom Tepličky (DP Krnišov)"
+                    "nazov_lokality": "Obytný súbor Suchý vrch – pod Flosom"
                   },
-                  "typ_dokumentu": "Žiadosť",
+                  "typ_dokumentu": "Rozhodnutie - kolaudačné povolenie a zmeny stavby",
                   "typ_zasahu": [
-                    "využívanie odpadov na spätné zasypávanie",
-                    "úprava terénu",
-                    "likvidácia lomu"
+                    "výstavba vodnej stavby (vodovod)",
+                    "pretláčanie",
+                    "výkop",
+                    "zásah do vodného toku (kríženie)",
+                    "vyústenie do vodného toku"
                   ],
                   "typ_uzemia": [
                     "neviem"
@@ -86,7 +99,7 @@
                   "je_v_chranenom_uzemi": false,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument je žiadosťou spoločnosti KSR-Kamenołomy SR, s.r.o. o súhlas na využívanie stavebných odpadov (zemina, kamenivo) na spätné zasypávanie a úpravu terénu v rámci likvidácie časti lomu Tepličky (DP Krnišov). Realizácia je plánovaná na pozemku C-KN 1584/2 v k.ú. Krnišov, obec Kráľovce-Krnišov, okres Krupina. Dokument nespomína dotknuté chránené územia ani chránené druhy."
+                  "zhrnutie": "Rozhodnutie Okresného úradu Banská Bystrica o dodatočnom povolení, povolení zmeny a kolaudácii vodnej stavby - rozšírenia verejného vodovodu pre obytný súbor Suchý vrch – pod Flosom v katastrálnych územiach Radvaň a Malachov. Dokument rieši a zamietava námietky účastníkov k stavbe a procesu EIA."
                 }
               }
             ]
@@ -94,86 +107,204 @@
         ]
       },
       {
-        "nazov": "Žiar nad Hronom",
-        "url": "/?okresne-urady-klientske-centra&urad=45",
+        "nazov": "Brezno",
+        "url": "/?okresne-urady-klientske-centra&urad=40",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "ou-zh-oszp-2025/ 001538-006 rekonštrukcia a dobudovanie vodovodu v k.ú. Ladomer, Ladomerská Vieska.",
+            "kategoria": "Ochrana prírody a krajiny",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "ou-zh-oszp-2025/ 001538-006 rekonštrukcia a dobudovanie vodovodu v k.ú. Ladomer, Ladomerská Vieska. (535,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=541760",
-                "doc_id": "541760",
+                "datum": "2025-05-20",
+                "nazov": "SK11- MED-2025, Polianka - § 13 ods. 2 písm. k), l), n), d) v k.ú. Horná Lehota (178,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=541917",
+                "doc_id": "541917",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-ZH-OSZP-2025/001538",
-                  "cislo_rozhodnutia": "OU-ZH-OSZP-2025/0025486/2025",
-                  "datum_dokumentu": "2025-05-15",
-                  "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 20. júna 2025",
-                  "ziadatel_navrhovatel": "Obec Ladomerská Vieska",
+                  "cislo_konania_spisu": null,
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": null,
+                  "datum_zverejnenia": "2025-05-20",
+                  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+                  "ziadatel_navrhovatel": "Polianka,, s.r.o.",
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": "Žiar nad Hronom",
-                    "obec": "Ladomerská Vieska",
+                    "okres": "Brezno",
+                    "obec": "Horná Lehota",
                     "katastralne_uzemia": [
                       {
-                        "nazov": "Ladomer",
+                        "nazov": "Horná Lehota",
+                        "parcely": []
+                      }
+                    ],
+                    "nazov_lokality": null
+                  },
+                  "typ_dokumentu": "Oznámenie o začatí konania",
+                  "typ_zasahu": [
+                    "výstavba oplotenia"
+                  ],
+                  "typ_uzemia": [
+                    "neviem"
+                  ],
+                  "je_v_chranenom_uzemi": false,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Dokument informuje o začatí konania o žiadosti spoločnosti Polianka,, s.r.o. o súhlas na oplotenie pozemku za hranicami zastavaného územia obce v katastrálnom území Horná Lehota. Konanie sa vedie podľa zákona o ochrane prírody a krajiny. Verejnosť sa môže prihlásiť do konania do 5 pracovných dní od zverejnenia."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lučenec",
+        "url": "/?okresne-urady-klientske-centra&urad=41",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Správne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Rozhodnutie č. OÚ-LC-OSZP-2025/002058-009 vydané podľa § 26 ods. 1 a 4 vodného zákona na vodnú stavbu „Vodovod pre obec Fiľakovské Kováče“ (461,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=41&odbor=10&sekcia=uradna-tabula&subor=541862",
+                "doc_id": "541862",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-LC-OSZP-2025/002058-009",
+                  "cislo_rozhodnutia": "OU-LC-OSZP-2025/002058-0024238/2025",
+                  "datum_dokumentu": "2025-05-09",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "najneskôr do 04.06.2025, inak sa k nim nebude prihliadať",
+                  "ziadatel_navrhovatel": "Obec Fiľakovské Kováče",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Lučenec",
+                    "obec": "Fiľakovské Kováče",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Fiľakovské Kováče",
                         "parcely": [
                           {
-                            "typ": "CKN",
+                            "typ": "C-KN",
                             "cisla": [
-                              "913",
-                              "914",
-                              "912",
-                              "932",
-                              "975",
-                              "1075",
-                              "1033",
-                              "1078/1",
-                              "1081",
-                              "1096",
-                              "1117",
-                              "471/102",
-                              "471/28",
-                              "1488",
-                              "473/9",
-                              "473/27",
-                              "473/26",
-                              "1460",
-                              "1420",
-                              "1466/1",
-                              "1421",
-                              "1416",
-                              "1417",
-                              "237"
+                              "564/1",
+                              "565/18",
+                              "567/1",
+                              "569/1",
+                              "580/1",
+                              "643",
+                              "848/1",
+                              "885/3",
+                              "866",
+                              "867/1",
+                              "900",
+                              "910",
+                              "914/1",
+                              "914/2",
+                              "914/4",
+                              "914/10",
+                              "914/11",
+                              "914/12",
+                              "914/13",
+                              "914/18",
+                              "914/19",
+                              "914/20",
+                              "914/21",
+                              "919/1",
+                              "925/1",
+                              "927/4",
+                              "927/5",
+                              "61/5",
+                              "61/4",
+                              "61/7",
+                              "223/3",
+                              "224",
+                              "227",
+                              "249",
+                              "253/1",
+                              "254/1",
+                              "277",
+                              "278/2",
+                              "294/1",
+                              "308",
+                              "316",
+                              "317/2",
+                              "336",
+                              "355",
+                              "360",
+                              "367",
+                              "372",
+                              "373",
+                              "411/1",
+                              "411/2",
+                              "411/3",
+                              "412",
+                              "414/3",
+                              "414/4",
+                              "416/1",
+                              "417",
+                              "418/2",
+                              "419",
+                              "420/1",
+                              "421",
+                              "425",
+                              "432/1",
+                              "432/2",
+                              "433/1",
+                              "446",
+                              "454",
+                              "470/2",
+                              "517/2",
+                              "518/2",
+                              "519",
+                              "523",
+                              "524/3",
+                              "525/3",
+                              "527/4",
+                              "533",
+                              "534/2",
+                              "540",
+                              "543/1",
+                              "547",
+                              "548/2",
+                              "551",
+                              "553",
+                              "554",
+                              "557",
+                              "558/1",
+                              "558/3",
+                              "1147",
+                              "1148",
+                              "1177",
+                              "1180"
                             ]
                           },
                           {
-                            "typ": "EKN",
+                            "typ": "E-KN",
                             "cisla": [
-                              "383/11"
+                              "602"
                             ]
                           }
                         ]
                       }
                     ],
-                    "nazov_lokality": null
+                    "nazov_lokality": "Vodovod pre Obec Fiľakovské Kováče"
                   },
-                  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí stavebného konania a nariadení ústneho pojednávania",
+                  "typ_dokumentu": "Rozhodnutie - Verejná vyhláška",
                   "typ_zasahu": [
-                    "výstavba vodnej stavby",
-                    "výstavba vodovodu",
-                    "výstavba potrubia",
-                    "výstavba komunikácie"
+                    "výstavba vodovodu"
                   ],
                   "typ_uzemia": [
                     "neviem"
                   ],
                   "je_v_chranenom_uzemi": null,
-                  "dotknute_zivocichy_rastliny": [],
+                  "dotknute_zivocichy_rastliny": [
+                    "chránený živočích",
+                    "voľne žijúci vták",
+                    "obojživelník",
+                    "plaz",
+                    "invázne nepôvodné druhy",
+                    "dreviny"
+                  ],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Oznámenie o začatí stavebného konania formou verejnej vyhlášky pre vodnú stavbu - rekonštrukcia a dobudovanie vodovodu v k. ú. Ladomer, obec Ladomerská Vieska. Ústne pojednávanie je nariadené na 20. júna 2025. V dokumente nie sú spomenuté chránené územia ani druhy."
+                  "zhrnutie": "Rozhodnutie Okresného úradu Lučenec o povolení výstavby vodovodu pre obec Fiľakovské Kováče (vrátane častí Kurtáň, Kľačany) v katastrálnom území Fiľakovské Kováče. Dokument obsahuje všeobecné podmienky ochrany prírody, vrátane chránených živočíchov, vtákov, obojživelníkov, plazov, inváznych druhov a podmienku možného výrubu drevín mimo lesa."
                 }
               }
             ]
@@ -194,35 +325,282 @@
             "kategoria": "Oznamy",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť Michala Varsányiho o povolenie výnimky v zmysle § 16 ods. 1 písm. a) v znení § 13 ods. 1 písm. a) zákona č. 543/2002 Z.z. na vjazd a státie s motor. vozidlami vo veci prístupu k hausbótu v Jarovskom ramene na polohe č. 16 v CHKO Dunajské luhy (109,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541822",
-                "doc_id": "541822",
+                "datum": "2025-05-20",
+                "nazov": "Žiadosť Jazdeckého klubu NAPOLI, s.r.o. o zmenu rozhodnutia č. OU-BA-OSZP1-2025/368433-010, ktorým boli povolené výnimky a vydaný súhlas v súvislosti s organizovaním šport. podujatia „Endurance“ vo vytrvalostnom jazdení na koni v CHKO Dunajské luhy (110,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541925",
+                "doc_id": "541925",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-BA-OSZP1-2025/430008/SME",
+                  "cislo_konania_spisu": "OU-BA-OSZP1-2025/440905/SME",
                   "cislo_rozhodnutia": null,
                   "datum_dokumentu": null,
-                  "datum_zverejnenia": "2025-05-19",
+                  "datum_zverejnenia": "2025-05-20",
                   "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": "Michal Varsányi",
+                  "ziadatel_navrhovatel": "Jazdecký klub NAPOLI, s.r.o.",
                   "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": null,
+                    "kraj": "Bratislava",
+                    "okres": "Bratislava",
                     "obec": null,
                     "katastralne_uzemia": [],
-                    "nazov_lokality": "Jarovské rameno Dunaja, poloha č. 16"
+                    "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Informácia o začatom správnom konaní",
+                  "typ_dokumentu": "Oznámenie o začatí konania",
                   "typ_zasahu": [
-                    "vjazd a státie s motorovými vozidlami"
+                    "športové podujatie",
+                    "jazdenie na koni"
                   ],
                   "typ_uzemia": [
-                    "CHKO Dunajské luhy"
+                    "CHKO Dunajské luhy",
+                    "CHVÚ Dunajské luhy",
+                    "ÚEV Biskupické luhy"
                   ],
                   "je_v_chranenom_uzemi": true,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Informácia o začatom konaní Okresného úradu Bratislava pre žiadosť Michala Varsányiho o povolenie výnimky na vjazd a státie vozidiel k plávajúcemu zariadeniu v Jarovskom ramene Dunaja, ktoré sa nachádza v CHKO Dunajské luhy. Lehota na potvrdenie záujmu o účasť v konaní je 5 pracovných dní od zverejnenia."
+                  "zhrnutie": "Oznámenie o začatí konania o zmene rozhodnutia o povolených výnimkách a súhlase v súvislosti s organizovaním športového podujatia - vytrvalostného jazdenia na koni. Činnosť sa realizuje v CHKO a CHVÚ Dunajské luhy a ÚEV Biskupické luhy. Žiadateľom je Jazdecký klub NAPOLI, s.r.o."
+                }
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "Záväzné stanovisko zo zisťovacieho konania Areál voľného času Zlaté piesky v Bratislave (501,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541926",
+                "doc_id": "541926",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-BA-OSZP3-2025/364436-021",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-19",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "Neuvedené",
+                  "ziadatel_navrhovatel": "VIG ZP, s.r.o.",
+                  "miesto_realizacie": {
+                    "kraj": "Bratislavský",
+                    "okres": "Bratislava II",
+                    "obec": "Bratislava",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Trnávka",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "16868/1",
+                              "16868/3",
+                              "16868/42",
+                              "16868/43",
+                              "16868/46",
+                              "16868/47",
+                              "16868/99",
+                              "16868/100",
+                              "16868/101",
+                              "16868/102",
+                              "16868/117",
+                              "16868/132",
+                              "16868/139",
+                              "16868/140",
+                              "16868/178",
+                              "16868/179",
+                              "16868/213",
+                              "16780/1",
+                              "16780/7",
+                              "16883/1",
+                              "16999/5",
+                              "17054/21",
+                              "17054/22",
+                              "16869/26",
+                              "16882/26",
+                              "16882/27",
+                              "16981/52",
+                              "16981/53",
+                              "16981/54",
+                              "16981/55",
+                              "16868/171",
+                              "16868/177",
+                              "16868/196",
+                              "16868/49",
+                              "17054/2",
+                              "17054/4",
+                              "6182/2",
+                              "16868/63",
+                              "16981/3",
+                              "16981/4",
+                              "16869/4"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "Zlaté Piesky (areál voľného času, štrkovisko)",
+                    "mestka_cast": "Ružinov"
+                  },
+                  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+                  "typ_zasahu": [
+                    "výstavba areálu voľného času",
+                    "rekreácia",
+                    "športové aktivity",
+                    "výstavba kúpaliska",
+                    "výstavba hotela",
+                    "výstavba budovy",
+                    "výstavba kanalizácie",
+                    "vsakovanie vôd",
+                    "úprava nábrežia",
+                    "výstavba oplotenia",
+                    "výstavba cesty",
+                    "odber podzemných vôd",
+                    "používanie tepelných čerpadiel voda-voda",
+                    "výrub drevín",
+                    "terénne úpravy"
+                  ],
+                  "typ_uzemia": [
+                    "1. stupeň územnej ochrany",
+                    "druhová ochrana",
+                    "R-ÚSES regionálne biocentrum Zlaté piesky",
+                    "mokraď lokálneho významu",
+                    "mokradný biotop",
+                    "brehové porasty"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [
+                    "avifauna",
+                    "amphibia",
+                    "ichtyofauna",
+                    "brehové porasty",
+                    "dreviny"
+                  ],
+                  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/areal-volneho-casu-zlate-piesky-v-bratislave",
+                  "zhrnutie": "Záväzné stanovisko Okresného úradu Bratislava k zámeru 'Areál voľného času Zlaté Piesky v Bratislave' (navrhovateľ VIG ZP, s.r.o.) v mestskej časti Ružinov, k.ú. Trnávka. Úrad rozhodol, že zámer sa nebude posudzovať podľa zákona EIA, ale stanovil opatrenia na zmiernenie vplyvov. Činnosť v území s 1. stupňom ochrany a regionálnom biocentri zahŕňa výstavbu rekreačno-športového areálu, úpravu nábrežia, výrub drevín a využívanie podzemných vôd."
+                }
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "Právoplatné rozhodnutie_Zariadenie na zber a zariadenie na zhodnocovanie odpadov, Žabí Majer - rozšírenie činnosti (506,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541927",
+                "doc_id": "541927",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-BA-OSZP3-2025/314110-019",
+                  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/314110-019",
+                  "datum_dokumentu": "2025-01-07",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "Neuvedené",
+                  "ziadatel_navrhovatel": "Ekoslužby s.r.o., Klincová 35, 821 08 Bratislava",
+                  "miesto_realizacie": {
+                    "kraj": "Bratislavský",
+                    "okres": "Bratislava III",
+                    "obec": "Bratislava - Rača",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Rača",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "23090/642"
+                            ]
+                          },
+                          {
+                            "typ": "E-KN",
+                            "cisla": [
+                              "4558/2"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "Žabí Majer"
+                  },
+                  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+                  "typ_zasahu": [
+                    "zber odpadov",
+                    "zhodnocovanie odpadov",
+                    "drvenie stavebného odpadu"
+                  ],
+                  "typ_uzemia": [
+                    "1. stupeň ochrany"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zariadenie-na-zber-zariadenie-na zhodnocovanie-odpadov-zabi-majer-rozs",
+                  "zhrnutie": "Rozhodnutie zo zisťovacieho konania pre zámer \"Zariadenie na zber a zariadenie na zhodnocovanie odpadov, Žabí Majer – rozšírenie činnosti\" v Bratislave-Rači. Okresný úrad Bratislava rozhodol, že zámer spočívajúci v rozšírení zberu (kovy) a navýšení kapacity zhodnocovania stavebných odpadov (drvenie) nebude posudzovaný podľa zákona o EIA. V mieste realizácie platí 1. stupeň územnej ochrany."
+                }
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "Oprava zrejmej nesprávnosti v písaní oznámenia o začatí kolaudačného konania a nariadenia ústneho pojednávania č. OU-BA-OSZP3-2025/367014-008 zo dňa 07. 05. 2025 (188,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541924",
+                "doc_id": "541924",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-BA-OSZP3-2025/367014",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-15",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "ústne pojednávanie spojené s miestnym zisťovaním sa uskutoční počas dní 09.06. 2025 (pondelok) a 10.06. 2025 (utorok) o 10:00 hod.",
+                  "ziadatel_navrhovatel": "Hlavné mesto SR Bratislava",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Bratislava",
+                    "obec": "Bratislava",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Petržalka",
+                        "parcely": []
+                      }
+                    ],
+                    "nazov_lokality": "Nosný systém MHD, prevádzkový úsek Janíkov dvor – Šafárikovo námestie v Bratislave 2. časť Bosákova ulica – Janíkov dvor"
+                  },
+                  "typ_dokumentu": "Verejná vyhláška - Oprava",
+                  "typ_zasahu": [
+                    "výstavba oporného múru",
+                    "výstavba dažďovej kanalizácie",
+                    "prekládka vodovodov",
+                    "úprava vodného toku",
+                    "prekládka kanalizácie",
+                    "výstavba vodovodnej prípojky",
+                    "výstavba splaškovej kanalizácie",
+                    "prekládka teplovodov",
+                    "výstavba inžinierskych sietí"
+                  ],
+                  "typ_uzemia": [
+                    "neviem"
+                  ],
+                  "je_v_chranenom_uzemi": null,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Dokument je verejná vyhláška - oprava oznámenia o začatí kolaudačného konania pre objekty súvisiace s projektom Nosný systém MHD v Bratislave, konkrétne v k.ú. Petržalka. Opravuje dátum ústneho pojednávania spojeného s miestnym zisťovaním z 26.-27.05.2025 na 09.-10.06.2025. Týka sa infraštruktúrnych stavieb ako kanalizácia, vodovody, úprava kanála a oporný múr."
+                }
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "2025/441430 - predĺženie platnosti súhlasu (20,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=541923",
+                "doc_id": "541923",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-BA-OSZP3-2025/441430/MAA",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": "2025-05-20",
+                  "lehoty_na_vyjadrenie": "5 pracovných dní",
+                  "ziadatel_navrhovatel": "Marcela Sedmáková",
+                  "miesto_realizacie": {
+                    "kraj": "Bratislavský kraj",
+                    "okres": "Bratislava",
+                    "obec": "Rača",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Rača",
+                        "parcely": []
+                      }
+                    ],
+                    "nazov_lokality": null
+                  },
+                  "typ_dokumentu": "Oznámenie o začatí konania",
+                  "typ_zasahu": [
+                    "výrub drevín"
+                  ],
+                  "typ_uzemia": [
+                    "neviem"
+                  ],
+                  "je_v_chranenom_uzemi": false,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Informácia o začatom správnom konaní vo veci žiadosti Marcela Sedmáková o predĺženie platnosti súhlasu na výrub drevín v extraviláne katastrálneho územia Rača, Bratislava. Lehota na prihlásenie do konania pre environmentálne združenia je 5 pracovných dní od zverejnenia."
                 }
               }
             ]
@@ -240,44 +618,106 @@
         "url": "/?okresne-urady-klientske-centra&urad=66",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Verejné vyhlášky",
+            "kategoria": "Oznámenia o začatí konania a súhlas na výrub dreviny",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "„Zlatá Idka- Rozšírenie kanalizácie pre časť Vieska“ „Zlatá Idka-Rozšírenie kanalizácie pre časť Hutná“ „Zlatá Idka- Zvýšenie kapacity ČOV“- predlženie platnosti stavebného povolenia (323,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=541783",
-                "doc_id": "541783",
+                "datum": "2025-05-20",
+                "nazov": "Oznámenie o výrube drevín podľa § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov (164,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=541931",
+                "doc_id": "541931",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-KS-OSZP-2025/004934-003",
-                  "cislo_rozhodnutia": "OU-KS-OSZP-2025/004934-0027554/2025",
-                  "datum_dokumentu": "2025-04-24",
+                  "cislo_konania_spisu": "OU-KS-OSZP-2025/012150-0032661/2025",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
                   "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "do 15 dní odo dňa oznámenia tohto rozhodnutia",
-                  "ziadatel_navrhovatel": "Obec Zlatá Idka",
+                  "lehoty_na_vyjadrenie": "Neuvedené",
+                  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik, Povodie Bodrogu, odštepný závod",
                   "miesto_realizacie": {
-                    "kraj": "Košický kraj",
+                    "kraj": null,
                     "okres": "Košice-okolie",
-                    "obec": "Zlatá Idka",
+                    "obec": "Slanské Nové Mesto",
                     "katastralne_uzemia": [
                       {
-                        "nazov": "Zlatá Idka",
-                        "parcely": []
+                        "nazov": "Slanské Nové Mesto",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "2619/1",
+                              "2619/2"
+                            ]
+                          }
+                        ]
                       }
                     ],
-                    "nazov_lokality": null
+                    "nazov_lokality": "vodný tok Roňava v úseku r.km 33,150-33,200"
                   },
-                  "typ_dokumentu": "Rozhodnutie o predĺžení platnosti povolenia",
+                  "typ_dokumentu": "Oznámenie o výrube",
                   "typ_zasahu": [
-                    "výstavba kanalizácie",
-                    "výstavba čistiarne odpadových vôd"
+                    "výrub drevín",
+                    "vysekávanie krovia",
+                    "úprava vodného toku"
                   ],
                   "typ_uzemia": [
                     "neviem"
                   ],
-                  "je_v_chranenom_uzemi": null,
+                  "je_v_chranenom_uzemi": false,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Košice-okolie o predĺžení platnosti povolenia na vodnú stavbu \"Kanalizácia a ČOV Zlatá Idka\" v obci Zlatá Idka. Predĺženie sa udeľuje na dva roky z dôvodu nedostatku finančných prostriedkov. Dokument neobsahuje informácie o dotknutých chránených územiach ani konkrétnych živočíchoch či rastlinách."
+                  "zhrnutie": "Oznámenie o plánovanom výrube drevín a krov na vodnom toku Roňava v k.ú. Slanské Nové Mesto (okres Košice-okolie) pre účely protipovodňovej ochrany a údržby toku. Žiadateľom je Slovenský vodohospodársky podnik. V dokumente nie sú spomenuté chránené územia ani druhy."
+                }
+              }
+            ]
+          },
+          {
+            "kategoria": "Oznámenie o začatí správneho konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Oznámenie podľa § 82 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov o začatí správneho konania (165,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=541902",
+                "doc_id": "541902",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-KS-OSZP-2025/009216-005",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou",
+                  "ziadatel_navrhovatel": "Správa Národného parku Slovenský kras",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Košice-okolie",
+                    "obec": "Háj",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Háj",
+                        "parcely": [
+                          {
+                            "typ": "KN-C",
+                            "cisla": [
+                              "2173/2"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "mimo areálu Turnianskeho hradu"
+                  },
+                  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+                  "typ_zasahu": [
+                    "let lietadlom-vrtuľníkom pod 300m"
+                  ],
+                  "typ_uzemia": [
+                    "NP Slovenský kras",
+                    "zóna B",
+                    "4. stupeň",
+                    "CHVÚ Slovenský kras",
+                    "ÚEV Horný vrch"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Oznámenie o začatí konania o vydaní súhlasu na let vrtuľníkom pod 300m v k.ú. Háj (okres Košice-okolie), mimo areálu Turnianskeho hradu. Žiadateľom je Správa NP Slovenský kras, účelom je umiestnenie ekotoalety. Lokalita sa nachádza v NP Slovenský kras (zóna B, 4. stupeň ochrany), CHVÚ Slovenský kras a ÚEV Horný vrch. Lehota na prihlásenie do konania je 5 pracovných dní."
                 }
               }
             ]
@@ -287,38 +727,54 @@
     ]
   },
   {
-    "kraj": "Prešovský kraj",
-    "url": "/?okresne-urady-klientske-centra&kraj=5",
+    "kraj": "Nitriansky kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=4",
     "okresy": [
       {
-        "nazov": "Poprad",
-        "url": "/?okresne-urady-klientske-centra&urad=56",
+        "nazov": "Nitra",
+        "url": "/?okresne-urady-klientske-centra&urad=21",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Správne konania - Informácie o začatých správnych konaniach",
+            "kategoria": "Životné prostredie",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024127 (213,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541814",
-                "doc_id": "541814",
+                "datum": "2025-05-20",
+                "nazov": "Verejná vyhláška - Zdravotné stredisko - stavebné oznámenie (178,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=541879",
+                "doc_id": "541879",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024127",
+                  "cislo_konania_spisu": "OU-NR-OSZP3-2025/028659-003",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": "Právnická osoba",
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia tohto oznámenia",
+                  "ziadatel_navrhovatel": "KARDIOCENTRUM s.r.o.",
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": null,
-                    "obec": null,
-                    "katastralne_uzemia": [],
+                    "okres": "Nitra",
+                    "obec": "Nitra",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Nitra",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "2904/1",
+                              "2904/2",
+                              "2907",
+                              "2909"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
                     "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+                  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
                   "typ_zasahu": [
-                    "neviem"
+                    "výstavba vodnej stavby",
+                    "vsakovanie vôd"
                   ],
                   "typ_uzemia": [
                     "neviem"
@@ -326,31 +782,47 @@
                   "je_v_chranenom_uzemi": null,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument od Okresného úradu Poprad oznamuje začatie správneho konania vo veci žiadosti o zmenu rozhodnutia podľa zákona o ochrane prírody a krajiny. Informuje o možnosti potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia."
+                  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre projekt výstavby odvodnenia spevnených plôch zdravotného strediska v Nitre, katastrálne územie Nitra. Konanie sa týka odvádzania a vsakovania vôd z povrchového odtoku. Dokument neuvádza informácie o chránených územiach ani druhoch."
                 }
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nové Zámky",
+        "url": "/?okresne-urady-klientske-centra&urad=24",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Zverejnené dokumenty",
+            "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024125 (213,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541812",
-                "doc_id": "541812",
+                "datum": "2025-05-20",
+                "nazov": "Informácia o začatí konania podľa ust. § 82 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov (ďalej len „zákon“) (109,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=541842",
+                "doc_id": "541842",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024125",
+                  "cislo_konania_spisu": "OU-NZ-OSZP-2025/018465",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": "Právnická osoba",
+                  "datum_dokumentu": "2025-05-14",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie",
+                  "ziadatel_navrhovatel": null,
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": "Poprad",
-                    "obec": null,
-                    "katastralne_uzemia": [],
+                    "okres": "Nové Zámky",
+                    "obec": "Štúrovo",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Štúrovo",
+                        "parcely": []
+                      }
+                    ],
                     "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Oznámenie o začatí konania",
+                  "typ_dokumentu": "Informácia o začatí správneho konania",
                   "typ_zasahu": [
-                    "neviem"
+                    "výrub drevín"
                   ],
                   "typ_uzemia": [
                     "neviem"
@@ -358,166 +830,198 @@
                   "je_v_chranenom_uzemi": false,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Okresný úrad Poprad oznamuje začatie konania o žiadosti právnickej osoby o zmenu rozhodnutia týkajúceho sa výnimky podľa zákona o ochrane prírody a krajiny (§ 89 ods. 1 písm. a) bod 2.). Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania."
+                  "zhrnutie": "Informácia o začatí správneho konania vo veci žiadosti o súhlas na výrub drevín rastúcich za hranicami zastavaného územia obce v katastrálnom území Štúrovo, okres Nové Zámky. Stanovuje lehotu pre environmentálne združenia na potvrdenie záujmu byť zúčastnenou osobou v konaní."
                 }
-              },
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kraj": "Trenčiansky kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=6",
+    "okresy": [
+      {
+        "nazov": "Bánovce nad Bebravou",
+        "url": "/?okresne-urady-klientske-centra&urad=13",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Štátna správa ochrany prírody a krajiny",
+            "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024123 (213,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541811",
-                "doc_id": "541811",
+                "datum": "2025-05-20",
+                "nazov": "Informácia o začatom správnom konaní vo veci obmedzenia, zákazu alebo určenia podmienok vykonania náhodnej ťažby v zmysle § 14 ods. 7 zákona č. 543/2002 Z. z. v spojení s § 15 ods. 4 zákona č. 543/2002 Z. z. a v spojení § 26 ods. 5 zákona č. 543/2002 Z. z (435,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=13&odbor=10&sekcia=uradna-tabula&subor=541853",
+                "doc_id": "541853",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024123",
+                  "cislo_konania_spisu": "OU-BN-OSZP-2025/007077-003",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": "Právnická osoba",
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia",
+                  "ziadatel_navrhovatel": null,
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": "Poprad",
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "parcely": [],
+                    "okres": "Bánovce nad Bebravou",
+                    "obec": "Bánovce nad Bebravou",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Timoradza",
+                        "parcely": [
+                          {
+                            "typ": "C KN",
+                            "cisla": [
+                              "1542"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
                     "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Oznámenie o začatí konania",
+                  "typ_dokumentu": "Informácia",
                   "typ_zasahu": [
-                    "žiadosť o zmenu rozhodnutia"
+                    "ťažba dreva"
                   ],
                   "typ_uzemia": [
                     "neviem"
                   ],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument OÚ Poprad oznamuje začatie správneho konania týkajúceho sa žiadosti právnickej osoby o zmenu rozhodnutia podľa zákona o ochrane prírody a krajiny. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024122 (213,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541810",
-                "doc_id": "541810",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024122",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": null,
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
-                  "typ_zasahu": [
-                    "Žiadosť o zmenu rozhodnutia"
-                  ],
-                  "typ_uzemia": [],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Upovedomenie Okresného úradu Poprad o začatí správneho konania (OU-PP-OSZP-2025/024122) týkajúceho sa žiadosti o zmenu rozhodnutia podľa § 89 ods. 1 písm. a) bodu 2 zákona o ochrane prírody a krajiny. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024118 (214,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541809",
-                "doc_id": "541809",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024118",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": "Poprad",
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "parcely": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Upovedomenie o začatí konania",
-                  "typ_zasahu": [
-                    "žiadosť o zmenu rozhodnutia"
-                  ],
-                  "typ_uzemia": [],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Okresný úrad Poprad, odbor starostlivosti o životné prostredie upovedomuje o začatí správneho konania týkajúceho sa žiadosti o zmenu rozhodnutia podľa § 89 ods. 1 písm. a) bodu 2 zákona o ochrane prírody a krajiny. Dotknuté záujmy ochrany prírody a krajiny môžu byť ovplyvnené v okrese Poprad. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024117 (213,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541808",
-                "doc_id": "541808",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024117",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": "Poprad",
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Upovedomenie o začatí konania",
-                  "typ_zasahu": [
-                    "neviem"
-                  ],
-                  "typ_uzemia": [
-                    "neviem"
-                  ],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument od Okresného úradu Poprad, odbor starostlivosti o životné prostredie, upovedomuje o začatom správnom konaní týkajúcom sa žiadosti o zmenu rozhodnutia podľa zákona o ochrane prírody a krajiny. Verejnosť môže potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia. Dokument nešpecifikuje presné miesto realizácie, typ zásahu ani dotknuté chránené územia či druhy."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Žiadosť o zmenu rozhodnutia OU-PP-OSZP-2025/024113 (213,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=541807",
-                "doc_id": "541807",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-PP-OSZP-2025/024113",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "5 pracovných dní",
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": "Poprad",
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Upovedomenie o začatí konania",
-                  "typ_zasahu": [
-                    "Žiadosť o zmenu rozhodnutia",
-                    "výnimka pre chránené živočíchy"
-                  ],
-                  "typ_uzemia": [],
                   "je_v_chranenom_uzemi": null,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Informácia Okresného úradu Bánovce nad Bebravou OSZP o začatí správneho konania vo veci obmedzenia, zákazu alebo určenia podmienok vykonania náhodnej ťažby v katastrálnom území Timoradza na parcele C KN 1542 (lesný pozemok). Združenia môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "url": "/?okresne-urady-klientske-centra&urad=14",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Zverejnené dokumenty",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Rozhodnutie o povolení vodných stavieb Predĺženie verejného vodovodu v obci Beckov (Predĺženie verejného vodovodu, prípojky vody verejná časť - po hranicu pozemku) č.j. OU-NM-OSZP-2025/6666-11 zo dňa 20.05.2025 LeaderHaus s.r.o., Horná Súča, Crkoňová (1,4 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=541933",
+                "doc_id": "541933",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-NM-OSZP-2025/006666-011",
+                  "cislo_rozhodnutia": "OU-NM-OSZP-2025/006666-0029420/2025",
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia",
+                  "ziadatel_navrhovatel": "LeaderHaus s. r. o.",
+                  "miesto_realizacie": {
+                    "kraj": "Trenčiansky",
+                    "okres": "Nové Mesto nad Váhom",
+                    "obec": "Beckov",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Beckov",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "5127/2"
+                            ]
+                          },
+                          {
+                            "typ": "E-KN",
+                            "cisla": [
+                              "5124"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": null
+                  },
+                  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby (verejná vyhláška)",
+                  "typ_zasahu": [
+                    "výstavba vodovodu"
+                  ],
+                  "typ_uzemia": [
+                    "ochranné pásmo vodárenského zdroja"
+                  ],
+                  "je_v_chranenom_uzemi": true,
                   "dotknute_zivocichy_rastliny": [
-                    "chránené živočíchy"
+                    "chránené druhy rastlín a živočíchov",
+                    "vtáctvo",
+                    "dreviny rastúce mimo lesa"
                   ],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Okresný úrad Poprad upovedomuje o začatí správneho konania týkajúceho sa žiadosti o zmenu rozhodnutia podľa zákona o ochrane prírody a krajiny, ktoré sa týka výnimky pre chránené živočíchy. Verejnosť môže potvrdiť záujem o účasť do 5 pracovných dní od zverejnenia."
+                  "zhrnutie": "Rozhodnutie povoľujúce výstavbu a predĺženie verejného vodovodu a vodovodných prípojok v obci Beckov na parcelách C-KN 5127/2 a E-KN 5124. Projekt sa realizuje v ochrannom pásme vodárenského zdroja a vyžaduje opatrenia na ochranu životného prostredia vrátane chránených druhov a drevín."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Trenčín",
+        "url": "/?okresne-urady-klientske-centra&urad=12",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Správne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Žiadosť o výnimku zo zakázaných činností v Prírodnej pamiatke Haluzická tiesňava - oznámenie o začatí správneho konania (171,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=541904",
+                "doc_id": "541904",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-TN-OSZP1-2025/026753-002",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-19",
+                  "datum_zverejnenia": "2025-05-20",
+                  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody prihlásiť za zúčastnenú osobu do tohto správneho konania",
+                  "ziadatel_navrhovatel": "DANAE Production s. r. o.",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Nové Mesto nad Váhom",
+                    "obec": "Haluzice",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Haluzice",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "34/1",
+                              "206",
+                              "207",
+                              "1557",
+                              "1685/2"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "Prírodná pamiatka Haluzická tiesňava"
+                  },
+                  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+                  "typ_zasahu": [
+                    "pohyb mimo vyznačeného turistického alebo náučného chodníka",
+                    "jazda na koni mimo zastavaného územia obce",
+                    "použitie zariadenia spôsobujúce svetelné a hlukové efekty mimo uzavretých stavieb"
+                  ],
+                  "typ_uzemia": [
+                    "Prírodná pamiatka",
+                    "ochranné pásmo Prírodnej pamiatky",
+                    "tretí stupeň ochrany",
+                    "štvrtý stupeň ochrany",
+                    "prvý stupeň ochrany"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Oznámenie o začatí konania o žiadosti spoločnosti DANAE Production s.r.o. o udelenie výnimiek zo zakázaných činností (pohyb, jazda na koni, svetelné/hlukové efekty) v Prírodnej pamiatke Haluzická tiesňava (3. a 4. stupeň ochrany) a jej ochrannom pásme (3. stupeň) kvôli filmovaniu. Lokalita: kat. územie Haluzice, okres Nové Mesto nad Váhom. Možnosť prihlásiť sa za účastníka do 5 pracovných dní od zverejnenia."
                 }
               }
             ]
@@ -538,29 +1042,104 @@
             "kategoria": "",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "OU-DS-OSZP-2025/020953 Bit (PDF, 590 kB)",
-                "url": "https://www.minv.sk/swift_data/source/miestna_statna_sprava/okres_ds/doku/oszp/2025/1905_2025/OU-DS-OSZP-2025_020953 Bit.pdf",
-                "doc_id": "OU-DS-OSZP-2025_020953 Bit",
+                "datum": "2025-05-20",
+                "nazov": "OU-DS-OSZP-2025/002192-004 Cse (PDF, 358 kB)",
+                "url": "https://www.minv.sk/swift_data/source/miestna_statna_sprava/okres_ds/doku/oszp/2025/2005_2025/OU-DS-OSZP-2025_002192-004 Cse.pdf",
+                "doc_id": "OU-DS-OSZP-2025_002192-004 Cse",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-DS-OSZP-2025/020953",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
-                  "lehoty_na_vyjadrenie": "lehota na doručenie písomného alebo elektronického potvrdenia záujmu byť účastníkom konania podľa § 82 ods. 3 zákona v začatom správnom konaní je 5 pracovných dní t.j. do: 26.05.2025",
-                  "ziadatel_navrhovatel": "Zsolt Bartalos",
+                  "cislo_konania_spisu": "OU-DS-OSZP-2025/002192-0035278/2025",
+                  "cislo_rozhodnutia": "OU-DS-OSZP-2025/002192-0035278/2025",
+                  "datum_dokumentu": "2025-05-15",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "Neuvedené",
+                  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
                   "miesto_realizacie": {
                     "kraj": null,
                     "okres": "Dunajská Streda",
-                    "obec": "Dolný Štál",
+                    "obec": "Gabčíkovo",
                     "katastralne_uzemia": [
                       {
-                        "nazov": "Dolný Štál",
+                        "nazov": "Gabčíkovo",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "2504/125",
+                              "2504/115",
+                              "2787"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "ul. Lipová a Konopná"
+                  },
+                  "typ_dokumentu": "Stavebné povolenie",
+                  "typ_zasahu": [
+                    "výstavba vodovodu",
+                    "výkopové práce",
+                    "výrub drevín",
+                    "odstránenie krovitého porastu"
+                  ],
+                  "typ_uzemia": [
+                    "chránená vodohospodárska oblasť"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Rozhodnutie Okresného úradu Dunajská Streda, odbor starostlivosti o životné prostredie, vydávajúce stavebné a vodoprávne povolenie pre Západoslovenskú vodárenskú spoločnosť, a.s. na výstavbu prepojenia verejného vodovodu na uliciach Lipová a Konopná v katastrálnom území Gabčíkovo na uvedených parcelách C-KN. Projekt sa nachádza v chránenej vodohospodárskej oblasti a dokument spomína aj potenciálnu potrebu výrubu drevín a krovia pri dodržaní podmienok ochrany prírody."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hlohovec",
+        "url": "/?okresne-urady-klientske-centra&urad=10",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Oznámenia o výrube",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Oznámenie o výrube OU-HC-OSZP-2025/000729-002  (227,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=10&odbor=10&sekcia=uradna-tabula&subor=541922",
+                "doc_id": "541922",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-HC-OSZP-2025/000729-002",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": "2025-05-20",
+                  "lehoty_na_vyjadrenie": "Neuvedené",
+                  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Hlohovec",
+                    "obec": "Ratkovce",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Ratkovce",
                         "parcely": [
                           {
                             "typ": null,
                             "cisla": [
-                              "659/57"
+                              "610/4",
+                              "796/2",
+                              "796/7"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "nazov": "Žlkovce",
+                        "parcely": [
+                          {
+                            "typ": null,
+                            "cisla": [
+                              "610/4",
+                              "796/2",
+                              "796/7"
                             ]
                           }
                         ]
@@ -568,69 +1147,71 @@
                     ],
                     "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Upovedomenie o začatí konania",
+                  "typ_dokumentu": "Oznámenie o výrube",
                   "typ_zasahu": [
-                    "výrub drevín"
+                    "výrub drevín",
+                    "výstavba vedenia"
                   ],
                   "typ_uzemia": [
                     "neviem"
                   ],
-                  "je_v_chranenom_uzemi": false,
+                  "je_v_chranenom_uzemi": null,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument je upovedomením o začatí správneho konania vo veci udelenia súhlasu na dreviny na časti parcely č. 659/57 v katastrálnom území Dolný Štál pre žiadateľa Zsolta Bartalosa. Lehota na potvrdenie záujmu byť účastníkom konania je do 26.05.2025. Dokument nešpecifikuje typ chráneného územia ani dotknuté druhy."
+                  "zhrnutie": "Dokument oznamuje začatie konania o výrube cestnej zelene v katastrálnych územiach Ratkovce a Žlkovce pre realizáciu výstavby nového vedenia, žiadateľom je Západoslovenská distribučná, a.s.. V dokumente nie sú spomenuté chránené územia ani druhy. Na konanie sa nevzťahujú všeobecné predpisy o správnom konaní a nie je možné podať odvolanie."
                 }
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Senica",
+        "url": "/?okresne-urady-klientske-centra&urad=9",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Rozhodnutie",
+            "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "SVP 5929/2025/1 Bit (PDF, 819 kB)",
-                "url": "https://www.minv.sk/swift_data/source/miestna_statna_sprava/okres_ds/doku/oszp/2025/1905_2025/SVP 5929_2025_1 Bit.pdf",
-                "doc_id": "urlhash_fbab2499cb2d3edf",
+                "datum": "2025-05-20",
+                "nazov": "upovedomie o zacati konania vyrub Kunov 25012875 (218,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=9&odbor=10&sekcia=uradna-tabula&subor=541860",
+                "doc_id": "541860",
                 "analyza": {
-                  "cislo_konania_spisu": "SVP 5929/2025/1",
+                  "cislo_konania_spisu": "OU-SE-OSZP-2025/012875-002",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-03-03",
-                  "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+                  "datum_dokumentu": "2025-05-15",
+                  "datum_zverejnenia": "2025-05-15",
+                  "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie",
+                  "ziadatel_navrhovatel": "Bohumil Polák a Viera Poláková",
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": "Dunajská Streda",
-                    "obec": "Dunajská Klátov",
+                    "okres": "Senica",
+                    "obec": "Senica",
                     "katastralne_uzemia": [
                       {
-                        "nazov": "Dunajská Klátov",
+                        "nazov": "Kunov",
                         "parcely": [
                           {
-                            "typ": "E-KN",
+                            "typ": "C-KN",
                             "cisla": [
-                              "185/3"
+                              "727/1"
                             ]
                           }
                         ]
                       }
                     ],
-                    "nazov_lokality": "melioračnom kanáli pri Starom Klátovskom kanáli"
+                    "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Oznámenie o odstraňovaní drevín",
+                  "typ_dokumentu": "Informácia o začatí správneho konania",
                   "typ_zasahu": [
-                    "výrub drevín",
-                    "vysekávanie krovia",
-                    "orez drevín"
+                    "výrub drevín"
                   ],
-                  "typ_uzemia": [
-                    "CHKO Dunajské Luhy"
-                  ],
-                  "je_v_chranenom_uzemi": true,
-                  "dotknute_zivocichy_rastliny": [
-                    "vŕba sp.",
-                    "topoľ sp.",
-                    "ruža šípová",
-                    "malina ostružina",
-                    "baza čierna"
-                  ],
+                  "typ_uzemia": [],
+                  "je_v_chranenom_uzemi": false,
+                  "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK oznamuje odstraňovanie drevín (výrub stromov a krovitého porastu) pri melioračnom kanáli pri Starom Klátovskom kanáli v katastrálnom území Dunajská Klátov z dôvodu bezpečnosti. Dokument bol zaslaný Okresnému úradu Dunajská Streda a ŠOP SR, Správe CHKO Dunajské Luhy."
+                  "zhrnutie": "Informácia o začatí správneho konania o výrub 2 ks smrekovcov na parcele C 727/1 v k. ú. Kunov (mesto Senica) na žiadosť Bohumila Poláka a Viery Polákovej z dôvodu poškodzovania stavby a ohrozenia bezpečnosti. Dokument nešpecifikuje, či sa miesto nachádza v chránenom území."
                 }
               }
             ]
@@ -642,71 +1223,51 @@
         "url": "/?okresne-urady-klientske-centra&urad=5",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Verejné vyhlášky",
+            "kategoria": "Informácia o začatých správnych konaniach v zmysle § 82 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov, v ktorých môžu byť dotknuté záujmy ochrany prírody a krajiny chránené týmto zákonom",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "2025-026403 OZ SP VV Obec Boleráz -Rozšírenie celoobecného vodovodu (144,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=541816",
-                "doc_id": "541816",
+                "datum": "2025-05-20",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/038476-002 (372,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=541914",
+                "doc_id": "541914",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-TT-OSZP3-2025/026403-0085569/2025",
+                  "cislo_konania_spisu": "OU-TT-OSZP3-2025/038476-002",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "$. &%?",
+                  "datum_dokumentu": "2025-05-19",
                   "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": null,
+                  "lehoty_na_vyjadrenie": "do: 28. 05. 2025",
+                  "ziadatel_navrhovatel": "Mesto Trnava",
                   "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": null,
-                    "obec": null,
-                    "katastralne_uzemia": [],
+                    "kraj": "Trnavský",
+                    "okres": "Trnava",
+                    "obec": "Trnava",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Trnava",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "10869/3",
+                              "10501/39"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
                     "nazov_lokality": null
                   },
-                  "typ_dokumentu": "Verejná vyhláška",
+                  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
                   "typ_zasahu": [
-                    "neviem"
+                    "výrub drevín"
                   ],
                   "typ_uzemia": [
                     "neviem"
                   ],
-                  "je_v_chranenom_uzemi": null,
+                  "je_v_chranenom_uzemi": false,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument z úradnej tabule okresného úradu týkajúci sa konania so spisovou značkou OU-TT-OSZP3-2025/026403-0085569/2025. Vzhľadom na poškodený text dokumentu nie je možné identifikovať žiadateľa, miesto realizácie, typ zásahu, ani dotknuté chránené územia či druhy."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "2025-026402 OZ SP VV Obec Boleráz -Rozšírenie celoobecnej kanalizácie (143,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=541813",
-                "doc_id": "541813",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-TT-OSZP3-2025/026402-0085555/2025",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": null,
-                  "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": null,
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": null,
-                    "obec": null,
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": null
-                  },
-                  "typ_dokumentu": "Verejná vyhláška",
-                  "typ_zasahu": [
-                    "neviem"
-                  ],
-                  "typ_uzemia": [
-                    "Natura 2000",
-                    "SKUEV"
-                  ],
-                  "je_v_chranenom_uzemi": true,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument je verejnou vyhláškou (spis OU-TT-OSZP3-2025/026402-0085555/2025) týkajúcou sa nešpecifikovaného konania. V dokumente je spomenuté, že sa prípadne dotýka území Natura 2000 a SKUEV."
+                  "zhrnutie": "Upovedomenie o začatí konania pre Mesto Trnava týkajúce sa predĺženia súhlasu na výrub drevín na parcelách C-KN 10869/3 a 10501/39 v katastrálnom území Trnava. Lehota na potvrdenie záujmu byť účastníkom je do 28. 05. 2025."
                 }
               }
             ]
@@ -724,20 +1285,133 @@
         "url": "/?okresne-urady-klientske-centra&urad=30",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-05-20",
+                "nazov": "Verejná vyhláška - oznámenie o začatí kolaudačného konania na stavbu \"Bziny - IBV Dielnice - Splašková kanalizácia\".  (168,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541948",
+                "doc_id": "541948",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-DK-OSZP-2025/005418-002",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 19. 06. 2025",
+                  "ziadatel_navrhovatel": "Obec Bziny",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Dolný Kubín",
+                    "obec": "Bziny",
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Bziny",
+                        "parcely": [
+                          {
+                            "typ": "C-KN",
+                            "cisla": [
+                              "310/1",
+                              "124/7",
+                              "309/6",
+                              "309/4",
+                              "400/33",
+                              "338/13",
+                              "392/65",
+                              "392/59",
+                              "392/4",
+                              "400/3"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "nazov_lokality": "Dielnice"
+                  },
+                  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania - verejnou vyhláškou",
+                  "typ_zasahu": [
+                    "výstavba kanalizácie"
+                  ],
+                  "typ_uzemia": [
+                    "neviem"
+                  ],
+                  "je_v_chranenom_uzemi": false,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Dokument je oznámením o začatí kolaudačného konania pre stavbu splaškovej kanalizácie v obci Bziny, lokalita Dielnice, na uvedených parcelách v k.ú. Bziny. Lehota na podanie námietok a stanovísk je najneskôr pri ústnom konaní dňa 19.06.2025. Dokument nespomína dotknuté chránené územia, živočíchy alebo rastliny."
+                }
+              }
+            ]
+          },
+          {
             "kategoria": "Ochrana prírody a krajiny",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "Informácia o správnom konaní – organizovanie verejného spoločenského podujatia v k.ú. Zázrivá (144,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541821",
-                "doc_id": "541821",
+                "datum": "2025-05-20",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube porastov v ochrannom pásme vedenia v k.ú. Vyšný Kubín, Leštiny, Osádka, Pokrývač, Malatiná (696,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541854",
+                "doc_id": "541854",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-DK-OSZP-2025/005764",
+                  "cislo_konania_spisu": "OU-DK-OSZP-2025/005766",
                   "cislo_rozhodnutia": null,
                   "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": "2025-05-19",
+                  "datum_zverejnenia": null,
+                  "lehoty_na_vyjadrenie": "nie je možné sa prihlásiť do konania",
+                  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+                  "miesto_realizacie": {
+                    "kraj": null,
+                    "okres": "Dolný Kubín",
+                    "obec": null,
+                    "katastralne_uzemia": [
+                      {
+                        "nazov": "Vyšný Kubín",
+                        "parcely": []
+                      },
+                      {
+                        "nazov": "Leštiny",
+                        "parcely": []
+                      },
+                      {
+                        "nazov": "Osádka",
+                        "parcely": []
+                      },
+                      {
+                        "nazov": "Pokrývač",
+                        "parcely": []
+                      },
+                      {
+                        "nazov": "Malatiná",
+                        "parcely": []
+                      }
+                    ],
+                    "nazov_lokality": null
+                  },
+                  "typ_dokumentu": "Informácia pre verejnosť",
+                  "typ_zasahu": [
+                    "výrub drevín",
+                    "odstránenie porastov",
+                    "okliesnenie porastov"
+                  ],
+                  "typ_uzemia": [
+                    "ochranné pásmo"
+                  ],
+                  "je_v_chranenom_uzemi": true,
+                  "dotknute_zivocichy_rastliny": [],
+                  "odkaz_enviroportal": null,
+                  "zhrnutie": "Informácia pre verejnosť o plánovanom výrube a okliesnení drevín a iných porastov v ochrannom pásme pod elektrickým vedením v k.ú. Vyšný Kubín, Leštiny, Osádka, Pokrývač, Malatiná v okrese Dolný Kubín, zo strany Stredoslovenskej distribučnej, a.s. Konanie podľa § 47 ods. 7 zákona o ochrane prírody neumožňuje prihlásiť sa do konania."
+                }
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "Informácia o správnom konaní – organizovanie verejného spoločenského podujatia v k.ú. Zázrivá (144,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541855",
+                "doc_id": "541855",
+                "analyza": {
+                  "cislo_konania_spisu": "OU-DK-OSZP-2025/005765",
+                  "cislo_rozhodnutia": null,
+                  "datum_dokumentu": "2025-05-20",
+                  "datum_zverejnenia": "2025-05-20",
                   "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
-                  "ziadatel_navrhovatel": "fyzická osoba - usporiadateľ",
+                  "ziadatel_navrhovatel": "fyzickej osoby - usporiadateľa",
                   "miesto_realizacie": {
                     "kraj": null,
                     "okres": "Dolný Kubín",
@@ -755,58 +1429,20 @@
                         ]
                       }
                     ],
-                    "nazov_lokality": null
+                    "nazov_lokality": "Zázrivský Pilčík 2025"
                   },
                   "typ_dokumentu": "Informácia o začatí konania",
                   "typ_zasahu": [
-                    "organizovanie verejného spoločenského podujatia"
+                    "organizovanie podujatia"
                   ],
                   "typ_uzemia": [
-                    "ochranné pásmo Národného parku Malá Fatra",
-                    "druhý stupeň"
+                    "Národný park Malá Fatra - ochranné pásmo",
+                    "2. stupeň ochrany"
                   ],
                   "je_v_chranenom_uzemi": true,
                   "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie konania k žiadosti fyzickej osoby o súhlas na organizovanie verejného spoločenského podujatia 'Zázrivský Pionier 2025' v k.ú. Zázrivá na parcele E-KN č. 3187/1. Uvedená aktivita sa má konať v ochrannom pásme Národného parku Malá Fatra, kde platí 2. stupeň ochrany. Záujem stať sa účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia."
-                }
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín a krovín v k.ú. Žaškov (287,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541694",
-                "doc_id": "541694",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-DK-OSZP-2025/005735",
-                  "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2025-05-02",
-                  "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "V zmysle § 81 ods. 2 písm. m) zákona č. 543/2002 Z.z. o ochrane prírody a krajiny sa všeobecné predpisy o správnom konaní ... nevzťahujú na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z.z.",
-                  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p. OZ Piešťany, Správa povodia horného Váhu",
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": "Dolný Kubín",
-                    "obec": "Žaškov",
-                    "katastralne_uzemia": [
-                      {
-                        "nazov": "Žaškov",
-                        "parcely": []
-                      }
-                    ],
-                    "nazov_lokality": "koryto a brehové porasty Žaškovského potoka, rkm 0,000 – 4,300"
-                  },
-                  "typ_dokumentu": "Informácia pre verejnosť",
-                  "typ_zasahu": [
-                    "výrub drevín",
-                    "výrub krovín"
-                  ],
-                  "typ_uzemia": [
-                    "neviem"
-                  ],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Informácia pre verejnosť o plánovanom výrube drevín a krovín v koryte a brehových porastoch Žaškovského potoka v k.ú. Žaškov. Výrub vykonáva Slovenský vodohospodársky podnik pre zabezpečenie ochrany pred povodňami. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní, neboli spomenuté žiadne chránené územia ani druhy."
+                  "zhrnutie": "Informácia o začatí konania k žiadosti o súhlas na organizovanie podujatia 'Zázrivský Pilčík 2025' za hranicami zastavaného územia obce Zázrivá na parcele E-KN 3187/1. Konanie sa týka územia v ochrannom pásme Národného parku Malá Fatra s 2. stupňom ochrany. Záujem byť účastníkom konania je potrebné písomne potvrdiť do 5 pracovných dní od zverejnenia."
                 }
               }
             ]
@@ -814,117 +1450,45 @@
         ]
       },
       {
-        "nazov": "Martin",
-        "url": "/?okresne-urady-klientske-centra&urad=32",
+        "nazov": "Liptovský Mikuláš",
+        "url": "/?okresne-urady-klientske-centra&urad=31",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Nemocnica budúcnosti Martin - Veľká Hora -Komunikácie a siete, SO.208 Vodovod DN 250, SO.209 Vodovod DN 80 - Zverejnenie informácie v zmysle § 38 ods.2 písm. f) zák. č.  24/2006 Z. z.",
+            "kategoria": "Náhodné ťažby",
             "dokumenty": [
               {
-                "datum": "2025-05-19",
-                "nazov": "25_002623 Zverejnenie informácie (124,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=541774",
-                "doc_id": "541774",
+                "datum": "2025-05-20",
+                "nazov": "OU-LM-OSZP-2025-9031-Ge (60,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=31&odbor=10&sekcia=uradna-tabula&subor=541949",
+                "doc_id": "541949",
                 "analyza": {
-                  "cislo_konania_spisu": "OU-MT-OSZP-2025/002623-Hš",
-                  "cislo_rozhodnutia": "OU-MT-OSZP-2025/002623-Hš",
-                  "datum_dokumentu": "2025-05-19",
-                  "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": null,
-                  "miesto_realizacie": {
-                    "kraj": null,
-                    "okres": "Martin",
-                    "obec": "Martin",
-                    "katastralne_uzemia": [],
-                    "nazov_lokality": "Veľká Hora"
-                  },
-                  "typ_dokumentu": "Zverejnenie informácie",
-                  "typ_zasahu": [
-                    "výstavba vodovodu",
-                    "výstavba komunikácie",
-                    "výstavba sietí"
-                  ],
-                  "typ_uzemia": [
-                    "neviem"
-                  ],
-                  "je_v_chranenom_uzemi": false,
-                  "dotknute_zivocichy_rastliny": [],
-                  "odkaz_enviroportal": null,
-                  "zhrnutie": "Oznámenie Okresného úradu Martin o nadobudnutí právoplatnosti rozhodnutia pre časť projektu \"Nemocnica budúcnosti Martin - Veľká Hora\", konkrétne pre výstavbu vodovodu a sietí, v lokalite Martin - Veľká Hora. Dokument nespomína dotknuté chránené územia ani druhy."
-                }
-              }
-            ]
-          },
-          {
-            "kategoria": "Bytové domy Centrum Priekopa, ul. Uzlovská, Martin - SO 900 Dažďová kanalizácia - rozhodnutie",
-            "dokumenty": [
-              {
-                "datum": "2025-05-19",
-                "nazov": "Dažďová kanalizácia_rozhodnutie (209,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=541775",
-                "doc_id": "541775",
-                "analyza": {
-                  "cislo_konania_spisu": "OU-ZA-A0-A0/0",
+                  "cislo_konania_spisu": "OU-LM-OSZP-2025/9031-Ge",
                   "cislo_rozhodnutia": null,
-                  "datum_dokumentu": "2024-04-10",
+                  "datum_dokumentu": "2025-05-20",
                   "datum_zverejnenia": null,
-                  "lehoty_na_vyjadrenie": "Neuvedené",
-                  "ziadatel_navrhovatel": "Juraj ...",
+                  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo elektronickou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+                  "ziadatel_navrhovatel": "Štátna ochrana prírody Slovenskej republiky, Správa Národného parku Nízke Tatry",
                   "miesto_realizacie": {
                     "kraj": null,
-                    "okres": null,
-                    "obec": "Prievidza",
-                    "katastralne_uzemia": [
-                      {
-                        "nazov": "Prievidza",
-                        "parcely": [
-                          {
-                            "typ": "C-KN",
-                            "cisla": [
-                              "++H-B+",
-                              "++H-B+--",
-                              "++H-B+-+",
-                              "++H-B+c+"
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "nazov": "Zátfan",
-                        "parcely": [
-                          {
-                            "typ": "C-KN",
-                            "cisla": [
-                              "+0-",
-                              "A--",
-                              "A0-",
-                              "0--",
-                              "+-"
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "nazov_lokality": null
+                    "okres": "Liptovský Mikuláš",
+                    "obec": null,
+                    "katastralne_uzemia": [],
+                    "nazov_lokality": "Javorinka"
                   },
-                  "typ_dokumentu": "Oznámenie",
+                  "typ_dokumentu": "Oznámenie o začatí konania",
                   "typ_zasahu": [
-                    "výrub drevín",
-                    "úprava vodného toku",
-                    "úprava brehových porastov"
+                    "náhodná ťažba"
                   ],
                   "typ_uzemia": [
+                    "Národný park Nízke Tatry",
                     "3. stupeň ochrany",
-                    "ochranné pásmo"
+                    "Chránené vtáčie územie Nízke Tatry SKCHVU018",
+                    "Územie európskeho významu SKUEV0310"
                   ],
                   "je_v_chranenom_uzemi": true,
-                  "dotknute_zivocichy_rastliny": [
-                    "chránené živočíchy",
-                    "chránené rastliny"
-                  ],
+                  "dotknute_zivocichy_rastliny": [],
                   "odkaz_enviroportal": null,
-                  "zhrnutie": "Dokument oznamuje konanie vo veci výrubu drevín na pozemkoch v katastrálnych územiach Prievidza a Zátfan, vrátane úpravy vodného toku a brehových porastov. Realizácia sa dotýka 3. stupňa ochrany a ochranného pásma, pričom sa spomína vzťah konania k chráneným živočíchom a rastlinám."
+                  "zhrnutie": "Oznámenie o začatí konania na podnet ŠOP SR vo veci náhodnej ťažby dreva spoločnosťou Lesy SR v Národnom parku Nízke Tatry (3. stupeň ochrany), ktorý je aj CHVU a SKUEV. Verejnosť sa môže prihlásiť ako účastník konania do 5 pracovných dní od zverejnenia."
                 }
               }
             ]

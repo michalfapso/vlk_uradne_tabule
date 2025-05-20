@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/006666-011",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2025/006666-0029420/2025",
+  "datum_dokumentu": "2025-05-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia",
+  "ziadatel_navrhovatel": "LeaderHaus s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Beckov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beckov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5127/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "5124"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby (verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy rastlín a živočíchov",
+    "vtáctvo",
+    "dreviny rastúce mimo lesa"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie povoľujúce výstavbu a predĺženie verejného vodovodu a vodovodných prípojok v obci Beckov na parcelách C-KN 5127/2 a E-KN 5124. Projekt sa realizuje v ochrannom pásme vodárenského zdroja a vyžaduje opatrenia na ochranu životného prostredia vrátane chránených druhov a drevín."
+}
