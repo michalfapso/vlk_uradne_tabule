@@ -81,16 +81,12 @@ def extract_text_from_pdf(pdf_path):
             return text.strip()
 
     except FileNotFoundError:
-        print(f"Error: Input PDF file not found at {pdf_path}", file=sys.stderr)
-        sys.exit(1)
+        raise RuntimeError(f"Error: Input PDF file not found at {pdf_path}")
     except Exception as e:
-        print(f"Error extracting text from PDF: {e}", file=sys.stderr)
-        sys.exit(1)
-        
+        raise RuntimeError(f"Error extracting text from PDF: {e}")
     except litellm.exceptions.APIConnectionError as e:
-        print(f"LLM Error: Could not connect to the API. {e}", file=sys.stderr)
-        print(traceback.format_exc(), file=sys.stderr)
-        sys.exit(1)
+        raise RuntimeError(f"LLM Error: Could not connect to the API. {e}")
+
 def main():
     parser = argparse.ArgumentParser(description="Extracts text from PDF")
     parser.add_argument("pdf", help="Input PDF file path")
