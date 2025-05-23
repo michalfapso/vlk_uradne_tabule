@@ -1,0 +1,43 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP2-2025/026493",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-16",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "IPEĽSKÉ ŠTRKOPIESKY, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banská Bystrica",
+    "okres": "Lučenec",
+    "obec": "Veľká nad Ipľom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká nad Ipľom",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "337/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Veľká nad Ipľom - Za obcou"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "ťažba štrkopieskov",
+    "povrchová ťažba",
+    "zásah do vodného prostredia"
+  ],
+  "typ_uzemia": [
+    "čiastkové povodie Ipľa",
+    "útvar povrchovej vody",
+    "útvar podzemnej vody (zlý chemický stav, riziko nedosiahnutia environmentálnych cieľov)",
+    "útvar podzemnej vody (dobrý stav)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je záväzným stanoviskom podľa § 16a vodného zákona k plánu ťažby štrkopieskov v katastrálnom území Veľká nad Ipľom. Konštatuje, že činnosť nevyžaduje výnimku z environmentálnych cieľov pre vodné útvary, no upozorňuje, že odkrytie podzemnej vody pri ťažbe môže prispieť k riziku nedosiahnutia dobrého chemického stavu dotknutého útvaru podzemnej vody, ktorý je už v zlom stave."
+}

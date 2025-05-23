@@ -1,0 +1,43 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-04-22",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie.",
+  "ziadatel_navrhovatel": "Komposesorát Pozemkové spoločenstvo",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Dolná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1754/1",
+              "1715",
+              "1714",
+              "1720",
+              "1640"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o začatí konania o vydanie súhlasu na výrub 66 smrekov a krovín v katastrálnom území obce Dolná Lehota, podané Komposesorátom Pozemkovým spoločenstvom z dôvodu ohrozenia osôb a majetku. Záujem byť účastníkom konania je možné potvrdiť do 5 pracovných dní od zverejnenia."
+}

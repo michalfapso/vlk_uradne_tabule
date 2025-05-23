@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/002625-016",
+  "cislo_rozhodnutia": "OU-PN-OSZP-2025/002625-0015607/2025",
+  "datum_dokumentu": "2025-05-07",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Aircraft Management s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Piešťany",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "12202/2",
+              "12202/67",
+              "12202/66"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "areál letiska Piešťany"
+  },
+  "typ_dokumentu": "ZÁVÄZNÉ STANOVISKO ZO ZISŤOVACIEHO KONANIA",
+  "typ_zasahu": [
+    "výstavba administratívnej budovy",
+    "výstavba hangárov",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "I. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo",
+    "živočíchy"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/-cirrus-aircraft-centrum-sk-",
+  "zhrnutie": "Záväzné stanovisko zo zisťovacieho konania k zmene navrhovanej činnosti \"CIRRUS AIRCRAFT CENTRUM SK\" (výstavba administratívnej budovy a hangárov pre malé lietadlá) v areáli letiska Piešťany. Okresný úrad Piešťany rozhodol, že činnosť sa nebude posudzovať podľa zákona o posudzovaní vplyvov. Lokalita je v I. stupni ochrany a v ochranných pásmach letiska, vrátane ornitologického (vtáctvo/živočíchy)."
+}

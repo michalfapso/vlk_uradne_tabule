@@ -1,0 +1,38 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-05-22",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5896/79"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "záhradkárskej osade"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument oznamuje začatie správneho konania k žiadosti o súhlas na výrub dreviny na parcele C-KN 5896/79 v k.ú. Brezno, v záhradkárskej osade. Dôvodom je vysoký vzrast a vek stromu ohrozujúci okolie. Verejnosť môže prejaviť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia (22.05.2025)."
+}

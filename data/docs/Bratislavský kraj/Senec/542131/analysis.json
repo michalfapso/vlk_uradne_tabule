@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-21",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "METRO Group Propertis SR s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senec",
+    "obec": "Ivanka pri Dunaji",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ivanka pri Dunaji",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "235/100",
+              "235/102",
+              "235/105",
+              "235/34",
+              "235/166"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Farná",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "676/1",
+              "676/7",
+              "679/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Administratívna budova METRO Compus"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba parkoviska",
+    "zakladanie zelene"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/administrativna-budova-metro-compus",
+  "zhrnutie": "Informácia pre verejnosť oznamujúca začatie zisťovacieho konania k zmene činnosti 'Administratívna budova METRO Compus' (výstavba administratívnej budovy s parkoviskom a zeleňou) navrhovanej spoločnosťou METRO Group Propertis SR s.r.o. v obci Ivanka pri Dunaji (KÚ Ivanka pri Dunaji a Farná). Dokument nespomína dotknuté chránené územia ani druhy."
+}
