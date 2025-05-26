@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/003214",
+  "cislo_rozhodnutia": "OU-TN-OSZP3-2025/003214-007",
+  "datum_dokumentu": "2025-05-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Trenčianske Stankovce",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Trenčianske Stankovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malé Stankovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "449",
+              "445/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Sedličná",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "342/2",
+              "342/1",
+              "352"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výkopové práce",
+    "zemné práce"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "stromová vegetácia",
+    "nepôvodné druhy rastlín",
+    "invázne druhy rastlín",
+    "rastliny alebo živočíchy"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Trenčín povoľujúce obci Trenčianske Stankovce výstavbu líniového verejného vodovodu v katastrálnych územiach Malé Stankovce a Sedličná. Dokument obsahuje podmienky súvisiace s ochranou inžinierskych sietí, archeologických nálezov a všeobecné podmienky ochrany drevín a iných rastlín/živočíchov, ak by boli dotknuté."
+}

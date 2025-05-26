@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/013439",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-22",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Inžinierske stavby Trenčín, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Trenčín",
+    "obec": "Melčice-Lieskové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zemianske Lieskové",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "701/1",
+              "704/1",
+              "696/16",
+              "696/17",
+              "696/18",
+              "696/19",
+              "696/21",
+              "696/22",
+              "697/13",
+              "697/27",
+              "697/30",
+              "715"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1255",
+              "1104/2",
+              "1070/1",
+              "1106"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Za školou"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba cesty"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja",
+    "II. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Trenčín povoľujúce výstavbu miestnej komunikácie, predĺženie verejného vodovodu a kanalizácie pre novú IBV Za školou v obci Melčice-Lieskové, k.ú. Zemianske Lieskové. Stavba sa nachádza v II. stupni ochrany vodného zdroja Melčice-Lieskové."
+}

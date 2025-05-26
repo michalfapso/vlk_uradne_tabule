@@ -1,0 +1,41 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Galanta",
+    "obec": "Šoporňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šoporňa",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "5862/1",
+              "5967/1",
+              "5967/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba energetického diela"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Žiadosť spoločnosti Západoslovenská distribučná, a.s. o vydanie súhlasu na výrub drevín v katastrálnom území Šoporňa, okres Galanta. Výrub je odôvodnený realizáciou stavby elektrického zariadenia, konkrétne vybudovaním VN a NN podzemného vedenia a novej kioskovej trafostanice. Dokument nespomína dotknuté chránené územia ani druhy."
+}

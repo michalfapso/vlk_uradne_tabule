@@ -1,0 +1,43 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Šoporňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šoporňa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5862/1",
+              "5967/1",
+              "5967/3",
+              "5967/38"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Dendrologický posudok",
+  "typ_zasahu": [
+    "výkopové práce",
+    "pokládka elektrického vedenia do zeme",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dendrologický posudok pre pokládku elektrického vedenia do zeme v katastri obce Šoporňa. Dokument identifikuje 20 drevín určených na výrub a 21 ohrozených drevín, pre ktoré navrhuje ochranné opatrenia počas výkopových prác. Uvádza, že územie sa nenachádza v chránenom území a neboli zistené chránené druhy rastlín."
+}
