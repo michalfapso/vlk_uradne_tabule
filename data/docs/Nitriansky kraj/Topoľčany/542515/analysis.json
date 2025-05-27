@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/008919",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-27",
+  "datum_zverejnenia": "2025-05-27",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "RENAS, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Topoľčany",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čermany",
+        "parcely": [
+          {
+            "typ": "E KN",
+            "cisla": [
+              "601/1",
+              "601/23",
+              "610"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ludanice",
+        "parcely": [
+          {
+            "typ": "C KN",
+            "cisla": [
+              "2052",
+              "2013"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Chrabrany",
+        "parcely": [
+          {
+            "typ": "E KN",
+            "cisla": [
+              "1873/1"
+            ]
+          },
+          {
+            "typ": "C KN",
+            "cisla": [
+              "1097",
+              "1098",
+              "1099"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nemčice",
+        "parcely": [
+          {
+            "typ": "C KN",
+            "cisla": [
+              "1285"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 400 kV vedenia V483/484 Križovany – Bystričany"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument zverejňuje oznámenie od RENAS, s.r.o. o výrube drevín a odstránení nežiadúcich porastov. Realizácia prebieha v ochrannom pásme 400 kV vedenia V483/484 Križovany – Bystričany v okrese Topoľčany, konkrétne v katastrálnych územiach Čermany, Ludanice, Chrabrany a Nemčice. Dokument sa netýka explicitne spomenutých chránených území."
+}

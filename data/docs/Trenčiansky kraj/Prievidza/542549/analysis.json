@@ -1,0 +1,39 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKY VODOHOSPODARSKY PODNIK, statny podnik, Povodie dolneho Vahu, odstepny zavod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prievidza",
+    "obec": "Tuzina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tuzina",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1584/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Pobrežný pozemok"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "odstraňovanie stromov",
+    "odstraňovanie krov"
+  ],
+  "typ_uzemia": [
+    "CHKO Ponitrie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie Slovenského vodohospodárskeho podniku o plánovanom odstraňovaní stromov a krov na pobrežnom pozemku v katastrálnom území Tužina (okres Prievidza) z dôvodu bezpečnosti. Žiadateľ požaduje zvolanie miestneho šetrenia za účasti CHKO Ponitrie."
+}
