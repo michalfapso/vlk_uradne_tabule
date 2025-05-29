@@ -1,0 +1,41 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2024-05-29",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "ANIMEX s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1810/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie s košarovaním hospodárskych zvierat"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o začatí správneho konania na žiadosť ANIMEX s.r.o. o vydanie súhlasu na pasenie, napájanie, preháňanie a nocovanie hospodárskych zvierat na parcele C-KN 1810/1 v katastrálnom území Jasenie. Konanie sa týka dotknutých záujmov ochrany prírody a krajiny. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia."
+}

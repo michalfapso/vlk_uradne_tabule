@@ -1,0 +1,27 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÁ AGENTÚRA ŽIVOTNÉHO PROSTREDIA",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Krupina",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Dokument regionálnych územných systémov ekologickej stability",
+  "typ_zasahu": [],
+  "typ_uzemia": [
+    "ochrana prírody a krajiny",
+    "ochrana vodných zdrojov",
+    "ochrana lesa",
+    "ochrana pôdneho fondu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument popisuje analýzu environmentálnych konfliktov v rámci Regionálneho územného systému ekologickej stability (RÚSES) okresu Krupina. Identifikuje oblasti stretu ochrany prírody, vody, lesa a pôdy s inými záujmami v území. Spracovala ho Slovenská agentúra životného prostredia."
+}

@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Hornbach Immobilien SK - BW s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "10080/24",
+              "10080/25",
+              "10080/52",
+              "10080/55",
+              "10080/56",
+              "10080/547",
+              "10080/548"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "OBCHODNÉ CENTRUM HORNBACH TRNAVA"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie povolenia / Doplnenie žiadosti",
+  "typ_zasahu": [
+    "výstavba",
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vypúšťanie odpadových vôd",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Žiadosť a doplnenie žiadosti o vydanie povolenia na uskutočnenie vodných stavieb (vodovod, kanalizácia, vsakovanie vôd) a vypúšťanie povrchových vôd do pozemných vôd pre stavbu Obchodné centrum Hornbach Trnava v katastrálnom území Trnava na špecifikovaných parcelách."
+}

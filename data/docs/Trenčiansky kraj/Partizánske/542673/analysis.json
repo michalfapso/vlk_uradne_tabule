@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-05-22",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Partizánske",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brodzany",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "1682/1",
+              "1583/1",
+              "1584",
+              "1585",
+              "1619"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Partizánske",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "2944/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malé Uhérce",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "389",
+              "396",
+              "399",
+              "486",
+              "1667"
+            ]
+          },
+          {
+            "typ": "KNC",
+            "cisla": [
+              "292/2",
+              "359/7",
+              "448/1",
+              "448/2",
+              "613/3",
+              "616/4",
+              "622/1",
+              "1670/1",
+              "1687/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľké Uhérce",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "3651/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pažiť",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "528/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo vedenia V483/484 Križovany - Bystričany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube/odstránení drevín (§ 47 ods. 7 zákona č. 543/2002 Z.z.)",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie porastov",
+    "ošetrenie stromov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie spoločnosti SEPS, a.s. (realizované cez RENAS, s.r.o.) Okresnému úradu Partizánske o plánovanom výrube, odstránení a ošetrení stromov a porastov v ochrannom pásme 400 kV vedenia V483/484 Križovany - Bystričany, v katastrálnych územiach Brodzany, Partizánske, Malé Uhérce, Veľké Uhérce a Pažiť (okres Partizánske). Práce sa vykonajú mimo vegetačného obdobia a sú oznamované podľa § 47 ods. 7 zákona o ochrane prírody a krajiny."
+}

@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/009371",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu.",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Pezinok",
+    "obec": "Svätý Jur",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svätý Jur",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "3721/1",
+              "3722/1",
+              "3723/1",
+              "3720/1",
+              "3725/1"
+            ]
+          },
+          {
+            "typ": "KNC",
+            "cisla": [
+              "3718/1",
+              "3718/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "za hranicami zastavaného územia obce"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výstavba oplotenia"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Informácia o začatí konania pre vydanie súhlasu na oplotenie pozemku v katastrálnom území Svätý Jur, mimo zastavaného územia obce. Lokalita sa nachádza v CHKO Malé Karpaty s 2. stupňom ochrany. Žiadateľom je fyzická osoba."
+}

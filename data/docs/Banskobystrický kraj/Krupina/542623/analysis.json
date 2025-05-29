@@ -1,0 +1,261 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Báčovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Bzovík",
+        "parcely": []
+      },
+      {
+        "nazov": "Cerovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Čabradský Vrbovok",
+        "parcely": []
+      },
+      {
+        "nazov": "Čekovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Devičie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "450/1",
+              "1145",
+              "1145/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolné Mladonice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Rykynčice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Šipice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Terany",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolný Badín",
+        "parcely": []
+      },
+      {
+        "nazov": "Domaníky",
+        "parcely": []
+      },
+      {
+        "nazov": "Drážovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Drienovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Dudince",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "102/5",
+              "77/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dvorníky",
+        "parcely": []
+      },
+      {
+        "nazov": "Hontianske Nemce",
+        "parcely": []
+      },
+      {
+        "nazov": "Hontianske Tesáre",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Mladonice",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Rykynčice",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Šipice",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Terany",
+        "parcely": []
+      },
+      {
+        "nazov": "Horný Badín",
+        "parcely": []
+      },
+      {
+        "nazov": "Jalšovík",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostolné Moravce",
+        "parcely": []
+      },
+      {
+        "nazov": "Kozí Vrbovok",
+        "parcely": []
+      },
+      {
+        "nazov": "Kráľovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Krnišov",
+        "parcely": []
+      },
+      {
+        "nazov": "Krupina",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "450/1",
+              "1145",
+              "1145/1",
+              "4384",
+              "4387",
+              "4388/1",
+              "4389",
+              "4390",
+              "9249/2",
+              "9250"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lackov",
+        "parcely": []
+      },
+      {
+        "nazov": "Ladzany",
+        "parcely": []
+      },
+      {
+        "nazov": "Lišov",
+        "parcely": []
+      },
+      {
+        "nazov": "Litava",
+        "parcely": []
+      },
+      {
+        "nazov": "Medovarce",
+        "parcely": []
+      },
+      {
+        "nazov": "Merovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Opatovské Moravce",
+        "parcely": []
+      },
+      {
+        "nazov": "Rakovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sebechleby",
+        "parcely": []
+      },
+      {
+        "nazov": "Selce",
+        "parcely": []
+      },
+      {
+        "nazov": "Senohrad",
+        "parcely": []
+      },
+      {
+        "nazov": "Sitnianska Lehôtka",
+        "parcely": []
+      },
+      {
+        "nazov": "Sudince",
+        "parcely": []
+      },
+      {
+        "nazov": "Súdovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Trpín",
+        "parcely": []
+      },
+      {
+        "nazov": "Uňatín",
+        "parcely": []
+      },
+      {
+        "nazov": "Zemiansky Vrbovok",
+        "parcely": []
+      },
+      {
+        "nazov": "Žibritov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Stará Hora, Dobrá dolina, Čabradský hradný vrch"
+  },
+  "typ_dokumentu": "Vyhodnotenie stanovísk",
+  "typ_zasahu": [
+    "výstavba",
+    "výrub/odstraňovanie porastov",
+    "vodohospodárske úpravy",
+    "hospodárenie (lesné/poľnohospodárske)",
+    "zemné/výkopové práce",
+    "úprava nehnuteľností"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť",
+    "genofondová lokalita",
+    "biokoridor",
+    "biocentrum"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty",
+    "chránené plazy",
+    "lipa malolistá",
+    "chránené rastliny"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Tento dokument obsahuje vyhodnotenie stanovísk rôznych inštitúcií (vodohospodári, pamiatkari, správcovia sietí, CHKO) k návrhu Regionálneho územného systému ekologickej stability (RÚSES) okresu Krupina. Stanoviská upozorňujú na existujúce obmedzenia (ochranné pásma, chránené územia, infraštruktúra) a navrhujú úpravy v dokumente RÚSES. Správa CHKO Štiavnické vrchy uvádza pripomienky týkajúce sa biocentier, biokoridorov a genofondových lokalít, pričom spomína chránené plazy a lipy malolisté v súvislosti s lokalitou Čabraďský hradný vrch a vinohradníckou osadou Stará Hora v Sebechleboch."
+}

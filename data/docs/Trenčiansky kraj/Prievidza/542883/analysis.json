@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-22",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenska elektrizacna prenosova sustava, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prievidza",
+    "obec": "Cerenany, Bystrieany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Cerenany",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "158/111",
+              "294/102",
+              "293/102",
+              "292/2",
+              "291/102",
+              "290/102",
+              "289/4",
+              "289/2",
+              "288/102",
+              "287/109",
+              "287/106",
+              "287/4"
+            ]
+          },
+          {
+            "typ": "KNC",
+            "cisla": [
+              "1769/1",
+              "1774/1",
+              "1774/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bystrieany",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "1294",
+              "1401/5",
+              "1404/1",
+              "326/12",
+              "327/1",
+              "328/1",
+              "327/2",
+              "328/2",
+              "364/1",
+              "364/2",
+              "365/1",
+              "365/2",
+              "366",
+              "367",
+              "368/1",
+              "368/2",
+              "369/1",
+              "370",
+              "371",
+              "372",
+              "374"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannom pasme 400 kV vedenia V483/484 Krizovany - Bystrieany"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezávanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie spoločnosti Slovenská elektrizačná prenosová sústava, a.s. (vykonáva RENAS s.r.o.) o zámere vykonať výrub a okliesnenie stromov a iných porastov v ochrannom pásme 400 kV vedenia V483/484 Krizovany - Bystričany v k.u. Čereňany a Bystričany (Okres Prievidza) na uvedených parcelách, s cieľom zaistiť bezpečnosť a spoľahlivosť prevádzky energetických zariadení. V dokumente nie sú spomenuté žiadne chránené územia ani špecifické druhy."
+}

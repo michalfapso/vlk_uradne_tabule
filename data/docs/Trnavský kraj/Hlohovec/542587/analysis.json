@@ -1,0 +1,127 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/000769-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-27",
+  "datum_zverejnenia": "2025-05-27",
+  "lehoty_na_vyjadrenie": "Nie je možné podať odvolanie",
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Hlohovec",
+    "obec": "Siladice, Zelenice, Hlohovec, Dvorníky, Sasinkovo, Kľačany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Siladice",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "792",
+              "793",
+              "794",
+              "795",
+              "796",
+              "797"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolné Zelenice",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "293"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Posádka",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "80/1",
+              "81/1",
+              "81/3",
+              "87",
+              "88/1",
+              "96/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dvorníky",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "1341"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Sasinkovo",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "2218/7",
+              "2218/9"
+            ]
+          },
+          {
+            "typ": "KNE",
+            "cisla": [
+              "1987/1",
+              "1987/2",
+              "1981",
+              "1982",
+              "1983",
+              "1984",
+              "1985",
+              "1986"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kľačany",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "630/2",
+              "630/102",
+              "630/103",
+              "654",
+              "659/5",
+              "659/103",
+              "659/104"
+            ]
+          },
+          {
+            "typ": "KNC",
+            "cisla": [
+              "604/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo 400 kV vedenia V483/484 Križovany – Bystričany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o výrube drevín v ochrannom pásme 400 kV vedenia V483/484 prebieha na pozemkoch v k. ú. Siladice, Dolné Zelenice, Posádka, Dvorníky, Sasinkovo a Kľačany v okrese Hlohovec. Výrub vykonáva RENAS s.r.o. pre Slovenskú elektrizačnú prenosovú sústavu a nevzťahujú sa naň všeobecné predpisy o správnom konaní."
+}
