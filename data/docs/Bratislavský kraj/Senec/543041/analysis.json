@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/013747-004",
+  "cislo_rozhodnutia": "OU-SC-OSZP/2025/013747/I-24/Be",
+  "datum_dokumentu": "2025-05-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "DEVICE s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senec",
+    "obec": "Senec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5187",
+              "5186/7",
+              "5184/32",
+              "5185/5",
+              "5186/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bytový dom Senec"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "vypúšťanie vôd",
+    "používanie odlučovačov ropných látok",
+    "výkopové práce",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Senec povoľujúce výstavbu dažďovej kanalizácie a súvisiacich vodných stavieb (retenčná nádrž, čerpacia stanica, dažďová záhrada s odlučovačmi ropných látok) pre bytový dom v k.ú. Senec na pozemkoch registra C p.č. 5187, 5186/7, 5184/32, 5185/5, 5186/8. Realizácia sa nachádza mimo zastavaného územia obce v oblasti s prvým stupňom ochrany a môže si vyžiadať výrub drevín a výkopové práce. Dotknuté chránené druhy neboli explicitne uvedené."
+}

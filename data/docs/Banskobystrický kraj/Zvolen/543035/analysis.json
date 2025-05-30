@@ -1,0 +1,40 @@
+{
+  "cislo_konania_spisu": "013013/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Zvolen",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zvolen",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4361",
+              "4363/2",
+              "4364/1",
+              "4364/3",
+              "4364/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Borová hora"
+  },
+  "typ_dokumentu": "Informácia o začatých správnych konaniach",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Informácia o začatí správneho konania na úseku ochrany prírody a krajiny. Právnická osoba žiada o súhlas na výrub 21 ks drevín v k.ú. Zvolen, lokalita Borová hora. Lehota na potvrdenie záujmu o účasť v konaní je 5 pracovných dní od zverejnenia informácie."
+}

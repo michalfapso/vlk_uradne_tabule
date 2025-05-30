@@ -1,0 +1,31 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Komárno",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zoznam stacionárnych zdrojov znečisťovania ovzdušia",
+  "typ_zasahu": [
+    "Emisie znečisťujúcich látok do ovzdušia (organické rozpúšťadlá)",
+    "Nanášanie náterov",
+    "Polygrafia",
+    "Chemické čistenie",
+    "Výroba obuvi",
+    "Spracovanie plastov",
+    "Nanášanie lepidla",
+    "Odmasťovanie a čistenie povrchov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je zoznamom stacionárnych zdrojov znečisťovania ovzdušia v okrese Komárno, ktoré používajú organické rozpúšťadlá. Uvádza prevádzkovateľov, obce, názvy zdrojov a typy činností ako nanášanie náterov, polygrafia, chemické čistenie, výroba obuvi, spracovanie plastov a nanášanie lepidla."
+}
