@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/035366",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-28",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "PROMT s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice - okolie",
+    "obec": "Valaliky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaliky",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1300/164",
+              "1300/204",
+              "1300/223",
+              "1300/227"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Strategické územie Valaliky"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "vsakovanie vôd",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Záväzné stanovisko orgánu štátnej vodnej správy k zmene stavby pred dokončením závodu VOLVO CARS KOŠICE v lokalite Strategické územie Valaliky, k. ú. Valaliky. Konštatuje, že činnosť sa nenachádza v chránenom území a nepredpokladá sa negatívny vplyv na povrchové a podzemné vody."
+}
