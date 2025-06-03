@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/003776-003",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2025/003776-0081224/2025",
+  "datum_dokumentu": "2025-06-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia (posledný deň vyvesenia) na odvolanie",
+  "ziadatel_navrhovatel": "MOSAP, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nitra",
+    "obec": "Klasov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Klasov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "137/9",
+              "137/13",
+              "137/14",
+              "289/49",
+              "289/50",
+              "289/51",
+              "289/52",
+              "289/53",
+              "289/54",
+              "289/55",
+              "289/56",
+              "289/57",
+              "289/70",
+              "289/95",
+              "289/96",
+              "289/97",
+              "289/98",
+              "289/99",
+              "289/100",
+              "289/102",
+              "289/103",
+              "289/104",
+              "289/110",
+              "289/111",
+              "289/122",
+              "289/123",
+              "289/124",
+              "289/126",
+              "289/127",
+              "289/129",
+              "289/137",
+              "289/138",
+              "289/139",
+              "289/140",
+              "291/2",
+              "291/5",
+              "291/7",
+              "4271",
+              "4413",
+              "4283"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "273"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "OBYTNÁ ZÓNA AGROLAND"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba dažďovej kanalizácie",
+    "výstavba splaškovej kanalizácie",
+    "vypúšťanie vôd z povrchového odtoku"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy",
+    "chránené ako aj iné druhy živočíchov"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je stavebným povolením na vybudovanie vodovodu, dažďovej a splaškovej kanalizácie pre obytnú zónu AGROLAND v obci Klasov, okres Nitra. Stavba sa nachádza na území s prvým stupňom ochrany prírody. Vyžaduje ochranu chránených aj iných živočíchov a nesmie poškodiť dreviny."
+}
