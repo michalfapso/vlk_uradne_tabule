@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/006149-Z",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-04",
+  "datum_zverejnenia": "2025-06-04",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Mesto Považská Bystrica",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1410/1",
+              "6101/1",
+              "5964/52",
+              "5964/31",
+              "1508/1",
+              "5964/55",
+              "5964/34",
+              "5942/12",
+              "5964/40",
+              "5964/30",
+              "1457/5",
+              "1457/38",
+              "1457/6",
+              "1408/6"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1468",
+              "5940/1",
+              "1467",
+              "1464",
+              "1457",
+              "1414",
+              "1413",
+              "1412",
+              "5939"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "RESIDENCE TWINS a B.D. Manín"
+  },
+  "typ_dokumentu": "Zverejnenie kópie žiadosti o stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "prekládka vodovodu",
+    "výstavba vodovodnej prípojky",
+    "úprava vodovodnej prípojky",
+    "dopojenie uličných vpustí"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/residence-twins-s-r-o-stara-ivanska-cesta-1-386-821-04-bratislava-ico:",
+  "zhrnutie": "Dokument zverejňuje kópiu žiadosti o stavebné povolenie pre vodnú stavbu SO 010 – Prekládka vodovodu – Objekt A v katastrálnom území Považská Bystrica. Táto stavba je súčasťou väčšieho projektu Bytový dom RESIDENCE TWINS a B.D. Manín. V dokumente nie je explicitne uvedené, či sa stavba nachádza v chránenom území."
+}

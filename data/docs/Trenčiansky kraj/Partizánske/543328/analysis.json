@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-PE-OSZP-2025/000458",
+  "cislo_rozhodnutia": "OU-PE-OSZP-2025/000458",
+  "datum_dokumentu": "2025-06-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Doručuje sa verejnou vyhláškou vyvesenou na 15 dní; odvolanie do 15 dní od doručenia (posledný deň vyvesenia).",
+  "ziadatel_navrhovatel": "DUKAS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Partizánske",
+    "obec": "Partizánske",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Partizánske",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4740/30",
+              "4740/31",
+              "4740/34",
+              "3551",
+              "4740/1",
+              "4792/2",
+              "4792/1",
+              "4806/1",
+              "4806/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Nová Baťovka"
+  },
+  "typ_dokumentu": "Rozhodnutie a stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vypúšťanie vôd z povrchového odtoku",
+    "vsakovanie vôd",
+    "používanie odlučovača ropných látok"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodného toku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Partizánske o vydaní stavebného povolenia na vodnú stavbu (vodovod, splašková a dažďová kanalizácia) a povolenia na vypúšťanie vôd z povrchového odtoku pre výstavbu IBV „Nová Baťovka“ v k.ú. Partizánske. Dažďová kanalizácia bude ukončená odlučovačom ropných látok a vsakovacími blokmi. Pri realizácii je potrebné rešpektovať ochranné pásmo vodného toku."
+}

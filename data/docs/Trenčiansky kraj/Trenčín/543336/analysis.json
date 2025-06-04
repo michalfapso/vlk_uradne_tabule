@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/006225",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Nová Merina, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1384/2",
+              "1507/2",
+              "1508/4",
+              "1384/245",
+              "1384/246",
+              "1385/58",
+              "1384/1",
+              "1384/10",
+              "1384/247",
+              "1384/248",
+              "1480/5",
+              "1384/243",
+              "1384/58"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Polyfunkčný súbor Železničná"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba podzemnej garáže",
+    "zemné práce",
+    "zásah do podzemných vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Trenčín podľa vodného zákona k výstavbe polyfunkčného súboru Železničná v k.ú. Trenčín. Posudzuje vplyv stavby na útvary podzemných vôd a konštatuje, že sa nevyžaduje výnimka z environmentálnych cieľov. Stavba sa nachádza v 2. ochrannom pásme vodárenského zdroja S-1 Sihoť a je potrebné zamedziť znečisteniu podzemnej vody."
+}
