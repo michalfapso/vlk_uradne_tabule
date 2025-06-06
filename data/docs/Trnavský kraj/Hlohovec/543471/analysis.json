@@ -1,0 +1,34 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Marius Pedersen, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Hlohovec",
+    "obec": "Hlohovec (mestská časť Šulekovo)",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šulekovo",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "nakladanie s odpadmi",
+    "zhodnocovanie odpadov",
+    "zber odpadov",
+    "zmena prevádzky"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o začatí zisťovacieho konania podľa zákona EIA pre zmenu prevádzky na zber a zhodnocovanie odpadov žiadateľa Marius Pedersen, a.s. v katastrálnom území Šulekovo (Hlohovec). Dokument popisuje postup konania a obmedzené možnosti účasti verejnosti."
+}

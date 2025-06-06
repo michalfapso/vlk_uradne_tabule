@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/353821-019",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/353821-0245036/2025",
+  "datum_dokumentu": "2025-06-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené (dokument je záväzné stanovisko zo zisťovacieho konania, lehota na prvé vyjadrenie verejnosti k zámeru bola v predchádzajúcej fáze konania; lehota na odvolanie proti tomuto stanovisku je do 15 dní odo dňa doručenia/zverejnenia)",
+  "ziadatel_navrhovatel": "VI GROUP Development s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava II",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnávka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "15850/100",
+              "15850/127",
+              "15850/128",
+              "15850/282",
+              "15850/283",
+              "15850/123"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Polyfunkčný komplex Baurea - Ivanská cesta"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výrub drevín",
+    "vsakovanie vôd",
+    "záber pôdy"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody",
+    "ÚSES (regionálne biocentrum Zlaté piesky, lokálny biokoridor Zlaté piesky)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "krkavcovité (Corvidae)",
+    "vtákov (hniezdenie)",
+    "drevín"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/polyfunkcny-komplex-baurea-ivanska-cesta-1",
+  "zhrnutie": "Záväzné stanovisko zo zisťovacieho konania pre zámer výstavby polyfunkčného komplexu Baurea - Ivanská cesta v Bratislave, k.ú. Trnávka. Okresný úrad rozhodol, že zámer sa nebude posudzovať podľa zákona EIA. Územie sa nachádza v 1. stupni ochrany prírody, v blízkosti prvkov ÚSES, boli spomenuté krkavcovité a potreba výrubu drevín. Dokument určuje opatrenia na zmiernenie vplyvov, ktoré má navrhovateľ zohľadniť v ďalších fázach projektu."
+}

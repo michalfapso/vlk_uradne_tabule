@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2025/006587-008",
+  "cislo_rozhodnutia": "OU-SN-OSZP-2025/006587-0030967/2025",
+  "datum_dokumentu": "2025-05-30",
+  "datum_zverejnenia": "2025-06-06",
+  "lehoty_na_vyjadrenie": "Odvolanie do 15 dní od doručenia (posledný deň 15-dňového zverejnenia verejnou vyhláškou)",
+  "ziadatel_navrhovatel": "Mesto Spišská Nová Ves",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": "Spišská Nová Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišská Nová Ves",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "9242/11",
+              "9243/7",
+              "9243/24",
+              "9243/26",
+              "9243/27",
+              "9243/33",
+              "1094/1",
+              "1094/116"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "3296",
+              "3298",
+              "3299",
+              "3300",
+              "52132/2",
+              "52140/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Blaumont stráne"
+  },
+  "typ_dokumentu": "Rozhodnutie / Stavebné povolenie (vodná stavba)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "chránený biotop",
+    "Mezofilné pasienky a spásané lúky",
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie Okresného úradu Spišská Nová Ves o povolení vodnej stavby (rozvod vody a splašková kanalizácia) pre novú obytnú zónu IBV Blaumont stráne v k.ú. Spišská Nová Ves. Dokument obsahuje podmienky vrátane ochrany chráneného biotopu Mezofilné pasienky a ochranných pásiem sietí."
+}

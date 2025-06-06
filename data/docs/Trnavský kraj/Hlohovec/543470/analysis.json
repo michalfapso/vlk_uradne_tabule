@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Trakovice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Hlohovec",
+    "obec": "Trakovice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trakovice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "IBV Pri ihrisku, I. etapa"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "vybudovanie inžinierskych sietí",
+    "výstavba vodovodu",
+    "výstavba splaškovej kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "výstavba plynovodu",
+    "výstavba VN a NN prípojky",
+    "výstavba verejného osvetlenia",
+    "výstavba miestneho rozhlasu",
+    "výstavba elektronických komunikačných sietí",
+    "výstavba spevnených plôch",
+    "výstavba komunikácií",
+    "výstavba transformátorovej stanice"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o začatí zisťovacieho konania EIA pre zámer IBV Pri ihrisku, I. etapa, Trakovice, ktorého navrhovateľom je Obec Trakovice. Zámer spočíva vo vybudovaní inžinierskych sietí, komunikácií a transformátorovej stanice pre plánovanú individuálnu výstavbu rodinných domov v katastrálnom území Trakovice. Dokument nespomína dotknuté chránené územia ani konkrétne živočíchy či rastliny."
+}

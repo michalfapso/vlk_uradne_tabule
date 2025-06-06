@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/027267-015",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/027267-015",
+  "datum_dokumentu": "2025-05-15",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia (pre obec) / prvého dňa zverejnenia v centrálnom informačnom systéme (pre dotknutú verejnosť) na podanie odvolania",
+  "ziadatel_navrhovatel": "Tate & Lyle Boleraz, s.r.o., 919 08 Boleráz, IČO: 31411011",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Trnavský",
+    "obec": "Boleráz",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Boleráz",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5635",
+              "5637",
+              "2198/5",
+              "5628/7",
+              "5627",
+              "5631/1",
+              "2198/24"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výroba modifikovaného škrobu",
+    "výstavba budovy",
+    "výrub drevín",
+    "emisie do ovzdušia",
+    "nakladanie s odpadmi",
+    "používanie chemických látok"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody a krajiny"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/modifikovany-skrob-so-114-boleraz",
+  "zhrnutie": "Záväzné stanovisko Okresného úradu Trnava zo zisťovacieho konania pre zmenu činnosti 'Modifikovaný škrob, SO 114' v obci Boleráz. Rozhodnutie určuje, že činnosť sa nebude posudzovať podľa zákona EIA. Lokalita sa nachádza v priemyselnom areáli, platí na nej 1. stupeň ochrany prírody, ale nie je vyhlásené žiadne chránené územie. Činnosť zahŕňa výstavbu objektu pre výrobu modifikovaného škrobu, výrub náletových drevín a následnú výsadbu, riadenie emisií (prašnosť) a nakladanie s odpadmi."
+}

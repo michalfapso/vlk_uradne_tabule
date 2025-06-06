@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/007963",
+  "cislo_rozhodnutia": "OU-TN-OSZP2-2025/007963",
+  "datum_dokumentu": "2025-06-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Nová Sihoť s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčín",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Biskupice",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "907/1",
+              "907/6",
+              "907/8",
+              "907/25",
+              "907/34",
+              "907/35",
+              "907/36",
+              "907/37",
+              "907/61",
+              "907/62",
+              "907/63",
+              "907/64",
+              "907/3",
+              "907/7",
+              "907/14",
+              "907/50",
+              "907/54",
+              "900/8",
+              "900/16",
+              "900/37",
+              "1113/1",
+              "1138/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "907",
+              "1105",
+              "1106",
+              "1113",
+              "1138/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytná zóna Bobrovnícka sihoť, Nozdrkovce"
+  },
+  "typ_dokumentu": "Záväzné stanovisko podľa vodného zákona",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba kanalizácie",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja 2. stupňa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument predstavuje záväzné stanovisko OÚ Trenčín k projektu Obytná zóna Bobrovnícka sihoť, Nozdrkovce v k.ú. Trenčianske Biskupice. Uvádza, že sa nevyžaduje výnimka z environmentálnych cieľov vodného zákona pre podzemné vody. Projekt zahŕňa výstavbu bytových a rodinných domov a kanalizáciu. Lokalita je blízko ochranného pásma 2. stupňa vodárenského zdroja, ale významný vplyv naň ani na podzemné vody sa nepredpokladá, hoci kumulatívne vplyvy neboli posúdené."
+}
