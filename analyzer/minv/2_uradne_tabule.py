@@ -8,8 +8,15 @@ import re # Import regex module for more robust date parsing
 from requests.compat import urljoin
 import copy
 from datetime import datetime
-from convert_date_to_iso import date_str_to_iso
 import argparse
+import os
+
+# Adjust sys.path to include scripts in the parent directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+analyzer_dir = os.path.dirname(script_dir) # parent directory of the current script
+sys.path.insert(0, analyzer_dir)
+
+from convert_date_to_iso import date_str_to_iso
 
 # Base URL of the website
 BASE_URL = "https://www.minv.sk"

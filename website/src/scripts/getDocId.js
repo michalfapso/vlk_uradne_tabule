@@ -27,6 +27,14 @@ function getDocId(docUrl) { // Using JS naming conventions (camelCase)
         // Proceeding to try hashing the potentially bad URL string as per Python's fallback
     }
 
+    //--------------------------------------------------
+    // www.minzp.sk: DOC_ID je názov súboru z URL bez prípony
+    if (parsedUrl && parsedUrl.hostname === 'www.minzp.sk') {
+        return path.parse(parsedUrl.pathname).name;
+    }
+
+    //--------------------------------------------------
+    // www.minv.sk:
     // 1. Check for 'subor' parameter
     // Note: URLSearchParams automatically handles multiple values, get returns first.
     if (parsedUrl && parsedUrl.searchParams.has('subor')) {
@@ -40,7 +48,7 @@ function getDocId(docUrl) { // Using JS naming conventions (camelCase)
     const urlPath = parsedUrl ? parsedUrl.pathname : ''; // Handle cases where parsedUrl failed
     if (urlPath) {
         const filenameWithExt = path.basename(urlPath);
-        if (filenameWithExt && filenameWithExt.startsWith('OU-')) {
+        if (filenameWithExt && filenameWithExt.toLowerCase().startsWith('ou-')) {
             const filenameWithoutExt = path.parse(filenameWithExt).name; // path.parse gives name and ext
             return filenameWithoutExt;
         }

@@ -6,9 +6,9 @@ Parsing and analyzing documents from the official Slovak government website
 # Meta analysis - The idea is to provide examples of multiple documents to LLM and ask it to create a prompt for itself.
 # 
 # 1. Get random N documents
-python3 get_random_documents.py -i ../data/2_uradne_tabule.json -o ../data/get_random_documents_100.json -n 100
+python3 get_random_documents.py -i ../data/minv/2_uradne_tabule.json -o ../data/minv/get_random_documents_100.json -n 100
 # 2. Download and convert them to .txt
-python3 4_process_documents.py --input ../data/get_random_documents_100.json --output ../data/get_random_documents_100_out.json --docs-dir ../data/docs --skip-analysis
+python3 4_process_documents.py --input ../data/minv/get_random_documents_100.json --output ../data/minv/get_random_documents_100_out.json --docs-dir ../data/minv/docs --skip-analysis
 # 3. Concatenate .txt docs and create a prompt asking to create a prompt
 python3 meta_analysis.py ../data/get_random_documents_100.json
 # 4. Prompt was written to meta_analysis_prompt.md, so just paste it to any LLM

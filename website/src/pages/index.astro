@@ -12,7 +12,8 @@ import { fileURLToPath } from 'node:url';
 
 // Import the initial JSON data.
 // We'll use 3_diff_test.json as specified by the structure requirements.
-import rawInputData from '../../../data/minv/2_uradne_tabule_old.json';
+import minv_rawInputData from '../../../data/minv/2_uradne_tabule_old.json';
+import minzp_rawInputData from '../../../data/minzp/4_merge_json_docs_old.json';
 
 // Import the getDocId function
 import { getDocId } from '../scripts/getDocId.js';
@@ -39,46 +40,56 @@ function getDateStringDaysAgo(days) {
     return `${year}-${month}-${day}`;
 }
 
-// Function to filter documents by date
-function filterData(inputData, oldestDateString) {
-    const filteredKraje = [];
+// Function to flatten the raw input data structure
+function flattenRawData(inputData) {
+    const flatDocuments = [];
+    if (!inputData || !Array.isArray(inputData)) {
+        console.warn("flattenRawData: inputData is not a valid array.");
+        return flatDocuments;
+    }
 
     for (const kraj of inputData) {
-        const newKraj = { ...kraj, okresy: [] }; // Start with a new kraj, copy non-array properties
-        if (kraj.okresy) {
-            for (const okres of kraj.okresy) {
-                const newOkres = { ...okres, dokumenty_zivotne_prostredie: [] };
-                if (okres.dokumenty_zivotne_prostredie) {
-                    for (const kategoria of okres.dokumenty_zivotne_prostredie) {
-                        let filteredDocs = [];
-                        if (kategoria.dokumenty) {
-                            // Direct string comparison works for YYYY-MM-DD format
-                            filteredDocs = kategoria.dokumenty.filter(doc => doc.datum && doc.datum >= oldestDateString);
-                        }
+        if (!kraj || typeof kraj !== 'object') continue;
 
-                        if (filteredDocs.length > 0) {
-                            // Add kategoria with filtered documents
-                            newOkres.dokumenty_zivotne_prostredie.push({
-                                ...kategoria,
-                                dokumenty: filteredDocs
-                            });
+        if (kraj.okresy && Array.isArray(kraj.okresy)) {
+            for (const okres of kraj.okresy) {
+                if (!okres || typeof okres !== 'object') continue;
+                const okresName = okres.nazov;
+
+                if (okres.dokumenty_zivotne_prostredie && Array.isArray(okres.dokumenty_zivotne_prostredie)) {
+                    for (const kategoriaObj of okres.dokumenty_zivotne_prostredie) {
+                        if (!kategoriaObj || typeof kategoriaObj !== 'object') continue;
+                        const kategoriaName = kategoriaObj.kategoria;
+
+                        if (kategoriaObj.dokumenty && Array.isArray(kategoriaObj.dokumenty)) {
+                            for (const doc of kategoriaObj.dokumenty) {
+                                if (!doc || typeof doc !== 'object') continue;
+                                flatDocuments.push({
+                                    kraj: kraj.kraj,
+                                    kraj_url: kraj.url,
+                                    okres: okres.nazov,
+                                    okres_url: okres.url,
+                                    okres_url_tabule: okres.url_tabule,
+                                    doc_kategoria: kategoriaName,
+                                    ...doc // Spread the original document properties
+                                });
+                            }
                         }
                     }
                 }
-
-                // Only add okres if it has any kategorie with documents
-                if (newOkres.dokumenty_zivotne_prostredie.length > 0) {
-                    newKraj.okresy.push(newOkres);
-                }
             }
         }
-
-        // Only add kraj if it has any okresy with documents
-        if (newKraj.okresy.length > 0) {
-            filteredKraje.push(newKraj);
-        }
     }
-    return filteredKraje;
+    return flatDocuments;
+}
+
+// Function to filter documents by date (works on a flat array of documents)
+function filterDocumentsByDate(documents, oldestDateString) {
+    if (!documents || !Array.isArray(documents)) {
+        return [];
+    }
+    // Direct string comparison works for YYYY-MM-DD format
+    return documents.filter(doc => doc.datum && doc.datum >= oldestDateString);
 }
 
 function getDateString() {
@@ -90,16 +101,6 @@ function getDateString() {
     const minutes = String(now.getUTCMinutes()).padStart(2, '0');
     const seconds = String(now.getUTCSeconds()).padStart(2, '0');
     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-}
-
-// Helper function to create an array or append to an existing one
-function createOrAppendToArray(array, item) {
-    if (array && Array.isArray(array)) {
-        array.push(item);
-        return array;
-    } else {
-        return [item];
-    }
 }
 
 function appendErrorToStatus(doc, errorMessage) {
@@ -114,121 +115,178 @@ function appendErrorToStatus(doc, errorMessage) {
     });
 }
 
-// Function to enrich document data with content from corresponding analysis.json files
-function enrichDocumentsWithAnalysis(inputData) {
-    // Deep copy the input data to avoid modifying the original imported object/cache
-    const processedData = structuredClone(inputData);
+// Function to enrich flattened document data with content from corresponding analysis.json files
+function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
+    const enrichedDocs = [];
 
-    for (const kraj of processedData) {
-        const krajName = kraj.kraj;
-        if (kraj.okresy) {
-            for (const okres of kraj.okresy) {
-                const okresName = okres.nazov;
-                if (okres.dokumenty_zivotne_prostredie) {
-                    for (const kategoria of okres.dokumenty_zivotne_prostredie) {
-                        if (kategoria.dokumenty) {
-                            for (const doc of kategoria.dokumenty) {
-                                if (doc.url) {
-                                    const docId = getDocId(doc.url); // Použitie getDocId
+    for (const originalDoc of flatDocs) {
+        // Create a shallow copy to add new properties like docId, status, analyza
+        const doc = { ...originalDoc };
 
-                                    if (docId) {
-                                        doc.docId = docId; // Uloženie docId do dokumentu
-                                        // Construct the path to the analysis.json file.
-                                        const docDir = path.resolve(
-                                            __dirname, // Current file's directory (website/src/pages)
-                                            '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
-                                            'data',
-                                            'docs',
-                                            krajName,
-                                            okresName,
-                                            docId // Použitie docId získaného z getDocId
-                                        );
-                                        const statusFilePath   = path.resolve(docDir, 'status.json');
-                                        const analysisFilePath = path.resolve(docDir, 'analysis.json');
+        if (doc.url) {
+            const docId = getDocId(doc.url); // Použitie getDocId
 
-                                        try {
-                                            if (fs.existsSync(statusFilePath)) {
-                                                const statusContent = fs.readFileSync(statusFilePath, 'utf-8');
-                                                doc.status = JSON.parse(statusContent);
-                                            }
-                                        } catch (error) {
-                                            appendErrorToStatus(doc, `Failed to load/parse status from ${statusFilePath}: ${error.message}`);
-                                        }
+            if (docId) {
+                doc.docId = docId; // Uloženie docId do dokumentu
 
-                                        try {
-                                            if (fs.existsSync(analysisFilePath)) {
-                                                const analysisContent = fs.readFileSync(analysisFilePath, 'utf-8');
-                                                doc.analyza = JSON.parse(analysisContent);
-                                            } else {
-                                                appendErrorToStatus(doc, `Analysis file not found: ${analysisFilePath}`);
-                                            }
-                                        } catch (error) {
-                                            appendErrorToStatus(doc, `Failed to load/parse analysis from ${analysisFilePath}: ${error.message}`);
-                                        }
-                                    } else {
-                                        doc.analyza = { message: `Could not determine document ID from URL: ${doc.url}` };
-                                    }
-                                } else {
-                                    doc.analyza = { message: "Document has no URL." };
-                                }
-                            }
-                        }
-                    }
+                // krajName and okresName are now directly on the doc object from flattening
+                const krajName = doc.kraj;
+                const okresName = doc.okres;
+
+                // Ensure krajName and okresName are valid for path construction
+                if (!krajName || !okresName) {
+                    appendErrorToStatus(doc, `Missing kraj ('${krajName}') or okres ('${okresName}') name for document URL: ${doc.url}. Cannot load analysis.`);
+                    enrichedDocs.push(doc);
+                    continue; 
                 }
+
+                // Construct the path to the analysis.json file.
+                const docDir = path.resolve(
+                    __dirname, // Current file's directory (website/src/pages)
+                    '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
+                    'data',
+                    dataSubdir,
+                    'docs',
+                    krajName,
+                    okresName,
+                    docId // Použitie docId získaného z getDocId
+                );
+                const statusFilePath   = path.resolve(docDir, 'status.json');
+                const analysisFilePath = path.resolve(docDir, 'analysis.json');
+
+                try {
+                    if (fs.existsSync(statusFilePath)) {
+                        const statusContent = fs.readFileSync(statusFilePath, 'utf-8');
+                        // Ensure doc.status is an array before merging or assigning
+                        const loadedStatus = JSON.parse(statusContent);
+                        doc.status = doc.status ? [...doc.status, ...loadedStatus] : loadedStatus;
+                    }
+                } catch (error) {
+                    appendErrorToStatus(doc, `Failed to load/parse status from ${statusFilePath}: ${error.message}`);
+                }
+
+                try {
+                    if (fs.existsSync(analysisFilePath)) {
+                        const analysisContent = fs.readFileSync(analysisFilePath, 'utf-8');
+                        doc.analyza = JSON.parse(analysisContent);
+                    } else {
+                        appendErrorToStatus(doc, `Analysis file not found: ${analysisFilePath}`);
+                    }
+                } catch (error) {
+                    appendErrorToStatus(doc, `Failed to load/parse analysis from ${analysisFilePath}: ${error.message}`);
+                }
+            } else {
+                appendErrorToStatus(doc, `Could not determine document ID from URL: ${doc.url}`);
+            }
+        } else {
+            appendErrorToStatus(doc, "Document has no URL.");
+        }
+        if (dataSubdir == 'minzp') {
+            if (!doc.kraj_url) {
+                doc.kraj_url = 'https://www.minzp.sk/uradna-tabula/priroda/';
+            }
+        } else if (dataSubdir == 'minv') {
+            if (doc.kraj_url && doc.kraj_url.startsWith('/')) {
+                doc.kraj_url = 'https://www.minv.sk' + doc.kraj_url;
+            }
+            if (doc.okres_url && doc.okres_url.startsWith('/')) {
+                doc.okres_url = 'https://www.minv.sk' + doc.okres_url;
+            }
+            if (doc.okres_url_tabule && doc.okres_url_tabule.startsWith('/')) {
+                doc.okres_url_tabule = 'https://www.minv.sk' + doc.okres_url_tabule;
+            }
+            if (doc.okres_url_tabule && !doc.okres_url_tabule.endsWith('#popis')) {
+                doc.okres_url_tabule = doc.okres_url_tabule + '#popis';
             }
         }
+        enrichedDocs.push(doc);
     }
-    return processedData;
+    return enrichedDocs;
 }
 
 const OLDEST_DATE_TO_SHOW = getDateStringDaysAgo(7);
-console.log(`Filtering documents newer than or equal to: ${OLDEST_DATE_TO_SHOW}`);
-const rawInputDataFiltered = filterData(rawInputData, OLDEST_DATE_TO_SHOW);
 
-// Process the imported data to include analysis content
-const data = enrichDocumentsWithAnalysis(rawInputDataFiltered);
-console.log('Processed data:', JSON.stringify(data, null, 2));
+// Function to load okres-level status messages and flatten them
+function getFlatOkresStatusMessages(inputData, baseDir) {
+    const flatStatusMessages = [];
+    if (!inputData || !Array.isArray(inputData)) {
+        console.warn("getFlatOkresStatusMessages: inputData is not a valid array.");
+        return flatStatusMessages;
+    }
 
-// --- Nacitanie statusov pre okresy ---
-const okresyStatus = structuredClone(rawInputData);
-for (const kraj of okresyStatus) {
-    // Predpokladame, ze nazov kraja pre adresarovu strukturu je v 'kraj.kraj'
-    const krajName = kraj.kraj;
-    if (kraj.okresy && krajName) {
-        for (const okres of kraj.okresy) {
-            // Vymazanie kluca dokumenty_zivotne_prostredie z okresu
-            delete okres.dokumenty_zivotne_prostredie;
-            // Predpokladame, ze nazov okresu pre adresarovu strukturu je v 'okres.nazov'
-            const okresName = okres.nazov;
-            if (okresName) {
+    for (const krajData of inputData) {
+        if (!krajData || typeof krajData !== 'object' || !krajData.kraj) continue;
+        const krajName = krajData.kraj;
+
+        if (krajData.okresy && Array.isArray(krajData.okresy)) {
+            for (const okresData of krajData.okresy) {
+                if (!okresData || typeof okresData !== 'object' || !okresData.nazov) continue;
+                const okresName = okresData.nazov;
+                const okresUrlTabule = okresData.url; // okres.url from minv_rawInputData is the link to the board
+
                 const statusFilePath = path.resolve(
-                    __dirname,
-                    '../../../data/docs', // Cesta k 'data/docs' z 'website/src/pages'
+                    baseDir,
+                    '../../../data/minv/docs',
                     krajName,
                     okresName,
                     'status.json'
                 );
 
+                let okresStatusEntries = [];
                 try {
                     if (fs.existsSync(statusFilePath)) {
                         const statusContent = fs.readFileSync(statusFilePath, 'utf-8');
-                        okres.status = JSON.parse(statusContent);
+                        const parsedStatus = JSON.parse(statusContent);
+                        if (Array.isArray(parsedStatus)) {
+                            okresStatusEntries = parsedStatus;
+                        } else {
+                            console.warn(`Parsed status for ${krajName}/${okresName} is not an array. Path: ${statusFilePath}`);
+                        }
                     }
                 } catch (error) {
                     console.error(`Chyba pri načítaní alebo spracovaní status.json pre ${krajName}/${okresName} z ${statusFilePath}: ${error.message}`);
-                    // Mozete sem pridat specificke logovanie chyby do okres.status, ak je to potrebne
-                    // napr. okres.status = { error: `Failed to load status: ${error.message}` };
                 }
-            } else {
-                console.warn(`Okres v kraji '${krajName}' nemá definovaný názov (okres.nazov). Preskakujem načítanie statusu.`);
+
+                for (const statusEntry of okresStatusEntries) {
+                    if (statusEntry && typeof statusEntry === 'object') {
+                        flatStatusMessages.push({
+                            kraj: krajName,
+                            okres: okresName,
+                            okres_url_tabule: okresUrlTabule,
+                            datum: statusEntry.date,
+                            typ: statusEntry.type,
+                            sprava: statusEntry.text
+                        });
+                    }
+                }
             }
         }
-    } else if (!krajName) {
-        console.warn("Kraj v 'rawInputData' nemá definovaný názov (kraj.kraj). Preskakujem načítanie statusov pre jeho okresy.");
     }
+    return flatStatusMessages;
 }
-// Pre ucely ladenia mozes odkomentovat nasledujuci riadok:
-// console.log('okresyStatus:', JSON.stringify(okresyStatus, null, 2));
+
+// --- Nacitanie statusov pre okresy ---
+const minv_okresyStatusData = getFlatOkresStatusMessages(minv_rawInputData, __dirname);
+// console.log('Data for OkresyStatus component:', JSON.stringify(okresyStatusData, null, 2));
+// --- Process documents for the DocumentTable ---
+console.log(`Filtering documents newer than or equal to: ${OLDEST_DATE_TO_SHOW}`);
+// 1. Flatten the raw data to a list of documents
+const minv_allDocumentsFlat = flattenRawData(minv_rawInputData);
+// 2. Filter the flattened documents by date
+const minv_filteredFlatDocs = filterDocumentsByDate(minv_allDocumentsFlat, OLDEST_DATE_TO_SHOW);
+// 3. Enrich the filtered documents with analysis content
+const minv_data = enrichFlattenedDocumentsWithAnalysis(minv_filteredFlatDocs, 'minv');
+
+const minzp_filteredFlatDocs = filterDocumentsByDate(minzp_rawInputData, OLDEST_DATE_TO_SHOW);
+const minzp_data = enrichFlattenedDocumentsWithAnalysis(minzp_filteredFlatDocs, 'minzp');
+
+const data = [...minv_data, ...minzp_data]; // Combine both sources
+// console.log('Processed data for DocumentTable (flattened, filtered, enriched):', JSON.stringify(data, null, 2));
+
+console.log('minv_data:', JSON.stringify(minv_data, null, 2));
+console.log('minzp_data:', JSON.stringify(minzp_data, null, 2));
+console.log('data:', JSON.stringify(data, null, 2));
+
 ---
 
 <Layout title={pageTitle}>
@@ -238,12 +296,12 @@ for (const kraj of okresyStatus) {
             <a href={import.meta.env.BASE_URL + 'last_day'} class="btn btn-primary">Zobraz iba dokumenty za posledný deň</a>
         </p>
         <OkresyStatus
-            data={okresyStatus}
+            data={minv_okresyStatusData} {/* OkresyStatus now receives a flat list of status messages */}
         />
-        {/* Use the component, passing the imported data and other props */}
+        {/* Use the component, passing the processed flat data */}
         <DocumentTable
             id="env-documents-table" {/* Optional: Provide a specific ID */}
-            data={data}              {/* Pass the raw imported data */}
+            data={data}              {/* Pass the flattened, filtered, and enriched data */}
             title={pageTitle}
             description={pageDescription}
         />

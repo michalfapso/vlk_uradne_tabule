@@ -16,6 +16,13 @@ def get_doc_id(doc_url: str) -> str | None:
     parsed_url = urllib.parse.urlparse(doc_url)
     query_params = urllib.parse.parse_qs(parsed_url.query)
 
+    #--------------------------------------------------
+    # www.minzp.sk: DOC_ID je názov súboru z URL bez prípony
+    if 'www.minzp.sk' in doc_url:
+        return os.path.splitext(os.path.basename(parsed_url.path))[0]
+
+    #--------------------------------------------------
+    # www.minv.sk:
     # 1. Skontroluj parameter 'subor'
     if 'subor' in query_params and query_params['subor'] and query_params['subor'][0]: # Check for non-empty value
         return query_params['subor'][0]
@@ -24,7 +31,7 @@ def get_doc_id(doc_url: str) -> str | None:
     path = parsed_url.path
     if path:
         filename_with_ext = os.path.basename(path)
-        if filename_with_ext and filename_with_ext.startswith('OU-'):
+        if filename_with_ext and filename_with_ext.lower().startswith('ou-'):
             filename_without_ext, ext = os.path.splitext(filename_with_ext)
             return filename_without_ext
 

@@ -3,6 +3,14 @@ from bs4 import BeautifulSoup
 import json
 from urllib.parse import urljoin, urlparse, parse_qs
 import sys
+import os
+
+# Adjust sys.path to include scripts in the parent directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+analyzer_dir = os.path.dirname(script_dir) # parent directory of the current script
+sys.path.insert(0, analyzer_dir)
+
+from convert_date_to_iso import date_str_to_iso
 # import traceback # Odkomentuj pre detailnejší výpis chýb pri parsovaní
 
 BASE_URL = 'https://www.minzp.sk'
@@ -51,8 +59,8 @@ def scrape_minzp_documents():
                 link_tag = item_div.find('a', recursive=False) 
                 nazov_tag = item_div.find('h4')
 
-                nazov = "N/A"
-                doc_url = "N/A"
+                nazov = ""
+                doc_url = ""
 
                 if link_tag and link_tag.has_attr('href'):
                     relative_url = link_tag['href']
@@ -65,13 +73,14 @@ def scrape_minzp_documents():
                     nazov = nazov_tag.get_text(strip=True)
 
                 news_text_div = item_div.find('div', class_='news_text')
-                datum = "N/A"
-                popis = "N/A"
+                datum = ""
+                popis = ""
 
                 if news_text_div:
                     datum_span = news_text_div.find('span', class_='news_date')
                     if datum_span:
                         datum = datum_span.get_text(strip=True)
+                        datum = date_str_to_iso(datum) # Prevedieme dátum na ISO formát
                         # Odstránime span s dátumom z news_text_div, aby sme získali čistý popis.
                         # Toto modifikuje news_text_div na mieste, čo je v tomto cykle bezpečné.
                         datum_span.extract() 

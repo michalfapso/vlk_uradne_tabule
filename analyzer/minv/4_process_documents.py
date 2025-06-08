@@ -496,7 +496,7 @@ if __name__ == "__main__":
     #     'Banská Bystrica',
     #     'https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=540792',
     #     # 'https://www.minv.sk/?okresne-urady-klientske-centra&urad=51&odbor=10&sekcia=uradna-tabula&subor=540951', # zip
-    #     '../data/docs_test',
+    #     '../data/minv/docs_test',
     #     skip_analysis=False # Alebo True, ak chces testovat len stahovanie/extrakciu
     # )
     # print(f"Test - Returned DOC_ID: {doc_id}, Result: {analysis}")

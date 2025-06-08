@@ -5,37 +5,13 @@ import { statusTypeToIcon } from '../scripts/statusTypeToIcon.js'; // Import uti
 
 const {
   id = 'okresy-status-table', // Default ID
-  data = [],                   // Default to empty array (this will be statusOkresy)
+  data: processedStatusMessages = [], // Expecting a pre-flattened array of status messages
   description = 'Prehľad chybových hlásení pre okresy:',
 } = Astro.props;
 
-// --- Príprava dát ---
-// Sploštenie štruktúry dát do jedného poľa stavových hlásení
-const processedStatusMessages = [];
-if (Array.isArray(data)) {
-  data.forEach(krajData => {
-    if (krajData && krajData.okresy && Array.isArray(krajData.okresy)) {
-      krajData.okresy.forEach(okresData => {
-        if (okresData && okresData.status && Array.isArray(okresData.status) && okresData.status.length > 0) {
-          okresData.status.forEach(statusEntry => {
-            if (statusEntry) {
-              processedStatusMessages.push({
-                kraj: krajData.kraj || 'Neznámy kraj',
-                okres: okresData.nazov || 'Neznámy okres',
-                okres_url_tabule: okresData.url_tabule,
-                datum: statusEntry.date,
-                typ: statusEntry.type,
-                sprava: statusEntry.text
-              });
-            }
-          });
-        }
-      });
-    }
-  });
-}
+// The data is now expected to be pre-processed (flattened) by the calling page (index.astro)
+// console.log('[OkresyStatus] Received pre-processed status messages:', processedStatusMessages);
 
-// console.log('[OkresyStatus] Processed status messages:', processedStatusMessages);
 ---
 
 {processedStatusMessages.length > 0 && (

@@ -21,5 +21,7 @@
   ["https://OU-example.com/file.pdf", "urlhash_74d92587a495bd16"],
   ["http://[::1]:8080/path", "urlhash_16d2708252bb8faa"],
   ["/path/to/document.pdf", "urlhash_dde0eea691f15807"],
-  ["document.pdf", "urlhash_5cf35f3f6ff897f2"]
+  ["document.pdf", "urlhash_5cf35f3f6ff897f2"],
+  ["https://www.minzp.sk/ou-zilina/ou-za-oszp1-2025-049674-bra.html", "ou-za-oszp1-2025-049674-bra"],
+  ["https://www.minzp.sk/ochrana-prirody/spravne-konania/kraj-trnava/ou-trnava/nova-web-stranka.html", "nova-web-stranka"]
 ]

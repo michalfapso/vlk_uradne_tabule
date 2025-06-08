@@ -86,7 +86,7 @@ jobs:
           path: ./data/minv/3_diff.json
 
       - name: 4. Process new documents (convert, analyze)
-        run: python minv/4_process_documents.py --input ../data/minv/3_diff.json --docs-dir ../data/docs
+        run: python minv/4_process_documents.py --input ../data/minv/3_diff.json --docs-dir ../data/minv/docs
         working-directory: ./analyzer # Run this command in the analyzer directory
         env:
           # Pass the Gemini API key secret to the script's environment

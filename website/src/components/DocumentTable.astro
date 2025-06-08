@@ -12,22 +12,10 @@ const {
 // --- Príprava dát (moved inside component) ---
 // Sploštenie vnorenej štruktúry dát do jedného poľa dokumentov
 // This assumes the input 'data' prop has the same structure as the original JSON import
-const allDocuments = data.flatMap(krajData =>
-  krajData.okresy?.flatMap(okresData => // Add optional chaining for safety
-    okresData.dokumenty_zivotne_prostredie?.flatMap(kategoriaData => // Add optional chaining
-      kategoriaData.dokumenty?.map(doc => ({ // Add optional chaining
-        ...doc, // Pôvodné vlastnosti dokumentu (datum, nazov, url, analyza)
-        kraj: krajData.kraj, // Pridanie názvu kraja
-        kraj_url: krajData.url,
-        okres: okresData.nazov, // Pridanie názvu okresu
-        okres_url: okresData.url,
-        okres_url_tabule: okresData.url_tabule,
-        has_analysis: !!doc.analyza, // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
-        doc_kategoria: kategoriaData.kategoria,
-      })) || [] // Default to empty array if documents are missing
-    ) || [] // Default to empty array if kategoriaData is missing
-  ) || [] // Default to empty array if okresy are missing
-);
+const allDocuments = data.map(doc => ({ // Add optional chaining
+    ...doc, // Pôvodné vlastnosti dokumentu (datum, nazov, url, analyza)
+    has_analysis: !!doc.analyza, // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
+})) || []; // Default to empty array if documents are missing
 
 console.log('allDocuments:', allDocuments);
 
@@ -240,14 +228,18 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
-                        const url = `https://www.minv.sk${data.kraj_url}`;
-                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
+                        const url = `${data.kraj_url}`;
+                        return url
+                            ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`
+                            : value;
                     }},
                     { title: "Okres", field: "okres", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
-                        const url = `${data.okres_url_tabule}#popis`;
-                        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`;
+                        const url = data.okres_url_tabule;
+                        return url
+                            ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`
+                            : value;
                     }},
                     { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return 'Bez analýzy';
