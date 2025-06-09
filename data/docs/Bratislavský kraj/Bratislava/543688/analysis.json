@@ -1,0 +1,22 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": null,
+  "typ_zasahu": [],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Text dokumentu neobsahuje dostatok informácií na extrakciu kľúčových detailov o konaní, žiadateľovi, mieste realizácie alebo type zásahu. Pravdepodobne ide o chybný vstup (napr. neúspešná konverzia PDF)."
+}

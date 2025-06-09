@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/027277-010",
+  "cislo_rozhodnutia": "OU-KE-OSZP3-2025/027277-010",
+  "datum_dokumentu": "2025-06-03",
+  "datum_zverejnenia": "2025-06-09",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "CTR Watsonova s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Severné Mesto",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1228",
+              "1229",
+              "1231/1",
+              "1231/2",
+              "1231/3",
+              "1231/4",
+              "1231/6",
+              "1231/7",
+              "1231/8",
+              "1231/9",
+              "1231/10",
+              "1231/11",
+              "1422/91",
+              "8064/6"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2507/501",
+              "2508"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Letná",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2507"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Watsonova – polyfunkčný súbor"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodnej prípojky",
+    "výstavba areálových rozvodov vody",
+    "výstavba kanalizačnej prípojky",
+    "výstavba areálových rozvodov splaškovej kanalizácie",
+    "výstavba areálových rozvodov dažďovej kanalizácie",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je stavebným povolením pre vodné stavby (vodovodné a kanalizačné prípojky, areálové rozvody, vsakovanie dažďových vôd) v rámci polyfunkčného súboru 'Watsonova' v Košiciach (k.ú. Severné Mesto a Letná). Povolenie obsahuje podmienky vyplývajúce z procesu EIA a stanovísk dotknutých orgánov."
+}

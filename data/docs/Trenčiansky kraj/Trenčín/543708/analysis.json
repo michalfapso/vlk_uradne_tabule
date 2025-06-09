@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/015891",
+  "cislo_rozhodnutia": "OU-TN-OSZP3-2025/015891-019",
+  "datum_dokumentu": "2025-06-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Lehota na podanie odvolania je 15 dní odo dňa oznámenia rozhodnutia (15-ty deň vyvesenia verejnej vyhlášky)",
+  "ziadatel_navrhovatel": "Dolné mesto, s.r.o., Grösslingova 4, Bratislava",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2508/428",
+              "2509/1",
+              "2509/2",
+              "2509/3",
+              "2509/19",
+              "2509/21",
+              "2509/22",
+              "2509/24",
+              "2509/25",
+              "2509/26",
+              "2510/8",
+              "3433/1",
+              "3440"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Trenčín – Dolné Mesto"
+  },
+  "typ_dokumentu": "Rozhodnutie - Povolenie na uskutočnenie vodnej stavby (Verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "stromy",
+    "kríky",
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/trencin-dolne-mesto",
+  "zhrnutie": "Rozhodnutie Okresného úradu Trenčín o povolení vodnej stavby \"Trenčín – Dolné Mesto: SO 401 Predĺženie verejného vodovodu, SO 501 Predĺženie verejnej kanalizácie, SO 503 Dažďová kanalizácia, vsak\". Stavba sa realizuje v k.ú. Trenčín na uvedených parcelách a zahŕňa aj osobitné užívanie vôd - vypúšťanie vôd z povrchového odtoku do podzemných vôd. Dokument nespomína explicitne chránené územia ani chránené druhy živočíchov."
+}
