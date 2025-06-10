@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": "9766",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-06-03",
+  "datum_zverejnenia": "2023-06-09",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Partizánske",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hradište",
+        "parcely": []
+      },
+      {
+        "nazov": "Skačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Nedanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Bielice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo pod vonkajším elektrickým vedením VN 283"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument oznamuje vykonanie výrubov a orezov drevín v ochrannom pásme pod vonkajším elektrickým vedením VN 283 v katastrálnych územiach Hradište, Skačany, Nedanovce a Veľké Bielice. Cieľom je pravidelná údržba ochranného pásma elektrovodov v období 2023-2025."
+}

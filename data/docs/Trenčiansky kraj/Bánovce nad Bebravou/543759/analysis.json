@@ -1,0 +1,32 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-06-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "EKOREM s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bánovce nad Bebravou",
+    "obec": "Bánovce nad Bebravou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bánovce nad Bebravou",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod vonkajším elektrickým vedením VN 146"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrovodu"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o výrube a oreze drevín v ochrannom pásme pod elektrickým vedením VN 146 v katastrálnom území mesta Bánovce nad Bebravou, realizované pre ZSDIS. Dokument nespomína chránené územia ani druhy."
+}
