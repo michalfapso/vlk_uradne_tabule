@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2025/002302-010",
+  "cislo_rozhodnutia": "OU-SN-OSZP-2025/002302-0032502/2025",
+  "datum_dokumentu": "2025-06-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní od doručenia (verejnou vyhláškou)",
+  "ziadatel_navrhovatel": "Obec Bystrany",
+  "miesto_realizacie": {
+    "kraj": "Košický",
+    "okres": "Spišská Nová Ves",
+    "obec": "Bystrany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystrany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "101",
+              "102",
+              "110/1",
+              "110/4",
+              "126",
+              "143",
+              "145",
+              "160/1",
+              "164",
+              "169",
+              "282/1",
+              "282/2",
+              "552/1",
+              "552/2",
+              "639",
+              "853",
+              "855",
+              "863",
+              "864",
+              "865",
+              "866/1",
+              "866/2",
+              "867/1",
+              "867/2",
+              "868",
+              "878",
+              "882",
+              "883"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Spišské Vlachy",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "6167/2",
+              "6168/2",
+              "7786/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bystrany – vodovod, kanalizácia ČOV, III. etapa"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom povolení vodnej stavby (Verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba ATS",
+    "výstavba oplotenia",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Národný park Slovenský raj"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Rozhodnutie o stavebnom povolení vodnej stavby (rozvádzacie potrubie, vodovodné odbočky, automatická tlaková stanica, oplotenie) v obci Bystrany a katastrálnom území Spišské Vlachy, okres Spišská Nová Ves. Projekt sa nachádza v blízkosti Národného parku Slovenský raj a vyžaduje posúdenie výrubu drevín."
+}

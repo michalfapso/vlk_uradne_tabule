@@ -1,0 +1,32 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Griffin, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dúbravka",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Dúbravská oáza"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "rozšírenie kapacity"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o začatí zisťovacieho konania EIA pre zmenu navrhovanej činnosti \"Dúbravská oáza – dostavba\" v Bratislave, k.ú. Dúbravka. Činnosťou je dostavba objektov špecializovaného zariadenia sociálnych služieb a bývania pre seniorov s cieľom zvýšiť kapacitu. Navrhovateľom je Griffin, s. r. o. Informácie sú dostupné na enviroportal.sk."
+}

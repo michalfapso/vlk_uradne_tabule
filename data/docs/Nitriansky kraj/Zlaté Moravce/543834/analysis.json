@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/000478-011",
+  "cislo_rozhodnutia": "OU-ZM-OSZP-2025/000478-0004552/2025",
+  "datum_dokumentu": "2025-05-30",
+  "datum_zverejnenia": "2025-06-11",
+  "lehoty_na_vyjadrenie": "7 pracovných dní odo dňa doručenia upovedomenia o začatí konania",
+  "ziadatel_navrhovatel": "Obec Tesárske Mlyňany",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zlaté Moravce",
+    "obec": "Tesárske Mlyňany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mlyňany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1376/105",
+              "1399/222"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1405"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kovalovského ul."
+  },
+  "typ_dokumentu": "Vodoprávne stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany",
+    "CHKO Ponitrie",
+    "Územný systém ekologickej stability"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "živočíchy",
+    "rastliny"
+  ],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Vodoprávne stavebné povolenie pre Obec Tesárske Mlyňany na rozšírenie verejného vodovodu na Kovalovského ul. v katastrálnom území Mlyňany. Stavba sa realizuje v území s prvým stupňom ochrany a sú pre ňu stanovené podmienky ochrany drevín, živočíchov a rastlín."
+}
