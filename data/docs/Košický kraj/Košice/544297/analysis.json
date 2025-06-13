@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/037117-0098490/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-12",
+  "datum_zverejnenia": "2025-06-13",
+  "lehoty_na_vyjadrenie": "ústne pojednávanie spojené s miestnym zisťovaním na deň 02.07.2025",
+  "ziadatel_navrhovatel": "MASADA Real Estate",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Košice",
+    "obec": "Košice - Sever",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Severné Mesto",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "6088/2",
+              "6088/3",
+              "6086",
+              "6085",
+              "6088",
+              "8277/47",
+              "8277/48",
+              "8054/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2181/501",
+              "10742/501"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bytový dom Kavečianska cesta č. 2380"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného konania a nariadenie ústneho pojednávania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba požiarnej nádrže",
+    "výstavba retenčnej nádrže",
+    "vypúšťanie dažďových vôd do vodného toku"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Oznámenie o začatí stavebného konania a nariadenie ústneho pojednávania pre vodné stavby (vodovod, kanalizácia, nádrže) bytového domu na Kavečianskej ceste v Košice - Sever. Realizácia na parcelách v k.ú. Severné Mesto. Dokument nespomína dotknuté chránené územia ani druhy."
+}

@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/000774-025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Prašník",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Myjava",
+    "obec": "Prašník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prašník",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "3430/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Záverečné stanovisko",
+  "typ_zasahu": [
+    "výstavba obytných budov",
+    "výstavba rekreačných objektov",
+    "výstavba komunikácií",
+    "výstavba kanalizácie",
+    "výstavba čistiarne odpadových vôd",
+    "záber poľnohospodárskej pôdy",
+    "odstraňovanie environmentálnych záťaží"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "Prírodná rezervácia Čerenec",
+    "Prírodná pamiatka",
+    "Regionálne významná mokraď",
+    "NATURA 2000",
+    "SKCHVÚ014 Malé Karpaty",
+    "SKÚEV0278 Brezovské Karpaty",
+    "Územný systém ekologickej stability",
+    "Ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/-uzemny-plan-obce-prasnik",
+  "zhrnutie": "Záverečné stanovisko z posudzovania vplyvov (SEA) územného plánu obce Prašník. Plán navrhuje rozvoj územia vrátane výstavby bývania a rekreácie, technickej infraštruktúry a súvisí so záberom poľnohospodárskej pôdy. Dotknutým územím sú CHKO Malé Karpaty, Natura 2000 lokality (SKCHVÚ, SKÚEV), Prírodná rezervácia Čerenec, ÚSES a ochranné pásma vodárenských zdrojov. Dokument identifikuje potenciálne významné negatívne vplyvy na krajinu (rekreácia pri VN Čerenec), vodné pomery (ČOV, žumpy v OP VZ) a pôdu (záber), a odporúča plán schváliť s viacerými úpravami na ich zmiernenie."
+}

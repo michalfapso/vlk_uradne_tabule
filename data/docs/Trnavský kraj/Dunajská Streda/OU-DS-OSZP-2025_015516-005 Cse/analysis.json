@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/015516-005",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2025/015516-0041695/2025",
+  "datum_dokumentu": "2025-06-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia",
+  "ziadatel_navrhovatel": "GAS-MOUNT spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Dunajská Streda",
+    "obec": "Vrakúň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrakúň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "417/62",
+              "434/34",
+              "434/33"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "417/63",
+              "434/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV MAGLA-RESIDENCE"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie (Vodná stavba)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Kolaudačné rozhodnutie povoľujúce užívanie rozšíreného verejného vodovodu a kanalizácie v lokalite IBV MAGLA-RESIDENCE v obci Vrakúň, okres Dunajská Streda. Navrhovateľom bol GAS-MOUNT spol. s r.o. Dokument odkazuje na povinnosti týkajúce sa ochranných pásiem vodárenských zdrojov."
+}

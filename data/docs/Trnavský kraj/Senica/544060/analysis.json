@@ -1,0 +1,35 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Syráreň Havran, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senica",
+    "obec": "Senica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senica",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "areáli existujúcej ČOV Senica s.r.o."
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "rekonštrukcia ČOV",
+    "intenzifikácia ČOV",
+    "čistenie odpadových vôd",
+    "vypúšťanie odpadových vôd",
+    "vodná stavba"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zhrnutie": "Informácia pre verejnosť o začatí zisťovacieho konania EIA pre zmenu činnosti na ČOV Senica - Čistenie mliekarenských vôd. Navrhovateľom je Syráreň Havran, a.s. v k.ú. Senica. Ide o rekonštrukciu a intenzifikáciu ČOV a zmenu povolenia na vypúšťanie vôd; v dokumente nie sú uvedené informácie o chránených územiach alebo dotknutých druhoch."
+}

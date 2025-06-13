@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/000808-024",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-12",
+  "datum_zverejnenia": "2025-06-13",
+  "lehoty_na_vyjadrenie": "najneskôr do 15 kalendárnych dní odo dňa doručenia tohto oznámenia",
+  "ziadatel_navrhovatel": "Mesto Brezno",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "6779",
+              "6783/1",
+              "6782",
+              "6810"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "9587",
+              "9584",
+              "9585",
+              "9436",
+              "9439",
+              "9446",
+              "9450",
+              "9451",
+              "9456",
+              "16134/2",
+              "9406",
+              "16133/6",
+              "9407"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Rohozná, Paseky"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rekonštrukcia vodovodu",
+    "rozšírenie vodovodu",
+    "úprava vodného zdroja"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zhrnutie": "Dokument je oznámením o začatí vodoprávneho konania pre žiadateľa Mesto Brezno. Týka sa uskutočnenia vodnej stavby - rekonštrukcie a rozšírenia verejného vodovodu v lokalite Rohozná, Paseky v katastrálnom území Brezno. Súčasťou je revitalizácia vodných zdrojov a určenie ochranného pásma vodárenského zdroja."
+}

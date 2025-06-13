@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/000771",
+  "cislo_rozhodnutia": "OU-PN-OSZP-2025/000771",
+  "datum_dokumentu": "2025-04-29",
+  "datum_zverejnenia": "2025-05-06",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Borovce",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Borovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Borovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Záverečné stanovisko k strategickému dokumentu (územný plán)",
+  "typ_zasahu": [
+    "záber pôdy",
+    "výstavba budovy",
+    "výstavba cesty",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "tvorba zelene",
+    "úprava vodného režimu",
+    "obmedzenie používania chemických látok"
+  ],
+  "typ_uzemia": [
+    "Územný systém ekologickej stability",
+    "biocentrá",
+    "biokoridory",
+    "osobitne chránená poľnohospodárska pôda (BPEJ 2. a 3. skupiny)",
+    "ochranné pásma vodných tokov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "fauna",
+    "flóra",
+    "biotopy",
+    "chránené druhy živočíchov",
+    "nepôvodné druhy rastlín",
+    "invázne druhy rastlín",
+    "agát biely",
+    "mokrade",
+    "líniová zeleň",
+    "stromoradia",
+    "aleje",
+    "vegetácia"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/-uzemny-plan-obce-borovce",
+  "zhrnutie": "Dokument je záverečným stanoviskom k posudzovaniu vplyvov územného plánu obce Borovce na životné prostredie. Konštatuje, že plán je environmentálne prijateľný a odporúča ho schváliť napriek rozsiahlemu záberu osobitne chránenej poľnohospodárskej pôdy. Zdôrazňuje rešpektovanie prvkov územného systému ekologickej stability a navrhuje opatrenia na zlepšenie životného prostredia a ochranu biodiverzity."
+}

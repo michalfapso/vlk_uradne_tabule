@@ -1,0 +1,38 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "I.K.A real a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Strečno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Strečno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1186/1",
+              "1220/33"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Logistický a výrobný areál Strečno III"
+  },
+  "typ_dokumentu": "Informácia o sprístupnení rozhodnutia zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba logistického a výrobného areálu",
+    "výstavba kanalizačnej prípojky"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/logisticky-vyrobny-areal-strecno-iii",
+  "zhrnutie": "Dokument informuje o sprístupnení rozhodnutia zo zisťovacieho konania k projektu Logistický a výrobný areál Strečno III a Kanalizačná prípojka. Projekt sa nachádza v katastrálnom území Strečno na parcelách C-KN 1186/1 a 1220/33. Odkaz na enviroportal je priložený."
+}
