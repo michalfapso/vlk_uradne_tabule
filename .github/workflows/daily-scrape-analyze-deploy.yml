@@ -113,6 +113,8 @@ jobs:
       - name: minzp 3. Process new documents
         run: python minzp/3_process_documents.py --input ../data/minzp/2_diff.json --docs-dir ../data/minzp/docs --output ../data/minzp/3_process_documents.json
         working-directory: ./analyzer
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Pass the secret
         # continue-on-error: true # Allow processing to continue if diff failed or no new docs
       - name: minzp 3. Upload Artifact (for debugging)
         uses: actions/upload-artifact@v4
