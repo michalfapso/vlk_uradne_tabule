@@ -14,3 +14,4 @@ runs:
     - name: Install Analyzer Dependencies (within composite action)
       run: pip install -r requirements.txt
       working-directory: ./analyzer # This directory is relative to the repo root
+      shell: bash # because composite actions don't implicitly default to bash
