@@ -1,0 +1,19 @@
+name: 'Setup Analyzer Environment'
+description: 'Checks out repository, sets up Python, and installs analyzer dependencies.'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout code (within composite action)
+      uses: actions/checkout@v4 # Checkout is often needed for steps within the action
+
+    - name: Set up Python (within composite action)
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Use a specific version like '3.10' or '3.11' instead of '3.x' for stability
+        cache: 'pip'
+        cache-dependency-path: ./analyzer/requirements.txt
+
+    - name: Install Analyzer Dependencies (within composite action)
+      run: pip install -r requirements.txt
+      working-directory: ./analyzer # This directory is relative to the repo root

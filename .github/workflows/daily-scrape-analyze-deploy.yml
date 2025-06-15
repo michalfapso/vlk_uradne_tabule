@@ -18,46 +18,20 @@ permissions:
   id-token: write # Needed for the Deploy Pages action (OIDC)
 
 jobs:
-  build_and_deploy:
-    runs-on: ubuntu-latest # Use a standard runner environment
-
-    # Configure the GitHub Pages environment (required by deploy-pages@v4)
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # Get the deployment URL from the deploy step
-
-    env:
-      REQUESTS_CA_BUNDLE: ${{ github.workspace }}/analyzer/custom_ca_bundle.pem # Set custom CA bundle for requests
-
+  # --- Job 1: Scrape and Analyze minv ---
+  scrape_analyze_minv:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        # Checks out your repository under $GITHUB_WORKSPACE
-        uses: actions/checkout@v4
-
-      - name: Install required packages
+      - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      # --- Scraper and Analyzer Steps ---
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup # Path relative to repo root
 
-      - name: Set up Python
-        # Use the latest available Python 3.x version
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-          cache: 'pip' # Cache pip dependencies for faster runs
-
-      - name: Install Analyzer Dependencies
-        # Install dependencies listed in analyzer/requirements.txt
-        run: pip install -r requirements.txt
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      #--------------------------------------------------
-      # minv
       - name: minv 1. Get list of districts
         run: python minv/1_zoznam_okresov.py > ../data/minv/1_zoznam_okresov.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minv Upload District List Artifact
+        working-directory: ./analyzer
+      - name: minv 1. Upload District List Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minv-1-district-list
@@ -65,9 +39,8 @@ jobs:
 
       - name: minv 2. Get official board contents
         run: python minv/2_uradne_tabule.py --input ../data/minv/1_zoznam_okresov.json --output ../data/minv/2_uradne_tabule.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minv Upload Board Contents Artifact
+        working-directory: ./analyzer
+      - name: minv 2. Upload Board Contents Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minv-2-board-contents
@@ -77,9 +50,8 @@ jobs:
         # Use || true because this step might fail if the _old file doesn't exist on the first run, but we want to continue.
         # Subsequent steps should handle an empty diff file gracefully.
         run: python minv/3_diff.py --old ../data/minv/2_uradne_tabule_old.json --new ../data/minv/2_uradne_tabule.json > ../data/minv/3_diff.json || true
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minv Upload Board Diff Artifact
+        working-directory: ./analyzer
+      - name: minv 3. Upload Board Diff Artifact (for debugging)
         # Upload even if the diff step had issues (e.g., empty diff)
         if: always()
         uses: actions/upload-artifact@v4
@@ -89,30 +61,35 @@ jobs:
 
       - name: minv 4. Process new documents (convert, analyze)
         run: python minv/4_process_documents.py --input ../data/minv/3_diff.json --docs-dir ../data/minv/docs
-        working-directory: ./analyzer # Run this command in the analyzer directory
+        working-directory: ./analyzer
         env:
-          # Pass the Gemini API key secret to the script's environment
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Pass the secret
+        # continue-on-error: true # Allow job to continue even if this step fails
 
-      # - name: minv Upload Diff Analysis Artifact
-      #   # Upload even if the processing step had issues
-      #   if: always()
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: minv-4-diff-analysis
-      #     path: ./data/4_diff_analysis.json
-
-      - name: minv 5. Archive current board contents for next diff
+      - name: minv 5. Archive raw data for next diff
         run: mv ../data/minv/2_uradne_tabule.json ../data/minv/2_uradne_tabule_old.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-        
-      #--------------------------------------------------
-      # minzp
-      - name: minzp 1. Get list of districts
-        run: python minzp/1_list_documents.py > ../data/minzp/1_list_documents.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
+        working-directory: ./analyzer
 
-      - name: minzp Upload Artifact
+      - name: minv 6. Upload data directory artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minv-data
+          path: ./data/minv/ # Upload the entire directory
+          if-no-files-found: error # This job should produce *some* files if it ran
+        if: always() # Ensure upload step runs even if previous steps had issues
+
+
+  # --- Job 2: Scrape and Analyze minzp ---
+  scrape_analyze_minzp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup # Path relative to repo root
+
+      - name: minzp 1. Get list of documents
+        run: python minzp/1_list_documents.py > ../data/minzp/1_list_documents.json
+        working-directory: ./analyzer
+      - name: minzp 1. Upload Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minzp-1-district-list
@@ -120,9 +97,8 @@ jobs:
 
       - name: minzp 2. Diff
         run: python minzp/2_diff.py --old ../data/minzp/1_list_documents_old.json --new ../data/minzp/1_list_documents.json > ../data/minzp/2_diff.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minzp Upload Artifact
+        working-directory: ./analyzer
+      - name: minzp 2. Upload Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minzp-2-diff
@@ -130,75 +106,138 @@ jobs:
 
       - name: minzp 3. Process new documents
         run: python minzp/3_process_documents.py --input ../data/minzp/2_diff.json --docs-dir ../data/minzp/docs --output ../data/minzp/3_process_documents.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minzp Upload Artifact
+        working-directory: ./analyzer
+        # continue-on-error: true # Allow processing to continue if diff failed or no new docs
+      - name: minzp 3. Upload Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minzp-3-process-documents
           path: ./data/minzp/3_process_documents.json
 
-      - name: minzp 4. Merge
+      - name: minzp 4. Merge new summaries with old
         run: python minzp/4_merge_json_docs.py --in ../data/minzp/4_merge_json_docs_old.json --in ../data/minzp/3_process_documents.json --out ../data/minzp/4_merge_json_docs.json
-        working-directory: ./analyzer # Run this command in the analyzer directory
-
-      - name: minzp Upload Artifact
+        working-directory: ./analyzer
+      - name: minzp 4. Upload Artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
           name: minzp-4-process-documents
           path: ./data/minzp/4_merge_json_docs.json
 
       - name: minzp 5. Archive for next diff
-        run: mv ../data/minzp/4_merge_json_docs.json ../data/minzp/4_merge_json_docs_old.json
+        run: |
+          mv ../data/minzp/1_list_documents.json ../data/minzp/1_list_documents_old.json
+          mv ../data/minzp/4_merge_json_docs.json ../data/minzp/4_merge_json_docs_old.json
         working-directory: ./analyzer # Run this command in the analyzer directory
-        
+
+      - name: minzp 6. Upload data directory artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-data
+          path: ./data/minzp/ # Upload the entire directory
+          if-no-files-found: error # This job should produce *some* files if it ran
+        if: always() # Ensure upload step runs even if previous steps had issues
+
+
+  # --- Job 3: Commit Data Changes ---
+  # This job runs after both scraping jobs, downloads their outputs via artifacts,
+  # and commits ALL changes from both to the repository.
+  commit_data:
+    runs-on: ubuntu-latest
+    needs: [scrape_analyze_minv, scrape_analyze_minzp] # Ensure scrape jobs ran (succeeded or failed)
+    if: ${{ always() }} # Always attempt to run this job
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 0 # Fetch all history for potential diffing (optional, but good practice)
+
+      - name: Download minv data directory artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: minv-data
+          path: ./data/minv/ # Download directly into the target location
+        continue-on-error: true # Continue if artifact was not found (scrape job failed badly)
+
+      - name: Download minzp data directory artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: minzp-data
+          path: ./data/minzp/ # Download directly into the target location
+        continue-on-error: true # Continue if artifact was not found
+
+      # --- Deduplicated Commit and Push Logic ---
       - name: Commit and Push Data Changes
-        # Configures git user and commits changes in the data/ directory.
-        # Only commits if there are actual changes.
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/ # Add the directory where data files were updated
+
+          # Add the entire data directory. This will stage all new/modified/deleted files within data/
+          git add data/
 
           # Check if there are any changes staged before committing
           if git diff-index --quiet HEAD --; then
-            echo "No data changes detected."
+            echo "No data changes detected to commit."
           else
             git commit -m "data: Daily update ($(date +%Y-%m-%d))"
+            # Use --allow-empty if you want a commit even if only metadata changed or files were deleted
+            # git commit -m "data: Daily update ($(date +%Y-%m-%d))" --allow-empty
             git push
             echo "Data changes committed and pushed."
           fi
-        # Note: The GITHUB_TOKEN automatically provided has permissions
-        # to push to the branch that triggered the workflow (like main for schedule).
+        working-directory: ${{ github.workspace }} # Ensure git commands run from repo root
+        if: always() # Attempt commit/push even if artifact downloads failed
 
-      # --- Website Build and Deploy Steps ---
 
+  # --- Job 4: Build Website ---
+  # This job runs AFTER the commit job to ensure it uses the latest data from the repo
+  build_website:
+    runs-on: ubuntu-latest
+    needs: commit_data # Needs the commit job to have completed (succeeded or failed)
+    if: ${{ always() }} # Always attempt to build the website (even with partial data if commit succeeded partially)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        # This checkout will include the commit(s) made by the commit_data job
+        with:
+            fetch-depth: 0 # Ensure the latest commit is available
+
+      # Data is now available directly in the ./data directory due to the checkout
+
+      # Set up Node.js
       - name: Set up Node.js
-        # Use a Node.js version compatible with Astro
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Or 'lts/*', specify a version suitable for your Astro build
-          cache: 'npm' # Cache npm dependencies for faster runs
-          cache-dependency-path: ./website/package-lock.json # Point cache to website directory
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: ./website/package-lock.json
 
       - name: Install Website Dependencies
-        # Install dependencies listed in website/package.json
         run: npm install
         working-directory: ./website
 
       - name: Build Astro Site
-        # Run the Astro build command.
         run: npm run build
         working-directory: ./website
 
       - name: Upload Pages artifact
-        # Upload the static build output (from website/dist) as a workflow artifact
-        # that the deploy-pages action will use.
         uses: actions/upload-pages-artifact@v3
         with:
           path: './website/dist' # Specify the directory where Astro outputs its build files
 
+
+  # --- Job 5: Deploy Website ---
+  deploy_website:
+    runs-on: ubuntu-latest
+    needs: build_website # Needs the build job to have succeeded
+    if: ${{ success() }} # Only deploy if the build job succeeded
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
-        # Deploy the uploaded artifact to GitHub Pages.
-        id: deployment # Assign an ID to this step to reference its outputs (like the URL)
+        id: deployment
         uses: actions/deploy-pages@v4
