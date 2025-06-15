@@ -174,26 +174,34 @@ jobs:
           path: ./data/minzp/ # Download directly into the target location
         continue-on-error: true # Continue if artifact was not found
 
-      # --- Deduplicated Commit and Push Logic ---
       - name: Commit and Push Data Changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-          # Add the entire data directory. This will stage all new/modified/deleted files within data/
+          # Add the entire data directory.
           git add data/
 
           # Check if there are any changes staged before committing
           if git diff-index --quiet HEAD --; then
             echo "No data changes detected to commit."
           else
+            # Commit the changes
             git commit -m "data: Daily update ($(date +%Y-%m-%d))"
-            # Use --allow-empty if you want a commit even if only metadata changed or files were deleted
-            # git commit -m "data: Daily update ($(date +%Y-%m-%d))" --allow-empty
-            git push
+
+            # Fetch latest changes from remote and rebase local branch
+            # This is crucial if the remote branch has new commits
+            echo "Fetching latest changes and rebasing..."
+            # Assuming your branch is 'main'. Adjust 'main' if necessary.
+            git pull --rebase origin main
+
+            # Now push the changes (should be a fast-forward after rebase)
+            echo "Pushing changes..."
+            git push origin main
+
             echo "Data changes committed and pushed."
           fi
-        working-directory: ${{ github.workspace }} # Ensure git commands run from repo root
+        working-directory: ${{ github.workspace }}
         if: always() # Attempt commit/push even if artifact downloads failed
 
 
