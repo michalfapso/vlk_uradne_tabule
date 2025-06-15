@@ -4,9 +4,6 @@ description: 'Checks out repository, sets up Python, and installs analyzer depen
 runs:
   using: 'composite'
   steps:
-    - name: Checkout code (within composite action)
-      uses: actions/checkout@v4 # Checkout is often needed for steps within the action
-
     - name: Set up Python (within composite action)
       uses: actions/setup-python@v5
       with:

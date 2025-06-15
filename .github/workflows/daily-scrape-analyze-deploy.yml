@@ -25,6 +25,9 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
+      - name: Checkout code (within composite action)
+        uses: actions/checkout@v4 # Checkout is often needed for steps within the action
+
       - name: Setup Analyzer Environment
         uses: ./.github/actions/analyzer-setup # Path relative to repo root
 
@@ -83,6 +86,9 @@ jobs:
   scrape_analyze_minzp:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code (within composite action)
+        uses: actions/checkout@v4 # Checkout is often needed for steps within the action
+
       - name: Setup Analyzer Environment
         uses: ./.github/actions/analyzer-setup # Path relative to repo root
 
