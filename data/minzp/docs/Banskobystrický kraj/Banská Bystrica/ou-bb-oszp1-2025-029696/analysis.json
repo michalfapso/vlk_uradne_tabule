@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2025/029696",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia tejto informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štiavnické Bane",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1683/10"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o konaní",
+  "typ_zasahu": [
+    "technické geologické práce",
+    "vŕtaná studňa"
+  ],
+  "typ_uzemia": [
+    "CHKO Štiavnické vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "15a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Informácia o konaní vo veci žiadosti o vydanie súhlasu na vykonanie technických geologických prác a vŕtanej studne na parcele č. 1683/10 v k.ú. Štiavnické Bane. Činnosť sa realizuje v CHKO Štiavnické vrchy. Združenia na ochranu prírody sa môžu prihlásiť do konania do piatich pracovných dní od zverejnenia informácie."
+}

@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/029881-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Banská Bystrica",
+    "obec": "Moštenica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moštenica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "597/12",
+              "597/13"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o podanej žiadosti a možnosti účasti",
+  "typ_zasahu": [
+    "výstavba oplotenia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Zákon",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje podanú žiadosť fyzickej osoby o súhlas na oplotenie pozemkov C-KN 597/12 a 597/13 v katastrálnom území Moštenica podľa § 13 ods. 2 písm. d) zákona 543/2002 Z.z. Zároveň vyzýva k potvrdeniu záujmu byť účastníkom konania v lehote do 5 pracovných dní od zverejnenia."
+}
