@@ -280,8 +280,18 @@ const minv_data = enrichFlattenedDocumentsWithAnalysis(minv_filteredFlatDocs, 'm
 const minzp_filteredFlatDocs = filterDocumentsByDate(minzp_rawInputData, OLDEST_DATE_TO_SHOW);
 const minzp_data = enrichFlattenedDocumentsWithAnalysis(minzp_filteredFlatDocs, 'minzp');
 
-const data = [...minv_data, ...minzp_data]; // Combine both sources
-// console.log('Processed data for DocumentTable (flattened, filtered, enriched):', JSON.stringify(data, null, 2));
+const data = [...minv_data, ...minzp_data].sort((a, b) => {
+    // Compare by okres (ascending)
+    const okresCompare = (a.okres || "").localeCompare(b.okres || "");
+    if (okresCompare !== 0) return okresCompare;
+
+    // If okres is the same, compare by kraj (ascending)
+    const krajCompare = (a.kraj || "").localeCompare(b.kraj || "");
+    if (krajCompare !== 0) return krajCompare;
+
+    // If okres and kraj are the same, compare by datum (descending - newest first)
+    return (b.datum || "").localeCompare(a.datum || "");
+});
 
 console.log('minv_data:', JSON.stringify(minv_data, null, 2));
 console.log('minzp_data:', JSON.stringify(minzp_data, null, 2));
