@@ -210,7 +210,7 @@ jobs:
   build_website:
     runs-on: ubuntu-latest
     needs: commit_data # Needs the commit job to have completed (succeeded or failed)
-    if: ${{ always() }} # Always attempt to build the website (even with partial data if commit succeeded partially)
+    if: ${{ success() }} # Only deploy if the build job succeeded
 
     steps:
       - name: Checkout code
