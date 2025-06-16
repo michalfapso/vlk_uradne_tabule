@@ -1,0 +1,129 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žarnovica",
+    "obec": "Tekovská Breznica, Žarnovica, Nová Baňa, Voznica, Hodruša - Hámre, Horné Hámre, Veľké pole, Žarnovická Huta",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horné Hámre",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4030/1",
+              "4030/2",
+              "4031/3",
+              "3130/1",
+              "3130/2",
+              "3130/3",
+              "3126"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Žarnovická Huta",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Vtáčnik, Tribeč, Nízky Vtáčnik, Ivanov Salaš, Za Blaškovým vrchom, Prostrednovci, Stráž, Brezová"
+  },
+  "typ_dokumentu": "Hodnotenie strategického dokumentu (RÚSES)",
+  "typ_zasahu": [
+    "udržiavanie a odstraňovanie brehových porastov",
+    "hospodárenie v lesných porastoch",
+    "budovanie prístupových ciest",
+    "budovanie približovacích liniek",
+    "ťažba dreva",
+    "spracovanie kalamitného porastu",
+    "budovanie protieróznych opatrení",
+    "hradanie bystrín",
+    "užívanie pobrežných pozemkov",
+    "zabezpečenie prístupu a práce mechanizmov",
+    "realizácia protipovodňových opatrení"
+  ],
+  "typ_uzemia": [
+    "CHKO Ponitrie",
+    "CHKO Štiavnické vrchy",
+    "Prírodná rezervácia",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV",
+    "SKCHVU",
+    "biocentra",
+    "biokoridory",
+    "genofondové lokality",
+    "lesné biotopy",
+    "vodné plochy",
+    "vodné toky"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy živočíchov",
+    "lesné biotopy",
+    "Veľkopoľský javor (Chránený strom)",
+    "vstavač mužský poznačený (Orchis mascula subsp. speciosa)",
+    "vachta trojlistá (Menyanthes trifoliata)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "vstavač purpurový (Orchis purpurea)",
+    "vstavač obyčajný (Orchis morio)",
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty",
+    "kosné lúky"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "48",
+      "odsek": "3",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "legislatíva o hospodárení v lesoch",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje vyhodnotenie pripomienok k Regionálnemu územnému systému ekologickej stability (RÚSES) okresu Žarnovica. Hodnotí stanoviská rôznych dotknutých orgánov a subjektov týkajúce sa úprav textovej a grafickej časti RÚSES, zahrnutia chránených území (CHKO, PR, ÚEV, CHVÚ, biocentra, biokoridory, genofondové lokality), konkrétnych lokalít (vrátane parcelných čísel v Horných Hámroch), výskytu chránených rastlín a živočíchov a zohľadnenia rôznych typov zásahov a činností v území (vodné hospodárstvo, lesné hospodárstvo, energetika)."
+}

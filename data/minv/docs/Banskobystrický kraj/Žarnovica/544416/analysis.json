@@ -1,0 +1,519 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2020",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenská agentúra životného prostredia (SAŽP)",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": [
+      "Brehy",
+      "Hronský Beňadik",
+      "Orovnica",
+      "Tekovská Breznica",
+      "Žarnovica",
+      "Hodruša-Hámre",
+      "Kľak",
+      "Ostrý Grúň",
+      "Píla",
+      "Veľká Lehota",
+      "Župkov",
+      "Horné Hámre",
+      "Malá Lehota",
+      "Veľké Pole",
+      "Hrabičov",
+      "Nová Baňa",
+      "Rudno nad Hronom",
+      "Voznica"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brehy",
+        "parcely": []
+      },
+      {
+        "nazov": "Hronský Beňadik",
+        "parcely": []
+      },
+      {
+        "nazov": "Orovnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Tekovská Breznica",
+        "parcely": []
+      },
+      {
+        "nazov": "Žarnovica",
+        "parcely": []
+      },
+      {
+        "nazov": "Hodruša-Hámre",
+        "parcely": []
+      },
+      {
+        "nazov": "Banská Hodruša",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Hámre",
+        "parcely": []
+      },
+      {
+        "nazov": "Kopanice",
+        "parcely": []
+      },
+      {
+        "nazov": "Kľak",
+        "parcely": []
+      },
+      {
+        "nazov": "Ostrý Grúň",
+        "parcely": []
+      },
+      {
+        "nazov": "Píla",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľká Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Župkov",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Hámre",
+        "parcely": []
+      },
+      {
+        "nazov": "Malá Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Pole",
+        "parcely": []
+      },
+      {
+        "nazov": "Hrabičov",
+        "parcely": []
+      },
+      {
+        "nazov": "Nová Baňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Rudno nad Hronom",
+        "parcely": []
+      },
+      {
+        "nazov": "Voznica",
+        "parcely": []
+      },
+      {
+        "nazov": "Revištské Podzámčie",
+        "parcely": []
+      },
+      {
+        "nazov": "Žarnovická Huta",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Okres Žarnovica"
+  },
+  "typ_dokumentu": "Strategický dokument - Regionálny územný systém ekologickej stability (RÚSES)",
+  "typ_zasahu": [
+    "analýza a návrh regionálneho územného systému ekologickej stability",
+    "regulácia návrhu budovania zelenej infraštruktúry",
+    "plánovanie územného rozvoja",
+    "pozemkové úpravy"
+  ],
+  "typ_uzemia": [
+    "CHKO Štiavnické vrchy",
+    "CHKO Ponitrie",
+    "Národný park",
+    "CHKO",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Národná prírodná pamiatka",
+    "Prírodná pamiatka",
+    "Chránený areál",
+    "Chránený krajinný prvok",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV",
+    "SKCHVU",
+    "CHVO",
+    "ochranné pásmo vodárenského zdroja",
+    "Územie medzinárodného významu",
+    "Biosférická rezervácia",
+    "Mokrade medzinárodného významu",
+    "Lokality svetového prírodného dedičstva",
+    "Chránená rybárska oblasť",
+    "Chránené ložiskové územie",
+    "Chránené stromy",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "fuzáč alpský",
+    "vydra riečna",
+    "medveď hnedý",
+    "vlk dravý",
+    "rys ostrovid",
+    "bobor vodný",
+    "poniklec veľkokvetý",
+    "vstavač obyčajný",
+    "vstavačovec bazový",
+    "kunka žltobruchá",
+    "muchárik malý",
+    "jariabok hôrny",
+    "plch sivý",
+    "vidlochvost feniklový",
+    "kobylka pomalá",
+    "jašterica zelená",
+    "kúdelníčka lužná",
+    "podkovár malý",
+    "sokol myšiar",
+    "hrúz Kesslerov",
+    "hrúz Vladykov",
+    "lopatka dúhová",
+    "mrena karpatská",
+    "hlavátka podunajská",
+    "roháč obyčajný",
+    "pižmovec hnedý",
+    "kováčik fialový",
+    "priadkovec trnkový",
+    "spriadač kostihojový",
+    "bystruška potočná",
+    "drevník ryhovaný",
+    "modráčik krvavcový",
+    "syseľ pasienkový",
+    "uchaňa čierna",
+    "netopier obyčajný",
+    "netopier ostrouchý",
+    "netopier sťahovavý",
+    "netopier brvitý",
+    "netopier veľký",
+    "netopier veľkouchý",
+    "netopier pobrežný",
+    "netopier riasnatý",
+    "raniak stromový",
+    "raniak hrdzavý",
+    "večernica hvízdavá",
+    "večernica južná",
+    "ucháč svetlý",
+    "ucháč sivý",
+    "popolavec dlholistý moravský",
+    "mach dvojhrot zelený",
+    "vachta trojlistá",
+    "kruštík močiarny",
+    "vstavačovec májový",
+    "skalnica matranská",
+    "snežienka jarná",
+    "krivec český",
+    "vstavač purpurový",
+    "modruška pošvatá",
+    "kavyľ vláskatý",
+    "kukučka vencová",
+    "rozchodník prudký",
+    "šafrán rôznofarebný",
+    "brehové porasty",
+    "ichtyofauna",
+    "bentická fauna",
+    "rovnokrídlovce",
+    "netopiere",
+    "žaby",
+    "plazy",
+    "cicavce",
+    "ryby",
+    "bezstavovce",
+    "čeľaď Orchidaceae"
+  ],
+  "odkaz_enviroportal": [
+    "https://www.enviroportal.sk/stromy/",
+    "https://envirozataze.enviroportal.sk/"
+  ],
+  "paragrafy": [
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "58/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "46/1978 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "13/1987"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "211/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "617/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "39/2007"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "39/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "183/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "166/2006"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o zhromažďovaní a šírení informácií o životnom prostredí",
+      "zakon_cislo": "205/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní a kontrole hluku vo vonkajšom prostredí",
+      "zakon_cislo": "2/2005"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "549/2007"
+    },
+    {
+      "paragraf": "27",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "418/2010"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "2000/60/ES"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "91/271/EHS"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "2010/75/EU"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o civilnom letectve",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "656/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "656/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "92/43/EHS"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o rybárstve",
+      "zakon_cislo": "139/2002 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o veterinárnej starostlivosti",
+      "zakon_cislo": "39/2007"
+    }
+  ],
+  "zhrnutie": "Analýza a návrh Regionálneho územného systému ekologickej stability (RÚSES) pre okres Žarnovica, spracovaný Slovenskou agentúrou životného prostredia v roku 2020. Dokument hodnotí prírodné pomery, súčasnú krajinnú štruktúru a identifikuje pozitívne a negatívne prvky a javy. Navrhuje biocentrá, biokoridory a opatrenia na zvýšenie ekologickej stability a ochranu biodiverzity v oblastiach ako CHKO Štiavnické vrchy, CHKO Ponitrie, Natura 2000 územia a významné druhy."
+}

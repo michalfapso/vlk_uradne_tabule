@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/009569",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-16",
+  "datum_zverejnenia": "2025-06-16",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Topoľčany",
+    "obec": "Krušovce, Norovce, Solčianky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krušovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Norovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Solčianky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vzdušných vedení VN 299 Šišov – Topoľčany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín",
+    "údržba ochranného pásma vedení"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Topoľčany zverejňuje oznámenie o výrube a oreze drevín v ochrannom pásme vzdušných vedení VN 299 Šišov – Topoľčany v katastrálnych územiach Krušovce, Norovce a Solčianky (okres Topoľčany), realizované spoločnosťou EKOREM s.r.o. na základe poverenia Západoslovenská distribučná a.s. Ide o pravidelnú údržbu vedenia podľa § 47 zákona č. 543/2002 Z. z."
+}

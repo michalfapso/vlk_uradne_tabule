@@ -1,0 +1,274 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/011039",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Lehota na podanie námietok zo strany účastníkov konania uplynula v predchádzajúcej fáze konania bez podania námietok.",
+  "ziadatel_navrhovatel": "BAMAPLAST SLOVAKIA, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kubrá",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1229/1",
+              "2294/4",
+              "2294/13",
+              "2294/14",
+              "2294/15",
+              "2288",
+              "1228/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. K Zábraniu"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodných stavieb",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "vsakovanie vôd z povrchového odtoku",
+    "vypúšťanie vôd",
+    "predčistenie vôd odlučovačom ropných látok"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "stromová vegetácia",
+    "brehové porasty",
+    "ichtyofauna",
+    "bentická fauna",
+    "nepôvodné druhy rastlín",
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "80",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/20ots. 3 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "75",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "I",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "97",
+      "odsek": null,
+      "pismena": [
+        "u"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "97",
+      "odsek": null,
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákona o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "442/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Trenčín povoľujúce stavebníkovi BAMAPLAST SLOVAKIA, s.r.o. uskutočnenie vodných stavieb (vodovod, kanalizácia, dažďová kanalizácia so vsakovaním) pre ubytovacie zariadenie v k. ú. Kubrá, Trenčín. Povolenie zahŕňa vypúšťanie predčistených dažďových vôd z parkovísk do podzemných vôd vsakovaním. Dokument obsahuje podmienky týkajúce sa ochrany stromovej vegetácie a nakladania s odpadom, no explicitne nespomína prírodné chránené územia ani chránené živočíchy/rastliny."
+}
