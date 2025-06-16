@@ -199,6 +199,7 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                 doc.okres_url_tabule = doc.okres_url_tabule + '#popis';
             }
         }
+        doc.source = dataSubdir.replace('min', '').toUpperCase();
         enrichedDocs.push(doc);
     }
     return enrichedDocs;

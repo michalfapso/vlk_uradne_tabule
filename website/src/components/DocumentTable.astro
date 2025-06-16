@@ -225,6 +225,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         // sorter: "date", sorterParams:{ format:"YYYY-MM-DD" },
                         // formatter: (cell) => formatClientDate(cell.getValue()),
                         width: 90 },
+                    { title: "Zdroj", field: "source", hozAlign: "left", headerFilter: "input", width: 20, tooltip: fn_tooltip},
                     { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
                         const data = cell.getData();
