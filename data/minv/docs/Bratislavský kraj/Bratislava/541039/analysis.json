@@ -10,18 +10,38 @@
     "okres": null,
     "obec": "Bratislava",
     "katastralne_uzemia": [],
-    "parcely": [],
-    "nazov_lokality": "Vlčie hrdlo"
+    "nazov_lokality": null
   },
-  "typ_dokumentu": "Správa o prevádzke stacionárneho zdroja",
+  "typ_dokumentu": "Správa o prevádzke",
   "typ_zasahu": [
     "spaľovanie odpadov",
-    "vypúšťanie znečisťujúcich látok do ovzdušia",
-    "vypúšťanie znečisťujúcich látok do vôd"
+    "zneškodnenie odpadov",
+    "emisie do ovzdušia",
+    "emisie do vôd"
   ],
-  "typ_uzemia": [],
+  "typ_uzemia": [
+    "neviem"
+  ],
   "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": "https://www.enviroportal.sk/ipkz",
-  "zhrnutie": "Správa spoločnosti SLOVNAFT, a.s. o prevádzke spaľovne kalov vo Vlčom hrdle, Bratislava za rok 2024, popisujúca spálené odpady a množstvá vypustených emisií do ovzdušia a vôd."
+  "paragrafy": [
+    {
+      "paragraf": "34",
+      "odsek": "2",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o ochrane ovzdušia",
+      "zakon_cislo": "254/2023 Z. z."
+    }
+  ],
+  "zhrnutie": "Správa o prevádzke spaľovne kalov spoločnosti SLOVNAFT, a.s. za rok 2024 v Bratislave, ktorá popisuje spaľované odpady, vyprodukované emisie do ovzdušia a vôd a nakladanie s odpadmi zo spaľovania, v súlade s právnymi predpismi o ochrane ovzdušia a integrovaným povolením."
 }

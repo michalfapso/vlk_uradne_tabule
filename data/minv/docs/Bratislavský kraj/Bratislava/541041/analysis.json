@@ -4,7 +4,7 @@
   "datum_dokumentu": "2025-02-14",
   "datum_zverejnenia": null,
   "lehoty_na_vyjadrenie": "Neuvedené",
-  "ziadatel_navrhovatel": "Odvoz a likvidácia odpadu, a.s.",
+  "ziadatel_navrhovatel": "OLO a.s. Odvoz a likvidácia odpadu, a.s.",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Bratislava 2",
@@ -20,15 +20,15 @@
   "typ_dokumentu": "Správa o prevádzke",
   "typ_zasahu": [
     "spaľovanie odpadov",
-    "vypúšťanie znečisťujúcich látok do ovzdušia",
-    "vypúšťanie odpadových vôd",
-    "nakladanie s odpadmi"
+    "nakladanie s odpadmi",
+    "výroba energie"
   ],
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": null,
+  "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Dokument je správou o prevádzke Zariadenia na energetické využitie odpadov (ZEVO) spoločnosti OLO a.s. vo Vlčom hrdle, Bratislava za rok 2024. Správa sumarizuje spálené druhy a množstvá odpadov, technické parametre zariadenia, prevádzkové hodiny, produkciu energie, havarijné stavy a výsledky monitorovania emisií do ovzdušia a nakladanie so vzniknutými odpadmi."
+  "paragrafy": [],
+  "zhrnutie": "Dokument je správou o prevádzke Zariadenia na energetické využitie odpadov (ZEVO) spoločnosti OLO a.s. za rok 2024 v Bratislave - Ružinove, lokalita Vlčie hrdlo. Správa detailne opisuje typy a množstvá spálených odpadov, technické parametre zariadenia, prevádzkové hodiny, emisie do ovzdušia a odpadové vody."
 }

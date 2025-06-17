@@ -3,11 +3,11 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-04-26",
   "datum_zverejnenia": "2025-05-13",
-  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia",
-  "ziadatel_navrhovatel": "Oz Lúka, IČO 42259762",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": "Oz Lúka",
   "miesto_realizacie": {
-    "kraj": null,
-    "okres": "Bratislava IV",
+    "kraj": "Bratislava",
+    "okres": "Bratislava",
     "obec": "Devín",
     "katastralne_uzemia": [
       {
@@ -15,17 +15,47 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": "KRÁĽOVEJ HORE"
+    "nazov_lokality": "Kráľova Hora"
   },
-  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "typ_dokumentu": "Informácia o začatom konaní",
   "typ_zasahu": [
-    "usporiadanie podujatia"
+    "usporiadanie kultúrneho podujatia (PÚŠŤANIE ŠARKANOV)"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oz Lúka požiadal o súhlas na usporiadanie kultúrneho podujatia „PÚŠŤANIE ŠARKANOV NA KRÁĽOVEJ HORE“ v k.ú. Devín, Bratislava IV. Informácia o začatí konania bola zverejnená 13.05.2025 s lehotou na potvrdenie účasti do 5 pracovných dní. V dokumente nie je uvedené, či sa lokalita nachádza v chránenom území."
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Informácia o začatom správnom konaní o žiadosti Oz Lúka o vydanie súhlasu na usporiadanie kultúrneho podujatia (Púšťanie šarkanov) na lokalite Kráľova Hora v katastrálnom území Devín, Bratislava IV. Záujem byť účastníkom konania je možné oznámiť do 5 pracovných dní od zverejnenia."
 }

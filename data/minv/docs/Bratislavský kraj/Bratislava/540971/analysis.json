@@ -1,31 +1,29 @@
 {
-  "cislo_konania_spisu": "OU-BA-OSZP3-2025/367014-008",
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/367014-0197009/2025",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-05-07",
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní",
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 27.05.2025",
   "ziadatel_navrhovatel": "Hlavné mesto SR Bratislava",
   "miesto_realizacie": {
-    "kraj": "Bratislavský kraj",
+    "kraj": null,
     "okres": "Bratislava",
-    "obec": "Bratislava",
+    "obec": "Bratislava - Petržalka",
     "katastralne_uzemia": [
       {
         "nazov": "Petržalka",
         "parcely": []
       }
     ],
-    "nazov_lokality": "Nosný systém MHD, prevádzkový úsek Janíkov dvor – Šafárikovo námestie v Bratislave 2. časť' Bosákova ulica – Janíkov dvor"
+    "nazov_lokality": "Nosný systém MHD, prevádzkový úsek Janíkov dvor – Šafárikovo námestie v Bratislave 2. časť Bosákova ulica – Janíkov dvor"
   },
-  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí kolaudačného konania",
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
   "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
     "úprava vodného toku",
-    "výstavba dažďovej kanalizácie",
-    "prekládky vodovodov",
-    "prekládky kanalizácie",
-    "výstavba oporného múru",
-    "výstavba prípojok (vodovodná, splašková, teplovod)",
-    "výstavba infraštruktúry MHD"
+    "vsakovanie vôd"
   ],
   "typ_uzemia": [
     "neviem"
@@ -33,5 +31,63 @@
   "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Verejná vyhláška oznamujúca začatie kolaudačného konania pre objekty vodných stavieb a súvisiacej infraštruktúry (kanalizácia, vodovod, oporné múry, úprava Chorvátskeho ramena) v rámci stavby Nosný systém MHD, prevádzkový úsek Janíkov dvor – Šafárikovo námestie 2. časť v katastrálnom území Petržalka. Ústne pojednávanie je nariadené na 26.05.2025/27.05.2025. Námietky je možné uplatniť najneskôr pri pojednávaní."
+  "paragrafy": [
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre súbor vodných stavieb a prekládok inžinierskych sietí (kanalizácie, vodovody, teplovody), oporných múrov a úpravu Chorvátskeho ramena v rámci projektu MHD v Bratislave, k.ú. Petržalka. Dokument oznamuje nariadenie ústneho pojednávania spojeného s miestnym zisťovaním na 26. a 27.05.2025."
 }

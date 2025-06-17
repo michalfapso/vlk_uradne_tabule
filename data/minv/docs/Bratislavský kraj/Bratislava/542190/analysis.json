@@ -3,23 +3,116 @@
   "cislo_rozhodnutia": "OU-BA-OSZP1-2025/013301-0212450/2025",
   "datum_dokumentu": "2025-05-19",
   "datum_zverejnenia": "2025-05-22",
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "lehoty_na_vyjadrenie": "Neaplikovateľné (zastavenie konania)",
   "ziadatel_navrhovatel": "Bratislavský samosprávny kraj",
   "miesto_realizacie": {
     "kraj": "Bratislavský kraj",
-    "okres": null,
-    "obec": null,
+    "okres": "Bratislava",
+    "obec": "Bratislava",
     "katastralne_uzemia": [],
-    "parcely": [],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Rozhodnutie o zastavení konania (EIA - strategický dokument)",
+  "typ_dokumentu": "Rozhodnutie o zastavení zisťovacieho konania",
   "typ_zasahu": [
-    "príprava strategického dokumentu (územný plán regiónu)"
+    "Strategický dokument (územný plán)",
+    "Územné plánovanie"
   ],
-  "typ_uzemia": [],
+  "typ_uzemia": [
+    "neviem"
+  ],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/zmeny-doplnky-c-2-uzemneho-planu-regionu-bratislavsky-samospravny-kraj",
-  "zhrnutie": "Okresný úrad Bratislava zastavil zisťovacie konanie EIA k strategickému dokumentu \"Zmeny a doplnky č. 2 Územného plánu regiónu – Bratislavský samosprávny kraj\" na žiadosť žiadateľa (Bratislavský samosprávny kraj), ktorý vzal svoje oznámenie späť. Dokument sa týka územného plánovania na regionálnej úrovni."
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "55",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "5 až 7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správneho poriadku)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správneho poriadku)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Bratislava o zastavení zisťovacieho konania k oznámeniu o strategickom dokumente Zmeny a doplnky č. 2 Územného plánu regiónu – Bratislavský samosprávny kraj. Konanie bolo zastavené na žiadosť obstarávateľa (Bratislavský samosprávny kraj), ktorý oznámenie vzal späť. Strategický dokument sa týka územného plánovania celého Bratislavského kraja."
 }

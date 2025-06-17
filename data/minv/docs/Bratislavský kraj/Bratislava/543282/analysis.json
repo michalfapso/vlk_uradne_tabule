@@ -6,17 +6,16 @@
   "lehoty_na_vyjadrenie": "5 pracovných dní",
   "ziadatel_navrhovatel": "FilmCraft, s. r. o.",
   "miesto_realizacie": {
-    "kraj": "Bratislavský kraj",
+    "kraj": "Bratislava",
     "okres": "Bratislava",
     "obec": "Bratislava",
     "katastralne_uzemia": [],
-    "parcely": [],
     "nazov_lokality": "Horský Park"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Informácia o začatom konaní",
   "typ_zasahu": [
     "vjazd a státie s motorovým vozidlom",
-    "jazdu na segwayi",
+    "jazda na segwayi",
     "pohyb mimo vyznačených turistických a náučných chodníkov",
     "použitie osvetľovacej a zvukovej techniky",
     "umiestnenie informačného zariadenia",
@@ -28,5 +27,73 @@
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oznámenie o začatí správneho konania pre žiadosť FilmCraft, s. r. o. o povolenie výnimiek zo zakázaných činností a vydanie súhlasov na vjazd, státie, pohyb mimo chodníkov, použitie techniky a umiestnenie zariadení v súvislosti s výrobou filmových záberov v Chránenom areáli Horský Park. Lehota na potvrdenie záujmu o účasť je 5 pracovných dní od zverejnenia."
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "b",
+        "c",
+        "f"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Informácia o začatom správnom konaní pre žiadosť spoločnosti FilmCraft, s. r. o. o povolenie výnimiek zo zakázaných činností podľa zákona o ochrane prírody a krajiny v Chránenom areáli Horský Park v Bratislave, súvisiacich s výrobou filmových záberov. Žiadosť zahŕňa povolenia na vjazd a státie vozidiel, pohyb mimo chodníkov a použitie techniky. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia."
 }

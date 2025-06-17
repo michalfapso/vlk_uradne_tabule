@@ -1,0 +1,329 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/345464-019",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Lehota na odvolanie pre účastníkov konania je do 15 dní odo dňa doručenia tohto rozhodnutia.",
+  "ziadatel_navrhovatel": "FIZZ – t, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava V",
+    "obec": "Bratislava-Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3694/29",
+              "3694/119",
+              "3694/497",
+              "3694/642",
+              "3694/630",
+              "3694/631"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál bývalého závodu Matador"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba parkoviska",
+    "výrub drevín",
+    "vsakovanie vôd",
+    "nakladanie s odpadmi",
+    "úprava zelene"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Regionálny biokoridor",
+    "ÚSES"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáky",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/fizz-park-polyfunkcny-komplex",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": null,
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "3",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "9",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "12",
+      "pismena": null,
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "103",
+      "odsek": "6",
+      "pismena": null,
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "3d",
+      "odsek": "3",
+      "pismena": null,
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva Slovenskej republiky",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "9",
+      "pismena": null,
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "STN",
+      "zakon_cislo": "83 7010"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "STN",
+      "zakon_cislo": "73 0532"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "STN",
+      "zakon_cislo": "73 6110"
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava vydal rozhodnutie v zisťovacom konaní pre zámer „FIZZ PARK – POLYFUNKČNÝ KOMPLEX“ v Bratislave-Petržalke (bývalý areál Matador). Rozhodol, že zámer sa nebude posudzovať podľa zákona o EIA. Dotknuté územie je v 1. stupni ochrany, ale významný vplyv na chránené územia alebo druhy sa nepredpokladá. Rozhodnutie obsahuje viaceré podmienky pre ďalšie stupne konania, týkajúce sa výrubu drevín (mimo hniezdenia vtákov), vsakovania dažďovej vody, nakladania s odpadmi, zelene a hluku."
+}

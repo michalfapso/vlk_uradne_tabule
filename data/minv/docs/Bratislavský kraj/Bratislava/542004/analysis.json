@@ -7,7 +7,7 @@
   "ziadatel_navrhovatel": "Martin Labuda",
   "miesto_realizacie": {
     "kraj": "Bratislava",
-    "okres": null,
+    "okres": "Bratislava",
     "obec": "Svätý Jur",
     "katastralne_uzemia": [
       {
@@ -32,8 +32,8 @@
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
-    "výnimka zo zakázanej činnosti",
-    "výstavba oplotenia"
+    "výstavba oplotenia",
+    "výsadba rastlín"
   ],
   "typ_uzemia": [
     "NATURA 2000"
@@ -41,5 +41,65 @@
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oznámenie o začatí správneho konania pre žiadosť Martina Labudu o povolenie výnimky zo zakázanej činnosti podľa § 26 ods. (5) zákona č. 543/2002 Z.z. pre oplotenie pozemku na parcelách C-KN v k.ú. Svätý Jur za účelom výsadby gaštanového sadu. Dotknutým územím je sústava Natura 2000. Lehota na potvrdenie záujmu byť účastníkom je 5 pracovných dní od zverejnenia 21.05.2025."
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "216/2005 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania o žiadosti Martina Labudu o povolenie výnimky zo zakázanej činnosti pre oplotenie pozemku a výsadbu gaštanového sadu na parcelách C-KN v k.ú. Svätý Jur. Činnosť má byť realizovaná na dotknutom území sústavy Natura 2000."
 }

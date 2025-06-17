@@ -6,8 +6,8 @@
   "lehoty_na_vyjadrenie": "do 3 pracovných dní odo dňa doručenia tohto oznámenia",
   "ziadatel_navrhovatel": "Park Villa s.r.o.",
   "miesto_realizacie": {
-    "kraj": "Bratislavský kraj",
-    "okres": "Bratislava",
+    "kraj": null,
+    "okres": null,
     "obec": "Bratislava - Dúbravka",
     "katastralne_uzemia": [
       {
@@ -19,8 +19,8 @@
               "3451/1",
               "3447/3",
               "3448/65",
-              "3460/1",
-              "3460/24"
+              "3466/1",
+              "3466/2"
             ]
           },
           {
@@ -38,18 +38,42 @@
     ],
     "nazov_lokality": "SAND RESORT DÚBRAVKA"
   },
-  "typ_dokumentu": "Oboznámenie s podkladmi rozhodnutia",
+  "typ_dokumentu": "Oznámenie o kolaudačnom konaní - Verejná vyhláška",
   "typ_zasahu": [
+    "výstavba vodnej stavby",
     "výstavba vodovodu",
     "výstavba kanalizácie",
     "úprava vodného toku",
-    "ochrana proti privodňovaným vodám"
+    "odber podzemných vôd",
+    "vypúšťanie odpadových vôd",
+    "vsakovanie vôd"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oznámenie o oboznámení s podkladmi ku kolaudácii vodovodov, splaškovej a dažďovej kanalizácie a úpravy priepustu na Dúbravskom potoku pre stavbu \"SAND RESORT DÚBRAVKA\" v k.ú. Dúbravka, Bratislava, žiadateľa Park Villa s.r.o. Verejnosť sa môže vyjadriť k podkladom do 3 pracovných dní od doručenia oznámenia."
+  "paragrafy": [
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/2025 Z.z."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/2025 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre objekty vodných stavieb (vodovod, splašková a dažďová kanalizácia, ochrana proti prívalovým vodám, úprava priepustu, úžitkový vodovod) v rámci stavby \"SAND RESORT DÚBRAVKA\" v k.ú. Dúbravka, Bratislava. Dotknuté sú parcely C-KN a E-KN. Verejnosť má možnosť vyjadriť sa k podkladom rozhodnutia v lehote 3 pracovných dní."
 }

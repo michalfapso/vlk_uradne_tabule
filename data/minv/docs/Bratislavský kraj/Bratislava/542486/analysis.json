@@ -3,10 +3,10 @@
   "cislo_rozhodnutia": "OU-BA-OSZP3-2025/345763-022",
   "datum_dokumentu": "2025-05-13",
   "datum_zverejnenia": "2025-05-26",
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania / podať odvolanie.",
   "ziadatel_navrhovatel": "Hlavné mesto Slovenskej republiky Bratislava",
   "miesto_realizacie": {
-    "kraj": "Bratislavský samosprávny kraj",
+    "kraj": "Bratislavský",
     "okres": "Bratislava III",
     "obec": "Bratislava",
     "katastralne_uzemia": [
@@ -19,21 +19,385 @@
   },
   "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania strategického dokumentu",
   "typ_zasahu": [
-    "úprava územného plánu (zmena funkčného využitia územia)",
-    "výstavba bývania",
+    "zmena funkčného využitia územia",
+    "výstavba obytných budov",
     "výstavba občianskej vybavenosti",
-    "demolácia/asanácia objektov"
+    "výstavba služieb",
+    "úprava verejného priestoru",
+    "tvorba plôch zelene"
   ],
   "typ_uzemia": [
-    "CHKO",
-    "Prírodná pamiatka",
+    "nechránené",
+    "CHKO Malé Karpaty",
+    "CHKO Dunajské luhy",
+    "CHKO Záhorie",
+    "CHA Devínske alúvium Moravy",
+    "NPR Devínska Kobyla",
+    "NPP Devínska hradná skala",
+    "PP Devínska lesostep",
+    "PR Fialková dolina",
+    "PR Štokeravská vápenka",
+    "CHA Lesné diely",
+    "CHA Horský park",
+    "CHA Bôrik",
+    "CHA Borovicový lesík",
+    "CHA Zeleň pri Vodárni",
+    "PP Rösslerov lom",
+    "CHA Hrabiny",
+    "CHA Chorvátske rameno",
+    "CHA Jarovská bažantnica",
+    "PP Panský diel",
+    "PR Kopáčsky ostrov",
+    "PR Topoľové hony",
+    "CHA Poľovnícky les",
+    "CHA Bajdeľ",
+    "CHA Sihoť",
+    "CHA Pečniansky les",
+    "CHA Soví les",
+    "CHA Ostrovné lúčky",
+    "PR Gajc",
+    "PR Vydrica",
+    "PR Starý háj",
+    "PR Slovanský ostrov",
+    "CHKP Vápenický potok",
     "NATURA 2000",
-    "Územie európskeho významu",
-    "CHVU",
+    "SKCHVU016 Záhorské Pomoravie",
+    "SKCHVU014 Malé Karpaty",
+    "SKCHVU007 Dunajské luhy",
+    "SKCHVU029 Sysľovské polia",
+    "SKUEV0313 Devínske jazero",
+    "SKUEV0314 Rieka Morava",
+    "SKUEV0312 Devínske alúvium Moravy",
+    "SKUEV0388 Vydrica",
+    "SKUEV0104 Homolské Karpaty",
+    "SKUEV0280 Devínska Kobyla",
+    "SKUEV0064 Bratislavské luhy",
+    "SKUEV0295 Biskupické luhy",
+    "SKUEV0269 Ostrovné lúčky",
+    "SKUEV0270 Hrušov",
+    "SKUEV0502 Štokeravská vápenka",
+    "SKUEV1064 Bratislavské luhy",
+    "SKUEV1269 Ostrovné lúčky",
+    "SKUEV1388 Vydrica",
+    "SKUEV0800 Devínska hradná skala",
+    "SKUEV2064 Bratislavské luhy",
+    "SKUEV2269 Ostrovné lúčky",
+    "SKUEV0822 Malý Dunaj",
+    "Ramsarské lokality",
+    "Niva Moravy",
+    "Dunajské luhy",
     "chránené stromy"
   ],
   "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-hlavneho-mesta-sr-bratislavy-rok-2007-v-zneni-neskorsich-z-6",
-  "zhrnutie": "Rozhodnutie zo zisťovacieho konania o zmene územného plánu hlavného mesta SR Bratislavy v lokalite Palma, ktorá mení funkčné využitie územia z priemyselného na zmiešané bývanie a občiansku vybavenosť. Rozhodnutie konštatuje, že strategický dokument sa nebude posudzovať podľa zákona o EIA, ak budú splnené určené podmienky. Lokalita sa nachádza v zastavanom území mimo chránených oblastí, hoci niektoré CHÚ sú v blízkosti."
+  "paragrafy": [
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "5",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "c",
+        "h"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "2",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o kvalite ovzdušia",
+      "zakon_cislo": "250/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Bratislava zo zisťovacieho konania k strategickému dokumentu \"Územný plán hlavného mesta SR Bratislavy, zmeny a doplnky 12 v lokalite Palma\". Navrhovateľ, Hlavné mesto SR Bratislava, mení funkčné využitie areálu Palma v katastrálnom území Bratislava-Nové Mesto z priemyselného na zmiešané bývanie a občianska vybavenosť. Úrad rozhodol, že strategický dokument nevyžaduje ďalšie posudzovanie podľa zákona EIA, ale stanovil podmienky týkajúce sa najmä environmentálnych záťaží, dopravy a vodného hospodárstva. Lokalita sa nachádza v zastavanom území obce a nie je v prekryve s chránenými územiami."
 }

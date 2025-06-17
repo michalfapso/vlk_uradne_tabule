@@ -3,11 +3,11 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-05-05",
   "datum_zverejnenia": "2025-05-05",
-  "lehoty_na_vyjadrenie": "5 pracovných dní; lehota začína plynúť dňom nasledujúcim po dni zverejnenia informácie",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
   "ziadatel_navrhovatel": "VGP Park Bratislava 2 a.s.",
   "miesto_realizacie": {
-    "kraj": "Bratislava",
-    "okres": "Bratislava",
+    "kraj": null,
+    "okres": null,
     "obec": "Bernolákovo",
     "katastralne_uzemia": [
       {
@@ -23,18 +23,62 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "nazov_lokality": "VGP Park Bratislava 2 – Hala E"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
   "typ_zasahu": [
-    "poškodenie alebo zničenie biotopu",
-    "výstavba budovy"
+    "realizácia stavby",
+    "poškodenie alebo zničenie biotopu"
   ],
   "typ_uzemia": [
-    "neviem"
+    "biotop"
   ],
-  "je_v_chranenom_uzemi": null,
+  "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oznámenie o začatí konania pre žiadosť VGP Park Bratislava 2 a.s. o súhlas na činnosť s potenciálnym poškodením biotopu kvôli výstavbe Haly E na parcelách C-KN 5120/4 a 5121 v katastrálnom území Bernolákovo."
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava informuje o začatí správneho konania OU-BA-OSZP1-2025/425749/SME pre VGP Park Bratislava 2 a.s. Žiadosť sa týka súhlasu na činnosť, ktorá môže poškodiť alebo zničiť biotop v k. ú. Bernolákovo na parcelách C-KN č. 5120/4 a 5121, súvisiacu s výstavbou \"VGP Park Bratislava 2 – Hala E\". Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia 05.05.2025."
 }

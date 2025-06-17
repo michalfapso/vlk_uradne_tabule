@@ -1,14 +1,14 @@
 {
-  "cislo_konania_spisu": "OU-BA-OSZP3-2025/367014",
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/367014-010",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-05-15",
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "ústne pojednávanie spojené s miestnym zisťovaním sa uskutoční počas dní 09.06. 2025 (pondelok) a 10.06. 2025 (utorok) o 10:00 hod.",
-  "ziadatel_navrhovatel": "Hlavné mesto SR Bratislava",
+  "lehoty_na_vyjadrenie": "Ústne pojednávanie spojené s miestnym zisťovaním sa uskutoční počas dní 09.06. 2025 (pondelok) a 10.06. 2025 (utorok) o 10:00 hod.",
+  "ziadatel_navrhovatel": "Hlavné mesto SR Bratislava, METRO Bratislava a.s.",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Bratislava",
-    "obec": "Bratislava",
+    "obec": "Bratislava (mestská časť Petržalka)",
     "katastralne_uzemia": [
       {
         "nazov": "Petržalka",
@@ -17,23 +17,33 @@
     ],
     "nazov_lokality": "Nosný systém MHD, prevádzkový úsek Janíkov dvor – Šafárikovo námestie v Bratislave 2. časť Bosákova ulica – Janíkov dvor"
   },
-  "typ_dokumentu": "Verejná vyhláška - Oprava",
+  "typ_dokumentu": "Oprava oznámenia o začatí kolaudačného konania",
   "typ_zasahu": [
-    "výstavba oporného múru",
-    "výstavba dažďovej kanalizácie",
-    "prekládka vodovodov",
+    "výstavba infraštruktúry",
     "úprava vodného toku",
-    "prekládka kanalizácie",
-    "výstavba vodovodnej prípojky",
-    "výstavba splaškovej kanalizácie",
-    "prekládka teplovodov",
-    "výstavba inžinierskych sietí"
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba teplovodov"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
-  "je_v_chranenom_uzemi": null,
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Dokument je verejná vyhláška - oprava oznámenia o začatí kolaudačného konania pre objekty súvisiace s projektom Nosný systém MHD v Bratislave, konkrétne v k.ú. Petržalka. Opravuje dátum ústneho pojednávania spojeného s miestnym zisťovaním z 26.-27.05.2025 na 09.-10.06.2025. Týka sa infraštruktúrnych stavieb ako kanalizácia, vodovody, úprava kanála a oporný múr."
+  "paragrafy": [
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je opravou oznámenia o začatí kolaudačného konania pre vodné objekty (kanalizácie, vodovody, úprava kanála Chorvátskeho ramena, teplovody) ako súčasť projektu MHD v Bratislave, k.ú. Petržalka. Opravuje sa termín ústneho pojednávania spojeného s miestnym zisťovaním na 09.06. a 10.06. 2025. V dokumente nie sú spomenuté žiadne chránené územia ani živočíchy/rastliny."
 }

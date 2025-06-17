@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Devínska Nová Ves a Záhorská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Devínska Nová Ves",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1069/12",
+              "2640/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Záhorská Bystrica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4109/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "obvode dráhy"
+  },
+  "typ_dokumentu": "Zoznam drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument obsahuje zoznam drevín (agát biely, topoľ biely) s rozmermi a spoločenskou hodnotou, nachádzajúcich sa v obvode dráhy v katastrálnych územiach Devínska Nová Ves a Záhorská Bystrica na parcelách C-KN 1069/12, 2640/1 a 4109/1. Zoznam pravdepodobne slúži ako podklad pre povolenie výrubu týchto drevín."
+}

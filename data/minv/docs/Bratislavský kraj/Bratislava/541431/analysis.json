@@ -3,18 +3,18 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-04-14",
   "datum_zverejnenia": "2025-05-15",
-  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
   "ziadatel_navrhovatel": "fyzická osoba",
   "miesto_realizacie": {
-    "kraj": null,
-    "okres": "Bratislava",
+    "kraj": "Bratislavský",
+    "okres": "Bratislava III",
     "obec": "Bratislava",
     "katastralne_uzemia": [
       {
         "nazov": "Bratislava-Rača",
         "parcely": [
           {
-            "typ": "C-KN",
+            "typ": null,
             "cisla": [
               "2138/43"
             ]
@@ -24,15 +24,61 @@
     ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
     "výrub drevín"
   ],
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": false,
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Informácia o začatí správneho konania na žiadosť fyzickej osoby o vydanie súhlasu na výrub 1 ks stromu na parcele č. 2138/43 v katastrálnom území Bratislava-Rača. Dôvodom je hrozba poškodenia majetku a ohrozenia zdravia. Konanie sa týka záujmov chránených zákonom o ochrane prírody a krajiny, avšak dokument explicitne neuvádza, či sa nachádza v chránenom území."
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na výrub 1 ks stromu na parcele č. 2138/43 v k. ú. Bratislava-Rača. Žiadosť o súhlas na výrub podala fyzická osoba z dôvodu hrozby poškodenia majetku a ohrozenia zdravia. Lehota na oznámenie účasti v konaní je 5 pracovných dní od zverejnenia."
 }

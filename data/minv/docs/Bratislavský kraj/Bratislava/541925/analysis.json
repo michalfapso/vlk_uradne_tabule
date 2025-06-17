@@ -6,24 +6,98 @@
   "lehoty_na_vyjadrenie": "5 pracovných dní",
   "ziadatel_navrhovatel": "Jazdecký klub NAPOLI, s.r.o.",
   "miesto_realizacie": {
-    "kraj": "Bratislava",
+    "kraj": "Bratislavský kraj",
     "okres": "Bratislava",
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": null
+    "parcely": [],
+    "nazov_lokality": "CHKO Dunajské luhy a ÚEV Biskupické luhy"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Informácia o začatí konania",
   "typ_zasahu": [
-    "športové podujatie",
-    "jazdenie na koni"
+    "športové podujatie (jazdenie na koni)",
+    "žiadosť o zmenu rozhodnutia o výnimkách a súhlase"
   ],
   "typ_uzemia": [
     "CHKO Dunajské luhy",
     "CHVÚ Dunajské luhy",
-    "ÚEV Biskupické luhy"
+    "ÚEV Biskupické luhy",
+    "NATURA 2000"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Oznámenie o začatí konania o zmene rozhodnutia o povolených výnimkách a súhlase v súvislosti s organizovaním športového podujatia - vytrvalostného jazdenia na koni. Činnosť sa realizuje v CHKO a CHVÚ Dunajské luhy a ÚEV Biskupické luhy. Žiadateľom je Jazdecký klub NAPOLI, s.r.o."
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "e",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie Okresného úradu Bratislava o začatí konania vo veci žiadosti Jazdeckého klubu NAPOLI, s.r.o. o zmenu rozhodnutia povoľujúceho výnimky a súhlas pre organizovanie vytrvalostného jazdenia na koni. Činnosť sa realizuje v chránených územiach CHKO Dunajské luhy, CHVÚ Dunajské luhy a ÚEV Biskupické luhy (NATURA 2000). Lehota na potvrdenie záujmu o účasť v konaní je 5 pracovných dní od zverejnenia."
 }

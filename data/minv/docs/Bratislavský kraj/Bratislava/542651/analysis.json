@@ -7,13 +7,12 @@
   "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
     "kraj": null,
-    "okres": "Bratislava",
-    "obec": "Bratislava",
+    "okres": null,
+    "obec": null,
     "katastralne_uzemia": [],
-    "parcely": [],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "VEREJNÁ VYHLÁŠKA",
+  "typ_dokumentu": "Verejná vyhláška",
   "typ_zasahu": [
     "neviem"
   ],
@@ -23,5 +22,28 @@
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Verejná vyhláška Okresného úradu Bratislava, odboru starostlivosti o životné prostredie, informujúca o doposlaní upovedomenia o proteste prokurátora v bližšie nešpecifikovanom konaní. Účastníci konania sú vyzvaní, aby sa k protestu vyjadrili v lehote 10 pracovných dní od doručenia výzvy. Dokument sa netýka konkrétneho typu zásahu, miesta realizácie, chránených území ani druhov, ktoré by boli identifikovateľné z tohto textu."
+  "paragrafy": [
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o prokuratúre",
+      "zakon_cislo": "153/2001 Z.Z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prokuratúre",
+      "zakon_cislo": "153/2001 Z.Z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o prokuratúre",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou Okresného úradu Bratislava, ktorou doposiela účastníkom konania upovedomenie o proteste prokurátora a vyzýva ich na vyjadrenie k protestu v lehote 10 pracovných dní. Dokument sa týka bližšie nešpecifikovaného konania, miesto realizácie a typ zásahu nie sú v dokumente uvedené."
 }

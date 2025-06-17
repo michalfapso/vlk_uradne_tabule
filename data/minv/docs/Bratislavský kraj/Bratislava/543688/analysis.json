@@ -3,7 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": null,
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "lehoty_na_vyjadrenie": null,
   "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
     "kraj": null,
@@ -18,5 +18,6 @@
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Text dokumentu neobsahuje dostatok informácií na extrakciu kľúčových detailov o konaní, žiadateľovi, mieste realizácie alebo type zásahu. Pravdepodobne ide o chybný vstup (napr. neúspešná konverzia PDF)."
+  "paragrafy": [],
+  "zhrnutie": "Unable to extract information from the provided text."
 }

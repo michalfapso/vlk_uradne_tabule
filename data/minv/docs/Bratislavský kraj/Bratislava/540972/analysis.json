@@ -1,14 +1,14 @@
 {
-  "cislo_konania_spisu": "OU-BA-OSZP3-2025/257353-017",
-  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/257353-0190962/2025",
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/257353-0190962/2025",
+  "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-05-05",
   "datum_zverejnenia": "2025-05-07",
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "lehoty_na_vyjadrenie": "Lehoty na vyjadrenie verejnosti boli v predchádzajúcich fázach konania.",
   "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
   "miesto_realizacie": {
     "kraj": "Bratislavský kraj",
     "okres": "Bratislava",
-    "obec": "Bratislava",
+    "obec": "Bratislava - Nové Mesto",
     "katastralne_uzemia": [
       {
         "nazov": "Nové Mesto",
@@ -33,14 +33,99 @@
   },
   "typ_dokumentu": "Kolaudačné rozhodnutie",
   "typ_zasahu": [
-    "užívanie vodnej stavby",
-    "užívanie vodovodu"
+    "výstavba vodovodu"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Kolaudačné rozhodnutie pre Bratislavskú vodárenskú spoločnosť, a.s. povoľujúce užívanie objektov vodovodu (zokruhovanie a prípojka) v katastrálnom území Nové Mesto, Bratislava, na uvedených parcelách KN-C, v lokalite Amfiteáter Sliačska ul. Dokument nespomína dotknuté chránené územia ani druhy."
+  "paragrafy": [
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1996 Zb."
+    },
+    {
+      "paragraf": "85",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "59",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument je kolaudačné rozhodnutie pre povolenie užívania vodných stavieb - zokruhovania a prípojky verejného vodovodu pre stavebníka Bratislavská vodárenská spoločnosť, a.s. Stavba sa nachádza na parcelách KN-C v katastrálnom území Nové Mesto, Bratislava, súčasť hlavnej stavby 'Amfiteáter Sliačska ul.'. Dokument nespomína dotknuté chránené územia ani živočíchy/rastliny."
 }

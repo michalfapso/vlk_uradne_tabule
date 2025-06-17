@@ -14,13 +14,50 @@
   },
   "typ_dokumentu": "Informácia pre verejnosť o začatí konania",
   "typ_zasahu": [
-    "využívanie odpadov na spätné zasypávanie"
+    "využívanie odpadov",
+    "spätné zasypávanie"
   ],
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": false,
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "zhrnutie": "Dokument je informáciou pre verejnosť o začatí správneho konania č. OU-BA-OSZP2-2025/449778 pre žiadosť spoločnosti T2AM, a.s. o súhlas na využívanie odpadov na spätné zasypávanie. Miesto realizácie a dotknuté chránené územia/druhy nie sú v dokumente špecifikované."
+  "paragrafy": [
+    {
+      "paragraf": "107",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015"
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003"
+    },
+    {
+      "paragraf": "38",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015"
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o začatí správneho konania na Okresnom úrade Bratislava. Konanie sa týka žiadosti spoločnosti T2AM, a.s. o udelenie súhlasu na využívanie odpadov na spätné zasypávanie. Dokument odkazuje na záverečné stanovisko z procesu posudzovania vplyvov na životné prostredie (EIA) vydané Okresným úradom Senec, ale nešpecifikuje presnú lokalitu zásahu ani dotknuté územia či druhy."
 }
