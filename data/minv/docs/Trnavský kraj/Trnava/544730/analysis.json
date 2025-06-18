@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/008169-0103318/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "31.07.2025",
+  "datum_zverejnenia": "31.07.2025",
+  "lehoty_na_vyjadrenie": "do 22.07.2025",
+  "ziadatel_navrhovatel": "L -- SR",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nová Bošáca",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "180"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "175/2",
+              "227"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kľačeň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "140"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "118"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ÚLOMOK"
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "odstraňovanie drevín a krovia"
+  ],
+  "typ_uzemia": [
+    "NATURA 2000",
+    "Územie európskeho významu",
+    "SKUEV",
+    "?R)&",
+    ";R)*"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "10",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "12",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Verejná vyhláška Okresného úradu Trnava týkajúca sa odstraňovania drevín a krovia žiadateľom L -- SR. Realizácia sa týka katastrálnych území Nová Bošáca a Kľačeň (lokalita ÚLOMOK) a zasahuje do území NATURA 2000 (SKUEV ?R)&, ;R)*), s vplyvom na ichtyofaunu, bentickú faunu a brehové porasty."
+}

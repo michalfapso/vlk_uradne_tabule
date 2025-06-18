@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2026/026523",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-18",
+  "datum_zverejnenia": "2025-06-18",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poprad",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tatranská Lomnica",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "107/2",
+              "103/5",
+              "103/8",
+              "103/7",
+              "103/6"
+            ]
+          },
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "3275/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument upovedomuje o začatí správneho konania o žiadosti o vydanie súhlasu na výrub drevín na parcelách KN-C a KN-E v katastrálnom území Tatranská Lomnica. Lehota na potvrdenie záujmu byť zúčastnenou osobou je 5 pracovných dní. V texte nie je explicitne uvedené, či sa lokalita nachádza v chránenom území."
+}

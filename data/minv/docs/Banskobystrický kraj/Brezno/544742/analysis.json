@@ -1,0 +1,204 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-06-19",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Platan PRO s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "nešpecifikované",
+            "cisla": [
+              "3755",
+              "3764/1",
+              "11160/1",
+              "11242/2",
+              "11343/1",
+              "11451/1",
+              "1619/16",
+              "1641/4",
+              "8308",
+              "8309",
+              "1640",
+              "3722/2",
+              "3732/1",
+              "3735/3",
+              "3739",
+              "3742",
+              "3754",
+              "3756",
+              "3846",
+              "4201",
+              "4358/1",
+              "4359",
+              "4360/1",
+              "6426/4",
+              "6480/5",
+              "6488/12",
+              "10979",
+              "10980",
+              "10989",
+              "11171/2",
+              "11270/3",
+              "11343/1",
+              "11415",
+              "11499/3",
+              "11499/10",
+              "11583/3",
+              "4190/7",
+              "4190/10",
+              "4202/1",
+              "4202/2",
+              "6426/102",
+              "6426/103",
+              "6426/7",
+              "6426/9",
+              "6426/4",
+              "6426/68",
+              "8347",
+              "6443",
+              "4230/19",
+              "4230/9",
+              "11331/1",
+              "11344/4",
+              "11344/7",
+              "11359/2",
+              "11361/1",
+              "11361/2",
+              "4281",
+              "11359/2",
+              "11361/1",
+              "11361/2",
+              "6480/2",
+              "6480/5",
+              "11032",
+              "11028",
+              "10964",
+              "10965",
+              "10989",
+              "10982",
+              "10981",
+              "3762",
+              "3763",
+              "3765/4",
+              "3761",
+              "3722/2",
+              "6536/25",
+              "4360/10",
+              "1641/1",
+              "1638/1",
+              "3723/3",
+              "6536/49",
+              "1650",
+              "11573",
+              "1779/1",
+              "3854",
+              "3705"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čierny Balog",
+        "parcely": [
+          {
+            "typ": "nešpecifikované",
+            "cisla": [
+              "4040/1",
+              "4078",
+              "4547",
+              "11622/1",
+              "4040/1",
+              "4040/2",
+              "4533",
+              "4543",
+              "4544",
+              "4545",
+              "4547",
+              "4555",
+              "4566",
+              "4578",
+              "4825/1",
+              "11626",
+              "11689",
+              "4078",
+              "11662/3",
+              "4552",
+              "4548",
+              "4547",
+              "4546",
+              "4564",
+              "4545",
+              "4544",
+              "4555",
+              "4534",
+              "4533",
+              "4558",
+              "4566",
+              "4578",
+              "4559",
+              "4573"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Valaská",
+        "parcely": [
+          {
+            "typ": "nešpecifikované",
+            "cisla": [
+              "2892",
+              "2897/1",
+              "2925",
+              "2926",
+              "2929",
+              "3077",
+              "4040/1",
+              "4033/2",
+              "4078",
+              "11622/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vedenia 110kV: č. VN Č. 403_k10"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o plánovanom výrube drevín pod elektrickým vedením 110kV spoločnosťou Platan PRO s.r.o. v katastrálnych územiach Brezno, Čierny Balog a Valaská. Výrub sa má vykonať podľa zákonnej výnimky (§ 47 ods. 4 písm. e) zákona o ochrane prírody a krajiny). V texte nie sú spomenuté žiadne chránené územia ani špecifické chránené druhy."
+}
