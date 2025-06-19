@@ -26,7 +26,16 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 {/* Component's HTML Structure */}
 <div class="document-table-container">
     <h3>{description}</h3>
-    <button id={toggleButtonId} style="width:14rem; margin-bottom: 15px; padding: 8px 12px; cursor: pointer;">Rozbaliť všetky</button>
+    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px; align-items: center;">
+        <button id={toggleButtonId} style="padding: 8px 12px; cursor: pointer;">Rozbaliť/Zabaliť všetky</button>
+        <label for={`${id}-important-only`} style="display: flex; align-items: center; cursor: pointer;">
+            <input type="checkbox" id={`${id}-important-only`} checked style="margin-right: 5px;">
+            Iba dôležité dokumenty
+        </label>
+        <label for={`${id}-regex-filter`} style="display: flex; align-items: center;">
+            Regex pre nedôležité dokumenty: <input type="text" id={`${id}-regex-filter`} value="(kanaliz|vodovod|výstavb)" style="margin-left: 5px; padding: 5px; width: 200px;">
+        </label>
+    </div>
     {allDocuments.length === 0 ? (
         <p>Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.</p>
     ) : (
@@ -34,8 +43,8 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
     )}
 </div>
 
-{/* Global Tabulator CSS */}
-<style is:global>
+{/* Tabulator CSS (npm package imports are implicitly global as per Astro docs) */}
+<style>
   @import 'tabulator-tables/dist/css/tabulator.min.css';
 </style>
 
@@ -61,10 +70,14 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 </script>
 
 {/* Inline script for Tabulator initialization */}
-<script define:vars={{ tableId: id, tableData: allDocuments, btnId: toggleButtonId }} is:inline>
+<script define:vars={{ tableId: id, tableData: allDocuments, btnId: toggleButtonId, importantOnlyCheckboxId: `${id}-important-only`, regexInputId: `${id}-regex-filter` }} is:inline>
     document.addEventListener('DOMContentLoaded', () => {
         // Ensure Tabulator is available
         if (!window.Tabulator) {
+            // Fallback/retry logic could be added here if needed,
+            // but for a simple case, just logging the error might suffice.
+            // Or, if Tabulator is loaded asynchronously, listen for a custom event
+            // that signals its availability on `window`.
             console.error(`[DocumentTable ${tableId}] Tabulator class not found on window object.`);
             // Optionally wait a bit more or listen for a custom event if loading is complex
             return;
@@ -73,6 +86,9 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
         const documents = tableData;
         const container = document.getElementById(tableId);
         const toggleBtn = document.getElementById(btnId);
+        const importantOnlyCheckbox = document.getElementById(importantOnlyCheckboxId);
+        const regexInput = document.getElementById(regexInputId);
+        let table = null; // Deklarujeme 'table' tu, inicializujeme na null
 
         if (!container) {
             console.error(`[DocumentTable ${tableId}] Container element #${tableId} not found.`);
@@ -113,6 +129,63 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
           }
         };
 
+        let currentRegex = null;
+        let isRegexValid = true;
+
+        // Function to apply the filter based on checkbox and regex input
+        const applyFilter = () => {
+            if (!importantOnlyCheckbox || !regexInput || !table) {
+                console.warn(`[DocumentTable ${tableId}] Filter elements or table not found.`);
+                return;
+            }
+
+            const regexString = regexInput.value;
+            try {
+                currentRegex = new RegExp(regexString, 'i'); // 'i' for case-insensitive
+                isRegexValid = true;
+                regexInput.style.borderColor = ''; // Reset border color on success
+            } catch (e) {
+                console.error(`[DocumentTable ${tableId}] Invalid regex: ${regexString}`, e);
+                isRegexValid = false;
+                currentRegex = null; // Clear invalid regex
+                regexInput.style.borderColor = 'red'; // Indicate invalid regex
+            }
+
+            if (importantOnlyCheckbox.checked) {
+                // Remove any 'less-important-row' styling first
+                table.getRows().forEach(row => {
+                    row.getElement().classList.remove('less-important-row');
+                });
+
+                if (isRegexValid && currentRegex) {
+                    // Apply the filter: hide rows where 'analyza.typ_zasahu' matches the regex
+                    table.setFilter((data) => {
+                        const typZasahu = data?.analyza?.typ_zasahu;
+                        const typZasahuString = Array.isArray(typZasahu) ? typZasahu.join(', ') : (typZasahu || '');
+                        return !currentRegex.test(typZasahuString); // Hide if matches
+                    });
+                } else {
+                    // If regex is invalid or empty, and checkbox is checked, show all (effectively no "unimportant" items defined)
+                    table.clearFilter();
+                }
+            } else { // Checkbox is NOT checked: show all, but style "less important" ones
+                table.clearFilter(); // Ensure all rows are visible
+
+                table.getRows().forEach(row => {
+                    const rowElement = row.getElement();
+                    const rowData = row.getData();
+                    const typZasahu = rowData?.analyza?.typ_zasahu;
+                    const typZasahuString = Array.isArray(typZasahu) ? typZasahu.join(', ') : (typZasahu || '');
+
+                    if (isRegexValid && currentRegex && currentRegex.test(typZasahuString)) {
+                        rowElement.classList.add('less-important-row');
+                    } else {
+                        rowElement.classList.remove('less-important-row');
+                    }
+                });
+            }
+        };
+
         // Inicializácia Tabulatora
         if (documents.length > 0) {
             const fn_tooltip = function(cell){
@@ -151,7 +224,8 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             };
 
             let allSummariesVisible = false; // Stav pre hromadné zobrazenie/skrytie
-            const table = new window.Tabulator(`#${tableId}`, { // Use the dynamic ID
+            // Priradíme inštanciu Tabulatora k premennej 'table' deklarovanej vyššie
+            table = new window.Tabulator(`#${tableId}`, { // Use the dynamic ID
                 data: documents,
                 // height: "600",
                 height: "100%",
@@ -264,6 +338,10 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     }},
                 ],
             });
+
+            // Apply initial filter based on default checkbox state and regex value
+            applyFilter();
+
             table.on("rowClick", function(e, row){
                 // Check if the click originated from within the summary container or its children
                 const targetElement = e.target;
@@ -303,6 +381,17 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 }
             });
 
+            // Add event listeners for filtering controls
+            if (importantOnlyCheckbox) {
+                importantOnlyCheckbox.addEventListener('change', applyFilter);
+            } else {
+                 console.warn(`[DocumentTable ${tableId}] Important only checkbox #${importantOnlyCheckboxId} not found.`);
+            }
+            if (regexInput) {
+                // Use 'input' event for immediate feedback while typing
+                regexInput.addEventListener('input', applyFilter);
+            }
+
             // Funkcionalita pre tlačidlo na hromadné zobrazenie/skrytie
             if (toggleBtn) {
                 toggleBtn.addEventListener('click', () => {
@@ -331,7 +420,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     //     tableElement.style.minHeight = originalTableMinHeight || '';
                     // });
                     toggleBtn.textContent = allSummariesVisible ? 'Zabaliť všetky' : 'Rozbaliť všetky';
-                });
+                }); // End of toggleBtn event listener
             } else {
                  console.warn(`[DocumentTable ${tableId}] Toggle button #${btnId} not found.`);
             }
@@ -344,7 +433,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 </script>
 
 {/* Scoped component styles */}
-<style>
+<style is:global>
     .document-table-container {
       /* Add any container-specific styles if needed */
       margin-bottom: 2rem; /* Example: Add space below the component */
@@ -364,5 +453,14 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
     }
     .row-summary {
         font-size: 0.9em;
+    }
+    .less-important-row {
+        color: #999; /* Sivá farba pre menej dôležité riadky */
+    }
+    .less-important-row .tabulator-cell a {
+        color: #999; /* Aj linky v týchto riadkoch budú sivé */
+    }
+    .less-important-row .tabulator-cell a:hover {
+        color: #555; /* Mierne tmavšia sivá pri prejdení myšou */
     }
 </style>
