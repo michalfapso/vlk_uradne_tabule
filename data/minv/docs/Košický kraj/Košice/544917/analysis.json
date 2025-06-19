@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP1-2025/039838",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-19",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "lehotu 5 pracovných dní od zverejnenia tohto oznámenia",
+  "ziadatel_navrhovatel": "Ministerstvo vnútra Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Grunt",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3755/804"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3755/803"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3755/820"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Wupperálska ul."
+  },
+  "typ_dokumentu": "Oznámenie o účasti správneho konania",
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jabloň planá (Malus silvestris)",
+    "hloh jednosemenný (Crataegus monogyna)",
+    "orech kráľovský (Juglans regia)",
+    "vrba rakytová (Salix caprea)",
+    "topoľ osikový (Populus tremula)",
+    "hlošina úzkolistá (Elaeagnus angustifolia)",
+    "agát biely (Robinia pseudoacacia)",
+    "brusnica obyčajná (Vaccinium myrtillus)",
+    "vrba biela (Salix alba)",
+    "ruža šípová (Rosa canina)",
+    "baza čierna (Sambucus nigra)",
+    "svíb krvavý (Cornus sanguinea)",
+    "slivka trnková (Prunus spinosa)",
+    "bršlen európsky (Euonymus europaeus)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Dokument je Oznámením o účasti v správnom konaní na výrub 37 stromov a 1240 m² krovitých porastov, ktoré žiada Ministerstvo vnútra SR. Aktivita sa týka katastrálneho územia Grunt, lokality Wupperálska ul. v meste Košice. V dokumente nie je uvedená informácia o tom, že sa lokalita nachádza v chránenom území."
+}

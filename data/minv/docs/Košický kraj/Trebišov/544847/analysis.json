@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/011877-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-18",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania (správne konanie sa nevzťahuje v zmysle § 81 ods. 2 písm. m) zákona č. 543/2002 Z.z. na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z.z.)",
+  "ziadatel_navrhovatel": "SVP, š.p. Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trebišov",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Parchovany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1301/3"
+            ]
+          },
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1302"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Topľa, rkm 3,190 – 3,456"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie zátarasu",
+    "údržba vodného toku"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967"
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od SVP, š.p. o plánovanom výrube drevín (krovitého porastu a vzrastlých vŕb) v katastrálnom území Parchovany, okres Trebišov, na toku Topľa (rkm 3,190 – 3,456) na parcelách C-KN č. 1301/3 a 1302. Výrub je potrebný na odstránenie zátarasu spôsobeného vývratom vŕb a zabezpečenie prístupu pre ťažkú techniku. Na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z.z. sa nevzťahujú všeobecné predpisy o správnom konaní."
+}

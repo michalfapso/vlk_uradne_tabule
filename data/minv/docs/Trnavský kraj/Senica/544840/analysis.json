@@ -1,0 +1,200 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/012048-021",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-16",
+  "datum_zverejnenia": "2025-04-30",
+  "lehoty_na_vyjadrenie": "do 21 dní od doručenia oznámenia / minimálne 21 dní pre verejnosť",
+  "ziadatel_navrhovatel": "Danucem Slovensko a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Senica",
+    "obec": "Jablonica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jablonica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2240/2",
+              "2240/3",
+              "2240/4",
+              "2240/5",
+              "2240/6",
+              "2240/7",
+              "2240/8",
+              "2243/3",
+              "2243/4",
+              "2243/5",
+              "2243/6",
+              "2244/3",
+              "2244/4",
+              "2244/5",
+              "2244/6",
+              "2244/7"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2243",
+              "2244",
+              "2240/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "lom Jablonica"
+  },
+  "typ_dokumentu": "ZÁVEREČNÉ STANOVISKO ZISŤOVACIEHO KONANIA",
+  "typ_zasahu": [
+    "Dobývanie stavebného kameňa",
+    "ťažba",
+    "rozšírenie lomu",
+    "zvýšenie kapacity ťažby",
+    "rozšírenie úložiska odpadov",
+    "vŕtanie",
+    "trhacie práce",
+    "nakládka",
+    "doprava"
+  ],
+  "typ_uzemia": [
+    "biotop európskeho významu",
+    "biotop národného významu",
+    "ochranné pásmo vodárenského zdroja",
+    "lesné porasty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "107",
+      "odsek": null,
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Záverečné stanovisko zisťovacieho konania k zmene navrhovanej činnosti Dobývanie stavebného kameňa vápenca v lome Jablonica (okres Senica), kde sa rozširuje dobývací priestor a zvyšuje kapacita ťažby. Okresný úrad rozhodol, že činnosť sa nebude posudzovať podľa zákona o EIA, ale stanovil podmienky vrátane potreby súhlasu orgánu ochrany prírody pri dotknutí biotopov a rešpektovaní vodného zákona a ochranných pásiem vodárenských zdrojov."
+}
