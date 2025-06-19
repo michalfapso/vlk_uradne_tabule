@@ -20,6 +20,7 @@ from pdf_to_txt import extract_text_from_pdf
 from get_doc_id import get_doc_id
 from analyze_text_document import analyze_text_document
 from log_status import log_status
+from get_law_references import get_law_excerpts_for_text
 
 def get_file_suffix(content_type):
     """
@@ -335,6 +336,23 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
             log_status(status_filepath, "error", error_msg)
             return (doc_id, {"error": error_msg})
 
+
+        #--------------------------------------------------
+        # Get law excerpts referenced in the document
+        laws = ''
+        try:
+            laws = get_law_excerpts_for_text(text_content_for_analysis)
+            if laws != "":
+                laws_filepath_txt = os.path.join(output_dir, "laws.txt")
+                with open(laws_filepath_txt, 'w', encoding='utf-8') as f:
+                    f.write(laws)
+                laws = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws
+        except Exception as e:
+            error_msg = f"Chyba pri extrakcii zákonov pre {doc_url}: {e}."
+            log_status(status_filepath, "error", error_msg)
+            # Mozeme pokračovať aj bez znenia zákonov, len zalogujeme chybu
+
+
         #--------------------------------------------------
         # Analyze with AI
         analysis_filepath_txt = os.path.join(output_dir, "analysis.txt")
@@ -347,7 +365,7 @@ def process_document(kraj: str, okres: str, doc_url: str, docs_dir: str, skip_an
         if needs_ai_analysis_run:
             print(f"Spúšťam AI analýzu pre {doc_id} (text_reextracted={text_was_reextracted_this_run}, analysis_path={analysis_filepath_txt})")
             try:
-                analysis_result_str = analyze_text_document(text_content_for_analysis)
+                analysis_result_str = analyze_text_document(text_content_for_analysis + "\n\n" + laws)
                 if analysis_result_str:
                     with open(analysis_filepath_txt, 'w', encoding='utf-8') as f:
                         f.write(analysis_result_str)

@@ -16,6 +16,7 @@ sys.path.insert(0, analyzer_dir)
 
 from log_status import log_status
 from analyze_text_document import analyze_text_document
+from get_law_references import get_law_excerpts_for_text
 
 def sanitize_okres_name(name):
     if not name:
@@ -159,10 +160,23 @@ def download_and_parse_document(doc_url, doc_description, base_docs_dir, status_
         log_status(status_doc, "error", error_msg)
         return {"error": error_msg}
     
+    laws = ''
+    try:
+        laws = get_law_excerpts_for_text(doc_description + "\n\n" + markdown_content)
+        if laws != "":
+            laws_filepath_txt = os.path.join(target_dir, "laws.txt")
+            with open(laws_filepath_txt, 'w', encoding='utf-8') as f:
+                f.write(laws)
+            laws = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws
+    except Exception as e:
+        error_msg = f"Chyba pri extrakcii zákonov pre {doc_url}: {e}."
+        log_status(status_doc, "error", error_msg)
+        # Mozeme pokračovať aj bez znenia zákonov, len zalogujeme chybu
+
     analysis_filepath_txt = os.path.join(target_dir, "analysis.txt")
 
     try:
-        analysis_result_str = analyze_text_document(doc_description + "\n\n" + markdown_content)
+        analysis_result_str = analyze_text_document(doc_description + "\n\n" + markdown_content + "\n\n" + laws)
         if analysis_result_str:
             with open(analysis_filepath_txt, 'w', encoding='utf-8') as f:
                 f.write(analysis_result_str)
