@@ -35,8 +35,8 @@ def build_law_identifier_regex(registry: dict) -> str:
     # Zoradíme od najdlhšieho po najkratší, aby sa predišlo predčasnej zhode (napr. "Zákon o dani" vs "Zákon o dani z príjmov")
     all_identifiers.sort(key=len, reverse=True)
     
-    # Vytvoríme regex skupinu s escapovanými identifikátormi
-    return "|".join(re.escape(id) for id in all_identifiers)
+    # Vytvoríme regex skupinu s identifikátormi (ktoré sú už regulárne výrazy)
+    return "|".join(f"(?:{id_pattern})" for id_pattern in all_identifiers)
 
 def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
     """
@@ -104,10 +104,10 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
             found_known_law = False
             for z_id, details in law_registry.items():
                 for name_in_registry in details['names']:
-                    # Exact match for known laws after stripping
-                    if captured_law_text_val.strip().lower() == name_in_registry.lower():
+                    # name_in_registry je teraz reťazec s regulárnym výrazom
+                    if re.fullmatch(name_in_registry, captured_law_text_val.strip(), re.IGNORECASE):
                         reference_data['zakon_id'] = z_id
-                        reference_data['zakon_refname'] = name_in_registry # Use the matched known name
+                        reference_data['zakon_refname'] = captured_law_text_val.strip() # Text zachytený z dokumentu
                         found_known_law = True
                         break
                 if found_known_law:
@@ -226,8 +226,9 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
             content_parts = []
             text_to_scan_for_sub_refs = []
 
-            for o in paragraf_obj.get("odseky", []):
-                odsek_text_part = f"({o['cislo_odseku']}) {o['text']}"
+            odseky = paragraf_obj.get("odseky", [])
+            for o in odseky:
+                odsek_text_part = (f"({o['cislo_odseku']}) " if len(odseky) > 1 else "") + o['text']
                 text_to_scan_for_sub_refs.append(o['text'])
                 if o.get("pismena"):
                     for pis in o["pismena"]:
@@ -373,28 +374,39 @@ def get_law_excerpts_for_text(text: str) -> str:
 
 # --- Príklad použitia ---
 if __name__ == "__main__":
-    testovaci_dokument = """
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Testuje extrakciu odkazov na zákony z textu.")
+    parser.add_argument(
+        "input_text",
+        type=str,
+        nargs='?',  # Znamená 0 alebo 1 argument. Ak 0, použije sa default.
+        help="Text dokumentu na analýzu. Ak nie je zadaný, použije sa predvolený testovací text.",
+        default="""
     Žiadosť podávame v zmysle § 47 ods. 3 zákona o ochrane prírody a krajiny.
     Ďalej sa odvolávame na § 14 ods. 1 písm. a) až c) zákona č. 543/2002 Z. z.
     Rovnako je dôležitý aj § 13 ods. 3 písm. a-c ZOPK.
     Ignorujeme § 99 zákona 123/2099 Z.z. ktorý nepoznáme.
     A taktiež § 1 odst. 3 písm. b..c zákona 543/2002 Z. z.
     """
+    )
+    args = parser.parse_args()
+    dokument_na_analyzu = args.input_text
 
     DEFAULT_REGISTRY_PATH = os.path.join(SCRIPT_DIR, "../data/laws/registry.json")
     LAWS_DIR = os.path.join(SCRIPT_DIR, "../data/laws")
     LAW_REGISTRY = load_main_law_registry(DEFAULT_REGISTRY_PATH)
     if not LAW_REGISTRY:
-        print("Nebolo možné spustiť príklad použitia, pretože register zákonov (LAW_REGISTRY) je prázdny alebo sa nepodarilo načítať.")
+        print("Nebolo možné spustiť príklad použitia, pretože register zákonov (LAW_REGISTRY) je prázdny alebo sa nepodarilo načítať.", file=sys.stderr)
     else:
         print("\n--- Príklad použitia ---")
         # 1. Nájdi všetky referencie v dokumente
-        referencie = find_law_references_advanced(testovaci_dokument, LAW_REGISTRY)
+        referencie = find_law_references_advanced(dokument_na_analyzu, LAW_REGISTRY)
 
         print("\n--- Nájdené a spracované referencie ---")
         print(json.dumps(referencie, indent=2, ensure_ascii=False))
         print("\n" + "="*30 + "\n")
-
+        
         # 2. Pre každú referenciu nájdi a vypíš texty zákona
         print("--- Extrahované texty zákonov ---")
         for i, ref in enumerate(referencie):

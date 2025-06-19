@@ -1,21 +1,17 @@
 {
     "543/2002": {
         "names": [
-            "543/2002 Z. z.",
-            "543/2002",
-            "o ochrane prírody a krajiny",
-            "o ochrane prirody a krajiny",
+            "(?:č\\.\\s*)?543/2002\\s*(?:Z\\.\\s?z\\.)?",
+            "o ochrane pr[ií]rody a krajiny",
             "ZOPK"
         ]
     },
-    "71/1697": {
+    "71/1967": {
         "names": [
-            "71/1697 Z. z.",
-            "71/1697",
-            "o správnom konaní",
-            "o spravnom konani",
-            "správny poriadok",
-            "správneho poriadku"
+            "(?:č\\.\\s*)?71/1967\\s*(?:(?:Z\\.\\s?z\\.)|(?:[Zz]b))?",
+            "o spr[aá]vnom konan[ií]",
+            "spr[aá]vny poriadok",
+            "spr[aá]vneho poriadku"
         ]
     }
 }
