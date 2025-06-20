@@ -1,0 +1,474 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/403434-018",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-18",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Ukončené zisťovacie konanie. Lehota na odvolanie do 15 dní odo dňa doručenia/zverejnenia záväzného stanoviska.",
+  "ziadatel_navrhovatel": "South City W, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava-Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3046/2",
+              "3049/2",
+              "3049/29",
+              "3049/57",
+              "3049/58",
+              "3049/60",
+              "3049/61",
+              "3049/93",
+              "3049/97",
+              "3049/98",
+              "3049/99",
+              "3049/101",
+              "3049/104",
+              "3049/109",
+              "3049/266",
+              "3049/267",
+              "3049/268",
+              "3049/269",
+              "3049/270",
+              "3049/277",
+              "3049/278",
+              "3051/19",
+              "3051/20",
+              "3051/44",
+              "3051/61",
+              "3051/62",
+              "3051/64",
+              "3051/65",
+              "3051/90",
+              "3051/125–167",
+              "3051/176",
+              "3051/187-188",
+              "3051/197-205"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "JUŽNÉ MESTO – ZÓNA A3+A5"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "Viacpodlažná bytová výstavba",
+    "výstavba objektu občianskej vybavenosti",
+    "výstavba polyfunkčného objektu",
+    "výstavba centrálneho tepelného zdroja (CTZ)",
+    "výstavba teplovodných rozvodov",
+    "výstavba pozemných komunikácií",
+    "výstavba komunikácií pre cyklistov",
+    "výstavba chodníkov",
+    "výstavba parkovísk",
+    "výsadba zelene",
+    "výrub drevín",
+    "výstavba kanalizácie (splašková, dažďová)",
+    "výstavba vodovodu",
+    "výstavba plynovej prípojky",
+    "výstavba elektrickej prípojky",
+    "nakladanie s odpadmi",
+    "nakladanie s vodami"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "regionálny biokoridor (RÚSES)",
+    "ochranné pásmo (potrubia)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "krovité porasty",
+    "vtáky (hniezdenie)",
+    "vegetácia"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/juzne-mesto-zona-a3-a5-viacpodlazna-bytova-vystavba",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "135/1961 Zb.",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "paragraf": "50/1976 Zb.",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "364/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "143/1998",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "6a",
+      "odsek": "2",
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40e",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "7d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "29a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": "137/2010 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": "137/2010 Z.z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": "137/2010 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR (hluk)",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "555/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "Z.z."
+    },
+    {
+      "paragraf": "8a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z.z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Ústavy SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Ústavy SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Ústavy SR",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Bratislava, odbor starostlivosti o životné prostredie, k zmene navrhovanej činnosti \"JUŽNÉ MESTO - ZÓNA A3+A5 Viacpodlažná bytová výstavba\" v Bratislave-Petržalke. Konštatuje, že zmena činnosti, ktorá zahŕňa výstavbu bytových a polyfunkčných objektov, CTZ a infraštruktúry v území s 1. stupňom ochrany a regionálnom biokoridore, nebude predmetom ďalšieho posudzovania vplyvov na životné prostredie. Dokument stanovuje podmienky vyplývajúce zo stanovísk dotknutých orgánov, týkajúce sa najmä ochrany drevín (vyžaduje súhlas na výrub mimo obdobia hniezdenia vtákov), nakladania s vodami a odpadmi, a zohľadnenia hlukových a rozptylových pomerov."
+}

@@ -1,0 +1,651 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/002198-037",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-17",
+  "datum_zverejnenia": "2025-06-20",
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia (pre navrhovateľa možnosť podať odvolanie)",
+  "ziadatel_navrhovatel": "Šúrske lúky II, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Senec",
+    "obec": "Chorvátsky Grob",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chorvátsky Grob",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1631/49",
+              "1631/347",
+              "1631/6",
+              "1631/346",
+              "1631/405",
+              "1631/698"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Šúrske lúky II, časť Čierna voda"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba rodinných domov",
+    "výstavba cesty",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba plynovodu",
+    "výstavba energetického diela",
+    "výstavba vodnej stavby",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "NPR",
+    "Ramsarská lokalita",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV",
+    "Nadregionálne biocentrum",
+    "Nadregionálny biokoridor",
+    "Regionálny biokoridor",
+    "1. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "bobor euroázijský",
+    "drevník ryhovaný",
+    "fuzáč veľký",
+    "kováčik fialový",
+    "kunka červenobruchá",
+    "mlok dunajský",
+    "ohniváčik veľký",
+    "pichliač úzkolistý",
+    "roháč obyčajný",
+    "hraboš severský panónsky",
+    "pižmovec hnedý",
+    "chrobáky",
+    "plazy",
+    "malé zemné cicavce",
+    "obojživelníky",
+    "vtáky",
+    "cicavce",
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty",
+    "komáre",
+    "ovady",
+    "mušky",
+    "kliešte",
+    "Sus scrofa",
+    "Capreolus capreolus",
+    "Cervus elaphus",
+    "Lepidurus apus",
+    "Triops cancriformis",
+    "Crustacea",
+    "Anostraca",
+    "Conchostraca",
+    "Coleoptera",
+    "Heteroptera",
+    "Ciconia nigra",
+    "Bubo bubo",
+    "Pernis apivorus",
+    "Upupa epops",
+    "Pelobates fuscus",
+    "Rana dalmatina",
+    "Crex crex",
+    "Lanius collurio",
+    "Vanellus vanellus",
+    "Motacilla alba",
+    "Alauda arvensis",
+    "Galerida cristata",
+    "Saxicola torquata",
+    "Saxicola rubetra",
+    "Bufo viridis",
+    "Erinaceus roumanicus",
+    "Hmyz"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/vystavba-rodinnych-domov-technickej-infrastruktury-surske-luky-ii",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "w"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "65",
+      "odsek": "1",
+      "pismena": [
+        "r"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "w"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "5a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach",
+      "zakon_cislo": "569/2007 Z.z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach",
+      "zakon_cislo": "569/2007 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach",
+      "zakon_cislo": "569/2007 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane zdravia",
+      "zakon_cislo": "127/2015 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách",
+      "zakon_cislo": "8/2009 Z.z."
+    },
+    {
+      "paragraf": "37",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z.z."
+    },
+    {
+      "paragraf": "151o",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o katastri nehnuteľností",
+      "zakon_cislo": "162/1995 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "657/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Ústava Slovenskej republiky",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane spotrebiteľa",
+      "zakon_cislo": "250/2007 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o reklame",
+      "zakon_cislo": "147/2001 Z.z."
+    },
+    {
+      "paragraf": "43b",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    },
+    {
+      "paragraf": "44",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Ústava Slovenskej republiky",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Ústava Slovenskej republiky",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Senec, odboru starostlivosti o životné prostredie, o tom, že zámer \"Výstavba rodinných domov a technickej infraštruktúry, Šúrske lúky II\" v katastrálnom území Chorvátsky Grob, časť Čierna voda, bude posudzovaný podľa zákona č. 24/2006 Z. z. Hlavnými dôvodmi sú umiestnenie v blízkosti Národnej prírodnej rezervácie Šúr a územia Natura 2000 (vrátane 1. až 5. stupňa ochrany), potenciálne kumulatívne vplyvy s inými projektmi a nedostatky v predloženej dokumentácii zámeru."
+}
