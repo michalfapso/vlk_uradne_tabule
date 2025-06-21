@@ -15,9 +15,9 @@ const {
 ---
 
 {processedStatusMessages.length > 0 && (
-  <div class="status-table-container">
-    <h3>{description}</h3>
-    <div id={id}></div>
+  <div class="status-table-container bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200">
+    <h3 class="text-xl font-semibold mb-4 text-gray-800">{description}</h3>
+    <div id={id} class="text-sm"></div>
   </div>
 )}
 
@@ -121,11 +121,9 @@ const {
 </script>
 
 {/* Scoped component styles */}
-<style>
-  .status-table-container {
-    margin-bottom: 2rem;
-  }
-  .tabulator-cell { /* Ensure text wrapping and breaking similar to DocumentTable */
+<style is:global>
+  /* Ensure text wrapping and breaking similar to DocumentTable */
+  .tabulator .tabulator-cell {
       white-space: pre-wrap;
       word-wrap: break-word;
   }

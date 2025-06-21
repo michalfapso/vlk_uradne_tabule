@@ -10,10 +10,15 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
     "astro": "^5.7.10",
+    "marked": "^15.0.12",
     "tabulator-tables": "^6.3.1"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "jest": "^29.7.0",
+    "tailwindcss": "^3.4.17"
   }
 }

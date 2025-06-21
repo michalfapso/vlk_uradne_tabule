@@ -6,7 +6,6 @@ import { statusTypeToIcon } from '../scripts/statusTypeToIcon.js'; // Import uti
 const {
   id = 'document-table', // Default ID
   data = [],             // Default to empty array
-  description = 'Zoznam dokumentov:', // Default description
 } = Astro.props;
 
 // --- Príprava dát (moved inside component) ---
@@ -24,22 +23,21 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 ---
 
 {/* Component's HTML Structure */}
-<div class="document-table-container">
-    <h3>{description}</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px; align-items: center;">
-        <button id={toggleButtonId} style="padding: 8px 12px; cursor: pointer;">Rozbaliť/Zabaliť všetky</button>
-        <label for={`${id}-important-only`} style="display: flex; align-items: center; cursor: pointer;">
-            <input type="checkbox" id={`${id}-important-only`} checked style="margin-right: 5px;">
+<div class="document-table-container bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200">
+    <div class="flex gap-x-6 gap-y-3 mb-4 items-center text-sm">
+        <button id={toggleButtonId} class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-3 rounded-lg transition-colors text-xs sm:text-sm">Rozbaliť/Zabaliť všetky</button>
+        <label for={`${id}-important-only`} class="flex items-center cursor-pointer">
+            <input type="checkbox" id={`${id}-important-only`} checked class="mr-2 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
             Iba dôležité dokumenty
         </label>
-        <label for={`${id}-regex-filter`} style="display: flex; align-items: center;">
-            Regex pre nedôležité dokumenty: <input type="text" id={`${id}-regex-filter`} value="(kanaliz|vodovod|výstavb)" style="margin-left: 5px; padding: 5px; width: 200px;">
+        <label for={`${id}-regex-filter`} class="flex items-center">
+            Regex pre nedôležité dokumenty: <input type="text" id={`${id}-regex-filter`} value="(kanaliz|vodovod|výstavb)" class="ml-2 p-1 border border-gray-300 rounded-md w-56 focus:ring-blue-500 focus:border-blue-500">
         </label>
     </div>
     {allDocuments.length === 0 ? (
-        <p>Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.</p>
+        <p class="text-gray-500 italic">Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.</p>
     ) : (
-        <div id={id}></div>
+        <div id={id} class="text-sm"></div>
     )}
 </div>
 
@@ -132,6 +130,22 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
         let currentRegex = null;
         let isRegexValid = true;
 
+        // Pomocná funkcia na získanie spojeného reťazca zo všetkých polí,
+        // v ktorých sa má vyhľadávať pomocou regex filtra.
+        const getSearchableString = (data) => {
+            const parts = [];
+            const typZasahu = data?.analyza?.typ_zasahu;
+            if (typZasahu) parts.push(Array.isArray(typZasahu) ? typZasahu.join(' ') : String(typZasahu));
+
+            const typUzemia = data?.analyza?.typ_uzemia;
+            if (typUzemia) parts.push(Array.isArray(typUzemia) ? typUzemia.join(' ') : String(typUzemia));
+
+            if (data?.nazov) parts.push(data.nazov);
+            if (data?.analyza?.zhrnutie) parts.push(data.analyza.zhrnutie);
+
+            return parts.join(' ');
+        };
+
         // Function to apply the filter based on checkbox and regex input
         const applyFilter = () => {
             if (!importantOnlyCheckbox || !regexInput || !table) {
@@ -158,11 +172,9 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 });
 
                 if (isRegexValid && currentRegex) {
-                    // Apply the filter: hide rows where 'analyza.typ_zasahu' matches the regex
                     table.setFilter((data) => {
-                        const typZasahu = data?.analyza?.typ_zasahu;
-                        const typZasahuString = Array.isArray(typZasahu) ? typZasahu.join(', ') : (typZasahu || '');
-                        return !currentRegex.test(typZasahuString); // Hide if matches
+                        const searchableString = getSearchableString(data);
+                        return !currentRegex.test(searchableString); // Hide if matches
                     });
                 } else {
                     // If regex is invalid or empty, and checkbox is checked, show all (effectively no "unimportant" items defined)
@@ -174,10 +186,9 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 table.getRows().forEach(row => {
                     const rowElement = row.getElement();
                     const rowData = row.getData();
-                    const typZasahu = rowData?.analyza?.typ_zasahu;
-                    const typZasahuString = Array.isArray(typZasahu) ? typZasahu.join(', ') : (typZasahu || '');
+                    const searchableString = getSearchableString(rowData);
 
-                    if (isRegexValid && currentRegex && currentRegex.test(typZasahuString)) {
+                    if (isRegexValid && currentRegex && currentRegex.test(searchableString)) {
                         rowElement.classList.add('less-important-row');
                     } else {
                         rowElement.classList.remove('less-important-row');
@@ -298,7 +309,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     { title: "Dátum", field: "datum", hozAlign: "left", tooltip: fn_tooltip,
                         // sorter: "date", sorterParams:{ format:"YYYY-MM-DD" },
                         // formatter: (cell) => formatClientDate(cell.getValue()),
-                        width: 90 },
+                        width: 100 },
                     { title: "Zdroj", field: "source", hozAlign: "left", headerFilter: "input", width: 20, tooltip: fn_tooltip},
                     { title: "Kraj", field: "kraj", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, formatter: (cell) => {
                         const value = cell.getValue();
@@ -316,12 +327,12 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                             ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${value}</a>`
                             : value;
                     }},
-                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
+                    { title: "Typ zásahu", field: "analyza.typ_zasahu", hozAlign: "left", headerFilter: "input", width: 200, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return 'Bez analýzy';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
                     }},
-                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 120, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
+                    { title: "Typ územia", field: "analyza.typ_uzemia", hozAlign: "left", headerFilter: "input", width: 200, tooltip: fn_tooltip, sorter: arrayOrStringSorter, formatter: (cell) => {
                         if (!cell.getData().has_analysis) return '-';
                         const value = cell.getValue();
                         return Array.isArray(value) ? value.join(', ') : (value || 'N/A');
@@ -434,33 +445,30 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
 {/* Scoped component styles */}
 <style is:global>
-    .document-table-container {
-      /* Add any container-specific styles if needed */
-      margin-bottom: 2rem; /* Example: Add space below the component */
-    }
-
     /* Styles previously in index.astro */
     .tabulator .tabulator-cell a {
-        color: inherit;
+        @apply text-blue-600 hover:text-blue-800;
         text-decoration: underline;
     }
-    .tabulator .tabulator-cell a:hover {
-        color: blue;
-    }
-    .tabulator-cell {
+
+    .tabulator .tabulator-cell {
         white-space: pre-wrap;
         word-wrap: break-word;
     }
+
     .row-summary {
-        font-size: 0.9em;
+        @apply text-xs bg-gray-50;
     }
+
     .less-important-row {
-        color: #999; /* Sivá farba pre menej dôležité riadky */
+        @apply text-gray-400; /* Sivá farba pre menej dôležité riadky */
     }
+
     .less-important-row .tabulator-cell a {
-        color: #999; /* Aj linky v týchto riadkoch budú sivé */
+        @apply text-gray-400 hover:text-gray-600; /* Aj linky v týchto riadkoch budú sivé */
     }
+
     .less-important-row .tabulator-cell a:hover {
-        color: #555; /* Mierne tmavšia sivá pri prejdení myšou */
+        @apply text-gray-600; /* Mierne tmavšia sivá pri prejdení myšou */
     }
 </style>

@@ -9,6 +9,7 @@ import DocumentTable from '../components/DocumentTable.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { marked } from 'marked'; // Import marked library for markdown to HTML conversion
 
 // Import the initial JSON data.
 // We'll use 3_diff_test.json as specified by the structure requirements.
@@ -20,7 +21,6 @@ import { getDocId } from '../scripts/getDocId.js';
 
 // Define props for the component
 const pageTitle = "Nové dokumenty na úradných tabuliach ŽP za posledných 7 dní";
-const pageDescription = "Zoznam dokumentov pridaných za posledný deň na úradné tabule okresných úradov životného prostredia:";
 
 // Define the directory of the current Astro file to help resolve paths
 const __filename = fileURLToPath(import.meta.url);
@@ -29,6 +29,21 @@ const __dirname = path.dirname(__filename);
 console.log('dirname:', __dirname);
 console.log('filename:', __filename);
 
+// --- Read and process the markdown prompt file ---
+// Path to the markdown file relative to the current Astro file
+const promptFilePath = path.resolve(
+    __dirname, // Current file's directory (website/src/pages)
+    '../../../analyzer/analyze_text_document_prompt.md' // Relative path to the prompt file
+);
+
+let promptHtml = '';
+try {
+    const promptMarkdown = fs.readFileSync(promptFilePath, 'utf-8');
+    promptHtml = marked.parse(promptMarkdown); // Convert markdown to HTML
+} catch (error) {
+    console.error(`Error reading or parsing prompt file ${promptFilePath}:`, error);
+    promptHtml = `<p class="text-red-500">Chyba pri načítaní alebo spracovaní súboru s promptom: ${error.message}</p>`;
+}
 
 // Helper function to get a date string in YYYY-MM-DD format for N days ago
 function getDateStringDaysAgo(days) {
@@ -301,11 +316,23 @@ console.log('data:', JSON.stringify(data, null, 2));
 ---
 
 <Layout title={pageTitle}>
-    <main>
-        <h1>{pageTitle}</h1>
-        <p>
-            <a href={import.meta.env.BASE_URL + 'last_day'} class="btn btn-primary">Zobraz iba dokumenty za posledný deň</a>
-        </p>
+    <main class="space-y-8">
+        <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">{pageTitle}</h1>
+
+        {/* Collapsible element for the prompt */}
+        <div class="bg-white mt-2 p-4 sm:p-6 rounded-lg shadow-md border border-gray-200">
+            <details class="group">
+                <summary class="flex justify-start items-center cursor-pointer text-sm font-semibold text-gray-800 hover:text-blue-600">
+                    <span class="pr-2 transform transition-transform duration-200 group-open:rotate-90 text-gray-500">&#9654;</span>
+                    <span>Zobraziť inštrukcie použité pre analýzu dokumentov pomocou AI</span>
+                </summary>
+                <div class="mt-4 prose prose-sm max-w-none text-gray-700 bg-gray-50 p-4 rounded-md border">
+                    {/* Render the HTML content directly. */}
+                    <Fragment set:html={promptHtml} />
+                </div>
+            </details>
+        </div>
+
         <OkresyStatus
             data={minv_okresyStatusData} {/* OkresyStatus now receives a flat list of status messages */}
         />
@@ -314,7 +341,6 @@ console.log('data:', JSON.stringify(data, null, 2));
             id="env-documents-table" {/* Optional: Provide a specific ID */}
             data={data}              {/* Pass the flattened, filtered, and enriched data */}
             title={pageTitle}
-            description={pageDescription}
         />
         {/* You could potentially add another DocumentTable here with different data/props */}
     </main>
