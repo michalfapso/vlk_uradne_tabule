@@ -18,8 +18,9 @@ def get_doc_id(doc_url: str) -> str | None:
 
     #--------------------------------------------------
     # www.minzp.sk: DOC_ID je názov súboru z URL bez prípony
-    if 'www.minzp.sk' in doc_url:
-        return os.path.splitext(os.path.basename(parsed_url.path))[0]
+    if parsed_url.hostname == 'www.minzp.sk':
+        filename_without_ext = os.path.splitext(os.path.basename(parsed_url.path))[0]
+        return urllib.parse.unquote(filename_without_ext)
 
     #--------------------------------------------------
     # www.minv.sk:
@@ -33,7 +34,7 @@ def get_doc_id(doc_url: str) -> str | None:
         filename_with_ext = os.path.basename(path)
         if filename_with_ext and filename_with_ext.lower().startswith('ou-'):
             filename_without_ext, ext = os.path.splitext(filename_with_ext)
-            return filename_without_ext
+            return urllib.parse.unquote(filename_without_ext)
 
     # 3. Ak nič z vyššie uvedeného, vygeneruj hash z URL
     try:
