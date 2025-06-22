@@ -30,7 +30,8 @@ function getDocId(docUrl) { // Using JS naming conventions (camelCase)
     //--------------------------------------------------
     // www.minzp.sk: DOC_ID je názov súboru z URL bez prípony
     if (parsedUrl && parsedUrl.hostname === 'www.minzp.sk') {
-        return path.parse(parsedUrl.pathname).name;
+        const filename = path.parse(parsedUrl.pathname).name;
+        return decodeURIComponent(filename);
     }
 
     //--------------------------------------------------
@@ -49,8 +50,8 @@ function getDocId(docUrl) { // Using JS naming conventions (camelCase)
     if (urlPath) {
         const filenameWithExt = path.basename(urlPath);
         if (filenameWithExt && filenameWithExt.toLowerCase().startsWith('ou-')) {
-            const filenameWithoutExt = path.parse(filenameWithExt).name; // path.parse gives name and ext
-            return filenameWithoutExt;
+            const filenameWithoutExt = path.parse(filenameWithExt).name;
+            return decodeURIComponent(filenameWithoutExt);
         }
     }
 
