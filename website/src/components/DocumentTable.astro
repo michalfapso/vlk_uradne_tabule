@@ -287,8 +287,6 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         detailsElement.appendChild(summaryElement);
 
                         const contentElement = document.createElement('div');
-                        contentElement.style.whiteSpace = 'pre-wrap';
-                        contentElement.style.wordBreak = 'break-all';
                         contentElement.textContent = data.laws;
                         detailsElement.appendChild(contentElement); // Append details element directly
                         summaryContainer.appendChild(detailsElement); // Append details element directly
@@ -464,9 +462,11 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
     });
 </script>
 
-{/* Scoped component styles */}
 <style is:global>
-    /* Styles previously in index.astro */
+    .tabulator .tabulator-row {
+        white-space: wrap;
+    }
+
     .tabulator .tabulator-cell a {
         @apply text-blue-600 hover:text-blue-800;
         text-decoration: underline;
