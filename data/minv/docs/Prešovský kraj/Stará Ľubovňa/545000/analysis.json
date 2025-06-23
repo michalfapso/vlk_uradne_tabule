@@ -1,0 +1,39 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-07-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Roľnícke družstvo v Plavnici",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Stará Ľubovňa",
+    "obec": "Plavnica",
+    "katastralne_uzemia": [],
+    "parcely": [],
+    "nazov_lokality": "bioplynovej stanice Plavnica"
+  },
+  "typ_dokumentu": "Žiadosť o udelenie výnimky",
+  "typ_zasahu": [
+    "Výnimka z požiadaviek prevádzky bioplynovej stanice",
+    "Nakladanie s fermentačnými zvyškami"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je žiadosť od Roľníckeho družstva v Plavnici o udelenie výnimky z technických požiadaviek na prevádzku bioplynovej stanice v Plavnici. Konkrétne ide o výnimku na prekrytie skladovacieho priestoru na fermentačné zvyšky podľa zákona o ochrane ovzdušia. Chránené územia ani druhy nie sú spomenuté."
+}

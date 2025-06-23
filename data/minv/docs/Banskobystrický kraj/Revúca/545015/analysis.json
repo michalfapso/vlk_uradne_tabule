@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000681",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-06-20",
+  "lehoty_na_vyjadrenie": "Podľa § 82 ods. 7 zákona č. 543/2002 Z. z. najmenej 5 pracovných dní od zverejnenia (20.06.2025)",
+  "ziadatel_navrhovatel": "Správa Národného parku Muránska planina",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2583/1",
+              "2579"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "zásah do biotopu európskeho významu",
+    "zásah do biotopu národného významu",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "biotop európskeho významu",
+    "biotop národného významu",
+    "Národný park Muránska planina"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Informácia o začatí správneho konania vo veci vydania súhlasu na zásah do biotopu európskeho/národného významu a výrub drevín na parcelách C-KN v k. ú. Muráň. Žiadateľom je Správa Národného parku Muránska planina."
+}

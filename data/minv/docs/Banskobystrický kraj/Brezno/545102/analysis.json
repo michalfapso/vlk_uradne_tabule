@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-06-24",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "JPRL s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Lom nad Rimavicou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lom nad Rimavicou",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "na trase ochranného pásma vedenia 22kV, VN 384 k 71"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezávanie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "agát",
+    "trnka",
+    "lieska",
+    "javor",
+    "hloh",
+    "topoľ",
+    "vŕba",
+    "jelša",
+    "čerešňa",
+    "jabloň",
+    "orech",
+    "buk",
+    "hrab",
+    "borovica",
+    "smrek",
+    "smrekovec",
+    "jaseň"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania o výrube a orezaní drevín v ochrannom pásme vedenia 22kV v katastrálnom území Lom nad Rimavicou, ktoré podala spoločnosť JPRL s.r.o. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od dátumu zverejnenia 24.06.2025."
+}

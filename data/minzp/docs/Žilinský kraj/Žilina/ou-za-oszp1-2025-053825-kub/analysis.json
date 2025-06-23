@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2025/053825-Kub",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Ing. Jozef Pavlík",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Demänovská Dolina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu",
+  "typ_zasahu": [
+    "výstavba drobnej stavby",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "Tretí stupeň ochrany",
+    "chránené územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť Ing. Jozefa Pavlíka o vydanie súhlasu na umiestnenie drobnej stavby (saunové domčeky) v katastrálnom území Demänovská Dolina, ktoré je v treťom stupni ochrany prírody."
+}
