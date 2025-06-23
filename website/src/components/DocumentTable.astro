@@ -263,7 +263,10 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
                     let summaryHtml = '';
                     if (data.analyza) {
-                        summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || 'Bez zhrnutia textu.'}<br><br>`; // Add line breaks for spacing
+                        summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || 'Bez zhrnutia textu.'}<br><br>`;
+                    }
+                    if (data.popis) {
+                        summaryHtml += `<b>Popis (originál z úradnej tabule):</b> ${data.popis || 'Bez popisu.'}<br><br>`;
                     }
                     summaryHtml += '<b>docID:</b> ' + (data.docId || 'N/A') + '<br><br>';
 
@@ -274,6 +277,24 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                         });
                         summaryHtml += '<br>';
                     }
+
+                    if (data.laws) {
+                        const detailsElement = document.createElement('details');
+                        const summaryElement = document.createElement('summary');
+                        summaryElement.style.cursor = 'pointer';
+                        summaryElement.style.fontWeight = 'bold';
+                        summaryElement.textContent = 'Znenia zákonov odkazovaných v dokumente';
+                        detailsElement.appendChild(summaryElement);
+
+                        const contentElement = document.createElement('div');
+                        contentElement.style.whiteSpace = 'pre-wrap';
+                        contentElement.style.wordBreak = 'break-all';
+                        contentElement.textContent = data.laws;
+                        detailsElement.appendChild(contentElement); // Append details element directly
+                        summaryContainer.appendChild(detailsElement); // Append details element directly
+                        summaryContainer.appendChild(document.createElement('br')); // Append details element directly
+                    }
+
                     if (data.analyza) {
                         const detailsElement = document.createElement('details');
                         const summaryElement = document.createElement('summary');

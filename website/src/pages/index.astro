@@ -168,6 +168,7 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                 );
                 const statusFilePath   = path.resolve(docDir, 'status.json');
                 const analysisFilePath = path.resolve(docDir, 'analysis.json');
+                const lawsFilePath = path.resolve(docDir, 'laws.txt');
 
                 try {
                     if (fs.existsSync(statusFilePath)) {
@@ -186,6 +187,14 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                         doc.analyza = JSON.parse(analysisContent);
                     } else {
                         appendErrorToStatus(doc, `Analysis file not found: ${analysisFilePath}`);
+                    }
+                } catch (error) {
+                    appendErrorToStatus(doc, `Failed to load/parse analysis from ${analysisFilePath}: ${error.message}`);
+                }
+
+                try {
+                    if (fs.existsSync(lawsFilePath)) {
+                        doc.laws = fs.readFileSync(lawsFilePath, 'utf-8');
                     }
                 } catch (error) {
                     appendErrorToStatus(doc, `Failed to load/parse analysis from ${analysisFilePath}: ${error.message}`);
