@@ -1,0 +1,180 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ESPRIT, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava I - V",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré Mesto",
+        "parcely": []
+      },
+      {
+        "nazov": "Podunajské Biskupice",
+        "parcely": []
+      },
+      {
+        "nazov": "Ružinov",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrakuňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Nové Mesto",
+        "parcely": []
+      },
+      {
+        "nazov": "Rača",
+        "parcely": []
+      },
+      {
+        "nazov": "Vajnory",
+        "parcely": []
+      },
+      {
+        "nazov": "Devín",
+        "parcely": []
+      },
+      {
+        "nazov": "Devínska Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Dúbravka",
+        "parcely": []
+      },
+      {
+        "nazov": "Karlova Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Lamač",
+        "parcely": []
+      },
+      {
+        "nazov": "Záhorská Bystrica",
+        "parcely": []
+      },
+      {
+        "nazov": "Čunovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Jarovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Petržalka",
+        "parcely": []
+      },
+      {
+        "nazov": "Rusovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Vinohrady",
+        "parcely": []
+      },
+      {
+        "nazov": "Nivy",
+        "parcely": []
+      },
+      {
+        "nazov": "Trnávka",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Okresy Bratislava I - V"
+  },
+  "typ_dokumentu": "Spracovanie dokumentácie Regionálneho územného systému ekologickej stability",
+  "typ_zasahu": [],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "CHKO Dunajské luhy",
+    "CHKO Záhorie",
+    "Národný park",
+    "Prírodná rezervácia",
+    "Chránený areál",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "chránené vtáčie územie",
+    "chránená vodohospodárska oblasť",
+    "ochranné pásmo vodárenského zdroja",
+    "4. stupeň",
+    "5. stupeň",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "vydra riečna",
+    "drop veľký",
+    "sokol kobcovitý",
+    "ľabtuška poľná",
+    "kunka červenobruchá",
+    "mlok dunajský",
+    "korytnačka močiarna",
+    "netopiere",
+    "ryby",
+    "ichthyofauna",
+    "bentická fauna",
+    "brehové porasty",
+    "včelárik zlatý",
+    "roháč obyčajný",
+    "jazýčkovec jadranský",
+    "rastliny a živočíchy chránené a ohrozené"
+  ],
+  "odkaz_enviroportal": "http://envirozataze.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje analýzu, syntézu a návrh regionálneho územného systému ekologickej stability (RÚSES) pre okresy Bratislava I-V, spracovaný v roku 2019. Analyzuje prírodné pomery, súčasnú krajinnú štruktúru, pozitívne a negatívne prvky (vrátane enviro záťaží a inváznych druhov) a vzťah k územnoplánovacej dokumentácii. Navrhuje prvky RÚSES (biocentrá, biokoridory, genofondové lokality) a opatrenia na zvýšenie ekologickej stability krajiny, najmä v chránených územiach ako CHKO Malé Karpaty a Dunajské luhy a územiach Natura 2000, so zameraním na ochranu biotopov a ohrozených druhov."
+}
