@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-KM-OZP1-2023/004855-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-02-20",
+  "datum_zverejnenia": "2023-02-20",
+  "lehoty_na_vyjadrenie": "do 7 pracovných dní od zverejnenia",
+  "ziadatel_navrhovatel": "Mesto Žilina",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Žilina",
+    "obec": "Žilina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žilina",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "7903/416",
+              "7903/417",
+              "7903/418",
+              "7903/419",
+              "7903/420",
+              "7903/421"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bytový dom B7 a polyfunkčný objekt M1, 8. etapa"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "vsakovanie vôd",
+    "osobitné užívanie vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "27",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "f"
+      ],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania pre povolenie osobitného užívania vôd - vsakovanie vôd z parkoviska a spevnených plôch pri bytovom dome a polyfunkčnom objekte v Žiline, k.ú. Žilina, na viacerých parcelách C-KN. Realizácia sa nachádza v ochrannom pásme vodárenského zdroja."
+}

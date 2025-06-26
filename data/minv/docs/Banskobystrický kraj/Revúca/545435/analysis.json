@@ -1,0 +1,555 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000023",
+  "cislo_rozhodnutia": "OU-BB-OOP3-2025/026325-002",
+  "datum_dokumentu": "2025-06-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "lehota, ktorú určil na doručenie potvrdenia záujmu byť účastníkom v začatom správnom konaní podľa odseku 3, ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "BEK Agro Revúca, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banská Bystrica",
+    "okres": "Revúca",
+    "obec": "Muránska Dlhá Lúka / Revúca / Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muránska Dlhá Lúka",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "2014/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Revúca",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "2921/1",
+              "2921/3",
+              "2931/2",
+              "2931/4",
+              "2944/1-časť",
+              "2944/6-časť",
+              "2944/7",
+              "2944/8",
+              "2944/5",
+              "2944/4",
+              "2700"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "2119",
+              "2004",
+              "1704",
+              "1762/2",
+              "1762/1",
+              "1774",
+              "455",
+              "1944/1",
+              "1979",
+              "1064",
+              "2020/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Predhájik / Štengeravš / Strelnica / Léchartová / pod Mazaif / predné Peprovice / pod cintorínom / Hajské / Láclavová / Veľká Lúka / Malá Javorníková"
+  },
+  "typ_dokumentu": "Rozhodnutie o odvolaní",
+  "typ_zasahu": [
+    "prepásanie ovcami",
+    "mulčovanie"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "ochranné pásmo Národného parku Muránska planina",
+    "Národný park Muránska planina",
+    "Územie európskeho významu",
+    "SKUEV0018 Lúka pod cintorínom",
+    "Chránené vtáčie územie SKCHVU017 Muránska planina - Stolica",
+    "Územia európskeho významu SKUEV0225 Muránska planina"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "modráčik krvavcový",
+    "vstavačovec májový",
+    "modráčik horcový"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "59",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "9",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "57",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "85",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "65a",
+      "odsek": "2",
+      "pismena": [
+        "zc"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "32",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "59",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "Nariadenie vlády",
+      "zakon_cislo": "3/2023 Z. z."
+    },
+    {
+      "paragraf": "59",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "177",
+      "odsek": "nasl.",
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Odvolacie rozhodnutie Okresného úradu Banská Bystrica mení pôvodné rozhodnutie Okresného úradu Revúca týkajúce sa žiadosti BEK Agro Revúca, s.r.o. Pôvodne udelený súhlas na prepásanie biotopov ovcami v k.ú. Muránska Dlhá Lúka, Revúca a Muráň (v 1., 2. a 4. stupni ochrany, vrátane ochranného pásma NP Muránska planina a SKUEV0018) je zastavený, pretože prepásanie bolo vyhodnotené ako prospešné pre biotopy, nie škodlivé. Zamietnutie súhlasu na mulčovanie v k.ú. Muráň (v 3. stupni ochrany NP Muránska planina, SKCHVU017 a SKUEV0225), kde sa vyskytujú chránené druhy modráčik krvavcový a vstavačovec májový a modráčik horcový, zostáva v platnosti."
+}

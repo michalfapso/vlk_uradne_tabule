@@ -1,0 +1,389 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001115-024",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Tekovská Breznica",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žarnovica",
+    "obec": "Tekovská Breznica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tekovská Breznica",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Lokalita D1, Lokalita D2, Lokalita D3, Lokalita D4, Priesilská dolina, Lokalita Z1, Lokalita Z2, Lokalita Z3, Lokalita Z4"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "zmeny územného plánu",
+    "výstavba rodinných domov",
+    "výstavba rekreačných objektov",
+    "výstavba ciest",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "záber poľnohospodárskej pôdy"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Štiavnické vrchy",
+    "Prírodná pamiatka Putikov vŕšok",
+    "Územie európskeho významu SKUEV0263 Hodrušská hornatina",
+    "Územie európskeho významu SKUEV0947 Stredný tok Hrona",
+    "Biotopy európskeho významu a národného významu",
+    "NATURA 2000",
+    "Územný systém ekologickej stability",
+    "biokoridor miestneho významu",
+    "ochranné pásmo lesa",
+    "pobrežné pozemky",
+    "chránené poľnohospodárske pôdy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "57/2024 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2004 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2004 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2004 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "359/2022 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "NV SR",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "NV SR",
+      "zakon_cislo": "398/2012 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "528/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "98/2018 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "237/2009 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "58/2013 z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Federálneho ministerstva dopravy",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o civilnej ochrane obyvateľstva",
+      "zakon_cislo": "42/1994 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "6a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žarnovica rozhodol, že Zmeny a doplnky č. 1 územného plánu obce Tekovská Breznica, ktoré navrhujú rozšírenie plôch pre bývanie (D1, D2, D3) a rekreáciu (D4, Priesilská dolina), sa nebudú posudzovať podľa zákona o posudzovaní vplyvov. Rozhodnutie ukladá obci zapracovať požiadavky zainteresovaných orgánov týkajúce sa ochrany poľnohospodárskej pôdy (vylúčenie lokality D2), biotopov a biokoridorov (D1, D4), nestabilných území, radónového rizika, protihlukových opatrení, protipovodňovej ochrany (rieka Hron, potok Breznica) a ochrany ovzdušia."
+}

@@ -1,0 +1,139 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/028496-0106408/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Logis Hub Valaliky, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice – okolie",
+    "obec": "Valaliky, Geča a Haniska",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaliky",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1300/197"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Geča",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "659/26",
+              "662/2",
+              "658/324"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Haniska",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "936/56"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "LOGIS ONE PARK KOŠICE"
+  },
+  "typ_dokumentu": "Záväzné stanovisko orgánu štátnej vodnej správy",
+  "typ_zasahu": [
+    "výstavba skladovo-výrobných objektov",
+    "výstavba infraštruktúry",
+    "manipulačné plochy",
+    "dažďová kanalizácia",
+    "vsakovanie vôd",
+    "tvorba vodnej plochy a mokrade"
+  ],
+  "typ_uzemia": [
+    "čiastkové povodie Hornádu",
+    "útvar podzemnej vody SK1001200P Medzizrnové podzemné vody kvartérnych náplavov Hornádu, Bodvy a ich prítokov",
+    "útvar podzemnej vody SK2005300P Medzizrnové podzemné vody Košickej kotliny",
+    "nie je súčasťou chránenej vodohospodárskej oblasti"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "mokraďová vegetácia",
+    "ostrice",
+    "trstina",
+    "mŕtva drevná hmota"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/20areálu"
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom orgánu štátnej vodnej správy k navrhovanej výstavbe priemyselno-logistického parku \"LOGIS ONE PARK KOŠICE\" v obciach Valaliky, Geča a Haniska, okres Košice-okolie. Stanovisko posudzuje vplyv stavby na útvary podzemných vôd a uvádza, že sa nevyžaduje výnimka z environmentálnych cieľov vodného zákona. Súčasťou stavby je aj tvorba vodnej plochy s mokraďou a vsakovacie systémy pre dažďovú vodu."
+}
