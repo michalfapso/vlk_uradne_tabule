@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "0UR4-014/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-06-16",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": "MALUSA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Neporadza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Neporadza",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod elektrickým vedením VN č. 323_K61_25_01"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie porastov",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením od spoločnosti MALUSA s.r.o., konajúcej v mene Stredoslovenská distribučná, a.s., o plánovanom výrube a okliesnení stromov a iných porastov v katastrálnom území Neporadza, pod elektrickým vedením VN č. 323_K61_25_01. Dôvodom je zaistenie bezpečnosti a spoľahlivosti prevádzky energetických zariadení v zmysle Zákona o energetike. Neuvádzajú sa žiadne dotknuté chránené územia ani druhy."
+}
