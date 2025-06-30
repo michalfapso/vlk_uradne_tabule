@@ -1,0 +1,599 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/000013-0005301/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "FERIVAL s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zlaté Moravce",
+    "obec": "Veľké Vozokany, Čierne Kľačany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Vozokany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5257/3",
+              "5258/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čierne Kľačany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "822/2",
+              "822/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "822/2",
+              "822/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Veľké Vozokany – výstavba radových rodinných domov, prístupovej komunikácie a inžinierskych sietí I. Etapa"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodných stavieb a osobitného užívania vôd",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba dažďovej kanalizácie",
+    "výstavba retenčných nádrží",
+    "výstavba vsakovacích systémov",
+    "výstavba odlučovačov ropných látok",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "48-53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964"
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "48",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021"
+    },
+    {
+      "paragraf": "35",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o prevencii a manažmente inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019"
+    },
+    {
+      "paragraf": "34",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "35",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o pozemných komunikáciách",
+      "zakon_cislo": "35/1984"
+    },
+    {
+      "paragraf": "3b",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "3b",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "3",
+      "odsek": "5",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o pozemných komunikáciách",
+      "zakon_cislo": "35/1984"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o pozemných komunikáciách",
+      "zakon_cislo": "35/1984"
+    },
+    {
+      "paragraf": "18",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "1",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "8",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MV SR o zabezpečení stavieb vodou na hasenie požiarov",
+      "zakon_cislo": "699/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška (STA)",
+      "zakon_cislo": "147/2013"
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška",
+      "zakon_cislo": "508/2009"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "b",
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "124/2006"
+    },
+    {
+      "paragraf": "15",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR k stavebnému zákonu",
+      "zakon_cislo": "453/2000"
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR k stavebnému zákonu",
+      "zakon_cislo": "453/2000"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995"
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "3",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o listinnom rovnopise elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016"
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Zlaté Moravce o povolení výstavby verejného vodovodu a dažďovej kanalizácie (vrátane retenčných nádrží, vsakovacích systémov a odlučovačov ropných látok) a osobitného užívania vôd (vsakovanie dažďových vôd) pre projekt IBV v obciach Veľké Vozokany a Čierne Kľačany. Územie podlieha prvému stupňu ochrany prírody."
+}
