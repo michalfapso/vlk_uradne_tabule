@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000703",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-07-01",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "fyzickú osobu",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2569/1",
+              "2583/1",
+              "2578/1",
+              "2577"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "zásah do biotopu európskeho významu",
+    "zásah do biotopu národného významu"
+  ],
+  "typ_uzemia": [
+    "biotop európskeho významu",
+    "biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument zverejňuje informáciu o začatí správneho konania vo veci vydania súhlasu na zásah do biotopu európskeho alebo národného významu v katastrálnom území Muráň na konkrétnych parcelách KN-C. Žiadateľom je fyzická osoba. Konanie sa začína podľa zákona č. 543/2002 Z. z."
+}

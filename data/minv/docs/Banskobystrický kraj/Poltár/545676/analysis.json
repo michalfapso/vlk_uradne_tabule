@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OOP/557/2023 DV-PL-OSZP/2025/000502",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Platan PRO, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poltár",
+    "obec": "Cinobaňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Cinobaňa",
+        "parcely": [
+          {
+            "typ": "KN",
+            "cisla": [
+              "1410",
+              "1544/2",
+              "1409",
+              "1414/28",
+              "1416",
+              "1360/18"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo/pod elektrickým vedením VN č. 364 641"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie porastov",
+    "údržba energetických zariadení"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie od Platan PRO s.r.o. (v zastúpení SSD, a.s.) o plánovanom výrube a okliesnení drevín v katastrálnom území Cinobaňa (okres Poltár) na parcelách KN za účelom údržby ochranného pásma VN elektrického vedenia, podľa § 47 ods. 7 Zákona o ochrane prírody a krajiny."
+}
