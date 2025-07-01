@@ -153,6 +153,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [scrape_analyze_minv, scrape_analyze_minzp] # Ensure scrape jobs ran (succeeded or failed)
     if: ${{ always() }} # Always attempt to run this job
+    outputs:
+      data_changed: ${{ steps.commit_step.outputs.data_changed }}
+      new_commit_sha: ${{ steps.commit_step.outputs.sha }}
 
     steps:
       - name: Checkout code
@@ -175,6 +178,7 @@ jobs:
         continue-on-error: true # Continue if artifact was not found
 
       - name: Commit and Push Data Changes
+        id: commit_step
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
@@ -185,6 +189,7 @@ jobs:
           # Check if there are any changes staged before committing
           if git diff-index --quiet HEAD --; then
             echo "No data changes detected to commit."
+            echo "data_changed=false" >> $GITHUB_OUTPUT
           else
             # Commit the changes
             git commit -m "data: Daily update ($(date +%Y-%m-%d))"
@@ -199,6 +204,11 @@ jobs:
             echo "Pushing changes..."
             git push origin main
 
+            # Get the SHA of the new commit and set it as an output
+            NEW_SHA=$(git rev-parse HEAD)
+            echo "New commit SHA: $NEW_SHA"
+            echo "sha=$NEW_SHA" >> $GITHUB_OUTPUT
+            echo "data_changed=true" >> $GITHUB_OUTPUT
             echo "Data changes committed and pushed."
           fi
         working-directory: ${{ github.workspace }}
@@ -210,18 +220,18 @@ jobs:
   build_website:
     runs-on: ubuntu-latest
     needs: commit_data # Needs the commit job to have completed (succeeded or failed)
-    if: ${{ success() }} # Only deploy if the build job succeeded
+    # Only run this job if the commit_data job detected and committed changes.
+    if: needs.commit_data.outputs.data_changed == 'true'
 
     steps:
-      - name: Checkout code
+      - name: Checkout specific commit
         uses: actions/checkout@v4
-        # This checkout will include the commit(s) made by the commit_data job
+        # Use the exact SHA from the commit_data job to avoid race conditions.
         with:
-            fetch-depth: 0 # Ensure the latest commit is available
+          ref: ${{ needs.commit_data.outputs.new_commit_sha }}
 
       # Data is now available directly in the ./data directory due to the checkout
 
-      # Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -247,7 +257,8 @@ jobs:
   deploy_website:
     runs-on: ubuntu-latest
     needs: build_website # Needs the build job to have succeeded
-    if: ${{ success() }} # Only deploy if the build job succeeded
+    # This job will only run if build_website runs and succeeds.
+    # Since build_website is skipped if there are no data changes, this job is also implicitly skipped.
 
     environment:
       name: github-pages
