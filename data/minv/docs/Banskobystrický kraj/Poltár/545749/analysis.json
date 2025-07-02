@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-PT- OSZP-2025/000504",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-01",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Do 5 pracovných dní (vrátane) od zverejnenia informácie",
+  "ziadatel_navrhovatel": "PROTRADE spol. s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poltár",
+    "obec": "Kokava nad Rimavicou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kokava nad Rimavicou",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "2722/1",
+              "2722/2",
+              "2722/3",
+              "2722/4",
+              "2722/21",
+              "2722/23",
+              "2722/33",
+              "2722/34",
+              "2722/36"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál skladu"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Poltár o začatí správneho konania týkajúceho sa žiadosti spoločnosti PROTRADE spol. s. r. o. o vydanie súhlasu na výrub drevín a krovitých porastov v areáli skladu v Kokave nad Rimavicou, mimo zastavaného územia obce. Konanie sa vedie podľa zákona č. 543/2002 Z. z."
+}

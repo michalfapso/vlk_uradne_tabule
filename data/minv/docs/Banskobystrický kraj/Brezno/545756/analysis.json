@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-02",
+  "datum_zverejnenia": "2025-07-02",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Lesy SR, š.p., OZ HOREHRONIE",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Beňuš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beňuš",
+        "parcely": [
+          {
+            "typ": "JPRL",
+            "cisla": [
+              "325_1",
+              "326a1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "lesnom celku Beňuš"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "ťažba dreva",
+    "sanitárna ťažba",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania na základe podnetu Správy Národného parku Nízke Tatry o náhodnej ťažbe drevín (SM, 150 m3) po lykožrútovej kalamite v JPRL 325_1, 326a1 na lesnom celku Beňuš, obhospodarovateľ Lesy SR, š.p.. Verejnosť sa môže prihlásiť ako účastník konania do 5 pracovných dní od zverejnenia."
+}
