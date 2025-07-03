@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2025/017097",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-02",
+  "datum_zverejnenia": "2025-07-03",
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Kuchyňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kuchyňa",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pri VN Rohožník, koryto Vývratského potoka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 10 ks drevín Slovenským vodohospodárskym podnikom, š.p. v katastrálnom území Kuchyňa, v koryte Vývratského potoka pri VN Rohožník, na základe povinností správcu vodných tokov."
+}

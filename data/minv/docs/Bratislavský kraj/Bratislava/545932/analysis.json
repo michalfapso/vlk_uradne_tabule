@@ -1,0 +1,484 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/346007-024",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/346007-0289674/2025",
+  "datum_dokumentu": "2025-07-01",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené - fáza zisťovacieho konania je ukončená",
+  "ziadatel_navrhovatel": "Hlavné mesto Slovenskej republiky Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "21796/11",
+              "9225/379",
+              "9225/381",
+              "9225/402",
+              "104",
+              "105",
+              "106",
+              "107",
+              "108",
+              "109",
+              "110",
+              "111",
+              "112",
+              "113",
+              "3700/1",
+              "3700/2",
+              "3700/3",
+              "3700/4",
+              "3700/5",
+              "3700/11",
+              "3700/12",
+              "3862/5",
+              "3862/11",
+              "9222/4",
+              "9222/6",
+              "9222/8",
+              "9222/9",
+              "9222/10",
+              "9222/11",
+              "9222/12",
+              "9222/13",
+              "9222/14",
+              "9222/15",
+              "9222/16",
+              "9222/25",
+              "9222/26",
+              "9222/27",
+              "3862/6",
+              "3862/7"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "9224/1",
+              "9225",
+              "15373/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "zóna Mlynské Nivy"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "zmena územného plánu",
+    "urbanistický rozvoj",
+    "výstavba budov",
+    "zmena funkčného využitia územia",
+    "nakladanie so zrážkovými vodami",
+    "nakladanie s odpadovými vodami",
+    "energetická infraštruktúra"
+  ],
+  "typ_uzemia": [
+    "nechránené",
+    "CHKO Malé Karpaty",
+    "CHKO Dunajské luhy",
+    "CHKO Záhorie",
+    "CHA Devínske alúvium Moravy",
+    "NPR Devínska Kobyla",
+    "NPP Devínska hradná skala",
+    "PP Devínska lesostep",
+    "PR Fialková dolina",
+    "PR Štokeravská vápenka",
+    "CHA Lesné diely",
+    "CHA Horský park",
+    "CHA Bôrik",
+    "CHA Borovicový lesík",
+    "CHA Zeleň pri Vodárni",
+    "PP Rösslerov lom",
+    "CHA Hrabiny",
+    "CHA Chorvátske rameno",
+    "CHA Jarovská bažantnica",
+    "PP Panský diel",
+    "PR Kopáčsky ostrov",
+    "PR Topoľové hony",
+    "CHA Poľovnícky les",
+    "CHA Bajdeľ",
+    "CHA Sihoť",
+    "CHA Pečniansky les",
+    "CHA Ostrovné lúčky",
+    "CHA Soví les",
+    "PR Gajc",
+    "PR Vydrica",
+    "PR Starý háj",
+    "PR Slovanský ostrov",
+    "CHKP Vápenický potok",
+    "NATURA 2000 - SKCHVU016 Záhorské Pomoravie",
+    "NATURA 2000 - SKCHVU014 Malé Karpaty",
+    "NATURA 2000 - SKCHVU007 Dunajské luhy",
+    "NATURA 2000 - SKCHVU029 Sysľovské polia",
+    "NATURA 2000 - SKUEV0313 Devínske jazero",
+    "NATURA 2000 - SKUEV0314 Rieka Morava",
+    "NATURA 2000 - SKUEV0312 Devínske alúvium Moravy",
+    "NATURA 2000 - SKUEV0388 Vydrica",
+    "NATURA 2000 - SKUEV0104 Homolské Karpaty",
+    "NATURA 2000 - SKUEV0280 Devínska Kobyla",
+    "NATURA 2000 - SKUEV0064 Bratislavské luhy",
+    "NATURA 2000 - SKUEV0295 Biskupické luhy",
+    "NATURA 2000 - SKUEV0269 Ostrovné lúčky",
+    "NATURA 2000 - SKUEV0270 Hrušov",
+    "NATURA 2000 - SKUEV0502 Štokeravská vápenka",
+    "NATURA 2000 - SKUEV1064 Bratislavské luhy",
+    "NATURA 2000 - SKUEV1269 Ostrovné lúčky",
+    "NATURA 2000 - SKUEV1388 Vydrica",
+    "NATURA 2000 - SKUEV0800 Devínska hradná skala",
+    "NATURA 2000 - SKUEV2064 Bratislavské luhy",
+    "NATURA 2000 - SKUEV2269 Ostrovné lúčky",
+    "NATURA 2000 - SKUEV0822 Malý Dunaj",
+    "Ramsarská lokalita Niva Moravy",
+    "Ramsarská lokalita Dunajské luhy",
+    "chránené stromy"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-hlavneho-mesta-sr-bratislavy-rok-2007-v-zneni-neskorsich-z-5",
+  "paragrafy": [
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "w"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "65",
+      "odsek": "1",
+      "pismena": [
+        "r"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "5",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon) a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadení vlády SR",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhl. MZ SR",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "335/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "250/2023 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "banského zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "banského zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "banského zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "banského zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o tepelnej energetike",
+      "zakon_cislo": "657/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášky MŽP SR",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhlášky",
+      "zakon_cislo": "55/2001 Z.z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "4",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správneho poriadku",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správneho poriadku",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania pre zmeny a doplnky 11 Územného plánu hlavného mesta SR Bratislavy v zóne Mlynské Nivy (k.ú. Nivy). Dokument nebude ďalej posudzovaný podľa zákona o EIA, pretože sa nepredpokladajú významné vplyvy, najmä nie na územia Natura 2000 alebo národne chránené územia. Definuje podmienky pre budúcu výstavbu a urbanistický rozvoj týkajúce sa napr. nakladania s vodami, hluku či environmentálnych záťaží."
+}
