@@ -1,0 +1,39 @@
+{
+  "cislo_konania_spisu": "15132/2025-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Daniel Rothbauer",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "zber uhynutých živočíchov",
+    "preprava živočíchov",
+    "držba živočíchov"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "chránený hmyz"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadateľ Daniel Rothbauer žiada o povolenie výnimky na zber, prepravu a držbu uhynutých chránených druhov hmyzu. Činnosť sa má realizovať na celom území Slovenskej republiky, ale výlučne mimo chránených území."
+}

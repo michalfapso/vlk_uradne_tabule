@@ -1,0 +1,139 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/005258-036",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "MVE SK, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Mikuláš",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "7088/18",
+              "7089/26",
+              "7089/25",
+              "7088/25",
+              "7089/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2791/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pri toku Smrečianka"
+  },
+  "typ_dokumentu": "ZÁVÄZNÉ STANOVISKO ZO ZISŤOVACIEHO KONANIA",
+  "typ_zasahu": [
+    "malá vodná elektráreň",
+    "MVE",
+    "vodná turbína",
+    "odber vody",
+    "derivácia vodného toku"
+  ],
+  "typ_uzemia": [
+    "I. stupeň ochrany",
+    "biotop európskeho významu Br4",
+    "regionálny biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "brehová vegetácia",
+    "vodná biocenóza",
+    "vodné živočíchy",
+    "vŕba sivá",
+    "pstruhy",
+    "lipne"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš rozhodol, že zámer \"Umiestnenie malej vodnej turbíny v blízkosti toku Smrečianka\" (MVE SK, s.r.o.) v k.ú. Liptovský Mikuláš si vyžaduje posudzovanie vplyvov podľa zákona EIA. Dôvodom sú potenciálne významné negatívne vplyvy na vodný tok Smrečianka (regionálny biokoridor, biotop EV Br4) a jeho ekosystém, vrátane ichtyofauny a bentickej fauny, v dôsledku plánovanej prevádzky a predĺženia derivácie toku o 2,7 km. Stanovisko nadväzuje na obavy dotknutých orgánov a verejnosti týkajúce sa vplyvu na vodné pomery a biologické zložky toku, najmä v kontexte klimatických zmien a existujúcich odberov."
+}

@@ -1,0 +1,432 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/005778-009",
+  "cislo_rozhodnutia": "OU-BR-OSZP-2025/005778-009",
+  "datum_dokumentu": "2025-07-02",
+  "datum_zverejnenia": "2025-07-07",
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 26.06.2025",
+  "ziadatel_navrhovatel": "Stredoslovenská vodárenská spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Hronec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaská",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1549/11",
+              "1549/12",
+              "1549/13",
+              "1549/14",
+              "1549/4",
+              "1549/1",
+              "2978",
+              "3081",
+              "2971",
+              "3084",
+              "1549/5",
+              "1549/3",
+              "2985"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hronec",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1488/1",
+              "1521/1",
+              "340",
+              "340/1",
+              "340/2",
+              "1492",
+              "345/2",
+              "348/7",
+              "1517",
+              "1504",
+              "1516",
+              "1507",
+              "1538/1",
+              "453/1",
+              "1521/2",
+              "306/2",
+              "339",
+              "1518/1",
+              "1518/7",
+              "1481",
+              "1520",
+              "294/10",
+              "293/1",
+              "1490",
+              "292/2",
+              "1515",
+              "1513",
+              "1512/1",
+              "294/1",
+              "208/2",
+              "245/1",
+              "1707/10",
+              "2033",
+              "1711/18",
+              "1711/19",
+              "1707/2",
+              "1527",
+              "1526",
+              "1498",
+              "1497/1",
+              "1519",
+              "1499",
+              "1500",
+              "1502",
+              "1509",
+              "1521/4",
+              "1521/5",
+              "1521/6",
+              "1521/7",
+              "1521/8",
+              "317",
+              "319/1",
+              "111",
+              "1480",
+              "1496",
+              "1329/1",
+              "1326",
+              "1325/5",
+              "1327",
+              "1319/1",
+              "1320",
+              "1314/8",
+              "1312/2",
+              "1310",
+              "1309",
+              "1306",
+              "1295",
+              "1294",
+              "1293/2",
+              "1529",
+              "1494",
+              "1484",
+              "1493/1",
+              "1/1",
+              "1475/3",
+              "1475/1",
+              "1483/1",
+              "980",
+              "979",
+              "1489",
+              "1535/1",
+              "1495/3",
+              "1531",
+              "1532"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie a povolenie na osobitné užívanie vôd",
+  "typ_zasahu": [
+    "prevádzka čistiarne odpadových vôd",
+    "prevádzka splaškovej kanalizácie",
+    "vypúšťanie odpadových vôd",
+    "zvážanie žumpových vôd"
+  ],
+  "typ_uzemia": [
+    "Čierny Hron",
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú náležitosti prevádzkových poriadkov verejných vodovodov a verejných kanalizácií",
+      "zakon_cislo": "55/2004 Z. z."
+    },
+    {
+      "paragraf": "103",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "36",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o metrológii a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "157/2018 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vykonaní niektorých ustanovení vodného zákona",
+      "zakon_cislo": "418/2010 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "755/2004 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "755/2004 Z. z."
+    },
+    {
+      "paragraf": "36",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o aplikácii čistiarenského kalu a dnových sedimentov do pôdy a o doplnení zákona č. 223/2001 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "188/2003 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách...",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon...",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje kolaudačné rozhodnutie a povolenie na trvalé užívanie splaškovej kanalizácie a čistiarne odpadových vôd (ČOV) v obci Hronec a čiastočne Valaská, podané Stredoslovenskou vodárenskou spoločnosťou. Povoľuje trvalú prevádzku systému vrátane vypúšťania čistených odpadových vôd do toku Čierny Hron a zvážania žumpových vôd, stanovuje podmienky prevádzky, monitorovania a limitné hodnoty vypúšťania."
+}
