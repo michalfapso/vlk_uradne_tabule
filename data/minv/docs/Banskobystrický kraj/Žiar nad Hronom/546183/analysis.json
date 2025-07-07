@@ -1,0 +1,591 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/001538-0033451/2025",
+  "cislo_rozhodnutia": "OU-ZH-OSZP-2025/001538-0033451/2025",
+  "datum_dokumentu": "2025-07-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 20. júna 2025",
+  "ziadatel_navrhovatel": "Obec Ladomerská Vieska",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žiar nad Hronom",
+    "obec": "Ladomerská Vieska",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ladomer",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "913",
+              "914",
+              "912",
+              "932",
+              "975",
+              "1075",
+              "1033",
+              "1078/1",
+              "1081",
+              "1096",
+              "1117",
+              "471/102",
+              "471/28",
+              "1488",
+              "473/9",
+              "473/27",
+              "473/26",
+              "1460",
+              "1420",
+              "1466/1",
+              "1421",
+              "1416",
+              "1417",
+              "237",
+              "106/1"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "383/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "rekonštrukcia a dobudovanie vodovodu",
+    "výstavba vodojemu",
+    "výrub drevín",
+    "úprava vodného toku",
+    "odber podzemných vôd",
+    "vypúšťanie vôd"
+  ],
+  "typ_uzemia": [
+    "lesné pozemky",
+    "poľnohospodárska pôda",
+    "brehové porasty",
+    "Územný systém ekologickej stability"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "43d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "paragraf": "48 - 52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "4",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "75",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "47 až 53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "8",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "699/2004 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "41",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "42",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "II",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "Príloha č.12a",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie pre obec Ladomerská Vieska na rekonštrukciu a dobudovanie vodovodu a výstavbu vodojemu v k.ú. Ladomer. Projekt líniovou stavbou pretína rôzne typy pozemkov vrátane lesných a poľnohospodárskych, križuje vodný tok Hron, železnicu a cesty. Podmienky povolenia zahŕňajú ochranu prírody a krajiny, minimalizáciu výrubu drevín (ak bude potrebný), opatrenia pri zásahoch do vodných tokov a manipulácii s vodou."
+}
