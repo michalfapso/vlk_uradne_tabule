@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/015950",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-07-08",
+  "lehoty_na_vyjadrenie": "Možnosť prihlásenia sa do konania je ukončená termínom zverejňovania (15. 7. 2025). Po tomto termíne nie je možné sa do konania prihlásiť.",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Vrútky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrútky",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3132/284"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jedľa biela"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie konania o výrube 2 kusov jedle bielej na parcele č. C-KN 3132/284 v katastrálnom území Vrútky. Konanie sa vedie podľa zákona o ochrane prírody a krajiny. Možnosť prihlásenia sa do konania je ukončená 15. 7. 2025."
+}
