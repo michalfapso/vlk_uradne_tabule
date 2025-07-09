@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP2-2025/033183",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Mostný obvod",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "6825/1",
+              "6827/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Mostný objekt na trati 312 pri Brezno - Rohozná (KM 19,930)"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "sanácia mostného objektu",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "bentická fauna",
+    "ichtyofauna",
+    "lipeň",
+    "pstruh",
+    "hlaváč bieloplutvý",
+    "hlavátka"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko Okresného úradu Banská Bystrica k žiadosti ŽSR o sanáciu železničného mosta v katastrálnom území obce Brezno. Uvádza, že sa nevyžaduje výnimka z environmentálnych cieľov podľa § 16 ods. 6 písm. b) vodného zákona, pretože činnosť nebude mať významný vplyv na dotknuté vodné útvary (SKR0073 Rohozná, Zadný Hliník) a ich faunu (bentická fauna, ichtyofauna)."
+}

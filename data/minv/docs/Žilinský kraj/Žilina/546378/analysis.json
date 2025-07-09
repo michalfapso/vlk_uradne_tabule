@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": "071137",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVPACK SK s.r.o., Dlhá 85, 010 09 Žilina, IČO 36409740",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žilina",
+    "obec": "Strečno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Strečno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1220/33",
+              "1220/34",
+              "1220/35",
+              "1220/37"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Logistický a výrobný areál Strečno III."
+  },
+  "typ_dokumentu": "Žiadosť o vydanie stavebného povolenia",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba kanalizácie",
+    "výstavba čistiarne odpadových vôd",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument je žiadosťou SLOVPACK SK s.r.o. o vydanie stavebného povolenia pre logistický a výrobný areál Strečno III. v obci Strečno. Súčasťou stavby sú vnútroareálové rozvody splaškovej kanalizácie, čistiareň odpadových vôd a dažďová kanalizácia s retenčnou nádržou."
+}

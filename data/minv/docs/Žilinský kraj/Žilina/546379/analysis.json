@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVPACK SK, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Strečno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Strečno",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1220/33",
+              "1220/34",
+              "1220/35",
+              "1220/37"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Logistický a výrobný areál Strečno III"
+  },
+  "typ_dokumentu": "Informácia o sprístupnení rozhodnutia v zisťovacom konaní",
+  "typ_zasahu": [
+    "výstavba logistického a výrobného areálu",
+    "výstavba kanalizácie",
+    "výstavba čistiarne odpadových vôd",
+    "výstavba retenčnej nádrže"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/logisticky-vyrobny-areal-strecno-iii",
+  "paragrafy": [],
+  "zhrnutie": "Dokument informuje o sprístupnení právoplatného rozhodnutia v zisťovacom konaní pre projekt 'Logistický a výrobný areál Strečno III' navrhovateľa SLOVPACK SK, s.r.o., situovaný v katastrálnom území Strečno na špecifikovaných parcelách. Projekt zahŕňa výstavbu areálu, kanalizácie, čistiarne odpadových vôd a retenčnej nádrže. Odkaz na enviroportal je priložený."
+}

@@ -1,0 +1,419 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/008397-006",
+  "cislo_rozhodnutia": "OU-MA-OSZP-2025/008397-0035142/2025",
+  "datum_dokumentu": "2025-07-08",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Klemensova 8, 813 61 Bratislava",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Malacky",
+    "obec": "Zohor",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zohor",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "8691/23",
+              "8691/24",
+              "8691/25",
+              "8691/26",
+              "8691/27",
+              "8865/13",
+              "8865/14",
+              "8865/15",
+              "8865/16",
+              "8865/17",
+              "22343/1",
+              "22345/1",
+              "22354/4",
+              "22354/6",
+              "22354/7",
+              "22438/4",
+              "22634/2",
+              "22416/2",
+              "22355"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1903/1",
+              "1903/2",
+              "1903/3",
+              "1905/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ŽST Zohor"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba priepustov",
+    "úprava melioračných kanálov",
+    "výrub drevín",
+    "úprava dna vodných tokov",
+    "úprava brehov vodných tokov",
+    "nakladanie s dažďovými vodami"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja",
+    "chránené územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "2",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "2",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkového zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "41",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkového zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákona o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákona o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "elektronických komunikáciách",
+      "zakon_cislo": "351/2011 Z.z."
+    },
+    {
+      "paragraf": "65",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane proti rušeniu",
+      "zakon_cislo": "351/2011 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "37",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Vyhlášky FMO",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2014 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "76",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "38",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o mimoriadnych opatreniach pre strategické investície a pre výstavbu transeurópskej dopravnej siete",
+      "zakon_cislo": "142/2024 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vyvlastňovaní pozemkov a stavieb",
+      "zakon_cislo": "282/2015 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je stavebným povolením vydaným Okresným úradom Malacky pre Železnice Slovenskej republiky na vodné stavby v rámci modernizácie železničnej trate v katastrálnom území Zohor. Povolenie sa týka výstavby priepustov a úpravy melioračných kanálov. Dokument spomína nutnosť rešpektovať ochranné pásma vodných zdrojov a chránené územia a obsahuje podmienky súvisiace s ochranou vôd a nakladaním s odpadmi a vegetáciou."
+}
