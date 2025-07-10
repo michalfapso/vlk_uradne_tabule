@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/033425/MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-10",
+  "datum_zverejnenia": "2025-07-10",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sásová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2696/48",
+              "2696/49",
+              "2696/50",
+              "2696/51"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ISTRICA Radová zástavba RD"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie konania o žiadosti na vydanie súhlasu na výrub 28 ks drevín v katastrálnom území Sásová, Banská Bystrica, na parcelách KN-C 2696/48-51 z dôvodu kolízie s navrhovanou IBV ISTRICA Radová zástavba RD. Žiadosť je podaná podľa § 47 ods. 3 zákona č. 543/2002 Z.z."
+}

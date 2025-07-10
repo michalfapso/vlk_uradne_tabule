@@ -1,0 +1,306 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000607-022",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "15 dní od zverejnenia v centrálnom informačnom systéme (pre odvolanie proti stanovisku dotknutou verejnosťou)",
+  "ziadatel_navrhovatel": "Gemerské žriedla, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Tornaľa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tornaľa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "19/22",
+              "19/28",
+              "19/36"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "19/23"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1858/8",
+              "2323/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "areálu strediska Gemerka"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba železobetónového oporného múru",
+    "výstavba mobilných hradení",
+    "protipovodňové opatrenia"
+  ],
+  "typ_uzemia": [
+    "1. stupeň územnej ochrany",
+    "Územie európskeho významu SKUEV0328 Slaná",
+    "Chránené vtáčie územie SKCHVU003 Cerová vrchovina – Porimavie",
+    "ochranné pásmo I. stupňa prírodných minerálnych zdrojov v Tornali"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "zlatobyľ kanadská",
+    "pohánkovec japonský"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/protipovodnove-opatrenia-oplotenie-arealu-strediska-gemerka",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "220/2004 Z. z.",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy a o zmene zákona č. 245/2003 Z. z. o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "19",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom zo zisťovacieho konania k zámeru \"Protipovodňové opatrenia – oplotenie areálu strediska Gemerka\" v Tornali. Navrhovateľom je Gemerské žriedla, spol. s r.o. Okresný úrad Revúca rozhodol, že činnosť nebude posudzovaná podľa zákona EIA, ale stanovil opatrenia. Činnosť sa dotýka 1. stupňa ochrany, územia SKUEV0328 Slaná, SKCHVU003 Cerová vrchovina – Porimavie a ochranného pásma minerálnych zdrojov v Tornali. Spomenuté boli aj opatrenia týkajúce sa inváznych rastlín."
+}

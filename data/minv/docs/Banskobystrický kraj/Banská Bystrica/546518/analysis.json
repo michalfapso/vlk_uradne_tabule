@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP2-2025/004178",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Peter Luštek",
+  "miesto_realizacie": {
+    "kraj": "Banská Bystrica",
+    "okres": "Detva",
+    "obec": "Hriňová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hriňová",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "14682",
+              "14684/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "14681",
+              "14682/1",
+              "14683"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Biela voda"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "vodozádržné opatrenia",
+    "výstavba vodnej stavby",
+    "úprava vodného toku",
+    "odber podzemných vôd"
+  ],
+  "typ_uzemia": [
+    "pstruhové rybie pásmo"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "bentická fauna",
+    "ichtyofauna",
+    "pstruh potočný",
+    "hlaváč pásoplutvý",
+    "mihuľa potočná"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom podľa vodného zákona pre výstavbu vodozádržných opatrení (požiarna a usadzovacia nádrž) v katastrálnom území Hriňová, časť Biela voda, okres Detva. Podľa stanoviska činnosť nevyžaduje výnimku z environmentálnych cieľov vodného zákona, hoci sa očakávajú dočasné lokálne vplyvy na bentickú faunu a ichtyofaunu v dotknutom drobnom vodnom toku (pstruhové pásmo) počas výstavby."
+}
