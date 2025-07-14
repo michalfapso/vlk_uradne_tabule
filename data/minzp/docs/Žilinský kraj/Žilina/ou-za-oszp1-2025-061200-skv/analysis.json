@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2025/061200/Skv",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Vojtech Jánoš",
+  "miesto_realizacie": {
+    "kraj": "Žilina",
+    "okres": "Ružomberok",
+    "obec": "Liptovská Teplá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Michal",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "317/10"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť o udelenie súhlasu",
+  "typ_zasahu": [
+    "zásah do mokrade",
+    "odstránenie sedimentov"
+  ],
+  "typ_uzemia": [
+    "mokrade"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Žiadosť o súhlas na zásah do mokrade a odstránenie sedimentov z rybníka na parcele C-KN 317/10 v k. ú. Liptovský Michal. Žiadateľom je Vojtech Jánoš. Žiadosť sa podáva podľa zákona č. 543/2002 Z. z. o ochrane prírody a krajiny."
+}

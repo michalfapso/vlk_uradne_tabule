@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/033702/MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie.",
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Slovenská Ľupča, Lučatín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slovenská Ľupča",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1877/17",
+              "2948",
+              "3032/1",
+              "634"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lučatín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1877/17",
+              "2948",
+              "3032/1",
+              "634"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o žiadosti na súhlas na výrub",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba cesty"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje žiadosť právnickej osoby o súhlas na výrub 7 ks stromov v katastrálnych územiach Slovenská Ľupča a Lučatín na parcelách C-KN 1877/17, 2948, 3032/1, 634 z dôvodu výstavby cyklotrasy. Verejnosť sa môže prihlásiť za účastníka konania do 5 pracovných dní od zverejnenia informácie."
+}

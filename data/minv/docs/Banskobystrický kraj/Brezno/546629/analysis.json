@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-07-15",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Správy Chránenej krajinnej oblasti",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Čierny Balog",
+    "katastralne_uzemia": [],
+    "parcely": [],
+    "nazov_lokality": "lesnom celku Čierny Balog"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "ťažba dreva",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie Okresného úradu Brezno o začatí správneho konania na základe podnetu Správy CHKO vo veci ohlásenia náhodnej ťažby dreva v lesnom celku Čierny Balog (JPRL č. 128/a/1). Verejnosť sa môže prihlásiť ako účastník konania potvrdením záujmu do 5 pracovných dní od zverejnenia 15.07.2025."
+}

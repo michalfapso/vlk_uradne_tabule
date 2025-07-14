@@ -1,41 +1,53 @@
 {
-  "cislo_konania_spisu": "OU-BB-OSZP3-2025/030274",
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/032257",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2025-06-16",
-  "datum_zverejnenia": "2025-06-16",
+  "datum_dokumentu": "2025-07-14",
+  "datum_zverejnenia": null,
   "lehoty_na_vyjadrenie": "do 7 pracovných dní od zverejnenia informácie",
-  "ziadatel_navrhovatel": "Mesto Banská Bystrica",
+  "ziadatel_navrhovatel": "ADM Agro Invest j.s.a.",
   "miesto_realizacie": {
     "kraj": null,
-    "okres": "Banská Bystrica",
-    "obec": "Banská Bystrica",
-    "katastralne_uzemia": [
-      {
-        "nazov": "Kremnička",
-        "parcely": [
-          {
-            "typ": null,
-            "cisla": ["54/3"]
-          }
-        ]
-      }
-    ],
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Verejná vyhláška",
-  "typ_zasahu": ["výrub drevín"],
-  "typ_uzemia": ["neviem"],
-  "je_v_chranenom_uzemi": false,
+  "typ_dokumentu": "Informácia o konaní",
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "košarovanie hospodárskych zvierat"
+  ],
+  "typ_uzemia": [
+    "Druhý stupeň ochrany",
+    "územie s druhým stupňom ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
-      "paragraf": "47",
-      "odsek": "3",
+      "paragraf": "13",
+      "odsek": null,
       "pismena": [],
       "zakon_nazov": null,
-      "zakon_cislo": "543/2002"
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
     }
   ],
-  "zhrnutie": "Dokument oznamuje začatie konania o vydanie súhlasu na výrub drevín na parcele č. 54/3 v k.ú. Kremnička pre žiadateľa Mesto Banská Bystrica. Verejnosť môže potvrdiť záujem o účasť v konaní do 7 pracovných dní od zverejnenia."
+  "zhrnutie": "Oznámenie o začatí konania pre žiadateľa ADM Agro Invest j.s.a. vo veci vydania súhlasu na pasenie a košarovanie hospodárskych zvierat. Činnosť sa týka územia s druhým stupňom ochrany v zmysle zákona č. 543/2002 Z.z. o ochrane prírody a krajiny. Záujem o účasť v konaní je možné potvrdiť do 7 pracovných dní od zverejnenia."
 }

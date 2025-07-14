@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 21 dní od zverejnenia správy o hodnotení strategického dokumentu a návrhu strategického dokumentu",
+  "ziadatel_navrhovatel": "Obec Repište",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žiar nad Hronom",
+    "obec": "Repište",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť / Oznámenie o sprístupnení dokumentov",
+  "typ_zasahu": [
+    "Územné plánovanie (Strategický dokument)"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-repiste-",
+  "paragrafy": [
+    {
+      "paragraf": "12",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument z Okresného úradu Žiar nad Hronom informuje verejnosť o sprístupnení správy o hodnotení a návrhu strategického dokumentu (Územný plán obce Repište) na enviroportáli. Verejnosť môže predkladať stanoviská do 21 dní od zverejnenia dokumentov."
+}
