@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-07-22 18:31:33",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 547128, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=46&odbor=10&sekcia=uradna-tabula&subor=547128: Neočakávaná chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Banskobystrický kraj/Banská Štiavnica/547128/orig.pdf na text: Error extracting text from PDF: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+  }
+]
