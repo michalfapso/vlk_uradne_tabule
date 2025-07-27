@@ -12,7 +12,7 @@ import traceback
 
 # Constants
 MIN_TEXT_LENGTH_THRESHOLD = 32
-LLM_MODEL = "gemini/gemini-2.5-flash-preview-04-17"
+LLM_MODEL = "gemini/gemini-2.5-flash"
 IMAGE_FORMAT = "png" # Format for image conversion
 IMAGE_DPI = 150 # Resolution for image conversion
 
