@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-24",
+  "datum_zverejnenia": "2025-07-24",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Čierny Balog",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čierny Balog",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "10700/2",
+              "10700/26",
+              "10700/27"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "10700/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je upovedomením o začatí správneho konania, ktoré sa týka výrubu drevín v katastrálnom území Čierny Balog na parcelách C-KN 10700/2, 10700/26, 10700/27 a E-KN 10700/2. Konanie sa týka záujmov ochrany prírody a krajiny. Verejnosť má možnosť prihlásiť sa ako účastník konania do 5 pracovných dní od zverejnenia dokumentu dňa 24.07.2025."
+}

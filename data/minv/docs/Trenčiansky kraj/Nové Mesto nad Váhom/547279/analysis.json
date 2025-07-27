@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "022.P.2021./00597.L7",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-17",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "EKOREM s.r.o., Lipany",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom, Podolie, Čachtice, Častkovce, Pobedím, Očkov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": []
+      },
+      {
+        "nazov": "Podolie",
+        "parcely": []
+      },
+      {
+        "nazov": "Čachtice",
+        "parcely": []
+      },
+      {
+        "nazov": "Častkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Pobedím",
+        "parcely": []
+      },
+      {
+        "nazov": "Očkov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod vonkajším elektrickým vedením VN 208"
+  },
+  "typ_dokumentu": "Oznámenie o výrube pod elektrovodmi",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie náletových porastov",
+    "okliesňovanie stromov",
+    "orezy konárov"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty (2. stupeň ochrany)",
+    "PP Brehové porasty Dubovej (4. stupeň ochrany)",
+    "ochranné pásmo elektrovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti EKOREM s.r.o., dodávateľa služieb pre Západoslovenskú distribučnú, a.s., o výrube a orezávaní drevín v ochrannom pásme pod elektrickým vedením VN 208. Činnosť sa bude realizovať od augusta do decembra 2025 v katastrálnych územiach viacerých obcí Novomestského okresu, pričom zasahuje do CHKO Malé Karpaty (2. stupeň ochrany) a PP Brehové porasty Dubovej (4. stupeň ochrany). Bola podaná žiadosť o výnimku."
+}

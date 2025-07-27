@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-07-27 22:06:04",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 547169, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=547169: Chyba pri sťahovaní URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=547169: HTTPSConnectionPool(host='www.minv.sk', port=443): Read timed out. (read timeout=30)"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-23",
+  "datum_zverejnenia": "2025-07-23",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Lesy SR, šp. OZ HOREHRONIE",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Beňuš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Braväcovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Beňuš",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "LC Beňuš"
+  },
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "typ_uzemia": [
+    "druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je upovedomením o začatom správnom konaní zo strany Okresného úradu Brezno, týkajúceho sa žiadosti Lesov SR, OZ Horehronie. Žiadosť sa týka vydania súhlasu na oplotenie pozemku v lokalite LC Beňuš, katastrálnych územiach Braväcovo a Beňuš. Predmetná činnosť sa realizuje na území, kde platí druhý stupeň ochrany. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia."
+}

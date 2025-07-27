@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-08",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ekorem s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Topoľčany",
+    "obec": "Krušovce, Veľké Bošany, Prašice, Krnča, Topoľčany",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "pod vonkajším elektrickým vedením VN 257"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie náletových porastov",
+    "oklešľovanie stromov",
+    "orezy konárov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti Ekorem s.r.o. o plánovanom výrube drevín a orezávaní konárov v ochrannom pásme pod elektrickým vedením VN 257. Práce sa budú vykonávať v okresoch Topoľčany v obciach Krušovce, Veľké Bošany, Prašice a Krnča, v období od 30.07.2025 do 31.12.2025, pričom samotné výruby sa majú realizovať vo vegetačnom pokoji. Ide o pravidelnú údržbu ochranného pásma podľa zákona o ochrane prírody a krajiny a zákona o energetike."
+}

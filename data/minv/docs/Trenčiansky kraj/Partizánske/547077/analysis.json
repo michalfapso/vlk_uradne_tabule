@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-07-08",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "EKOREM s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Topoľčany",
+    "obec": "Krušovce, Veľké Bošany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krušovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Bošany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Kopecnica, Bošianske, Lúky, Vysoká, Praznovce, Horné pasienky, Dolné pasienky"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie náletových porastov",
+    "okliešťovanie stromov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti EKOREM s.r.o. o výrube a orezávaní drevín v ochrannom pásme existujúceho elektrického vedenia VN 331 Topoľčany – Bošany. Práce sa vykonávajú z dôvodu pravidelnej údržby v katastrálnych územiach Krušovce a Veľké Bošany, v rôznych lokalitách ako Kopecnica a Lúky. Výruby sa budú realizovať v období vegetačného pokoja."
+}

@@ -10,22 +10,36 @@
     "okres": "Banská Bystrica",
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": "Kráľovu Hoľu"
+    "nazov_lokality": "Kráľova Hoľa"
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
-    "vjazd osobného motorového vozidla"
+    "vjazd motorového vozidla"
   ],
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": null,
+  "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
       "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "2",
       "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": null,
       "pismena": [],
       "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z.z."
@@ -73,5 +87,5 @@
       "zakon_cislo": "71/1967 Zb."
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania o povolení výnimky na vjazd osobného motorového vozidla na Kráľovu Hoľu podľa zákona o ochrane prírody a krajiny. Verejnosť sa môže prihlásiť do konania do piatich pracovných dní od zverejnenia informácie."
+  "zhrnutie": "Dokument oznamuje začatie konania o žiadosti o povolenie výnimky na vjazd osobného motorového vozidla na Kráľovu Hoľu. Konanie sa vedie podľa zákona o ochrane prírody a krajiny, čo naznačuje umiestnenie v chránenom území. Environmentálne organizácie majú päť pracovných dní od zverejnenia na prihlásenie sa do konania."
 }

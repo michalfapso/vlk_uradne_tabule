@@ -1,0 +1,108 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLS – servis lesy stráž, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vojany",
+        "parcely": []
+      },
+      {
+        "nazov": "Trhovište",
+        "parcely": []
+      },
+      {
+        "nazov": "Bánovce nad Ondavou",
+        "parcely": []
+      },
+      {
+        "nazov": "Voľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Rakovec nad Ondavou",
+        "parcely": []
+      },
+      {
+        "nazov": "Moravany",
+        "parcely": []
+      },
+      {
+        "nazov": "Hatalov",
+        "parcely": []
+      },
+      {
+        "nazov": "Budkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Stretava",
+        "parcely": []
+      },
+      {
+        "nazov": "Pavlovce nad Uhom",
+        "parcely": []
+      },
+      {
+        "nazov": "Oborín",
+        "parcely": []
+      },
+      {
+        "nazov": "Beša",
+        "parcely": []
+      },
+      {
+        "nazov": "Čičarovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Kapušany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie výrubu",
+  "typ_zasahu": [
+    "výrub porastov",
+    "orezávanie polokrov, krov a drevín",
+    "výrub stromov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Ide o oznámenie výrubu a orezávania porastov (stromy, kríky, dreviny) v ochranných pásmach elektrických vedení vvn a zvn, ktoré ohrozujú bezpečnú prevádzku prenosovej sústavy. Činnosť sa má uskutočniť v rôznych katastrálnych územiach v okrese Michalovce v termíne od 1.9.2025 do 31.7.2026. Oznámenie je podané podľa zákona o energetike a zákona o ochrane prírody a krajiny."
+}
