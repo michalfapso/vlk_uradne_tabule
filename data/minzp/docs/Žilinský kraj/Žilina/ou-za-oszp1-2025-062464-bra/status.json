@@ -1,7 +1,0 @@
-[
-  {
-    "date": "2025-07-21 18:27:57",
-    "type": "error",
-    "text": "Chyba pri LLM analýze alebo ukladaní analysis.txt pre ID ou-za-oszp1-2025-062464-bra: Chyba počas LLM analýzy: litellm.NotFoundError: VertexAIException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
-  }
-]
