@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/011667-0024218/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-28",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 14.08.2025",
+  "ziadatel_navrhovatel": "Obec Jablonec",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Jablonec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jablonec",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "979",
+              "886/1",
+              "886/2"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "886/10",
+              "886/30"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "kolaudácia vodnej stavby",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny zákon",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je verejná vyhláška o začatí kolaudačného konania pre stavbu obecnej splaškovej kanalizácie v obci Jablonec, okres Pezinok. Ústne pojednávanie s miestnym zisťovaním je naplánované na 14.08.2025. V dokumente nie sú uvedené žiadne informácie o dotknutých chránených územiach ani druhoch."
+}
