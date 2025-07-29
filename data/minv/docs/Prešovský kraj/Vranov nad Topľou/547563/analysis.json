@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "2025/011375",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-07-25",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Tomašik Tomáš r. Tomašik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Vranov nad Topľou",
+    "obec": "Nižný Hrušov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižný Hrušov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1288/3"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "5776"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub náletových drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania k žiadosti o súhlas na výrub náletových drevín o výmere 2000 – 3000 m2 na parcelách C-KN č. 1288/3 a E-KN č. 5776 v katastrálnom území Nižný Hrušov, mimo zastavaného územia obce. Lehota na vyjadrenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia."
+}

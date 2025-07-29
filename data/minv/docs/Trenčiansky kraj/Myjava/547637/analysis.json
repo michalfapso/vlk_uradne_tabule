@@ -1,0 +1,303 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ESPRIT, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Myjava",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brestovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Brezová pod Bradlom",
+        "parcely": []
+      },
+      {
+        "nazov": "Bukovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Hrašné",
+        "parcely": []
+      },
+      {
+        "nazov": "Chvojnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Jablonka",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostolné",
+        "parcely": []
+      },
+      {
+        "nazov": "Košariská",
+        "parcely": []
+      },
+      {
+        "nazov": "Krajné",
+        "parcely": []
+      },
+      {
+        "nazov": "Myjava",
+        "parcely": []
+      },
+      {
+        "nazov": "Podkylava",
+        "parcely": []
+      },
+      {
+        "nazov": "Polianka",
+        "parcely": []
+      },
+      {
+        "nazov": "Poriadie",
+        "parcely": []
+      },
+      {
+        "nazov": "Priepasné",
+        "parcely": []
+      },
+      {
+        "nazov": "Rudník",
+        "parcely": []
+      },
+      {
+        "nazov": "Stará Myjava",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrbovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Okres Myjava"
+  },
+  "typ_dokumentu": "Regionálny územný systém ekologickej stability (RÚSES)",
+  "typ_zasahu": [
+    "výrub drevín",
+    "ťažba dreva",
+    "výstavba budovy",
+    "výstavba ciest",
+    "výstavba oplotenia",
+    "úprava vodného toku",
+    "používanie chemických látok",
+    "vypúšťanie odpadových vôd",
+    "výstavba energetického diela",
+    "intenzívna poľnohospodárska činnosť",
+    "zalesňovanie",
+    "lomy, povrchová ťažba a úprava kameňa",
+    "rekreačné aktivity"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "CHKO Biele Karpaty",
+    "Prírodná rezervácia",
+    "Prírodná pamiatka",
+    "Obecné chránené územie",
+    "Územie európskeho významu",
+    "Chránené vtáčie územie",
+    "NATURA 2000",
+    "SKUEV",
+    "SKCHVU",
+    "Ochranné pásmo vodárenského zdroja",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Serratula lycopifolia (kosienka karbincolistá)",
+    "Dianthus lumnitzeri (klinček včasný Lumnitzerov)",
+    "Pulsatilla grandis (poniklec veľkokvetý)",
+    "Cyanus segetum (nevädza poľná)",
+    "Lactuca quercina (šalát dubolistý)",
+    "Neottia nidus-avis (hniezdovka hlístová)",
+    "Platanthera bifolia (vemenník dvojlistý)",
+    "Orchis mascula (vstavač mužský)",
+    "Scorzonera purpurea (hadomor puprurový)",
+    "Melampyrum cristatum (čermeľ hrebenitý)",
+    "Danthonia alpina (plevnatec alpínsky)",
+    "Lilium bulbiferum (ľalia cibuľkonosá)",
+    "Epipactis palustris (kruštík močiarny)",
+    "Iris graminea (kosatec trávolistý)",
+    "Dactylorhiza Majalis (vstavačovec májový)",
+    "Gymnadenia conopsea (päťprstnica obyčajná)",
+    "Dactylorhiza incarnata (vstavačovec strmolistý)",
+    "Ophrys holubyana (hmyzovník Holubyho)",
+    "Astacus astacus (rak riečny)",
+    "Vertigo moulinsiana (pimprlík bruškatý)",
+    "Brenthis hecate (perlovec dvojradový)",
+    "Brenthis ino (perlovec krvavcový)",
+    "Colias myrmidone (žltáčik zanoväťový)",
+    "Euplagia (Callimorpha) quadripunctaria (spriadač kostihojový)",
+    "Lycaena dispar (ohniváčik veľký)",
+    "Maculinea nausithous (modráčik bahniskový)",
+    "Maculinea teleius (modráčik krvavcový)",
+    "Bombina variegata (kunka žltobruchá)",
+    "Bufo bufo (ropucha bradavičnatá)",
+    "Bufotes viridis (ropucha zelená)",
+    "Hyla arborea (rosnička zelená)",
+    "Lissotriton vulgaris (mlok bodkovaný)",
+    "Rana temporaria (skokan hnedý)",
+    "Rana dalmatina (skokan štíhly)",
+    "Rana ridibunda (skokan rapotavý)",
+    "Salamandra salamandra (salamandra škvrnitá)",
+    "Anguis fragilis (slepúch lámavý)",
+    "Natrix natrix (užovka obojková)",
+    "Zamenis longissimus (užovka stromová)",
+    "Lacerta agilis (jašterica krátkohlavá)",
+    "Accipiter gentilis (jastrab lesný)",
+    "Alcedo atthis (rybárik riečny)",
+    "Apus apus (dážďovník tmavý)",
+    "Bubo bubo (výr skalný)",
+    "Ciconia ciconia (bocian biely)",
+    "Ciconia nigra (bocian čierny)",
+    "Circus aeruginosus (kaňa močiarna)",
+    "Coturnix coturnix (prepelica poľná)",
+    "Delichon urbicum (belorítka domová)",
+    "Dendrocopos leucotos (ďateľ bielochrbtý)",
+    "Dendrocopos medius (ďateľ prostredný)",
+    "Dendrocopos syriacus (ďateľ hnedkavý)",
+    "Dryocopus martius (tesár čierny)",
+    "Ficedula albicollis (muchárik bielokrký)",
+    "Ficedula parva (muchárik malý)",
+    "Galerida cristata (pipíška chochlatá)",
+    "Hirundo rustica (lastovička domová)",
+    "Lanius collurio (strakoš obyčajný)",
+    "Pernis apivorus (včelár lesný)",
+    "Sylvia nisoria (penica jarabá)",
+    "Upupa epops (dudok chochlatý)",
+    "Vanellus vanellus (cíbik chochlatý)",
+    "Barbastella barbastellus (uchaňa čierna)",
+    "Castor fiber (bobor eurázijský)",
+    "Eptesicus serotinus (večernica pozdná)",
+    "Myotis nattereri (netopier riasnatý)",
+    "Nyctalus noctula (raniak hrdzavý)",
+    "Nyctalus leisleri (raniak stromový)",
+    "Pipistrellus pipistrellus (večernica hvízdavá)",
+    "Plecotus auritus (ucháč svetlý)",
+    "Plecotus austriacus (ucháč sivý)",
+    "Rhinolophus hipposideros (podkovár malý)"
+  ],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "36",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "37",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": "137/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument predstavuje komplexnú štúdiu regionálneho územného systému ekologickej stability (RÚSES) pre okres Myjava, realizovanú v roku 2019. Analyzuje prírodné a antropogénne podmienky územia, identifikuje pozitívne a negatívne prvky krajiny a navrhuje opatrenia na zvýšenie jej ekologickej stability. Zameriava sa na ochranu chránených území ako sú CHKO Malé Karpaty a Biele Karpaty, územia NATURA 2000, a taktiež na ochranu vzácnych druhov rastlín a živočíchov, pričom rieši aj dopady lesného a poľnohospodárskeho hospodárenia."
+}

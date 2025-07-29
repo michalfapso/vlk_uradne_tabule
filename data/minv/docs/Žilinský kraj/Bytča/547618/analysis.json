@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredná odborná škola Pod Bánošom",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Európa"
+  },
+  "typ_dokumentu": "Príručka",
+  "typ_zasahu": [
+    "ničenie hniezd",
+    "odchyt živočíchov",
+    "používanie chemických látok",
+    "ochrana včelstiev",
+    "presun včelstiev"
+  ],
+  "typ_uzemia": [
+    "chránené územie",
+    "prírodná rezervácia",
+    "chránený druh"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Sršeň ázijský (Vespa velutina)",
+    "Včela medonosná (Apis mellifera)",
+    "Sršeň európsky (Vespa crabro)",
+    "Včela východná (Apis cerana)",
+    "Osa útočná",
+    "Roháč",
+    "Fúzač",
+    "Motýle",
+    "Jazvec lesný (Meles meles)",
+    "Ďateľ zelený (Picus viridis)",
+    "Sojka obyčajná (Garrulus glandarius)",
+    "Sýkorka",
+    "Včelárik zlatý (Merops apiaster)",
+    "Straka obyčajná (Pica pica)",
+    "Brhlík obyčajný (Sitta europaea)",
+    "Osa žihadlovka obrovská (Megascolia maculata)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie Európskeho parlamentu a Rady (EÚ)",
+      "zakon_cislo": "1143/2014"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vykonávacie nariadenie Komisie (EÚ)",
+      "zakon_cislo": "2016/1141"
+    }
+  ],
+  "zhrnutie": "Tento dokument je komplexná príručka o biológii, monitoringu, kontrole a prevencii invázneho sršňa ázijského (Vespa velutina) v Európe. Podrobne opisuje hrozbu sršňa pre európske včelárstvo a biodiverzitu, spôsobenú jeho dravým správaním voči včelám medonosným a inému hmyzu. Príručka zdôrazňuje dôležitosť integrovaných stratégií vrátane včasnej detekcie, ničenia hniezd a zapojenia verejnosti, s cieľom zmierniť šírenie a vplyv tohto invázneho druhu na kontinente."
+}
