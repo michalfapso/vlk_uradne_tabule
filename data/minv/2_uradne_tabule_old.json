@@ -8,6 +8,21 @@
         "url": "/?okresne-urady-klientske-centra&urad=39",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Informácie podľa § 38 zákona č. 24/2006 Z. z. – „ISTRICA“",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Informácie pre verejnosť (235,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=547754"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "Žiadosť (64,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=547755"
+              }
+            ]
+          },
+          {
             "kategoria": "Dokument na stiahnutie",
             "dokumenty": [
               {
@@ -2330,6 +2345,16 @@
         "url": "/?okresne-urady-klientske-centra&urad=46",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "ou-bs-oszp-2025/001328-002 Zverejnenie informácie o začatí konania výrub dreviny, Podhorie 138.",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "OU-BS-OSZP-2025/001328-002 (713,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=46&odbor=10&sekcia=uradna-tabula&subor=547767"
+              }
+            ]
+          },
+          {
             "kategoria": "ou-bs-oszp-2025/000715-009 Prerušenie konania \"Inovácia a modernizácia ÚV Rozgrund\".",
             "dokumenty": [
               {
@@ -2430,6 +2455,11 @@
             "kategoria": "Ochrana prírody a krajiny",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "OP04 Med-2025-Výrub podľa osobitných predpisov v k.ú. Brezno (164,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=547752"
+              },
+              {
                 "datum": "2025-07-23",
                 "nazov": "SK16 BRE-2025 - Výrub v k.ú. Čierny Balog (102,8 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=547174"
@@ -2438,26 +2468,6 @@
                 "datum": "2025-07-21",
                 "nazov": "SK14-Med-2025 - Lesy SR, OZ Horehronie - oplotenie pozemkov (186,3 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=547065"
-              }
-            ]
-          },
-          {
-            "kategoria": "Štátna vodná správa",
-            "dokumenty": [
-              {
-                "datum": "2025-07-15",
-                "nazov": "VV01-BIA-2025-Oznámenie o začatí kolaudačného konania - SSC, IVaSC - I66 Predajná, križovatky - nehodové miesto (1,7 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=546737"
-              },
-              {
-                "datum": "2023-10-24",
-                "nazov": "ZU01-2023-Kuk - Areál hotelového komplexu Mýto pod Ďumbierom (670,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=495294"
-              },
-              {
-                "datum": "2023-03-20",
-                "nazov": "ZU01-2023-Kan- Brezno, Malá vodná nádrž – zverejnenie údajov a žiadosť o SP (1,3 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=474080"
               }
             ]
           },
@@ -2612,6 +2622,21 @@
             ]
           },
           {
+            "kategoria": "Štátna vodná správa",
+            "dokumenty": [
+              {
+                "datum": "2023-10-24",
+                "nazov": "ZU01-2023-Kuk - Areál hotelového komplexu Mýto pod Ďumbierom (670,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=495294"
+              },
+              {
+                "datum": "2023-03-20",
+                "nazov": "ZU01-2023-Kan- Brezno, Malá vodná nádrž – zverejnenie údajov a žiadosť o SP (1,3 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=474080"
+              }
+            ]
+          },
+          {
             "kategoria": "Ochrana ovzdušia",
             "dokumenty": [
               {
@@ -2644,32 +2669,12 @@
         "url": "/?okresne-urady-klientske-centra&urad=47",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Upovedomenie o predĺžení lehoty podľa § 49 ods. 2 zákona č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov – verejná vyhláška",
+            "kategoria": "Upovedomenie o predĺžení lehoty podľa § 49 ods. 2 zákona č. 711967 Zb. o správnom konaní v znení neskorších predpisov – verejná vyhláška",
             "dokumenty": [
               {
-                "datum": "2025-06-12",
-                "nazov": "2724141 - 00092oznámenie o predĺžení lehoty (177,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=47&odbor=10&sekcia=uradna-tabula&subor=544156"
-              }
-            ]
-          },
-          {
-            "kategoria": "000092-KURO s.r.o.-prerušenie konania",
-            "dokumenty": [
-              {
-                "datum": "2025-04-07",
-                "nazov": "2670627-000092-KURO-Prerusenie konania (332,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=47&odbor=10&sekcia=uradna-tabula&subor=538425"
-              }
-            ]
-          },
-          {
-            "kategoria": "OU-DT-OSZP-2025-000092-KURO s.r.o. - Upovedomenie o pokračovaní vodoprávneho konania- SO-02 Verejný vodovod a SO-03 Verejná kanalizácia, v rámci stavby Detva - Lúčna štvrť prístupová cesta a inžinierske siete",
-            "dokumenty": [
-              {
-                "datum": "2025-02-07",
-                "nazov": "2629713-000092-KURO-upovedomenie o pokracovani konania (1,5 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=47&odbor=10&sekcia=uradna-tabula&subor=533303"
+                "datum": "2025-07-30",
+                "nazov": "2762720 - KURO-000092-Upovedomenie o predĺžení lehoty (170,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=47&odbor=10&sekcia=uradna-tabula&subor=547753"
               }
             ]
           }
@@ -5263,6 +5268,16 @@
         "url": "/?okresne-urady-klientske-centra&urad=44",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Výruby ext 136",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "2762115 - Výruby ext 136 (68,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=44&odbor=10&sekcia=uradna-tabula&subor=547733"
+              }
+            ]
+          },
+          {
             "kategoria": "Rozhodnutie o predĺžení platnosti stavebného povolenia na stavbu „Ostrá Lúka – ÚHRBIE – OVČÍN Inžinierske siete, Objekt: Verejný vodovod“ žiadateľa obec Ostrá Lúka",
             "dokumenty": [
               {
@@ -5622,17 +5637,27 @@
         "url": "/?okresne-urady-klientske-centra&urad=45",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "ou-zh-oszp-2025/013162-002 Zverejnenie informácie o výrube v k.ú. Stará Kremnička.",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Zverejnenie informácie o výrube v k.ú. Stará Kremnička (282,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=547768"
+              }
+            ]
+          },
+          {
             "kategoria": "Územný plán obce - záväzná časť 1/2025 obce Dolná Ždaňa a oznámenie o schválení.",
             "dokumenty": [
               {
                 "datum": "2025-07-17",
-                "nazov": "Územný plán obce zaväzná časť č.1/2025 obce Dolná Ždaňa. (10,0 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=546926"
+                "nazov": "Oznámenie o schválení UPN obce Dolná Ždaňa. (190,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=546925"
               },
               {
                 "datum": "2025-07-17",
-                "nazov": "Oznámenie o schválení UPN obce Dolná Ždaňa. (190,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=546925"
+                "nazov": "Územný plán obce zaväzná časť č.1/2025 obce Dolná Ždaňa. (10,0 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=546926"
               }
             ]
           },
@@ -5770,6 +5795,16 @@
         "url": "/?okresne-urady-klientske-centra&urad=1",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Oznámenie odboru životné prostredie: 30.07.2025",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Právoplatné rozhodnutie zo zisťovacieho konania \"Polyfunkčný objekt Chalupkova R1 (579,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=547686"
+              }
+            ]
+          },
+          {
             "kategoria": "Oznámenie odboru Životné prostredie: 29.07.2025",
             "dokumenty": [
               {
@@ -5863,31 +5898,6 @@
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545930"
               },
               {
-                "datum": "2025-07-02",
-                "nazov": "státie plávajúceho zariadenia na polohe č. 28 Jarovského ramena rieky Dunaj (35,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545815"
-              },
-              {
-                "datum": "2025-07-02",
-                "nazov": "Žiadosť Ing. Petra Hlaváča o povolenie výnimky z § 13 ods. 1 písm. a) zákona č. 543/2002 Z. z. na vjazd a státie s motorovým vozidlom do CHKO Dunajské luhy, za účelom výkonu rybárskeho práva v rybárskom revíri Dunaj č. 3 (99,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545750"
-              },
-              {
-                "datum": "2025-07-02",
-                "nazov": "státie plávajúceho zariadenia na polohe č. 213 Jarovského ramena rieky Dunaj  (35,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545761"
-              },
-              {
-                "datum": "2025-07-01",
-                "nazov": "Žiadosť Slovenského cykloklubu o vydanie súhlasov a povolenie výnimiek na činnosti súvisiace s vyznačením cyklotrás v CHA Ostrovné lúčky, CHKO Dunajské luhy, ÚEV Ostrovné lúčky, CHVÚ Dunajské luhy, CHVÚ Sysľovské polia, k.ú. Rusovce, Čunovo, Jarovce (101,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545723"
-              },
-              {
-                "datum": "2025-07-01",
-                "nazov": "Žiadosť DAPHNE o povolenie výnimiek/súhlasov v zmysle § 14 ods. 1 písm. c) a § 15 ods. 2 písm. d) zákona č. 543/2002 Z.z. na pohyb mimo turistic. Chodník. a odchyt živočíchov v PR Vydrica, NPR Devínska Kobyla, CHA Ostrovné lúčky a CHA Devínske jazero (101,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545710"
-              },
-              {
                 "datum": "2025-06-30",
                 "nazov": "Súhlas na výrub č. OU-BA-OSZP3-2025/456004/VOM (20,4 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545556"
@@ -5928,11 +5938,6 @@
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545265"
               },
               {
-                "datum": "2025-06-24",
-                "nazov": "Zverejnenie informácie o začatí správneho konania č. OU-BA-OSZP1-2025/463290/LAJ podľa § 82 ods. (7) zákona č. 543/2002 Z. z. o ochrane prírody a krajiny (101,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545111"
-              },
-              {
                 "datum": "2025-06-20",
                 "nazov": "Logistické centrum Podunajské Biskupice - Bratislava (528,7 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=544939"
@@ -5951,11 +5956,6 @@
                 "datum": "2025-06-19",
                 "nazov": "2025/451595 - výrub (21,3 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=544877"
-              },
-              {
-                "datum": "2025-06-19",
-                "nazov": "Pri Mlynoch, Jarabinkova ul. (222,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=544859"
               },
               {
                 "datum": "2025-06-19",
@@ -6668,16 +6668,6 @@
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545932"
               }
             ]
-          },
-          {
-            "kategoria": "Oznámenie odboru životné prostredie: 02.07.2025",
-            "dokumenty": [
-              {
-                "datum": "2025-07-02",
-                "nazov": "státie plávajúceho zariadenia na polohe č. 27 Jarovského ramena rieky Dunaj  (35,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=545817"
-              }
-            ]
           }
         ],
         "url_tabule": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula"
@@ -6724,16 +6714,6 @@
           {
             "kategoria": "Informácie pre verejnosť",
             "dokumenty": [
-              {
-                "datum": "2025-07-18",
-                "nazov": "Správne konania na úseku ochrany prírody a krajiny, OU-MA-OSZP/2025/016208 (100,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=546986"
-              },
-              {
-                "datum": "2025-07-17",
-                "nazov": "Správne konania na úseku ochrany prírody a krajiny, OU-MA-OSZP/2025/015901 (200,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=546895"
-              },
               {
                 "datum": "2025-07-16",
                 "nazov": "Logistické a konsignačné centrum Zohor –Expanzia haly 05 (129,6 kB)",
@@ -8534,6 +8514,16 @@
             "kategoria": "Úradné oznámenia",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "Bytový dom Kavečianska cesta č. 2380, Košice – Sever - vodné stavby - Oboznámenie sa s podkladmi pre rozhodnutie (1,1 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=547764"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "Oznámenia o začatí správneho konania č. OU-KE-OSZP1-2025/046946  (275,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=547696"
+              },
+              {
                 "datum": "2025-07-28",
                 "nazov": "Oboznámenie sa s pokladmi rozhodnutia „ Logistická hala“ – vodná stavba SO 005 Kanalizačná prípojka (689,5 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=547514"
@@ -8712,11 +8702,6 @@
                 "datum": "2025-04-09",
                 "nazov": "„Obytný súbor Vilapark KANKORD“ – oznámenie o zverejnení žiadosti o začatí stavebného konania.   (4,9 MB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=538618"
-              },
-              {
-                "datum": "2025-02-27",
-                "nazov": "OU-MI-OSZP-2025/005751 – Upovedomenie o začatí správneho konania (37,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=534925"
               }
             ]
           },
@@ -8782,6 +8767,36 @@
         "nazov": "Košice-okolie",
         "url": "/?okresne-urady-klientske-centra&urad=66",
         "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Rozhodnutia",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Realizácia reinjektážneho vrtu GTC-2 (425,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=547740"
+              },
+              {
+                "datum": "2025-07-21",
+                "nazov": "Súhlas na let lietadlom – vrtuľníkom (Správa NP Slovenský kras)- rozhodnutie pred nadobudnutím právoplatnosti (326,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=547072"
+              },
+              {
+                "datum": "2025-07-15",
+                "nazov": "Obytný súbor Budimír – Pod Zeleným dvorom (právopl.) (428,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546697"
+              },
+              {
+                "datum": "2025-07-10",
+                "nazov": "Výrobno-skladový areál KECH (440,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546493"
+              },
+              {
+                "datum": "2025-07-04",
+                "nazov": "Logis One Park Košice, Dažďová kanalizácia, povolenie na vypúšťanie vôd z povrchového odtoku – zverejnenie podľa §38 ods.2 zákona č.24/2006 Z.z. (363,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546010"
+              }
+            ]
+          },
           {
             "kategoria": "Oznámenia o začatí konania a súhlas na výrub dreviny",
             "dokumenty": [
@@ -8898,31 +8913,6 @@
             ]
           },
           {
-            "kategoria": "Rozhodnutia",
-            "dokumenty": [
-              {
-                "datum": "2025-07-21",
-                "nazov": "Súhlas na let lietadlom – vrtuľníkom (Správa NP Slovenský kras)- rozhodnutie pred nadobudnutím právoplatnosti (326,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=547072"
-              },
-              {
-                "datum": "2025-07-15",
-                "nazov": "Obytný súbor Budimír – Pod Zeleným dvorom (právopl.) (428,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546697"
-              },
-              {
-                "datum": "2025-07-10",
-                "nazov": "Výrobno-skladový areál KECH (440,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546493"
-              },
-              {
-                "datum": "2025-07-04",
-                "nazov": "Logis One Park Košice, Dažďová kanalizácia, povolenie na vypúšťanie vôd z povrchového odtoku – zverejnenie podľa §38 ods.2 zákona č.24/2006 Z.z. (363,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=546010"
-              }
-            ]
-          },
-          {
             "kategoria": "Oznámenie o začatí správneho konania",
             "dokumenty": [
               {
@@ -8958,29 +8948,14 @@
             "kategoria": "OZNÁMENIA O NEVYHNUTNOM VÝRUBE PODĽA OSOBITNÝCH PREDPISOV",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "OU-MI-OSZP-2025/015557 – Oznámenie o výrube k. ú. Čičarovce (423,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=547731"
+              },
+              {
                 "datum": "2025-07-25",
                 "nazov": "OU-MI-.OSZP-2025/ 015220_Oznámenie o výrube k.ú. Vojany, Bánovce nad Ondavou, Voľa, Rakovec nad Ondavou, Moravany, Trhovište, Hatalov, Budkovce, Stretava, Pavlovce nad Uhom, Oborín, Beša, Čičarovce (228,2 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=547407"
-              },
-              {
-                "datum": "2025-05-02",
-                "nazov": "OU-MI-OSZP-2025/001036 – Oznámenie o výrube na pobrežných pozemkoch vodného toku Preložka Porubského potoka (736,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540242"
-              },
-              {
-                "datum": "2025-05-02",
-                "nazov": "OU-MI-OSZP-2025/00103 – Oznámenie o výrube na pobrežných pozemkoch vodného toku Starý Porubský potok (935,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540243"
-              },
-              {
-                "datum": "2025-05-02",
-                "nazov": "OU-MI-OSZP-2025/001038 – Oznámenie o výrube na pobrežných pozemkoch nápustného kanála poldra Beša (678,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540244"
-              },
-              {
-                "datum": "2025-03-28",
-                "nazov": "OU-MI-OSZP-2025/008034-Oznámenie o výrube na pobrežných pozemkoch (539,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=537725"
               }
             ]
           },
@@ -8994,13 +8969,13 @@
               },
               {
                 "datum": "2025-07-16",
-                "nazov": "OU-MI-OSZP-2025/014724 – Upovedomenie o začatí správneho konania, k.ú. Pavlovce nad Uhom (275,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=546832"
+                "nazov": "OU-MI-OSZP-2025/014723 – Upovedomenie o začatí správneho konania, k.ú. Jovsa (304,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=546830"
               },
               {
                 "datum": "2025-07-16",
-                "nazov": "OU-MI-OSZP-2025/014723 – Upovedomenie o začatí správneho konania, k.ú. Jovsa (304,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=546830"
+                "nazov": "OU-MI-OSZP-2025/014724 – Upovedomenie o začatí správneho konania, k.ú. Pavlovce nad Uhom (275,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=546832"
               },
               {
                 "datum": "2025-07-16",
@@ -9011,41 +8986,6 @@
                 "datum": "2025-07-11",
                 "nazov": "OU-MI-OSZP-2025/014487 – Upovedomenie o začatí správneho konania (297,5 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=546553"
-              },
-              {
-                "datum": "2025-05-02",
-                "nazov": "OU-MI-OSZP-2025/ 010163 Upovedomenie o začatí správneho konania k.ú. Michalovce a k.ú. Stráňany. (262,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540245"
-              },
-              {
-                "datum": "2025-04-29",
-                "nazov": "Oznámenia o nevyhnutnom výrube OU-MI-OSZP-2025/009859 – oznámenie o výrube drevín (2,8 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540021"
-              },
-              {
-                "datum": "2025-04-29",
-                "nazov": "Správne konania OU-MI-OSZP-2025/009874 – Upovedomenie o začatí správneho konania (38,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=540022"
-              },
-              {
-                "datum": "2025-03-11",
-                "nazov": "OU-MI-.OSZP-2025/006633 - Upovedomenie o začatí správneho konania k.ú. Stráňany. (260,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=535726"
-              },
-              {
-                "datum": "2025-02-25",
-                "nazov": "OU-MI-OSZP-2025/005359-Upovedomenie o začatí správneho konania (39,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=534670"
-              },
-              {
-                "datum": "2025-02-19",
-                "nazov": "OU-MI-OSZP-2025/005068 Upovedomenie o začatí správneho konania k.ú. Michalovce (260,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=534301"
-              },
-              {
-                "datum": "2025-02-18",
-                "nazov": "OU-MI-.OSZP-2025/005067_Oznámenie o výrube  k.ú. Vinné (765,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=534274"
               },
               {
                 "datum": "2022-04-01",
@@ -9059,13 +8999,13 @@
               },
               {
                 "datum": "2022-03-16",
-                "nazov": "Oznámenie o začatí konania  vo veci nadobudnutia  vlastníctva  k vozidlu  FORD/KA  EVČ:  LU144EV (PL) štátom (533,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=438256"
+                "nazov": "Oznámenie o začatí konania  vo veci nadobudnutia  vlastníctva k vozidlu  Opel CORSA,  EVČ: SJZ12TV (PL) štátom (510,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=438255"
               },
               {
                 "datum": "2022-03-16",
-                "nazov": "Oznámenie o začatí konania  vo veci nadobudnutia  vlastníctva k vozidlu  Opel CORSA,  EVČ: SJZ12TV (PL) štátom (510,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=438255"
+                "nazov": "Oznámenie o začatí konania  vo veci nadobudnutia  vlastníctva  k vozidlu  FORD/KA  EVČ:  LU144EV (PL) štátom (533,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=438256"
               },
               {
                 "datum": "2022-02-28",
@@ -9077,31 +9017,6 @@
           {
             "kategoria": "VEREJNÉ VYHLÁŠKY A OZNÁMENIA",
             "dokumenty": [
-              {
-                "datum": "2025-05-16",
-                "nazov": "OU-MI-OSZP-2025-007767-Kanalizácia Zalužice-zmena stavbypred jej dokončením (1,1 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=541515"
-              },
-              {
-                "datum": "2025-05-16",
-                "nazov": "OU-Mi-OSZP-2025-004571_GERIA RESORT PLUS -stavebné povolenie (6,2 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=541516"
-              },
-              {
-                "datum": "2025-03-12",
-                "nazov": "OU-MI-OSZP-2025_004571 GERIA PLUS RESOST informácia podľa 58a stavebného zákona o začatí správneho konania (1,1 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=535828"
-              },
-              {
-                "datum": "2025-03-12",
-                "nazov": "OU-MI-OSZP-2025_004571 GERIA PLUS RESOST oznámenie o začatí konania verejnou vyhláškou (830,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=535829"
-              },
-              {
-                "datum": "2025-03-12",
-                "nazov": "OU-MI-OSZP-2025005852 oznámenie o začatí stavebného konania vodnej stavby Veľké Kapušany ul Vojanská rekonštrukcia vodvodu (1,1 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=535844"
-              },
               {
                 "datum": "2022-11-28",
                 "nazov": "Verejná vyhláška - Rozhodnutie č.OU-MI-OSZP-2022/001429-014 zo dňa 28.11.2022 - vlastníctvo k vozidlu kat.M1 typ ŠKODA, EVČ: MI532BI, VIN: TMBEFF45390116601, r.výr.1995, farba červ.metal.tmavá nenadobúda štát a určenie, že vozidlo sa stáva starým vozidlom (242,8 kB)",
@@ -9165,6 +9080,11 @@
             "kategoria": "Začaté správne konania",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "Oznámenia o začatí správneho konania č. OU-RV-OSZP-2025/009651 (298,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=547695"
+              },
+              {
                 "datum": "2025-07-23",
                 "nazov": "Oznámenie o začatí správneho konania (270,8 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=547156"
@@ -9191,13 +9111,13 @@
               },
               {
                 "datum": "2025-06-04",
-                "nazov": "Oznámenie o začatí konania OU/RV-OSZP-2025/007394 (250,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=543393"
+                "nazov": "Oznámenie o začatí konania OU/RV-OSZP-2025/007381 (248,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=543394"
               },
               {
                 "datum": "2025-06-04",
-                "nazov": "Oznámenie o začatí konania OU/RV-OSZP-2025/007381 (248,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=543394"
+                "nazov": "Oznámenie o začatí konania OU/RV-OSZP-2025/007394 (250,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=543393"
               },
               {
                 "datum": "2025-06-04",
@@ -9226,13 +9146,13 @@
               },
               {
                 "datum": "2025-03-14",
-                "nazov": "Oznámení o začatí konania OU-RV-OSZP-2025/004138  (361,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=536157"
+                "nazov": "Oznámení o začatí konania OU-RV-OSZP-2025/004139  (362,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=536158"
               },
               {
                 "datum": "2025-03-14",
-                "nazov": "Oznámení o začatí konania OU-RV-OSZP-2025/004139  (362,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=536158"
+                "nazov": "Oznámení o začatí konania OU-RV-OSZP-2025/004138  (361,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=536157"
               },
               {
                 "datum": "2025-03-10",
@@ -9873,14 +9793,24 @@
             "kategoria": "Životné prostredie",
             "dokumenty": [
               {
-                "datum": "2025-07-29",
-                "nazov": "Zverejnenie žiadosti - Rozšírenie haly MP&L - infraštruktúra (2,5 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=547649"
+                "datum": "2025-07-30",
+                "nazov": "Program na zlepšenie kvality ovzdušia pre zónu Nitriansky kraj 2 (7,0 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=547735"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "Program na zlepšenie kvality ovzdušia pre zónu Nitriansky kraj 1 (147,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=547734"
               },
               {
                 "datum": "2025-07-29",
                 "nazov": "Oznámenie o začatí vodoprávneho konania a upustenie od ústneho konania a miestneho šetrenia - „Športovo - relaxačné centrum, ul. Nad Baňou, Zobor, Nitra“ (178,1 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=547650"
+              },
+              {
+                "datum": "2025-07-29",
+                "nazov": "Zverejnenie žiadosti - Rozšírenie haly MP&L - infraštruktúra (2,5 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=547649"
               },
               {
                 "datum": "2025-07-29",
@@ -10004,13 +9934,13 @@
               },
               {
                 "datum": "2025-05-07",
-                "nazov": "Verejná vyhláška - Dolné Obdokovce - rozšírenie kanalizácie a vodovodu - predĺženie povolenia (327,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=540754"
+                "nazov": "Verejná vyhláška - Nitra-Párovské háje, Lukovská ul. - tlaková kanalizácia - stavebné povolenie (355,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=540756"
               },
               {
                 "datum": "2025-05-07",
-                "nazov": "Verejná vyhláška - Nitra-Párovské háje, Lukovská ul. - tlaková kanalizácia - stavebné povolenie (355,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=540756"
+                "nazov": "Verejná vyhláška - Dolné Obdokovce - rozšírenie kanalizácie a vodovodu - predĺženie povolenia (327,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=540754"
               },
               {
                 "datum": "2025-05-02",
@@ -10108,16 +10038,6 @@
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=533705"
               },
               {
-                "datum": "2025-02-10",
-                "nazov": "Návrh programu na zlepšenie kvality ovzdušia pre zónu Nitriansky kraj (8,7 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=533433"
-              },
-              {
-                "datum": "2025-02-10",
-                "nazov": "Oznámenie návrhu programu na zlepšenie kvality ovzdušia pre zónu Nitriansky kraj (213,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=533431"
-              },
-              {
                 "datum": "2025-01-28",
                 "nazov": "Povolenie na zmenu stavby pred jej dokončením - „ZBEHY - ČOV – KANALIZÁCIA- ZMENA Č.2 – ETAPA Č.1“ (397,7 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=532213"
@@ -10173,11 +10093,6 @@
                 "datum": "2025-07-14",
                 "nazov": "Upovedomenie o oprave chyby v písomnom vyhotovení rozhodnutia č. OU-NZ-OSZP-2025/007457-012 zo dňa 01.07.2025 (520,6 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=546642"
-              },
-              {
-                "datum": "2025-07-11",
-                "nazov": "Oznámenie o začatí stavebného konania na vodnú stavbu ,,Obytná zóna Záhradná, objekty SO 03 Verejný vodovod a SO 04 Verejná kanalizácia\" (172,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=546562"
               },
               {
                 "datum": "2025-05-29",
@@ -11636,6 +11551,11 @@
           {
             "kategoria": "Správne konania - Informácie o začatých správnych konaniach",
             "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Žiadosť o vydanie súhlasu OU-PP-OSZP-2025/029409 (213,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=547765"
+              },
               {
                 "datum": "2025-07-14",
                 "nazov": "Žiadosť o vydanie súhlasu na výrub drevín OU-PP-OSZP-2025/028375 (214,9 kB)",
@@ -14958,6 +14878,11 @@
             "kategoria": "Verejné vyhlášky",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "„REGIONÁLNY ÚZEMNÝ SYSTÉM EKOLOGICKEJ STABILITY OKRESU MYJAVA\" - Verejná vyhláška - Č.j.: OU-MY-OSZP-2025/000598-007 (218,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=18&odbor=10&sekcia=uradna-tabula&subor=547772"
+              },
+              {
                 "datum": "2025-07-29",
                 "nazov": "Regionálny územný systém ekologickej stability okresu Myjava  – REVIDOVANÝ (2019, SAŽP, Banská Bystrica) (69,9 MB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=18&odbor=10&sekcia=uradna-tabula&subor=547637"
@@ -15564,6 +15489,11 @@
             "kategoria": "Ochrana prírody a krajiny",
             "dokumenty": [
               {
+                "datum": "2025-07-30",
+                "nazov": "Informačný leták - sršeň ázijský (761,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=547738"
+              },
+              {
                 "datum": "2025-07-24",
                 "nazov": "Oznámenie o nevyhnutnom výrube drevín v ochrannom pásme elektrického vedenia v k. ú. Praznov, Kostolec, Záskalie (3,0 MB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=547374"
@@ -15670,13 +15600,13 @@
               },
               {
                 "datum": "2025-01-28",
-                "nazov": "Upovedomenie OU-PB-OSZP-2025/002049 o začatí správneho konania vo veci zmeny rozhodnutia vydaného orgánom ochrany prírody (266,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=532250"
+                "nazov": "Upovedomenie OU-PB-OSZP-2025/002163 o začatí správneho konania vo veci zmeny rozhodnutia vydaného orgánom ochrany prírody (266,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=532251"
               },
               {
                 "datum": "2025-01-28",
-                "nazov": "Upovedomenie OU-PB-OSZP-2025/002163 o začatí správneho konania vo veci zmeny rozhodnutia vydaného orgánom ochrany prírody (266,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=532251"
+                "nazov": "Upovedomenie OU-PB-OSZP-2025/002049 o začatí správneho konania vo veci zmeny rozhodnutia vydaného orgánom ochrany prírody (266,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=532250"
               },
               {
                 "datum": "2024-12-20",
@@ -18000,6 +17930,181 @@
         "url": "/?okresne-urady-klientske-centra&urad=20",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "štátna ochrana prírody a krajiny",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "30.07.2025 Oznámenie  o výrube drevín popod el. vedenie 22 kV, vedenie č. 200, trasa Beluša-Rodinkovo, lokalita Beluša, Čerencové, Bel. Slat (570,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=547739"
+              },
+              {
+                "datum": "2025-05-09",
+                "nazov": "Oznámenie o výrube drevín popod elektrické vedenie v katastrálnom území Dolná Breznica, Lednické Rovne, Lednica (481,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540812"
+              },
+              {
+                "datum": "2025-05-09",
+                "nazov": "Oznámenie o výrube drevín popod elektrické vedenie v katastrálnom území Kvašov (418,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540811"
+              },
+              {
+                "datum": "2025-04-30",
+                "nazov": "U p o v e d o m e n i e  o začatí správneho konania vo veci vydania súhlasu podľa § 47 ods.3 zákona NR SR č. 543/2002 Z. z. o ochrane prírody a krajiny   v znení neskorších predpisov  - výrub drevín v k. ú. Lazy pod Makytou (216,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540207"
+              },
+              {
+                "datum": "2025-04-15",
+                "nazov": "Oznámenie o výrube drevín popod e. vedenie VN 204 -k20  v k. ú. Beluša, D. Kočkovce, H. Kočkovce, Púchov,  Vieska – Bezdedov    (546,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=539168"
+              },
+              {
+                "datum": "2025-04-15",
+                "nazov": "Oznámenie o výrube drevín popod e. vedenie VN 204 -k21  v k. ú. Streženice, Púchov, Nimnica (807,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=539167"
+              },
+              {
+                "datum": "2025-03-14",
+                "nazov": "Prekop - Upovedomenie o začatí konania- výrub drevín - v k.ú. Beluša (216,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=536150"
+              },
+              {
+                "datum": "2025-02-10",
+                "nazov": "Slovenský vodohospodársky podnik  š.p.  Ohlásenie o výrube drevín - zátopové územie Váhu  v k.ú. Nosice (557,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=533421"
+              },
+              {
+                "datum": "2025-02-10",
+                "nazov": "Upovedomenie o začatí konania - výrub drevín - Nosice (215,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=533422"
+              },
+              {
+                "datum": "2025-02-04",
+                "nazov": "Rozhodnutie verejnou vyhláškou, Povolenie na vysádzanie, stínanie a odstraňovanie stromov a krov z korýt vodných tokov – pravý breh VT Biela voda, k.ú. Dohňany (340,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=532748"
+              },
+              {
+                "datum": "2025-01-24",
+                "nazov": "Upovedomenie o začatí konania - výrub drevín v k.ú. Zbora (215,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=532034"
+              },
+              {
+                "datum": "2025-01-17",
+                "nazov": "Upovedomenie o začatí konania - výrub drevín - Lazy pod Makytou (216,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=531699"
+              },
+              {
+                "datum": "2024-11-19",
+                "nazov": "Oznámenie o vykonaní prác na vegetačných krytoch R6 križovatka Beluša - kruhový objazd Púchov od km 0,0 po km 6,5 obojsmerne (332,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=527970"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Stolárik - Upovedomenie o začatí konania a nariadenie ÚK a Mo - výrub drevín - k.ú..Púchov č.j. OU-PU-OSZP-2024_001694. (156,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=527413"
+              },
+              {
+                "datum": "2024-10-21",
+                "nazov": "Hasidlová  - Upovedomenie  o začatí konania  - výrub drevín v k.ú. Beluša (211,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=525524"
+              },
+              {
+                "datum": "2024-10-15",
+                "nazov": "Oznámenie o výrube drevín  pod VN 22 kV vedením v k.ú. Mojtín (458,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524872"
+              },
+              {
+                "datum": "2024-10-08",
+                "nazov": "Oznámenie o plánovanom výrube drevín na trasách plynovodov. (1,6 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524331"
+              },
+              {
+                "datum": "2024-10-08",
+                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Nimnica - Janičík (215,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524263"
+              },
+              {
+                "datum": "2024-09-27",
+                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Nimnica (215,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=523557"
+              },
+              {
+                "datum": "2024-09-27",
+                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Horné Kočkovce (215,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=523556"
+              },
+              {
+                "datum": "2024-09-11",
+                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Lazy pod Makytou (215,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521952"
+              },
+              {
+                "datum": "2024-09-11",
+                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Lednické Rovne (215,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521951"
+              },
+              {
+                "datum": "2024-09-02",
+                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Beluša“ (204,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521118"
+              },
+              {
+                "datum": "2024-08-22",
+                "nazov": "Sken mapy s vyznačením trasy turistického podujatia – Mladoňovská 25 (239,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520711"
+              },
+              {
+                "datum": "2024-08-22",
+                "nazov": "Ryba, Surovčák, Surovčáková – Upovedomenie o začatí konania - výrub drevín – Nimnica (216,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520710"
+              },
+              {
+                "datum": "2024-08-22",
+                "nazov": "Obec Lazy pod Makytou – Upovedomenie o začatí konania o vydaní súhlasu na verejné turistické Podujatie – Mladoňovská 25 (217,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520709"
+              },
+              {
+                "datum": "2024-04-17",
+                "nazov": "17. 4. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 1131/108   v  k. ú. Lazy pod Makytou (251,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=510696"
+              },
+              {
+                "datum": "2024-04-17",
+                "nazov": "17. 4. 2024   - Žiadosť o vydanie súhlasu na verejné kultúrne podujatia   mimo zastavané územie  v k. ú. Mojtín  (734,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=510686"
+              },
+              {
+                "datum": "2024-04-04",
+                "nazov": "4. 4. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 207  v  k. ú. Nimnica (250,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=509608"
+              },
+              {
+                "datum": "2024-04-04",
+                "nazov": "4. 4. 2024 - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 1021  v  k. ú. Lednica     (251,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=509607"
+              },
+              {
+                "datum": "2024-03-21",
+                "nazov": "21. 3. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 694/5-7   v  k. ú. Horná Breznica   (251,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=508447"
+              },
+              {
+                "datum": "2024-02-01",
+                "nazov": "1. 2. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KN  E  977  v  k. ú. Horná Breznica (250,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=503954"
+              },
+              {
+                "datum": "2023-11-29",
+                "nazov": "Informácia o doručení žiadosti o vydanie súhlasu na výrub drevín rastúcich na pozemkoch p. č. KNC 3350/2 a 3352 v k. ú. Beluša (255,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=498620"
+              },
+              {
+                "datum": "2023-11-08",
+                "nazov": "Informácia o doručení žiadosti o vydanie súhlasu na výrub drevín rastúcich na pozemku p. č. KNE 2021 v k. ú. Beluša (254,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=496648"
+              }
+            ]
+          },
+          {
             "kategoria": "Štátna vodná správa",
             "dokumenty": [
               {
@@ -18503,176 +18608,6 @@
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=490708"
               }
             ]
-          },
-          {
-            "kategoria": "štátna ochrana prírody a krajiny",
-            "dokumenty": [
-              {
-                "datum": "2025-05-09",
-                "nazov": "Oznámenie o výrube drevín popod elektrické vedenie v katastrálnom území Dolná Breznica, Lednické Rovne, Lednica (481,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540812"
-              },
-              {
-                "datum": "2025-05-09",
-                "nazov": "Oznámenie o výrube drevín popod elektrické vedenie v katastrálnom území Kvašov (418,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540811"
-              },
-              {
-                "datum": "2025-04-30",
-                "nazov": "U p o v e d o m e n i e  o začatí správneho konania vo veci vydania súhlasu podľa § 47 ods.3 zákona NR SR č. 543/2002 Z. z. o ochrane prírody a krajiny   v znení neskorších predpisov  - výrub drevín v k. ú. Lazy pod Makytou (216,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=540207"
-              },
-              {
-                "datum": "2025-04-15",
-                "nazov": "Oznámenie o výrube drevín popod e. vedenie VN 204 -k20  v k. ú. Beluša, D. Kočkovce, H. Kočkovce, Púchov,  Vieska – Bezdedov    (546,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=539168"
-              },
-              {
-                "datum": "2025-04-15",
-                "nazov": "Oznámenie o výrube drevín popod e. vedenie VN 204 -k21  v k. ú. Streženice, Púchov, Nimnica (807,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=539167"
-              },
-              {
-                "datum": "2025-03-14",
-                "nazov": "Prekop - Upovedomenie o začatí konania- výrub drevín - v k.ú. Beluša (216,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=536150"
-              },
-              {
-                "datum": "2025-02-10",
-                "nazov": "Slovenský vodohospodársky podnik  š.p.  Ohlásenie o výrube drevín - zátopové územie Váhu  v k.ú. Nosice (557,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=533421"
-              },
-              {
-                "datum": "2025-02-10",
-                "nazov": "Upovedomenie o začatí konania - výrub drevín - Nosice (215,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=533422"
-              },
-              {
-                "datum": "2025-02-04",
-                "nazov": "Rozhodnutie verejnou vyhláškou, Povolenie na vysádzanie, stínanie a odstraňovanie stromov a krov z korýt vodných tokov – pravý breh VT Biela voda, k.ú. Dohňany (340,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=532748"
-              },
-              {
-                "datum": "2025-01-24",
-                "nazov": "Upovedomenie o začatí konania - výrub drevín v k.ú. Zbora (215,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=532034"
-              },
-              {
-                "datum": "2025-01-17",
-                "nazov": "Upovedomenie o začatí konania - výrub drevín - Lazy pod Makytou (216,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=531699"
-              },
-              {
-                "datum": "2024-11-19",
-                "nazov": "Oznámenie o vykonaní prác na vegetačných krytoch R6 križovatka Beluša - kruhový objazd Púchov od km 0,0 po km 6,5 obojsmerne (332,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=527970"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Stolárik - Upovedomenie o začatí konania a nariadenie ÚK a Mo - výrub drevín - k.ú..Púchov č.j. OU-PU-OSZP-2024_001694. (156,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=527413"
-              },
-              {
-                "datum": "2024-10-21",
-                "nazov": "Hasidlová  - Upovedomenie  o začatí konania  - výrub drevín v k.ú. Beluša (211,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=525524"
-              },
-              {
-                "datum": "2024-10-15",
-                "nazov": "Oznámenie o výrube drevín  pod VN 22 kV vedením v k.ú. Mojtín (458,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524872"
-              },
-              {
-                "datum": "2024-10-08",
-                "nazov": "Oznámenie o plánovanom výrube drevín na trasách plynovodov. (1,6 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524331"
-              },
-              {
-                "datum": "2024-10-08",
-                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Nimnica - Janičík (215,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=524263"
-              },
-              {
-                "datum": "2024-09-27",
-                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Nimnica (215,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=523557"
-              },
-              {
-                "datum": "2024-09-27",
-                "nazov": "Upovedomenie o začatí správneho konania vo veci vydania súhlasu - výrub drevín Horné Kočkovce (215,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=523556"
-              },
-              {
-                "datum": "2024-09-11",
-                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Lazy pod Makytou (215,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521952"
-              },
-              {
-                "datum": "2024-09-11",
-                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Lednické Rovne (215,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521951"
-              },
-              {
-                "datum": "2024-09-02",
-                "nazov": "U p o v e d o m e n i e o začatí správneho konania - výrub drevín - Beluša“ (204,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=521118"
-              },
-              {
-                "datum": "2024-08-22",
-                "nazov": "Sken mapy s vyznačením trasy turistického podujatia – Mladoňovská 25 (239,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520711"
-              },
-              {
-                "datum": "2024-08-22",
-                "nazov": "Ryba, Surovčák, Surovčáková – Upovedomenie o začatí konania - výrub drevín – Nimnica (216,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520710"
-              },
-              {
-                "datum": "2024-08-22",
-                "nazov": "Obec Lazy pod Makytou – Upovedomenie o začatí konania o vydaní súhlasu na verejné turistické Podujatie – Mladoňovská 25 (217,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=520709"
-              },
-              {
-                "datum": "2024-04-17",
-                "nazov": "17. 4. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 1131/108   v  k. ú. Lazy pod Makytou (251,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=510696"
-              },
-              {
-                "datum": "2024-04-17",
-                "nazov": "17. 4. 2024   - Žiadosť o vydanie súhlasu na verejné kultúrne podujatia   mimo zastavané územie  v k. ú. Mojtín  (734,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=510686"
-              },
-              {
-                "datum": "2024-04-04",
-                "nazov": "4. 4. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 207  v  k. ú. Nimnica (250,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=509608"
-              },
-              {
-                "datum": "2024-04-04",
-                "nazov": "4. 4. 2024 - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 1021  v  k. ú. Lednica     (251,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=509607"
-              },
-              {
-                "datum": "2024-03-21",
-                "nazov": "21. 3. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KNC 694/5-7   v  k. ú. Horná Breznica   (251,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=508447"
-              },
-              {
-                "datum": "2024-02-01",
-                "nazov": "1. 2. 2024   - Žiadosť o vydanie súhlasu na výrub drevín  rastúcich mimo zastavané územie  na poz. p. KN  E  977  v  k. ú. Horná Breznica (250,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=503954"
-              },
-              {
-                "datum": "2023-11-29",
-                "nazov": "Informácia o doručení žiadosti o vydanie súhlasu na výrub drevín rastúcich na pozemkoch p. č. KNC 3350/2 a 3352 v k. ú. Beluša (255,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=498620"
-              },
-              {
-                "datum": "2023-11-08",
-                "nazov": "Informácia o doručení žiadosti o vydanie súhlasu na výrub drevín rastúcich na pozemku p. č. KNE 2021 v k. ú. Beluša (254,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=496648"
-              }
-            ]
           }
         ],
         "url_tabule": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula"
@@ -18684,6 +18619,21 @@
           {
             "kategoria": "Oznamy, verejné vyhlášky",
             "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "„SO 153 Vodná nádrž na Rakoveckom potoku“, v k. ú. Mníchova Lehota – oznámenie o začatí vodoprávneho konania – oznámenie o zverejnení žiadosti (238,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=547771"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "„SO 153 Vodná nádrž na Rakoveckom potoku“, v k. ú. Mníchova Lehota – oznámenie o začatí vodoprávneho konania – žiadosť o stavebné vodoprávne povolenie (1,1 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=547770"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "„SO 153 Vodná nádrž na Rakoveckom potoku“, v k. ú. Mníchova Lehota – oznámenie o začatí vodoprávneho konania – verejná vyhláška (188,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=547769"
+              },
               {
                 "datum": "2025-07-29",
                 "nazov": "Rozhodnutie o udelení súhlasu podľa § 97 ods. 1 písm. s) (334,6 kB)",
@@ -22557,8 +22507,343 @@
         "url": "/?okresne-urady-klientske-centra&urad=5",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Oznámenia o výruboch, v zmysle § 47 ods. 3 zákona o ochrane prírody",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/056263 (138,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=547726"
+              },
+              {
+                "datum": "2025-06-10",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/042930  výrub (373,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=543754"
+              },
+              {
+                "datum": "2025-06-09",
+                "nazov": "Upovedomenie o začatí konaniaOU-TT-OSZP3-2025/042941 (447,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=543696"
+              },
+              {
+                "datum": "2025-05-21",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2025/038455 (242,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=542018"
+              },
+              {
+                "datum": "2025-04-22",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2025/033680 (447,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=539412"
+              },
+              {
+                "datum": "2024-11-20",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078523 (375,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=528315"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078522 (375,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527318"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Príloha k výrubu OU-TT-OSZP3-2024/078522 (191,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527319"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2024/078522 (242,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527320"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2024/078523 (719,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527247"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078523 (200,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527245"
+              },
+              {
+                "datum": "2024-11-11",
+                "nazov": "Správne konanie OU-TT-OSZP3-2024/078523 - výrub Lošonec (375,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527244"
+              },
+              {
+                "datum": "2024-10-21",
+                "nazov": "Oznámenie o výrube č. OU-TT-OSZP3-2024/073120 (132,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525551"
+              },
+              {
+                "datum": "2024-10-21",
+                "nazov": "Oznámenie o výrube drevín č. 0178894 (577,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525548"
+              },
+              {
+                "datum": "2024-10-21",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2024/072988 - výrub (448,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525436"
+              },
+              {
+                "datum": "2024-08-23",
+                "nazov": "Rozhodnutie o výrube OU-HC-OSZP-2024/000708 (619,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=520750"
+              },
+              {
+                "datum": "2024-05-24",
+                "nazov": "Príloha k výrubu OU-TT-OSZP3-2024/034430 (658,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=513707"
+              },
+              {
+                "datum": "2024-05-24",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/034430 (373,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=513706"
+              },
+              {
+                "datum": "2024-02-07",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/012321 (129,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=504537"
+              },
+              {
+                "datum": "2024-01-23",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2024/0007109 (237,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=502864"
+              },
+              {
+                "datum": "2023-08-01",
+                "nazov": "Mapové podklady k oznámeniu o nevyhnutnom výrube drevín pod elektrickým vedením - 400 kV, vedenie č. 439 TR: Križovany – P. Byskupice (783,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=487772"
+              },
+              {
+                "datum": "2023-08-01",
+                "nazov": "Oznámenie o nevyhnutnom výrube drevín pod elektrickým vedením - 400 kV, vedenie č. 439 TR: Križovany – P. Byskupice (325,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=487771"
+              },
+              {
+                "datum": "2023-07-24",
+                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2023/044469 (2,0 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486893"
+              },
+              {
+                "datum": "2023-07-24",
+                "nazov": "Žiadosť - výrub OU-TT-OSZP3-2023/044469 (323,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486892"
+              },
+              {
+                "datum": "2023-07-24",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2023/044469 - Slovenská elektrizačná prenosová sústava (374,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486890"
+              },
+              {
+                "datum": "2023-07-18",
+                "nazov": "Mapa k výrubu OU-TT-OSZP3-2023/043661 (340,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486516"
+              },
+              {
+                "datum": "2023-07-18",
+                "nazov": "Oznámenie k výrubu OU-TT-OSZP3-2023/043661  (28,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486515"
+              },
+              {
+                "datum": "2023-07-18",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2023/043661 (373,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486514"
+              },
+              {
+                "datum": "2023-05-05",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/028076 -  výrub (446,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=478524"
+              },
+              {
+                "datum": "2023-02-28",
+                "nazov": "Výrub OU-TT-OSZP3-2023/014043 (242,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=472180"
+              },
+              {
+                "datum": "2023-01-18",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/006275  (242,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=467690"
+              },
+              {
+                "datum": "2023-01-12",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/005472 (242,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=467102"
+              },
+              {
+                "datum": "2022-12-23",
+                "nazov": "Výrub Horné Orešany OU-TT-OSZP3-2022/001180 (242,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=465999"
+              },
+              {
+                "datum": "2022-11-14",
+                "nazov": "Mapky (1,6 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461891"
+              },
+              {
+                "datum": "2022-11-14",
+                "nazov": "Fotodokumentácia (2,4 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461890"
+              },
+              {
+                "datum": "2022-11-14",
+                "nazov": "Zoznam drevín (243,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461889"
+              },
+              {
+                "datum": "2022-11-14",
+                "nazov": "Oznámenie o výrube SPP (505,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461888"
+              },
+              {
+                "datum": "2022-11-14",
+                "nazov": "Oznam o výrube OU-TT-OSZP3-2022/049393 (239,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461887"
+              },
+              {
+                "datum": "2022-07-22",
+                "nazov": "Informácia o začatí správneho konania OU-TT-OSZP3-2022/029261 (243,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=450948"
+              },
+              {
+                "datum": "2022-07-21",
+                "nazov": "Informácia o začatí správneho konania OU-TT-OSZP3-2022/028745 - výrub (239,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=450771"
+              },
+              {
+                "datum": "2022-06-16",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2022/024168 - výrub Žlkovce (242,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=447782"
+              },
+              {
+                "datum": "2022-03-04",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/011022 (239,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=437049"
+              },
+              {
+                "datum": "2022-02-10",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/008372 (240,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=434842"
+              },
+              {
+                "datum": "2022-02-08",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/007917 (239,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=434545"
+              },
+              {
+                "datum": "2022-01-31",
+                "nazov": "Oznámenie o začatí správneho konania OU-HC-OSZP-2022/000236-002 (656,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=433663"
+              },
+              {
+                "datum": "2021-12-13",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/036078 (241,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=429910"
+              },
+              {
+                "datum": "2021-05-06",
+                "nazov": "Upovedomenie o výrube OU-TT-OSZP3-2021/014278 (239,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=406351"
+              },
+              {
+                "datum": "2021-05-06",
+                "nazov": "Upovedomenie o výrube OU-TT-OSZP3-2021/014276 (239,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=406352"
+              },
+              {
+                "datum": "2021-04-28",
+                "nazov": "Upovedomenie o správnom konaní OU-TT-OSZP3-2021/002080                                               (242,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=405405"
+              },
+              {
+                "datum": "2021-04-07",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2021/010884                                           (242,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=403212"
+              },
+              {
+                "datum": "2021-04-06",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/010585 (239,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=403091"
+              },
+              {
+                "datum": "2021-03-26",
+                "nazov": "Príloha k OU-TT-OSZP3-2021/010207 (899,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=401874"
+              },
+              {
+                "datum": "2021-03-26",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2021/010207 (234,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=401873"
+              },
+              {
+                "datum": "2021-03-12",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/008997                             (233,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400415"
+              },
+              {
+                "datum": "2021-03-08",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2021/008752                                            (241,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400090"
+              },
+              {
+                "datum": "2021-03-08",
+                "nazov": "Oznámenie o začatí správneho konania OU-HC-OSZP-2021/000403-002 (654,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400050"
+              },
+              {
+                "datum": "2021-03-04",
+                "nazov": "Príloha k OU-TT-OSZP3-2021/008410 (298,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399903"
+              },
+              {
+                "datum": "2021-03-04",
+                "nazov": "Zverejnenie oznámenia o výrube OU-TT-OSZP3-2021/008410 (234,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399902"
+              },
+              {
+                "datum": "2021-03-02",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/008202                                               (242,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399694"
+              },
+              {
+                "datum": "2021-02-03",
+                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2020/005776 (241,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=397324"
+              },
+              {
+                "datum": "2021-01-26",
+                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2021/005036 (240,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=396612"
+              },
+              {
+                "datum": "2020-12-11",
+                "nazov": "Výrub 2020/043446 (240,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393647"
+              },
+              {
+                "datum": "2020-12-11",
+                "nazov": "Výrub 2020/043444 (240,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393649"
+              },
+              {
+                "datum": "2020-12-11",
+                "nazov": "Výrub 2020/043387 (239,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393646"
+              }
+            ]
+          },
+          {
             "kategoria": "Verejné vyhlášky",
             "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Povolenie na uskutočnenie vodnej stavby: Rozšírenie celoobecnej kanalizácie Boleráz, stoka \"BA-2-3\", \"CA-1-4\" (261,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=547680"
+              },
+              {
+                "datum": "2025-07-30",
+                "nazov": "Povolenie na uskutočnenie vodnej stavby: Rozšírenie celoobecného vodovodu Boleráz, Vetva \"C-6\" (268,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=547681"
+              },
               {
                 "datum": "2025-07-29",
                 "nazov": "Oznámenie o začatí vodoprávneho konania o predĺžení platnosti stavebného povolenia - Priemyselne - logistické centrum Zavar, CTPark Trnava III, spol. s r. o. (178,0 kB)",
@@ -23792,326 +24077,6 @@
             ]
           },
           {
-            "kategoria": "Oznámenia o výruboch, v zmysle § 47 ods. 3 zákona o ochrane prírody",
-            "dokumenty": [
-              {
-                "datum": "2025-06-10",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/042930  výrub (373,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=543754"
-              },
-              {
-                "datum": "2025-06-09",
-                "nazov": "Upovedomenie o začatí konaniaOU-TT-OSZP3-2025/042941 (447,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=543696"
-              },
-              {
-                "datum": "2025-05-21",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2025/038455 (242,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=542018"
-              },
-              {
-                "datum": "2025-04-22",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2025/033680 (447,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=539412"
-              },
-              {
-                "datum": "2024-11-20",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078523 (375,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=528315"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078522 (375,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527318"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Príloha k výrubu OU-TT-OSZP3-2024/078522 (191,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527319"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2024/078522 (242,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527320"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2024/078523 (719,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527247"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/078523 (200,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527245"
-              },
-              {
-                "datum": "2024-11-11",
-                "nazov": "Správne konanie OU-TT-OSZP3-2024/078523 - výrub Lošonec (375,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=527244"
-              },
-              {
-                "datum": "2024-10-21",
-                "nazov": "Oznámenie o výrube č. OU-TT-OSZP3-2024/073120 (132,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525551"
-              },
-              {
-                "datum": "2024-10-21",
-                "nazov": "Oznámenie o výrube drevín č. 0178894 (577,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525548"
-              },
-              {
-                "datum": "2024-10-21",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2024/072988 - výrub (448,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=525436"
-              },
-              {
-                "datum": "2024-08-23",
-                "nazov": "Rozhodnutie o výrube OU-HC-OSZP-2024/000708 (619,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=520750"
-              },
-              {
-                "datum": "2024-05-24",
-                "nazov": "Príloha k výrubu OU-TT-OSZP3-2024/034430 (658,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=513707"
-              },
-              {
-                "datum": "2024-05-24",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/034430 (373,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=513706"
-              },
-              {
-                "datum": "2024-02-07",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2024/012321 (129,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=504537"
-              },
-              {
-                "datum": "2024-01-23",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2024/0007109 (237,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=502864"
-              },
-              {
-                "datum": "2023-08-01",
-                "nazov": "Mapové podklady k oznámeniu o nevyhnutnom výrube drevín pod elektrickým vedením - 400 kV, vedenie č. 439 TR: Križovany – P. Byskupice (783,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=487772"
-              },
-              {
-                "datum": "2023-08-01",
-                "nazov": "Oznámenie o nevyhnutnom výrube drevín pod elektrickým vedením - 400 kV, vedenie č. 439 TR: Križovany – P. Byskupice (325,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=487771"
-              },
-              {
-                "datum": "2023-07-24",
-                "nazov": "Mapové podklady k výrubu OU-TT-OSZP3-2023/044469 (2,0 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486893"
-              },
-              {
-                "datum": "2023-07-24",
-                "nazov": "Žiadosť - výrub OU-TT-OSZP3-2023/044469 (323,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486892"
-              },
-              {
-                "datum": "2023-07-24",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2023/044469 - Slovenská elektrizačná prenosová sústava (374,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486890"
-              },
-              {
-                "datum": "2023-07-18",
-                "nazov": "Mapa k výrubu OU-TT-OSZP3-2023/043661 (340,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486516"
-              },
-              {
-                "datum": "2023-07-18",
-                "nazov": "Oznámenie k výrubu OU-TT-OSZP3-2023/043661  (28,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486515"
-              },
-              {
-                "datum": "2023-07-18",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2023/043661 (373,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=486514"
-              },
-              {
-                "datum": "2023-05-05",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/028076 -  výrub (446,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=478524"
-              },
-              {
-                "datum": "2023-02-28",
-                "nazov": "Výrub OU-TT-OSZP3-2023/014043 (242,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=472180"
-              },
-              {
-                "datum": "2023-01-18",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/006275  (242,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=467690"
-              },
-              {
-                "datum": "2023-01-12",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2023/005472 (242,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=467102"
-              },
-              {
-                "datum": "2022-12-23",
-                "nazov": "Výrub Horné Orešany OU-TT-OSZP3-2022/001180 (242,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=465999"
-              },
-              {
-                "datum": "2022-11-14",
-                "nazov": "Mapky (1,6 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461891"
-              },
-              {
-                "datum": "2022-11-14",
-                "nazov": "Fotodokumentácia (2,4 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461890"
-              },
-              {
-                "datum": "2022-11-14",
-                "nazov": "Zoznam drevín (243,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461889"
-              },
-              {
-                "datum": "2022-11-14",
-                "nazov": "Oznámenie o výrube SPP (505,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461888"
-              },
-              {
-                "datum": "2022-11-14",
-                "nazov": "Oznam o výrube OU-TT-OSZP3-2022/049393 (239,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=461887"
-              },
-              {
-                "datum": "2022-07-22",
-                "nazov": "Informácia o začatí správneho konania OU-TT-OSZP3-2022/029261 (243,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=450948"
-              },
-              {
-                "datum": "2022-07-21",
-                "nazov": "Informácia o začatí správneho konania OU-TT-OSZP3-2022/028745 - výrub (239,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=450771"
-              },
-              {
-                "datum": "2022-06-16",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2022/024168 - výrub Žlkovce (242,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=447782"
-              },
-              {
-                "datum": "2022-03-04",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/011022 (239,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=437049"
-              },
-              {
-                "datum": "2022-02-10",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/008372 (240,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=434842"
-              },
-              {
-                "datum": "2022-02-08",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2022/007917 (239,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=434545"
-              },
-              {
-                "datum": "2022-01-31",
-                "nazov": "Oznámenie o začatí správneho konania OU-HC-OSZP-2022/000236-002 (656,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=433663"
-              },
-              {
-                "datum": "2021-12-13",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/036078 (241,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=429910"
-              },
-              {
-                "datum": "2021-05-06",
-                "nazov": "Upovedomenie o výrube OU-TT-OSZP3-2021/014278 (239,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=406351"
-              },
-              {
-                "datum": "2021-05-06",
-                "nazov": "Upovedomenie o výrube OU-TT-OSZP3-2021/014276 (239,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=406352"
-              },
-              {
-                "datum": "2021-04-28",
-                "nazov": "Upovedomenie o správnom konaní OU-TT-OSZP3-2021/002080                                               (242,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=405405"
-              },
-              {
-                "datum": "2021-04-07",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2021/010884                                           (242,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=403212"
-              },
-              {
-                "datum": "2021-04-06",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/010585 (239,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=403091"
-              },
-              {
-                "datum": "2021-03-26",
-                "nazov": "Príloha k OU-TT-OSZP3-2021/010207 (899,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=401874"
-              },
-              {
-                "datum": "2021-03-26",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2021/010207 (234,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=401873"
-              },
-              {
-                "datum": "2021-03-12",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/008997                             (233,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400415"
-              },
-              {
-                "datum": "2021-03-08",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2021/008752                                            (241,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400090"
-              },
-              {
-                "datum": "2021-03-08",
-                "nazov": "Oznámenie o začatí správneho konania OU-HC-OSZP-2021/000403-002 (654,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=400050"
-              },
-              {
-                "datum": "2021-03-04",
-                "nazov": "Príloha k OU-TT-OSZP3-2021/008410 (298,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399903"
-              },
-              {
-                "datum": "2021-03-04",
-                "nazov": "Zverejnenie oznámenia o výrube OU-TT-OSZP3-2021/008410 (234,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399902"
-              },
-              {
-                "datum": "2021-03-02",
-                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2021/008202                                               (242,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=399694"
-              },
-              {
-                "datum": "2021-02-03",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2020/005776 (241,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=397324"
-              },
-              {
-                "datum": "2021-01-26",
-                "nazov": "Oznámenie o výrube OU-TT-OSZP3-2021/005036 (240,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=396612"
-              },
-              {
-                "datum": "2020-12-11",
-                "nazov": "Výrub 2020/043446 (240,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393647"
-              },
-              {
-                "datum": "2020-12-11",
-                "nazov": "Výrub 2020/043444 (240,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393649"
-              },
-              {
-                "datum": "2020-12-11",
-                "nazov": "Výrub 2020/043387 (239,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=393646"
-              }
-            ]
-          },
-          {
             "kategoria": "Informácie pre verejnosť",
             "dokumenty": [
               {
@@ -24644,48 +24609,13 @@
         "url": "/?okresne-urady-klientske-centra&urad=30",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Ochrana prírody a krajiny",
-            "dokumenty": [
-              {
-                "datum": "2025-07-29",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín v k.ú. Dolný Kubín, k.ú. Mokraď, k.ú. Medzihradné a k.ú. Veľký Bysterec (740,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=547599"
-              },
-              {
-                "datum": "2025-07-29",
-                "nazov": "Informácia o správnom konaní - výrub drevín v k.ú. Beňová Lehota (151,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=547598"
-              },
-              {
-                "datum": "2025-07-15",
-                "nazov": "Informácia o správnom konaní – náhodná ťažba v lesnom celku Dolný Kubín (101,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=546742"
-              },
-              {
-                "datum": "2025-06-27",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín a krovín v k.ú. Zázrivá (164,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=545496"
-              },
-              {
-                "datum": "2025-05-23",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín v ochrannom pásme VN vedenia v k.ú. Beňova Lehota, k.ú. Malý Bysterec, k.ú. Veličná, k.ú. Veľký Bysterec, k.ú. Záskalie (311,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=542217"
-              },
-              {
-                "datum": "2025-05-20",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube porastov v ochrannom pásme vedenia v k.ú. Vyšný Kubín, Leštiny, Osádka, Pokrývač, Malatiná (696,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541854"
-              },
-              {
-                "datum": "2025-05-19",
-                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín a krovín v k.ú. Žaškov (287,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541694"
-              }
-            ]
-          },
-          {
             "kategoria": "Verejné vyhlášky",
             "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Verejná vyhláška - oznámenie o začatí konania o zmene stavby pred jej dokončením  – „Jasenová – Vyšný Kubín – Dolný Kubín - kanalizácia“ pre stavebníka Obec Vyšný Kubín (553,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=547750"
+              },
               {
                 "datum": "2025-07-25",
                 "nazov": "Verejná vyhláška-oznámenie o začatí stavebného konania-„Rozšírenie inžinierskych sietí Beňova Lehota – Chaty pod Hoľou. SO 01 Splašková kanalizácia, SO 02 Rozšírenie vodovodu“ pre stavebníka Grassor, s. r. o., Dolný Kubín (179,0 kB)",
@@ -24715,6 +24645,46 @@
                 "datum": "2025-07-11",
                 "nazov": "Verejná vyhláška-Rozhodnutie-Povolenie zmeny stavby pred jej dokončením–„Odkanalizovanie obcí dolnej Oravy–Žaškov, Párnica, Oravská Poruba, Veličná. SS 04 Veličná–Kanalizácia“ pre stavebníka Obec Veličná (852,0 kB)",
                 "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=546601"
+              }
+            ]
+          },
+          {
+            "kategoria": "Ochrana prírody a krajiny",
+            "dokumenty": [
+              {
+                "datum": "2025-07-29",
+                "nazov": "Informácia o správnom konaní - výrub drevín v k.ú. Beňová Lehota (151,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=547598"
+              },
+              {
+                "datum": "2025-07-29",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín v k.ú. Dolný Kubín, k.ú. Mokraď, k.ú. Medzihradné a k.ú. Veľký Bysterec (740,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=547599"
+              },
+              {
+                "datum": "2025-07-15",
+                "nazov": "Informácia o správnom konaní – náhodná ťažba v lesnom celku Dolný Kubín (101,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=546742"
+              },
+              {
+                "datum": "2025-06-27",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín a krovín v k.ú. Zázrivá (164,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=545496"
+              },
+              {
+                "datum": "2025-05-23",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín v ochrannom pásme VN vedenia v k.ú. Beňova Lehota, k.ú. Malý Bysterec, k.ú. Veličná, k.ú. Veľký Bysterec, k.ú. Záskalie (311,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=542217"
+              },
+              {
+                "datum": "2025-05-20",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube porastov v ochrannom pásme vedenia v k.ú. Vyšný Kubín, Leštiny, Osádka, Pokrývač, Malatiná (696,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541854"
+              },
+              {
+                "datum": "2025-05-19",
+                "nazov": "Informácia pre verejnosť – Oznámenie o výrube drevín a krovín v k.ú. Žaškov (287,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=541694"
               }
             ]
           },
@@ -25510,6 +25480,16 @@
         "url": "/?okresne-urady-klientske-centra&urad=32",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "„Vodovod a splašková kanalizácia, Nové Príbovce – II. etapa“ - rozhodnutie",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "Nové Príbovce (197,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=547685"
+              }
+            ]
+          },
+          {
             "kategoria": "„NORTH GATE T42 „VEĽKÁ OBROBŇA“ – OSI „E – J“ HELGEHEIM“ – Rozhodnutie vydané v zisťovacom konaní",
             "dokumenty": [
               {
@@ -25814,6 +25794,26 @@
         "nazov": "Žilina",
         "url": "/?okresne-urady-klientske-centra&urad=28",
         "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Rozhodnutie – Rozšírenie verejnej kanalizácie a verejného vodovodu v obci Lysica",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "2025_048663_006 (390,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=28&odbor=10&sekcia=uradna-tabula&subor=547732"
+              }
+            ]
+          },
+          {
+            "kategoria": "Logistický a výrobný areál Strečno III",
+            "dokumenty": [
+              {
+                "datum": "2025-07-30",
+                "nazov": "2025_055115_013 (131,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=28&odbor=10&sekcia=uradna-tabula&subor=547613"
+              }
+            ]
+          },
           {
             "kategoria": "Mesto RT_Verejná vyhláška",
             "dokumenty": [

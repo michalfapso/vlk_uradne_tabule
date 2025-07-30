@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "2337778 / 2023 323 / 024667",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-02-28",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ISMONT s.r.o",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sásová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2696/2",
+              "2696/43",
+              "2696/52-68",
+              "2701/1",
+              "2701/20",
+              "2701/21",
+              "2701/22",
+              "2702/30",
+              "2702/51",
+              "2702/80",
+              "2702/100"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "484/1",
+              "484/2",
+              "484/3",
+              "484/6"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "685/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Borovicový Háj – Sásová"
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "vodná stavba",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "zmena stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument je žiadosťou o povolenie zmeny stavby pred dokončením vodnej stavby, ktorá zahŕňa splaškovú a dažďovú kanalizáciu a vodovod, pre obytný súbor „Borovicový Háj – Sásová“. Realizácia je plánovaná v katastrálnom území Sásová, v Banskej Bystrici. Text dokumentu neuvádza informácie o chránených územiach ani dotknutých druhoch živočíchov a rastlín."
+}

@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/026403-0129349/2025",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/026403-0129349/2025",
+  "datum_dokumentu": "2025-02-16",
+  "datum_zverejnenia": "2025-02-16",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "úprava vodného toku",
+    "výstavba"
+  ],
+  "typ_uzemia": [
+    "NATURA 2000",
+    "SKUEV",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bentická fauna",
+    "ichtyofauna"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "55",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí správneho konania, ktoré sa týka pravdepodobne úpravy vodného toku alebo výstavby vodných stavieb. Navrhovaná činnosť sa dotýka území zaradených do sústavy NATURA 2000, konkrétne oblastí s 4. a 5. stupňom ochrany prírody. V texte sú zmienené dotknuté druhy ako bentická a ichtyofauna."
+}

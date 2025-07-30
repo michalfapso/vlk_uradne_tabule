@@ -1,0 +1,173 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Okresný úrad Nitra",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Nitriansky kraj"
+  },
+  "typ_dokumentu": "Program na zlepšenie kvality ovzdušia",
+  "typ_zasahu": [
+    "znižovanie emisií z vykurovania",
+    "výmena vykurovacích zariadení",
+    "energetická efektívnosť budov",
+    "podpora OZE",
+    "výstavba cesty",
+    "podpora nemotorovej dopravy",
+    "čistenie komunikácií",
+    "výsadba zelene",
+    "nakladanie s odpadmi"
+  ],
+  "typ_uzemia": [
+    "CHKO",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Chránený areál"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "lišajníky"
+  ],
+  "odkaz_enviroportal": "https://vykurovanie.enviroportal.sk/",
+  "paragrafy": [
+    {
+      "paragraf": "9",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "4",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "4",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "b",
+        "c",
+        "i"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je Program na zlepšenie kvality ovzdušia pre celú zónu Nitriansky kraj pre rok 2024, vypracovaný Okresným úradom Nitra. Zameriava sa na zníženie znečistenia ovzdušia (najmä PM10, PM2.5 a benzo(a)pyrén) pochádzajúceho z lokálneho vykurovania tuhými palivami a z dopravy. Program navrhuje opatrenia na zlepšenie techník vykurovania, podporu energetickej efektívnosti, OZE, ako aj dopravné opatrenia a revitalizáciu zelene. Oblasť obsahuje chránené územia ako CHKO, prírodné a národné prírodné rezervácie."
+}

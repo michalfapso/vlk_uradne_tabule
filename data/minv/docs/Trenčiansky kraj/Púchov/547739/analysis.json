@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "001272-011",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-21",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Púchov",
+    "obec": "Beluša",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beluša",
+        "parcely": []
+      },
+      {
+        "nazov": "Čerencove",
+        "parcely": []
+      },
+      {
+        "nazov": "Pothorie",
+        "parcely": []
+      },
+      {
+        "nazov": "Jurovo",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme elektrického vedenia Beluša-Podilavou"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie a okliesňovanie stromov a iných porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti ENZA s.r.o. Okresnému úradu Púchov o nevyhnutnom výrube náletových drevín a iných porastov v ochrannom pásme elektrického vedenia pre zabezpečenie bezporuchovej prevádzky. Činnosť sa týka katastrálnych území Beluša, Čerencove, Pothorie a Jurovo a je vykonávaná v súlade so zákonom o energetike a zákonom o ochrane prírody a krajiny."
+}

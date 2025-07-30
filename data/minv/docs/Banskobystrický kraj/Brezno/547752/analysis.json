@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-30",
+  "datum_zverejnenia": "2025-07-30",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Platan PRO, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "VN 309_k10"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno upovedomuje o plánovanom výrube a okliesnení drevín na úseku VN 309_k10 v katastrálnom území Brezno, ktorý vykonáva Platan PRO, s.r.o. Tento zásah je odôvodnený potrebou zabezpečiť bezpečnú a spoľahlivú prevádzku energetických zariadení a je realizovaný na základe výnimky podľa zákona o ochrane prírody."
+}

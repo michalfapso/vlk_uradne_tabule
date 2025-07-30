@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenské elektrárne, a.s. Závod Elektrárne Vojany",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Čičarovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čičarovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "kosenie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie Slovenských elektrární o výrube náletových drevín v ochrannom pásme pod elektrickým vedením linky V392 - 22kV v katastrálnom území Čičarovce, okres Michalovce. Činnosť je vykonávaná podľa § 47 ods. 7 zákona č. 543/2002 Z. z. a zákonov NR SR č. 251/2012 Z. z."
+}

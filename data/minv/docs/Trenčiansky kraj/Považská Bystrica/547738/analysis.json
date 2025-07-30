@@ -1,0 +1,35 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informačný leták",
+  "typ_zasahu": [
+    "manažment inváznych druhov",
+    "likvidácia invázneho druhu (sršeň ázijský)"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Vespa velutina nigrithorax",
+    "sršeň ázijský",
+    "hmyz",
+    "opeľovače",
+    "včely",
+    "včelstvá"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Tento informačný leták popisuje invázny druh sršňa ázijského (Vespa velutina nigrithorax), jeho šírenie a negatívny dopad na včelstvá a pôvodnú biodiverzitu. Poskytuje návod na identifikáciu sršňa, odporúčané opatrenia pre včelárov a vyzýva k nahlasovaniu pozorovaní Štátnej ochrane prírody SR s cieľom spomalenia jeho šírenia."
+}

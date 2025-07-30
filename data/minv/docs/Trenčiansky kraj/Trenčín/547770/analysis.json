@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2023/00994/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-16",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec MNÍCHOVA LEHOTA",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Mníchova Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mníchova Lehota",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3139"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3134",
+              "3135",
+              "3893",
+              "3895",
+              "3136",
+              "3137",
+              "3138",
+              "3141",
+              "3140"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodná nádrž na Rakoveckom potoku"
+  },
+  "typ_dokumentu": "Žiadosť o stavebné – vodoprávne povolenie",
+  "typ_zasahu": [
+    "rekonštrukcia vodnej nádrže",
+    "výstavba hrádze",
+    "úprava brehov",
+    "prehĺbenie nádrže",
+    "oplotenie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "50/1976"
+    }
+  ],
+  "zhrnutie": "Žiadosť obce Mníchova Lehota o vydanie stavebného – vodoprávneho povolenia na rekonštrukciu vodnej nádrže na Rakoveckom potoku. Predmetom rekonštrukcie je oprava hrádze, spodnej výpuste, výstavba bezpečnostného prelivu a úprava brehov v katastrálnom území Mníchova Lehota. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani druhy."
+}
