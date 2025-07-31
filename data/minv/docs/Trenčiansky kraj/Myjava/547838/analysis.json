@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-MY-OSZP-2025/000760",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "OBEC VRBOVCE",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Myjava",
+    "obec": "Vrbovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1724",
+              "1723/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub dreviny"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Obec Vrbovce oznamuje plánovaný výrub jedného stromu Jaseňa štíhleho v katastrálnom území Vrbovce. Dôvodom výrubu je havarijný stav dreviny, ktorá ohrozuje bezpečnosť cestnej premávky a priľahlú hospodársku budovu. Výrub sa uskutoční v období od 1.8. do 31.8.2025."
+}

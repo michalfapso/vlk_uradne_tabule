@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/046475",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-29",
+  "datum_zverejnenia": "2025-07-29",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "SLS – servis lesy stráž s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaca",
+        "parcely": []
+      },
+      {
+        "nazov": "Myslava",
+        "parcely": []
+      },
+      {
+        "nazov": "Kamenné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kavečany",
+        "parcely": []
+      },
+      {
+        "nazov": "Ťahanovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezávanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a orezávaní krovitej a stromovej vegetácie v ochrannom pásme elektrického vedenia v katastrálnych územiach Šaca, Myslava, Kamenné, Kavečany a Ťahanovce v meste Košice. Cieľom je zabezpečiť bezpečnú a spoľahlivú prevádzku prenosovej sústavy, pričom do tohto konania nie je možné sa prihlásiť."
+}

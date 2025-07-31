@@ -1,0 +1,385 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2025/014456-014",
+  "cislo_rozhodnutia": "OU-ZV-OSZP-2025/014456-014",
+  "datum_dokumentu": "2025-07-31",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Do 15 dní odo dňa doručenia (pre navrhovateľa a dotknutú obec) / prvého dňa zverejnenia v centrálnom informačnom systéme (pre dotknutú verejnosť) možno podať odvolanie proti záväznému stanovisku.",
+  "ziadatel_navrhovatel": "MH Teplárenský holding, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Zvolen",
+    "obec": "Zvolen",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Môťová",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1298/17",
+              "1298/55",
+              "1298/62",
+              "1298/66",
+              "1298/70",
+              "1298/204",
+              "1602/26",
+              "1602/126",
+              "1602/128",
+              "1607/2",
+              "1607/5",
+              "1607/11",
+              "1607/14",
+              "1607/15",
+              "2101/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Somárno"
+  },
+  "typ_dokumentu": "ZÁVÄZNÉ STANOVISKO zo zisťovacieho konania",
+  "typ_zasahu": [
+    "rekultivácia odkaliska",
+    "výrub krovín a drevín",
+    "vyčerpanie vody",
+    "prehĺbenie nádrže poldra",
+    "úprava brehovej línie",
+    "odstránenie nefunkčných objektov",
+    "terénne úpravy",
+    "zhotovenie tesniacich a sanačných vrstiev"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "kroviny",
+    "dreviny",
+    "trávnatý porast",
+    "drobné bezstavovce",
+    "vtáky",
+    "menšie cicavce"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/rekultivacia-odkaliska-popolovin-zavod-zvolen",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Skládkovanie odpadov - Uzavretie a rekultivácia skládok odpadov",
+      "zakon_cislo": "STN 83 8104"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Skládkovanie odpadov - Tesnenie skládok odpadov - Navrhovanie, zhotovovanie, kontrola a technické požiadavky",
+      "zakon_cislo": "STN 83 8106"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Ochrana drevín v blízkosti stavby",
+      "zakon_cislo": "STN 83 7010"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o požiadavkách na kvalitu ovzdušia a o emisných limitoch pre zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o evidenčnej povinnosti a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na meranie, posudzovanie a hodnocenie hluku, infrazvuku a vibrácií vo vonkajšom prostredí",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov (IPKZ)",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o výkone odborného technicko-bezpečnostného dohľadu nad vodnými stavbami a o výkone technicko-bezpečnostného dozoru",
+      "zakon_cislo": "119/2016 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov (IPKZ)",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov (IPKZ)",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov (IPKZ)",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov (IPKZ)",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "q"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z. príloha č.10"
+    },
+    {
+      "paragraf": "29",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z.z."
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko zo zisťovacieho konania pre navrhovanú zmenu činnosti „Rekultivácia odkaliska popolovín - závod Zvolen“ potvrdzuje, že činnosť nebude posudzovaná podľa zákona o posudzovaní vplyvov na životné prostredie. Projekt v obci Zvolen, k.ú. Môťová, zahŕňa technickú rekultiváciu odkaliska vrátane výrubu krovín a drevín na ploche cca 200 m2. Hoci je územie v 1. stupni ochrany, predpokladajú sa prevažne pozitívne vplyvy na životné prostredie a biodiverzitu po dokončení rekultivácie."
+}

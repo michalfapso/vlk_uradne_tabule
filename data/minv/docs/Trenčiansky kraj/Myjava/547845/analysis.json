@@ -1,0 +1,108 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/012222-013",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ŽELEZNICE SLOVENSKEJ REPUBLIKY BRATISLAVA",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Myjava",
+    "obec": "Brestovec, Myjava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brestovec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "40152/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "30807"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "30654/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Myjava",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1755/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "trati Nové Mesto nad Váhom – Vrbovce, v žkm 38,830 - 36,350"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie náletových porastov",
+    "odstránenie kríkov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "borovica",
+    "buk",
+    "čerešňa",
+    "brest",
+    "javor",
+    "orech",
+    "jaseň",
+    "slivka",
+    "hrab",
+    "vrba",
+    "náletové dreviny",
+    "krovia"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1 (2)",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením ŽSR o výrube drevín a odstraňovaní náletových porastov a kríkov na železničnej trati Nové Mesto nad Váhom – Vrbovce, v úseku žkm 38,830 - 36,350 v katastrálnych územiach Brestovec a Myjava. Dôvodom je ohrozenie bezpečnosti vlakovej dopravy, poškodzovanie vozidiel a narúšanie železničnej infraštruktúry. Oznámenie sa týka výrubu rôznych druhov stromov ako borovica, buk, brest a javor, v rokoch 2025 až 2029."
+}
