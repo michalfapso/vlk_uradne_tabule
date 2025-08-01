@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "BCD(EDB F,DG#G&H",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-07",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "PeBf $% %ZG #'V\"",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": null,
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "&G&HG##$",
+              "$%VHG##V",
+              "&#H!WZ%",
+              "Z!H!W%Z"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "Chránené vtáčie územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou týkajúcou sa konania o výrube drevín. Dotýka sa viacerých parcelných čísel a odkazuje na územia európskeho významu a chránené vtáčie územia, pričom sa odvoláva na ustanovenia zákona o ochrane prírody a krajiny."
+}

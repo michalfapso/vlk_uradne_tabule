@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/017158",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-31",
+  "datum_zverejnenia": "2025-08-01",
+  "lehoty_na_vyjadrenie": "nejde o správne konanie a do konania sa nedá prihlásiť",
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Sučany, Podhradie, Krpeľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Podhradie",
+        "parcely": []
+      },
+      {
+        "nazov": "Krpeľany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo VN vedenia č. 273 a 281/282"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube drevín v ochrannom pásme vysokonapäťového vedenia č. 273 a 281/282. Výrub sa má uskutočniť v katastrálnych územiach Sučany, Podhradie a Krpeľany v okrese Martin. Ide o informačný charakter oznámenia, do konania sa nie je možné prihlásiť."
+}

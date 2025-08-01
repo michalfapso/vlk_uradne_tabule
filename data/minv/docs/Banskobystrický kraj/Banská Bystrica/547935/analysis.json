@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/035278-ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Medzibrod a Brusno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Brusno",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vedení 22 kV: č. VN 382 k30"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je informácia pre verejnosť o plánovanom výrube drevín spoločnosťou Stredoslovenská distribučná, a.s. v ochrannom pásme vedenia 22 kV v katastrálnych územiach Medzibrod a Brusno. Dôvodom je prekročenie bezpečnej vzdialenosti porastov od vedenia. Upozorňuje sa, že do tohto konania nie je možné sa prihlásiť."
+}

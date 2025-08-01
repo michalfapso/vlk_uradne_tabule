@@ -1,0 +1,477 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/010280-021",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2025/010280-021",
+  "datum_dokumentu": "2025-07-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní od zverejnenia na enviroportáli (pre dotknutú verejnosť)",
+  "ziadatel_navrhovatel": "CEVING, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický",
+    "okres": "Košice-okolie",
+    "obec": "Kechnec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kechnec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "510/1",
+              "510/11",
+              "510/13",
+              "510/43",
+              "510/44",
+              "510/47",
+              "510/49",
+              "512/1",
+              "518/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "512",
+              "513",
+              "514/3",
+              "514/4",
+              "514/5",
+              "514/6",
+              "514/7",
+              "514/8",
+              "514/9",
+              "514/10",
+              "514/11",
+              "514/12",
+              "514/22",
+              "514/24"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Priemyselný park Kechnec"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba výrobno-skladového areálu",
+    "ľahká strojárska výroba",
+    "montáž",
+    "zemné práce",
+    "rekultivácia okolia stavby",
+    "výsadba drevín",
+    "odvádzanie dažďových vôd",
+    "nakladanie s odpadmi"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "CHVÚ Košická Kotlina",
+    "NATURA 2000",
+    "nechránené vodohospodárske"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "prepelica poľná (Coturnix coturnix)",
+    "sokol rároh (Falco cherrug)",
+    "sova dlhochvostá (Strix uralensis)",
+    "ďateľ hnedkavý (Dendrocopos syriacus)",
+    "bocian biely (Ciconia ciconia)",
+    "oraol kráľovský (Aquila heliaca)",
+    "geograficky pôvodné druhy drevín"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/vyrobno-skladovy-areal-kech",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o civilnom letectve",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "paragraf": "8a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o obmedzovaní ožiarenia pracovníkov a obyvateľov z prírodných zdrojov ionizujúceho žiarenia",
+      "zakon_cislo": "98/2018 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "29a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica o vodách",
+      "zakon_cislo": "2000/60/ES"
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "17",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej efektivite",
+      "zakon_cislo": "2010/31/EÚ"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "2018/844"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Projektovanie miestnych ciest",
+      "zakon_cislo": "STN 73 6110:2024"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "TP 085 / 2019"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o minimálnych zdravotných a bezpečnostných požiadavkách na ochranu zamestnancov pred rizikami súvisiacimi s expozíciou hluku",
+      "zakon_cislo": "115/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "73",
+      "odsek": "21",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "29",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom zo zisťovacieho konania pre výstavbu výrobno-skladového areálu 'KECH' žiadateľa CEVING, s.r.o. v obci Kechnec. Okresný úrad rozhodol, že činnosť sa nebude ďalej posudzovať podľa zákona EIA. Územie realizácie je v 1. stupni ochrany prírody a hraničí s CHVÚ Košická Kotlina (súčasť Natura 2000), ktoré chráni vzácne druhy vtákov ako prepelica poľná, sokol rároh a orol kráľovský. Stanovisko stanovuje podmienky pre zmiernenie vplyvov, vrátane vypracovania ornitologického posudku pred zemnými prácami v hniezdnom období a výsadby pôvodných druhov drevín."
+}

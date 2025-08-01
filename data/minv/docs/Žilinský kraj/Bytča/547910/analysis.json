@@ -1,0 +1,325 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2023/000406-016",
+  "cislo_rozhodnutia": "OU-BY-OSZP-2023/000406-0004507/2023",
+  "datum_dokumentu": "2023-07-30",
+  "datum_zverejnenia": "2023-07-30",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania; možnosť odvolania do 15 dní odo dňa oznámenia rozhodnutia.",
+  "ziadatel_navrhovatel": "Martin Guláša",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bytča",
+    "obec": "Štiavnik",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štiavnik",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "4907/14",
+              "4907/22"
+            ]
+          },
+          {
+            "typ": "EKU",
+            "cisla": [
+              "2022",
+              "2023",
+              "2026/1",
+              "2026/2",
+              "2027",
+              "2028",
+              "2032",
+              "2033",
+              "2034",
+              "2035",
+              "2038",
+              "2041/1"
+            ]
+          },
+          {
+            "typ": "EKN",
+            "cisla": [
+              "2041/1",
+              "2028",
+              "2025/2",
+              "2025/3",
+              "2072",
+              "2071"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Pod Hôrkou"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "zásah do biotopu",
+    "prejazd stavebných a iných vozidiel",
+    "výstavba (rekreačnej chaty)",
+    "odstraňovanie pôvodnej biotopy",
+    "extenzívne prepasávanie hospodárskymi zvieratami",
+    "odstránenie oplotenia"
+  ],
+  "typ_uzemia": [
+    "Biotop európskeho významu (Lk1, kód Natura 2000/6510)",
+    "1. stupeň ochrany prírody"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Aetherostictum zlatáče",
+    "Crupis biennis",
+    "datelina lúčna (Trifolium pratense)",
+    "trstikát drsnatý (Trisetum flavescens)",
+    "lipa malá (Anthoxanthum odoratum)",
+    "veronika obyčajná (Achillea millefolium)",
+    "alchemilka (Alchemilla sp.)",
+    "tomka voňavá (Anthoxanthum odoratum)",
+    "veronika obyčajná (Veronica chamaedrys)",
+    "hríb žltý (Boletus edulis)",
+    "žltochrasta (Clavaria flava)",
+    "korytnačka (Emys orbicularis)",
+    "škorec obyčajný (Sturnus vulgaris)",
+    "zelena (Picus viridis)",
+    "vlha obyčajná (Oriolus oriolus)",
+    "sýkorka obyčajná (Parus major)",
+    "kukučka obyčajná (Cuculus canorus)",
+    "drozd spevavý (Turdus philomelos)",
+    "králik (Oryctolagus cuniculus)",
+    "tráva obyčajná (Poa pratensis)",
+    "jeleň (Cervus elaphus)",
+    "srnka (Capreolus capreolus)",
+    "diviak (Sus scrofa)",
+    "jazvec (Meles meles)",
+    "líška (Vulpes vulpes)",
+    "veverička (Sciurus vulgaris)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "65",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "v"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "89",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "89",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6a",
+      "odsek": "2",
+      "pismena": [
+        "z"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "k",
+        "l",
+        "m",
+        "o"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Bytča udeľuje súhlas Martinovi Gulášovi na zásah do biotopu európskeho významu Lk1 – Nížinné a podhorské kosné lúky v katastrálnom území Štiavnik, lokalita Pod Hôrkou. Zásah spočíva v prejazde stavebných vozidiel a súvisiacich prácach za účelom prístupu k rekrečnej chate. Pozemky sa nachádzajú v 1. stupni ochrany prírody a sú určené kompenzačné opatrenia, napriek tomu, že konkrétne pozemky nie sú formálne súčasťou európskej sústavy Natura 2000."
+}
