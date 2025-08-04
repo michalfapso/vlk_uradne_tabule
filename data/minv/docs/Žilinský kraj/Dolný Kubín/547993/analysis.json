@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/007754",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-04",
+  "datum_zverejnenia": "2025-08-04",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Dolný Kubín",
+    "obec": [
+      "Vyšný Kubín",
+      "Bziny",
+      "Oravský Podzámok"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vyšný Kubín",
+        "parcely": []
+      },
+      {
+        "nazov": "Bziny",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravský Podzámok",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 220 kV vedenia na linke č. 281/282"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub porastov",
+    "údržba elektrických vedení"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zaklo_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o plánovanom výrube porastov v ochrannom pásme 220 kV elektrického vedenia (linka č. 281/282) v okrese Dolný Kubín. Výrub sa má uskutočniť v katastrálnych územiach Vyšný Kubín, Bziny a Oravský Podzámok z dôvodu pravidelnej údržby a bezpečnosti energetických zariadení. Konanie je vylúčené zo všeobecných predpisov o správnom konaní, čo znamená, že verejnosť nemá možnosť sa do neho prihlásiť."
+}

@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-BR-010363-BRE",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania.",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Jasenie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2608",
+              "2646",
+              "2938",
+              "2933"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "2. stupeň ochrany",
+    "3. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z"
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "r"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z"
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o plánovanom výrube drevín s obvodom do 90 cm v katastrálnom území Jasenie, okres Brezno. Výrub sa týka pozemkov C-KN 2608, 2646, 2938, 2933 a je na území s 2. alebo 3. stupňom ochrany. Podľa § 81 ods. 2 písm. r) zákona č. 543/2002 Z.z. nie je možné sa prihlásiť do konania."
+}

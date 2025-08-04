@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "0077-0552-2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "MALUSA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poltár",
+    "obec": "Hrnčiarska Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrnčiarska Ves - Pondelok",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie v zmysle zákona o ochrane prírody a krajiny",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "MALUSA s.r.o., na základe poverenia od Stredoslovenskej distribučnej, a.s., oznamuje Okresnému úradu Poltár plánovaný výrub a okliesnenie stromov a porastov. Činnosť sa vykoná v katastrálnom území Hrnčiarska Ves - Pondelok v ochrannom pásme elektrického vedenia VN, za účelom zaistenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení."
+}
