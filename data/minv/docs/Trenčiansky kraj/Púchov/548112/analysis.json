@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "ZP/25/00070/19 / 2025/00028-7",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-04",
+  "datum_zverejnenia": "2025-07-09",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Púchov",
+    "obec": "Horná Breznica, Zubák",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Breznica",
+        "parcely": []
+      },
+      {
+        "nazov": "Zubák",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo vedenia 22kV VN i.č. 202_k12 Horná Breznica - Zubák (od UV 13 po UV Zubák Píla)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti Stredoslovenská distribučná, a.s. o plánovanom výrube a okliesnení stromov a iných porastov v ochrannom pásme vedenia 22kV Horná Breznica - Zubák. Dôvodom je zabezpečenie spoľahlivej prevádzky energetických zariadení. Oznámenie bolo podané Okresnému úradu Púchov v zmysle zákona o ochrane prírody a krajiny."
+}

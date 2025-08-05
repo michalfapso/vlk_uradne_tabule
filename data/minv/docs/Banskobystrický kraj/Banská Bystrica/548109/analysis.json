@@ -1,0 +1,373 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "jún 2025",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Štátna ochrana prírody Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Rimavská Sobota",
+    "obec": "Rimavská Sobota, Nižná Pokoradz, Vyšná Pokoradz, Dražice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižná Pokoradz",
+        "parcely": []
+      },
+      {
+        "nazov": "Vyšná Pokoradz",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1420/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dražice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Pokoradzské jazierka"
+  },
+  "typ_dokumentu": "Program starostlivosti",
+  "typ_zasahu": [
+    "lesohospodárske zásahy",
+    "odstraňovanie inváznych drevín",
+    "kosenie",
+    "pasenie",
+    "odstraňovanie biomasy z vodných plôch",
+    "usmernenie využívania verejnosťou"
+  ],
+  "typ_uzemia": [
+    "Prírodná rezervácia",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "Chránené vtáčie územie",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "fuzáč veľký",
+    "roháč obyčajný",
+    "hrachor sedmohradský",
+    "bublinatka obyčajná",
+    "perutník močiarny",
+    "agát biely",
+    "pajaseň žliazkatý",
+    "zlatobyľ kanadská"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "17",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky č. 290/2021 Z. z., ktorým sa vyhlasuje prírodná rezervácia Pokoradzské jazierka",
+      "zakon_cislo": "290/2021 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky č. 451/2023 Z. z., ktorým sa ustanovuje národný zoznam území európskeho významu",
+      "zakon_cislo": "451/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky č. 30/2008 Z. z., ktorou sa vyhlasuje Chránené vtáčie územie Cerová vrchovina–Porimavie",
+      "zakon_cislo": "30/2008 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon 326/2005 Z. z. o lesoch v znení neskorších predpisov",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia Slovenskej republiky č. 450/2019 Z. z., ktorou sa ustanovujú podmienky a spôsoby odstraňovania inváznych nepôvodných druhov",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky č. 269/2010 Z. z., ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky č. 167/2015 Z. z. o environmentálnych normách kvality v oblasti vodnej politiky",
+      "zakon_cislo": "167/2015 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "x"
+      ],
+      "zakon_nazov": "Zákon 326/2005 Z. z. o lesoch v znení neskorších predpisov",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon 326/2005 Z. z. o lesoch v znení neskorších predpisov",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenie vlády Slovenskej republiky č. 436/2022 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory v poľnohospodárstve formou priamych platieb",
+      "zakon_cislo": "436/2022 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenie vlády Slovenskej republiky č. 436/2022 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory v poľnohospodárstve formou priamych platieb",
+      "zakon_cislo": "436/2022 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenie vlády Slovenskej republiky č. 436/2022 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory v poľnohospodárstve formou priamych platieb",
+      "zakon_cislo": "436/2022 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "nariadenie vlády Slovenskej republiky č. 436/2022 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory v poľnohospodárstve formou priamych platieb",
+      "zakon_cislo": "436/2022 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenia vlády č. 435/2022 Z. z., ktorým sa ustanovujú požiadavky na udržiavanie poľnohospodárskej plochy, aktívneho poľnohospodára a kondicionality",
+      "zakon_cislo": "435/2022 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenia vlády Slovenskej republiky č. 3/2023 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory na neprojektové opatrenia Strategického plánu spoločnej poľnohospodárskej politiky",
+      "zakon_cislo": "3/2023 Z. z."
+    },
+    {
+      "paragraf": "32",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "nariadenia vlády Slovenskej republiky č. 3/2023 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory na neprojektové opatrenia Strategického plánu spoločnej poľnohospodárskej politiky",
+      "zakon_cislo": "3/2023 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenia vlády Slovenskej republiky č. 3/2023 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory na neprojektové opatrenia Strategického plánu spoločnej poľnohospodárskej politiky",
+      "zakon_cislo": "3/2023 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "nariadenia vlády Slovenskej republiky č. 3/2023 Z. z., ktorým sa ustanovujú pravidlá poskytovania podpory na neprojektové opatrenia Strategického plánu spoločnej poľnohospodárskej politiky",
+      "zakon_cislo": "3/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky č. 449/2019 Z. z., ktorým sa vydáva zoznam inváznych nepôvodných druhov vzbudzujúcich obavy Slovenskej republiky",
+      "zakon_cislo": "449/2019 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadením vlády Slovenskej republiky č. 263/1998 Z. z., ktorým sa vyhlasuje záväzná časť územného plánu veľkého územného celku Banskobystrický kraj",
+      "zakon_cislo": "263/1998 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "4",
+      "pismena": [
+        "a",
+        "b",
+        "d"
+      ],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61c",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61e",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Programom starostlivosti pre Prírodnú rezerváciu Pokoradzské jazierka (ÚEV SKUEV0364), ktorá sa prekrýva s CHVÚ Cerová vrchovina–Porimavie a je pod 4. a 5. stupňom ochrany. Definuje opatrenia na obdobie 2025-2034 zamerané na zlepšenie stavu biotopov (lesných, lúčnych, mokraďných) a druhov ako fuzáč veľký, roháč obyčajný a hrachor sedmohradský, vrátane manažmentu lesa, odstraňovania inváznych druhov a vodných plôch a usmernenia využívania verejnosťou."
+}
