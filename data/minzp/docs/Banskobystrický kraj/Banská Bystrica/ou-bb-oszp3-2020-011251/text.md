@@ -1,7 +1,7 @@
-# OU-BB-OSZP3-2025/032257
+# OU-BB-OSZP3-2025/036439
 
-14.07.2025
+06.08.2025
 
-Konanie vo veci vydania súhlasu  na pasenie a košarovanie hospodárskych zvierat  v zmysle § 13 ods. 2 písm. e)  zákona č. 543/2002 Z.z.   pre žiadateľa ADM Agro Invest j.s.a.
+Konanie vo veci vydania súhlasu na výrub drevín v k.ú. Donovaly na prcelách č. 1035, 1037   v zmysle § 47  ods. 3  zákona č. 543/2002 Z.z.   pre Vladimíra Lieskovského z dôvodu starania sa o pozemok.
 
 Potvrdenie záujmu byť účastníkom v konkrétnom správnom konaní je potrebné doručiť na Okresný úrad Banská  Bystrica, OSZP3, Nám. Ľ. Štúra 1, 974 05 Banská Bystrica, alebo na mailovú adresu ivan.zmoray@minv.sk v lehote do 7 pracovných dní od zverejnenia informácie.

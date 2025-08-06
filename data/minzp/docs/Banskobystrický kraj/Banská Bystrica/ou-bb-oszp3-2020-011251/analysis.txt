@@ -1,53 +1,48 @@
 {
-  "cislo_konania_spisu": "OU-BB-OSZP3-2025/032257",
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/036439",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2025-07-14",
-  "datum_zverejnenia": null,
+  "datum_dokumentu": "2025-08-06",
+  "datum_zverejnenia": "2025-08-06",
   "lehoty_na_vyjadrenie": "do 7 pracovných dní od zverejnenia informácie",
-  "ziadatel_navrhovatel": "ADM Agro Invest j.s.a.",
+  "ziadatel_navrhovatel": "Vladimír Lieskovský",
   "miesto_realizacie": {
     "kraj": null,
-    "okres": null,
-    "obec": null,
-    "katastralne_uzemia": [],
+    "okres": "Banská Bystrica",
+    "obec": "Donovaly",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Donovaly",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1035",
+              "1037"
+            ]
+          }
+        ]
+      }
+    ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Informácia o konaní",
+  "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
-    "pasenie hospodárskych zvierat",
-    "košarovanie hospodárskych zvierat"
+    "výrub drevín"
   ],
   "typ_uzemia": [
-    "Druhý stupeň ochrany",
-    "územie s druhým stupňom ochrany"
+    "neviem"
   ],
-  "je_v_chranenom_uzemi": true,
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
-      "paragraf": "13",
-      "odsek": null,
+      "paragraf": "47",
+      "odsek": "3",
       "pismena": [],
-      "zakon_nazov": null,
-      "zakon_cislo": "543/2002 Z.z."
-    },
-    {
-      "paragraf": "13",
-      "odsek": "2",
-      "pismena": [],
-      "zakon_nazov": null,
-      "zakon_cislo": "543/2002 Z.z."
-    },
-    {
-      "paragraf": "13",
-      "odsek": "2",
-      "pismena": [
-        "e"
-      ],
       "zakon_nazov": null,
       "zakon_cislo": "543/2002 Z.z."
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania pre žiadateľa ADM Agro Invest j.s.a. vo veci vydania súhlasu na pasenie a košarovanie hospodárskych zvierat. Činnosť sa týka územia s druhým stupňom ochrany v zmysle zákona č. 543/2002 Z.z. o ochrane prírody a krajiny. Záujem o účasť v konaní je možné potvrdiť do 7 pracovných dní od zverejnenia."
+  "zhrnutie": "Oznámenie o začatí konania o vydaní súhlasu na výrub drevín pre Vladimíra Lieskovského v k.ú. Donovaly na parcelách č. 1035, 1037. Lehota na potvrdenie záujmu byť účastníkom konania je 7 pracovných dní od zverejnenia."
 }

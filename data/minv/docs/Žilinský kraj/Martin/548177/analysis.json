@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": "OUZP-A3-2023/003444-2-BA-C",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-05-10",
+  "datum_zverejnenia": "2023-05-11",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Obec Hričov",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Hričov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hričov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "011"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hričovské Podhradie",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "odber vôd",
+    "vypúšťanie odpadových vôd",
+    "výstavba vodnej stavby",
+    "prekladky inžinierskych sietí",
+    "úprava vodného toku",
+    "údržba vodohospodárskej stavby"
+  ],
+  "typ_uzemia": [
+    "chránené územie",
+    "4. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "zoobentos"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "40",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "42",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "45",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "45",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je verejná vyhláška týkajúca sa vodohospodárskych prác a údržby vodnej stavby, vrátane odberu vôd, vypúšťania odpadových vôd a prekladky inžinierskych sietí. Činnosť sa má realizovať v obci Hričov a Hričovské Podhradie, v chránenom území 4. stupňa ochrany, s potenciálnym dopadom na ichtyofaunu a bentickú faunu. Nie je možné sa prihlásiť do konania."
+}

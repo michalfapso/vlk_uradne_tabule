@@ -1,0 +1,356 @@
+{
+  "cislo_konania_spisu": "2/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-04",
+  "datum_zverejnenia": "2025-08-05",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LEOSTAV SEVER s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Štvrtok, Melčice, Zemianske Lieskové, Adamovské Kochanovce, Chocholná-Velčice, Drietoma, Orechové, Hrabovka, Dolná Súča, Nemšová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štvrtok",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "804/1",
+              "807",
+              "736",
+              "735",
+              "734",
+              "733"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Melčice",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "713",
+              "704",
+              "705",
+              "706",
+              "707/1",
+              "707/2",
+              "712",
+              "708/1",
+              "708/2",
+              "711",
+              "696",
+              "1632",
+              "1573/3",
+              "1573/2",
+              "1591/21",
+              "644",
+              "649",
+              "642/3",
+              "642/2",
+              "1540",
+              "1633",
+              "645/1",
+              "645/2",
+              "647",
+              "646"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zemianske Lieskové",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "914/74"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Adamovské Kochanovce",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "653/2",
+              "650",
+              "644",
+              "645",
+              "643",
+              "605",
+              "552/1",
+              "641/1",
+              "641/2",
+              "640",
+              "639",
+              "638",
+              "637",
+              "636",
+              "635",
+              "634",
+              "633",
+              "630/3",
+              "632/3",
+              "632/2",
+              "632/1",
+              "631/2",
+              "630/1",
+              "631/1",
+              "628",
+              "627",
+              "619/3",
+              "619/2",
+              "619/1",
+              "618",
+              "1033/7",
+              "871",
+              "1045",
+              "872",
+              "695",
+              "765/1",
+              "552"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Chocholná-Velčice",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1846/2",
+              "1784/23"
+            ]
+          },
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "838/1",
+              "899/13",
+              "898",
+              "897",
+              "1417",
+              "1418",
+              "1419",
+              "1420",
+              "1421",
+              "1422",
+              "1424/2",
+              "1627",
+              "882",
+              "883",
+              "884",
+              "881",
+              "880",
+              "879",
+              "878/1",
+              "877/1",
+              "876/1",
+              "875/1",
+              "874/1",
+              "873/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Drietoma",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "1279/4",
+              "1332/1",
+              "1333/4",
+              "1336",
+              "1338/1",
+              "1584/1",
+              "5025/2",
+              "1478",
+              "1477",
+              "1494"
+            ]
+          },
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "3356/2",
+              "974"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Orechové",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "1258",
+              "1257",
+              "1582/1",
+              "1142",
+              "1133/2"
+            ]
+          },
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "687/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hrabovka",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "1542/40",
+              "1505/3",
+              "1505/22",
+              "1542/10",
+              "1562",
+              "1502/20",
+              "1502/11",
+              "1516",
+              "1512/1",
+              "1512/2",
+              "1511/1",
+              "1510/1",
+              "1510/2",
+              "1502/13",
+              "1508/2",
+              "1508/1",
+              "1407/12",
+              "1407/22",
+              "1407/11",
+              "1407/21"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolná Súča",
+        "parcely": [
+          {
+            "typ": "KN-E",
+            "cisla": [
+              "3002",
+              "3017",
+              "3146",
+              "3147",
+              "3148",
+              "3149",
+              "3150",
+              "3152",
+              "3153",
+              "3154",
+              "3155",
+              "7959",
+              "3895",
+              "3894",
+              "3893",
+              "3787",
+              "3786",
+              "3788",
+              "3872",
+              "4454",
+              "4453",
+              "3784",
+              "3783",
+              "3782",
+              "3781",
+              "4445",
+              "4395"
+            ]
+          },
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1045/4",
+              "1048/6",
+              "1048/5",
+              "1053",
+              "1051",
+              "1055",
+              "10/60",
+              "1059",
+              "1056",
+              "1216",
+              "1227",
+              "1218",
+              "119"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nemšová",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "2837",
+              "2919",
+              "2920"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 400 kV, vedenie č. 495 TR: Bošáca – p.b. 92 a"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie stromy a iné porasty"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť LEOSTAV SEVER s.r.o. oznamuje Okresnému úradu Trenčín zámer nevyhnutného výrubu náletových drevín a okliesňovania porastov pod 400 kV elektrickým vedením č. 495 TR: Bošáca – p.b. 92a. Práce budú prebiehať v ochrannom pásme vedenia a dotknú sa viacerých katastrálnych území v okrese Trenčín."
+}
