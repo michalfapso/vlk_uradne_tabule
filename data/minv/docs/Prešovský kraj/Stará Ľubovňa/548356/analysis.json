@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-SL-OSZP-2025/009814",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-07",
+  "datum_zverejnenia": "2025-08-07",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Stará Ľubovňa",
+    "obec": "Stará Ľubovňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Ľubovňa",
+        "parcely": [
+          {
+            "typ": "KN/C",
+            "cisla": [
+              "4275/31"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o začatí správneho konania pre fyzickú osobu, ktorá žiada o vydanie súhlasu na výrub drevín. Drevina sa nachádza na parcele KN/C 4275/31 v katastrálnom území Stará Ľubovňa a dôvodom výrubu je nebezpečné nakláňanie stromu na susedný pozemok, kde ohrozuje chatu."
+}

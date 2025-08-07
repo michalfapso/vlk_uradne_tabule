@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Pavol Cierny FUCHS FARM",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prievidza",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nitrianske Rudno",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostolna Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Liest'any",
+        "parcely": []
+      },
+      {
+        "nazov": "Sec",
+        "parcely": []
+      },
+      {
+        "nazov": "Nevidzany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje zámer spoločnosti Pavol Cierny FUCHS FARM odstrániť a okliesniť stromy a iné porasty v ochrannom pásme VN vedenia č. 259, ktoré prechádza katastrálnymi územiami Nitrianske Rudno, Kostolna Ves, Liest'any, Sec a Nevidzany v okrese Prievidza. Cieľom je zabezpečiť spoľahlivú a bezpečnú prevádzku vedenia a bezpečnosť osôb, pričom činnosť je plánovaná na mesiace august a september a riadi sa zákonom o energetike a zákonom o ochrane prírody a krajiny."
+}

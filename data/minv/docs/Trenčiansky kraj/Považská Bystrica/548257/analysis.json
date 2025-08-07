@@ -1,0 +1,258 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/009384-020",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2025/009384-020",
+  "datum_dokumentu": "2025-08-07",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené, rozhodnutie je neopraviteľné.",
+  "ziadatel_navrhovatel": "Obec Prečín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Prečín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "916/1",
+              "916/2",
+              "916/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "26",
+              "27"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Paprudné"
+  },
+  "typ_dokumentu": "Rozhodnutie vydané v zisťovacom konaní",
+  "typ_zasahu": [
+    "Zmeny územného plánu",
+    "Výstavba objektov (administratíva a technické zázemie)",
+    "Záber lesnej pôdy",
+    "Odstránenie brehových porastov"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Strážovské vrchy",
+    "2. stupeň ochrany",
+    "Územie európskeho významu SKUEV 0256 Strážovské vrchy",
+    "Chránené vtáčie územie SKCHVU 028 Strážovské vrchy",
+    "NATURA 2000",
+    "Chránená vodohospodárska oblasť Strážovské vrchy",
+    "Regionálny biokoridor RBk 11 Podskalský Roháč – Kostolec",
+    "Genofondová lokalita GL 61 Dolina – Prečín",
+    "Genofondová lokalita GL 62 Čelo - Prečín"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "fauna",
+    "flóra",
+    "biotopy",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": "http://sea.enviroportal.sk/zoznam",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "25",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o územnoplánovacích podkladoch a územnoplánovacej dokumentácie",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú podrobnosti o obmedzovaní ožiarenia pracovníkov a obyvateľov z prírodných zdrojov ionizujúceho žiarenia",
+      "zakon_cislo": "57/2024 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Považská Bystrica zo zisťovacieho konania k strategickému dokumentu „Zmeny a doplnky č. 5 Územného plánu obce Prečín“. Úrad rozhodol, že uvedený strategický dokument nebude ďalej posudzovaný podľa zákona o posudzovaní vplyvov na životné prostredie. Zmeny ÚPN-O Prečín zahŕňajú výstavbu objektov pre protipožiarnu nádrž v lokalite Paprudné a záber lesnej pôdy. Územie sa nachádza v CHKO Strážovské vrchy (2. stupeň ochrany), ÚEV a CHVÚ Strážovské vrchy a Chránenej vodohospodárskej oblasti Strážovské vrchy."
+}

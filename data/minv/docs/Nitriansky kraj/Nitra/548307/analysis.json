@@ -1,0 +1,478 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/035950-003",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2025/035950-0109890/2025",
+  "datum_dokumentu": "2025-08-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (pre odvolanie)",
+  "ziadatel_navrhovatel": "Obec Mojmírovce",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky",
+    "okres": "Nitra",
+    "obec": "Mojmírovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mojmírovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "204/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "204/11"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "204/12"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "204/13"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "205/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "205/3"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "206/3"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "194/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "795/3"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "194/24"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "194/23"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Športový areál Mojmírovce"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba dažďovej kanalizácie",
+    "výstavba akumulačnej nádrže",
+    "výstavba vsakovacieho objektu",
+    "výstavba zavlažovacieho systému",
+    "úprava studne",
+    "odber podzemných vôd",
+    "vypúšťanie vôd z povrchového odtoku",
+    "vsakovanie vôd",
+    "výrub drevín",
+    "manipulácia so živočíchmi"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy živočíchov",
+    "živočíchy",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok) v znení neskorších predpisov",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR ktorým sa ustanovuje výška neregulovaných platieb, výška poplatkov a podrobnosti súvisiace so spoplatňovaním užívania vôd",
+      "zakon_cislo": "755/2004 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "b8"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "147/2013 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MP SR",
+      "zakon_cislo": "418/2010 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "nariadenia vlády",
+      "zakon_cislo": "755/2004 Z.z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o metrológii",
+      "zakon_cislo": "157/2018 Z.z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o technických požiadavkách na výrobky a o posudzovaní zhody a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "436/2001 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "148/1995 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "177",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutím Okresného úradu Nitra, ktorým sa povoľuje výstavba a osobitné užívanie vôd pre Športový areál Mojmírovce. Zásahy zahŕňajú výstavbu dažďovej kanalizácie, akumulačnej nádrže, vsakovacieho a zavlažovacieho systému, vrátane odberu a vypúšťania podzemných a povrchových vôd. Projekt sa realizuje v obci Mojmírovce v 1. stupni ochrany prírody a je potrebné dbať na ochranu drevín a živočíchov."
+}

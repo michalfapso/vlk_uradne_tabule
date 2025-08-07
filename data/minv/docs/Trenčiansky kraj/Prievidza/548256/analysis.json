@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Dolné Vestenice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prievidza",
+    "obec": "Dolné Vestenice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolné Vestenice",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1239/76",
+              "1239/75",
+              "1239/74",
+              "1239/35",
+              "1239/20",
+              "1239/21"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2271/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kopanice"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "protihavarijné opatrenia svahovej deformácie",
+    "záchranné práce"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "zákon o civilnej ochrane obyvateľstva",
+      "zakon_cislo": "42/1994 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube drevín a krovitého porastu v obci Dolné Vestenice, okres Prievidza, v lokalite Kopanice. Výrub sa realizuje na základe vyhlásenej mimoriadnej situácie a je odôvodnený ako protihavarijné opatrenia svahovej deformácie a záchranné práce v obytnej zóne. Dotknuté sú parcely CKN 1239/76, 1239/75, 1239/74, 1239/35, 1239/20, 1239/21 a EKN 2271/1."
+}
