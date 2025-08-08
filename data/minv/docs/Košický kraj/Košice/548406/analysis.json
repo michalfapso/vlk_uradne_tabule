@@ -1,0 +1,408 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/014521-019",
+  "cislo_rozhodnutia": "OU-KE-OSZP3-2025/014521-019",
+  "datum_dokumentu": "2025-08-06",
+  "datum_zverejnenia": "2025-08-08",
+  "lehoty_na_vyjadrenie": "Proti tomuto rozhodnutiu je možné podať odvolanie v lehote do 15 dní odo dňa doručenia rozhodnutia. Účastníkom konania a zúčastneným osobám bola daná možnosť vyjadriť sa k podkladu rozhodnutia v lehote 3 dní odo dňa doručenia oboznámenia (09.07.2025). Predtým bola lehota na námietky 7 pracovných dní od doručenia oznámenia začatia konania.",
+  "ziadatel_navrhovatel": "DUMAD s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Severné Mesto",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "8281/1",
+              "7132/290",
+              "7132/264",
+              "7132/266",
+              "7100",
+              "7132/263",
+              "7101",
+              "7132/267",
+              "7132/265",
+              "7132/265",
+              "7104",
+              "7132/1",
+              "7105",
+              "7132/285"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bytový dom s polyfunkciou KLAS, Cesta pod Hradovou 28, Košice"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom povolení (vodná stavba)",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "odvádzanie splaškových odpadových vôd",
+    "odvádzanie dažďových vôd",
+    "vsakovanie vôd",
+    "úprava terénu",
+    "sadové úpravy",
+    "implementácia zelenej strechy"
+  ],
+  "typ_uzemia": [
+    "biokoridor miestneho významu",
+    "Prírodný park Anička",
+    "ochranné pásmo vodovodného potrubia",
+    "ochranné pásmo kanalizačného potrubia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "65",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "8a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov (zákon o odpadoch)",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov (zákon o odpadoch)",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných výrobkoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "133/2013 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "39a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "58a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "5",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Toto rozhodnutie Okresného úradu Košice povoľuje spoločnosti DUMAD s.r.o. uskutočniť vodnú stavbu – kanalizáciu pre bytový dom s polyfunkciou KLAS v katastrálnom území Severné Mesto v Košiciach. Stavba zahŕňa odvádzanie splaškových a dažďových vôd do verejnej kanalizácie a vsakovacej nádrže, vrátane dažďového jazierka. Dokument zdôrazňuje podmienky ochrany okolitej prírody, zelene a biokoridorov miestneho významu ako 'Kostolianska cesta' a 'Podhradová'."
+}
