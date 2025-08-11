@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2025/018888",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-11",
+  "datum_zverejnenia": "2025-08-11",
+  "lehoty_na_vyjadrenie": "V zmysle § 82 ods. 8 zákona o ochrane prírody a krajiny sa do predmetného konania nie je možné prihlásiť a prejaviť záujem byť zúčastnenou osobou.",
+  "ziadatel_navrhovatel": "ENZA s.r.o., Májová 1098, 022 01 Čadca, IČO: 36 375 918",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Spišská Nová Ves",
+    "obec": "Letanovce, Iliašovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Letanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Iliašovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 400 kV elektrického vedenia V407 Liptovská Mara - Spišská Nová Ves"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube drevín, ktorý má vykonať spoločnosť ENZA s.r.o. v ochrannom pásme 400 kV elektrického vedenia V407 Liptovská Mara - Spišská Nová Ves v katastrálnych územiach Letanovce a Iliašovce. Výrub je nutný pre zabezpečenie plynulej prevádzky vedenia a verejnosť sa do tohto konania nemôže prihlásiť."
+}

@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredná odborná škola Pod Bánošom, Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informačný leták a príručka",
+  "typ_zasahu": [
+    "monitorovanie",
+    "kontrola invázneho druhu",
+    "prevencia šírenia invázneho druhu",
+    "ničenie a odstraňovanie hniezd",
+    "odchyt sršňov",
+    "ochrana včelstiev",
+    "používanie chemických látok",
+    "používanie biocídov",
+    "používanie CO2",
+    "používanie tepla/pary",
+    "presun včelstiev"
+  ],
+  "typ_uzemia": [
+    "mestské prostredia",
+    "lesné prostredie",
+    "chránené oblasti",
+    "prírodné rezervácie",
+    "alpská oblasť"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "sršeň ázijský (Vespa velutina nigrithorax)",
+    "sršeň európsky (Vespa crabro)",
+    "včely medonosné (Apis mellifera)",
+    "včely ázijské (Apis cerana)",
+    "osy",
+    "blanokrídlovce",
+    "dvojkrídlovce",
+    "opeľovače",
+    "hmyz",
+    "vtáky",
+    "cicavce"
+  ],
+  "odkaz_enviroportal": "www.biomonitoring.sk",
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie EÚ o inváznych druhoch vzbudzujúcich obavy",
+      "zakon_cislo": "1143/2014"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vykonávacie nariadenie Komisie (EÚ)",
+      "zakon_cislo": "2016/1141"
+    }
+  ],
+  "zhrnutie": "Tento dokument je informačnou príručkou o inváznom ázijskom sršňovi (Vespa velutina nigrithorax), ktorý ohrozuje európsku biodiverzitu a včelárstvo. Podrobne popisuje jeho biológiu, metódy monitorovania (napr. pasce, radary, drony) a stratégie kontroly vrátane ničenia hniezd (mechanické a chemické metódy) a ochrany včelstiev (siete, elektrické harfy). Zdôrazňuje potrebu vzdelávania, regionálnej spolupráce a súladu s legislatívou EÚ pri riadení tohto druhu v rôznych typoch území."
+}

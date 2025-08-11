@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "20 00 54912 /2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-10-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poprad",
+    "obec": "Spišský Hrhov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišský Hrhov",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "331-334"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad oznamuje nevyhnutný výrub náletových drevín v ochrannom pásme elektrického vedenia 400 kV (V407 Liptovská Mara – Spišská Nová Ves) v katastrálnom území Spišský Hrhov. Výrub vykonáva spoločnosť ENZA s.r.o. a je odôvodnený potrebou zabezpečenia plynulej a bezporuchovej prevádzky vedenia podľa zákona o energetike."
+}

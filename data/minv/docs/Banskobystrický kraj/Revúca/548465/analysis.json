@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000823",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-08-11",
+  "lehoty_na_vyjadrenie": "najmenej 5 pracovných dní od zverejnenia",
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "1594/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "umiestnenie úľov",
+    "oplotenie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "l",
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre vydanie súhlasu na umiestnenie úľov a oplotenia na parcele KNE č. 1594/2 v katastrálnom území Muráň. Konanie sa vedie podľa zákona o ochrane prírody a krajiny, čo naznačuje dotknutie chránených záujmov."
+}

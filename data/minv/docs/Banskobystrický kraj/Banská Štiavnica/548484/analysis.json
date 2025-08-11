@@ -1,0 +1,27 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Banská Štiavnica",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Michalštôlniansky tajch"
+  },
+  "typ_dokumentu": "Neznámy typ dokumentu",
+  "typ_zasahu": [
+    "výstavba solárnej elektrárne"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument je fragment, ktorý odkazuje na lokalitu Banská Štiavnica a Michalštôlniansky tajch, a spomína solárnu elektráreň. Chránené územia ani lehoty na vyjadrenie nie sú uvedené."
+}
