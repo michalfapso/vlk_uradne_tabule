@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/020288",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "wigo gottschligg s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Myjava",
+    "obec": "Myjava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Myjava",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "3164/2",
+              "3164/3",
+              "3164/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba výrobnej haly",
+    "výstavba ubytovne",
+    "odber podzemných vôd",
+    "vypúšťanie dažďových vôd",
+    "vypúšťanie splaškových vôd",
+    "odlučovanie ropných látok"
+  ],
+  "typ_uzemia": [
+    "vodný tok Cengelka",
+    "vodný útvar SKM0003 Myjava",
+    "vodný útvar SK2000700F Puklinové podzemné vody západnej časti flyšového pásma",
+    "čiastkové povodie Moravy"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "21",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je záväzným stanoviskom Okresného úradu Trenčín k zámeru „Výrobná hala s administratívou a ubytovňa zamestnancov“ v Myjave. Stanovisko potvrdzuje, že pre navrhovanú činnosť, ktorá zahŕňa odber podzemných vôd, vypúšťanie dažďových a splaškových vôd, sa nevyžaduje výnimka z environmentálnych cieľov podľa vodného zákona. Vplyv na vodný tok Cengelka, útvar povrchovej vody Myjava a útvar podzemnej vody sa považuje za nevýznamný."
+}

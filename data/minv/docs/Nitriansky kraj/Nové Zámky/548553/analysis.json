@@ -1,0 +1,35 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Obec Černík",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Zámky",
+    "obec": "Černík",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie návrhu na vydanie povolenia zmeny stavby pred dokončením",
+  "typ_zasahu": [
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/region-komjatice-odvedenie-cistenie-odpadovych-vod",
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je zverejnením návrhu na vydanie povolenia zmeny stavby pred dokončením pre projekt 'Dostavba kanalizácie v obci Černík', kde je žiadateľom Obec Černík. Spomína právoplatné rozhodnutie zo zisťovacieho konania podľa zákona o EIA a odkazuje na detailné informácie na enviroportáli."
+}

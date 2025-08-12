@@ -1,0 +1,177 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Možnosť podať odvolanie dotknutou verejnosťou voči záväznému stanovisku zo zisťovacieho konania do 15 dní odo dňa jeho doručenia. Nie je uvedená všeobecná lehota na vyjadrenie verejnosti k zámeru.",
+  "ziadatel_navrhovatel": "NAFTA Production s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Malacky",
+    "obec": "Jakubov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jakubov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4579/6"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4826/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Jakubov 66 a Jakubov 69, dobývací priestor Kostolište a dobývací priestor Suchohrad"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "ťažba horľavého zemného plynu",
+    "úprava horľavého zemného plynu",
+    "banská činnosť",
+    "čerpacia skúška",
+    "perforácia plynonostných obzorov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o banskej činnosti, výbušninách a o štátnej banskej správe",
+      "zakon_cislo": "51/1988 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o výbušninách, výbušných predmetoch a munícií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "58/2014 Z. z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "všeobecného predpisu o správnom konaní",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o začatí zisťovacieho konania pre zmenu navrhovanej činnosti 'Ťažba a úprava horľavého zemného plynu vrtmi Jakubov 66 a Jakubov 69' v katastrálnom území Jakubov, okres Malacky. Žiadateľom je NAFTA Production s.r.o. Dokument špecifikuje možnosti odvolania voči budúcemu stanovisku zo zisťovacieho konania."
+}

@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/048415-0133342/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Vojka Farm s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Vojka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vojka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1084/33",
+              "1084/7",
+              "1084/29"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hydinárska farma Róbert Gazdag"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba studne",
+    "odber podzemných vôd",
+    "výstavba vodovodnej prípojky",
+    "výstavba zásobníka vody"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja (I. stupeň)",
+    "Chránená krajinná oblasť Latorica",
+    "Ramsarská lokalita Latorica",
+    "Chránené vtáčie územie Medzibodrožie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je záväzným stanoviskom Okresného úradu Košice k výstavbe novej studne (SO 14 Studňa HVF-1) pre Vojka Farm s.r.o. v obci Vojka, okres Trebišov, za účelom zabezpečenia pitnej vody pre hydinársku farmu. Lokalita projektu sa nachádza na území Chránenej krajinnej oblasti Latorica a Chráneného vtáčieho územia Medzibodrožie a navrhuje sa pre ňu zriadiť ochranné pásmo I. stupňa vodárenského zdroja."
+}

@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/016972",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-12",
+  "datum_zverejnenia": "2025-08-12",
+  "lehoty_na_vyjadrenie": "Neuvedené. Podľa § 81 ods. 2 písm. m) zákona č. 543/2002 Z.z. sa všeobecné predpisy o správnom konaní nevzťahujú na konanie podľa § 47 ods. 8 zákona.",
+  "ziadatel_navrhovatel": "Zelená Dolina, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senica",
+    "obec": "Sobotište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sobotište",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4520"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4146"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4523"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4573"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4144/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hyžovci"
+  },
+  "typ_dokumentu": "Informácia o oznámení",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vyčistenie ochranného pásma pod podpernými bodmi elektrického vedenia od náletových drevín",
+    "výmena podperných bodov",
+    "natiahnutie nových vzdušných vodičov",
+    "výmena Al-Fe vodičov za NFA - izolovaný kábel"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "agát",
+    "baza čierna",
+    "ovociny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Informáciou o oznámení plánovaného výrubu drevín, podaného spoločnosťou Zelená Dolina, s. r. o. v obci Sobotište, lokalita Hyžovci, k.ú. Sobotište. Výrub drevín na ploche cca 2065 m2 je zdôvodnený údržbou a výmenou elektrických vedení a podperných bodov v ochrannom pásme NN siete, na základe zákona o energetike a zákona o ochrane prírody."
+}
