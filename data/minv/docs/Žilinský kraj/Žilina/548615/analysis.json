@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Hodnotenie a stanovenie cieľov ochrany druhov európskeho významu",
+  "typ_zasahu": [
+    "manažment biotopov",
+    "redukcia krovinovej etáže",
+    "odstraňovanie sukcesných porastov drevín a krovín",
+    "odstraňovanie inváznych druhov",
+    "ochrana vodného toku pred zásahmi a znečistením"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV0299 Baranovo",
+    "SKUEV0298 Brvnište",
+    "SKUEV0150 Červený grúň",
+    "SKUEV0149 Mackov bok",
+    "SKUEV0302 Ďumbierske Tatry",
+    "SKEV0310 Kráľovohoľské Tatry",
+    "SKUEV0151 Pohorelské vrchovisko",
+    "SKUEV0197 Salatín",
+    "SKUEV0300 Skribňovo",
+    "SKUEV0296 Turková"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Cypripedium calceolus",
+    "Cyclamen fatrense",
+    "Pulsatilla subslavica",
+    "Pulsatilla slavica",
+    "Campanulla serrata",
+    "Dianthus nitidus",
+    "Mannia triandra",
+    "Ochyraea tatrensis",
+    "Adenophora liliifolia",
+    "Ligularia sibirica",
+    "Buxbaumia viridis",
+    "Hamatocaulis vernicosus"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Tento dokument popisuje hodnotenie stavu a stanovenie cieľov ochrany vybraných druhov rastlín európskeho významu (Natura 2000 druhy) v rôznych územiach európskeho významu (SKUEV). Pre každý druh a lokalitu sú definované merateľné ciele pre veľkosť populácie, výmeru a kvalitu biotopu. Dokument naznačuje potrebu manažmentu biotopov, ako je redukcia krovinovej etáže, odstraňovanie sukcesných a inváznych druhov, a ochrana vodných tokov."
+}

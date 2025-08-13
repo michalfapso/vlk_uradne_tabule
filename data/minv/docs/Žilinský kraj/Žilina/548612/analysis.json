@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Národný park Nízke Tatry"
+  },
+  "typ_dokumentu": "Strategický dokument - Hodnotenie a ciele ochrany biotopov",
+  "typ_zasahu": [
+    "manažment mŕtveho dreva",
+    "manažment inváznych druhov",
+    "zachovanie prirodzenej dynamiky vodného toku",
+    "zlepšenie stavu biotopov",
+    "zachovanie priaznivého stavu biotopov"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "Národný park Nízke Tatry",
+    "ochranné pásmo národného parku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Aconitum moldavicum",
+    "Aconitum firmum",
+    "Hesperis matronalis subsp. nivea",
+    "Soldanella carpatica",
+    "Campanula carpatica",
+    "Carduus glaucinus",
+    "Cyclamen fatrense",
+    "Sesleria heufleriana",
+    "Leucanthemum rotundifolium",
+    "Dentaria glandulosa",
+    "Cypripedium calceolus",
+    "Abies alba",
+    "Fagus sylvatica",
+    "Picea abies",
+    "Pinus mugo",
+    "Pinus sylvestris",
+    "Taxus baccata",
+    "Ulmus glabra",
+    "Alnus glutinosa",
+    "Acer platanoides",
+    "Acer pseudoplatanus",
+    "Fraxinus excelsior",
+    "Larix decidua",
+    "Quercus petraea agg",
+    "Quercus robur agg",
+    "Quercus pubescens agg",
+    "Carpinus betulus",
+    "mŕtve drevo"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument definuje ciele ochrany a zlepšenia stavu rôznych typov lesných biotopov európskeho a národného významu, vrátane tých v Národnom parku Nízke Tatry. Kľúčové ciele zahŕňajú udržanie alebo zvýšenie výmery biotopov, zabezpečenie prítomnosti charakteristických druhov rastlín (vrátane endemitov a anexových druhov), manažment mŕtveho dreva a minimalizáciu inváznych druhov. Osobitná pozornosť je venovaná aj zachovaniu prirodzenej dynamiky vodných tokov."
+}

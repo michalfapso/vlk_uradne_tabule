@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "DEMÄNOVÁ",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "341b_0",
+              "341a_0"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "LIPTOVSKÝ JÁN",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "278 _ 0",
+              "319 _ 1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "JASENIE",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "61 b 0",
+              "61 c 0"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "PREDAJNÁ",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "602 _ 0",
+              "600 _ 0"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zoznam pozemkov pre finančnú náhradu za obmedzenie hospodárenia",
+  "typ_zasahu": [
+    "Obmedzenie hospodárenia v lesoch"
+  ],
+  "typ_uzemia": [
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument predstavuje zoznam lesných pozemkov a ich vlastníkov v rôznych katastrálnych územiach (napr. Demänová, Liptovský Ján, Jasenie, Predajná, Partizánska Ľupča, Brezno, Ružomberok, Malužiná, Liptovská Osada, Kráľova Lehota, Polomka). Všetky uvedené pozemky spadajú pod 5. stupeň ochrany prírody. Účelom dokumentu je špecifikácia pozemkov, za ktoré sa poskytuje finančná náhrada vlastníkom z dôvodu obmedzenia lesného hospodárenia v týchto prísne chránených oblastiach."
+}

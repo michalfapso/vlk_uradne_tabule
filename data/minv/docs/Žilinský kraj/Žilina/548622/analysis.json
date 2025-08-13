@@ -1,0 +1,485 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2025/063580",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-13",
+  "datum_zverejnenia": "2025-08-13",
+  "lehoty_na_vyjadrenie": "Vlastník, správca a nájomca dotknutého pozemku, obec a dotknutý orgán štátnej správy má právo najneskôr do 30 dní od doručenia oznámenia zámeru alebo jeho verejného oznámenia podať k nemu písomné pripomienky Okresnému úradu v sídle kraja Žilina. V prípade doručenia tohto oznámenia verejnou vyhláškou sa za deň doručenia považuje 15. deň jej vyvesenia na úradnej tabuli Okresného úradu v sídle kraja Žilina.",
+  "ziadatel_navrhovatel": "Správa Národného parku Nízke Tatry",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj, Banskobystrický kraj, Prešovský kraj",
+    "okres": "Liptovský Mikuláš, Ružomberok, Banská Bystrica, Brezno, Poprad",
+    "obec": "Liptovský Mikuláš, Demänovská Dolina, Dúbrava, Hybe, Kráľova Lehota, Lazisko, Liptovské Kľačany, Liptovský Ján, Ľubeľa, Malužiná, Nižná Boca, Partizánska Ľupča, Pavčina Lehota, Svätý Kríž, Uhorská Ves, Važec, Východná, Vyšná Boca, Závažná Poruba, Liptovská Porúbka, Liptovská Lúžna, Liptovská Osada, Liptovská Štiavnica, Ludrová, Ružomberok, Liptovské Sliače, Banská Bystrica, Baláže, Donovaly, Hiadeľ, Brusno, Lučatín, Medzibrod, Moštenica, Motyčky, Podkonice, Pohronský Bukovec, Priechod, Selce, Staré Hory, Špania Dolina, Nemce, Bacúch, Beňuš, Braväcovo, Brezno, Dolná Lehota, Heľpa, Horná Lehota, Jarabá, Jasenie, Mýto pod Ďumbierom, Nemecká, Podbrezová, Pohorelá, Polomka, Predajná, Ráztoka, Šumiac, Telgárt, Valaská, Vaľkovňa, Závadka nad Hronom, Bystrá, Liptovská Teplička, Štrba, Vernár, Vikartovce, Šuňava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Iľanovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Ploštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": []
+      },
+      {
+        "nazov": "Dúbrava",
+        "parcely": []
+      },
+      {
+        "nazov": "Hybe",
+        "parcely": []
+      },
+      {
+        "nazov": "Kráľova Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Lazisko",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovský Ján",
+        "parcely": []
+      },
+      {
+        "nazov": "Malužiná",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižná Boca",
+        "parcely": []
+      },
+      {
+        "nazov": "Partizánska Ľupča",
+        "parcely": []
+      },
+      {
+        "nazov": "Pavčina Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Vislavce",
+        "parcely": []
+      },
+      {
+        "nazov": "Važec",
+        "parcely": []
+      },
+      {
+        "nazov": "Východná",
+        "parcely": []
+      },
+      {
+        "nazov": "Vyšná Boca",
+        "parcely": []
+      },
+      {
+        "nazov": "Závažná Poruba",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Porúbka",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Lúžna",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Osada",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Štiavnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Ružomberok",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Sliače",
+        "parcely": []
+      },
+      {
+        "nazov": "Baláže",
+        "parcely": []
+      },
+      {
+        "nazov": "Donovaly",
+        "parcely": []
+      },
+      {
+        "nazov": "Hiadeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Brusno",
+        "parcely": []
+      },
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Moštenica",
+        "parcely": []
+      },
+      {
+        "nazov": "Motyčky",
+        "parcely": []
+      },
+      {
+        "nazov": "Podkonice",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohronský Bukovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Bacúch",
+        "parcely": []
+      },
+      {
+        "nazov": "Beňuš",
+        "parcely": []
+      },
+      {
+        "nazov": "Braväcovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Heľpa",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Jarabá",
+        "parcely": []
+      },
+      {
+        "nazov": "Jasenie",
+        "parcely": []
+      },
+      {
+        "nazov": "Mýto pod Ďumbierom",
+        "parcely": []
+      },
+      {
+        "nazov": "Nemecká",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohorelá",
+        "parcely": []
+      },
+      {
+        "nazov": "Polomka",
+        "parcely": []
+      },
+      {
+        "nazov": "Ráztoka",
+        "parcely": []
+      },
+      {
+        "nazov": "Šumiac",
+        "parcely": []
+      },
+      {
+        "nazov": "Telgárt",
+        "parcely": []
+      },
+      {
+        "nazov": "Závadka nad Hronom",
+        "parcely": []
+      },
+      {
+        "nazov": "Bystrá",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Teplička",
+        "parcely": []
+      },
+      {
+        "nazov": "Vernár",
+        "parcely": []
+      },
+      {
+        "nazov": "Vikartovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Bodice",
+        "parcely": []
+      },
+      {
+        "nazov": "Demänová",
+        "parcely": []
+      },
+      {
+        "nazov": "Kráľovská Ľubeľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Kríž",
+        "parcely": []
+      },
+      {
+        "nazov": "Uhorská Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Ludrová",
+        "parcely": []
+      },
+      {
+        "nazov": "Sásová",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostiviarska",
+        "parcely": []
+      },
+      {
+        "nazov": "Uľanka",
+        "parcely": []
+      },
+      {
+        "nazov": "Lučatín",
+        "parcely": []
+      },
+      {
+        "nazov": "Priechod",
+        "parcely": []
+      },
+      {
+        "nazov": "Selce",
+        "parcely": []
+      },
+      {
+        "nazov": "Staré Hory",
+        "parcely": []
+      },
+      {
+        "nazov": "Špania Dolina",
+        "parcely": []
+      },
+      {
+        "nazov": "Nemce",
+        "parcely": []
+      },
+      {
+        "nazov": "Podbrezová",
+        "parcely": []
+      },
+      {
+        "nazov": "Predajná",
+        "parcely": []
+      },
+      {
+        "nazov": "Valaská",
+        "parcely": []
+      },
+      {
+        "nazov": "Vaľkovňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Štrba",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižná Šuňava",
+        "parcely": []
+      },
+      {
+        "nazov": "Vyšná Šuňava",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Národný park Nízke Tatry (NAPANT)"
+  },
+  "typ_dokumentu": "Oznámenie zámeru",
+  "typ_zasahu": [
+    "úprava ochrany územia",
+    "vyhlásenie zón",
+    "zmena hraníc",
+    "návrh Programu starostlivosti o chránené územie"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "Ochranné pásmo Národného parku Nízke Tatry",
+    "NATURA 2000",
+    "Územie európskeho významu (SKUEV)",
+    "Chránené vtáčie územie (SKCHVU)",
+    "Národná prírodná rezervácia (NPR)",
+    "Prírodná rezervácia (PR)",
+    "Chránený areál (CHA)",
+    "Národná prírodná pamiatka (NPP)",
+    "Prírodná pamiatka (PP)",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotopy európskeho a národného významu",
+    "druhy európskeho a národného významu",
+    "vybrané druhy vtákov"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "55",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "20",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "90",
+      "odsek": "1",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "92",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Žilina o zámere vyhlásiť zóny Národného parku Nízke Tatry a zmeniť jeho hranice a hranice ochranného pásma, spolu s návrhom Programu starostlivosti na roky 2026-2055. Dotknuté územie zahŕňa viacero krajov a okresov, s navrhovanými zónami ochrany od 2. po 5. stupeň. Verejnosť má 30 dní na podanie písomných pripomienok k tomuto strategickému dokumentu."
+}
