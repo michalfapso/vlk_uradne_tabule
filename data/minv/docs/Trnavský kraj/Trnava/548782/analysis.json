@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "059437",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LE SOSTAV SEVER S.R.O.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Zavar, Veľké Brestovany, Malé Brestovany, Bučany, Malženice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zavar",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "244/63"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľké Brestovany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "449",
+              "433",
+              "404",
+              "401",
+              "405",
+              "448",
+              "1317",
+              "1318"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malé Brestovany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "199"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bučany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "950/12",
+              "951",
+              "949",
+              "948/6",
+              "2232"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malženice",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1108/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1278/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 400 kV, vedenie č. 496 TR: Križovany – EBO – Bošaca"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením od spoločnosti LESOSTAV SEVER S.R.O. pre Okresný úrad Trnava o nevyhnutnom výrube náletových drevín v ochrannom pásme elektrického vedenia 400 kV č. 496 TR: Križovany – EBO – Bošaca. Činnosť sa bude realizovať v katastrálnych územiach Zavar, Veľké Brestovany, Malé Brestovany, Bučany a Malženice v okrese Trnava, s cieľom zabezpečiť bezporuchovú prevádzku vedenia."
+}

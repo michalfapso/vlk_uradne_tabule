@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-08-14 18:40:46",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 548769, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=548769: Chyba pri sťahovaní URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=548769: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Malženice",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Popis mapy / Analýza mapového podkladu",
+  "typ_zasahu": [
+    "výstavba energetického diela (VVN)"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument obsahuje popis obsahu situačných máp s mierkou 1:10 000. Sú na ňom uvedené názvy lokalít ako Hony, Pardúň, Diely, Mníšske, Malženice a Zavar. Na mapách sú popísané rôzne kódy (N, Ns, RV, V), zaznamenané sú zelené zvýraznené plochy s výmerami a spomenutá je aj výroba VVN (výstavba veľmi vysokého napätia) a miesta výmolov."
+}

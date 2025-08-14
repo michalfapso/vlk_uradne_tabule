@@ -1,0 +1,307 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/005114-024",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-14",
+  "datum_zverejnenia": "2025-04-09",
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolania",
+  "ziadatel_navrhovatel": "ROLTA, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Brezno",
+    "obec": "Braväcovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Braväcovo",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1226",
+              "1200/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lom Leňuška"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "využitie odpadov na čiastočné uzavretie banského diela",
+    "rekultivácia územia s využitím inertného odpadu",
+    "vyplnenie vnútra lomu",
+    "spätné zasypávanie",
+    "zalesnenie"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry (2. stupeň ochrany)",
+    "NP Nízke Tatry (3. stupeň ochrany)",
+    "Územie európskeho významu (Kráľovohoľské Tatry, SKUEV0310)",
+    "NATURA 2000",
+    "Chránené vtáčie územie Nízke Tatry (SKCHVU 018)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "medveď hnedý",
+    "vlk dravý",
+    "rys ostrovid",
+    "líška obyčajná",
+    "kuna lesná",
+    "jazvec lesný",
+    "jeleň lesný",
+    "srnec obyčajný",
+    "diviak lesný",
+    "vretenica severná",
+    "užovka hladká",
+    "jašterica múrová",
+    "skokan hnedý",
+    "myšovka horská",
+    "Microtus nivalis",
+    "Hrabovica tatranská (Pitymys tatricus)",
+    "Piskor vrchovský (Sorex alpinus)",
+    "Alpská fialka (Cyclamen purpurascens)",
+    "Modrá skalnička (Saxifraga paniculata)",
+    "Slovenská rebríčka (Achillea clavenae)",
+    "Horská chryzantéma (Chrysanthemum montanum)",
+    "Alpská chryzantéma (Chrysanthemum alpinum)",
+    "Alpský čajovník (Adenostyles alpina)",
+    "Vzácny kosatec (Iris pumila)"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "31",
+      "odsek": "1",
+      "pismena": [
+        "i",
+        "k"
+      ],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "94",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica Európskeho parlamentu a Rady o posudzovaní vplyvov určitých verejných a súkromných projektov na životné prostredie",
+      "zakon_cislo": "2011/92/EÚ"
+    },
+    {
+      "paragraf": "Príloha",
+      "odsek": null,
+      "pismena": [
+        "8"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "Príloha",
+      "odsek": null,
+      "pismena": [
+        "9"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "Príloha",
+      "odsek": null,
+      "pismena": [
+        "10"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko Okresného úradu Brezno zo zisťovacieho konania pre navrhovanú činnosť „Lom Leňuška – využitie odpadov na čiastočné uzavretie banského diela“ žiadateľky ROLTA, s.r.o. Úrad rozhodol, že činnosť sa nebude posudzovať podľa zákona o EIA. Aktivita spočíva v rekultivácii a zasypávaní lomu inertným odpadom v katastrálnom území Braväcovo, v ochrannom pásme Národného parku Nízke Tatry a územiach Natura 2000, s predpokladanými dlhodobými pozitívnymi vplyvmi na životné prostredie."
+}
