@@ -1,0 +1,70 @@
+name: Scrape and Analyze MINZP
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    secrets:
+      GEMINI_API_KEY:
+        required: true
+
+jobs:
+  scrape_analyze_minzp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup
+
+      - name: minzp 1. Get list of documents
+        run: python minzp/1_list_documents.py > ../data/minzp/1_list_documents.json
+        working-directory: ./analyzer
+      - name: minzp 1. Upload Artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-1-district-list
+          path: ./data/minzp/1_list_documents.json
+
+      - name: minzp 2. Diff
+        run: python minzp/2_diff.py --old ../data/minzp/1_list_documents_old.json --new ../data/minzp/1_list_documents.json > ../data/minzp/2_diff.json
+        working-directory: ./analyzer
+      - name: minzp 2. Upload Artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-2-diff
+          path: ./data/minzp/2_diff.json
+
+      - name: minzp 3. Process new documents
+        run: python minzp/3_process_documents.py --input ../data/minzp/2_diff.json --docs-dir ../data/minzp/docs --output ../data/minzp/3_process_documents.json
+        working-directory: ./analyzer
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: minzp 3. Upload Artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-3-process-documents
+          path: ./data/minzp/3_process_documents.json
+
+      - name: minzp 4. Merge new summaries with old
+        run: python minzp/4_merge_json_docs.py --in ../data/minzp/4_merge_json_docs_old.json --in ../data/minzp/3_process_documents.json --out ../data/minzp/4_merge_json_docs.json
+        working-directory: ./analyzer
+      - name: minzp 4. Upload Artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-4-process-documents
+          path: ./data/minzp/4_merge_json_docs.json
+
+      - name: minzp 5. Archive for next diff
+        run: |
+          mv ../data/minzp/1_list_documents.json ../data/minzp/1_list_documents_old.json
+          mv ../data/minzp/4_merge_json_docs.json ../data/minzp/4_merge_json_docs_old.json
+        working-directory: ./analyzer
+
+      - name: minzp 6. Upload data directory artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-data
+          path: ./data/minzp/
+          if-no-files-found: error
+        if: always()
