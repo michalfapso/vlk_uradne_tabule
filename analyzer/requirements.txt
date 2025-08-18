@@ -1,6 +1,6 @@
 beautifulsoup4
-litellm~=1.34
-openai~=1.14
+litellm
+openai<1.100.0
 PyMuPDF
 requests
 markdownify
