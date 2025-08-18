@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import sys
 
 url = "https://www.minv.sk/?okresne-urady-klientske-centra&kraj=1"
 
@@ -72,6 +73,8 @@ try:
     print(json_output)
 
 except requests.exceptions.RequestException as e:
-    print(f"Chyba pri sťahovaní stránky: {e}")
+    print(f"Chyba pri sťahovaní stránky: {e}", file=sys.stderr)
+    sys.exit(1)
 except Exception as e:
-    print(f"Nastala chyba: {e}")
+    print(f"Nastala chyba: {e}", file=sys.stderr)
+    sys.exit(1)
