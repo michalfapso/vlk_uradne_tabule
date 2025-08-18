@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/037662-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "PRES GREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Banská Bystrica",
+    "obec": "Lučatín, Slovenská Ľupča, Medzibrod",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lučatín",
+        "parcely": []
+      },
+      {
+        "nazov": "Slovenská Ľupča",
+        "parcely": []
+      },
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme elektrického vedenia 22kV č. VN382 k20"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z"
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z"
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o plánovanom výrube drevín spoločnosťou PRES GREEN, s.r.o. v ochrannom pásme elektrického vedenia 22kV č. VN382 k20 v katastrálnych územiach Lučatín, Slovenská Ľupča a Medzibrod. Výrub je potrebný z dôvodu bezpečnosti a plynulej dodávky elektrickej energie. Do konania nie je možné sa prihlásiť."
+}

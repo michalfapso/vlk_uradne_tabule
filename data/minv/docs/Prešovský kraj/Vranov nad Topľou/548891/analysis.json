@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OUžp_VT_SAB/7/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Východoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Vranov nad Topľou",
+    "obec": "Vechec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vechec",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "breza biela",
+    "agát biely",
+    "topoľ osikový",
+    "jelša lepkavá"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "1 a 2",
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "135a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    }
+  ],
+  "zhrnutie": "Východoslovenská distribučná, a.s. oznamuje výrub a okliesnenie náletových a nepôvodných drevín (breza biela, agát biely, topoľ osikový, jelša lepkavá) v katastrálnom území Vechec, okres Vranov nad Topľou. Činnosť sa týka ochranného pásma 110 kV elektrického vedenia a je plánovaná od 1.9.2025 z dôvodu nevyhnutnej údržby a bezpečnosti prevádzky."
+}

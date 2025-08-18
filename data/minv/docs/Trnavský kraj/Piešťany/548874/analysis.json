@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-12",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Zelená Dolina, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Prašník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prašník",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4491"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-44910"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-4488"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-4395"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4387/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4393/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4377/27"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Prašník IBV"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasného stanoviska",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vykopávanie rýh",
+    "ukladanie zemných rozvodov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasného stanoviska na výrub drevín a výkopové práce pre vybudovanie nových podzemných NN rozvodov v rámci líniovej stavby Prašník IBV v katastrálnom území Prašník. Výrub sa týka agátov, náletových drevín, bazy a ovocných stromov."
+}

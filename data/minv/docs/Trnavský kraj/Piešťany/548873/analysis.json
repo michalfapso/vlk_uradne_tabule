@@ -1,0 +1,178 @@
+{
+  "cislo_konania_spisu": "4/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LESOSTAV SEVER, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Piešťany",
+    "obec": "Pečeňady, Nižná, Veľké Kostol'any, Dolné Dubovany, Veselé, Rakovice, Prašník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pečeňady",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "183/7",
+              "326"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nižná",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "978",
+              "711/4",
+              "495/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vel'ké Kostol'any",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1465"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1479"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolné Dubovany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "560/19",
+              "560/20",
+              "560/18",
+              "560/17"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veselé",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1725"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1518",
+              "1519",
+              "1522"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rakovice",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1148",
+              "1143"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Prašník",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-3038",
+              "1-3028",
+              "1-3027",
+              "1-3025"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4230/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4311",
+              "3365",
+              "3364",
+              "4314"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo elektrického vedenia 400 kV, vedenie č. 496 TR: Križovany - ESO - Sošaca (Podperné body č. 52-53, 66-67, 70-71, 77-78, 81-82, 102-103, 103-104)"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie porastov",
+    "okliesňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia",
+    "25 m ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti LESOSTAV SEVER, s.r.o. Okresnému úradu Piešťany o plánovanom nevyhnutnom výrube a okliesňovaní náletových drevín v ochrannom pásme 400 kV elektrického vedenia č. 496 TR: Križovany - ESO - Sošaca. Činnosť sa má realizovať od septembra 2025 do marca 2026 na viacerých katastrálnych územiach v okrese Piešťany v rámci ochrany energetického zariadenia."
+}

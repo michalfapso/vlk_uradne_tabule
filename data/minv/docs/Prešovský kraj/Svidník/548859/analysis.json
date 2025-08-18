@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "nakladanie s odpadmi"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "41",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "135n",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je formulár žiadosti o vydanie rozhodnutia o neexistencii vozidla. Umožňuje fyzickým a právnickým osobám požiadať o vyradenie vozidla z evidencie a stanovuje súvisiaci príspevok do Environmentálneho fondu, s odkazom na Zákon o odpadoch č. 79/2015 Z. z. a Vyhlášku MŽP SR č. 371/2015 Z. z."
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-08-18 20:22:44",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 548907, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=52&odbor=10&sekcia=uradna-tabula&subor=548907: Chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Prešov/548907/extracted/Priloha 3 Supis parciel podla KN-C 2025_august_v11.xls pomocou pandoc: Command '['pandoc', '-f', 'xls', '-t', 'markdown', '--wrap=none', '-o', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Prešov/548907/extracted/Priloha 3 Supis parciel podla KN-C 2025_august_v11/text.txt', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Prešov/548907/extracted/Priloha 3 Supis parciel podla KN-C 2025_august_v11.xls']' returned non-zero exit status 21.\nStdout: \nStderr: Unknown input format xls\n"
+  }
+]

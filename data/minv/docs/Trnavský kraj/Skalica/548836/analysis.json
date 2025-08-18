@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2025/000747-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-14",
+  "datum_zverejnenia": "2025-08-15",
+  "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie (do 21.08.2025 vrátane)",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Skalica",
+    "obec": "Skalica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Skalica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "20326/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania Okresného úradu Skalica vo veci žiadosti na vydanie súhlasu na výrub 1 ks dreviny druhu lipa na parcele č. 20326/2 v katastrálnom území Skalica. Lehota na potvrdenie záujmu byť účastníkom konania je do 21.08.2025."
+}
