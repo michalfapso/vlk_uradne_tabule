@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-08-19 18:35:13",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 548609, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=548609: Chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Banskobystrický kraj/Banská Bystrica/548609/orig.xlsx pomocou pandoc: Command '['pandoc', '-f', 'xlsx', '-t', 'markdown', '--wrap=none', '-o', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Banskobystrický kraj/Banská Bystrica/548609/text.txt', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Banskobystrický kraj/Banská Bystrica/548609/orig.xlsx']' returned non-zero exit status 21.\nStdout: \nStderr: Unknown input format xlsx\n"
+  }
+]

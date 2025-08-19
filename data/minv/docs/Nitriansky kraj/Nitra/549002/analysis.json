@@ -1,0 +1,622 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/037865-005",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2025/037865-0112724/2025",
+  "datum_dokumentu": "2025-08-13",
+  "datum_zverejnenia": "2025-08-19",
+  "lehoty_na_vyjadrenie": "Možnosť odvolať sa proti tomuto rozhodnutiu v lehote do 15 dní odo dňa jeho doručenia.",
+  "ziadatel_navrhovatel": "Psychiatrická nemocnica Veľké Zálužie",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nitra",
+    "obec": "Veľké Zálužie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Zálužie",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "11/31",
+              "11/101"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál Psychiatrickej nemocnice Veľké Zálužie"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "zeleň"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "69",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "117",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40c",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "38",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "48",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "95",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "103",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o autorizovaných stavebných inžinieroch",
+      "zakon_cislo": "138/1992 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "36",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "37",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "10",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "126",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "140a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o odbornej spôsobilosti na vybrané činnosti vo výstavbe",
+      "zakon_cislo": "136/1995 Zb."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "zh",
+        "zj"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "16a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "10",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "Stavebná vyhláška",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "25a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je stavebné povolenie a povolenie na osobitné užívanie vôd pre Psychiatrickú nemocnicu Veľké Zálužie na výstavbu areálového vodovodu, splaškovej a dažďovej kanalizácie, vrátane vsakovania vôd z povrchového odtoku, na parcelách 11/31 a 11/101 v k.ú. Veľké Zálužie. Rozhodnutie sa vysporadúva s pripomienkami Združenia domových samospráv, pričom potvrdzuje súlad s územným plánom a predošlými EIS rozhodnutiami, napriek obavám o ochranu drevín a vodných pomerov v súvislosti s projektom."
+}

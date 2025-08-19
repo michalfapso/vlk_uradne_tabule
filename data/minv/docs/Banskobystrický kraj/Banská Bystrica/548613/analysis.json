@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Nelesné biotopy európskeho významu v NP a OP NP (SKUEV0197 Salatín, SKUEV0150Červený Grúň, SKUEV0302Ďumbierske Tatry, SKUEV0310Kráľovohoľské Tatry, SKUEV0296Turková, SKUEV0300 Skribňovo, SKUEV0059 Jelšie, SKUEV0153 Horné lazy, SKUEV0154 Suchá dolina, SKUEV0297 Brezinky, SKUEV0299 Baranovo, SKUEV0301 Kopec)"
+  },
+  "typ_dokumentu": "Strategický dokument",
+  "typ_zasahu": [
+    "stanovenie cieľov ochrany biotopov",
+    "manažment inváznych druhov",
+    "ochrana vodného režimu"
+  ],
+  "typ_uzemia": [
+    "Národný park",
+    "Ochranné pásmo Národného parku",
+    "Územie európskeho významu",
+    "NATURA 2000"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "netopiere európskeho významu",
+    "Eptesicus nilssonii",
+    "Myotis mystacinus",
+    "Myotis brandtii",
+    "rôzne charakteristické druhy rastlín a machorastov biotopov európskeho významu",
+    "Invázne a alochtónne druhy rastlín (napr. Impatiens glandulifera, Impatiens parviflora, Calamagrostis epigejos, Solidago canadensis, Solidago gigantea, Stenactis annua, Molinia sp.)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "91/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "269/2010 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument stanovuje ciele ochrany a manažmentu pre rôzne nelesné biotopy európskeho významu (SKUEV) v národných parkoch a ich ochranných pásmach. Zameriava sa na zachovanie a zlepšenie stavu biotopov vrátane skalných útvarov, lúk, rašelinísk a jaskýň, s detailnými atribútmi pre výmeru, druhové zloženie rastlín a kontrolu inváznych druhov. Osobitná pozornosť je venovaná aj ochrane jaskýň pre netopiere európskeho významu, ako sú Eptesicus nilssonii, Myotis mystacinus a Myotis brandtii."
+}

@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Národný park Nízke Tatry"
+  },
+  "typ_dokumentu": "Strategický dokument",
+  "typ_zasahu": [
+    "manažment lesných biotopov",
+    "ochrana biotopov",
+    "zvýšenie objemu mŕtveho dreva",
+    "eliminácia inváznych druhov"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "Národný park Nízke Tatry",
+    "Ochranné pásmo národného parku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Aconitum moldavicum",
+    "Aconitum firmum",
+    "Hesperis matronalis subsp. nivea",
+    "Soldanella carpatica",
+    "Campanula carpatica",
+    "Carduus glaucinus",
+    "Cyclamen fatrense",
+    "Sesleria heufleriana",
+    "Leucanthemum rotundifolium",
+    "Dentaria glandulosa",
+    "Cypripedium calceolus",
+    "Taxus baccata",
+    "Fagus sylvatica",
+    "Abies alba",
+    "Picea abies",
+    "Pinus mugo",
+    "Fallopia sp.",
+    "Impatiens glandulifera",
+    "Impatiens parviflora",
+    "Negundo aceroides",
+    "Robinia pseudoacacia",
+    "Heracleum mantegazzianum",
+    "Aster sp.",
+    "Solidago giganthea",
+    "Aulanthus altissima"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument hodnotí stav lesných biotopov európskeho a národného významu v Územiach európskeho významu a Národnom parku Nízke Tatry, a stanovuje ciele ich ochrany. Zameriava sa na udržanie alebo zlepšenie výmery biotopov, zabezpečenie charakteristického druhového zloženia drevín a podrastu, zvýšenie množstva mŕtveho dreva a elimináciu inváznych druhov. Sú v ňom explicitne uvedené mnohé chránené a endemické rastlinné druhy."
+}

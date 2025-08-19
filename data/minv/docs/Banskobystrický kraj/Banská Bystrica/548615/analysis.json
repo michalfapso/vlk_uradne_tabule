@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Hodnotenie stavu a stanovenie cieľov ochrany",
+  "typ_zasahu": [
+    "manažment biotopov",
+    "regulácia krovinovej etáže",
+    "regulácia sukcesie drevín",
+    "odstraňovanie inváznych druhov",
+    "ochrana vodných tokov",
+    "zamedzenie znečistenia vody",
+    "zabezpečenie mŕtveho dreva"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV0299 Baranovo",
+    "SKUEV0298 Brvnište",
+    "SKUEV0150 Červený grúň",
+    "SKUEV0149 Mackov bok",
+    "SKUEV0302 Ďumbierske Tatry",
+    "SKEV0310 Kráľovohoľské Tatry",
+    "SKUEV0151 Pohorelské vrchovisko",
+    "SKUEV0197 Salatín",
+    "SKUEV0300 Skribňovo",
+    "SKUEV0296 Turková"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Cypripedium calceolus",
+    "Cyclamen fatrense",
+    "Pulsatilla subslavica",
+    "Pulsatilla slavica",
+    "Campanulla serrata",
+    "Dianthus nitidus",
+    "Mannia triandra",
+    "Ochyraea tatrensis",
+    "Adenophora liliifolia",
+    "Ligularia sibirica",
+    "Buxbaumia viridis",
+    "Hamatocaulis vernicosus"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument obsahuje hodnotenie stavu a stanovenie cieľov ochrany pre dvanásť druhov rastlín európskeho významu v rámci viacerých území európskeho významu (SKUEV) siete Natura 2000, ako sú Baranovo, Brvnište, Ďumbierske Tatry, Kráľovohoľské Tatry, Salatín a ďalšie. Cieľom je zlepšenie alebo zachovanie stavu populácií druhov a ich biotopov prostredníctvom manažmentových opatrení, ako je regulácia krovinovej etáže, sukcesie drevín, odstraňovanie inváznych druhov a ochrana vodných tokov, s dôrazom na udržanie špecifických kvalitatívnych a kvantitatívnych atribútov biotopov."
+}

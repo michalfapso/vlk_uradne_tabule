@@ -1,0 +1,371 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-08",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Štátna ochrana prírody Slovenskej republiky (ŠOP SR), Správa CHKO Poľana",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Detva, Zvolen, Banská Bystrica, Brezno",
+    "obec": "Hrochoť, Ľubietová, Poniky, Povrazník, Strelníky, Čierny Balog, Hronec, Sihla, Valaská, Detva, Dúbravy, Hriňová, Očová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrochoť",
+        "parcely": []
+      },
+      {
+        "nazov": "Ľubietová",
+        "parcely": []
+      },
+      {
+        "nazov": "Poniky",
+        "parcely": []
+      },
+      {
+        "nazov": "Povrazník",
+        "parcely": []
+      },
+      {
+        "nazov": "Strelníky",
+        "parcely": []
+      },
+      {
+        "nazov": "Čierny Balog",
+        "parcely": []
+      },
+      {
+        "nazov": "Hronec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sihla",
+        "parcely": []
+      },
+      {
+        "nazov": "Valaská",
+        "parcely": []
+      },
+      {
+        "nazov": "Detva",
+        "parcely": []
+      },
+      {
+        "nazov": "Dúbravy",
+        "parcely": []
+      },
+      {
+        "nazov": "Hriňová",
+        "parcely": []
+      },
+      {
+        "nazov": "Očová",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Chránená krajinná oblasť Poľana"
+  },
+  "typ_dokumentu": "Program starostlivosti",
+  "typ_zasahu": [
+    "manažment lesných ekosystémov",
+    "manažment nelesných biotopov",
+    "výrub drevín",
+    "kosenie",
+    "pasenie",
+    "mulčovanie",
+    "ťažba dreva",
+    "odstraňovanie inváznych nepôvodných druhov rastlín",
+    "regulácia populácie živočíchov",
+    "lov živočíchov",
+    "budovanie vodozádržných opatrení",
+    "budovanie turistickej infraštruktúry",
+    "rekonštrukcia stavieb",
+    "budovanie čistiarne odpadových vôd",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Poľana",
+    "Územie európskeho významu SKUEV0008 Repiská",
+    "Územie európskeho významu SKUEV0009 Koryto",
+    "Územie európskeho významu SKUEV0045 Kopa",
+    "Územie európskeho významu SKUEV0046 Javorinka",
+    "Územie európskeho významu SKUEV0248 Močidlianska skala",
+    "Územie európskeho významu SKUEV0249 Hrbatá lúčka",
+    "Územie európskeho významu SKUEV0319 Poľana",
+    "Územie európskeho významu SKUEV0400 Detviansky potok",
+    "Územie európskeho významu SKUEV0694 Vrchslatina",
+    "Územie európskeho významu SKUEV0856 Dolná Zálomská",
+    "Národná prírodná rezervácia Zadná Poľana",
+    "Národná prírodná rezervácia Ľubietovský Vepor",
+    "Národná prírodná rezervácia Hrončecký grúň",
+    "Prírodná rezervácia Havranie skaly",
+    "Prírodná rezervácia Pri Bútľavke",
+    "Prírodná rezervácia Vrchslatina",
+    "Prírodná rezervácia Pod Dudášom",
+    "Prírodná rezervácia Príslopy",
+    "Prírodná rezervácia Mačinová",
+    "Prírodná rezervácia Kopa",
+    "Prírodná rezervácia Pralesy Slovenska-Bartkovo",
+    "Prírodná rezervácia Pralesy Slovenska-Bukovina",
+    "Prírodná rezervácia Pralesy Slovenska-Bútľavka",
+    "Prírodná rezervácia Pralesy Slovenska-Bystrý potok",
+    "Prírodná rezervácia Pralesy Slovenska-Koryto",
+    "Prírodná rezervácia Pralesy Slovenska-Kútik",
+    "Prírodná rezervácia Pralesy Slovenska-Poľana",
+    "Prírodná pamiatka Melichova skala",
+    "Prírodná pamiatka Bátovský balvan",
+    "Prírodná pamiatka Kalamárka",
+    "Prírodná pamiatka Jánošíkova skala",
+    "Prírodná pamiatka Spády",
+    "Prírodná pamiatka Havranka",
+    "Prírodná pamiatka Veporské skalky",
+    "Prírodná pamiatka Kamenistý potok",
+    "Prírodná pamiatka Vodopád Bystrého potoka",
+    "Chránený areál Hrochotská Bukovina",
+    "Chránený areál Dolná Zálomská",
+    "Chránený areál Meandre Kamenistého potoka",
+    "Chránený areál Horná Chrapková",
+    "Chránený strom Buk pod Kľukou",
+    "Chránené vtáčie územie Poľana (SKCHVU022)",
+    "Natura 2000",
+    "Územie medzinárodného významu Biosférická rezervácia Poľana (UNESCO)",
+    "Pásmo hygienickej ochrany vodárenského zdroja Hriňová",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "kyjanôčka zelená (Buxbaumia viridis)",
+    "kosákovec lesklý (Hamatocaulis vernicosus)",
+    "zvonček hrubokoreňový (Campanula serrata)",
+    "dvojhrot vlnkatý (Dicranum undulatum)",
+    "bakuľka trojrohá (Meesia triquetra)",
+    "alektória rozkonárená (Alectoria sarmentosa)",
+    "fúzatec dvojfarebný (Bryoria bicolor)",
+    "pľuzgierka islandská (Cetraria islandica)",
+    "jamkatec veľký (Lobaria amplissima)",
+    "jamkatec pľúcny (Lobaria pulmonaria)",
+    "stužkovec jaseňový (Ramalina fraxinea)",
+    "bradatec drsný (Usnea dasopoga)",
+    "muchotrávka cisárska (Amanita caesarea)",
+    "hríb kráľovský (Butyriboletus regius)",
+    "koralovec ježovitý (Hericium erinaceus)",
+    "misôčka tmavá (Pseudoplectania melaena)",
+    "náramkovka cisárska (Catathelasma imperiale)",
+    "ostrica tôňomilná (Carex umbrosa)",
+    "vstavačovec májový pravý (Dactylorhiza majalis subsp. majalis)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "vstavačovec (vemeníček) zelený (Dactylorhiza viridis, syn. Coeloglossum viride)",
+    "rosička okrúhlolistá (Drosera rotundifolia)",
+    "kruštík močiarny (Epipactis palustris)",
+    "krivec najmenší (Gagea minima)",
+    "mečík strechovitý (Gladiolus imbricatus)",
+    "päťprstnica obyčajná (Gymnadenia conopsea)",
+    "vstavač mužský poznačený (Orchis mascula subsp. speciosa, syn. O. m. subsp. signifera)",
+    "plavúň pučivý (Lycopodium annotinum)",
+    "plavúň obyčajný (Lycopodium clavatum)",
+    "kosatec sibírsky (Iris sibirica)",
+    "hadivka obyčajná (Ophioglossum vulgatum)",
+    "tis obyčajný (Taxus baccata)",
+    "pavstavač hlavatý (Traunsteinera globosa)",
+    "soldanelka valašská (Soldanella marmarossiensis)",
+    "žltohlav najvyšší (Trollius altissimus)",
+    "veronika štítovitá (Veronica scutellata)",
+    "rys ostrovid (Lynx lynx)",
+    "vlk dravý (Canis lupus)",
+    "medveď hnedý (Ursus arctos)",
+    "fuzáč alpský (Rosalia alpina)",
+    "bystruška potočná (Carabus variolosus)",
+    "plocháč červený (Cucujus cinnaberinus)",
+    "fuzáč karpatský (Pseudogaurotina excellens)",
+    "kunka žltobruchá (Bombina variegata)",
+    "mlok karpatský (Lissotriton (=Triturus) montandoni)",
+    "netopier veľkouchý (Myotis bechsteini)",
+    "uchaňa čierna (Barbastella barbastellus)",
+    "drevník rýhovaný (Rhysodes sulcatus)",
+    "roháč obyčajný (Lucanus cervus)",
+    "jasoň chochlačkový (Parnassius mnemosyne)",
+    "modráčik čiernoškvrnný (Maculinea arion)",
+    "modráčik krvavcový (Maculinea teleius)",
+    "spriadač kostihojový (Euplagia (=Callimorpha) quadripunctata)",
+    "bystruška zlatá (Carabus auronitens)",
+    "bystruška (Carabus irregularis)",
+    "Ditylus laevis",
+    "drobčík huňatý (Emus hirtus)",
+    "behúnik podzemný (Duvalius microphthalmus microphthalmus)",
+    "krasoň jedľový (Eurythyrea austriaca)",
+    "kováčik (Lacon lepidopterus)",
+    "fuzáč borievkový (Semanotus russicus)",
+    "koník pestrý (Arcyptera fusca)",
+    "sedlovka bronzová (Ephippiger ephippiger)",
+    "kobylka Frivaldského (Pholidoptera frivaldskyi)",
+    "salamandra škvrnitá (Salamandra salamandra)",
+    "mlok horský (Ichthyosaura alpestris)",
+    "ropucha bradavičnatá (Bufo bufo)",
+    "skokan hnedý (Rana temporaria)",
+    "vretenica severná (Vipera berus)",
+    "jašterica živorodá pravá (Zootoca vivipara vivipara)",
+    "jašterica múrová (Podarcis muralis)",
+    "hlucháň hôrny (Tetrao urogallus)",
+    "ďateľ veľký (Dendrocopos major)",
+    "sova lesná (Strix aluco)",
+    "krivonos smrekový (Loxia curvirostra)",
+    "orešnica perlavá (Nucifraga caryocatactes)",
+    "ďubník trojprstý (Picoides tridactylus)",
+    "kuvičok vrabčí (Glaucidium passerinum)",
+    "jariabok hôrny (Tetrastes (Bonasia) bonasia)",
+    "pôtik kapcavý (Aegolius funereus)",
+    "sova dlhochvostá (Strix uralensis)",
+    "tesár čierny (Dryocopus martius)",
+    "žltochvost hôrny (Phoenicurus phoenicurus)",
+    "bocian čierny (Ciconia nigra)",
+    "mačka divá (Felis sylvestris)",
+    "vydra riečna (Lutra lutra)",
+    "vstavač ploštičný (Anacamptis coriophora)",
+    "vstavačovec laponský (Dactylorhiza lapponica)",
+    "vŕba rozmarínolistá (Salix rosmarinifolia)",
+    "chrapkáč poľný (Crex crex)",
+    "škovránik stromový (Lullula arborea)",
+    "pŕhľaviar čiernohlavý (Saxicola rubicola)",
+    "strnádka obyčajná (Emberiza citrinella)",
+    "strakoš obyčajný (Lanius collurio)",
+    "penica obyčajná (Sylvia communis)",
+    "zelienka obyčajná (Chloris chloris)",
+    "ľabtuška hôrna (Anthus trivialis)",
+    "boros Schneiderov (Boros schneideri)",
+    "kováčik fialový (Limoniscus violaceus)",
+    "ohniváčik veľký (Lycaena dispar)",
+    "priadkovec trnkový (Eriogaster catax)",
+    "drobčík májky (Meloidae)",
+    "kuna lesná",
+    "líška hrdzavá",
+    "jazvec",
+    "diviak lesný"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "2",
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "4",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Programom starostlivosti o Chránenú krajinnú oblasť Poľana na roky 2025 – 2034. Predstavuje strategický plán ochrany a manažmentu tohto územia, ktoré je zároveň biosférickou rezerváciou UNESCO a súčasťou sústavy Natura 2000. Dokument podrobne opisuje predmety ochrany (biotopy a druhy národného a európskeho významu, geologické javy), hodnotí ich stav, a navrhuje ciele a konkrétne opatrenia pre ich zachovanie a zlepšenie. Zahŕňa rôzne typy zásahov, ako je obhospodarovanie lesov, starostlivosť o lúky, boj proti inváznym druhom, manažment populácií veľkých šeliem (medveď, vlk, rys) a rozvoj udržateľného cestovného ruchu."
+}
