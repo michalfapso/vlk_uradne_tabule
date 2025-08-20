@@ -1,0 +1,653 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000588-015",
+  "cislo_rozhodnutia": "OU-TR-OSZP-2025/000588-010-vod.Bu",
+  "datum_dokumentu": "2025-08-18",
+  "datum_zverejnenia": "2025-07-21",
+  "lehoty_na_vyjadrenie": "do 10 dní od doručenia upovedomenia (t.j. od 21.07.2025)",
+  "ziadatel_navrhovatel": "Turčianska vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Turčianske Teplice",
+    "obec": "Rakša",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rakša",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "28/16",
+              "28/56",
+              "28/57",
+              "28/58",
+              "28/64",
+              "28/65",
+              "28/66",
+              "28/71",
+              "28/72",
+              "28/73",
+              "28/76",
+              "28/79",
+              "28/81",
+              "28/111",
+              "56/1",
+              "219/1",
+              "219/4",
+              "219/9",
+              "220/1",
+              "222",
+              "223",
+              "225",
+              "226/1",
+              "226/3",
+              "226/5",
+              "227/3",
+              "228",
+              "229/1",
+              "230/1",
+              "230/2",
+              "231/1",
+              "232/1",
+              "232/2",
+              "234",
+              "235/1",
+              "236",
+              "237/1",
+              "237/2",
+              "238",
+              "240",
+              "242",
+              "243/1",
+              "243/2",
+              "245",
+              "249",
+              "322/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "29/300",
+              "9",
+              "28/2",
+              "98/1",
+              "2001/100",
+              "34/400",
+              "34/100",
+              "67/100",
+              "29/100",
+              "40/100",
+              "97/100",
+              "1002/200",
+              "1001/100",
+              "57/1",
+              "67/200",
+              "93/203",
+              "68/101",
+              "93/202",
+              "92/100",
+              "91/100",
+              "90/100",
+              "89/100",
+              "88/100",
+              "87/100",
+              "86/100",
+              "85/100",
+              "84/100",
+              "83/100",
+              "82/100",
+              "81/100",
+              "80/100",
+              "79/100"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Turčiansky Michal",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "75",
+              "78",
+              "326",
+              "348/1",
+              "350"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "11/6",
+              "12/2",
+              "11/1",
+              "9/203",
+              "79/200",
+              "25/103",
+              "25/1",
+              "24/1",
+              "24/2",
+              "21/3",
+              "20/3",
+              "19/3",
+              "18/7",
+              "18/3",
+              "17/3",
+              "16/3",
+              "15/2",
+              "14/6",
+              "14/5",
+              "14/3",
+              "14/4",
+              "14/2",
+              "13/2",
+              "9/103",
+              "9/303"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Horný Turiec"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení zmeny stavby",
+  "typ_zasahu": [
+    "zmena vodnej stavby",
+    "výstavba kanalizácie",
+    "čistenie odpadových vôd",
+    "výstavba čerpacej stanice",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "Národný park Veľká Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "obojživelníkov",
+    "chránených živočíchov"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "b",
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "264",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": "3c",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Zákon o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "30",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [
+        "h",
+        "z"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutím o povolení zmeny líniovej vodnej stavby „Kanalizácia a čistenie odpadových vôd v meste Turčianske Teplice a regióne Horný Turiec“ - SO 01 Kanalizácia Rakša. Zmeny zahŕňajú úpravu materiálu rúr, doplnenie revíznej šachty pred čistiarňou odpadových vôd a aktualizáciu jej technológie, ktoré sa realizujú v katastrálnych územiach Rakša a Turčiansky Michal. V rámci konania bola konzultovaná Správa Národného parku Veľká Fatra a boli prijaté podmienky na ochranu obojživelníkov a chránených živočíchov."
+}

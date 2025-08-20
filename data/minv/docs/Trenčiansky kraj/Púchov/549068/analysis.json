@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "SVP 17570/2025/2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-15",
+  "datum_zverejnenia": "2025-08-11",
+  "lehoty_na_vyjadrenie": "V prípade pripomienok (stanovenia podmienok) žiadame zaslať k predmetným výrubom Vaše stanovisko.",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Púchov",
+    "obec": "Beluša, Visolaje, Horné Kočkovce, Hrabovka, Vieska-Bezdedov, Mestečko, Záriečie, Lednické Rovne, Dolné Kočkovce, Streženice",
+    "katastralne_uzemia": [],
+    "parcely": [],
+    "nazov_lokality": "Pružinka, Váh, Biela Voda, Lednica, Kozinec, BP Keblianskeho Potoka (Štepnický potok)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "výrub kríkov",
+    "výrub vysadených drevín"
+  ],
+  "typ_uzemia": [
+    "CHKO Strážovské vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "48",
+      "odsek": "3",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje zámer odstrániť náletové dreviny a kríky na vodných tokoch Pružinka, Váh, Biela Voda, Lednica, Kozinec a BP Keblianskeho Potoka v oblasti Púchovského okresu. Cieľom je zabezpečiť priechodnosť tokov a protipovodňovú ochranu. O zámere je informovaná CHKO Strážovské vrchy."
+}

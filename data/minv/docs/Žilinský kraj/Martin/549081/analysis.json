@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/018037",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-19",
+  "datum_zverejnenia": "2025-08-20",
+  "lehoty_na_vyjadrenie": "nejde o správne konanie a do konania sa nedá prihlásiť",
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "pod el. vedením č. 400 kV a v jeho ochrannom pásme"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub drevín rastúcich mimo les"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Martin o prijatí informácie o plánovanom výrube drevín. Výrub vykonáva ENZA s.r.o. na základe poverenia od Slovenskej elektrizačnej prenosovej sústavy, a.s. a týka sa drevín rastúcich pod elektrickým vedením 400 kV a v jeho ochrannom pásme. Ide o informačný charakter, kde nie je možné sa prihlásiť do konania."
+}

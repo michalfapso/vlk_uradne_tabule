@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/018038",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-19",
+  "datum_zverejnenia": "2025-08-20",
+  "lehoty_na_vyjadrenie": "Nejde o správne konanie a do konania sa nedá prihlásiť.",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "ochrannom pásme VN vedenia"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je zverejnením oznámenia o nevyhnutnom výrube drevín v ochrannom pásme vysokonapäťového vedenia. Oznámenie podala spoločnosť ENZA s.r.o. a bolo doručené Okresnému úradu Martin. Do konania nie je možné sa prihlásiť, má iba informačný charakter."
+}

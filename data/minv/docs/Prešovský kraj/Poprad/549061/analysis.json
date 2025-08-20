@@ -1,0 +1,1248 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/030675",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa Národného parku Nízke Tatry so sídlom v Slovenskej Ľupči",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj, Banskobystrický kraj, Prešovský kraj",
+    "okres": "Liptovský Mikuláš, Ružomberok, Banská Bystrica, Brezno, Poprad",
+    "obec": "Demänovská Dolina, Partizánska Ľupča, Liptovský Ján, Donovaly, Horná Lehota, Šumiac, Liptovská Teplička, Vernár, Vikartovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Iľanovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Ploštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": []
+      },
+      {
+        "nazov": "Dúbrava",
+        "parcely": []
+      },
+      {
+        "nazov": "Hybe",
+        "parcely": []
+      },
+      {
+        "nazov": "Kráľova Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Lazisko",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovský Ján",
+        "parcely": []
+      },
+      {
+        "nazov": "Malužiná",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižná Boca",
+        "parcely": []
+      },
+      {
+        "nazov": "Partizánska Ľupča",
+        "parcely": []
+      },
+      {
+        "nazov": "Pavčina Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Vislavce",
+        "parcely": []
+      },
+      {
+        "nazov": "Važec",
+        "parcely": []
+      },
+      {
+        "nazov": "Východná",
+        "parcely": []
+      },
+      {
+        "nazov": "Vyšná Boca",
+        "parcely": []
+      },
+      {
+        "nazov": "Závažná Poruba",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Porúbka",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Lúžna",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Osada",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Štiavnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Ružomberok",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Sliače",
+        "parcely": []
+      },
+      {
+        "nazov": "Baláže",
+        "parcely": []
+      },
+      {
+        "nazov": "Donovaly",
+        "parcely": []
+      },
+      {
+        "nazov": "Hiadeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Brusno",
+        "parcely": []
+      },
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Moštenica",
+        "parcely": []
+      },
+      {
+        "nazov": "Motyčky",
+        "parcely": []
+      },
+      {
+        "nazov": "Podkonice",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohronský Bukovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Bacúch",
+        "parcely": []
+      },
+      {
+        "nazov": "Beňuš",
+        "parcely": []
+      },
+      {
+        "nazov": "Braväcovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Heľpa",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Lehota",
+        "parcely": []
+      },
+      {
+        "nazov": "Jarabá",
+        "parcely": []
+      },
+      {
+        "nazov": "Jasenie",
+        "parcely": []
+      },
+      {
+        "nazov": "Mýto pod Ďumbierom",
+        "parcely": []
+      },
+      {
+        "nazov": "Nemecká",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohorelá",
+        "parcely": []
+      },
+      {
+        "nazov": "Polomka",
+        "parcely": []
+      },
+      {
+        "nazov": "Ráztoka",
+        "parcely": []
+      },
+      {
+        "nazov": "Šumiac",
+        "parcely": []
+      },
+      {
+        "nazov": "Telgárt",
+        "parcely": []
+      },
+      {
+        "nazov": "Závadka nad Hronom",
+        "parcely": []
+      },
+      {
+        "nazov": "Bystrá",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Teplička",
+        "parcely": []
+      },
+      {
+        "nazov": "Vernár",
+        "parcely": []
+      },
+      {
+        "nazov": "Vikartovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Bodice",
+        "parcely": []
+      },
+      {
+        "nazov": "Demänová",
+        "parcely": []
+      },
+      {
+        "nazov": "Ľubeľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Kríž",
+        "parcely": []
+      },
+      {
+        "nazov": "Ludrová",
+        "parcely": []
+      },
+      {
+        "nazov": "Sásová",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostiviarska",
+        "parcely": []
+      },
+      {
+        "nazov": "Uľanka",
+        "parcely": []
+      },
+      {
+        "nazov": "Lučatín",
+        "parcely": []
+      },
+      {
+        "nazov": "Priechod",
+        "parcely": []
+      },
+      {
+        "nazov": "Selce",
+        "parcely": []
+      },
+      {
+        "nazov": "Staré Hory",
+        "parcely": []
+      },
+      {
+        "nazov": "Špania Dolina",
+        "parcely": []
+      },
+      {
+        "nazov": "Nemce",
+        "parcely": []
+      },
+      {
+        "nazov": "Podbrezová",
+        "parcely": []
+      },
+      {
+        "nazov": "Predajná",
+        "parcely": []
+      },
+      {
+        "nazov": "Valaská",
+        "parcely": []
+      },
+      {
+        "nazov": "Vaľkovňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Štrba",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižná Šuňava",
+        "parcely": []
+      },
+      {
+        "nazov": "Vyšná Šuňava",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Nízke Tatry"
+  },
+  "typ_dokumentu": "Projekt ochrany",
+  "typ_zasahu": [
+    "lesohospodárske činnosti",
+    "spracovanie kalamitnej drevnej hmoty",
+    "regulácia návštevnosti",
+    "odstraňovanie environmentálnych záťaží",
+    "likvidácia inváznych druhov",
+    "odstránenie nevyužívaných stavieb a zariadení",
+    "asanácia lesných ciest a komunikácií",
+    "rekultivácia banských záťaží",
+    "zahrádzanie vodných tokov",
+    "odstrel zveri",
+    "kosenie"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "ochranné pásmo Národného parku Nízke Tatry",
+    "Územie európskeho významu",
+    "Baranovo SKUEV0299",
+    "Brezinky SKUEV0297",
+    "Brvnište SKUEV0298",
+    "Červený grúň SKUEV0150",
+    "Demänovská slaTina SKUEV0061",
+    "Ďumbierske Tatry SKUEV0302",
+    "Horné lazy SKUEV0153",
+    "Jelšie SKUEV0059",
+    "Kopec SKUEV0301",
+    "Kráľovohoľské Tatry SKUEV0310",
+    "SalaTín SKUEV0197",
+    "Suchá dolina SKUEV0154",
+    "Škribňovo SKUEV0300",
+    "Tlstá SKUEV0058",
+    "Turková SKUEV0296",
+    "Alúvium Hrona SKUEV0303",
+    "Chránené vtáčie územie Nízke Tatry (SKCHVU018)",
+    "Natura 2000",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany",
+    "Národná prírodná rezervácia (NPR)",
+    "Prírodná rezervácia (PR)",
+    "Chránený areál (CHA)",
+    "Národná prírodná pamiatka (NPP)",
+    "Prírodná pamiatka (PP)",
+    "Barania hlava",
+    "Brankovský vodopád",
+    "Demänovská dolina",
+    "Demänovské jaskyne",
+    "Ďumbier",
+    "Hnilecká jelšina",
+    "Jánska dolina",
+    "Jaskyňa mŕtvych netopierov",
+    "Jaskyňa zlomísk",
+    "Kamenné mlieko",
+    "Kozí chrbát",
+    "Malá Stanišovská jaskyňa",
+    "Martalúzka",
+    "Moštenické traverTíny",
+    "Ohnište",
+    "Okno",
+    "Pod Latiborskou hoľou",
+    "Pralesy Slovenska – Bystrá dolina",
+    "Pralesy Slovenska – Holičná",
+    "Pralesy Slovenska – Hromisko",
+    "Pralesy Slovenska – Chmelinec",
+    "Pralesy Slovenska – Kolesová",
+    "Pralesy Slovenska – Kozí chrbát",
+    "Pralesy Slovenska – Kráľova hoľa",
+    "Pralesy Slovenska – Martalúzka",
+    "Pralesy Slovenska – Nemecká",
+    "Pralesy Slovenska – Obrštín",
+    "Pralesy Slovenska – Príslop",
+    "Pralesy Slovenska – Ráztocká hoľa",
+    "Pralesy Slovenska – Snožka",
+    "Pralesy Slovenska – Špíglová",
+    "Pralesy Slovenska – Veľká Vápenica",
+    "Pralesy Slovenska – Zadná hoľa",
+    "SalaTín",
+    "Skalka",
+    "Stanišovská jaskyňa",
+    "Starý hrad",
+    "Štefanová",
+    "Štrosy",
+    "Turková",
+    "Veľká ľadová priepasť",
+    "Vrbické pleso",
+    "Zápoľná",
+    "Záskočská jaskyňa",
+    "Bystrianska jaskyňa",
+    "Jakub",
+    "Mačková",
+    "Meandre Lúžňanky",
+    "Netopieria jaskyňa",
+    "Pralesy Slovenska – Flos",
+    "Pohorelské vrchovisko"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "kyjanôčka zelená (Buxbaumia viridis)",
+    "grimaldia trojtyčinková (Mannia triandra)",
+    "ochyrea tatranská (Ochyraea tatrensis)",
+    "korýtkovec (Scapania massolongi)",
+    "zvonovec ľaliolistý (Adenophora liliifolia)",
+    "zvonček hrubokoreňový (Campanula serrata)",
+    "cyklámen purpurový fatranský (Cyclamen purpurascens subsp. immaculatum)",
+    "črievičník papučkový (Cypripedium calceolus)",
+    "klinček lesklý (Dianthus nitidus)",
+    "jazyčník sibírsky (Ligularia sibirica)",
+    "poniklec slovenský (Pulsatilla slavica)",
+    "poniklec prostredný (Pulsatilla subslavica)",
+    "jamkatec veľký (Ricasolia amplissima)",
+    "jamkatec pľúcny (Lobaria pulmonaria)",
+    "koléma černejúca (Collema nigrescens)",
+    "napúchavec plstnatý (Leptogium saturninum)",
+    "misôčka tmavá (Pseudoplectania melaena)",
+    "tvarožník laponský (Amylocystis lapponica)",
+    "kyjačik Zollingerov (Clavaria zollingeri)",
+    "zubček severský (Climacodon septentrionalis)",
+    "práchnovček lekársky (Fomitopsis officinalis)",
+    "lievikovec kyjakovitý (Gomphus clavatus)",
+    "lúčnica citrónovožltá (Hygrocybe citrinovirens)",
+    "muchotrávka jelšová (Amanita friabilis)",
+    "náramkovka cisárska (Catathelasma imperiale)",
+    "práchnovček ružový (Rhodofomes roseus syn. Fomitopsis rosea)",
+    "hríb úhľadný horský (Rubroboletus rubrosanguineus, syn. Suillellus rubrosanguineus)",
+    "prútnik hviezdovitý (Bryum pseudotriquetrum)",
+    "šupinka Menziesova (Neckera menziesii)",
+    "vstavač ploštičný (Anacamptis coriophora)",
+    "pochybok tupolistý (Androsace obtusifolia)",
+    "vratička mnohozárezová (Botrychium multifidum)",
+    "diablik močiarny (Calla palustris)",
+    "ostrica oblastá (Carex diandra)",
+    "ostrica dvojdomá pravá (Carex dioica subsp. dioica)",
+    "ostrica plstnatoplodá (Carex lasiocarpa)",
+    "ostrica barinná (Carex limosa)",
+    "prilbovka biela (Cephalanthera damasonium)",
+    "prilbovka dlholista (Cephalanthera longifolia)",
+    "prilbovka červená (Cephalanthera rubra)",
+    "škarda sibírska (Crepis sibirica)",
+    "vstavačovec strmolistý pravý (Dactylorhiza incarnata subsp. incarnata)",
+    "vstavačovec strmolistý neskorý (Dactylorhiza incarnata subsp. pulchella)",
+    "vstavačovec škvrnitý mokraďný (Dactylorhiza maculata subsp. elodes)",
+    "vstavačovec zelený (Dactylorhiza viridis)",
+    "klinček pyšný (Dianthus superbus)",
+    "rosička okrúhlolistá (Drosera rotundifolia)",
+    "kruštík komorický (Epipactis komoricensis)",
+    "kruštík úzkopyskový (Epipactis leptochila)",
+    "kruštík Leuteho (Epipactis leutei)",
+    "kruštík drobnolistý (Epipactis microphylla)",
+    "kruštík močiarny (Epipactis palustris)",
+    "kruštík modrofialový (Epipactis purpurata)",
+    "sklenobyľ bezlistá (Epipogium aphyllum)",
+    "praslička pestrá (Equisetum variegatum)",
+    "mečík strechovitý (Gladiolus imbricatus)",
+    "smrečinovec plazivý (Goodyera repens)",
+    "päťprstnica obyčajná (Gymnadenia conopsea)",
+    "päťprstnica hustokvetá (Gymnadenia densiflora)",
+    "päťprstnica voňavá (Gymnadenia odoratissima)",
+    "kurička vápencová (Cherleria langii, syn. Minuartia langii)",
+    "zimoľub okolíkatý (Chimaphila umbellata)",
+    "starček abrotanolistý karpatský (Jacobea abrotanifolia subsp. carpathica)",
+    "plesnivec alpínsky (Leontopodium alpinum)",
+    "ľalia cibuľkonosná pravá (Lilium bulbiferum var. bulbiferum)",
+    "linnéovka severná (Linnaea borealis)",
+    "skalienka ležatá (Loiseleuria procumbens)",
+    "ľadenec barinný (Lotus pedunculatus, syn. L. uliginosus)",
+    "plavúň sploštený (Lycopodium complanatum)",
+    "čerkáč kytkový (Lysimachia thyrsiflora)",
+    "trčníček jednolistý (Malaxis monophyllos)",
+    "perovník pštrosí (Matteuccia struthiopteris)",
+    "myrikovka nemecká (Myricaria germanica)",
+    "vstavač trojzubý (Neotinea tridentata)",
+    "vstavač počerný pravý (Neotinea ustulata subsp. ustulata)",
+    "vstavač počerný letný (Neotinea ustulata subsp. aestivalis)",
+    "bradáčik srdcovitolistý (Neottia cordata)",
+    "hmyzovník muchovitý (Ophrys insectifera)",
+    "vstavač mužský poznačený (Orchis mascula subsp. speciosa, syn. O. m. subsp. signifera)",
+    "vstavač vojenský (Orchis militaris)",
+    "vstavač bledý (Orchis pallens)",
+    "vstavač purpurový (Orchis purpurea)",
+    "všivec močiarny pravý (Pedicularis palustris subsp. palustris)",
+    "tučnica obyčajná (Pinquicula vulgaris)",
+    "vemenník zelenkastý (Platanthera chlorantha)",
+    "prvosienka holá (Primula auricula)",
+    "prvosienka pomúčená pravá (Primula farinosa subsp. farinosa)",
+    "bieloprst belavý (Pseudorchis albida)",
+    "machovička uzlatá (Sagina nodosa)",
+    "lomikameň okrúhlolistý pravý (Saxifraga rotundifolia subsp. rotundifolia)",
+    "šašina hrdzavá (Schoenus ferrugineus)",
+    "rebrovka rôznolistá (Struthiopteris spicant)",
+    "tis obyčajný (Taxus baccata)",
+    "barička prímorská (Triglochin maritima)",
+    "bublinatka menšia (Utricularia minor)",
+    "kľukva močiarna (Vaccinium oxycoccus, syn. Oxycoccus palustris)",
+    "veronika štítovitá (Veronica scutellata)",
+    "veronika pŕhľavolistá (Veronica urticifolia)",
+    "vudsia skalná (Woodsia ilvensis)",
+    "bradatec drsný (Usnea filipendula, syn. Usnea dasopoga)",
+    "dutohlávka horská (Cladonia stellaris)",
+    "pľuzgierka islandská (Cetraria islandica)",
+    "diskovka dierkovaná (Menegazzia terebrata)",
+    "jaseňovka nádherná (Heterodermia speciosa)",
+    "bolínka ihličňanová (Camarops tubulina)",
+    "hrboľnačka černastá (Boletopsis leucomelaena)",
+    "hodvábnica fialovomodrá (Entoloma euchroum)",
+    "peniazovka jarná (Gymnopus vernus)",
+    "jelenkovka chlpatá (Hydnellum mirabile)",
+    "jelenkovka modrastá (Hydnellum caeruleum)",
+    "jelenkovka sírovožltá (Hydnellum geogenium)",
+    "kalichovka zlatolupeňová (Chrysomphalina chrysophylla)",
+    "koreňovica kužeľovitá (Phaeocollybia christinae)",
+    "koreňovica olivová (Phaeocollybia festiva)",
+    "korkovka smreková (Phellodon violascens, syn. Bankera violascens)",
+    "kyjak useknutý (Clavariadelphus truncatus)",
+    "lupeňopórovec hnedožltý (Phylloporus pelletieri)",
+    "lúčnica granátovočervená (Hygrocybe punicea)",
+    "lúčnica ovčia (Hygrocybe ovina)",
+    "pakyjačik purpurový (Alloclavaria purpurea)",
+    "rýdzik ostrý (Lactarius acris)",
+    "rýdzik fialovkastý (Lactarius lilacinus)",
+    "rýdzik šupinatý (Lactarius olivinus)",
+    "rýdzik nádherný (Lactarius repraesentaneus)",
+    "sliziak ružový (Gomphidius roseus)",
+    "šamonia modrejúca (Chamonixia caespitosa)",
+    "trsovec horský (Bondarzewia mesenterica)",
+    "zvončekovec sadzový (Hydropus atramentosus)",
+    "zamatka jedľová (Oudemansiella melanotricha)",
+    "zamatka černastá (Xerula caussei)",
+    "číruška černejúca (Pseudotricholoma metapodium)",
+    "rakyt sautorov (Anacamptodon sauteri)",
+    "drsnolist Rugelov (Anomodon rugelii)",
+    "vázovka plavá (Arctoa fulvella)",
+    "hruškovka ostrá (Blindia acuta)",
+    "bankovec tatranský (Brachytheciastrum trachypodium)",
+    "bankovec pestrý (Brachythecium oxycladum)",
+    "prútnik prostredný (Bryum intermedium)",
+    "prútnik čiaškovitý (Bryum turbinatum)",
+    "háčikovec černastý (Catoscopium nigritum)",
+    "dvojhrotka briadkatá (Dicranella cerviculata)",
+    "dvojhrot gaštanový (Dicranum spadiceum)",
+    "kosákovec Sendtnerov (Drepanocladus sendtneri)",
+    "šišiačik lopatkovitý (Encalypta spathulata)",
+    "drobivka alpínska (Grimmia alpestris)",
+    "drobivka nepravidelná (Grimmia anomala)",
+    "drobivka otvorená (Grimmia ramondii)",
+    "drobivka krivozubá (Grimmia reflexidens)",
+    "drobnolist útlý (Gyroweissia tenuis)",
+    "trúchnivka odstávajúca (Herzogiella striatella)",
+    "zmáčanec Smithov (Hygrohypnum smithii)",
+    "drobnolístok Muellerov (Isopterygiopsis muelleriana)",
+    "drapuľka plstnatá (Lescuraea radicosa)",
+    "bakuľka trojrohá (Meesia trriquetra)",
+    "merík ostňovitý (Mnium spinulosum)",
+    "žľabovka Sendtnerova (Molendoa sendtneriana)",
+    "žľabovka tenkorebrová (Molendoa tenuinervis)",
+    "peniažkovec najjemnejší (Myurella tenerrima)",
+    "šupinka perovitá (Neckera pennata)",
+    "šupinka drobná (Neckera pumila)",
+    "bochník horský (Orthotrichum alpestre)",
+    "bochník čiaškovitý (Orthotrichum cupulatum)",
+    "celokrajka štíhla (Pohlia filum)",
+    "celokrajka dlhokrká (Pohlia longicolla)",
+    "celokrajka tupolistá (Pohlia obtusifolia)",
+    "rašeliník lesklý (Sphagnum subnitens)",
+    "ampulka guľovitá (Splachnum sphaericum)",
+    "širokolist striebristý (Stegonia latifolia)",
+    "rakyt pestrý (Stereodon callichrous)",
+    "fúzačik Enderesov (Streblotrichum enderesii)",
+    "ostnochlp nórsky (Syntrichia norvegica)",
+    "krkuľka pílkatá (Tayloria serrata)",
+    "krkuľka tenká (Tayloria tenuis)",
+    "zrastoľub zúžený (Tetraplodon tenuis)",
+    "zrastoľub meríkovitý (Tetraplodon mnioides)",
+    "strapaňa nórska (Timmia norvegica)",
+    "skrútenec hrotitý (Tortula mucronifolia)",
+    "brčkavec stlačený (Ulota coarctata)",
+    "rebríček bertrámový (Achillea ptarmica)",
+    "vstavač obyčajný (Anacamptis morio)",
+    "marinka Neilreichova (Asperula neilreichii)",
+    "jazyk jelení (Asplenium scolopendrium)",
+    "prerastlík dlholistý (Bupleurum longifolium)",
+    "ostrica Davallova (Carex davalliana)",
+    "ostrica Hartmanova (Carex hartmaniorum)",
+    "ostrica skalná (Carex rupestris)",
+    "ostrica tôňomilná (Carex umbrosa)",
+    "nátržnica močiarna (Comarum palustre)",
+    "koralica lesná (Corallorhiza trifida)",
+    "chocholačka žltobiela (Corydalis capnoides)",
+    "hloh Lindmanov (Crataegus lindmanii)",
+    "kučeravec čiarkovitý (Cryptogramma crispa)",
+    "vstavačovec Fuchsov pravý (Dactylorhiza fuchsii subsp. fuchsii)",
+    "vstavačovec Fuchsov Soóov (Dactylorhiza fuchsii subsp. sooana)",
+    "vstavačovec laponský (Dactylorhiza lapponica)",
+    "vstavačovec májový pravý (Dactylorhiza majalis subsp. majalis)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "stračia nôžka tatranská (Delphinium oxysepalum)",
+    "vŕbovka ovisnutá (Epilobium nutans)",
+    "kruštík oddialený (Epipactis distans, syn. E. helleborine subsp. orbicularis)",
+    "horčičník Wahlenbergov (Erysimum wahlenbergii)",
+    "krivec najmenší (Gagea minima)",
+    "snežienka jarná (Galanthus nivalis)",
+    "horec Clusiov (Gentiana clusii)",
+    "horec ľadový (Gentiana frigida)",
+    "horec snežný (Gentiana nivalis)",
+    "horec pľúcny (Gentiana pneumonanthe)",
+    "horec bodkovaný (Gentiana punctata)",
+    "horec jarný (Gentiana verna)",
+    "hakélia zohnutá (Hackelia deflexa)",
+    "večernica slovenská (Hesperis slovaca)",
+    "jastrabník nízkotatranský (Hieracium austrotatricum)",
+    "jastrabník sliezsky (Hieracium silesiacum)",
+    "jastrabník Vierhapperov (Hieracium vierhapperi)",
+    "žerušník alpínsky nízky (Hornungia alpina subsp. brevicaulis, syn. Pritzelago alpina subsp. dubia)",
+    "plavúň pučivý (Lycopodium annotinum)",
+    "plavúň obyčajný (Lycopodium clavatum)",
+    "Lycopodium spp. (Diphasiastrum alpinum)",
+    "vachta trojlistá (Menyanthes trifoliata)",
+    "nezábudka úzkolistá (Myosotis stenophylla)",
+    "hadivka obyčajná (Ophioglossum vulgatum)",
+    "všivec Oederov (Pedicularis oederi)",
+    "chlpánik Guthnickov (Pilosella guthnickiana)",
+    "tučnica alpínska (Pinquicula alpina)",
+    "borovica limbová (Pinus cembra)",
+    "čremcha obyčajná skalná (Prunus padus subsp. borealis)",
+    "hruštička zelená (Pyrola chlorantha)",
+    "rozchodnica ružová (Rhodiola rosea)",
+    "vŕba Kitaibelova (Salix kitaibeliana)",
+    "vŕba rozmarínolistá (Salix rosmarinifolia)",
+    "lomikameň pochybkový (Saxifraga androsacea)",
+    "lomikameň sivý (Saxifraga caesia)",
+    "lomikameň carpatica (Saxifraga carpatica)",
+    "lomikameň jastrabníkolistý (Saxifraga hieraciifolia)",
+    "lomikameň pozmenený (Saxifraga mutata)",
+    "lomikameň protistojnolistý pravý (Saxifraga oppositifolia subsp. oppositifolia)",
+    "lomikameň trváci (Saxifraga wahlenbergii)",
+    "soldanelka karpatská (Soldanella carpatica)",
+    "soldanelka uhorská (Soldanella marmarossiensis)",
+    "jarabina čiernokamenská (Sorbus atrimontis)",
+    "jarabina siná (Sorbus caeruleomontana)",
+    "jarabina mišpuľka (Sorbus chamaemespilus)",
+    "jarabina salatinSka (Sorbus salatini)",
+    "hviezdica močiarna (Stellaria palustris)",
+    "kavyľ Ivanov (Stipa pennata)",
+    "žltuška jednoduchá (Thalictrum simplex)",
+    "pavstavač hlavatý (Traunsteinera globosa)",
+    "žltohlav najvyšší (Trollius altissimus)",
+    "Pimprlík močiarny (Vertigo geyeri)",
+    "pimprlík mokraďový (Vertigo angustior)",
+    "boros Schneiderov (Boros schneideri)",
+    "bystruška potočná (Carabus variolosus)",
+    "plocháč červený (Cucujus cinnaberinus)",
+    "roháč obyčajný (Lucanus cervus)",
+    "fuzáč karpatský (Pseudogaurotina excellens)",
+    "fuzáč alpský (Rosalia alpina)",
+    "priadkovec trnkový (Eriogaster catax)",
+    "spriadač kostihovový (Euplagia quadripunctaria)",
+    "mlynárik východný (Leptidea morsei)",
+    "ohniváčik veľký (Lycaena dispar)",
+    "modráčik bahniskový (Maculinea nausithous)",
+    "jasoň červenooký (Parnassius apollo)",
+    "mihuľa ukrajinská (Eudontomyzon mariae)",
+    "hlaváč bieloplutvý (Cottus gobio)",
+    "hlavátka podunajská (Hucho hucho)",
+    "kunka žltobruchá (Bombina variegata)",
+    "mlok karpatský (Lissotriton montandoni)",
+    "pôtičkavý (Aegolius funereus)",
+    "orol skalný (Aquila chrysaetos)",
+    "výr skalný (Bubo bubo)",
+    "lelek obyčajný (Caprimulgus europaeus)",
+    "bocian čierny (Ciconia nigra)",
+    "orol krikľavý (Clanga pomarina)",
+    "chrapkáč poľný (Crex crex)",
+    "ďateľ bielochrbtý (Dendrocopos leucotos)",
+    "tesár čierny (Dryocopus martius)",
+    "muchárik bielokrký (Ficedula albicollis)",
+    "muchárik červenohrdlý (Ficedula parva)",
+    "kuvičok vrabčí (Glaucidium passerinum)",
+    "včelár lesný (Pernis apivorus)",
+    "ďateľ trojprstý (Picoides tridactylus)",
+    "žlna sivá (Picus canus)",
+    "sova dlhochvostá (Strix uralensis)",
+    "jariabok hôrny (Tetrastes bonasia)",
+    "tetrov hoľniak (Tetrao tetrix)",
+    "hlucháň hôrny (Tetrao urogallus)",
+    "uchaňa čierna (Barbastella barbastellus)",
+    "netopier Bechsteinov (Myotis bechsteini)",
+    "netopier obyčajný (Myotis myotis)",
+    "netopier pobrežný (Myotis dasycneme)",
+    "podkovár malý (Rhinolophus hipposideros)",
+    "svišť vrchovský tatranský (Marmota marmota latirostris)",
+    "hraboš tatranský (Microtus tatricus)",
+    "vlk dravý (Canis lupus)",
+    "vydra riečna (Lutra lutra)",
+    "rys ostrovid (Lynx lynx)",
+    "medveď hnedý (Ursus arctos)",
+    "kamzík vrchovský tatranský (Rupicapra rupicapra tatrica)",
+    "prepelica poľná (Coturnix coturnix)",
+    "strakoš veľký (Lanius excubitor)",
+    "muchár sivý (Muscicapa striata)",
+    "žltochvost hôrny (Phoenicurus phoenicurus)",
+    "slizniak karpatský (Bielzia coreulans)",
+    "chondrína tatranská (Chondrina tatrica)",
+    "faustina slovanská (Faustina rossamaessleri)",
+    "rak riečny (Astacus astacus)",
+    "križiak stromový (Aranaeus saevus)",
+    "šidielko (Coenagrion puella)",
+    "pásikavec dvojzubý (Cordulegaster bidentata)",
+    "vážka (Orthetrum brunneum)",
+    "vážka (Orthetrum coerulescens)",
+    "vážka žltoškvrnná (Sympetrum flaveolum)",
+    "koník pestrý (Arcyptera fusca)",
+    "mravcolev stromový (Dendroleon pantherinus)",
+    "mravcolev čiernobruchý (Myrmeleon formicarius)",
+    "čmele (Bombus lapidarius)",
+    "čmele (Bombus pratorum)",
+    "čmele (Bombus soroeensis)",
+    "čmele (Bombus jonellus)",
+    "čmele (Bombus pascuorum)",
+    "čmele (Bombus terrestris)",
+    "čmele (Bombus lucorum)",
+    "čmele (Bombus silvestris)",
+    "pestrica (Temnostoma bombylans)",
+    "pestrica južná (Temnostoma meridionale)",
+    "pestrica osovitá (Temnostoma vespiforme)",
+    "fuzáč (Brachyta interrogationis)",
+    "bystruška zlatá (Carabus auronitens escheri)",
+    "bystruška medená (Carabus cancellatus)",
+    "bystruška lesklá (Carabus obsoletus)",
+    "bystruška (Carabus problematicus problematicus)",
+    "krasoň jedľový (Eurythyrea austriaca)",
+    "kováčik šupinatý (Lacon lepidopterus)",
+    "májka (Meloe spp.)",
+    "nosorožtek obyčajný (Oryctes nasicornis holdhausi)",
+    "modráčik horcový (Maculinea alcon)",
+    "modráčik ušľachtilý (Polyommatus amandus)",
+    "ropucha bradavičnatá (Bufo bufo)",
+    "skokan zelený (Rana esculenta)",
+    "skokan hnedý (Rana temporaria)",
+    "salamandra škvrnitá (Salamandra salamandra)",
+    "mlok horský (Triturus alpestris)",
+    "mlok bodkovaný (Triturus vulgaris)",
+    "slepúch východný (Anguis colchica)",
+    "slepúch lámavý (Anguis fragilis)",
+    "užovka obojková (Natrix natrix)",
+    "vretenica severná (Vipera berus)",
+    "jašterica živorodá horská (Lacerta vivipara vivipara)",
+    "jastrab veľký (Accipiter gentilis)",
+    "jastrab krahulec (Accipiter nisus)",
+    "mlynárka dlhochvostá (Aegithalos caudatus)",
+    "škovránok poľný (Alauda arvensis)",
+    "kačica chrapka (Anas crecca)",
+    "kačica divá (Anas platyrhynchos)",
+    "ľabtuška vrchovská (Anthus spinolletta)",
+    "ľabtuška hôrna (Anthus trivialis)",
+    "dážďovník obyčajný (Apus apus)",
+    "volavka popolavá (Ardea cinerea)",
+    "myšiarka ušatá (Asio otus)",
+    "kuvik obyčajný (Athene noctua)",
+    "myšiak hôrny (Buteo buteo)",
+    "stehlík obyčajný (Carduelis carduelis)",
+    "červenák karmínový (Carpodacus erythrinus)",
+    "kôrovník krátkoprstý (Certhia brachydactyla)",
+    "kôrovník dlhoprstý (Certhia familiaris)",
+    "vodnár potočný (Cinclus cinclus)",
+    "glezg obyčajný (Coccothraustes coccothraustes)",
+    "holub plúžik (Columba oenas)",
+    "holub hrivnák (Columba palumbus)",
+    "krkavec čierny (Corvus corax)",
+    "vrana čierna (Corvus corona)",
+    "vrana popolavá (Corvus cornix)",
+    "kukučka obyčajná (Cuculus canorus)",
+    "belorítka obyčajná (Delichon urbica)",
+    "ďateľ veľký (Dendrocopos major)",
+    "ďateľ malý (Dryobates minor)",
+    "strnádka obyčajná (Emberiza citrinella)",
+    "červienka obyčajná (Erithacus rubecula)",
+    "sokol lastovičiar (Falco subbuteo)",
+    "sokol myšiar (Falco tinnunculus)",
+    "pinka obyčajná (Fringilla coelebs)",
+    "sojka obyčajná (Garrulus glandarius)",
+    "lastovička domová (Hirundo rustica)",
+    "zelienka obyčajná (Carduelis chloris)",
+    "krutohlav hnedý (Jynx torquilla)",
+    "stehlík konôpka (Linaria cannabina)",
+    "krivonos smrekový (Loxia curvirostra)",
+    "trasochvost biely (Motacilla alba)",
+    "trasochvost horský (Motacilla cinerea)",
+    "orešnica perlavá (Nucifraga caryocatactes)",
+    "skaliarik sivý (Oenanthe oenanthe)",
+    "vlha obyčajná (Oriolus oriolus)",
+    "sýkorka uhliarka (Parus ater)",
+    "sýkorka belasá (Parus caeruleus)",
+    "sýkorka chochlatá (Parus cristatus)",
+    "sýkorka veľká (Parus major)",
+    "sýkorka čiernohlavá (Parus montanus)",
+    "sýkorka hôrna (Parus palustris)",
+    "vrabec domový (Passer domesticus)",
+    "vrabec poľný (Passer montanus)",
+    "žltochvost domový (Phoenicurus ochruros)",
+    "kolibiarik čipčavý (Phylloscopus collybita)",
+    "kolibiarik sykavý (Phylloscopus sibilatrix)",
+    "kolibiarik spevavý (Phylloscopus trochilus)",
+    "straka obyčajná (Pica pica)",
+    "žlna zelená (Picus viridis)",
+    "vrchárka červenkastá (Prunella collaris)",
+    "vrchárka modrá (Prunella modularis)",
+    "hýľ obyčajný (Pyrrhula pyrrhula)",
+    "králik ohnivohlavý (Regulus ignicapillus)",
+    "králik zlatohlavý (Regulus regulus)",
+    "kúdeľníčka lužná (Remiz pendulinus)",
+    "pŕhľaviar červenkastý (Saxicola rubetra)",
+    "pŕhľaviar čiernohlavý (Saxicola rubicola)",
+    "sluka hôrna (Scolopax rustica)",
+    "kanárik poľný (Serinus serinus)",
+    "brhlík obyčajný (Sitta europaea)",
+    "hrdlička poľná (Streptopelia turtur)",
+    "sova obyčajná (Strix aluco)",
+    "škorec obyčajný (Sturnus vulgaris)",
+    "penica čiernohlavá (Sylvia atricapilla)",
+    "penica obyčajná (Sylvia communis)",
+    "penica popolavá (Sylvia curruca)",
+    "murárik červenokrídly (Tichodroma muraria)",
+    "oriešok obyčajný (Troglodytes troglodytes)",
+    "drozd čierny (Turdus merula)",
+    "drozd plavý (Turdus philomelos)",
+    "drozd čvíkotavý (Turdus pilaris)",
+    "drozd kolohrivý (Turdus torquatus)",
+    "drozd trskotavý (Turdus viscivorus)",
+    "dudok chochlatý (Upupa epops)",
+    "cíbik chochlatý (Vanellus vanellus)",
+    "bielozúbka bielobruchá (Crocidura leucodon)",
+    "dulovnica menšia (Neomys anomalus)",
+    "dulovnica väčšia (Neomys fodiens)",
+    "piskor horský/vrchovský (Sorex alpinus)",
+    "piskor obyčajný/lesný (Sorex araneus)",
+    "piskor malý (Sorex minutus)",
+    "jež bledý (Erinaceus concolor/roumanicus)",
+    "plch sivý (Glis glis)",
+    "hraboš snežný (Microtus nivalis)",
+    "veverica stromová (Sciurus vulgaris)",
+    "kuna skalná (Martes foina)",
+    "jazvec lesný (Meles meles)",
+    "hranostaj čiernochvostý (Mustela erminea)",
+    "lasica myšožravá (Mustela nivalis)",
+    "slimák záhradný (Helix pomatia)",
+    "drevník ryhovaný (Rhyssodes sulcatus)",
+    "modráčik čiernoškvrnný (Maculinea arion)",
+    "modráčik krvavcový (Maculinea teleius)",
+    "mihuľa potočná (Lampetra planeri)",
+    "boleň dravý (Aspius aspius)",
+    "lipeň tymiánový (Thymallus thymallus)",
+    "ropucha zelená (Bufo viridis)",
+    "rosnička zelená (Hyla arborea)",
+    "užovka hladká (Coronella austriaca)",
+    "užovka stromová (Elaphe longissima)",
+    "korytnačka močiarna (Emys orbicularis)",
+    "jašterica krátkohlavá (Lacerta agilis)",
+    "užovka frkaná (Natrix tessellata)",
+    "jašterica múrová (Podarcis muralis)",
+    "bocian biely (Ciconia ciconia)",
+    "večernica pozdná (Eptesicus serotinus)",
+    "netopier Blythov/východný (Myotis blythi)",
+    "netopier Brandtov (Myotis brandti)",
+    "netopier brvitý (Myotis emarginatus)",
+    "raniak stromový (Nyctalus leisleri)",
+    "raniak hrdzavý (Nyctalus noctula)",
+    "večernica parková (Pipistrellus nathusii)",
+    "večernica hvízdavá (Pipistrellus pipistrellus)",
+    "večernica Leachova/pískavá (Pipistrellus pygmaeus)",
+    "podkovár veľký (Rhinolophus ferrumequinum)",
+    "večernica pestrá (Vespertilio murinus)",
+    "plch lesný (Dryomys nitedula)",
+    "plch lieskový (Muscardinus avellanarius)",
+    "myšovka horská (Sicista betulina)",
+    "syseľ pasienkový (Spermophillus citellus)",
+    "šakal zlatý (Canis aureus)",
+    "norok európsky (Mustela lutreola)",
+    "mačka divá (Felis silvestris)",
+    "kuna lesná (Martes martes)",
+    "tchor tmavý (Mustela putorius)",
+    "Muchárka pralesná (Laphria empyrea)"
+  ],
+  "odkaz_enviroportal": "http://uzemia.enviroportal.sk/",
+  "paragrafy": [
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "20a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "25",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "i",
+        "j",
+        "l"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "a",
+        "c",
+        "i",
+        "j",
+        "l",
+        "o",
+        "p"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "e",
+        "h"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "56",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61e",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "104i",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "170/2021 Z. z."
+    }
+  ],
+  "zhrnutie": "Projekt ochrany Národného parku Nízke Tatry a jeho ochranného pásma navrhuje zonáciu územia (5., 4., 3. a 2. stupeň ochrany) a definuje ciele manažmentu pre zachovanie a obnovu prirodzených ekosystémov. Dokument špecifikuje povolené a zakázané činnosti v jednotlivých zónach, vrátane lesohospodárskych zásahov, odstraňovania inváznych druhov a infraštruktúrnych úprav, s dôrazom na ochranu rozsiahleho územia, jeho biotopov a vzácnych druhov živočíchov a rastlín."
+}

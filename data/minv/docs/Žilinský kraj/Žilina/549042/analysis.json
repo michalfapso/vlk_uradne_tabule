@@ -1,0 +1,541 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP1-2025/069141-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-15",
+  "datum_zverejnenia": "2025-08-15",
+  "lehoty_na_vyjadrenie": "Vlastníci, správcovia, nájomcovia a verejnosť: do 30 dní od doručenia oznámenia zámeru (deň doručenia sa považuje za 15. deň vyvesenia na úradnej tabuli). Občianske združenia: najneskôr 30 dní pred predpokladaným termínom schválenia programu starostlivosti.",
+  "ziadatel_navrhovatel": "Správa Tatranského národného parku",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj, Žilinský kraj",
+    "okres": "Poprad, Liptovský Mikuláš, Tvrdošín, Kežmarok",
+    "obec": "Štôla, Štrba, Štrbské Pleso, Tatranská Lomnica, Starý Smokovec, Tatranská Javorina, Veľký Slavkov, Ždiar, Habovka, Tichá dolina, Zuberec, Oravice, Babky, Bobrovec, Jakubovany, Jalovec, Jamník, Konská, Kvačany, Liptovské Matiašovce, Liptovský Trnovec, Svätý Štefan, Pribylina, Smrečany, Východná, Žiar, Batizovce, Gerlachov, Lučivná, Mengusovce, Mlynica, Nová Lesná, Veľká, Huncovce, Malý Slavkov, Mlynčeky, Rakúsy, Spišská Belá, Stará Lesná, Stráne pod Tatrami, Veľká Lomnica, Lendak, Beňušovce, Bobrovček, Kavaľovo, Huty, Hybe, Liptovská Kokava, Liptovské Beharovce, Vavrišovo, Važec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štôla",
+        "parcely": []
+      },
+      {
+        "nazov": "Štrba",
+        "parcely": []
+      },
+      {
+        "nazov": "Štrbské Pleso",
+        "parcely": []
+      },
+      {
+        "nazov": "Tatranská Lomnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Starý Smokovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Tatranská Javorina",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľký Slavkov",
+        "parcely": []
+      },
+      {
+        "nazov": "Ždiar",
+        "parcely": []
+      },
+      {
+        "nazov": "Habovka",
+        "parcely": []
+      },
+      {
+        "nazov": "Tichá dolina",
+        "parcely": []
+      },
+      {
+        "nazov": "Zuberec",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravice",
+        "parcely": []
+      },
+      {
+        "nazov": "Babky",
+        "parcely": []
+      },
+      {
+        "nazov": "Bobrovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Jakubovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Jalovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Jamník",
+        "parcely": []
+      },
+      {
+        "nazov": "Konská",
+        "parcely": []
+      },
+      {
+        "nazov": "Kvačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Matiašovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovský Trnovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Štefan",
+        "parcely": []
+      },
+      {
+        "nazov": "Pribylina",
+        "parcely": []
+      },
+      {
+        "nazov": "Smrečany",
+        "parcely": []
+      },
+      {
+        "nazov": "Východná",
+        "parcely": []
+      },
+      {
+        "nazov": "Žiar",
+        "parcely": []
+      },
+      {
+        "nazov": "Batizovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Gerlachov",
+        "parcely": []
+      },
+      {
+        "nazov": "Lučivná",
+        "parcely": []
+      },
+      {
+        "nazov": "Mengusovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Mlynica",
+        "parcely": []
+      },
+      {
+        "nazov": "Nová Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľká",
+        "parcely": []
+      },
+      {
+        "nazov": "Huncovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Malý Slavkov",
+        "parcely": []
+      },
+      {
+        "nazov": "Mlynčeky",
+        "parcely": []
+      },
+      {
+        "nazov": "Rakúsy",
+        "parcely": []
+      },
+      {
+        "nazov": "Spišská Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Stará Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Stráne pod Tatrami",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľká Lomnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Lendak",
+        "parcely": []
+      },
+      {
+        "nazov": "Beňušovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Bobrovček",
+        "parcely": []
+      },
+      {
+        "nazov": "Kavaľovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Huty",
+        "parcely": []
+      },
+      {
+        "nazov": "Hybe",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Kokava",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovské Beharovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Vavrišovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Važec",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Tatranský národný park, Tatry"
+  },
+  "typ_dokumentu": "Oznámenie o zámere",
+  "typ_zasahu": [
+    "úprava hraníc chráneného územia",
+    "zonácia chráneného územia",
+    "vyhlásenie zón národného parku",
+    "zmeny hraníc ochranného pásma",
+    "tvorba programu starostlivosti",
+    "manažment lesov a nelesných biotopov",
+    "starostlivosť o brehové porasty",
+    "zachovanie hydrického režimu",
+    "opatrenia druhovej ochrany",
+    "zamedzenie urbanizácie"
+  ],
+  "typ_uzemia": [
+    "Národný park",
+    "Ochranné pásmo",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV0307",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany",
+    "Národná prírodná rezervácia (NPR) - zrušené/existujúce",
+    "Prírodná rezervácia (PR) - zrušené/existujúce",
+    "Prírodná pamiatka (PP)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hlucháň hôrny (Tetrao urogallus)",
+    "kamzík vrchovský tatranský (Rupicapra rupicapra tatrica)",
+    "svišť vrchovský tatranský (Marmota marmota latirostris)",
+    "medveď hnedý (Ursus arctos)",
+    "tetrov hoľniak (Tetrao tetrix)",
+    "orol skalný (Aquila chrysaetos)",
+    "výr skalný (Bubo bubo)",
+    "obojživelníky",
+    "jasoň červenooký (Parnassius apollo)",
+    "vlk dravý (Canis lupus)",
+    "rys ostrovid (Lynx lynx)",
+    "vydra riečna (Lutra lutra)",
+    "myška divej (Felix silvestris)",
+    "bobor vodný (Castor fiber)",
+    "orol krikľavý",
+    "murárik červenokrídly (Tichodroma muraria)",
+    "včelár lesný (Pernis apivorus)",
+    "bocian čierny (Ciconia nigra)",
+    "netopiere",
+    "sokol sťahovavý (Falco peregrinus)"
+  ],
+  "odkaz_enviroportal": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=52&odbor=10&sekcia=uradna-tabula#popis",
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "83",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "20",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "55",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61c",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61e",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "90",
+      "odsek": "1",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "92",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "21",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument Oznamuje zámer Okresného úradu Prešov vyhlásiť nové zóny Tatranského národného parku (TANAP) a zmeniť jeho hranice, ako aj hranice ochranného pásma, spoločne s návrhom Programu starostlivosti na roky 2025-2034. Zámerom je prispôsobiť zonáciu a manažment územia, vrátane zrušenia niektorých prírodných rezervácií a definovania nových stupňov ochrany (od 2. po 5. stupeň) s cieľom zlepšiť priaznivý stav biotopov a chránených druhov, ako sú hlucháň, kamzík či medveď. Dotknuté sú viaceré obce v Prešovskom a Žilinskom kraji."
+}

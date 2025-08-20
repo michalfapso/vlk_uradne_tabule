@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "2024/123073",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-13",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Hybe, Smrečany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vošchodná",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "217",
+              "218",
+              "219",
+              "220",
+              "221",
+              "230-231"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Smrečany",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "232",
+              "233",
+              "234",
+              "235",
+              "236",
+              "237",
+              "238-243"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie a okliesňovanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti ENZA s.r.o. Okresnému úradu Liptovský Mikuláš o plánovanom nevyhnutnom výrube a okliesňovaní náletových drevín v ochrannom pásme elektrického vedenia 400 kV č. V407 Liptovská Mara - Spišská Nová Ves. Činnosť sa bude realizovať v katastrálnych územiach Vošchodná a Smrečany v okrese Liptovský Mikuláš podľa zákona o ochrane prírody a krajiny a zákona o energetike."
+}

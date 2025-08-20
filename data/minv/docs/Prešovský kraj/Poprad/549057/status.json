@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-08-20 18:38:46",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 549057, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=549057: Chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Poprad/549057/orig.xlsx pomocou pandoc: Command '['pandoc', '-f', 'xlsx', '-t', 'markdown', '--wrap=none', '-o', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Poprad/549057/text.txt', '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Poprad/549057/orig.xlsx']' returned non-zero exit status 21.\nStdout: \nStderr: Unknown input format xlsx\n"
+  }
+]

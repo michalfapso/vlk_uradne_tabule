@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/000860",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-20",
+  "datum_zverejnenia": "2025-08-20",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "fyzickú osobu",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1098"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "umiestnenie prenosného zariadenia",
+    "predajný stánok"
+  ],
+  "typ_uzemia": [
+    "Druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na vydanie súhlasu pre umiestnenie prenosného predajného stánku na parcele č. 1098 v katastrálnom území Muráň. Činnosť sa týka územia s druhým stupňom ochrany prírody."
+}
