@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-08-21",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Pavel Mak",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Heľpa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Heľpa",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "3605",
+              "3606",
+              "3607",
+              "3608",
+              "3609",
+              "3694/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "oplotenie",
+    "pasenie hospodárskych zvierat"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti Pavla Maka o vydanie súhlasu na oplotenie pozemkov E-KN 3605, 3606, 3607, 3608, 3609, 3694/3 v k.ú. Heľpa, okres Brezno, za účelom pasenia hospodárskych zvierat. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia 21.08.2025."
+}

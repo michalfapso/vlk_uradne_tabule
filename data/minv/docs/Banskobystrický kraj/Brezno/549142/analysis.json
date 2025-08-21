@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/011078-MED",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Heľpa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Heľpa",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1848/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovitých porastov"
+  ],
+  "typ_uzemia": [
+    "2. stupeň ochrany",
+    "3. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "r"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Informácia pre verejnosť od Okresného úradu Brezno o plánovanom výrube drevín a krovitých porastov v katastrálnom území Heľpa, parcela č. 1848/1. Výrub sa týka územia s 2. alebo 3. stupňom ochrany prírody, pričom do konania nie je možné sa prihlásiť podľa zákona č. 543/2002 Z.z."
+}

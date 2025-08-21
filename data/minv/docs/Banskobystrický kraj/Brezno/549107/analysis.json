@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-08-21",
+  "lehoty_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Ing. Štefan Štibraný",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Lom nad Rimavicou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lom nad Rimavicou",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "568"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2552",
+              "2553"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "565"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2553",
+              "2554",
+              "2555"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania pre žiadosť Ing. Štefana Štibraného o súhlas na výrub drevín (breza, smrek, osika, vŕba) v k.ú. Lom nad Rimavicou, okres Brezno. Cieľom je obnova poľnohospodárskych pozemkov pre pasenie hospodárskych zvierat. Záujemci o účasť v konaní sa môžu prihlásiť do 5 pracovných dní od zverejnenia dokumentu (21.08.2025)."
+}
