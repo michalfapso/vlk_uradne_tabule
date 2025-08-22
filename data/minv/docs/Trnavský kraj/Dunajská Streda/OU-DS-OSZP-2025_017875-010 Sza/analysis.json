@@ -1,0 +1,326 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/017875-010",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2025/017875-0057013/2025",
+  "datum_dokumentu": "2025-08-18",
+  "datum_zverejnenia": "2025-08-20",
+  "lehoty_na_vyjadrenie": "Neuvedené pre verejnosť. Odvolanie pre účastníkov je možné podať v lehote do 15 dní odo dňa oznámenia rozhodnutia.",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Dunajská Streda",
+    "obec": "Horné Mýto",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horné Mýto",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "580/8",
+              "590/9",
+              "645/5",
+              "646/3",
+              "649/3",
+              "657/8",
+              "658/4",
+              "590/2",
+              "657/1",
+              "661/9"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "610/1",
+              "657",
+              "659"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Malý Dunaj a Klátovské rameno"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby",
+  "typ_zasahu": [
+    "zhotovenie vodnej stavby",
+    "zvýšenie bezpečnosti územia proti spätnému vzdutiu",
+    "rekonštrukcia hrádze",
+    "vybudovanie novej hrádze",
+    "vybudovanie podzemnej tesniacej steny",
+    "navýšenie ochrannej hrádze",
+    "preložka hydromelioračného potrubia",
+    "výrub drevín",
+    "odstránenie krovitého porastu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "73",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "4",
+      "pismena": [
+        "o"
+      ],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "45",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane proti rušeniu",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140c",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutie Okresného úradu Dunajská Streda, ktorým sa udeľuje povolenie na zhotovenie vodnej stavby s názvom „Zvýšenie bezpečnosti územia proti spätnému vzdutiu Malého Dunaja a Klátovského ramena z Váhu, II. ETAPA, 2. časť (Horné Mýto)“. Projekt zahŕňa rekonštrukciu a výstavbu ochrannej hrádze, tesniacich stien a preložku potrubí v katastrálnom území Horné Mýto, okres Dunajská Streda. V rámci konania je zmienená aj podmienka pre získanie súhlasu orgánu ochrany prírody v prípade nevyhnutného výrubu drevín a krovia."
+}
