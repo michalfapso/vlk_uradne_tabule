@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "0040529/2023-OVP3",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-08-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prosné",
+        "parcely": []
+      },
+      {
+        "nazov": "Úd.ica",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod elektrickým vedením VN č. 195"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie porastov",
+    "okliesnenie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením od spoločnosti Stredoslovenská distribučná, a.s. o plánovanom výrube, odstránení a okliesnení stromov a iných porastov. Činnosť, plánovaná na 15.09.2023, sa má uskutočniť v ochrannom pásme pod elektrickým vedením VN č. 195 v katastrálnych územiach Prosné a Úd.ica v okrese Považská Bystrica, s cieľom zabezpečiť bezpečnosť a spoľahlivosť prevádzky energetických zariadení."
+}

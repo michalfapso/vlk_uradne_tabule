@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-08-25",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Mgr. Linda Sekereš Peťková",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5689/18",
+              "5689/3",
+              "5689/20",
+              "5681/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "zásah do biotopu",
+    "výstavba rodinného domu",
+    "výstavba hospodárskej budovy"
+  ],
+  "typ_uzemia": [
+    "biotop Lk1"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania o žiadosti Mgr. Lindy Sekereš Peťkovej o vydanie súhlasu na zásah do biotopu typu Lk1 v katastrálnom území Brezno na parcelách C-KN 5689/18, 5689/3, 5689/20, 5681/4 za účelom výstavby rodinného domu a hospodárskej budovy. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia."
+}

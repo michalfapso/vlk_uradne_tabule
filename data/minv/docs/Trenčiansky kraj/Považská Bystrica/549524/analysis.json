@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "0004038/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-26",
+  "datum_zverejnenia": "2025-08-27",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystrica",
+        "parcely": []
+      },
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": []
+      },
+      {
+        "nazov": "Papradno",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Papradno"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliešťovanie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie od ENZA s.r.o. o nevyhnutnom výrube a okliešťovaní drevín v ochrannom pásme elektrického vedenia. Činnosť sa má realizovať v katastrálnych územiach Bystrica, Považská Bystrica a Papradno, predpokladaný začiatok 09.2025. Dokument odkazuje na Zákon o ochrane prírody a krajiny a Zákon o energetike."
+}

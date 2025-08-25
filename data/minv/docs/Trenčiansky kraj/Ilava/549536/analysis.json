@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "MÚ 7265/2023-00-11-Vstup 2051001214-001",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2015-08-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Ilava",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zliechov",
+        "parcely": []
+      },
+      {
+        "nazov": "Košické Rovné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kopec",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Košické Podhradie",
+        "parcely": []
+      },
+      {
+        "nazov": "Malé Košické Podhradie",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod elektrickým vedením VN č. 203"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín",
+    "odstránenie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením od spoločnosti Stredoslovenská distribučná, a.s. o plánovanom výrube, odstránení a okliesnení stromov a iných porastov v ochrannom pásme pod elektrickým vedením VN č. 203. Činnosť sa má uskutočniť v katastrálnych územiach Zliechov, Košické Rovné, Kopec, Veľké Košické Podhradie a Malé Košické Podhradie, s plánovaným začiatkom 15.9.2025, za účelom zaistenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení."
+}
