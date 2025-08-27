@@ -1,0 +1,120 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/019918",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-27",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "RENAS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Levice",
+    "obec": [
+      "Horša",
+      "Kmeťovce",
+      "Dolné Žemberovce",
+      "Horné Žemberovce",
+      "Čankov",
+      "Bory",
+      "Santovka Domadice",
+      "Horné Semerovce",
+      "Chorvatice",
+      "Hrkovce",
+      "Šahy"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horša",
+        "parcely": []
+      },
+      {
+        "nazov": "Kmeťovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Žemberovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Žemberovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Čankov",
+        "parcely": []
+      },
+      {
+        "nazov": "Bory",
+        "parcely": []
+      },
+      {
+        "nazov": "Santovka Domadice",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Semerovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Chorvatice",
+        "parcely": []
+      },
+      {
+        "nazov": "Hrkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Šahy",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 400 kV vedenia V426, V449"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 400 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube a odstránení drevín v ochrannom pásme 400 kV vedenia V426 a V449, ktoré sa nachádza v katastrálnych územiach viacerých obcí v okrese Levice. Konanie sa riadi zákonom o ochrane prírody a krajiny, pričom sa naň nevzťahujú všeobecné predpisy o správnom konaní, čo znamená, že pre verejnosť nie je možné sa prihlásiť do konania."
+}

@@ -1,0 +1,431 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/017149",
+  "cislo_rozhodnutia": "OU-TN-OSZP2-2025/017149-020",
+  "datum_dokumentu": "2025-08-27",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia",
+  "ziadatel_navrhovatel": "Regionálna vodárenská spoločnosť Vlára – Váh, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Borčice, Bolešov, Kameničany, Slavnica, Nemšová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Borčice",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "93/11",
+              "103/4",
+              "107",
+              "141",
+              "142/3",
+              "156",
+              "157",
+              "266/1",
+              "363",
+              "365/11",
+              "365/12",
+              "365/13",
+              "142/4",
+              "85/1",
+              "86",
+              "85/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "223/1",
+              "73/151",
+              "223/2",
+              "225",
+              "73/152",
+              "224/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bolešov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "909",
+              "910",
+              "59/3",
+              "60/2",
+              "61/28",
+              "61/37",
+              "61/38",
+              "61/39",
+              "61/40",
+              "61/42",
+              "61/44",
+              "61/46",
+              "61/48",
+              "66/1",
+              "191",
+              "195/1",
+              "198",
+              "233",
+              "275",
+              "285",
+              "304",
+              "354",
+              "400/1",
+              "403",
+              "417/5",
+              "417/6",
+              "447",
+              "449/1",
+              "773/3",
+              "773/4",
+              "806",
+              "807",
+              "867/1",
+              "898/1",
+              "899",
+              "918/1",
+              "942/1",
+              "62/5",
+              "449/4",
+              "449/6",
+              "806/4",
+              "806/5",
+              "942/2",
+              "942/5",
+              "940"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1-9000/21",
+              "49",
+              "9000/14",
+              "9000/17",
+              "1-9000/20",
+              "94/54",
+              "3/101",
+              "4/1",
+              "4/5",
+              "94/55",
+              "95",
+              "9000/3",
+              "9000/17",
+              "9000/15",
+              "1-9000/10",
+              "1-9000/7",
+              "1-9000/14",
+              "1-9000/13",
+              "1-9000/27",
+              "1-61",
+              "9000/16"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kameničany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "399",
+              "423/1",
+              "428/1",
+              "429/2",
+              "429/16",
+              "431/1",
+              "34",
+              "37",
+              "82",
+              "190",
+              "280",
+              "302",
+              "343",
+              "388",
+              "394",
+              "395/1",
+              "426",
+              "427",
+              "433",
+              "423/7"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "74/306",
+              "1005",
+              "45/102",
+              "66/1",
+              "1004/502",
+              "47",
+              "46/501",
+              "1004/501",
+              "1001/1",
+              "1032",
+              "1001/2",
+              "1010/501",
+              "106/303",
+              "82",
+              "74/106",
+              "42",
+              "41/2",
+              "1009/2",
+              "1-9000/34",
+              "1003"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Slavnica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "464/2",
+              "19",
+              "20",
+              "47",
+              "63/3",
+              "75",
+              "111",
+              "120/2",
+              "121",
+              "122/4",
+              "151/10",
+              "152",
+              "153/1",
+              "153/20",
+              "153/24",
+              "186",
+              "187",
+              "269/1",
+              "269/2",
+              "469/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "8/200",
+              "9004",
+              "39",
+              "40",
+              "9007",
+              "9038",
+              "19/102",
+              "22",
+              "141/1",
+              "9012",
+              "6/10",
+              "6/16",
+              "8/100",
+              "6/251",
+              "8/101",
+              "9051",
+              "127/18"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nemšová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3295",
+              "3296",
+              "3301",
+              "3330"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "mikroregiónu Vlára – Váh"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "odkanalizovanie",
+    "čistenie odpadových vôd",
+    "výstavba kanalizácie",
+    "výstavba čerpacej stanice"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "81",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "86",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Kolaudačné rozhodnutie povoľuje užívanie vodnej stavby „Odkanalizovanie mikroregiónu Vlára – Váh a intenzifikácia ČOV Nemšová“, ktorá zahŕňa verejnú kanalizáciu a čerpacie stanice v obciach Borčice, Bolešov, Kameničany, Slavnica a mesta Nemšová v okrese Ilava. Rozhodnutie bolo vydané napriek nevyriešeným vlastníckym vzťahom k pozemkom s odvolaním sa na stavebný zákon, ktorý v kolaudačnom konaní tieto práva neskúma. Nie sú spomenuté žiadne chránené územia ani druhy."
+}
