@@ -1,0 +1,472 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/022182-19/KK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-27",
+  "datum_zverejnenia": "2025-05-05",
+  "lehoty_na_vyjadrenie": "Lehota pre vyjadrenie k oznámeniu o strategickom dokumente bola od 05.05.2025 do 19.05.2025. Voči tomuto rozhodnutiu o zisťovacom konaní sa nemožno odvolať.",
+  "ziadatel_navrhovatel": "Mesto Poprad",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Poprad",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišská Sobota",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1586",
+              "481/1",
+              "481/4",
+              "2646/875",
+              "2646/876",
+              "2020/574",
+              "2020/605",
+              "2020/755",
+              "1559/1",
+              "1559/2",
+              "1559/3",
+              "1560",
+              "1570",
+              "1572",
+              "1545",
+              "1546",
+              "1547/3",
+              "1549/7",
+              "1550"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Poprad",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1406/9",
+              "1724/102",
+              "2484/13",
+              "424/1",
+              "2453/3",
+              "2453/26",
+              "2655"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Matejovce",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "652/8",
+              "652/20",
+              "726/24"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Stráže pod Tatrami",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "457/128",
+              "457/131",
+              "457/4",
+              "457/112",
+              "457/129",
+              "457/132",
+              "381/66",
+              "381/69",
+              "381/67",
+              "381/70",
+              "2067",
+              "2069",
+              "2068",
+              "2070"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "1953/13",
+              "1953/15",
+              "1953/29"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál Lunysu a Pebeku, Ulica Rovná, Areál Východ, JUH C1 – C2, lokalita ul. Hraničná, Partizánska, Západ, Centrum, Walltech, pri TEŽ – Velická cesta, ul. Alžbetina, lokalita hospodárskeho dvora, ul. Hlavná oproti Kaskáde, medzi letiskom Poprad-Tatry a diaľnicou D1"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "zmena územného plánu",
+    "úprava regulatívov zástavby",
+    "doplnenie siete cyklotrás",
+    "zmena dopravného systému",
+    "aktualizácia koncepcie rozvoja v tepelnej energetike",
+    "záber poľnohospodárskej pôdy",
+    "výstavba"
+  ],
+  "typ_uzemia": [
+    "1. stupeň územnej ochrany",
+    "ochranné pásmo Tatranského národného parku",
+    "2. stupeň územnej ochrany",
+    "genofondová lokalita Tatranské potoky",
+    "regionálny biokoridor Bk1r Tatranské potoky",
+    "navrhovaná prírodná rezervácia Popradské rašelinisko",
+    "ochranné pásmo letiska Poprad-Tatry",
+    "Natura 2000",
+    "maloplošné chránené územia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "mihuľa potočná (Lampetra planeri)",
+    "vydra riečna (Lutra lutra)",
+    "bobor vodný (Castor fiber)",
+    "pimprlík mokraďový",
+    "pimprlík močiarny",
+    "mlok hrebenatý",
+    "kunka žltobruchá",
+    "šidlovka hnedá",
+    "vážka pásavá",
+    "šídlo obrovské",
+    "bublinatka menšia",
+    "vstavačovec krvavočervený",
+    "vstavačovec strmolistý krvavý",
+    "vstavačovec strmolistý pravý",
+    "vstavačovec strmolistý neskorý"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zmena-doplnok-c-99-2024-upn-mesta-poprad",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l)"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": "1",
+      "pismena": [
+        "c)"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b)"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "4",
+      "pismena": [
+        "n)"
+      ],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "4",
+      "pismena": [
+        "o)"
+      ],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využívaní poľnohospodárskej pôdy a o zmene zákona o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane a využívaní poľnohospodárskej pôdy a o zmene zákona o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "p)"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "1",
+      "pismena": [
+        "a)"
+      ],
+      "zakon_nazov": "zákon o civilnom letectve (letecký zákon) a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vyhláška",
+      "zakon_cislo": "69/2024 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [
+        "a)"
+      ],
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva Slovenskej republiky, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "58/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách a o zmene zákona o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o obmedzovaní ožiarenia pracovníkov a obyvateľov z prírodných zdrojov ionizujúceho žiarenia",
+      "zakon_cislo": "57/2024 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím zo zisťovacieho konania pre strategický dokument „Zmena a doplnok 99/2024 Územného plánu mesta Poprad“. Územný plán navrhuje zmeny funkčného využitia a priestorového usporiadania v obci Poprad a jej katastrálnych územiach, s plánovaným záberom 4,3405 ha poľnohospodárskej pôdy. Dotknuté sú územia s 1. a 2. stupňom ochrany, ochranné pásmo Tatranského národného parku, genofondová lokalita Tatranské potoky a navrhovaná prírodná rezervácia Popradské rašelinisko. V súvislosti s týmito územiami sú spomenuté chránené druhy ako mihuľa potočná, vydra riečna, bobor vodný a viaceré druhy rastlín a obojživelníkov. Strategický dokument nebude ďalej posudzovaný podľa zákona EIA, ale sú stanovené podmienky, ktoré je potrebné zohľadniť pri jeho schvaľovaní."
+}
