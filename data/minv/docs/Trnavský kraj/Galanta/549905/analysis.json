@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "10164/2025 OKU GA - PRÍM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, š.p., Povodie dolného Váhu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Galanta",
+    "obec": "Sereď, Veľká Mača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sereď",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1806/240",
+              "1806/210",
+              "3947/1",
+              "4049"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká Mača",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1552",
+              "2121/1",
+              "2286",
+              "2412"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodný tok Derňa a Spojovací kanál Dudváh – Derňa (Dernodužváhsky kanál)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie náletových drevín a kríkov porastov",
+    "odstránenie nánosov z koryta vodného toku"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodného toku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "baza",
+    "trnka",
+    "svíb"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje plánovaný výrub náletových drevín a kríkov (baza, trnka, svíb) o celkovej výmere 18 800 m² v katastrálnych územiach Sereď a Veľká Mača. Zásah sa týka vodného toku Derňa a Spojovacieho kanála Dudváh – Derňa a ich ochranných pásiem. Účelom je odstránenie nánosov a zabezpečenie prietočnosti vodných tokov."
+}

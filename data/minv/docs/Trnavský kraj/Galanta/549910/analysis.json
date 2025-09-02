@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2025/016552-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-26",
+  "datum_zverejnenia": "2025-08-26",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LESOSTAV SEVER s.r.o., 023 01 Oščadnica 8",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Galanta",
+    "obec": "Pusté Úľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pusté Úľany",
+        "parcely": [
+          {
+            "typ": "C KN",
+            "cisla": [
+              "563",
+              "640",
+              "689",
+              "1137/3",
+              "1126/2"
+            ]
+          },
+          {
+            "typ": "E KN",
+            "cisla": [
+              "706"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 400 kV č. 439 TR: Križovany – Podunajské Biskupice"
+  },
+  "typ_dokumentu": "Upovedomenie o zverejnení oznámenia",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Galanta oznamuje výrub drevín v katastrálnom území Pusté Úľany, konkrétne v ochrannom pásme elektrického vedenia 400 kV. Výrub vykonáva LESOSTAV SEVER s.r.o. pre Slovenskú elektrizačnú prenosovú sústavu, a.s. z dôvodu zaistenia bezpečnosti a bezporuchovosti elektrických vedení."
+}

@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2023/059773",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-09-02",
+  "datum_zverejnenia": "2023-09-01",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENGIE Services a. s., Jarošova 2961/1, 831 03 Bratislava",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "209/296",
+              "209/295",
+              "209/70"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zavar",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "209/296"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Automobilová ulica, areál firmy STELLANTIS Trnava"
+  },
+  "typ_dokumentu": "Zverejnenie žiadosti",
+  "typ_zasahu": [
+    "uskutočnenie vodných stavieb",
+    "výstavba dažďovej kanalizácie",
+    "odvodnenie ľahu",
+    "výstavba prípojky vody",
+    "výstavba vodovodu",
+    "výstavba splaškovej kanalizácie",
+    "výstavba čerpacej šachty",
+    "výtlak",
+    "odvedenie odpadovej vody"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zdroj-tepla-na-biomasu-stellantis-trnava",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "58a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava zverejňuje žiadosť spoločnosti ENGIE Services a. s. o povolenie na uskutočnenie vodných stavieb, konkrétne dažďovej a splaškovej kanalizácie, prípojky vody a vodovodu pre projekt „Zdroj tepla na biomasu – Stellantis Trnava“. Projekt sa realizuje v obci Trnava, v katastrálnych územiach Stará a Zavar. Pre činnosť už bolo ukončené zisťovacie konanie bez povinnosti posudzovania vplyvov na životné prostredie."
+}

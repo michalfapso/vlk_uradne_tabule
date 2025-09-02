@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "2025/0155 53",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik, Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Humenné",
+    "obec": "Ohradzany, Lukačovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ohradzany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4573"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lukačovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "474"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodné toky Záhumienka a Oľka"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstraňovanie brehových porastov"
+  ],
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Humenné plánovaný výrub drevín a krovitých porastov na vodných tokoch Záhumienka (k. ú. Ohradzany) a Oľka (k. ú. Lukačovce) v okrese Humenné. Výrub je plánovaný od 1.10.2025 do 28.2.2027 a je odôvodnený potrebou udržiavania vodných tokov a odstránením prekážok. Dokument je zaslaný na vedomie aj Správe CHKO Východné Karpaty."
+}

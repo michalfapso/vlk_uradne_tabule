@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2025/016542-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-25",
+  "datum_zverejnenia": "2025-08-25",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SVP š.p., Povodie dolného Váhu, o.z.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Galanta",
+    "obec": "Sereď, Veľká Mača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sereď",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4049"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1806/240",
+              "210"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3947/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká Mača",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1552",
+              "2121/1",
+              "2286",
+              "2412"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodnom toku Derňa, spojovacom kanáli Dudváh - Derňa, Derňodudvážsky kanál"
+  },
+  "typ_dokumentu": "Upovedomenie o zverejnení oznámenia",
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "kríkových porastov",
+    "orez stromov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Galanta oznamuje zverejnenie informácie o plánovanom výrube náletových drevín, kríkových porastov a oreze stromov, ktorý bude realizovať SVP š.p. v katastrálnych územiach Sereď a Veľká Mača. Činnosť sa má konať v rokoch 2025 a 2026 na vodnom toku Derňa a spojovacom kanáli Dudváh - Derňa."
+}

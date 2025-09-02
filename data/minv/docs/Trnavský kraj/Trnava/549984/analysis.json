@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "0137094",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-05",
+  "datum_zverejnenia": "2025-08-06",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENGIE Services a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zavar",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "209/296"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zdroj tepla na biomasu – Stellantis Trnava"
+  },
+  "typ_dokumentu": "Žiadosť o povolenie vodnej stavby a osobitného užívania vôd",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba vodnej stavby",
+    "odvedenie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "39a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje žiadosť o povolenie vodnej stavby a osobitného užívania vôd, ktorá zahŕňa vybudovanie dažďovej a splaškovej kanalizácie a vodovodu pre projekt \"Zdroj tepla na biomasu – Stellantis Trnava\" v okrese Trnava. Projekt sa týka parciel registra C, pričom minimálne parcela č. 209/296 je explicitne umiestnená v katastrálnom území Zavar. V dokumente nie sú uvedené žiadne informácie o chránených územiach alebo dotknutých živočíchoch/rastlinách."
+}

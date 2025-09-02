@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "M-GA-8-2P-2018",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-12",
+  "datum_zverejnenia": "2025-08-18",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LESOSTAV SEVER S.R.O.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Galanta",
+    "obec": "Pusté Úľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pusté Úľany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "563"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "640",
+              "689"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "706"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1137/3",
+              "1126/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Čadlíky, Pod brehmi, Starý potok, Nové pasienky, Hakoš, Pri hradskej, Pri Jeleňom majeri, Janovské, Dolné"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliešťovanie porastov"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "LESOSTAV SEVER S.R.O. oznamuje Okresnému úradu Galanta zámer vykonať nevyhnutný výrub náletových drevín a okliešťovanie porastov v ochrannom pásme 400 kV elektrického vedenia č. 439 v katastrálnom území Pusté Úľany v okrese Galanta. Účelom je zabezpečenie plynulej a bezporuchovej prevádzky vedenia, pričom výrub sa riadi zákonom o ochrane prírody a krajiny a zákonom o energetike."
+}

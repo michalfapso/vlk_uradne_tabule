@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001125",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-01",
+  "datum_zverejnenia": "2025-09-01",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Detva",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Detva",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "7531"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje oznámenie o začatí správneho konania pre vydanie súhlasu na výrub drevín. Výrub sa má realizovať na parcele č. 7531 v katastrálnom území Detva. Konanie sa riadi zákonom o ochrane prírody a krajiny."
+}
