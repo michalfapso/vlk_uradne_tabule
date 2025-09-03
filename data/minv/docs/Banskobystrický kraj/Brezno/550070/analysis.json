@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-04",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Závadka nad Hronom, Heľpa, Pohorelá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Závadka nad Hronom",
+        "parcely": []
+      },
+      {
+        "nazov": "Heľpa",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohorelá",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 22kV vedenia VN 381 k10"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno oznamuje plánovaný výrub drevín spoločnosťou Stredoslovenská distribučná, a. s. v katastrálnych územiach Závadka nad Hronom, Heľpa a Pohorelá. Dreviny budú odstránené v ochrannom pásme 22kV vedenia VN 381 k10 z dôvodu bezpečnej a spoľahlivej prevádzky energetických zariadení. Konanie prebieha podľa § 47 ods. 7 zákona č. 543/2002 Z.z., čo znamená, že nie je možné sa prihlásiť do konania."
+}

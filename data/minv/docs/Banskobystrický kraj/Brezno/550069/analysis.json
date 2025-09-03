@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-02",
+  "datum_zverejnenia": "2025-09-04",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Predajná",
+        "parcely": []
+      },
+      {
+        "nazov": "Jasenie",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "7,8 km dlhý úsek v ochrannom pásme 22kV vedenia VN 308 k51 na nelesných pozemkoch"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením Okresného úradu Brezno o plánovaných výruboch drevín zo strany Stredoslovenskej distribučnej, a. s. na nelesných pozemkoch v katastrálnych územiach Predajná a Jasenie. Výruby sú zdôvodnené ohrozením bezpečnej prevádzky 22kV vedenia VN 308 k51 a bezpečnosti osôb a majetku v ochrannom pásme tohto vedenia, pričom sa odvoláva na zákonnú výnimku z potreby súhlasu na výrub."
+}

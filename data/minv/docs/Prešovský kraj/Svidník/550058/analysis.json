@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-25",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Svidník",
+    "obec": "Svidník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svidník",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1238/1",
+              "1238/2",
+              "4479/7"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bodružal",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "516/2",
+              "516/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodné toky Ladomirka a Bodružalík"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie brehových porastov",
+    "údržba vodných tokov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, štátny podnik, oznamuje Okresnému úradu Svidník plánovaný výrub drevín (osika, vŕba, krovité porasty) na vodných tokoch Ladomirka a Bodružalík v katastrálnych územiach Svidník a Bodružal. Výrub je odôvodnený potrebou odstrániť prekážky pre plynulý odtok vody a údržbu vodných tokov."
+}

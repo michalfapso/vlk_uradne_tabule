@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-04",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "JPRL s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Heľpa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Heľpa",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "VN 374_k11"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením Okresného úradu Brezno o plánovanom výrube a okliesnení stromov a iných porastov subjektom JPRL s.r.o. v katastrálnom území Heľpa. Cieľom zásahu na linke VN 374_k11 je zabezpečiť bezpečnú prevádzku energetických zariadení, pričom sa odvoláva na zákonné výnimky podľa zákona o ochrane prírody a krajiny a zákona o energetike."
+}

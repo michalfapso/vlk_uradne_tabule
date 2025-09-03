@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "SVP 9760/2025/15",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Vranov nad Topľou",
+    "obec": [
+      "Bystré",
+      "Petkovce",
+      "Sečovská Polianka",
+      "Cabov",
+      "Vranov nad Topľou"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystré",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1919/202"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Petkovce",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "471"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Sečovská Polianka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1820"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Cabov",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "913/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vranov nad Topľou",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1128/2",
+              "1128/201"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Potok Stráň, Petkovský jarok, Cabovský potok, VT Rakovec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstránenie náletových drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Toto je oznámenie Slovenského vodohospodárskeho podniku, Povodie Bodrogu, o plánovanom výrube drevín a krovitých porastov na vodných tokoch Potok Stráň, Petkovský jarok, Cabovský potok a VT Rakovec v okrese Vranov nad Topľou, v katastrálnych územiach Bystré, Petkovce, Sečovská Polianka, Cabov a Vranov nad Topľou. Cieľom výrubu, plánovaného od októbra 2025 do februára 2027, je zabezpečenie plynulého odtoku vody a odstránenie prekážok brániacich údržbe."
+}

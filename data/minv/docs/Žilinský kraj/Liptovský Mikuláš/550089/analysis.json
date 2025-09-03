@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/013692",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Mikuláš",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1478/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v obvode dráhy"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub smrekov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o Železniciach Slovenskej republiky",
+      "zakon_cislo": "258/1993 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú výrub 20 smrekov v katastrálnom území Liptovský Mikuláš, parcela C-KN 1478/1, z dôvodu ohrozenia bezpečnosti železničnej prevádzky. Výrub bude vykonaný od 01.10.2025 a opiera sa o § 47 ods. 7 zákona o ochrane prírody a krajiny."
+}
