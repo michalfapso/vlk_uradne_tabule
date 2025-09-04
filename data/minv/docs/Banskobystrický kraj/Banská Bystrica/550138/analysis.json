@@ -1,0 +1,147 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "Máj 2025",
+  "datum_zverejnenia": "Máj 2025",
+  "lehoty_na_vyjadrenie": "Informatívna príloha nie je predmetom pripomienkového konania.",
+  "ziadatel_navrhovatel": "Banskobystrický samosprávny kraj",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "územie Banskobystrického kraja"
+  },
+  "typ_dokumentu": "Územný plán veľkého územného celku Banskobystrický kraj – Zmeny a doplnky č. 6 – Informatívna príloha",
+  "typ_zasahu": [
+    "územné plánovanie a rozvoj",
+    "rozvoj osídlenia",
+    "výstavba dopravnej infraštruktúry",
+    "výstavba technickej infraštruktúry",
+    "ťažba nerastov",
+    "rozvoj turizmu a rekreácie",
+    "úprava vodných tokov",
+    "ochrana pred povodňami",
+    "nakladanie s odpadmi",
+    "ochrana prírody a krajiny",
+    "rekultivácia a sanácia"
+  ],
+  "typ_uzemia": [
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany",
+    "Národný park Nízke Tatry",
+    "Národný park Muránska planina",
+    "Národný park Veľká Fatra",
+    "Národný park Slovenský raj",
+    "Chránená krajinná oblasť Poľana",
+    "Chránená krajinná oblasť Cerová vrchovina",
+    "Chránená krajinná oblasť Štiavnické vrchy",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "Územia UNESCO",
+    "Európske dedičstvo",
+    "Chránená vodohospodárska oblasť Veľká Fatra",
+    "Chránená vodohospodárska oblasť Nízke Tatry - západná časť",
+    "Chránená vodohospodárska oblasť Nízke Tatry - východná časť",
+    "Chránená vodohospodárska oblasť Horné povodie Ipľa",
+    "Chránená vodohospodárska oblasť Rimavice a Slatiny",
+    "Chránená vodohospodárska oblasť Muránska planina",
+    "Chránená vodohospodárska oblasť Horné povodie Hnilca",
+    "Ochranné pásmo vodárenského zdroja",
+    "Ochranné pásmo vodných tokov",
+    "Chránené vtáčie územie",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Národná prírodná pamiatka",
+    "Prírodná pamiatka",
+    "Chránený areál",
+    "Chránený krajinný prvok",
+    "Prírodný park",
+    "Územný systém ekologickej stability",
+    "Biocentrum",
+    "Terestrický migračný koridor",
+    "Hydrický migračný koridor",
+    "Interakčný prvok",
+    "Pufrovacia zóna",
+    "Genofondová lokalita",
+    "Chránený nelesný biotop",
+    "Chránený lesný biotop",
+    "Citlivá oblasť (voda)",
+    "Zraniteľná oblasť (voda)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotopy chránených rastlín a živočíchov",
+    "biota vodných ekosystémov",
+    "ryby a ostatné vodné organizmy",
+    "vtáky"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečivých kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o regulácii v sieťových odvetviach",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica Európskeho parlamentu a Rady, ktorou sa ustanovuje rámec pre činnosť Spoločenstva v oblasti vodnej politiky",
+      "zakon_cislo": "2000/60/ES"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica o hodnotení a manažmente povodňových rizík",
+      "zakon_cislo": "2007/60/ES"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Rozhodnutie Európskeho parlamentu a Rady, ktorým sa ustanovuje akcia Európskej únie na podporu značky Európske dedičstvo",
+      "zakon_cislo": "1194/2011/EÚ"
+    }
+  ],
+  "zhrnutie": "Dokument je Informatívnou prílohou k Územnému plánu veľkého územného celku Banskobystrický kraj – Zmeny a doplnky č. 6. Definuje záväzné regulatívy pre funkčné a priestorové usporiadanie územia, vrátane rozvoja osídlenia, hospodárstva, rekreácie a turistiky, dopravnej a technickej infraštruktúry. Kladie dôraz na ochranu životného prostredia, prírody (vrátane území 3. až 5. stupňa ochrany, NATURA 2000, UNESCO lokalít a chránených vodohospodárskych oblastí) a kultúrneho dedičstva v celom Banskobystrickom kraji. Tento dokument nie je predmetom pripomienkového konania."
+}

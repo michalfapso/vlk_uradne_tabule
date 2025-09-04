@@ -1,0 +1,309 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "South City E, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava – Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2150/4"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "2150/5"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3042/2"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3042/38"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3042/458"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3042/693"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3042/691"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3043/2"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3043/3"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3043/1663045/5"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/21"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/41"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/8"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/71"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/72"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/80"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/14"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/40"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/44"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/90"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/188"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "3051/204"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "JUŽNÉ MESTO – ZÓNA AB1, Bratislava - Petržalka"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "zmena projektu",
+    "výstavba bytových a podnikateľských objektov",
+    "zmena zdroja tepla",
+    "dopravné a stavebno-technické riešenie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje verejnosť o začatí zisťovacieho konania k zmene navrhovanej činnosti „JUŽNÉ MESTO – ZÓNA AB1, Bratislava - Petržalka“. Zmena pôvodného projektu, ktorý zahŕňal bytovú a podnikateľskú zástavbu, spočíva hlavne v zmene zdroja tepla a v dopravnom a stavebno-technickom riešení. Miesto realizácie je v Bratislave-Petržalke, katastrálne územie Petržalka, na viacerých parcelách."
+}

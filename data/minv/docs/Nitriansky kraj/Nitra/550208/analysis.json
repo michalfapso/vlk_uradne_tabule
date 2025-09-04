@@ -1,0 +1,445 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/033106-003",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2025/033106-0121004/2025",
+  "datum_dokumentu": "2025-09-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia (pre odvolanie proti rozhodnutiu)",
+  "ziadatel_navrhovatel": "Obec Lúčnica nad Žitavou",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Lúčnica nad Žitavou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vajka nad Žitavou",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "737/2",
+              "737/15",
+              "786/7",
+              "825/2",
+              "825/12",
+              "825/16",
+              "833/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "823/3",
+              "825/3",
+              "1718/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Martinová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "160/1",
+              "160/2",
+              "162/1",
+              "308/1",
+              "308/15",
+              "315",
+              "159"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "63",
+              "66/5",
+              "66/6",
+              "160/1",
+              "160/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lúčnica nad Žitavou- vodovod- doplnenie vodovodu"
+  },
+  "typ_dokumentu": "Rozhodnutie (Verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výkopové práce"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodného toku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "71",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "39a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "36",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "38",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška ministerstva kultúry SR, ktorou sa vykonáva pamiatkový zákon",
+      "zakon_cislo": "253/2010 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška ministerstva kultúry SR, ktorou sa vykonáva pamiatkový zákon",
+      "zakon_cislo": "253/2010 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "387/2006 Z. z."
+    },
+    {
+      "paragraf": "9.1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "391/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MPSVR SR",
+      "zakon_cislo": "147/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Nitra, odboru starostlivosti o životné prostredie, ktoré povoľuje obci Lúčnica nad Žitavou vybudovať vodovod v rámci projektu \"Lúčnica nad Žitavou- vodovod- doplnenie vodovodu\". Činnosť sa má realizovať v katastrálnych územiach Vajka nad Žitavou a Martinová a zahŕňa výstavbu približne 271,3 metra vodovodného potrubia. Rozhodnutie obsahuje podmienky súvisiace s ochranným pásmom vodného toku a požiadavky na prípadný archeologický výskum a ochranu živočíchov počas stavebných prác."
+}

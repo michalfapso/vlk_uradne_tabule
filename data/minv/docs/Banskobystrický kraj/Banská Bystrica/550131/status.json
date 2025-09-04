@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-09-04 18:30:15",
+    "type": "error",
+    "text": "Chyba pri LLM analýze alebo ukladaní analysis.txt pre ID 550131: Chyba počas LLM analýzy: litellm.InternalServerError: litellm.InternalServerError: VertexAIException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The model is overloaded. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+  },
+  {
+    "date": "2025-09-04 18:30:15",
+    "type": "error",
+    "text": "Výsledok analýzy (analysis.txt) nie je dostupný pre ID 550131."
+  }
+]
