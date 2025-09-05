@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "02509/2025/OR ŽA/SZTS-1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-02",
+  "datum_zverejnenia": "2025-09-05",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Žilina",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Dobrá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dobrá",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "522/1",
+              "522/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o Železniciach Slovenskej republiky",
+      "zakon_cislo": "258/1993 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Žilina, oznamujú výrub 10 ks drevín (Smrek, Vŕba, Jabloň, Borovica, Orech) v katastrálnom území Dobrá (okres Ilava, Trenčiansky kraj) v období od 01.10.2025 do 28.02.2026. Dreviny rastú na parcelách C-KN 522/1 a 522/2 v ochrannom pásme dráhy a predstavujú riziko pre bezpečnosť železničnej dopravy. Ide o oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny."
+}

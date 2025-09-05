@@ -1,0 +1,377 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/011181-005",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2025/011181-0035257/2025",
+  "datum_dokumentu": "2025-09-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "námietky k vydaniu vodoprávneho stavebného povolenia môžu uplatniť najneskôr na ústnom pojednávaní dňa 02. 09. 2025",
+  "ziadatel_navrhovatel": "SUNRISE TECH, s. r. o., Podtureň 215, 033 01 Podtureň",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Demänová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Demänová",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "390/24",
+              "390/3",
+              "390/70",
+              "390/79"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Táborisko Demänová Village"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby",
+  "typ_zasahu": [
+    "uskutočnenie vodnej stavby",
+    "výstavba areálového vodovodu",
+    "výstavba prípojok vody",
+    "výstavba prípojok splaškovej kanalizácie",
+    "výstavba areálovej dažďovej kanalizácie",
+    "odvádzanie splaškových odpadových vôd",
+    "odvádzanie dažďových vôd",
+    "vsakovanie vôd",
+    "odber povrchových vôd z vodného toku Demänovka",
+    "odber podzemných vôd zo studní",
+    "realizácia jazierok/umelých vodných plôch"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "140c",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "140c",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140c",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje rozhodnutie Okresného úradu Liptovský Mikuláš, ktorým sa udeľuje povolenie spoločnosti SUNRISE TECH, s. r. o. na realizáciu vodnej stavby „Táborisko Demänová Village“. Stavba zahŕňa areálový vodovod, prípojky vody, prípojky splaškovej kanalizácie a dažďovú kanalizáciu s vsakovaním, ako aj odbery povrchových a podzemných vôd, s cieľom zásobovania a odvádzania vôd z rekreačnej lokality. Projekt sa uskutočňuje v katastrálnom území Demänová, okres Liptovský Mikuláš, na uvedených parcelách. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani špecifické živočíchy/rastliny, sú však stanovené podmienky na ochranu vôd a nakladanie s odpadmi."
+}

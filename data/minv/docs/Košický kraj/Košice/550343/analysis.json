@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/054009",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Národná diaľničná spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaca",
+        "parcely": []
+      },
+      {
+        "nazov": "Poľov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Ludvíkov Dvor, Sokoliansky potok"
+  },
+  "typ_dokumentu": "Záväzné stanovisko orgánu štátnej vodnej správy",
+  "typ_zasahu": [
+    "rekonštrukcia mosta",
+    "úprava vodného toku",
+    "čistenie koryta"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "drobné živočíchy"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice vydal záväzné stanovisko k rekonštrukcii mosta ev. č. 50-310 Ludvíkov Dvor ponad Sokoliansky potok v k. ú. Šaca a Poľov. Súčasťou prác je čistenie a úprava koryta potoka, ako aj vytvorenie lavičky pre migráciu drobných živočíchov. Dokument uvádza, že činnosť nebude zasahovať do vodohospodársky významných oblastí ani do ochranných pásiem vodárenských zdrojov."
+}
