@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-09-08 18:36:50",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 550375, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=550375: Neočakávaná chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Košický kraj/Košice/550375/orig.pdf na text: Error extracting text from PDF: litellm.InternalServerError: litellm.InternalServerError: VertexAIException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The model is overloaded. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+  }
+]

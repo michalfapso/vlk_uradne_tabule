@@ -1,0 +1,721 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/013457-013",
+  "cislo_rozhodnutia": "OU-SC-OSZP/2025/013457-G-27-Ry",
+  "datum_dokumentu": "2025-09-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Pre podanie odvolania: do 15 dní odo dňa doručenia.",
+  "ziadatel_navrhovatel": "KLM CHG 4 s.r.o., Námestie SNP 11, 960 01 Zvolen IČO: 53 889 100",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senec",
+    "obec": "Chorvátsky Grob",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chorvátsky Grob",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1318/13",
+              "1318/29",
+              "1318/34",
+              "1318/33",
+              "1318/36",
+              "1318/30",
+              "1044/29",
+              "1044/50"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zóna centrum – Chorvátsky Grob, Polyfunkčná zóna Prameň"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby a osobitného užívania vôd",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba splaškovej kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "vypúšťanie vôd z povrchového odtoku",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "čistenie odpadových vôd",
+    "retenčné nádrže",
+    "akumulačné nádrže",
+    "odlučovače ropných látok",
+    "výrub drevín",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "rastliny",
+    "živočíchy",
+    "ich biotopy",
+    "dreviny",
+    "stromová vegetácia",
+    "obojživelníky",
+    "na zemi hniezdiace vtáky"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "40a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "40a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "40b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "40c",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "40c",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhlášky MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "f",
+        "g"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášky MŽP SR o evidenčnej povinnosti a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "e",
+        "f"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "19",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "u"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "47-53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "40c",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "2",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "19a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o prírodných liečivých vodách",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "19a",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "19a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "19a",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhlášky MŽP SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhlášky MŽP SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o minimálnych bezpečnostných a zdravotných požiadavkách na pracovisko",
+      "zakon_cislo": "391/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR o podrobnostiach o požiadavkách na zariadenia starostlivosti o ľudské telo",
+      "zakon_cislo": "554/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie Európskeho parlamentu a Rady (ES) o hygiene potravín",
+      "zakon_cislo": "852/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Výnos Ministerstva pôdohospodárstva SR a vyhláška Ministerstva zdravotníctva SR o podrobnostiach a požiadavkách na zariadenia spoločného stravovania",
+      "zakon_cislo": "533/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú ukazovatele a limitné hodnoty kvality pitnej vody",
+      "zakon_cislo": "91/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o minimálnych zdravotných a bezpečnostných požiadavkách na ochranu zamestnancov pred rizikami súvisiacimi s expozíciou hluku",
+      "zakon_cislo": "115/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády",
+      "zakon_cislo": "269/2010 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Senec, odboru starostlivosti o životné prostredie, o povolení vodnej stavby \"Zóna centrum – Chorvátsky Grob, Polyfunkčná zóna Prameň\". Projekt v katastrálnom území Chorvátsky Grob zahŕňa výstavbu vodovodu, splaškovej a dažďovej kanalizácie, vrátane retenčných nádrží a odlučovačov ropných látok pre polyfunkčnú zónu. Stavba sa nachádza na území s prvým stupňom ochrany a vyžaduje ochranu drevín, obojživelníkov a vtákov hniezdiacich na zemi."
+}
