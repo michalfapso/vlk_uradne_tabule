@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-10",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Mýto pod Ďumbierom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mýto pod Ďumbierom",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1146/2",
+              "1171/22"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania na vydanie súhlasu na výrub drevín v katastrálnom území Mýto pod Ďumbierom. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia."
+}

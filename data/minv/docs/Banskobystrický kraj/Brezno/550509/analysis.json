@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-05",
+  "datum_zverejnenia": "2025-09-10",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ŽELEZNICE SLOVENSKEJ REPUBLIKY, Oblastné riaditeľstvo Košice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Telgárt, Šumiac",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Telgárt",
+        "parcely": []
+      },
+      {
+        "nazov": "Šumiac",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "traťovom úseku ŽST Margecany – ŽST Červená Skala"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "513/2009 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno oznamuje plánovaný výrub drevín zo strany ŽELEZNÍC SLOVENSKEJ REPUBLIKY v traťovom úseku ŽST Margecany – ŽST Červená Skala v katastrálnych územiach Telgárt a Šumiac. Cieľom výrubu je zabezpečiť bezpečnú prevádzku železničnej dopravy, pričom sa odvoláva na výnimky podľa zákona o ochrane prírody a krajiny."
+}

@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000710",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-05",
+  "datum_zverejnenia": "2025-09-09",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., OZ Piešťany, Správa povodia horného Váhu",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Turčianske Teplice",
+    "obec": "Blážovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Blážovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "195/1",
+              "257",
+              "259"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "brehy toku Dolinka"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín rastúcich mimo les",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube drevín rastúcich mimo les, ktoré predkladá Slovenský vodohospodársky podnik. Ide o výrub 200 m2 krovitého porastu a náletových drevín na brehoch toku Dolinka v katastrálnom území Blážovce, okres Turčianske Teplice, z dôvodu údržby brehového porastu. Uvedené zverejnenie má informačný charakter a do konania sa nedá prihlásiť."
+}

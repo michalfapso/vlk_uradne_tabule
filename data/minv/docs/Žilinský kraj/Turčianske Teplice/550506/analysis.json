@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000715",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-05",
+  "datum_zverejnenia": "2025-09-09",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., OZ Piešťany, Správa povodia horného Váhu",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Turčianske Teplice",
+    "obec": "Liešno, Kaľamenová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liešno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "483"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kaľamenová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "207"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "tok Jasenica, rkm 3,000 – 3,300"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín rastúcich mimo les",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Turčianske Teplice zverejňuje oznámenie Slovenského vodohospodárskeho podniku o výrube 500 m2 krovitého porastu a náletových drevín pri toku Jasenica v katastrálnych územiach Liešno a Kaľamenová. Výrub je plánovaný z dôvodu údržby brehového porastu vodného toku a do tohto konania sa nemožno prihlásiť."
+}
