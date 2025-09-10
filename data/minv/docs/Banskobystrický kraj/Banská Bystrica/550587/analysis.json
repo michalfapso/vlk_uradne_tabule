@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/039979",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Banská Bystrica",
+    "obec": "Hiadeľ",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hiadeľ",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme VN 400 kV, vedenie č. V 494 TR: SUČANY – Medzibrod"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN 400 kV"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o plánovanom výrube stromov, drevín a krovitého porastu, ktorý má vykonať spoločnosť ENZA s.r.o. v katastrálnom území Hiadeľ. Výrub sa uskutoční v ochrannom pásme VN 400 kV z dôvodu zaistenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení, v zmysle zákona o ochrane prírody a krajiny a zákona o energetike."
+}

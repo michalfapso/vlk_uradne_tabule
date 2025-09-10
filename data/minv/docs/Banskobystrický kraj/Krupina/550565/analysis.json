@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/000911",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-09",
+  "datum_zverejnenia": "2025-09-09",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Krupina",
+    "obec": "Krupina, Žibritov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krupina",
+        "parcely": []
+      },
+      {
+        "nazov": "Žibritov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vedenia 22 kV č. VN 330, k 20"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina zverejňuje oznámenie Stredoslovenskej distribučnej a.s. o plánovanom výrube drevín v katastrálnych územiach Krupina a Žibritov. Výrub je nevyhnutný v ochrannom pásme 22 kV elektrického vedenia z dôvodu prekročenia bezpečnej vzdialenosti porastov. V tomto type konania sa nevyžaduje aplikácia všeobecných predpisov o správnom konaní, čo znamená, že verejnosť sa nemôže prihlásiť."
+}
