@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-16",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Horná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Lehota",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1590/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1169"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania pre žiadosť o vydanie súhlasu na výrub drevín v katastrálnom území Horná Lehota, okres Brezno, na parcelách C-KN 1590/1 a E-KN 1169. Záujem byť účastníkom konania je potrebné doručiť príslušnému orgánu ochrany prírody a krajiny do 5 pracovných dní od zverejnenia dňa 16.09.2025."
+}

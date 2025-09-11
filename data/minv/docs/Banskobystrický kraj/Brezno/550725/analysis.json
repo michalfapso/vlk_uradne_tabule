@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-11",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Ing. Miroslav Kočtúch",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Horná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Lehota",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1172"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v blízkosti chaty"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o začatí správneho konania vo veci žiadosti Ing. Miroslava Kočtúcha o súhlas na výrub smreka obyčajného na parcele E-KN 1172 v katastrálnom území Horná Lehota, okres Brezno. Dôvodom výrubu je bezprostredné ohrozenie rekreačnej chaty vyschnutými drevinami s oslabenou stabilitou."
+}

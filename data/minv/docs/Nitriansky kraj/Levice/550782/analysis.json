@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/021000",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Podľa ust. § 81 ods. 2 písm. m) zákona sa všeobecné predpisy o správnom konaní (zákon č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov ) nevzťahujú na konanie podľa § 47 ods. 8 zákona.",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná,a.s., Čulenova 6, 816 47 Bratislava",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Levice",
+    "obec": [
+      "Uhliská",
+      "Pukanec",
+      "Horné Devičany",
+      "Dolné Devičany",
+      "Gondovo",
+      "Opatová",
+      "Tekovská Nová Ves",
+      "Podlužany"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Uhliská",
+        "parcely": []
+      },
+      {
+        "nazov": "Pukanec",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Devičany",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Devičany",
+        "parcely": []
+      },
+      {
+        "nazov": "Gondovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Opatová",
+        "parcely": []
+      },
+      {
+        "nazov": "Tekovská Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Podlužany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 22 kV vzdušného elektrického vedenia"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Levice o výrube drevín, ktorý má byť vykonaný spoločnosťou Západoslovenská distribučná, a.s. v ochrannom pásme 22 kV vzdušného elektrického vedenia. Výrub sa týka katastrálnych území Uhliská, Pukanec, Horné Devičany, Dolné Devičany, Gondovo, Opatová, Tekovská Nová Ves a Podlužany. Konanie sa riadi zákonom o ochrane prírody a krajiny a vylučuje štandardné správne konanie."
+}

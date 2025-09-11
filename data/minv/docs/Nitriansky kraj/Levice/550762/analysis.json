@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/020991",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Levice",
+    "obec": "Vyškovce nad Ipľom, Sazdice, Demandice, Santovka, Čankov, Bory, Malý Kiar, Veľké Krškany, Kalinčiakovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vyškovce nad Ipľom",
+        "parcely": []
+      },
+      {
+        "nazov": "Sazdice",
+        "parcely": []
+      },
+      {
+        "nazov": "Demandice",
+        "parcely": []
+      },
+      {
+        "nazov": "Santovka",
+        "parcely": []
+      },
+      {
+        "nazov": "Čankov",
+        "parcely": []
+      },
+      {
+        "nazov": "Bory",
+        "parcely": []
+      },
+      {
+        "nazov": "Malý Kiar",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Krškany",
+        "parcely": []
+      },
+      {
+        "nazov": "Kalinčiakovo",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 22 kV vzdušného elektrického vedenia"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV vzdušného elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Levice o výrube a oreze drevín v ochrannom pásme 22 kV vzdušného elektrického vedenia. Činnosť sa má realizovať na území obcí Vyškovce nad Ipľom, Sazdice, Demandice, Santovka, Čankov, Bory, Malý Kiar, Veľké Krškany a Kalinčiakovo. Konanie nepodlieha všeobecným predpisom o správnom konaní, takže verejnosť sa nemôže prihlásiť."
+}
