@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2025/000845-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-12",
+  "datum_zverejnenia": "2025-09-15",
+  "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie (do 22.09.2025 vrátane)",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Skalica",
+    "obec": "Skalica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Skalica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "8037"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "javor"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania vo veci žiadosti o vydanie súhlasu na výrub dvoch javorov na parcele C 8037 v katastrálnom území Skalica. Lehota na doručenie potvrdenia záujmu byť účastníkom konania je päť pracovných dní od zverejnenia, najneskôr do 22.09.2025."
+}

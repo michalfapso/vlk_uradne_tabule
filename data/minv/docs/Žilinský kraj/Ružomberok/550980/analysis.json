@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2025/011524-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-12",
+  "lehoty_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Mesto Ružomberok",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Ružomberok",
+    "obec": "Ružomberok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružomberok",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4566/4"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "14573/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Dielec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba energetického diela"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Správa TANAP"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "borovica lesná (Pinus sylvestris)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí správneho konania k žiadosti Mesta Ružomberok o vydanie súhlasu na výrub 7 borovíc lesných. Zásah sa týka katastrálneho územia Ružomberok, konkrétne lokality IBV Dielec a je odôvodnený preložkou VN linky. Územie je pod prvým stupňom ochrany a spadá do kompetencie Správy TANAP. Záujem byť zúčastnenou osobou je potrebné doručiť do piatich pracovných dní od zverejnenia informácie."
+}
