@@ -1,0 +1,109 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-18",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ŽELEZNICE SLOVENSKEJ REPUBLIKY, Oblastné riaditeľstvo Zvolen, SMSÚ ŽTS TO Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "836/2",
+              "836/8"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "836/3"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "845/1",
+              "844/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nemecká",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "378/2",
+              "379/2"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "397/3"
+            ]
+          },
+          {
+            "typ": null,
+            "cisla": [
+              "1759"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Železničná trať Brezno - Brezno Halny a Medzibrod - Dubová"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "513/2009"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno oznamuje plánovaný výrub drevín vykonávaný Železnicami Slovenskej republiky v ochrannom pásme železničnej trate v katastrálnych územiach Brezno a Nemecká. Výrub rôznych druhov drevín je zdôvodnený ohrozením bezpečnej a spoľahlivej prevádzky železničnej dopravy. Ide o oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny."
+}
