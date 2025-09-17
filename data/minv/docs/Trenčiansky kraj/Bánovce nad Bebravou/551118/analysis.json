@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-BN-OSZP-2025/006451-010",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-09-17",
+  "datum_zverejnenia": "2023-09-17",
+  "lehoty_na_vyjadrenie": "Účastníci konania a dotknuté orgány môžu svoje námietky a pripomienky vo veci povolenia zmeny vodnej stavby uplatniť písomne doručením na Okresný úrad Bánovce nad Bebravou najneskôr do 8 dní odo dňa doručenia tohto oznámenia. Na neskôr podané námietky sa neprihliadne. Upúšťa sa od ústneho pojednávania.",
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bánovce nad Bebravou",
+    "obec": "Slatina nad Bebravou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slatina nad Bebravou",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "568",
+              "142/2",
+              "564/1",
+              "558",
+              "557",
+              "475/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "824/4",
+              "826/5",
+              "826/6",
+              "5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranom pásme vodárenského zdroja Slatina nad Bebravou"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba splaškovej kanalizácie",
+    "výstavba zberných žúmp",
+    "výstavba spevnenej plochy"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správneho poriadku",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bánovce nad Bebravou oznamuje začatie vodoprávneho konania pre žiadosť Západoslovenskej vodárenskej spoločnosti, a.s. o povolenie na uskutočnenie vodnej stavby \"SPDV Topoľčany – odvedenie odpadových vôd z rodinných domov\". Ide o vybudovanie splaškovej kanalizácie a zberných žúmp v katastrálnom území Slatina nad Bebravou a zasahuje do riešených častí obcí Slatina nad Bebravou a Slatinka nad Bebravou, pričom lokalita je v ochrannom pásme vodárenského zdroja Slatina nad Bebravou. Ústne pojednávanie sa upúšťa, námietky je možné podať do 8 dní od doručenia oznámenia."
+}
