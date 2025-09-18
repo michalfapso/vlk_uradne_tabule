@@ -2,11 +2,11 @@
   "cislo_konania_spisu": "OU-ZV-OSZP-2025/009311-008",
   "cislo_rozhodnutia": "OU-ZV-OSZP-2025/009311-0047277/2025",
   "datum_dokumentu": "2025-09-03",
-  "datum_zverejnenia": "2025-09-03",
-  "lehoty_na_vyjadrenie": "Neuvedené",
-  "ziadatel_navrhovatel": "Stredoslovenská vodárenská spoločnosť, a.s.",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia rozhodnutia (odvolanie)",
+  "ziadatel_navrhovatel": "Stredoslovenská vodárenská spoločnosť, a.s., Partizánska cesta 5, 974 01 Banská Bystrica",
   "miesto_realizacie": {
-    "kraj": null,
+    "kraj": "Banskobystrický kraj",
     "okres": "Zvolen",
     "obec": "Kováčová",
     "katastralne_uzemia": [
@@ -51,9 +51,9 @@
               "814/1",
               "813/1",
               "812/2",
+              "812/1",
               "1090/2",
-              "822/3",
-              "812/1"
+              "822/3"
             ]
           }
         ]
@@ -61,31 +61,39 @@
     ],
     "nazov_lokality": "ulice Športová, J.C. Hronského a Nová, napojenie na ul. Kúpeľná"
   },
-  "typ_dokumentu": "Rozhodnutie - Stavebné povolenie",
+  "typ_dokumentu": "Stavebné povolenie na vodnú stavbu - Verejná vyhláška",
   "typ_zasahu": [
-    "výstavba vodnej stavby",
     "obnova vodovodného potrubia",
-    "zemné práce"
+    "výstavba vodnej stavby"
   ],
   "typ_uzemia": [
     "1. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
       "paragraf": "73",
       "odsek": "9",
       "pismena": [],
-      "zakon_nazov": "Vodný zákon",
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "5",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
       "zakon_cislo": "525/2003 Z.z."
     },
     {
@@ -94,63 +102,63 @@
       "pismena": [
         "c"
       ],
-      "zakon_nazov": "Zákon o vodách",
+      "zakon_nazov": "o vodách (vodný zákon)",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "46",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
       "zakon_cislo": "71/1967 Zb."
     },
     {
       "paragraf": "26",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Vodný zákon",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "66",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "58",
       "odsek": "4",
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "stavebný zákon",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "58",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "stavebný zákon",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "139",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "stavebný zákon",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "1",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
       "zakon_cislo": "135/1961 Zb."
     },
     {
       "paragraf": "117",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
       "zakon_cislo": "50/1976 Zb."
     },
     {
@@ -159,35 +167,35 @@
       "pismena": [
         "c"
       ],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "stavebný zákon",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "140b",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (Stavebný zákon)",
+      "zakon_nazov": "stavebný zákon",
       "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "26",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "Vodný zákon",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "8",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "cestný zákon",
       "zakon_cislo": "135/1961 Zb."
     },
     {
       "paragraf": "7",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "cestný zákon",
       "zakon_cislo": "135/1961 Zb."
     },
     {
@@ -196,21 +204,21 @@
       "pismena": [
         "f"
       ],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "cestný zákon",
       "zakon_cislo": "135/1961 Zb."
     },
     {
       "paragraf": "3",
       "odsek": "7",
       "pismena": [],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "cestný zákon",
       "zakon_cislo": "135/1961 Zb."
     },
     {
       "paragraf": "1",
       "odsek": "4",
       "pismena": [],
-      "zakon_nazov": "Zákon o pozemných komunikáciách (Cestný zákon)",
+      "zakon_nazov": "cestný zákon",
       "zakon_cislo": "135/1961 Zb."
     },
     {
@@ -218,84 +226,84 @@
       "odsek": null,
       "pismena": [],
       "zakon_nazov": "Zákon o energetike",
-      "zakon_cislo": null
+      "zakon_cislo": "251/2012 Z.z."
     },
     {
       "paragraf": "80",
       "odsek": null,
       "pismena": [],
       "zakon_nazov": "Zákon o energetike",
-      "zakon_cislo": null
+      "zakon_cislo": "251/2012 Z.z."
     },
     {
       "paragraf": "3",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
-      "zakon_cislo": "442/2002 Z.z."
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
     },
     {
       "paragraf": "19",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
-      "zakon_cislo": "442/2002 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
-      "zakon_cislo": "276/2001 Z.z."
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
     },
     {
       "paragraf": "19",
       "odsek": "5",
       "pismena": [],
-      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
-      "zakon_cislo": "442/2002 Z.z."
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
     },
     {
       "paragraf": "19",
       "odsek": "6",
       "pismena": [],
-      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
-      "zakon_cislo": "442/2002 Z.z."
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
     },
     {
       "paragraf": "23",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o elektronických komunikáciách",
-      "zakon_cislo": "452/2021 Z.z."
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
     },
     {
       "paragraf": "108",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane proti rušeniu",
-      "zakon_cislo": "452/2021 Z.z."
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
     },
     {
       "paragraf": "21",
       "odsek": "12",
       "pismena": [],
-      "zakon_nazov": "Zákon o elektronických komunikáciách",
-      "zakon_cislo": "452/2021 Z.z."
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
     },
     {
       "paragraf": "24",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_nazov": "o elektronických komunikáciách",
       "zakon_cislo": "452/2021 Z.z."
     },
     {
       "paragraf": "28",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o elektronických komunikáciách",
-      "zakon_cislo": "452/2021 Z.z."
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
     },
     {
       "paragraf": "43",
@@ -308,15 +316,15 @@
       "paragraf": "47",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny (zákon OPK)",
       "zakon_cislo": "543/2002 Z.z."
     },
     {
       "paragraf": "77",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o odpadoch",
-      "zakon_cislo": "79/2015 Z.z."
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
     },
     {
       "paragraf": "77",
@@ -324,7 +332,7 @@
       "pismena": [
         "b"
       ],
-      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_nazov": "o odpadoch",
       "zakon_cislo": "79/2015 Z.z."
     },
     {
@@ -333,57 +341,91 @@
       "pismena": [
         "b"
       ],
-      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_nazov": "o odpadoch",
       "zakon_cislo": "79/2015 Z.z."
     },
     {
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Vyhláška o prevádzkových poriadkoch verejných vodovodov a kanalizácií",
-      "zakon_cislo": "55/2004 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "Zákon o stavebných výrobkoch",
+      "zakon_nazov": "o stavebných výrobkoch",
       "zakon_cislo": "133/2013 Z.z."
     },
     {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "Zákon o posudzovaní zhody výrobku",
-      "zakon_cislo": "56/2018 Z.z."
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
     },
     {
-      "paragraf": "17",
+      "paragraf": "46d",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Vyhláška k stavebnému zákonu",
-      "zakon_cislo": "453/2000 Z.z."
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
     },
     {
-      "paragraf": "18",
+      "paragraf": "48",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Vyhláška k stavebnému zákonu",
-      "zakon_cislo": "453/2000 Z.z."
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
     },
     {
-      "paragraf": "8",
+      "paragraf": "127",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Vyhláška k stavebnému zákonu",
-      "zakon_cislo": "453/2000 Z.z."
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
     },
     {
-      "paragraf": "10",
+      "paragraf": "53",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Vyhláška k stavebnému zákonu",
-      "zakon_cislo": "453/2000 Z.z."
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "34",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o „e-Govermente“",
+      "zakon_cislo": "305/2013 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o informačných technológiách vo verejnej správe",
+      "zakon_cislo": "272/2016 Z. z."
     },
     {
       "paragraf": "284",
@@ -412,41 +454,7 @@
       "pismena": [],
       "zakon_nazov": "Trestný zákon",
       "zakon_cislo": "300/2005 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": "60",
-      "pismena": [
-        "g"
-      ],
-      "zakon_nazov": "Zákon o správnych poplatkoch",
-      "zakon_cislo": "145/1995 Z.z."
-    },
-    {
-      "paragraf": "34",
-      "odsek": "2",
-      "pismena": [
-        "a"
-      ],
-      "zakon_nazov": "Zákon o e-Governmente",
-      "zakon_cislo": null
-    },
-    {
-      "paragraf": "9",
-      "odsek": "2",
-      "pismena": [
-        "a"
-      ],
-      "zakon_nazov": null,
-      "zakon_cislo": "272/2016 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "Vyhláška o listinnom rovnopise elektronického úradného dokumentu",
-      "zakon_cislo": "85/2018 Z.z."
     }
   ],
-  "zhrnutie": "Okresný úrad Zvolen vydal stavebné povolenie pre Stredoslovenskú vodárenskú spoločnosť, a.s. na obnovu vodovodného potrubia v obci Kováčová, okres Zvolen. Činnosť sa týka existujúcej vodovodnej siete v intraviláne obce na uliciach Športová, J.C. Hronského a Nová, s napojením na ulicu Kúpeľnú. Lokalita sa nachádza v území s 1. stupňom ochrany prírody."
+  "zhrnutie": "Okresný úrad Zvolen vydal stavebné povolenie na obnovu vodovodného potrubia pre Stredoslovenskú vodárenskú spoločnosť, a.s. v obci Kováčová, okres Zvolen. Činnosť sa realizuje v intraviláne obce na uliciach Športová, J.C. Hronského a Nová v území s 1. stupňom ochrany prírody. Dokument stanovuje podmienky pre ochranu drevín a inžinierskych sietí."
 }

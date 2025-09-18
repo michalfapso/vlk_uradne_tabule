@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/015148",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-17",
+  "datum_zverejnenia": "2025-09-17",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLS - servis lesy stráž, S.r.o. (poverená výkonom činností, držiteľ povolenia: Slovenská elektrizačná prenosová sústava, a.s., Bratislava)",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žiar nad Hronom",
+    "obec": "Horná Ždaňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Ždaňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Trnávka",
+        "parcely": []
+      },
+      {
+        "nazov": "Lovča",
+        "parcely": []
+      },
+      {
+        "nazov": "Prestavlky",
+        "parcely": []
+      },
+      {
+        "nazov": "Lovčica-Trubín",
+        "parcely": []
+      },
+      {
+        "nazov": "Lutila",
+        "parcely": []
+      },
+      {
+        "nazov": "Kopernica",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Ždaňa",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme elektrického vedenia VVN a ZVN, Elektrická stanica Horná Ždaňa"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub porastov",
+    "orezávanie polokrov",
+    "orezávanie krov",
+    "orezávanie drevín",
+    "výrub stromov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia VVN a ZVN"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje verejnosť o plánovanom výrube a orezávaní porastov v ochrannom pásme elektrických vedení VVN a ZVN a v okolí Elektrickej stanice Horná Ždaňa. Činnosť, ktorú vykonáva SLS - servis lesy stráž, S.r.o. na základe poverenia od Slovenskej elektrizačnej prenosovej sústavy, a.s., sa týka viacerých katastrálnych území v okrese Žiar nad Hronom a je realizovaná z dôvodu zabezpečenia bezpečnej a plynulej prevádzky prenosovej sústavy v súlade so zákonom o energetike a zákonom o ochrane prírody a krajiny."
+}

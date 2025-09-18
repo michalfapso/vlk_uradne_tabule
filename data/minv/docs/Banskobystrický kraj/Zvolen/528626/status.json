@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-09-18 18:45:44",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 528626, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=44&sekcia=uradna-tabula&subor=528626: Neočakávaná chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Banskobystrický kraj/Zvolen/528626/orig.pdf na text: Error extracting text from PDF: 'NoneType' object has no attribute 'strip'"
+  }
+]

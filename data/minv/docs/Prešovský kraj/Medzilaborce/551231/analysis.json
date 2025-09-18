@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "2059/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik, Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Medzilaborce",
+    "obec": "Krásny Brod",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krásny Brod",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "805/10"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "805/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannej hrádzi vodného toku Laborec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub krovitého porastu",
+    "údržba ochrannej hrádze"
+  ],
+  "typ_uzemia": [
+    "CHKO Východné Karpaty",
+    "ochranná hrádza vodného toku",
+    "vodný tok Laborec"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub krovitého porastu na ochrannej hrádzi vodného toku Laborec v katastrálnom území Krásny Brod. Výrub sa realizuje z dôvodu pravidelnej údržby hrádze a je plánovaný od 1.10.2025 do 28.2.2026. Dokument sa týka územia, ktoré spadá pod pôsobnosť CHKO Východné Karpaty."
+}

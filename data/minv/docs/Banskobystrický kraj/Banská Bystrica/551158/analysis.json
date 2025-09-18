@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/041228-ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen, SMSÚ ŽTS TO Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrod",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1177/1",
+              "1273/1",
+              "1273/3",
+              "1274"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kostiviarska",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1696/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo dráhy, traťový úsek žst. Slovenská Ľupča – žst. Medzibrod, traťový úsek žst. Kostiviarska"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Informácia pre verejnosť od Železníc Slovenskej republiky o plánovanom výrube 46 drevín (vŕba, osika, breza) v ochrannom pásme dráhy v katastrálnych územiach Medzibrod a Kostiviarska (časť mesta Banská Bystrica) v okrese Banská Bystrica. Výrub je plánovaný v termínoch od 01.10.2025 do 28.02.2026 a od 01.10.2026 do 28.02.2027 a týka sa drevín ohrozujúcich bezpečnosť dráhy. Podľa zákona č. 543/2002 Z.z. nie je možné sa prihlásiť do konania."
+}

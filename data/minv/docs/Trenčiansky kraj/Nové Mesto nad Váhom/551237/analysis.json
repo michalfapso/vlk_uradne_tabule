@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "032-305/00711-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "EKOREM s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Mesto nad Váhom",
+    "obec": [
+      "Nové Mesto nad Váhom",
+      "Beckov",
+      "Kočovce",
+      "Považany",
+      "Povtorice",
+      "Brunovce",
+      "Horná Streda"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": []
+      },
+      {
+        "nazov": "Beckov",
+        "parcely": []
+      },
+      {
+        "nazov": "Kočovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Považany",
+        "parcely": []
+      },
+      {
+        "nazov": "Povtorice",
+        "parcely": []
+      },
+      {
+        "nazov": "Brunovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Streda",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo elektrických vedení VVN 8505, 8586, 8746, 8760 (úsek Nové Mesto nad Váhom – Horná Streda)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín",
+    "odstraňovanie náletových porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "24/2003 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť EKOREM s.r.o. oznamuje vykonanie výrubov, orezov a odstraňovanie náletových porastov v ochranných pásmach vonkajších elektrických vedení (VVN 8505, 8586, 8746, 8760) v katastrálnych územiach miest a obcí okresu Nové Mesto nad Váhom. Práce sa budú realizovať v období od 01.10.2025 do 28.02.2026 za účelom pravidelnej údržby a bezpečnej prevádzky energetických zariadení. Dokument neuvádza žiadne dotknuté chránené územia prírody ani konkrétne chránené druhy."
+}

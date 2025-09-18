@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/344172-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-09",
+  "datum_zverejnenia": "2025-09-17",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Nesto Juh Land Development s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5875/27",
+              "5878/20",
+              "5878/21"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4841/2",
+              "4842/1",
+              "4843/201"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kopčianska – Infraštruktúra Nová Bratská, Stavba IX"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "58a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov („vodný zákon“)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí vodoprávneho konania pre výstavbu verejného vodovodu a splaškovej kanalizácie. Činnosť je súčasťou hlavnej stavby „Kopčianska – Infraštruktúra Nová Bratská, Stavba IX“ v katastrálnom území Petržalka, Bratislava. Podľa rozhodnutia zo zisťovacieho konania sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. V dokumente nie sú spomenuté žiadne chránené územia ani významné druhy živočíchov či rastlín."
+}

@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2024/001949",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024-11-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "TREND DEVELOP s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Zvolen",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zvolen",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "998/33",
+              "998/39",
+              "998/41"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "999/12",
+              "999/13",
+              "999/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Nádvorná Rezidence Zvolen"
+  },
+  "typ_dokumentu": "Vyhodnotenie splnenia podmienok rozhodnutia",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "zadržiavanie vôd",
+    "úprava vodného toku",
+    "vsakovanie vôd",
+    "výrub drevín",
+    "osadenie ORL pre zachytávanie znečisťujúcich látok",
+    "úprava dopravného napojenia"
+  ],
+  "typ_uzemia": [
+    "Pamiatková zóna"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenia, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "paragraf": "32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášky",
+      "zakon_cislo": "290/2010 Z.z."
+    },
+    {
+      "paragraf": "8a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje vyhodnotenie splnenia podmienok pre stavebný projekt Nádvorná Rezidencia Zvolen v k.ú. Zvolen, parcely 998/33, 998/39, 998/41, 999/12, 999/13, 999/1. Žiadateľ, TREND DEVELOP s.r.o., oznamuje splnenie podmienok týkajúcich sa zadržiavania dažďových vôd, osadenia odlučovačov ropných látok, dopravného napojenia a elektromobility, ktoré boli stanovené v predchádzajúcom rozhodnutí o posudzovaní vplyvov. Projekt sa nachádza v Pamiatkovej zóne mesta Zvolen a zahŕňa aj výruby pred začiatkom výstavby."
+}

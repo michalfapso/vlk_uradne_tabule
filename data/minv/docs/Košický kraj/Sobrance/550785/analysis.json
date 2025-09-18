@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-11",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Sobrance",
+    "obec": "Choňkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Choňkovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "LPIS 0612/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vinohrad"
+  },
+  "typ_dokumentu": "Vyhlásenie karantény",
+  "typ_zasahu": [
+    "likvidácia rastlín",
+    "pálenie",
+    "monitoring živočíchov",
+    "používanie chemických látok",
+    "opätovná výsadba s obmedzeniami"
+  ],
+  "typ_uzemia": [
+    "zamorená zóna",
+    "nárazníková zóna"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "vinič hroznorodý",
+    "cikádka Scaphoideus titanus",
+    "Vitis sp.",
+    "plamienok plotný (Clematis vitalba)",
+    "liesky (Corylus avellana)",
+    "jelše (Alnus glutinosa)",
+    "pajasene (Ailanthus altissima)",
+    "vŕby (Salix sp.)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "2",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "4",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "zákon o pozemkových úpravách, usporiadaní pozemkového vlastníctva, pozemkových úradoch, pozemkovom fonde a o pozemkových spoločenstvách",
+      "zakon_cislo": "330/1991 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o rastlinolekárskej starostlivosti",
+      "zakon_cislo": "405/2011 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "zákon o rastlinolekárskej starostlivosti",
+      "zakon_cislo": "405/2011 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o rastlinolekárskej starostlivosti",
+      "zakon_cislo": "405/2011 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce vyhlasuje karanténu pre fytoplazmu 'zlaté žltnutie viniča' na základe nálezu vo vinohrade v obci Choňkovce (okres Sobrance). Dokument definuje zamorenú zónu (katastrálne územie Choňkovce) a nárazníkovú zónu (okres Sobrance), pričom nariaďuje opatrenia ako likvidácia infikovaných rastlín, monitoring a chemické ošetrenia proti prenášačovi cikádke Scaphoideus titanus, pálenie zvyškov viniča a obmedzenia pre opätovnú výsadbu. Cieľom je eradikácia škodcu a zabránenie ďalšiemu šíreniu choroby viniča."
+}

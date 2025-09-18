@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "SOZP4/1042 / 2020/ZSZP/2022 /013510 /VeK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2022-06-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Continental Automotive Systems Slovakia s.r.o., Cesta ku Continentálu 8950/1, 960 01 Zvolen",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Zvolen",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zvolen",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "3600/5",
+              "3600/34",
+              "3600/35",
+              "3600/40",
+              "3600/41",
+              "3600/42",
+              "3613/5",
+              "3645/96"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Výrobný areál Continental Zvolen"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie dodatočného povolenia",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "(2)",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je žiadosťou o dodatočné povolenie na uskutočnenie vodných stavieb, konkrétne areálového vodovodu a kanalizačných prípojok (dažďovej a splaškovej), v rámci rozšírenia výrobného areálu Continental vo Zvolene. Žiadateľom je Continental Automotive Systems Slovakia s.r.o. a stavba sa nachádza v katastrálnom území Zvolen na uvedených parcelných číslach. Dokument nespomína žiadne chránené územia ani druhy."
+}
