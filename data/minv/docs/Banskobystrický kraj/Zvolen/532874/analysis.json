@@ -1,45 +1,31 @@
 {
-  "cislo_konania_spisu": "OU-ZV-OSZP- 2025/000071",
+  "cislo_konania_spisu": null,
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2025-02-05",
-  "datum_zverejnenia": "2024-11-25",
-  "lehoty_na_vyjadrenie": "Účasť verejnosti v konaní skončila bez prihlásených účastníkov",
-  "ziadatel_navrhovatel": "TREND DEVELOP s.r.o.",
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": null,
+  "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Zvolen",
-    "obec": "Zvolen",
+    "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": "Nádvorná Residence Zvolen"
+    "nazov_lokality": null
   },
-  "typ_dokumentu": "Zverejnenie informácií o právoplatnom povolení",
-  "typ_zasahu": [
-    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
-    "výstavba dažďovej kanalizácie",
-    "výstavba retenčnej nádrže",
-    "vsakovanie vôd"
-  ],
+  "typ_dokumentu": "Zverejnenie informácií",
+  "typ_zasahu": [],
   "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
-  "odkaz_enviroportal": "http://enviroportal.sk/sk/eia/detail/nadvorna-residence-zvolen",
+  "odkaz_enviroportal": null,
   "paragrafy": [
     {
       "paragraf": "38",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
       "zakon_cislo": "24/2006 Z.z."
-    },
-    {
-      "paragraf": "21",
-      "odsek": "1",
-      "pismena": [
-        "d"
-      ],
-      "zakon_nazov": "o vodách",
-      "zakon_cislo": "364/2004 Z.z."
     }
   ],
-  "zhrnutie": "Tento dokument je zverejnením informácií o právoplatnom povolení na osobitné užívanie vôd, konkrétne vypúšťanie vôd z povrchového odtoku do podzemných vôd. Povolenej činnosti sa týka vodná stavba „SO 08 – dažďová kanalizácia, retenčná nádrž, vsak“ v rámci projektu „Nádvorná Residence Zvolen“ v obci Zvolen. Rozhodnutie nadobudlo právoplatnosť dňa 03.02.2025, pričom doložka právoplatnosti bola vytvorená 05.02.2025."
+  "zhrnutie": "Dokument Okresného úradu Zvolen predstavuje zverejnenie informácií v zmysle §38 ods. 2 zákona č. 24/2006 Z.z. o posudzovaní vplyvov na životné prostredie. Konkrétny obsah zverejňovaných informácií o zámere, žiadateľovi, mieste a type zásahu však v texte chýba, nakoľko zvyšok dokumentu obsahuje nezávislý recept na jedlo."
 }

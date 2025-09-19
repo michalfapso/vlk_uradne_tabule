@@ -1,0 +1,653 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/000107",
+  "cislo_rozhodnutia": "OU-ZC-OSZP-2025/000107-074",
+  "datum_dokumentu": "2025-09-16",
+  "datum_zverejnenia": "2025-06-24",
+  "lehoty_na_vyjadrenie": "do 30 dní od zverejnenia verejnej vyhlášky alebo doručenia oznámenia",
+  "ziadatel_navrhovatel": "Slovenská agentúra životného prostredia Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Okres Žarnovica (viacero obcí)",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Okres Žarnovica"
+  },
+  "typ_dokumentu": "Rozhodnutie o schválení Regionálneho územného systému ekologickej stability",
+  "typ_zasahu": [
+    "tvorba regionálneho územného systému ekologickej stability",
+    "manažment ochrany prírody a krajiny",
+    "budovanie zelenej infraštruktúry",
+    "optimalizovať výstavbu lesnej cestnej siete",
+    "odstraňovať invázne a nepôvodné dreviny",
+    "redukcia počtu jedincov muflónej zveri",
+    "odstraňovať bariérový efekt",
+    "revitalizácia vodných tokov",
+    "renaturácia vodných tokov a plôch",
+    "rekultivácia areálov ťažby, skládok a výstavby",
+    "zalesňovanie"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Štiavnické vrchy",
+    "Chránená krajinná oblasť Ponitrie",
+    "Národná prírodná pamiatka",
+    "NPP Starohutiansky vodopád",
+    "NPP Andezitové kamenné more",
+    "Národná prírodná rezervácia",
+    "NPR Kašivárová",
+    "NPR Vtáčnik",
+    "Prírodná rezervácia",
+    "PR Bujakov vrch",
+    "PR Kojatín",
+    "PR Sokolec",
+    "PR Pralesy Slovenska – Drastvica",
+    "PR Pralesy Slovenska – Vtáčnik",
+    "Prírodná pamiatka",
+    "PP Putikov vŕšok",
+    "PP Ostrovica",
+    "Chránený areál",
+    "CHA Revištský rybník",
+    "CHA Ivanov salaš",
+    "Obecne chránené územie Beňadické alúvium Hrona",
+    "Územie európskeho významu (ÚEV)",
+    "SKUEV0593 Sokolec",
+    "SKUV0262 Čajkovské bralie",
+    "SKUEV0263 Hodrušská hornatina",
+    "SKUEV0264 Klokoč",
+    "SKUEV0265 Suť",
+    "SKUEV0273 Vtáčnik",
+    "SKUEV0947 Stredný tok Hrona",
+    "SKUEV4028 Brezová",
+    "NATURA 2000",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "poniklec veľkokvetý (Pulsatilla grandis)",
+    "vstavač purpurový (Orchis purpurea)",
+    "modruška pošvatá (Limodorum abortivum)",
+    "skalnica matranská (Sempervivum carpathicum subsp. Heterophyllum)",
+    "snežienka jarná (Galanthus nivalis)",
+    "krivec český (Gagea bohemica)",
+    "vstavač bledý (Orchis pallens)",
+    "vstavačovec laponský (Dactylorhiza lapponica)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "päťprstnica obyčajná (Gymnadenia conopsea)",
+    "bradáčik vajcovitolistý (Listera ovata)",
+    "vemenník dvojlistý (Platanthera bifolia)",
+    "pavstavač hlavatý (Traunsteinera globosa)",
+    "kruštík Greuterov (Epipactis greuteri)",
+    "jedľa biela (Abies alba)",
+    "dub cerový",
+    "javor tatársky",
+    "kavyľ vláskatý",
+    "škarda sibírska (Crepis sibirica)",
+    "dvojhrot zelený (Dicranum viride)",
+    "vachta trojlistá (Menyanthes trifoliata)",
+    "kruštík močiarny (Epipactis palustris)",
+    "popolavec dlholistý moravský (Tephroseris longifolia subsp. moravica)",
+    "kavyľ tenkolistý (Stipa tirsa)",
+    "rys ostrovid (Lynx lynx)",
+    "mačka divá (Felis silvestris)",
+    "orol krikľavý (Aquila pomarina)",
+    "myšiak hôrny (Buteo buteo)",
+    "sova obyčajná (Strix aluco)",
+    "vidlochvost feniklový (Papilio machaon)",
+    "vidlochvost ovocný (Iphiclides podalirius)",
+    "modlivka zelená (Mantis religiosa)",
+    "roháč obyčajný (Lucanus cervus)",
+    "fuzáč alpský (Rosalia alpina)",
+    "podkovár veľký (Rhinolophus ferrumequinum)",
+    "podkovár malý (Rhinolophus hipposideros)",
+    "netopier obyčajný (Myotis myotis)",
+    "večernica malá",
+    "medveď hnedý (Ursus arctos)",
+    "vlk dravý (Canis lupus)",
+    "netopier pobrežný (Myotis dasycneme)",
+    "netopier veľkouchý (Myotis bechsteinii)",
+    "jariabok hôrny (Bonasa bonasia)",
+    "ďubník trojprstý (Picoides tridactylus)",
+    "kuvičok vrabčí (Glaucidium passerinum)",
+    "piskor vrchovský (Sorex alpinus)",
+    "vydra riečna (Lutra lutra)",
+    "ondatra pižmová (Ondatra zibethica)",
+    "rosnička zelená (Hyla arborea)",
+    "užovka fŕkaná (Natrix tesselata)",
+    "pižmovec hnedý (Osmoderma eremita)",
+    "fuzáč veľký (Cerambyx cerdo)",
+    "hrúz Kesslerov (Gobio kessleri)",
+    "hrúz Vladykov (Gobio albipinnatus)",
+    "lopatka dúhová (Rhodeus sericeus amarus)",
+    "mrena karpatská (Barbus meridionalis)",
+    "kobylka pomalá (Isophya modesta)",
+    "kobylka klamlivá (Pholidoptera fallax)",
+    "drevník ryhovaný (Rhysodes sulcatus)",
+    "rak riečny (Astacus astacus)",
+    "šidielko ozdobné (Coenoagrion ornatum)",
+    "vážka jasnoškvrnná (Leucorrhynia pectoralis)",
+    "kúdelníčka lužná (Remiz pendulinus)",
+    "hlavátka podunajská (Hucho hucho)",
+    "syseľ pasienkový (Spermophilus citellus)"
+  ],
+  "odkaz_enviroportal": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=51&odbor=10",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "20",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "492/2006",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa mení a dopĺňa vyhláška MŽP SR č. 24/2003 Z.z.",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "24/2003",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "54",
+      "odsek": "21",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "22",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "25",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "24",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "427/2021",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády, ktorým sa vyhlasujú niektoré prírodné rezervácie ako Pralesy Slovenska",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "451/2023",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády, ktorým sa ustanovuje národný zoznam území európskeho významu",
+      "zakon_cislo": "Z.z."
+    },
+    {
+      "paragraf": "124/1979",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva kultúry Slovenskej socialistickej republiky",
+      "zakon_cislo": "Zb."
+    },
+    {
+      "paragraf": "287/1994",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon Národnej rady SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "58/1985",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MK SSR",
+      "zakon_cislo": "Zb."
+    },
+    {
+      "paragraf": "258/1977",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "uznesenie Rady Okresného národného výboru v Žiari nad Hronom",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "293/1996",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "134",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "uznesenie Rady Okresného národného výboru v Žiari nad Hronom",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6/2003",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Všeobecne záväzná vyhláška Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "50/1984-32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "úprava Ministerstva kultúry SSR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "83/1993",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "20/1997",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Všeobecne záväzná vyhláška Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3/1997",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Všeobecne záväzná vyhláška Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "1/1997",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Všeobecne záväzná vyhláška Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "16/1999",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Všeobecne záväzná vyhláška Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "ŽP/174/91",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "rozhodnutím Okresného úradu životného prostredia v Žiari nad Hronom",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "790",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "rozhodnutím Okresného úradu životného prostredia v Žiari nad Hronom",
+      "zakon_cislo": "ŽP/108/92-OP"
+    },
+    {
+      "paragraf": "4/2000",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "všeobecne záväznou vyhláškou Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "všeobecne záväznou vyhláškou Krajského úradu životného prostredia v Banskej Bystrici",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "1/2023",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "všeobecne záväzným nariadením",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "91/271/EHS",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "smernici o čistení komunálnych odpadových vôd",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "364/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "442/2002",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "2010/75/EU",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "smernici EP a Rady o priemyselných emisiách – integrovaná prevencia a kontrola znečisťovania ŽP",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "183/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "166/2006",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadeniu EP a Rady (E-PRTR)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "205/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o zhromažďovaní a šírení informácií o životnom prostredí",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "326/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o lesoch",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "138/2010",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o lesnom reprodukčnom materiáli",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "49/2011",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "73/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "274/2009",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o poľovníctve",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "115/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "139/2002",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o rybárstve",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "44/1988",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon Zb. o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "569/2007",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o geologických prácach (geologický zákon)",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "515/2008",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "51/2008",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "538/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "49/2002",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o ochrane pamiatkového fondu",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "100/2002",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon Z.z. o ochrane a rozvoji územia Banskej Štiavnice a okolia",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "220/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon NR SR o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "59/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva pôdohospodárstva a rozvoja vidieka (MPRV) SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "508/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášku",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "58/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "364/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "211/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovuje zoznam vodohospodársky významných vodných tokov a vodárenských vodných tokov",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "46/1978",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadení vlády SR Zb. o chránenej oblasti prirodzenej akumulácie vôd na Žitnom ostrove",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13/1987",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadení vlády SR o niektorých chránených oblastiach prirodzenej akumulácie vôd",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "617/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenia Vlády SR, ktorým sa ustanovujú citlivé oblasti a zraniteľné oblasti",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "7/2010",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákona NR SR o ochrane pred povodňami",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "35/1984",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "vyhlášky Zb. o pozemných komunikáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "513/2009",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon Z. z. o dráhach a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "656/2004",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR o energetike",
+      "zakon_cislo": "Z. z."
+    },
+    {
+      "paragraf": "251/2012",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon NR SR",
+      "zakon_cislo": "Z. z."
+    }
+  ],
+  "zhrnutie": "Toto rozhodnutie schvaľuje dokumentáciu „Regionálny územný systém ekologickej stability okresu Žarnovica“ (RÚSES), vypracovanú Slovenskou agentúrou životného prostredia (SAŽP) a SGS Holding, a.s. RÚSES, ktorého spracovanie vyplynulo z dynamických zmien v krajine a zvýšeného tlaku na prírodné ekosystémy a územia NATURA 2000, slúži ako základný podklad pre územnoplánovaciu dokumentáciu, manažment ochrany prírody a biodiverzity v okrese Žarnovica. Dokumentácia obsahuje analýzu prírodných a socioekonomických pomerov, hodnotenie ekologickej stability, návrhy prvkov RÚSES, manažmentových a ekostabilizačných opatrení, ako aj regulatívy pre územnoplánovaciu dokumentáciu a projekty pozemkových úprav, s cieľom prispieť k zachovaniu prírodných lokalít v priaznivom stave a zosúladiť činnosti s ochranou prírody."
+}

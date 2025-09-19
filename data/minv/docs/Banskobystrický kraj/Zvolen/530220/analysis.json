@@ -1,17 +1,16 @@
 {
-  "cislo_konania_spisu": "OU-ZV-OSZP-2023/018325",
-  "cislo_rozhodnutia": "OU-ZV-OSZP-2023/018325-017",
+  "cislo_konania_spisu": "OU-OSZP-2023/018325-017",
+  "cislo_rozhodnutia": null,
   "datum_dokumentu": "2024-11-25",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2024-11-26",
   "lehoty_na_vyjadrenie": "Neuvedené",
   "ziadatel_navrhovatel": "PerFidem Alfa, s.r.o.",
   "miesto_realizacie": {
-    "kraj": null,
+    "kraj": "Banskobystrický kraj",
     "okres": "Zvolen",
     "obec": "Zvolen",
     "katastralne_uzemia": [],
-    "parcely": [],
-    "nazov_lokality": "Polyfunkčný komplex Pod Pustým hradom II, areál bývalého Mäsomkombinátu"
+    "nazov_lokality": "Polyfunkčný komplex Pod Pustým hradom II. Zvolen (areál bývalého mäsokombinátu, lokalita Pod Dráhami)"
   },
   "typ_dokumentu": "Vyhodnotenie splnenia podmienok EIA",
   "typ_zasahu": [
@@ -19,15 +18,24 @@
     "demolácia",
     "výrub drevín",
     "hospodárenie s dažďovými vodami",
-    "rekonštrukcia verejného vodovodu",
-    "vybudovanie splaškovej kanalizácie",
-    "revitalizácia brownfieldu"
+    "úprava terénu"
   ],
-  "typ_uzemia": [],
+  "typ_uzemia": [
+    "brownfield",
+    "čiastkové povodie Hron",
+    "útvar podzemných vôd SKR1000700P Medzizámkové podzemné vody kvartérnych náplavov Hrona",
+    "útvar podzemných vôd SKR200227P Puklinové a medzizrnové podzemné vody severnej časti stredoslovenských neovulkanitov"
+  ],
   "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [
     "vtáctvo",
-    "invazívne druhy rastlín"
+    "miestne prirodzene rastúce druhy rastlín",
+    "popínavé rastliny",
+    "rozchodníky",
+    "trávnik",
+    "kvetinové záhony",
+    "kry",
+    "stromy"
   ],
   "odkaz_enviroportal": null,
   "paragrafy": [
@@ -50,6 +58,13 @@
       "zakon_cislo": "24/2006 Z.z."
     },
     {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
       "paragraf": null,
       "odsek": null,
       "pismena": [],
@@ -67,7 +82,7 @@
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o stavebnom odpade a odpade z demolácií",
+      "zakon_nazov": "o stavebnom odpade a odpade z demolácii",
       "zakon_cislo": "344/2022 Z.z."
     },
     {
@@ -81,21 +96,7 @@
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o premávke na pozemných komunikáciách",
-      "zakon_cislo": null
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia",
-      "zakon_cislo": "245/2005 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_nazov": "o vodách",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
@@ -109,36 +110,15 @@
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "ktorými sa mení a dopĺňa nariadenie vlády SR č. 284/2010 Z. z. ktorým sa ustanovujú prahové hodnoty a zoznam útvarov podzemných vôd",
+      "zakon_nazov": "ktorým sa mení a dopĺňa nariadenie vlády SR č. 283/2010 Z.z. ktorým sa ustanovujú prahové hodnoty a zoznam útvarov podzemných vôd",
       "zakon_cislo": "452/2019 Z. z."
     },
     {
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "pre vypúšťanie odpadovej vody do povrchových vôd",
+      "zakon_nazov": "nariadenie vlády SR pre vypúšťanie odpadovej vody do povrchových vôd",
       "zakon_cislo": "269/2010 Z. z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o zberných nádobách",
-      "zakon_cislo": "194/2022 Z.z."
-    },
-    {
-      "paragraf": "17",
-      "odsek": "1",
-      "pismena": [],
-      "zakon_nazov": "o životnom prostredí",
-      "zakon_cislo": null
-    },
-    {
-      "paragraf": "29",
-      "odsek": "13",
-      "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
-      "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "28",
@@ -153,7 +133,35 @@
       "pismena": [],
       "zakon_nazov": "o verejnom zdraví",
       "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "245/2003 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "VZN o nakladaní s komunálnymi odpadmi a drobnými stavebnými odpadmi",
+      "zakon_cislo": "207"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška",
+      "zakon_cislo": "194/2022 Z.z."
     }
   ],
-  "zhrnutie": "Dokument je vyhodnotením splnenia podmienok EIA pre projekt \"Polyfunkčný komplex Pod Pustým hradom II. Zvolen\", ktorý zahŕňa revitalizáciu bývalého priemyselného areálu (brownfieldu) na polyfunkčný komplex s bývaním a službami. Zameriava sa na dodržanie environmentálnych opatrení vrátane nakladania s odpadmi, ochrany vôd, ovzdušia a zvyšovania podielu zelene (zo 10% na 45%). Projekt potvrdzuje súlad s územnoplánovacou dokumentáciou a predpokladá pozitívne environmentálne dopady."
+  "zhrnutie": "Dokument predstavuje vyhodnotenie splnenia podmienok EIA pre projekt 'Polyfunkčný komplex Pod Pustým hradom II. Zvolen' spoločnosti PerFidem Alfa, s.r.o. Projekt zahŕňa revitalizáciu bývalého priemyselného brownfieldu, vrátane demolácie, výrubu drevín a novej výstavby s dôrazom na modrozelenú infraštruktúru a udržateľné hospodárenie s vodou. Územie nie je chránené, avšak sú v ňom zmienené špecifické útvary podzemných a povrchových vôd."
 }

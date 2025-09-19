@@ -1,0 +1,418 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/004584-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (odvolanie)",
+  "ziadatel_navrhovatel": "EUROSCOPE s.r.o., Mostová 2, 811 02 Bratislava, IČO: 35 895 314",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Piešťany",
+    "obec": "Ducové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ducové",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "10477/113",
+              "10477/9",
+              "10477/114",
+              "431/6",
+              "431/1",
+              "435/12",
+              "435/14",
+              "766",
+              "868",
+              "1241"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "463/1",
+              "464/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "2621/2",
+              "2621/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Ducové - Pri jazerách, cestná a technická infraštruktúra"
+  },
+  "typ_dokumentu": "Stavebné a vodoprávne povolenie (Verejná vyhláška)",
+  "typ_zasahu": [
+    "vypúšťanie prečistených splaškových odpadových vôd",
+    "vypúšťanie vôd z povrchového odtoku",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba čistiarne odpadových vôd",
+    "výstavba vodnej stavby",
+    "vsakovanie vôd",
+    "sadové úpravy"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo II. stupňa prírodných liečivých zdrojov",
+    "inundačné územie Váhu",
+    "ochranné pásmo Váhu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "117",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "70",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "135",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "58",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "41",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je stavebné a vodoprávne povolenie pre projekt IBV Ducové - Pri jazerách, zahŕňajúci výstavbu kanalizácie, vodovodu, čističky odpadových vôd (ČOV AT1500) a vsakovacích zariadení pre dažďové vody. Súčasťou projektu je aj výtlačné potrubie vyčistenej vody do rieky Váh. Činnosť sa dotýka katastrálnych území Ducové a Piešťany a je umiestnená v ochrannom pásme II. stupňa prírodných liečivých zdrojov v Piešťanoch a v inundačnom území Váhu."
+}

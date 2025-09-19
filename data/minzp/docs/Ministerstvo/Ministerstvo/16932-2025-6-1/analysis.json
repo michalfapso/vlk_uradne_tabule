@@ -2,7 +2,7 @@
   "cislo_konania_spisu": "16932/2025-6.1",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-09-12",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2025-09-12",
   "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie",
   "ziadatel_navrhovatel": "Zväz vinohradníkov a vinárov Slovenska",
   "miesto_realizacie": {
@@ -12,19 +12,14 @@
     "katastralne_uzemia": [],
     "nazov_lokality": "Slovenský vinohradnícky región"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Informácia o žiadosti o výnimku",
   "typ_zasahu": [
-    "žiadosť o výnimku z ochrany živočícha",
-    "manažment populácie živočíchov",
-    "plašenie živočíchov"
+    "výnimka z podmienok ochrany chráneného druhu živočícha"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
-    "škorec obyčajný",
-    "Sturnus vulgaris"
+    "škorec obyčajný (Sturnus vulgaris)"
   ],
   "odkaz_enviroportal": null,
   "paragrafy": [
@@ -32,9 +27,9 @@
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": null,
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Ministerstvo životného prostredia SR prijalo žiadosť Zväzu vinohradníkov a vinárov Slovenska o udelenie výnimky z podmienok ochrany chráneného druhu škorca obyčajného (Sturnus vulgaris) pre Slovenský vinohradnícky región. Verejnosť má možnosť prihlásiť sa do konania ako zúčastnená osoba do piatich pracovných dní od zverejnenia informácie, buď písomne alebo elektronicky."
+  "zhrnutie": "Zväz vinohradníkov a vinárov Slovenska žiada o povolenie výnimky z podmienok ochrany chráneného druhu živočícha škorec obyčajný (Sturnus vulgaris) pre Slovenský vinohradnícky región. Verejnosť má možnosť potvrdiť záujem byť zúčastnenou osobou v konaní do piatich pracovných dní od zverejnenia informácie."
 }

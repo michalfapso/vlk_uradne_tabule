@@ -1,10 +1,10 @@
 {
-  "cislo_konania_spisu": "SOZP4/1042 / 2020/ZSZP/2022 /013510 /VeK",
+  "cislo_konania_spisu": "SOZpP/1044/2022 V.2022/003487-3282 /013510 /VZE",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2022-06-02",
+  "datum_dokumentu": "2022-06-23",
   "datum_zverejnenia": null,
   "lehoty_na_vyjadrenie": "Neuvedené",
-  "ziadatel_navrhovatel": "Continental Automotive Systems Slovakia s.r.o., Cesta ku Continentálu 8950/1, 960 01 Zvolen",
+  "ziadatel_navrhovatel": "Continental Automotive Systems Slovakia s.r.o.",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Zvolen",
@@ -23,7 +23,7 @@
               "3600/41",
               "3600/42",
               "3613/5",
-              "3645/96"
+              "3643/96"
             ]
           }
         ]
@@ -33,12 +33,13 @@
   },
   "typ_dokumentu": "Žiadosť o vydanie dodatočného povolenia",
   "typ_zasahu": [
-    "výstavba vodnej stavby",
     "výstavba vodovodu",
     "výstavba kanalizácie"
   ],
-  "typ_uzemia": [],
-  "je_v_chranenom_uzemi": false,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "paragrafy": [
@@ -58,11 +59,11 @@
     },
     {
       "paragraf": "120",
-      "odsek": "(2)",
+      "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
       "zakon_cislo": "50/1976 Zb."
     }
   ],
-  "zhrnutie": "Tento dokument je žiadosťou o dodatočné povolenie na uskutočnenie vodných stavieb, konkrétne areálového vodovodu a kanalizačných prípojok (dažďovej a splaškovej), v rámci rozšírenia výrobného areálu Continental vo Zvolene. Žiadateľom je Continental Automotive Systems Slovakia s.r.o. a stavba sa nachádza v katastrálnom území Zvolen na uvedených parcelných číslach. Dokument nespomína žiadne chránené územia ani druhy."
+  "zhrnutie": "Žiadosť o vydanie dodatočného povolenia pre rozšírenie výrobného areálu Continental Zvolen. Ide o výstavbu areálového vodovodu a dažďovej a splaškovej kanalizácie v katastrálnom území Zvolen. Dokument neuvádza informácie o dotknutých chránených územiach ani druhoch."
 }

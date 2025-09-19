@@ -3,10 +3,10 @@
   "cislo_rozhodnutia": "OU-ZV-OSZP-2025/000071-0001896/2025",
   "datum_dokumentu": "2025-01-15",
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "8 dní na podanie námietok zo strany účastníkov konania a stanovísk dotknutých orgánov",
-  "ziadatel_navrhovatel": "TREND DEVELOP s.r.o.",
+  "lehoty_na_vyjadrenie": "8 dní na podanie námietok zo strany účastníkov konania a stanovísk dotknutých orgánov.",
+  "ziadatel_navrhovatel": "TREND DEVELOP s.r.o., Strážska cesta 7892, 960 01 Zvolen, IČO: 53020154",
   "miesto_realizacie": {
-    "kraj": null,
+    "kraj": "Banskobystrický",
     "okres": "Zvolen",
     "obec": "Zvolen",
     "katastralne_uzemia": [
@@ -24,16 +24,16 @@
     ],
     "nazov_lokality": "Nádvorná Residence Zvolen"
   },
-  "typ_dokumentu": "Rozhodnutie - Povolenie na osobitné užívanie vôd",
+  "typ_dokumentu": "Rozhodnutie - povolenie na osobitné užívanie vôd",
   "typ_zasahu": [
-    "vypúšťanie vôd",
-    "dažďová kanalizácia",
-    "retenčná nádrž",
+    "vypúšťanie vôd z povrchového odtoku",
     "vsakovanie vôd",
-    "čistenie odpadových vôd (ropné látky)"
+    "výstavba dažďovej kanalizácie",
+    "výstavba retenčnej nádrže",
+    "čistenie vôd od ropných látok"
   ],
   "typ_uzemia": [
-    "Pamiatková zóna"
+    "neviem"
   ],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
@@ -45,14 +45,14 @@
       "pismena": [
         "d"
       ],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "5",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
       "zakon_cislo": "525/2003 Z.z."
     },
     {
@@ -61,7 +61,7 @@
       "pismena": [
         "a"
       ],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "o vodách (vodný zákon)",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
@@ -75,66 +75,80 @@
       "paragraf": "21",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "36",
       "odsek": "17",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "5",
       "odsek": "13",
       "pismena": [],
-      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_nazov": "Nariadenie vlády SR",
       "zakon_cislo": "269/2010 Z.z."
     },
     {
       "paragraf": "21",
-      "odsek": "2",
+      "odsek": "4",
       "pismena": [
         "e"
       ],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "22",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "9",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_nazov": "Nariadenia vlády č. 269/2010 Z.z. ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
       "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (Príloha č.1)",
+      "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "39",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": null,
+      "zakon_nazov": "vyhláška",
       "zakon_cislo": "200/2018 Z.z."
     },
     {
       "paragraf": "8a",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o energetickej hospodárnosti budov a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o energetickej hospodárnosti budov",
       "zakon_cislo": "555/2005 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
     },
     {
       "paragraf": "32",
@@ -147,7 +161,7 @@
       "paragraf": "28",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "o vodách",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
@@ -161,42 +175,42 @@
       "paragraf": null,
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
       "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "73",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
       "paragraf": "24",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
       "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "38",
       "odsek": null,
       "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
       "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "38",
       "odsek": "6",
       "pismena": [],
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
       "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "73",
       "odsek": "5",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
@@ -217,7 +231,7 @@
       "paragraf": "73",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "o vodách a o zmene zákona SNR o priestupkoch (vodný zákon)",
+      "zakon_nazov": "vodný zákon",
       "zakon_cislo": "364/2004 Z.z."
     },
     {
@@ -225,21 +239,14 @@
       "odsek": null,
       "pismena": [],
       "zakon_nazov": "o správnom konaní",
-      "zakon_cislo": "71/67 Zb."
+      "zakon_cislo": "71/1967 Zb."
     },
     {
       "paragraf": "54",
       "odsek": null,
       "pismena": [],
       "zakon_nazov": "o správnom konaní",
-      "zakon_cislo": "71/67 Zb."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
-      "zakon_cislo": "85/2018 Z.z."
+      "zakon_cislo": "71/1967 Zb."
     },
     {
       "paragraf": "9",
@@ -249,14 +256,7 @@
       ],
       "zakon_nazov": null,
       "zakon_cislo": "272/2016 Z.z."
-    },
-    {
-      "paragraf": null,
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o správnych poplatkoch",
-      "zakon_cislo": "145/1995 Z.z."
     }
   ],
-  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Zvolen, odboru starostlivosti o životné prostredie, ktoré povoľuje spoločnosti TREND DEVELOP s.r.o. osobitné užívanie vôd. Konkrétne ide o vypúšťanie vôd z povrchového odtoku (dažďové vody zo striech, komunikácií a parkovísk) do podzemných vôd prostredníctvom dažďovej kanalizácie, retenčných nádrží a vsakovacích objektov pre stavbu „Nádvorná Residence Zvolen“ v katastrálnom území Zvolen, parc. č. 998/33. Rozhodnutie zahŕňa podmienky pre prečistenie vôd od ropných látok a monitorovanie kvality vypúšťaných vôd. V dokumente nie sú explicitne uvedené dotknuté chránené územia ani významné druhy živočíchov či rastlín."
+  "zhrnutie": "Okresný úrad Zvolen vydal rozhodnutie, ktorým povoľuje spoločnosti TREND DEVELOP s.r.o. osobitné užívanie vôd spočívajúce vo vypúšťaní vôd z povrchového odtoku do podzemných vôd. Ide o dažďové vody zo striech, komunikácií a parkovísk v rámci stavby „Nádvorná Residence Zvolen“ v katastrálnom území Zvolen, parc. č. 998/33. Súčasťou povolenia sú podmienky na prečisťovanie vôd od ropných látok a ich monitorovanie."
 }

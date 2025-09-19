@@ -1,0 +1,733 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/350675-028",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/350675-0398984/2025",
+  "datum_dokumentu": "2025-09-18",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia tohto rozhodnutia",
+  "ziadatel_navrhovatel": "Krčace Záhrady, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava IV",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Karlova Ves",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2360/1",
+              "2360/3",
+              "2360/10",
+              "2360/82",
+              "2360/4",
+              "2360/5",
+              "2360/11",
+              "2360/14",
+              "2360/18",
+              "2360/418",
+              "2362/3",
+              "2365/3",
+              "2360/8",
+              "2360/230",
+              "2360/231",
+              "2360/232",
+              "2360/9",
+              "2360/235",
+              "1-3447/101",
+              "1-3447/102",
+              "1-3450",
+              "1-3453",
+              "1-3460",
+              "1-3463/2",
+              "13466/2",
+              "1-3472",
+              "1-3478/2",
+              "9-3501/3",
+              "1-3469",
+              "1-3475"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dúbravka",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2406/173",
+              "2406/357",
+              "2411/6",
+              "2411/7",
+              "2411/8",
+              "2411/131",
+              "2412/25",
+              "2406/154",
+              "2406/155",
+              "2406/157",
+              "2406/160",
+              "2406/168",
+              "2406/171",
+              "2406/356",
+              "2406/358",
+              "2406/362",
+              "2406/363",
+              "2406/364",
+              "2406/556",
+              "2411/5",
+              "2411/129",
+              "2406/162",
+              "2406/159",
+              "2406/163",
+              "2406/172",
+              "2406/174",
+              "2406/252",
+              "2406/253",
+              "2406/378",
+              "2406/555",
+              "3421/200",
+              "3447/1",
+              "3417/203",
+              "3429/1",
+              "3432/200",
+              "3435/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Krčace"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budov",
+    "prevádzka polyfunkčnej zóny",
+    "výrub drevín",
+    "úprava terénu",
+    "zaistenie energetickej efektivity budov",
+    "nakladanie s odpadmi",
+    "vodozádržné opatrenia"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody a krajiny",
+    "ochranné pásmo veľmi vysokého napätia",
+    "CHKO Malé Karpaty",
+    "provincionálne biocentrum Devínska Kobyla",
+    "regionálne biocentrum Sitina - Starý Grunt",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "larvy bezstavovcov",
+    "netopiere",
+    "diviak",
+    "srnka",
+    "daniel",
+    "Myotis myotis",
+    "vtáky (Anas, Larus)",
+    "roháč (Lucanus cervus)",
+    "chrobáky",
+    "rod Bombus",
+    "hrab (Carpinus betulus)",
+    "javor (Acer campestre)",
+    "brest (Ulmus rebella)",
+    "čremcha (Prunus padus)",
+    "lipa (Tilia cordata)",
+    "dub (Quercus robur, Quercus pubescens)",
+    "zimozeleň (Vinca minor)",
+    "brečtan (Hedera helix)",
+    "plnokvetá čerešňa (Prunus avium ´Plena´)",
+    "jarabina (Sorbus aucuparia)",
+    "okrasná jabloň (Malus evereste)",
+    "hloh (Crataegus monogyna)"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/polyfunkcny-subor-krcace-",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "b",
+        "e"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica o EIA",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "25a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "28",
+      "odsek": "5",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "31f",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "40c",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "31f",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebnom odpade a odpade z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "VZN mesta Bratislava",
+      "zakon_cislo": "18/2023"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonáva zákon č. 543/2002 Z. z. o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR (invázne nepôvodné druhy)",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie Európskeho parlamentu a Rady (EÚ), ktorým sa stanovuje rámec na dosiahnutie klimatickej neutrality a menia nariadenia (ES) č. 401/2009 a (EÚ) 2018/1999 (európsky právny predpis v oblasti klímy)",
+      "zakon_cislo": "2021/1119"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Uznesenie Európskeho parlamentu o ochrane pôdy",
+      "zakon_cislo": "2021/2548(RSP)"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica EÚ Rady",
+      "zakon_cislo": "92/43/EHS"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "STN",
+      "zakon_cislo": "73 0532-2:2024"
+    },
+    {
+      "paragraf": "40",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava v zisťovacom konaní rozhodol, že polyfunkčný súbor Krčace sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie, pod podmienkou dodržania navrhnutých opatrení. Projekt zahŕňa výstavbu bytových domov a hotela v Bratislave, mestských častiach Karlova Ves a Dúbravka, v lokalite Krčace. Územie leží v oblasti s 1. stupňom ochrany prírody a v blízkosti významných biocentier a migračných koridorov, čo si vyžaduje opatrenia na ochranu živočíchov (netopiere, vtáky, roháč, cicavce) a zelenú infraštruktúru."
+}

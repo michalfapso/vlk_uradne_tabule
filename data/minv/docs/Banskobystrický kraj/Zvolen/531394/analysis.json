@@ -1,25 +1,24 @@
 {
   "cislo_konania_spisu": "OU-ZV-OSZP-2025/000103",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2024-11-25",
+  "datum_dokumentu": "2025-01-14",
   "datum_zverejnenia": "2024-11-25",
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "lehoty_na_vyjadrenie": "Konanie je ukončené, povolenie je právoplatné.",
   "ziadatel_navrhovatel": "PerFidem Alfa, s.r.o.",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Zvolen",
     "obec": "Zvolen",
     "katastralne_uzemia": [],
-    "nazov_lokality": "Pod Pustým hradom II"
+    "nazov_lokality": "Polyfunkčný komplex Pod Pustým hradom II. Zvolen"
   },
   "typ_dokumentu": "Zverejnenie informácií",
   "typ_zasahu": [
-    "vypúšťanie vôd",
-    "vsakovanie vôd"
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "vypúšťanie vôd z povrchového odtoku do povrchových vôd",
+    "výstavba kanalizácie"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/polyfunkcny-komplex-pod-pustym-hradom-ii-zvolen",
@@ -29,7 +28,7 @@
       "odsek": "2",
       "pismena": [],
       "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
-      "zakon_cislo": "24/2006 Z.t."
+      "zakon_cislo": "24/2006 Z.z."
     },
     {
       "paragraf": "21",
@@ -41,5 +40,5 @@
       "zakon_cislo": "364/2004 Z. z."
     }
   ],
-  "zhrnutie": "Dokument predstavuje zverejnenie informácií týkajúcich sa povolenia na osobitné užívanie vôd pre Polyfunkčný komplex Pod Pustým hradom II. v Zvolene. Žiadateľom je PerFidem Alfa, s.r.o. a povolenie sa týka vypúšťania vôd z povrchového odtoku do podzemných a povrchových vôd. Právoplatnosť povolenia nastala 31.12.2024."
+  "zhrnutie": "Dokument je zverejnením informácií o povolení na osobitné užívanie vôd pre stavebný objekt „SO 05 Dažďová kanalizácia\" v rámci projektu Polyfunkčný komplex Pod Pustým hradom II. Zvolen. Povolenie zahŕňa vypúšťanie vôd z povrchového odtoku do podzemných a povrchových vôd a nadobudlo právoplatnosť 31.12.2024. Podrobnosti sú dostupné na enviroportal.sk."
 }

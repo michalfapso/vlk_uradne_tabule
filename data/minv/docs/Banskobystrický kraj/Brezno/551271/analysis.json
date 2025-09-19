@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-23",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský plynárenský priemysel, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Predajná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Predajná",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1126/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo plynovodu"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno upovedomuje o plánovanom výrube drevín spoločnosťou Slovenský plynárenský priemysel, a. s. Výrub sa má uskutočniť v ochrannom pásme plynovodu v katastrálnom území Predajná na parcele E-KN 1126/12. Dokument odkazuje na § 47 ods. 4 písm. e) a ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny a na zákon č. 364/2004 Z.z. o vodách."
+}

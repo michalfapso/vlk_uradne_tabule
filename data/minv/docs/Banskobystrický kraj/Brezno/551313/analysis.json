@@ -1,0 +1,593 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/000808-0038876/2025",
+  "cislo_rozhodnutia": "OU-BR-OSZP-2025/000808-0038876/2025",
+  "datum_dokumentu": "2025-09-19",
+  "datum_zverejnenia": "2025-09-25",
+  "lehoty_na_vyjadrenie": "15 dní odo dňa doručenia tohto rozhodnutia (pre odvolanie)",
+  "ziadatel_navrhovatel": "Mesto Brezno",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "6779",
+              "6783/1",
+              "6782",
+              "6810"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "9584",
+              "9585",
+              "9436",
+              "9439",
+              "9446",
+              "9450",
+              "9451",
+              "9456",
+              "16134/2",
+              "9406",
+              "16133/6",
+              "9407"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Rohozná, Paseky"
+  },
+  "typ_dokumentu": "Rozhodnutie - stavebné vodoprávne povolenie, verejná vyhláška",
+  "typ_zasahu": [
+    "rekonštrukcia verejného vodovodu",
+    "rozšírenie verejného vodovodu",
+    "výstavba vodovodného potrubia",
+    "revitalizácia vodných zdrojov",
+    "výkop ryhy",
+    "oplotenie"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "lesné zvieratá",
+    "rastliny",
+    "živočíchy",
+    "pohánkovec japonský (Fallopia japonica)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o obecnom zriadení",
+      "zakon_cislo": "369/1990 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": "o niektorých opatreniach na usporiadanie vlastníctva k pozemkom",
+      "zakon_cislo": "180/1995 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "7",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "41",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "42",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "46d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "75",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2025 Z. z."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2025 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "100",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "103",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "133/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z. z."
+    },
+    {
+      "paragraf": "138/1992",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o autorizovaných architektoch a autorizovaných stavebných inžinieroch",
+      "zakon_cislo": "138/1992 Z. z."
+    },
+    {
+      "paragraf": "140",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "paragraf": "145/1995",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "147/2013",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti na zaistenie bezpečnosti a ochrany zdravia pri stavebných prácach",
+      "zakon_cislo": "147/2013 Z. z."
+    },
+    {
+      "paragraf": "251/2012",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "300/2005",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "396/2006",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "124/2006",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je stavebné vodoprávne povolenie pre Mesto Brezno na rekonštrukciu a rozšírenie verejného vodovodu v lokalite Rohozná, Paseky v k.ú. Brezno. Projekt zahŕňa výstavbu potrubia, revitalizáciu vodných zdrojov a úpravu vodojemu s cieľom zabezpečiť zásobovanie obyvateľov pitnou vodou. Spomína sa ochranné pásmo vodárenského zdroja a podmienky pre prípadný výrub drevín, ochranu rastlín a živočíchov, a odstraňovanie inváznych rastlín, ako je pohánkovec japonský."
+}

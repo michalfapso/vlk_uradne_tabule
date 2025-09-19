@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou",
+  "ziadatel_navrhovatel": "Mesto Žiar nad Hronom",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žiar nad Hronom",
+    "obec": "Žiar nad Hronom",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o oznámení strategického dokumentu",
+  "typ_zasahu": [
+    "zmena územného plánu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://enviroportal.sk/sk/eia/detail/zmeny-doplnky-c-9-uzemneho-planu-mesta-ziar-nad-hronom",
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o oznámení strategického dokumentu 'Zmeny a doplnky č. 9 územného plánu mesta Žiar nad Hronom', ktoré predložilo Mesto Žiar nad Hronom. Verejnosť môže predkladať stanoviská k tomuto oznámeniu najneskôr do 15 dní od jeho zverejnenia."
+}
