@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-09-22 18:37:07",
+    "type": "error",
+    "text": "Chyba pri LLM analýze alebo ukladaní analysis.txt pre ID 551438: Chyba počas LLM analýzy: litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"Visibility check was unavailable. Please retry the request and contact support if the problem persists\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+  },
+  {
+    "date": "2025-09-22 18:37:07",
+    "type": "error",
+    "text": "Výsledok analýzy (analysis.txt) nie je dostupný pre ID 551438."
+  }
+]

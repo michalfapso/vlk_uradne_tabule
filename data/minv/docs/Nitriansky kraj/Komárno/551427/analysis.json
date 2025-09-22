@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2025/019915-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-22",
+  "lehoty_na_vyjadrenie": "Potvrdenie záujmu byť účastníkom v konkrétnom správnom konaní je potrebné doručiť v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Andrej Tarr",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "11303/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "orech kráľovský (Juglans regia)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Komárno oznamuje začatie správneho konania pre žiadosť Andreja Tarra o súhlas na výrub jedného kusu orecha kráľovského na pozemku s parcelným číslom C 11303/1 v katastrálnom území Komárno. Lokalita spadá pod prvý stupeň ochrany prírody. Dôvodom výrubu je napadnutie dreviny inváznym hmyzom."
+}

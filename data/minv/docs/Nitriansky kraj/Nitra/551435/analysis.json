@@ -1,0 +1,524 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/042497-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-22",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (pre odvolanie)",
+  "ziadatel_navrhovatel": "Jaguar Land Rover Slovakia s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nitra",
+    "obec": "Dražovce, Lužianky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dražovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "520/710",
+              "520/715",
+              "520/716",
+              "520/718",
+              "520/719",
+              "520/720"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Lužianky",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2788/2",
+              "2788/21",
+              "2936"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ROZŠÍRENIE HALY MP&L – INFRAŠTRUKTÚRA"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "rozšírenie haly",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "odvodnenie",
+    "úprava vodného režimu",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "väčšie cicavce",
+    "obojživelníky",
+    "plazy",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby, o obsahu podaní a obsahu a rozsahu dokumentácie stavby",
+      "zakon_cislo": "60/2025"
+    },
+    {
+      "paragraf": "37",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "65",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "41",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "30",
+      "odsek": "3",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "62",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o zaobchádzaní so znečisťujúcimi látkami",
+      "zakon_cislo": "200/2018"
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015"
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015"
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015"
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o stavebných odpadoch z demolácií",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "B"
+      ],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015"
+    },
+    {
+      "paragraf": "40",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "40",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o bezpečnosti práce",
+      "zakon_cislo": "124/2006"
+    },
+    {
+      "paragraf": "24",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "30",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Letecký zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006"
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "Vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o havarijnom pláne",
+      "zakon_cislo": "100/2005"
+    },
+    {
+      "paragraf": "12",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR o najvyšších prípustných hodnotách hluku",
+      "zakon_cislo": "549/2007"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o prevencii závažných priemyselných havárií",
+      "zakon_cislo": "128/2015"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o ovzduší",
+      "zakon_cislo": "410/2012"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o ochrane zamestnancov pred rizikami súvisiacimi s expozíciou hluku",
+      "zakon_cislo": "115/2006"
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o technických požiadavkách na výrobky",
+      "zakon_cislo": "436/2001"
+    },
+    {
+      "paragraf": "55",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "57",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "55",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o niektorých opatreniach týkajúcich sa prípravy významných investícií",
+      "zakon_cislo": "175/1999"
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "177",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015"
+    },
+    {
+      "paragraf": "55",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016"
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Nitra o stavebnom zámere, ktoré povoľuje vodnú stavbu „ROZŠÍRENIE HALY MP&L – INFRAŠTRUKTÚRA“ pre spoločnosť Jaguar Land Rover Slovakia s.r.o. v katastrálnych územiach Dražovce a Lužianky. Projekt zahŕňa výstavbu a prekládku vodovodov a kanalizácie. Rozhodnutie vylučuje odkladný účinok odvolania z dôvodu naliehavého všeobecného záujmu a hrozby nenahraditeľnej ujmy, keďže ide o významnú investíciu. Súčasťou sú podmienky pre ochranu vôd, ovzdušia, nakladanie s odpadmi a ochranu živočíchov (cicavce, obojživelníky, plazy) a drevín."
+}
