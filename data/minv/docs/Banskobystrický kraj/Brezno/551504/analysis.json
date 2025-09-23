@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-24",
+  "lehoty_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Ferdinand Reizer",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Drábsko",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Drábsko",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1033/903"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje oznámenie o začatí správneho konania vo veci žiadosti Ferdinanda Reizera o vydanie súhlasu na výrub drevín druhu smrek z dôvodu nevyhovujúceho zdravotného stavu. Zásah sa týka parcely E-KN 1033/903 v katastrálnom území Drábsko, okres Brezno. Verejnosť má možnosť potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia, ktoré nastalo 24.09.2025."
+}

@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001220",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-23",
+  "lehoty_na_vyjadrenie": "V zmysle § 82 ods. 7 zákona č. 543/2002 Z.z. lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie (t.j. od 23.09.2025).",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Hriňová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hriňová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5293",
+              "5295",
+              "5299",
+              "5300"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín pre fyzickú osobu v katastrálnom území Hriňová. Dotknuté sú parcely C-KN č. 5293, 5295, 5299, 5300. Zverejnenie začalo 23.09.2025 a podľa zákona č. 543/2002 Z.z. je lehota na potvrdenie záujmu byť zúčastnenou osobou minimálne päť pracovných dní."
+}

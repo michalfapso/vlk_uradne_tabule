@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-09-23 18:53:45",
+    "type": "error",
+    "text": "Chyba pri LLM analýze alebo ukladaní analysis.txt pre ID 551488: Chyba počas LLM analýzy: litellm.APIConnectionError: GeminiException - [Errno 104] Connection reset by peer"
+  },
+  {
+    "date": "2025-09-23 18:53:45",
+    "type": "error",
+    "text": "Výsledok analýzy (analysis.txt) nie je dostupný pre ID 551488."
+  }
+]

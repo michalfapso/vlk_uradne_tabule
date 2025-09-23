@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "BG711504167SK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-18",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Metrostav DS a. s.",
+  "miesto_realizacie": {
+    "kraj": "Banská Bystrica",
+    "okres": "Banská Bystrica",
+    "obec": "Badín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Badín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1367/13",
+              "1367/14",
+              "1367/15",
+              "1367/19",
+              "1367/20",
+              "1367/21",
+              "1368",
+              "1369",
+              "1370",
+              "1371/4",
+              "1371/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Badín – Kečka"
+  },
+  "typ_dokumentu": "Žiadosť o súhlas na trvalú prevádzku zdroja znečisťovania ovzdušia",
+  "typ_zasahu": [
+    "prevádzka obalovne bitúmenových zmesí",
+    "spaľovanie zemného plynu"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o ovzduší",
+      "zakon_cislo": "248/2023 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je žiadosťou spoločnosti Metrostav DS a. s., zastúpenej INECO, s.r.o., o vydanie súhlasu na trvalú prevádzku stacionárneho zdroja znečisťovania ovzdušia, konkrétne obalovne bitúmenových zmesí TELTOMAT V a pridružených plynových kotlov v obci Badín, okres Banská Bystrica. Prevádzka sa nachádza na viacerých parcelách C-KN v katastrálnom území Badín a je klasifikovaná ako veľký zdroj znečistenia ovzdušia. Dokument neuvádza informácie o dotknutých chránených územiach ani druhoch živočíchov/rastlín."
+}

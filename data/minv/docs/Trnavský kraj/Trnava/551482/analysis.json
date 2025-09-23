@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "017/722 Z",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ČTP ALPHA SK sr.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "VODERADY",
+    "katastralne_uzemia": [
+      {
+        "nazov": "VODERADY",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1766/69",
+              "1766/75"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ČT PARK VODERADY 11. ETAPA"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie povolenia na uskutočnenie vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie povolenia na uskutočnenie vodnej stavby pre ČTP ALPHA SK sr.o. v obci Voderady. Projekt zahŕňa výstavbu rozvodov pitného a požiarneho vodovodu, areálového rozvodu úžitkovej vody, splaškovej a dažďovej kanalizácie a prípojok dažďovej kanalizácie v lokalite ČT PARK VODERADY 11. ETAPA."
+}

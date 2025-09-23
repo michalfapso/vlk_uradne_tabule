@@ -1,0 +1,197 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ESPRIT, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Pezinok",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Okres Pezinok"
+  },
+  "typ_dokumentu": "Analýza a návrh Regionálneho územného systému ekologickej stability (RÚSES)",
+  "typ_zasahu": [
+    "strategické plánovanie",
+    "manažment životného prostredia",
+    "ochrana biodiverzity",
+    "tvorba zelenej infraštruktúry",
+    "návrh manažmentových opatrení"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Malé Karpaty",
+    "NATURA 2000",
+    "Územie európskeho významu",
+    "Chránené vtáčie územie",
+    "Ramsarská lokalita Šúr",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Prírodná pamiatka",
+    "Chránený areál",
+    "ochranné pásmo vodárenského zdroja",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "mlok dunajský",
+    "kunka červenobruchá",
+    "kunka žltobruchá",
+    "hraboš severský panónsky",
+    "fuzáč veľký",
+    "roháč obyčajný",
+    "orel kráľovský",
+    "haja tmavá",
+    "sokol sťahovavý",
+    "výr skalný",
+    "ďateľ prostredný",
+    "bocian čierny",
+    "chochlačka bielooká",
+    "chrapkáč poľný",
+    "číka európska",
+    "rak riavový",
+    "pestroň vlkovcový",
+    "jasoň chochlačkový",
+    "ohniváčik veľký",
+    "priadkovec trnkový",
+    "spriadač kostihojový",
+    "listnatec jazykovitý",
+    "tis",
+    "prilbovka biela",
+    "prilbovka dlholistá",
+    "ľalia zlatohlavá",
+    "páperník pošvatý",
+    "divozel úhľadný",
+    "klinček kopcový"
+  ],
+  "odkaz_enviroportal": "http://www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "36",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "37",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "39/2007"
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "2"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "656/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (Vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje komplexnú analýzu a návrh Regionálneho územného systému ekologickej stability (RÚSES) pre okres Pezinok z roku 2019. Sústredí sa na hodnotenie súčasného stavu krajiny, jej abiotických a biotických pomerov, a identifikuje kľúčové chránené územia ako CHKO Malé Karpaty, lokality Natura 2000 a Ramsarské miesta. Navrhuje manažmentové opatrenia na zvýšenie ekologickej stability, ochranu biodiverzity a usmernenie rozvoja zelenej infraštruktúry, s cieľom eliminovať negatívne vplyvy ľudskej činnosti a chrániť vzácne druhy rastlín a živočíchov."
+}

@@ -1,0 +1,271 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Okresný úrad Pezinok, odbor starostlivosti o životné prostredie",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Budmerice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dubová",
+        "parcely": []
+      },
+      {
+        "nazov": "Modra",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "844",
+              "842/6",
+              "843",
+              "846"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vištuk",
+        "parcely": []
+      },
+      {
+        "nazov": "Malé Šenkvice",
+        "parcely": []
+      },
+      {
+        "nazov": "Slovenský Grob",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Jur",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Šenkvice",
+        "parcely": []
+      },
+      {
+        "nazov": "Viničné",
+        "parcely": []
+      },
+      {
+        "nazov": "Vinosady",
+        "parcely": []
+      },
+      {
+        "nazov": "Limbach",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Kuchynská hornatina, Predhorie, Kráľovská dolina, Modransko-tŕňanské pustáky, Mokrade pri Modre VN Zadný Šúr, Národná prírodná rezervácia Šúr, Šenkvický háj, Martinský les, Vŕšky, Šenkvická estakáda, Viničniansky kanál, VN Viničné, potok Blatina, Limbašský potok, Hrebeň Malých Karpát, Dolná ulica (Modra), Vajanského ulica (Modra), Národná ulica (Modra), priemyselná zóna (Modra), Grinava (Pezinok)"
+  },
+  "typ_dokumentu": "Vyhodnotenie pripomienok k Regionálnemu územnému systému ekologickej stability (RÚSES)",
+  "typ_zasahu": [
+    "sanácia a rekultivácia opustených ťažobní a lomov",
+    "rekultivácia vyťažených priestorov",
+    "tvorba a podpora systému plôch zelene v sídlach",
+    "zapracovanie ochranných pásiem (letiská, cesty, železnice)",
+    "minimalizácia agrochemikálií",
+    "ochrana a starostlivosť o brehové porasty",
+    "zvyšovanie zastúpenia brehových porastov",
+    "obnova narušených porastov",
+    "preferencia agrotechnických postupov zvyšujúcich retenčnú schopnosť pôdy",
+    "vytváranie prirodzených prekážok povrchovému odtoku (medze, trávnaté pásy, ochranné pásy zelene, pôdne stupne)",
+    "eliminácia chemického a biologického znečistenia vodných tokov",
+    "budovanie sietí kanalizácií a čističiek odpadových vôd",
+    "doplnenie a skvalitnenie verejnej zelene",
+    "ochrana drevín v sídlach",
+    "vytváranie nových regionálnych biokoridorov",
+    "sprírodňovanie",
+    "monitorovanie kvality povrchových vôd",
+    "odstraňovanie inváznych druhov rastlín",
+    "zlepšenie kvality vôd",
+    "ponechávanie stromov a drevnej hmoty v porastoch",
+    "zabezpečenie vhodných pobytových podmienok bioty",
+    "šetrné spôsoby sústreďovania drevnej hmoty",
+    "ponechávanie dostatočných podielov starých porastov, dutinových stromov a mŕtveho dreva",
+    "zabezpečenie optimálneho druhového a vekového zloženia lesných porastov",
+    "vyhnúť sa konštrukciám lesných ciest koncentrujúcim a urýchľujúcim odtok",
+    "protipovodňové a protierózne opatrenia",
+    "oplocovanie pozemkov"
+  ],
+  "typ_uzemia": [
+    "Národná sústava chránených území",
+    "Prírodná rezervácia Vydrica (návrh)",
+    "Chránená krajinná oblasť Malé Karpaty",
+    "Národná prírodná rezervácia Šúr",
+    "Územie európskeho významu",
+    "Regionálny územný systém ekologickej stability (RÚSES)",
+    "biocentrá",
+    "biokoridory",
+    "genofondové lokality",
+    "ochranné pásma letísk",
+    "ochranné pásma pozemných komunikácií",
+    "ochranné pásma železničných dráh",
+    "ochranné pásma vodných tokov a vodných nádrží",
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "cíbik chochlatý",
+    "vzácne druhy vtákov",
+    "obojživelníky (skokan rapotavý, ropucha zelená)",
+    "ichtyofauna",
+    "brehové porasty",
+    "stromy a drevná hmota",
+    "staré porasty",
+    "dutinové stromy",
+    "mŕtve drevo",
+    "biota"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o organizácii činnosti vlády a organizácii ústrednej štátnej správy",
+      "zakon_cislo": "575/2001 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "172/2022 Z. z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášky MŽP SR ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "20",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhlášky MŽP SR ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z.z."
+    },
+    {
+      "paragraf": "13-16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vnútrozemskej plavbe",
+      "zakon_cislo": "338/2000 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "58/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o hospodárskej úprave lesov a o ochrane",
+      "zakon_cislo": "453/2006 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "656/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je vyhodnotením pripomienok od rôznych subjektov k Regionálnemu územnému systému ekologickej stability (RÚSES) okresu Pezinok, ktorý bol vypracovaný v roku 2019. Rieši sa v ňom aktualizácia dát, legislatívy a rôzne návrhy manažmentových opatrení pre biocentrá, biokoridory a genofondové lokality v okrese, vrátane oblastí ako Malé Karpaty a Národná prírodná rezervácia Šúr. Kľúčové pripomienky sa týkajú ochrany lesov, vodných tokov, pôdy, biodiverzity (bobor vodný, vtáky, obojživelníky) a rešpektovania ochranných pásiem infraštruktúry."
+}

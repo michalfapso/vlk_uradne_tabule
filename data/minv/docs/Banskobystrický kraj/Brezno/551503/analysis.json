@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-09-24",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Jarabá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jarabá",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "298"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "8469/1",
+              "8469/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o začatí správneho konania vo veci žiadosti o vydanie súhlasu na výrub drevín v katastrálnom území Jarabá na parcelách C-KN 298 a E-KN 8469/1, 8469/3. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia dňa 24.09.2025."
+}
