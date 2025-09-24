@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "019286/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "fyzická osoba, právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Zvolen, Očová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zvolen-Môťová",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "1792/446",
+              "1792/409"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Očová",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "4842/108"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie Okresného úradu Zvolen o začatí dvoch správnych konaní vo veci výrubu drevín. Prvá žiadosť od fyzickej osoby sa týka výrubu 2 ks drevín v k. ú. Zvolen-Môťová, druhá od právnickej osoby sa týka výrubu 7 ks drevín v k. ú. Očová. Dôvodom výrubu v oboch prípadoch je zhoršený zdravotný stav drevín."
+}

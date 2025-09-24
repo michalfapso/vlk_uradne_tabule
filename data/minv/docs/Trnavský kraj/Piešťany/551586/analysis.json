@@ -1,0 +1,137 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-19",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Piešťany",
+    "obec": "Nižná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižná",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "711/4",
+              "711/3",
+              "407/3",
+              "195/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľké Kostoľany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "7/3",
+              "10/1",
+              "7/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolné Dubovany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "764/5"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vrbové",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4601"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rakovice",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "788/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodné toky Chtelnička, Lančársky potok, Sintorínsky potok, Steruský kanál"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstraňovanie nánosov",
+    "periodická údržba tokov"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "agát",
+    "baza",
+    "lieska",
+    "šípová ruža",
+    "breza",
+    "jelša",
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "22",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "170/2021"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010"
+    },
+    {
+      "paragraf": "48",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004"
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Piešťany plánovaný výrub kríkových porastov a náletových drevín z prietočných profilov vodných tokov v okrese Piešťany na obdobie vegetačného pokoja 2025/2026 a 2026/2027. Činnosť sa týka lokalít ako vodný tok Chtelnička (k.ú. Nižná, Veľké Kostoľany), Lančársky potok (k.ú. Dolné Dubovany), Sintorínsky potok (k.ú. Vrbové) a Steruský kanál (k.ú. Rakovice). Medzi dotknutými drevinami sú agát, baza, lieska, šípová ruža, breza, jelša a vŕba. Dokument je adresovaný aj Správe CHKO Malé Karpaty."
+}

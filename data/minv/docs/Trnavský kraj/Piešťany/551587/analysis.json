@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "SVP 20487/2025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-19",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Piešťany",
+    "obec": "Vrbové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbové",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5587",
+              "3161"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "VN Čerenec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topol' čierny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Piešťany plánovaný výrub 8 a orez 2 stromov topoľa čierneho na pobrežnom pozemku VN Čerenec v katastrálnom území Vrbové. Realizácia je naplánovaná na obdobie vegetačného pokoja od 1. októbra 2025 do 28. februára 2026 a je podložená stanoviskom Správy CHKO Malé Karpaty."
+}
