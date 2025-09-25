@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OÚPB/1512/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-09-22",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Považská Bystrica",
+    "obec": "Horná Maríková",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Maríková",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti ENZA s.r.o. o nevyhnutnom výrube náletových drevín v ochrannom pásme elektrického vedenia 22 kV v katastrálnom území Horná Maríková. Výrub je plánovaný v období 9/2025 - 9/2026 za účelom zabezpečenia bezporuchovej prevádzky vedenia, s odkazom na zákon o ochrane prírody a energetický zákon."
+}

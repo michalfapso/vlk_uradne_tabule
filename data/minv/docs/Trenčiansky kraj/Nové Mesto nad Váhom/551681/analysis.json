@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Správa ciest Trenčianskeho samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Čachtice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čachtice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "cesta II/1229 Čachtice-Višňové"
+  },
+  "typ_dokumentu": "Oznámenie o vyrúbaní dreviny",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "orez drevín",
+    "vyvetvovanie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "155/1961 9.C."
+    }
+  ],
+  "zhrnutie": "Správa ciest Trenčianskeho samosprávneho kraja oznamuje Okresnému úradu Nové Mesto nad Váhom plánovaný výrub 900 m² krovitých porastov a orez drevín na ceste II/1229 Čachtice-Višňové v katastrálnom území Čachtice. Výrub sa uskutoční v októbri 2025 a je odôvodnený potrebou zabezpečiť plynulú a bezpečnú jazdu vozidiel, keďže vegetácia zasahuje do telesa cesty."
+}
