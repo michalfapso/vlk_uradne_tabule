@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "37988/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-24",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Partizánska Ľupča, Malatíny, Vlachy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Partizánska Ľupča",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "169",
+              "170",
+              "173",
+              "174"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malatíny",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "173",
+              "174"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vlachy",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "186",
+              "187",
+              "188"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Valentka, Stredné Malatíny, Klíny, ZÁDIEL, Rybník, Háj, Lačná, Za pot., Krmeš, Kraľovianbok, Irejovie, Vrchháj, Selišká, Dlžiny"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje nevyhnutný výrub a okliesňovanie drevín v ochrannom pásme elektrického vedenia 400 kV, vedenie č. V406 TR: Varín – Liptovská Mara. Činnosť bude vykonávať spoločnosť ENZA s.r.o. v katastrálnych územiach Partizánska Ľupča, Malatíny a Vlachy. Oznámenie je v súlade so Zákonom o energetike a Zákonom o ochrane prírody a krajiny, pričom predpokladaný začiatok výrubu je v septembri 2025 a ukončenie v marci 2026."
+}

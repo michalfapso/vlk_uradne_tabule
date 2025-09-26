@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OUZP-ZIV-2021/00680-003",
+  "cislo_rozhodnutia": "100/2021",
+  "datum_dokumentu": "2021-09-30",
+  "datum_zverejnenia": "2021-10-04",
+  "lehoty_na_vyjadrenie": "15 dní od zverejnenia",
+  "ziadatel_navrhovatel": "Urbárske spoločenstvo, p.f., k. ú. 20, Žarnovica, J. M. 222/2019",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Žarnovica",
+    "obec": "Žarnovica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žarnovica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1283/1",
+              "1108"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba studne",
+    "úprava vodného toku",
+    "výstavba vodovodu",
+    "odvodnenie pozemkov"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "41",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "70/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Verejná vyhláška oznamuje začatie konania pre Urbárske spoločenstvo, p.f. v Žarnovici. Ide o stavebné práce zahŕňajúce výstavbu studne, reguláciu potoka, pripojenie na vodovod a odvodnenie pozemkov, vrátane výrubu drevín. Činnosti sa týkajú katastrálneho územia Žarnovica a nerealizujú sa v chránenom území."
+}

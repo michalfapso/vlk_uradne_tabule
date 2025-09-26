@@ -1,0 +1,484 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/000606-017",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2025/000606-0035163/2025",
+  "datum_dokumentu": "2025-09-03",
+  "datum_zverejnenia": "2024-09-19",
+  "lehoty_na_vyjadrenie": "do 15 dní od zverejnenia oznámenia",
+  "ziadatel_navrhovatel": "Obec Bobrovník, IČO: 00315125",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Bobrovník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bobrovník",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Hliník sever, Hliník pod hospodárskym dvorom, Hliník juh, LIVE PARK, MARINA LIPTOV, Pod cintorínom, križovatka, ekopark, aquapark, lyžiarsky areál, obecný úrad, ČOV"
+  },
+  "typ_dokumentu": "Rozhodnutie vydané v zisťovacom konaní",
+  "typ_zasahu": [
+    "územné plánovanie",
+    "rozšírenie územia pre bývanie",
+    "zmena funkčného využitia územia",
+    "úprava ochranného pásma cintorína",
+    "doplnenie trasy cyklochodníka",
+    "záber poľnohospodárskej pôdy",
+    "výstavba budovy",
+    "výstavba čistiarne odpadových vôd",
+    "výrub drevín",
+    "úprava vodného režimu",
+    "premostenie vodných tokov",
+    "úprava vodných tokov",
+    "výstavba protipovodňovej ochrany"
+  ],
+  "typ_uzemia": [
+    "chránené vtáčie územie Chočské vrchy (SKCHVU030)",
+    "ochranné lesy",
+    "biokoridor regionálneho významu Váh Bk4r (VN Liptovská Mara)",
+    "Územie európskeho významu",
+    "biotop Br6 Brehové porasty deväťsilov",
+    "biotop Lk6 Podmáčané lúky horských a podhorských oblastí",
+    "biotop Kr8 Vŕbové kroviny stojatých vôd",
+    "genofondovo významná plocha Mokraď pri Sestrči",
+    "ochranné pásmo vodnej stavby",
+    "inundačné územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty deväťsilov",
+    "podmáčané lúky horských a podhorských oblastí",
+    "vŕbové kroviny stojatých vôd",
+    "zákonom chránené druhy živočíchov",
+    "avifauna",
+    "vodné živočíchy",
+    "rastliny",
+    "zver"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zmeny-doplnky-c-1-uzemneho-planu-obce-bobrovnik-nove",
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pohrebníctve",
+      "zakon_cislo": "131/2010 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "pamiatkového zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "40",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "pamiatkového zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Federálneho ministerstva dopravy",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "4",
+      "pismena": [
+        "o"
+      ],
+      "zakon_nazov": "o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologického zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "98/2018 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "5",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z.z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "63",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš vydal rozhodnutie v zisťovacom konaní pre strategický dokument „Územný plán obce Bobrovník, Zmena a doplnok č. 1/2022 - nový“, pričom rozhodol, že tento dokument sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Rozhodnutie však obsahuje viaceré podmienky na zohľadnenie v rámci schvaľovania plánu, najmä ochranu chráneného vtáčieho územia Chočské vrchy, ochranných lesov, biotopov európskeho a národného významu (brehové porasty, podmáčané lúky, vŕbové kroviny), genofondovo významnej mokrade pri Sestrči, vodnej nádrže Liptovská Mara a migračných koridorov pred negatívnymi vplyvmi novej výstavby, zmeny funkčného využitia a súvisiacich zásahov."
+}

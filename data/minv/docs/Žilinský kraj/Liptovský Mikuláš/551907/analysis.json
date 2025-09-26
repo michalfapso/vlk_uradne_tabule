@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "57989/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-24",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sokolče",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Liptovská Mara"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín pod el. vedením",
+  "typ_zasahu": [
+    "výrub drevín",
+    "oklesťovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube náletových drevín a oklesťovaní porastov v ochrannom pásme 400 kV elektrického vedenia TR: Est. Liptovská Mara, k. ú. Sokolče. Činnosť bude prebiehať od septembra 2025 do marca 2026 podľa zákona o ochrane prírody a krajiny a zákona o energetike."
+}

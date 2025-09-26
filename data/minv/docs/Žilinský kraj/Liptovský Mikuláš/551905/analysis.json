@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "9.2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-24",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Partizánska Ľupča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Partizánska Ľupča",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "140",
+              "141"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zemianska Ľubeľa",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "149",
+              "150"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vlachy",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "159",
+              "160",
+              "161"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Trasa elektrického vedenia V461 Medzibrod - Liptovská Mara"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "ENZA s.r.o. oznamuje Okresnému úradu Liptovský Mikuláš nevyhnutný výrub náletových drevín a okliesňovanie porastov v ochrannom pásme elektrického vedenia V461 (Medzibrod - Liptovská Mara). Činnosť sa má realizovať v katastrálnych územiach Partizánska Ľupča, Zemianska Ľubeľa a Vlachy od septembra 2025 do marca 2026. Oznámenie sa opiera o ustanovenia zákona o ochrane prírody a krajiny a zákona o energetike."
+}

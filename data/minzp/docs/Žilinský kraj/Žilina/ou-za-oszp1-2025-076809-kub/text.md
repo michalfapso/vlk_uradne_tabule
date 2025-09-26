@@ -1,0 +1,10 @@
+# OU-ZA-OSZP1-2025/076809-Kub
+
+26.09.2025
+
+Oznámenie o začatí konania vo veci vydania rozhodnutia o určení podmienok na vykonávanie činnosti, príp. o zákaze vykonávania činností vo veci určenia podmienok na vykonanie plánovaných činností, príp. zákazu vykonania plánovaných činností, ktoré môžu byť v rozpore s podmienkami ochrany určenými v zámere vyhlásenia zón Národného parku Nízke Tatry, zmeny jeho hraníc a zmeny hraníc ochranného pásma a návrh Programu starostlivosti o Národný park Nízke Tatry a jeho ochranné pásmo na roky 2026 – 2055. Vykonanie plánovaných činností, príp. zákazu vykonania plánovaných činností, ktoré môžu byť v rozpore s podmienkami ochrany určenými v zámere, realizované v nasledovných jednotkách priestorového rozdelenia lesa: LC Jasenie, LC Slovenská Ľupča, LC Liptovská Osada Biely Potok, LC Demänová, LC Javorinka, LC Čierny Váh, LC Liptovská Teplička.
+
+Účastník konania: Lesy Slovenskej republiky, štátny podnik, generálne riaditeľstvo, Námestie SNP 8, 975 66 Banská Bystrica
+
+Lehota na potvrdenie záujmu byť zúčastnenou osobou v správnom konaní:  
+Potvrdenie záujmu byť zúčastnenou osobou v konkrétnom správnom konaní je potrebné doručiť v lehote 5 pracovných dní od zverejnenia informácie buď písomne v listinnej podobe na adresu: Okresný úrad Žilina, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných zložiek životného prostredia kraja, Vysokoškolákov 8556/33B, 010 08 Žilina alebo v elektronickej podobe s autorizáciou podľa osobitného predpisu o elektronickej podobe výkonu verejnej moci (elektronická podateľňa na ústrednom portáli verejnej správy <https://www.slovensko.sk/>), alebo na adresu:  (elektronická podoba bez autorizácie). V prípade, že Vaše podanie bude urobené v elektronickej podobe bez autorizácie, je potrebné takéto podanie doplniť v lehote 3 pracovných dní v listinnej podobe alebo v elektronickej podobe autorizované podľa osobitného predpisu. Správny orgán na dodatočné doplnenie podania nevyzýva.
