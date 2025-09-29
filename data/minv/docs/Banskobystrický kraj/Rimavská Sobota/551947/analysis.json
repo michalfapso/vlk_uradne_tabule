@@ -1,0 +1,612 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/017969-0061768/2025",
+  "cislo_rozhodnutia": "OU-RS-OSZP-2025/017969-0061768/2025",
+  "datum_dokumentu": "2025-09-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (na odvolanie)",
+  "ziadatel_navrhovatel": "Obec Veľké Teriakovce",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Rimavská Sobota",
+    "obec": "Vrbovce nad Rimavou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbovce nad Rimavou",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "125/1",
+              "126/1",
+              "593/2"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "126/1",
+              "593/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Výstavba pozemných komunikácií pre peších"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba dažďovej kanalizácie",
+    "výstavba pozemných komunikácií pre peších",
+    "odvádzanie povrchových vôd",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "NATURA 2000"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "75",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "75a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovujú podrobnosti o všeobecných technických požiadavkách na výstavbu a o všeobecných technických požiadavkách na stavby užívané osobám s obmedzenou schopnosťou pohybu a orientácie",
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o civilnej ochrane obyvateľstva",
+      "zakon_cislo": "42/1994 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovujú podrobnosti o zaobchádzaní S nebezpečnými látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "100/2005 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva zákon o pozemných komunikáciách",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "119",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o cestnej premávke a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "8/2009 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o cestnej premávke a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "8/2009 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dopravnom značení",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dopravnom značení",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": "2",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o cestnej premávke a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "8/2009 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o cestnej premávke a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "8/2009 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o dopravnom značení",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o dopravnom značení",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "paragraf": "33",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "103",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách (o ochrane proti rušeniu)",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláškou, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláškou o evidenčnej a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláškou o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "62",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o technických požiadavkách na výrobky a o posudzovaní zhody",
+      "zakon_cislo": "51/2017 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rimavská Sobota vydal obci Veľké Teriakovce stavebné povolenie na výstavbu dažďovej kanalizácie a pozemných komunikácií pre peších v katastrálnom území Vrbovce nad Rimavou. Súčasťou prác je odvedenie vôd z povrchového odtoku do vodného toku Rimava. Projekt sa dotýka územia s 1. stupňom ochrany a NATURA 2000, no bol posúdený ako nemajúci nepriaznivý vplyv na záujmy ochrany prírody."
+}
