@@ -1,0 +1,632 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/395486-018",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/395486-0403941/2025",
+  "datum_dokumentu": "2025-09-23",
+  "datum_zverejnenia": "2025-09-30",
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa zverejnenia záväzného stanoviska v centrálnom informačnom systéme",
+  "ziadatel_navrhovatel": "Odvoz a likvidácia odpadu a.s. (OLO a.s.)",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podunajské Biskupice",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "6240/19",
+              "6240/3",
+              "6240/12",
+              "6243/9",
+              "6245/1",
+              "6246",
+              "5972/3",
+              "5972/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Technologický park OLO"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "spracovanie odpadu",
+    "zhodnocovanie odpadu",
+    "suchá fermentácia",
+    "kompostovanie",
+    "výroba bioplynu",
+    "produkcia biometánu",
+    "výroba energie v kogenerácii",
+    "výroba tepla v kogenerácii",
+    "dotriedenie odpadov",
+    "výstavba budovy",
+    "výrub drevín",
+    "odstránenie pôdneho krytu",
+    "odber podzemných vôd",
+    "vsakovanie vôd",
+    "vypúšťanie odpadových vôd",
+    "používanie chemických látok"
+  ],
+  "typ_uzemia": [
+    "1. stupeň územnej ochrany",
+    "CHVO Žitný ostrov",
+    "Ochranné pásmo letiska M. R. Štefánika",
+    "Ochranné pásmo hydraulickej ochrany podzemných vôd (HOPV)",
+    "Ochranné pásmo Slovnaftu a.s.",
+    "Ochranné pásmo plynovodu",
+    "Ochranné pásmo trasy elektrického vedenia",
+    "Ochranné pásmo vedenia produktovodu",
+    "CHVÚ Dunajské luhy",
+    "ÚEV Biskupické luhy",
+    "ÚEV Malý Dunaj",
+    "ÚEV Bratislavské luhy",
+    "NATURA 2000"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "haja tmavá (Milvus migrans)",
+    "orliak morský (Haliaetus albicilla)",
+    "hubár jednorohý (Bolbelasmus unicornis)",
+    "obojživelníky",
+    "dreviny",
+    "vtáky"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/technologicky-park-olo",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o prevencii závažných priemyselných havárií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "128/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "w"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o prevencii závažných priemyselných havárií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "128/2015 Z.z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o prevencii závažných priemyselných havárií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "128/2015 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o prevencii závažných priemyselných havárií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "128/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2018 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "28b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "29a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica o vodách",
+      "zakon_cislo": "2000/60/ES"
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenie",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "24/2003 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Smernica Európskeho parlamentu a Rady o posudzovaní vplyvov určitých verejných a súkromných projektov na životné prostredie",
+      "zakon_cislo": "2011/92/EÚ"
+    },
+    {
+      "paragraf": "29",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "19",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia Slovenskej republiky, ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška Ministerstva životného prostredia Slovenskej republiky, ktorou sa mení a dopĺňa vyhláška č. 200/2018 Z. z.",
+      "zakon_cislo": "76/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o geologických prácach",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MZ SR o podrobnostiach hodnotenia vplyvov na verejné zdravie",
+      "zakon_cislo": "233/2014 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Bratislava zo zisťovacieho konania pre zámer \"Technologický park OLO\" navrhovateľa OLO a.s. v Bratislave-Ružinove, k.ú. Podunajské Biskupice. Cieľom činnosti je spracovanie a zhodnocovanie biologicky rozložiteľného odpadu (suchá fermentácia, kompostovanie, výroba bioplynu) a dotriedenie ostatných odpadov, s celkovou kapacitou 100 000 t/rok. Lokalita sa nachádza v 1. stupni územnej ochrany, CHVO Žitný ostrov a v blízkosti viacerých území Natura 2000 (Dunajské luhy, Biskupické luhy). Konanie posúdilo vplyvy na haju tmavú, orliaka morského a hubára jednorohého. Na základe predložených štúdií a podmienok nebolo potrebné ďalšie posudzovanie podľa zákona o EIA, pričom realizácia je považovaná za environmentálne prijateľnú za predpokladu dodržania stanovených opatrení. Proti stanovisku je možné podať odvolanie do 15 dní od jeho zverejnenia."
+}

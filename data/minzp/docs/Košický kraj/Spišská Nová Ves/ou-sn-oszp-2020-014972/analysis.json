@@ -25,47 +25,54 @@
         ]
       }
     ],
-    "nazov_lokality": "sídlisko Mier a Centrálna mestská zóna v Spišskej Novej Vsi"
+    "nazov_lokality": "sídlisko Mier, Centrálna mestská zóna"
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
-    "výrub drevín"
+    "výrub drevín",
+    "výrub stromov"
   ],
   "typ_uzemia": [
     "Centrálna mestská zóna (CHZ)"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "breza previsnutá",
+    "borovica čierna",
+    "tuja západná",
+    "smrek pichľavý",
+    "borovica lesná"
+  ],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
       "paragraf": "82",
       "odsek": "7",
       "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "47",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "47",
       "odsek": "5",
       "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "82",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania k žiadosti Mesta Spišská Nová Ves o výrub stromov vo verejnej zeleni v lokalitách sídlisko Mier a Centrálna mestská zóna v katastrálnom území Spišská Nová Ves. Dôvody výrubu sú zhoršený zdravotný stav drevín a bezpečnosť. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia."
+  "zhrnutie": "Okresný úrad Spišská Nová Ves oznamuje začatie správneho konania na žiadosť Mesta Spišská Nová Ves o súhlas na výrub drevín. Výrub sa týka stromov na sídlisku Mier a v Centrálnej mestskej zóne (CHZ) v katastrálnom území Spišská Nová Ves. Dôvodom sú zhoršený zdravotný stav a ohrozenie bezpečnosti."
 }

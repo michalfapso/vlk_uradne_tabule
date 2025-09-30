@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "SVP 20863/2025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-19",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik Povodie dolného Váhu",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Piešťany",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "7949",
+              "7948/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "koryto vodného toku Váh pri Hornej hati"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "preventívne protipovodňové opatrenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Topoľ čierny",
+    "Vŕba biela",
+    "Orech kráľovský"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "4",
+      "pismena": [
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub drevín (Topoľ čierny, Vŕba biela, Orech kráľovský) v koryte vodného toku Váh pri Hornej hati v katastrálnom území Piešťany, parcely CKN č. 7949 a 7948/3. Dôvodom sú preventívne protipovodňové opatrenia a zabezpečenie prietočnosti vtokového profilu. Práce sú plánované do 28.02.2026."
+}

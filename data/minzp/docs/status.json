@@ -848,5 +848,55 @@
     "date": "2025-09-24 18:33:10",
     "type": "error",
     "text": "Nepodarilo sa určiť DOC_ID pre https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/."
+  },
+  {
+    "date": "2025-09-30 18:23:39",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp1-2025-042947.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:23:39",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-zilina/ou-za-oszp1-2025-077607-kuc.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:23:40",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-zilina/ou-za-oszp1-2025-076809-kub.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:23:41",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-zilina/ou-za-oszp1-2025-079453-buk.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:23:41",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17238-2025-6-1.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:26:32",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17181-2025-6-1.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:27:04",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-zilina/ou-za-oszp1-2025-077912-kub.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:27:04",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/8607-2025-6-1.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:27:05",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-zarnovica/ou-zc-oszp-2021-000430.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-09-30 18:27:05",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-lucenec/ou-lc-oszp-2021-002099-oznamenie.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   }
 ]

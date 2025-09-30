@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Piešťany",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "CKN",
+            "cisla": [
+              "7942/I"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Odpadový kanál VE Horná Streda"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "A",
+      "pismena": [
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK oznamuje Okresnému úradu v Piešťanoch plánovaný výrub drevín (topoľ biely a vŕba biela) na parcele CKN č. 7942/I v katastrálnom území Piešťany, mimo zastavaného územia obce. Výrub sa týka pravostranného svahu Odpadového kanála VE Horná Streda a je zdôvodnený preventívnymi protipovodňovými opatreniami a zlepšením funkcie kanála."
+}
