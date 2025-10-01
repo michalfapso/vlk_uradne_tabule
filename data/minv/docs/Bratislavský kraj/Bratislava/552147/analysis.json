@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/521660-2/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-01",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislava",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Nové Mesto",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "13433/7",
+              "13535/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Podniková a Nobelova ul."
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "sanácia zberača"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo verejnej kanalizácie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "g",
+        "h"
+      ],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie Okresného úradu Bratislava o plánovanom výrube 26 ks drevín a 3 m2 krovitých porastov v katastrálnom území Nové Mesto, Bratislava, na uliciach Podniková a Nobelova. Výrub je potrebný z dôvodu rastu drevín v ochrannom pásme verejnej kanalizácie a navrhovanej sanácie zberača. Žiadateľom je Bratislavská vodárenská spoločnosť, a.s. Podľa dokumentu nie je možné sa prihlásiť do konania."
+}

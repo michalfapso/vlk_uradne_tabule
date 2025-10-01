@@ -3,7 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2020-02-24",
   "datum_zverejnenia": "2020-02-24",
-  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou formou na Okresný úrad Spišská Nová Ves, odbor starostlivosti o životné prostredie, Štefánikovo námestie 5, 052 01 Spišská Nová Ves alebo elektronickou formou (e-podanie) záujem byť účastníkom v uvedenom správnom konaní.",
   "ziadatel_navrhovatel": "Ivan Fleischer",
   "miesto_realizacie": {
     "kraj": null,
@@ -22,8 +22,7 @@
           {
             "typ": "C-KN",
             "cisla": [
-              "2037/2",
-              "2037/121"
+              "2037/2"
             ]
           }
         ]
@@ -31,15 +30,16 @@
     ],
     "nazov_lokality": "Košiarny briežok"
   },
-  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
     "výrub drevín",
-    "výstavba žumpy",
-    "rekonštrukcia stavby",
-    "rozšírenie stavby"
+    "výrub stromov",
+    "osadenie odpadovej žumpy",
+    "rekonštrukcia a rozšírenie stavby"
   ],
   "typ_uzemia": [
-    "Národný park Slovenský raj - ochranné pásmo",
+    "Národný park Slovenský raj",
+    "Ochranné pásmo",
     "2. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
@@ -68,5 +68,5 @@
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Okresný úrad Spišská Nová Ves oznamuje začatie správneho konania k žiadosti Ivana Fleischera o vydanie súhlasu na výrub 2 stromov (smrek obyčajný, smrekovec opadavý) v katastrálnom území Smižany, lokalita Košiarny briežok. Výrub je požadovaný z dôvodu osadenia žumpy a rekonštrukcie chaty. Lokalita sa nachádza v ochrannom pásme Národného parku Slovenský raj (2. stupeň ochrany)."
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti Ivana Fleischera o vydanie súhlasu na výrub 2 stromov (smrek obyčajný a smrekovec opadavý) v obci Smižany, lokalita Košiarny briežok. Dreviny rastú v ochrannom pásme Národného parku Slovenský raj, kde platí druhý stupeň ochrany. Výrub je potrebný z dôvodu osadenia žumpy a rekonštrukcie rekreačnej chaty."
 }

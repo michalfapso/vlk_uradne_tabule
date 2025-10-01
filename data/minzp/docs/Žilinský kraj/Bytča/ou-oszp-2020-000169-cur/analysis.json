@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP/2020/000169/Cur",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2020-01-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "MVM, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Bytča",
+        "parcely": []
+      },
+      {
+        "nazov": "Malá Bytča",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo pod elektrickým vedením"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube drevín v katastrálnych územiach Veľká Bytča a Malá Bytča, ktoré sa týka ochranného pásma pod elektrickým vedením. Žiadateľom je MVM, s.r.o., konajúce na základe poverenia od Stredoslovenskej energetiky – Distribúcia, a.s. Cieľom je zaistiť bezpečnosť a spoľahlivosť prevádzky energetických zariadení."
+}

@@ -4,7 +4,7 @@
   "datum_dokumentu": "2025-09-30",
   "datum_zverejnenia": null,
   "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
-  "ziadatel_navrhovatel": null,
+  "ziadatel_navrhovatel": "fyzickú osobu",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Banská Bystrica",
@@ -31,7 +31,7 @@
     ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Žiadosť na vydanie súhlasu na výrub drevín",
+  "typ_dokumentu": "Žiadosť",
   "typ_zasahu": [
     "výrub drevín"
   ],
@@ -44,11 +44,18 @@
   "paragrafy": [
     {
       "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": null,
-      "zakon_cislo": "543/2002"
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
     }
   ],
-  "zhrnutie": "Žiadosť o súhlas na výrub 70 kusov stromov pre fyzickú osobu v katastrálnom území Nemce, okres Banská Bystrica. Dôvodom výrubu je zhoršený zdravotný stav drevín v blízkosti miestnej komunikácie. Žiadosť sa opiera o § 47 ods. 3 zákona 543/2002 Z.z. Verejnosť môže doručiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia."
+  "zhrnutie": "Ide o žiadosť fyzickej osoby na vydanie súhlasu na výrub 70 kusov drevín v katastrálnom území Nemce, okres Banská Bystrica. Dôvodom výrubu je zhoršený zdravotný stav drevín v blízkosti miestnej komunikácie. Dokument odkazuje na § 47 ods. 3 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny."
 }

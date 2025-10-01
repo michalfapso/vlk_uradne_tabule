@@ -2,9 +2,9 @@
   "cislo_konania_spisu": "OU-ZC-OSZP-2021/000430",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2021-02-19",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2021-02-19",
   "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia",
-  "ziadatel_navrhovatel": "fyzickej osoby",
+  "ziadatel_navrhovatel": "fyzická osoba",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Žarnovica",
@@ -24,17 +24,17 @@
     ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Oznámenie o začatí konania na úseku ochrany prírody a krajiny",
   "typ_zasahu": [
     "výrub drevín",
-    "vysekávanie krovia",
+    "vyčistenie plochy od krovín a náletov",
     "výstavba prístupovej cesty",
     "výstavba rekreačného objektu"
   ],
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": null,
+  "je_v_chranenom_uzemi": false,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "paragrafy": [
@@ -83,5 +83,5 @@
       "zakon_cislo": "71/1967 Zb."
     }
   ],
-  "zhrnutie": "Okresný úrad Žarnovica oznamuje začatie správneho konania na základe žiadosti fyzickej osoby o vydanie súhlasu na výrub 21 ks drevín a 120 m2 krovitého porastu v katastrálnom území Kľak, na parcele E-KN č. 1667/317. Dôvodom výrubu je vyčistenie plochy pre realizáciu prístupovej cesty a rekreačného objektu. Združenia s právnou subjektivitou majú lehotu 5 pracovných dní na potvrdenie záujmu byť účastníkom konania."
+  "zhrnutie": "Oznámenie o začatí konania na vydanie súhlasu pre fyzickú osobu na výrub 21 ks drevín a 120 m2 krovitého porastu v katastrálnom území Kľak, okres Žarnovica, na parcele E-KN č. 1667/317. Dôvodom výrubu je vyčistenie plochy pre realizáciu prístupovej cesty a rekreačného objektu. Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia tohto oznámenia."
 }

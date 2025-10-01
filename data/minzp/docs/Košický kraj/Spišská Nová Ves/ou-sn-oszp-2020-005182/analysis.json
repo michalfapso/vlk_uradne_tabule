@@ -3,11 +3,11 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2020-02-12",
   "datum_zverejnenia": "2020-02-12",
-  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou formou na Okresný úrad Spišská Nová Ves, odbor starostlivosti o životné prostredie, Štefánikovo námestie 5, 052 01 Spišská Nová Ves alebo elektronickou formou (e-podanie) záujem byť účastníkom v uvedenom správnom konaní",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia",
   "ziadatel_navrhovatel": "Obec Kaľava",
   "miesto_realizacie": {
     "kraj": null,
-    "okres": "Spišská Nová Ves",
+    "okres": null,
     "obec": "Kaľava",
     "katastralne_uzemia": [
       {
@@ -22,7 +22,12 @@
           {
             "typ": "C-KN",
             "cisla": [
-              "323/1",
+              "323/1"
+            ]
+          },
+          {
+            "typ": "C-KN",
+            "cisla": [
               "46/1"
             ]
           }
@@ -35,9 +40,7 @@
   "typ_zasahu": [
     "výrub drevín"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
     "smrek pichľavý (Picea pungens)",
@@ -67,5 +70,5 @@
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Dokument oznamuje začatie správneho konania o žiadosti obce Kaľava o vydanie súhlasu na výrub 4 stromov (smrek pichľavý a borovica lesná) na pozemkoch v katastrálnom území Kaľava. Odôvodnením je ohrozenie majetku, zdravia a života osôb, ako aj elektrického vedenia koreňovým systémom a konármi stromov. Verejnosť má možnosť prihlásiť sa do konania do 5 pracovných dní od zverejnenia oznámenia."
+  "zhrnutie": "Okresný úrad oznamuje začatie správneho konania o žiadosti Obce Kaľava na vydanie súhlasu na výrub 4 stromov (smrek pichľavý a borovica lesná) v katastrálnom území Kaľava. Dreviny ohrozujú stavby, majetok, zdravie a život osôb, ako aj elektrické vedenie. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia."
 }
