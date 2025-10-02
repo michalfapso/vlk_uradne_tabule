@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": "1387/25/IČ-CI",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-19",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "MH Invest, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Zámky",
+    "obec": "Šurany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šurany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ŠURANY INDUSTRIAL PARK_SO 2.14 – R8014 Šurany – výstavba el. stanice 110/22kV"
+  },
+  "typ_dokumentu": "Žiadosť o povolenie na osobitné užívanie vôd",
+  "typ_zasahu": [
+    "osobitné užívanie vôd",
+    "výstavba energetického diela",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/~surany-industrial-park-",
+  "paragrafy": [
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z"
+    }
+  ],
+  "zhrnutie": "Tento dokument je žiadosťou spoločnosti MH Invest, s.r.o. o povolenie na osobitné užívanie vôd, ktorá sa týka výstavby elektrickej stanice 110/22kV a dažďovej kanalizácie v priemyselnom parku Šurany, v katastrálnom území Šurany. Žiadosť je podaná podľa vodného zákona (č. 364/2004 Z.z.). V dokumente nie sú uvedené žiadne explicitné informácie o chránených územiach alebo dotknutých druhoch živočíchov/rastlín."
+}

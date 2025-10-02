@@ -1058,5 +1058,35 @@
     "date": "2025-10-01 18:33:25",
     "type": "error",
     "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-trnava/ou-tt-oszp3-2020-018991.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:42",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp-2025-043574-mach.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:42",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp-2025-043573-mach.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:43",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17425-2025-6-1.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:43",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp3-2025-043608-mb.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:44",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp1-2025-043295.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "date": "2025-10-02 18:24:44",
+    "type": "error",
+    "text": "  Chyba pri sťahovaní https://www.minzp.sk/ou-banska-bystrica/ou-bb-oszp3-2025-043543-mb.html: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   }
 ]

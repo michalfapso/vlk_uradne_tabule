@@ -1,0 +1,279 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/027449-005",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/027449-0167250/2025",
+  "datum_dokumentu": "2025-09-30",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Možnosť podať odvolanie do 15 dní od doručenia rozhodnutia. Rozhodnutie má povahu verejnej vyhlášky a musí byť vyvesené 15 dní, za deň doručenia sa pokladá posledný deň vyvesenia rozhodnutia.",
+  "ziadatel_navrhovatel": "Trnavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "8743/1",
+              "8746",
+              "8745/2",
+              "8796/1",
+              "8794/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Študentská, Hospodárska, Š. C. Parráka, Kalinčiakova, Jána Sambucusa, A. Hlinku, Komenského"
+  },
+  "typ_dokumentu": "Povolenie na uskutočnenie vodnej stavby (Rozhodnutie - Verejná vyhláška)",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu",
+    "výstavba vodnej stavby",
+    "výkopové práce",
+    "rekonštrukcia armatúrnej šachty",
+    "osadenie požiarnych hydrantov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "4",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "127",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "32",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "135",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "140a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Trnava o povolení na rekonštrukciu verejného vodovodu na viacerých uliciach v Trnave, vrátane Študentskej, Hospodárskej a ďalších. Navrhovateľom je Trnavská vodárenská spoločnosť, a.s. Realizácia stavby sa dotýka územia s 1. stupňom ochrany prírody, kde je potrebné rešpektovať dreviny. Dokument špecifikuje podmienky realizácie a upozorňuje na ochranu inžinierskych sietí a zabránenie škodám na majetku a životnom prostredí."
+}

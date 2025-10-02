@@ -1,0 +1,444 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/022265-003",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2025/022265-0134648/2025",
+  "datum_dokumentu": "2025-10-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Lehota na odvolanie je do 15 dní odo dňa doručenia rozhodnutia. Účastníci konania už nepodali námietky ani pripomienky v predošlej lehote.",
+  "ziadatel_navrhovatel": "PE-PA, s.r.o. Dolné Hámre 843, 966 61 Hodruša-Hámre",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Nitra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zobor",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2251",
+              "2252",
+              "2253",
+              "2215",
+              "2216"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Športovo - relaxačné centrum, ul. Nad Baňou, Zobor, Nitra"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "vybudovanie vodnej stavby",
+    "dažďová kanalizácia",
+    "retenčná nádrž",
+    "vsakovacia studňa",
+    "odvod dažďových vôd",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "rekonštrukcia vodovodnej prípojky",
+    "odvádzanie splaškových odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodných tokov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "117",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "31",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o podrobnostiach na zaistenie bezpečnosti a ochrany zdravia pri práci",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o podrobnostiach na zaistenie bezpečnosti a ochrany zdravia pri práci",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o podrobnostiach na zaistenie bezpečnosti a ochrany zdravia pri práci",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "b",
+        "d"
+      ],
+      "zakon_nazov": "zákon o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vyhláška o podrobnostiach na zaistenie bezpečnosti a ochrany zdravia pri práci",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "nariadenie vlády SR",
+      "zakon_cislo": "235/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o všeobecnej bezpečnosti výrobkov",
+      "zakon_cislo": "281/2023 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2001 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": "7",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o technických požiadavkách na výrobky a o posudzovaní zhody",
+      "zakon_cislo": "436/2001 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "177",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "zákon o dôveryhodných službách pre elektronické transakcie",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Nitra povoľuje spoločnosti PE-PA, s.r.o. vybudovanie vodných stavieb pre športovo-relaxačné centrum v katastrálnom území Zobor v Nitre. Projekt zahŕňa dažďovú kanalizáciu, retenčnú nádrž a vsakovaciu studňu pre odvod a vypúšťanie dažďových vôd do podzemných vôd, ako aj rekonštrukciu vodovodnej a splaškovej kanalizačnej prípojky. Dokument uvádza nutnosť dodržiavať ochranné pásma vodných tokov."
+}

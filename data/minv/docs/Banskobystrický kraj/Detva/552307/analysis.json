@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001267",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-02",
+  "datum_zverejnenia": "2025-10-02",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "právnická osoba (vlastník a užívateľ pozemkov)",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Detva",
+    "obec": "Detva",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Detva",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "8879"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "7514"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kaľamárka, Horná Chrapková"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie hospodárskych zvierat",
+    "ustajnenie hospodárskych zvierat",
+    "umiestnenie košiara",
+    "umiestnenie stavby alebo iného zariadenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Detva oznamuje začatie správneho konania o udelení súhlasu na výrub drevín a na činnosti súvisiace s chovom hospodárskych zvierat na voľných ležoviskách, vrátane umiestnenia košiara a stavieb, v lokalite Kaľamárka, Horná Chrapková, v katastrálnom území Detva, na parcelách C-KN 8879 a E-KN 7514."
+}

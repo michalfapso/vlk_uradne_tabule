@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "SVP 19040/2025/03",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., Povodie dolného Váhu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Kajal, Váhovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kajal",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2600/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Váhovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1362/5",
+              "611/2",
+              "1368/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodná nádrž Kráľová a okolie"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub náletových drevín",
+    "vysekávanie kríkových porastov",
+    "odpílenie prekážajúcich konárov stromov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Chránená krajinná oblasť Dunajské luhy",
+    "Chránené vtáčie územie SKCHVÚ010 Kráľová"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "avifauna",
+    "búrlak nočný (Nycticorax nycticorax)",
+    "chavkoš nočný (Nycticorax nycticorax)",
+    "javor jaseňolistý (Acer negundo)",
+    "jaseň americký (Fraxinus americana)",
+    "vŕby (Salix)",
+    "topole (Populus)",
+    "javory (Acer)",
+    "lipy (Tilia)",
+    "duby (Quercus)",
+    "ovocné druhy drevín"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, š.p. oznamuje údržbu Vodnej nádrže Kráľová v okrese Galanta (obce Kajal a Váhovce) vo forme výrubu náletových drevín, kríkových porastov a odstraňovania konárov. Činnosť bude prebiehať v chránenom vtáčom území SKCHVÚ010 Kráľová s 1. stupňom ochrany, mimo hniezdneho a vegetačného obdobia, s osobitným zreteľom na dravce ako búrlak/chavkoš nočný. Údržba sa zameriava aj na odstraňovanie inváznych drevín ako javor jaseňolistý a jaseň americký."
+}
