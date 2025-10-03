@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-10-03 18:40:11",
+    "type": "error",
+    "text": "Neočekávaná chyba v process_document pre doc_id 552421, URL https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=552421: Neočakávaná chyba pri konverzii súboru /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/minv/docs/Prešovský kraj/Bardejov/552421/orig.pdf na text: Error extracting text from PDF: litellm.APIConnectionError: GeminiException - [Errno 104] Connection reset by peer"
+  }
+]

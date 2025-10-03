@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "165-8/TMRdev/2023-IM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-09-23",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Na predmetný výrub vyplývajúci z osobitných prepisov nie je potrebný súhlas orgánu ochrany prírody.",
+  "ziadatel_navrhovatel": "Tatry mountain resorts, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Demänovská Dolina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2948/12",
+              "2948/13",
+              "2948/10",
+              "2946/28",
+              "2946/18",
+              "2946/29",
+              "2947/167",
+              "2947/168",
+              "3069/16",
+              "2945/17",
+              "2945/1",
+              "2945/219",
+              "2945/220",
+              "2948/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "LD Záhradky – Rovná Hoľa (Stredisko Chopok – sever)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "NAPANT"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť Tatry mountain resorts, a.s. oznamuje výrub drevín v obvode dráhy LD Záhradky – Rovná Hoľa v katastrálnom území Demänovská Dolina v termíne od 01.10. do 30.11.2023. Táto činnosť sa dotýka územia Národného parku Nízke Tatry (NAPANT) a podľa dokumentu na ňu nie je potrebný súhlas orgánu ochrany prírody."
+}
