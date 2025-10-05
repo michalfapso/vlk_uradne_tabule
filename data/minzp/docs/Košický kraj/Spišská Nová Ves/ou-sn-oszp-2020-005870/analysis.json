@@ -33,15 +33,16 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "nazov_lokality": "sídlisko Západ, sídlisko Mier, Centrálna mestská zóna (CMZ), sídlisko Tarča, sídlisko Východ"
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
-    "výrub drevín",
-    "výrub stromov"
+    "výrub drevín"
   ],
-  "typ_uzemia": [],
-  "je_v_chranenom_uzemi": false,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
     "borovica lesná",
     "tuja západná",
@@ -74,5 +75,5 @@
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Mesto Spišská Nová Ves podalo žiadosť o vydanie súhlasu na výrub viacerých stromov (borovica lesná, tuja západná, smrekovec opadavý, smrek obyčajný, smrek pichľavý, jabloň planá) rastúcich vo verejnej zeleni v katastrálnom území mesta. Dôvodom sú zhoršený zdravotný stav stromov, zaistenie bezpečnosti občanov a majetku, a plánované rekonštrukcie. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu byť účastníkom konania. Dokument nešpecifikuje dotknuté chránené územia alebo osobitne chránené druhy."
+  "zhrnutie": "Oznámenie o začatí správneho konania pre žiadosť Mesta Spišská Nová Ves o súhlas na výrub drevín. Výrub sa týka viacerých druhov stromov na rôznych parcelách v katastrálnom území Spišská Nová Ves, predovšetkým na sídliskách a v centrálnej mestskej zóne, z dôvodu zhoršeného zdravotného stavu, bezpečnosti a plánovanej rekonštrukcie. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania."
 }

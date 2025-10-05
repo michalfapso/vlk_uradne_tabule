@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "kraj": "Trenčiansky kraj",
+    "url": "/?okresne-urady-klientske-centra&kraj=6",
+    "okresy": [
+      {
+        "nazov": "Ilava",
+        "url": "/?okresne-urady-klientske-centra&urad=17",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-10-05",
+                "nazov": "Oznámenie o začatí stavebného konania a nariadení ústneho pojednávania „Kanalizácia a ČOV Vršatské Podhradie“ číslo OU-IL-OSZP-2025/000641-005 zo dňa 03.10.2025 (1,9 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=17&odbor=10&sekcia=uradna-tabula&subor=552459"
+              },
+              {
+                "datum": "2025-10-05",
+                "nazov": "Verejná vyhláška PVS, a.s. PB Pruské kanalizácia a ČOV, skúšobná prevádzka číslo OU-IL-OSZP/-2025/001295-005 zo dňa 03.10.2025 (190,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=17&odbor=10&sekcia=uradna-tabula&subor=552458"
+              },
+              {
+                "datum": "2025-10-05",
+                "nazov": "Verejná vyhláška IBC Projekt s.r.o. BA stavba IBV Lipová alej Ladce, SO 04 Rozšírenie verejného vodovodu číslo OU-IL-OSZP/-2025/000770-005 zo dňa 02.10.2025 (178,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=17&odbor=10&sekcia=uradna-tabula&subor=552457"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

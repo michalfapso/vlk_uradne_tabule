@@ -1,46 +1,40 @@
 {
-  "cislo_konania_spisu": "OU-SN-OSZP-2020/005756",
+  "cislo_konania_spisu": "OU-SN-OSZP-2020/013224",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2020-02-24",
-  "datum_zverejnenia": "2020-02-24",
+  "datum_dokumentu": "2020-09-08",
+  "datum_zverejnenia": "2020-09-08",
   "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia",
-  "ziadatel_navrhovatel": "Ivan Fleischer",
+  "ziadatel_navrhovatel": "Obec Hrabušice",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Spišská Nová Ves",
-    "obec": "Smižany",
+    "obec": "Hrabušice",
     "katastralne_uzemia": [
       {
-        "nazov": "Smižany",
+        "nazov": "Hrabušice",
         "parcely": [
           {
-            "typ": "E-KN",
+            "typ": "C KN",
             "cisla": [
-              "2095/1"
-            ]
-          },
-          {
-            "typ": "C-KN",
-            "cisla": [
-              "2037/2"
+              "825/1"
             ]
           }
         ]
       }
     ],
-    "nazov_lokality": "Košiarny briežok"
+    "nazov_lokality": "miestny cintorín"
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
     "výrub drevín"
   ],
   "typ_uzemia": [
-    "Národný park Slovenský raj",
-    "ochranné pásmo",
-    "2. stupeň ochrany"
+    "1. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "lipa veľkolistá"
+  ],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
@@ -65,5 +59,5 @@
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti Ivana Fleischera o vydanie súhlasu na výrub 2 stromov (smrek obyčajný a smrekovec opadavý) na pozemkoch E-KN 2095/1 a C-KN 2037/2 v katastrálnom území Smižany, lokalita Košiarny briežok. Výrub je požadovaný z dôvodu osadenia žumpy a rekonštrukcie rekreačnej chaty. Dotknuté pozemky sa nachádzajú v ochrannom pásme Národného parku Slovenský raj, kde platí druhý stupeň ochrany."
+  "zhrnutie": "Okresný úrad Spišská Nová Ves oznamuje začatie správneho konania na žiadosť Obce Hrabušice o vydanie súhlasu na výrub 8 ks stromov druhu lipa veľkolistá v katastrálnom území Hrabušice, na miestnom cintoríne. Stromy sa nachádzajú v prvom stupni územnej ochrany. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia oznámenia."
 }

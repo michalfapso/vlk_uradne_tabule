@@ -3,11 +3,11 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2021-02-19",
   "datum_zverejnenia": "2021-02-19",
-  "lehoty_na_vyjadrenie": "Všeobecné predpisy o správnom konaní (zákon č. 71/1967 Zb.) sa nevzťahujú na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z.z., teda nie je možné sa prihlásiť do konania.",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania pre verejnosť",
   "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., Odštepný závod Banská Bystrica",
   "miesto_realizacie": {
     "kraj": null,
-    "okres": null,
+    "okres": "Lučenec",
     "obec": "Divín",
     "katastralne_uzemia": [
       {
@@ -31,8 +31,10 @@
     "vysekávanie krovia",
     "čistenie odvodňovacieho rigolu"
   ],
-  "typ_uzemia": [],
-  "je_v_chranenom_uzemi": false,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
     "jelša lepkavá (Alnus glutinosa)",
     "topoľ osikový (Populus tremula)",
@@ -85,5 +87,5 @@
       "zakon_cislo": "71/1967 Zb."
     }
   ],
-  "zhrnutie": "Okresný úrad Lučenec zverejňuje oznámenie Slovenského vodohospodárskeho podniku, š.p., o výrube 47 ks drevín a 300 m2 krovín v katastrálnom území Divín na parcelách C-KN č. 1626/1 a 1626/23. Výrub sa má realizovať pri rigole cesty k VN Ružiná z dôvodu čistenia odvodňovacieho rigolu a výrazného naklonenia drevín nad komunikáciu. Konanie sa riadi zákonom č. 543/2002 Z.z., pričom všeobecné predpisy o správnom konaní a účasť verejnosti sa na tento typ konania nevzťahujú."
+  "zhrnutie": "Okresný úrad Lučenec zverejňuje oznámenie o výrube 47 stromov a 300 m2 krovín v k.ú. Divín pri rigole cesty k VN Ružiná, na parcelách KN-C č. 1626/1 a 1626/23. Žiadateľom je Slovenský vodohospodársky podnik, š.p., a dôvodom je čistenie odvodňovacieho rigolu a naklonenie drevín nad cestu. Konanie nepodlieha všeobecným predpisom o správnom konaní, čím je vylúčená verejná účasť."
 }

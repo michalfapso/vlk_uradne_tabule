@@ -8,32 +8,35 @@
   "miesto_realizacie": {
     "kraj": null,
     "okres": null,
-    "obec": "Horná Ždaňa, Oslany, Bystričany",
+    "obec": "Horná Ždaňa a Oslany",
     "katastralne_uzemia": [],
-    "nazov_lokality": "Vedenie 2x400 kV Horná Ždaňa – lokalita Oslany, ako 2. stavba – Súboru stavieb: Transformácia 100/110 kV Bystričany – 1. časť"
+    "nazov_lokality": "Vedenie 2x400 kV Horná Ždaňa – lokalita Oslany"
   },
-  "typ_dokumentu": "Rozhodnutie",
+  "typ_dokumentu": "Rozhodnutie o odvolaní",
   "typ_zasahu": [
     "výstavba energetického diela",
-    "poškodenie biotopov",
-    "ničenie biotopov"
+    "poškodenie a zničenie biotopov"
   ],
   "typ_uzemia": [
-    "1. stupeň ochrany",
+    "prvý stupeň ochrany",
     "Územie európskeho významu",
+    "NATURA 2000",
     "SKUEV0273 Vtáčnik",
     "SKUEV1013 Stráž"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "biotopy národného významu",
+    "biotopy európskeho významu"
+  ],
   "odkaz_enviroportal": null,
   "paragrafy": [
     {
       "paragraf": "59",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Z. z."
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": null
     },
     {
       "paragraf": "67",
@@ -42,44 +45,44 @@
         "e",
         "u"
       ],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "83",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "6",
       "odsek": "2",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "28",
       "odsek": "4",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "82",
       "odsek": "12",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "6",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Ministerstvo životného prostredia SR zamietlo odvolanie proti rozhodnutiu Okresného úradu Trenčín, ktoré udelilo súhlas na poškodenie a zničenie biotopov národného a európskeho významu. Ide o realizáciu výstavby vedenia 2x400 kV Horná Ždaňa – lokalita Oslany a transformácie v Bystričanoch, pričom zasahované územia sú v 1. stupni ochrany a v Územiach európskeho významu SKUEV0273 Vtáčnik a SKUEV1013 Stráž."
+  "zhrnutie": "Ministerstvo životného prostredia SR zamietlo odvolanie a potvrdilo súhlas s poškodením a zničením biotopov národného a európskeho významu pre stavbu „Vedenie 2x400 kV Horná Ždaňa – lokalita Oslany“. Projekt je situovaný v územiach s prvým stupňom ochrany a v Územiach európskeho významu SKUEV0273 Vtáčnik a SKUEV1013 Stráž."
 }

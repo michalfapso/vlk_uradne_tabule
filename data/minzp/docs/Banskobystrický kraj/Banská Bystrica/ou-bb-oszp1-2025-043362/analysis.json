@@ -2,20 +2,20 @@
   "cislo_konania_spisu": "OU-BB-OSZP1-2025/043362",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-10-01",
-  "datum_zverejnenia": "2025-10-01",
+  "datum_zverejnenia": null,
   "lehoty_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie",
   "ziadatel_navrhovatel": "obec Pohorelá",
   "miesto_realizacie": {
     "kraj": null,
-    "okres": null,
+    "okres": "Banská Bystrica",
     "obec": "Pohorelá",
     "katastralne_uzemia": [],
-    "nazov_lokality": "náučného chodníka „ Po stopách Švabinského“"
+    "nazov_lokality": "náučný chodník „ Po stopách Švabinského“"
   },
   "typ_dokumentu": "Žiadosť o vydanie súhlasu",
   "typ_zasahu": [
-    "vyznačenie náučného chodníka",
-    "vybudovanie náučného chodníka"
+    "vybudovanie náučného chodníka",
+    "vyznačenie náučného chodníka"
   ],
   "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
@@ -24,21 +24,7 @@
   "paragrafy": [
     {
       "paragraf": "2",
-      "odsek": null,
-      "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
-    },
-    {
-      "paragraf": "2",
       "odsek": "1",
-      "pismena": [],
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
-    },
-    {
-      "paragraf": "82",
-      "odsek": null,
       "pismena": [],
       "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z.z."
@@ -86,5 +72,5 @@
       "zakon_cislo": "71/1967 Zb."
     }
   ],
-  "zhrnutie": "Dokument je žiadosťou obce Pohorelá o vydanie súhlasu podľa zákona o ochrane prírody a krajiny na vyznačenie a vybudovanie náučného chodníka s názvom „Po stopách Švabinského“. Združenia s právnou subjektivitou, ktoré sa zaoberajú ochranou prírody a krajiny, sa môžu prihlásiť do konania do piatich pracovných dní od zverejnenia informácie."
+  "zhrnutie": "Dokument je žiadosťou obce Pohorelá o vydanie súhlasu podľa zákona o ochrane prírody a krajiny na vyznačenie a vybudovanie náučného chodníka „Po stopách Švabinského“. Lehoty na vyjadrenie pre združenia s právnou subjektivitou sú do piatich pracovných dní od zverejnenia. Konanie prebieha na Okresnom úrade Banská Bystrica."
 }
