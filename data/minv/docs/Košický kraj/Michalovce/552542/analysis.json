@@ -1,0 +1,131 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/0200ól",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-01",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SPP-distribúcia, a.s. (prostredníctvom TOPPRO s.r.o.)",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Veľké Kapušany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Kapušany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1678/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "455",
+              "3811 E-454",
+              "3810 E-453",
+              "3809 E-451",
+              "3809 E-450",
+              "5372 E-445",
+              "3805 E-443",
+              "5270 E-442",
+              "3803 E-438",
+              "3801 E-437",
+              "3801 E-436",
+              "3799 E-432",
+              "3796 E-431",
+              "3794"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "trasy plynovodov a ich ochranné pásma, oblasť P. O. Hviezdoslava"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín",
+    "odstraňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Báza čierna",
+    "Agát",
+    "Tuja",
+    "Gaštan",
+    "Borovica",
+    "Javor",
+    "Breza"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonáva zákon č. 543/2002 Z.z. o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "6",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "16",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube drevín, ktoré sa nachádzajú na trasách a v ochrannom pásme plynovodov v katastrálnom území Veľké Kapušany, oblasť P. O. Hviezdoslava. Výrub je odôvodnený nevyhnutnosťou pre bezpečnú a spoľahlivú prevádzku distribučnej siete zemného plynu, podľa zákona o energetike a zákona o ochrane prírody a krajiny."
+}
