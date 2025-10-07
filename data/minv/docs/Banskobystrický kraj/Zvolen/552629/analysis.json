@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "020072/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Sliač",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sliač-Rybáre",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1700",
+              "1701",
+              "1706",
+              "1708",
+              "1746",
+              "1748",
+              "1749",
+              "1750"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument informuje o začatí správneho konania k žiadosti právnickej osoby o vydanie súhlasu na výrub krovitých porastov drevín na parcelách v katastrálnom území Sliač-Rybáre, okres Zvolen. Dôvodom výrubu je čistenie poľnohospodárskej pôdy. Verejnosť má päť pracovných dní od zverejnenia informácie na potvrdenie záujmu o účasť v konaní."
+}

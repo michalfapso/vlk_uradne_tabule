@@ -1,0 +1,443 @@
+{
+  "cislo_konania_spisu": "OU-TS-OSZP-2025/001290-004",
+  "cislo_rozhodnutia": "OU-TS-OSZP-2025/001290-0006416/2025",
+  "datum_dokumentu": "2025-10-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa doručenia (pre odvolanie)",
+  "ziadatel_navrhovatel": "Obec Suchá Hora",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Tvrdošín",
+    "obec": "Suchá Hora",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Suchá Hora",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1748",
+              "1752",
+              "1755",
+              "1758",
+              "1760",
+              "1762",
+              "1767",
+              "1136/1",
+              "1136/2",
+              "1136/3",
+              "1136/4",
+              "1136/5",
+              "1136/6",
+              "1136/7",
+              "1136/8",
+              "1136/10",
+              "208/1",
+              "1768",
+              "1772",
+              "1316/2",
+              "1165/221",
+              "1311/2",
+              "1665"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "11463/2",
+              "13230/2",
+              "13216/1",
+              "13247/2",
+              "13246/2",
+              "13223/8",
+              "13212",
+              "13216/5",
+              "10258/3",
+              "11161/4",
+              "11160/4",
+              "13232"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hladovka",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1312"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Suchá Hora. Kanalizácia a vodovod"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere (verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba splaškovej kanalizácie",
+    "výstavba čerpacej stanice odpadových vôd",
+    "výstavba výtlačného potrubia",
+    "výstavba elektrickej NN prípojky"
+  ],
+  "typ_uzemia": [
+    "I. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025 Z. z."
+    },
+    {
+      "paragraf": "65",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "41",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "3",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "a",
+        "d"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [
+        "d",
+        "e"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "269",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [
+        "4"
+      ],
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "55",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "57",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "177",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": "55",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Tvrdošín vydal rozhodnutie o stavebnom zámere pre obec Suchá Hora na výstavbu vodovodu a splaškovej kanalizácie s čerpacou stanicou a výtlačným potrubím. Projekt sa realizuje v katastrálnych územiach Suchá Hora a Hladovka. Územie stavby sa nachádza v I. stupni územnej ochrany, pričom boli stanovené podmienky pre minimalizáciu vplyvov na prírodné prostredie a ochranu drevín."
+}

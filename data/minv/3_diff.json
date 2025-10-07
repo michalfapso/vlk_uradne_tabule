@@ -4,6 +4,22 @@
     "url": "/?okresne-urady-klientske-centra&kraj=1",
     "okresy": [
       {
+        "nazov": "Banská Bystrica",
+        "url": "/?okresne-urady-klientske-centra&urad=39",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Dokument na stiahnutie",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Informácia pre verjnosť o plánovanom výrube drevín v ochrannom pásme plynovodu (123,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=552579"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "nazov": "Brezno",
         "url": "/?okresne-urady-klientske-centra&urad=40",
         "dokumenty_zivotne_prostredie": [
@@ -11,25 +27,46 @@
             "kategoria": "Ochrana prírody a krajiny",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "SK25-Med-2025 - Lesy SR, OZ Horehronie - aplikácia chem. látky proti odhryzu (186,3 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=552567"
+                "datum": "2025-10-07",
+                "nazov": "SK02_LUP_2025_Sviteková Jana_výrub drevín v k.ú. Lom nad Rimavicou (175,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=552632"
               }
             ]
           }
         ]
       },
       {
-        "nazov": "Lučenec",
-        "url": "/?okresne-urady-klientske-centra&urad=41",
+        "nazov": "Krupina",
+        "url": "/?okresne-urady-klientske-centra&urad=48",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "EIA/SEA",
+            "kategoria": "Zverejnenie MALUS s.r.o",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Výrobná hala pre baliace linky s paletizátorom a navýšenie kapacity zhodnocovania odpadov na kompostovacej ploche intenzifikáciou pracovno - výrobného postupu v spoločnosti AGRO CS Slovakia, a.s. (376,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=41&odbor=10&sekcia=uradna-tabula&subor=552476"
+                "datum": "2025-10-07",
+                "nazov": "2818110 Zverejnenie MALUS s.r.o. Krupina - Holy Vrch (72,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=48&odbor=10&sekcia=uradna-tabula&subor=552594"
+              },
+              {
+                "datum": "2025-10-07",
+                "nazov": "2818110-Zverejnenie MALUS s.r.o. Trpin - Litava (73,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=48&odbor=10&sekcia=uradna-tabula&subor=552595"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Revúca",
+        "url": "/?okresne-urady-klientske-centra&urad=50",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Kolaudácia vodnej stavby SO 04 Autoumyváreň v rámci stavby POINT Revúca v k.ú. Revúca (385,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=50&odbor=10&sekcia=uradna-tabula&subor=552596"
               }
             ]
           }
@@ -43,9 +80,41 @@
             "kategoria": "Správne konania",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Oznámenie o začatí správneho konania č. OÚ-RS-OSŽP-2025/020824, zverejnené od 06.10.2025 do 13.10.2025 (124,9 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=552485"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí správneho konania č. OU-RS-OSZP-2025-020885, zverejnené od 07.10.2025 do 14.10.2025 (128,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=552592"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľký Krtíš",
+        "url": "/?okresne-urady-klientske-centra&urad=43",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí konania v k.ú. Čebovce - verejná vyhláška (72,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=43&odbor=10&sekcia=uradna-tabula&subor=552614"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zvolen",
+        "url": "/?okresne-urady-klientske-centra&urad=44",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Vyruby ext 142",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "2819014-Vyruby ext 142 (69,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=44&odbor=10&sekcia=uradna-tabula&subor=552629"
               }
             ]
           }
@@ -58,27 +127,6 @@
     "url": "/?okresne-urady-klientske-centra&kraj=2",
     "okresy": [
       {
-        "nazov": "Bratislava",
-        "url": "/?okresne-urady-klientske-centra&urad=1",
-        "dokumenty_zivotne_prostredie": [
-          {
-            "kategoria": "Oznámenie odboru životné prostredie: 06.10.2025",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "Žiadosť o výnimku na vjazd s motorovými vozidlami § 13 ods. (1) písm. a) zákona č. 543/2002 Z. z. na jazdenie a státie s omv do Jarovkého ramena na polohe č. 43 v k. ú. Rusovce (98,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=552564"
-              },
-              {
-                "datum": "2025-10-06",
-                "nazov": "Umiestnenie prenosného elekt. zariadenia (18,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=552537"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "nazov": "Malacky",
         "url": "/?okresne-urady-klientske-centra&urad=2",
         "dokumenty_zivotne_prostredie": [
@@ -86,9 +134,46 @@
             "kategoria": "Informácie pre verejnosť",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Správne konania na úseku ochrany prírody a krajiny, OU-MA-OSZP/2025/022560 (103,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=552534"
+                "datum": "2025-10-07",
+                "nazov": "Správne konania na úseku ochrany prírody a krajiny, OU-MA-OSZP/2025/022659 (101,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=552616"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pezinok",
+        "url": "/?okresne-urady-klientske-centra&urad=3",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Úsek ochrany vodných tokov",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Začatie kolaudačného konania na stavbu Zóna progresívneho bývania – Za panskou záhradou II, Pezinok - Grinava (173,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=552684"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Senec",
+        "url": "/?okresne-urady-klientske-centra&urad=4",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Oznámenie odboru životné prostredie:",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Most pri Bratislave – Pod Pšenom Preložka vodovodných potrubí - oznámenie o začatí konania (181,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=552618"
+              },
+              {
+                "datum": "2025-10-07",
+                "nazov": "Zverejnenie oznámenia o začatom správnom konaní_2818827 (132,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=552617"
               }
             ]
           }
@@ -101,78 +186,37 @@
     "url": "/?okresne-urady-klientske-centra&kraj=3",
     "okresy": [
       {
-        "nazov": "Košice-okolie",
-        "url": "/?okresne-urady-klientske-centra&urad=66",
+        "nazov": "Košice",
+        "url": "/?okresne-urady-klientske-centra&urad=65",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Verejné vyhlášky",
+            "kategoria": "Začaté správne konania",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Kanalizačné vetvy B-3 a C-1 v obci Nižná Myšľa“ na parcelách reg. KN-C č. 851, 854 a 855 v k. ú. Nižná Myšľa - oznámenie o začatí vodoprávneho konania (176,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=552511"
-              }
-            ]
-          },
-          {
-            "kategoria": "Oznámenia o začatí konania a súhlas na výrub dreviny",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "Oznámenie o výrube drevín podľa § 82 ods. 7 zákona 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov v k.ú. Vyšný Olčvár (163,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=552509"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí správneho konania č. OU-KE-OSZP1-2025/060355  (286,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=552578"
               }
             ]
           }
         ]
       },
       {
-        "nazov": "Michalovce",
-        "url": "/?okresne-urady-klientske-centra&urad=67",
+        "nazov": "Rožňava",
+        "url": "/?okresne-urady-klientske-centra&urad=68",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "OZNÁMENIA O NEVYHNUTNOM VÝRUBE PODĽA OSOBITNÝCH PREDPISOV",
+            "kategoria": "Začaté správne konania",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "OU-MI-OSZP-2025/020061 – Oznámenie o plánovanom výrube v trase plynovodov, k.ú. Veľké Kapušany  (113,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=552542"
-              }
-            ]
-          },
-          {
-            "kategoria": "VEREJNÉ VYHLÁŠKY A OZNÁMENIA",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "Moravany kanalizácia oznámenie o začatí kolaudačmného konanie Verejnou vyhláškou (2,8 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=552539"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí správneho konania č.OU-RV-OSZP-2025/012243  (321,8 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=552697"
               },
               {
-                "datum": "2025-10-06",
-                "nazov": "Zemplinska Širava Kaluža II tlakove pasmo rekonštrukcia vodvodu oznámenie o začatí stavebného konania VEREJNOU VYHLÁŠKOU (3,0 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=67&odbor=10&sekcia=uradna-tabula&subor=552540"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nazov": "Trebišov",
-        "url": "/?okresne-urady-klientske-centra&urad=70",
-        "dokumenty_zivotne_prostredie": [
-          {
-            "kategoria": "Úradné oznámenia",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "OU-TV-OSZP-2025/015946 - Oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z z. o ochrane prírody a krajiny o nevyhnutnom výrube drevín (59,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=552538"
-              },
-              {
-                "datum": "2025-10-06",
-                "nazov": "OU-TV-OSZP-2025/015927 - Oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z z. o ochrane prírody a krajiny o nevyhnutnom výrube drevín  (70,0 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=552536"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí správneho konania č.OU-RV-OSZP-2025/012237 (300,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=68&odbor=10&sekcia=uradna-tabula&subor=552696"
               }
             ]
           }
@@ -185,16 +229,53 @@
     "url": "/?okresne-urady-klientske-centra&kraj=4",
     "okresy": [
       {
-        "nazov": "Komárno",
-        "url": "/?okresne-urady-klientske-centra&urad=22",
+        "nazov": "Levice",
+        "url": "/?okresne-urady-klientske-centra&urad=23",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Zverejnené dokumenty",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Verejná vyhláška - SO 03 Rozšírenie verejného vodovodu D110 ako súčasť stavby Nízkopodlažná zástavba rodinných domov a technická infraštruktúra Malé Kozmálovce (183,5 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=23&odbor=10&sekcia=uradna-tabula&subor=552633"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nové Zámky",
+        "url": "/?okresne-urady-klientske-centra&urad=24",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Zverejnené dokumenty",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Informácia o začatí konania podľa ust. § 82 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov (ďalej len „zákon“) (109,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=552691"
+              },
+              {
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí konania vo veci vydania stavebného-vodoprávneho povolenia na líniovú vodnú stavbu \"ŠTÚROVO, Sobieskeho-stavebný obvod 2024-inžinierske siete, vodohospodárske objekty“  (172,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=552625"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Topoľčany",
+        "url": "/?okresne-urady-klientske-centra&urad=26",
         "dokumenty_zivotne_prostredie": [
           {
             "kategoria": "Odbor starostlivosti o životné prostredie",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "konanie 2025-020469 (123,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=22&odbor=10&sekcia=uradna-tabula&subor=552466"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie, Rekonštrukcia vodovodu, Topoľčany (175,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=26&odbor=10&sekcia=uradna-tabula&subor=552682"
               }
             ]
           }
@@ -207,37 +288,48 @@
     "url": "/?okresne-urady-klientske-centra&kraj=5",
     "okresy": [
       {
-        "nazov": "Poprad",
-        "url": "/?okresne-urady-klientske-centra&urad=56",
+        "nazov": "Levoča",
+        "url": "/?okresne-urady-klientske-centra&urad=61",
         "dokumenty_zivotne_prostredie": [
           {
             "kategoria": "Správne konania - Informácie o začatých správnych konaniach",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Podnet k spracovaniu náhodnej ťažby OU-PP-OSZP-2025/034291 (215,5 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=552547"
-              },
-              {
-                "datum": "2025-10-06",
-                "nazov": "Žiadosť o vydanie súhlasu na prelet lietajúcim športovým zariadením OU-PP-OSZP-2025/034327 (306,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=552544"
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o začatí správneho konania č. OU-LE-OSZP-2025/001197/HE (177,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=61&odbor=10&sekcia=uradna-tabula&subor=552679"
               }
             ]
           }
         ]
       },
       {
-        "nazov": "Snina",
-        "url": "/?okresne-urady-klientske-centra&urad=64",
+        "nazov": "Medzilaborce",
+        "url": "/?okresne-urady-klientske-centra&urad=62",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Oznámenie",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Oznámenie o plánovanom výrube - Radvaň nad Laborcom - Medzilaborce OSZP-2025_000647-001 (1,3 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=62&odbor=10&sekcia=uradna-tabula&subor=552688"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Svidník",
+        "url": "/?okresne-urady-klientske-centra&urad=59",
         "dokumenty_zivotne_prostredie": [
           {
             "kategoria": "Odbor starostlivosti o životné prostredie",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "VEREJNÁ VYHLÁŠKA - „Zemplínske Hámre – rekonštrukcia vodovodu“ - dodatočné povolenie zmeny stavby spojené s povolením na užívanie stavby (335,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=64&odbor=10&sekcia=uradna-tabula&subor=552462"
+                "datum": "2025-10-07",
+                "nazov": "OSŽP - 2025-10-07 - Informácia pre verejnosť - Oznámenie o strategickom dokumente ZaD č. 1 Územného plánu obce Nižný Mirošov (1,1 MB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=59&odbor=10&sekcia=uradna-tabula&subor=552613"
               }
             ]
           }
@@ -250,64 +342,16 @@
     "url": "/?okresne-urady-klientske-centra&kraj=6",
     "okresy": [
       {
-        "nazov": "Bánovce nad Bebravou",
-        "url": "/?okresne-urady-klientske-centra&urad=13",
+        "nazov": "Trenčín",
+        "url": "/?okresne-urady-klientske-centra&urad=12",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Štátna správa ochrany prírody a krajiny",
+            "kategoria": "Oznamy, verejné vyhlášky",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Informácia o začatí správneho konania o vydaní súhlasu na výrub drevín podľa § 47 ods. 3 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov – Bánovce nad Bebravou (437,6 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=13&odbor=10&sekcia=uradna-tabula&subor=552477"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nazov": "Nové Mesto nad Váhom",
-        "url": "/?okresne-urady-klientske-centra&urad=14",
-        "dokumenty_zivotne_prostredie": [
-          {
-            "kategoria": "Zverejnené dokumenty",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "Informácia pre verejnosť o posudzovaní vplyvov na životné prostredie k zámeru o navrhovanej činnosti, ktorá podlieha zisťovaciemu konaniu, názov činnosti: Mestská plaváreň a letné kúpalisko Nové Mesto nad Váhom, OU-NM-OSZP-2025/017647 (123,1 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=552483"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nazov": "Považská Bystrica",
-        "url": "/?okresne-urady-klientske-centra&urad=15",
-        "dokumenty_zivotne_prostredie": [
-          {
-            "kategoria": "Vodné hospodárstvo",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "SO 010 – Prekládka vodovodu – Objekt A ako súčasť stavby Bytový dom RESIDENCE TWINS, Považská Bystrica – povolenie vodnej stavby – oznámenie rozhodnutia verejnou vyhláškou (495,2 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=15&odbor=10&sekcia=uradna-tabula&subor=552555"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "nazov": "Púchov",
-        "url": "/?okresne-urady-klientske-centra&urad=20",
-        "dokumenty_zivotne_prostredie": [
-          {
-            "kategoria": "Štátna vodná správa",
-            "dokumenty": [
-              {
-                "datum": "2025-10-06",
-                "nazov": "Dočasné užívanie vodnej stavby so skúšobnou prevádzkou pred trvalou kolaudáciou pre stavbu – stavebný objekt  SO 04 – Rozšírenie verejnej kanalizácie Samoty - Stoka S4 a S5 - ako súčasť stavby Rozšírenie vodovodu a kanalizácie splaškovej pre lokality Potô (422,4 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=552553"
+                "datum": "2025-10-07",
+                "nazov": "Rozhodnutie, že motorové vozidlo sa stáva odpadom podľa § 67 ods. 9 zákona o odpadoch (337,1 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=552626"
               }
             ]
           }
@@ -320,21 +364,57 @@
     "url": "/?okresne-urady-klientske-centra&kraj=7",
     "okresy": [
       {
+        "nazov": "Skalica",
+        "url": "/?okresne-urady-klientske-centra&urad=11",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Správne konania",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Informácia o začatí správneho konania v zmysle § 82 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov. (215,3 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=11&odbor=10&sekcia=uradna-tabula&subor=552582"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "nazov": "Trnava",
         "url": "/?okresne-urady-klientske-centra&urad=5",
         "dokumenty_zivotne_prostredie": [
           {
+            "kategoria": "Verejné vyhlášky",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "Rozhodnutie 59773/2025 Stellantis Trnava (235,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552610"
+              },
+              {
+                "datum": "2025-10-07",
+                "nazov": "Verejná vyhláška OU-TT-OSZP3-2025/001186 - Prúdy (142,2 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552609"
+              },
+              {
+                "datum": "2025-10-07",
+                "nazov": "Verejná vyhláška OU-TT-OSZP3-2025/001187 - TAVOS (143,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552608"
+              }
+            ]
+          },
+          {
             "kategoria": "Informácia o začatých správnych konaniach v zmysle § 82 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov, v ktorých môžu byť dotknuté záujmy ochrany prírody a krajiny chránené týmto zákonom",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/071951-002 (124,8 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552501"
+                "datum": "2025-10-07",
+                "nazov": "Upovedomenie o začatí správneho konania OU-TT-OSZP3-2025/072580 (134,7 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552607"
               },
               {
-                "datum": "2025-10-06",
-                "nazov": "Upovedomenie o začatí konania OU-TT-OSZP3-2025/071960-002 (124,7 kB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552500"
+                "datum": "2025-10-07",
+                "nazov": "Upovedomenie o začatí konania 72384/2025 (124,6 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=552606"
               }
             ]
           }
@@ -347,32 +427,58 @@
     "url": "/?okresne-urady-klientske-centra&kraj=8",
     "okresy": [
       {
-        "nazov": "Dolný Kubín",
-        "url": "/?okresne-urady-klientske-centra&urad=30",
+        "nazov": "Bytča",
+        "url": "/?okresne-urady-klientske-centra&urad=35",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Posudzovanie vplyvov na ŽP",
+            "kategoria": "Verejná vyhláška - OU-BY-OSZP-2025/001247",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "Informácia pre verejnosť – Záväzné stanovisko zo zisťovacieho konania pre zmenu navrhovanej činnosti „Rekreačné chaty – Máčkovo II“ (3,0 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=552572"
+                "datum": "2025-10-07",
+                "nazov": "2025_001247_002 (490,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=35&odbor=10&sekcia=uradna-tabula&subor=552683"
               }
             ]
           }
         ]
       },
       {
-        "nazov": "Martin",
-        "url": "/?okresne-urady-klientske-centra&urad=32",
+        "nazov": "Čadca",
+        "url": "/?okresne-urady-klientske-centra&urad=29",
         "dokumenty_zivotne_prostredie": [
           {
-            "kategoria": "Oznámenie o výrube drevín rastúcich mimo les podľa osobitného predpisu: spis. č. OU-MT-OSZP-2025/020298",
+            "kategoria": "Informácia pre verejnosť podľa zákona č. 24/2006 Z.z.: „Skladová hala METALCOM“ – záväzné stanovisko",
             "dokumenty": [
               {
-                "datum": "2025-10-06",
-                "nazov": "2025_020298 (7,5 MB)",
-                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=552479"
+                "datum": "2025-10-07",
+                "nazov": "Informácia pre verejnosť podľa zákona č. 24/2006 Z.z.: „Skladová hala METALCOM“ – záväzné stanovisko (471,0 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=29&odbor=10&sekcia=uradna-tabula&subor=552603"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Tvrdošín",
+        "url": "/?okresne-urady-klientske-centra&urad=38",
+        "dokumenty_zivotne_prostredie": [
+          {
+            "kategoria": "Rozhodnutie o stavebnom zámere ,,Hladovka. Rozšírenie kanalizácie a vodovodu“, stavebný objekt: SO-01 SPLAŠKOVÁ KANALIZÁCIA",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "AOU-TS-OSZP-2025/001289-003 (421,4 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=38&odbor=10&sekcia=uradna-tabula&subor=552612"
+              }
+            ]
+          },
+          {
+            "kategoria": "Rozhodnutie o stavebnom zámere ,,Suchá Hora. Kanalizácia a vodovod.\"",
+            "dokumenty": [
+              {
+                "datum": "2025-10-07",
+                "nazov": "AOU-TS-OSZP-2025/001290-004  (432,9 kB)",
+                "url": "https://www.minv.sk/?okresne-urady-klientske-centra&urad=38&odbor=10&sekcia=uradna-tabula&subor=552597"
               }
             ]
           }

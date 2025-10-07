@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2025/000899-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-07",
+  "datum_zverejnenia": "2025-10-07",
+  "lehoty_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie (do 13.10.2025 vrátane)",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Skalica",
+    "obec": "Skalica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Skalica",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "14906/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jelša lepkavá",
+    "pagaštan konský"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci žiadosti o vydanie súhlasu na výrub 1 ks jelše lepkavej a 2 ks pagaštanov konských v katastrálnom území Skalica, na parcele č. 14906/1 C-KN. Lehota na potvrdenie záujmu byť účastníkom konania je päť pracovných dní od zverejnenia, t.j. do 13.10.2025."
+}
