@@ -1,0 +1,159 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Okresný úrad Košice, odbor starostlivosti o životné prostredie",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": [
+      "Košice I",
+      "Košice II",
+      "Košice III",
+      "Košice IV",
+      "Košice - okolie",
+      "Gelnica",
+      "Michalovce",
+      "Rožňava",
+      "Sobrance",
+      "Spišská Nová Ves",
+      "Trebišov"
+    ],
+    "obec": [
+      "Košice",
+      "Bočiar",
+      "Haniska",
+      "Sokoľany",
+      "Veľká Ida"
+    ],
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Aglomerácia Košice a zóna Košický kraj"
+  },
+  "typ_dokumentu": "Program na zlepšenie kvality ovzdušia",
+  "typ_zasahu": [
+    "zníženie emisií znečisťujúcich látok",
+    "modernizácia vykurovacích systémov",
+    "podpora udržateľnej dopravy",
+    "výsadba zelene",
+    "rekonštrukcia ciest",
+    "správa a údržba ciest",
+    "čistenie komunikácií",
+    "skrápanie komunikácií",
+    "úprava priemyselných procesov",
+    "zatepľovanie budov",
+    "využívanie obnoviteľných zdrojov energie"
+  ],
+  "typ_uzemia": [
+    "Národný park",
+    "Prírodný park",
+    "Chránená krajinná oblasť",
+    "Kúpeľné miesto",
+    "Prírodná rezervácia",
+    "Národná prírodná rezervácia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "lišajníky",
+    "ekosystémy",
+    "biodiverzita",
+    "rastliny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "43",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "51",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "34",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR o kvalite ovzdušia",
+      "zakon_cislo": "250/2023 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o Environmentálnom fonde",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o Environmentálnom fonde",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je Program na zlepšenie kvality ovzdušia pre Aglomeráciu Košice a zónu Košický kraj, vypracovaný Okresným úradom Košice. Analyzuje hlavné zdroje znečistenia ovzdušia, ktorými sú emisie z priemyslu (napr. U. S. Steel Košice - benzo(a)pyrén, PM), lokálne kúreniská na tuhé palivo a cestná doprava. Navrhuje súbor opatrení zameraných na zníženie emisií, modernizáciu vykurovania, podporu udržateľnej dopravy a výsadbu zelene, s cieľom zlepšiť kvalitu ovzdušia v regióne, vrátane chránených území."
+}

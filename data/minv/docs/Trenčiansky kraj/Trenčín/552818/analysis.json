@@ -1,0 +1,212 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2025/047182-2/SD",
+  "cislo_rozhodnutia": "OU-TN-OSZP1-2024/015648-9/SD",
+  "datum_dokumentu": "2025-10-07",
+  "datum_zverejnenia": "2025-10-07",
+  "lehoty_na_vyjadrenie": "Združenia s právnou subjektivitou sa môžu písomne prihlásiť za zúčastnenú osobu do 5 pracovných dní od zverejnenia. Účastníci konania môžu uplatniť námietky do 10 dní od doručenia oznámenia.",
+  "ziadatel_navrhovatel": "LiV – EPI, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Senica, Myjava",
+    "obec": "Sobotište, Vrbovce, Turá Lúka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Turá Lúka",
+        "parcely": []
+      },
+      {
+        "nazov": "Sobotište",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "5774",
+              "5754/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "líniová stavba"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "demontáž jestvujúceho VN vzdušného vedenia",
+    "zakabelizovanie navrhovaného VN a NN podzemného vedenia",
+    "podtláčanie križujúcich vodných tokov",
+    "podtláčanie cestných komunikácií",
+    "zmena stavu mokrade",
+    "výrub drevín",
+    "vykonávanie terénnych úprav (výkopov a násypov)",
+    "jazdenie a státie motorovým vozidlom na pozemky mimo zastavaného územia obce",
+    "pohyb mimo vyznačeného turistického chodníka alebo náučného chodníka"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo Prírodnej pamiatky Malejov",
+    "Chránená krajinná oblasť Biele Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "7",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trenčín oznamuje začatie správneho konania na základe žiadosti LiV – EPI, s. r. o., týkajúcej sa zmeny predchádzajúceho rozhodnutia o povolení demontáže a zakabelizovania VN/NN vedenia. Zmena spočíva v doplnení územnej platnosti výnimky na jazdenie a státie motorovým vozidlom v katastrálnom území Sobotište, okres Senica, ktoré sa nachádza v Chránenej krajinnej oblasti Biele Karpaty (2. stupeň ochrany). Pôvodné konanie sa týkalo aj katastrálnych území Vrbovce a Turá Lúka v okrese Myjava a zásahov ako výrub drevín a terénne úpravy v ochrannom pásme Prírodnej pamiatky Malejov."
+}
