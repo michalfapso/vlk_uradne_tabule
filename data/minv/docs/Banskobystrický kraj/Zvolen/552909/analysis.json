@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "019696/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Očová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Očová",
+        "parcely": [
+          {
+            "typ": "KNC",
+            "cisla": [
+              "8879"
+            ]
+          },
+          {
+            "typ": "KNE",
+            "cisla": [
+              "7514"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Príslopy"
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie hospodárskych zvierat na voľných ležoviskách",
+    "ustajnenie hospodárskych zvierat mimo stavieb alebo zariadení (nad 30 dobytčích jednotiek)",
+    "umiestnenie košiara",
+    "umiestnenie stavby/zariadenia na ochranu hospodárskych zvierat"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Zvolen informuje o začatí správneho konania týkajúceho sa žiadosti právnickej osoby o súhlas s pasením, napájaním, preháňaním a nocovaním hospodárskych zvierat (nad 30 dobytčích jednotiek) a umiestnením košiara či iného zariadenia na ich ochranu v lokalite Príslopy, k. ú. Očová. Konanie sa vedie podľa § 13 ods. 2 písm. e) zákona o ochrane prírody a krajiny. Organizácie môžu potvrdiť záujem byť účastníkom konania do piatich pracovných dní od zverejnenia informácie."
+}

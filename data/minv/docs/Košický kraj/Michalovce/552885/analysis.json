@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/020367",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-09",
+  "datum_zverejnenia": "2025-10-09",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo v elektronickej podobe s autorizáciou",
+  "ziadatel_navrhovatel": "Mesto Michalovce",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Michalovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stráňany",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1819/1",
+              "1819/4",
+              "1819/6",
+              "1819/66"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "9555"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Michalovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5275/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Cyklistický chodník Michalovce po brehu Laborca"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania podľa zákona o ochrane prírody a krajiny. Žiadosť podalo Mesto Michalovce a týka sa výrubu topoľov, orechov, briez, čerešní a krovín v katastrálnych územiach Stráňany a Michalovce. Dôvodom je plánovaná výstavba Cyklistického chodníka Michalovce po brehu Laborca."
+}

@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/022718",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania (neplatí všeobecné správne konanie podľa § 81 ods. 2 písm. m) zákona č. 543/2002 Z.z.)",
+  "ziadatel_navrhovatel": "UNICARBACK,s.r.o",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Levice",
+    "obec": "Ipeľské Uľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ipeľské Uľany",
+        "parcely": []
+      },
+      {
+        "nazov": "Plášťovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Slatina",
+        "parcely": []
+      },
+      {
+        "nazov": "Hokovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme plynárenských zariadení"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube a odstránení drevín v ochrannom pásme plynárenských zariadení. Činnosť sa má realizovať v katastrálnych územiach Ipeľské Uľany, Plášťovce, Slatina a Hokovce v okrese Levice. Podľa zákona č. 543/2002 Z.z. sa na toto konanie nevzťahujú všeobecné predpisy o správnom konaní, čo znamená, že verejnosť sa nemôže prihlásiť do konania."
+}
