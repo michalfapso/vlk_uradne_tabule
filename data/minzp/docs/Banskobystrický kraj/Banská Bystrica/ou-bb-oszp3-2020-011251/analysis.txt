@@ -1,23 +1,21 @@
 {
-  "cislo_konania_spisu": "OU-BB-OSZP3-2025/041504",
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/044861",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2025-09-24",
-  "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "v lehote do 7 pracovných dní od zverejnenia informácie",
-  "ziadatel_navrhovatel": "Urbárske a pasienkové spoločenstvo Čerín",
+  "datum_dokumentu": "2025-10-13",
+  "datum_zverejnenia": "2025-10-13",
+  "lehoty_na_vyjadrenie": "do 7 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Ing. arch. Aleš Berec",
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Banská Bystrica",
-    "obec": "Čerín",
+    "obec": "Kordíky",
     "katastralne_uzemia": [
       {
-        "nazov": "Čerín",
+        "nazov": "Kordíky",
         "parcely": [
           {
-            "typ": "KN-C",
-            "cisla": [
-              "1569"
-            ]
+            "typ": "KN-E",
+            "cisla": ["1198", "1197", "1191", "1190"]
           }
         ]
       }
@@ -25,12 +23,8 @@
     "nazov_lokality": null
   },
   "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "výrub drevín"
-  ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "typ_zasahu": ["výrub drevín"],
+  "typ_uzemia": ["neviem"],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
@@ -40,8 +34,8 @@
       "odsek": "3",
       "pismena": [],
       "zakon_nazov": null,
-      "zakon_cislo": "543/2002 Z.z"
+      "zakon_cislo": "543/2002"
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na výrub drevín pre žiadateľa Urbárske a pasienkové spoločenstvo Čerín. Dotknutá je parcela č. KN-C 1569 v katastrálnom území Čerín, okres Banská Bystrica. Záujem byť účastníkom konania je potrebné doručiť do 7 pracovných dní od zverejnenia."
+  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na výrub drevín na parcelách KN-E 1198, 1197, 1191, 1190 v katastrálnom území Kordíky pre žiadateľa Ing. arch. Aleš Berec. Lehota na vyjadrenie pre účastníkov konania je 7 pracovných dní od zverejnenia informácie."
 }

@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-14",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Beňuš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beňuš",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "1979",
+              "1901"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí správneho konania týkajúceho sa žiadosti o výrub drevín na parcelách E-KN 1979 a 1901 v katastrálnom území Beňuš, okres Brezno. Verejnosť má možnosť potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia 14.10.2025."
+}

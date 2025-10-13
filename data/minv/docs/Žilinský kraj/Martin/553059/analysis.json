@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/020706",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-08",
+  "datum_zverejnenia": "2025-10-13",
+  "lehoty_na_vyjadrenie": "nejde o správne konanie a do konania sa nedá prihlásiť",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Vrútky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrútky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Martin zverejňuje oznámenie o výrube drevín rastúcich mimo les v ochrannom pásme elektrického vedenia 22 kV v katastrálnom území Vrútky. Oznamovateľom je JMM s. r. o., konajúca v mene spoločnosti Stredoslovenská distribučná, a. s. Dokument má len informačný charakter a do konania sa nedá prihlásiť."
+}

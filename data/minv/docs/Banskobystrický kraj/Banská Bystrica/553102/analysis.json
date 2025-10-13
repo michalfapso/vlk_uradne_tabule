@@ -1,0 +1,631 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/030183-006",
+  "cislo_rozhodnutia": "102/2025",
+  "datum_dokumentu": "2025-10-13",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené (jedná sa o rozhodnutie, lehota na námietky už uplynula)",
+  "ziadatel_navrhovatel": "Roman Dianiška a Zuzana Dianišková",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Slovenská Ľupča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slovenská Ľupča",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2800/10",
+              "2800/12",
+              "2800/155",
+              "2800/156",
+              "2800/161",
+              "2800/166",
+              "2800/167",
+              "2800/178",
+              "2800/179",
+              "2800/185",
+              "2800/187",
+              "2800/188",
+              "2800/189",
+              "2800/190"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Pod zámkom Slovenská Ľupča"
+  },
+  "typ_dokumentu": "Stavebné povolenie a povolenie na osobitné užívanie vôd (Verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "výstavba budovy",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo nehnuteľných národných kultúrnych pamiatok",
+    "územie s drevinami",
+    "územie s inváznymi druhmi rastlín"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené živočíchy",
+    "dreviny",
+    "pajaseň žliazkatý",
+    "beztvarec krovitý",
+    "kustovnica cudzia",
+    "javorovec jaseňolistý"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013"
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "36",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "36",
+      "odsek": "5",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [
+        "j"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "65",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "66",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "46d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "43i",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006"
+    },
+    {
+      "paragraf": "100",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000"
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000"
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška o podrobnostiach o zaobchádzaní so znečisťujúcimi látkami",
+      "zakon_cislo": "200/2018"
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "47",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných odpadoch",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných odpadoch",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných odpadoch",
+      "zakon_cislo": "344/2022"
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "STN 75 5401 Navrhovanie vodovodných potrubí",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "STN 73 6005 Priestorová úprava vedení technického vybavenia",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": "49/2002"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": "49/2002"
+    },
+    {
+      "paragraf": "32",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": "49/2002"
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001"
+    },
+    {
+      "paragraf": "25",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001"
+    },
+    {
+      "paragraf": "77d",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001"
+    },
+    {
+      "paragraf": "40",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o požiarnej prevencii",
+      "zakon_cislo": "121/2002"
+    },
+    {
+      "paragraf": "40b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška o požiarnej prevencii",
+      "zakon_cislo": "121/2002"
+    },
+    {
+      "paragraf": "3d",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "8",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984"
+    },
+    {
+      "paragraf": "3b",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961"
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane proti rušeniu",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR o požiadavkách na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "36",
+      "odsek": "17",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "paragraf": "50a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964"
+    },
+    {
+      "paragraf": "51",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964"
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o elektronickej podobe výkonu verejnej moci",
+      "zakon_cislo": "272/2016"
+    }
+  ],
+  "zhrnutie": "Okresný úrad Banská Bystrica vydal stavebné povolenie a povolenie na osobitné užívanie vôd pre Roman Dianiška a Zuzana Dianišková pre projekt individuálnej bytovej výstavby \"IBV Pod zámkom Slovenská Ľupča\". Projekt zahŕňa rozšírenie verejného vodovodu, kanalizácie a dažďovej kanalizácie s vsakovaním vôd do podzemia. Realizácia prebieha v katastrálnom území Slovenská Ľupča v ochrannom pásme národných kultúrnych pamiatok, s potenciálnym výrubom drevín a výskytom chránených živočíchov a inváznych rastlín."
+}

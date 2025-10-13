@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "NP-865/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "NAFTA Production s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Senné",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "ochrannom pásme sondy Senné 12"
+  },
+  "typ_dokumentu": "Oznámenie o výrube krovín a drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo sondy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topol'",
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "2",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "NAFTA Production s.r.o. oznamuje výrub náletových krovín a drevín (topoľov a vŕb) v ochrannom pásme sondy Senné 12 v okrese Michalovce. Výruby sú plánované od 01.11.2025 do 28.02.2026 a budú vykonané v nevyhnutnom rozsahu, v súlade so zákonom o ochrane prírody a krajiny a zákonom o energetike."
+}
