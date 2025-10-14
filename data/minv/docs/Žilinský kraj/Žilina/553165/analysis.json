@@ -1,0 +1,473 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-26",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa národného parku Malá Fatra so sídlom vo Varíne",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": [
+      "Dolný Kubín",
+      "Martin",
+      "Žilina",
+      "Námestovo",
+      "Ružomberok"
+    ],
+    "obec": [
+      "Istebné",
+      "Kraľovany",
+      "Párnica",
+      "Zázrivá",
+      "Lipovec",
+      "Sučany",
+      "Šútovo",
+      "Turany",
+      "Turčianske Kľačany",
+      "Belá",
+      "Dolná Tižiná",
+      "Krasňany",
+      "Terchová",
+      "Varín",
+      "Nezbudská Lúčka",
+      "Veličná",
+      "Žaškov",
+      "Ratkovo",
+      "Vrútky",
+      "Hruštín",
+      "Oravská Lesná",
+      "Stankovany",
+      "Lysica",
+      "Stráža",
+      "Strečno",
+      "Horná Tižina"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Istebné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kraľovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Párnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Zázrivá",
+        "parcely": []
+      },
+      {
+        "nazov": "Lipovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Šútovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Turany",
+        "parcely": []
+      },
+      {
+        "nazov": "Turčianske Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Tižiná",
+        "parcely": []
+      },
+      {
+        "nazov": "Krasňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Terchová",
+        "parcely": []
+      },
+      {
+        "nazov": "Varín",
+        "parcely": []
+      },
+      {
+        "nazov": "Nezbudská Lúčka",
+        "parcely": []
+      },
+      {
+        "nazov": "Kubínska Hoľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Revišné",
+        "parcely": []
+      },
+      {
+        "nazov": "Veličná",
+        "parcely": []
+      },
+      {
+        "nazov": "Žaškov",
+        "parcely": []
+      },
+      {
+        "nazov": "Ratkovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrútky",
+        "parcely": []
+      },
+      {
+        "nazov": "Hruštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravská Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Stankovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Lysica",
+        "parcely": []
+      },
+      {
+        "nazov": "Stráža",
+        "parcely": []
+      },
+      {
+        "nazov": "Strečno",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Tižina",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Národný park Malá Fatra a jeho ochranného pásma"
+  },
+  "typ_dokumentu": "Program starostlivosti",
+  "typ_zasahu": [
+    "manažment lesných ekosystémov",
+    "manažment nelesných biotopov",
+    "manažment vodných tokov a mokradí",
+    "regulácia populácií živočíchov",
+    "odstraňovanie inváznych druhov rastlín a živočíchov",
+    "výstavba návštevníckeho centra",
+    "budovanie a údržba lesnej cestnej siete",
+    "kosenie",
+    "pasenie",
+    "výrub drevín",
+    "spriechodňovanie bariérových prvkov na vodných tokoch",
+    "obnova vodného režimu mokradí",
+    "revitalizácia nepoužívaných lesných ciest",
+    "regulácia a usmernenie stavebnej činnosti",
+    "údržba lanových dráh, vlekov a zjazdových tratí"
+  ],
+  "typ_uzemia": [
+    "Národný park Malá Fatra",
+    "ochranné pásmo Národného parku Malá Fatra",
+    "SKUEV0252 Malá Fatra",
+    "SKUEV0221 Varínka",
+    "SKUEV0251 Zázrivské lazy",
+    "SKUEV0254 Močiar",
+    "SKUEV0663 Šíp",
+    "SKUEV0664 Uholníky",
+    "SKUEV0665 Strečianske meandre Váhu",
+    "NATURA 2000",
+    "Chránené vtáčie územie SKCHVU013 Malá Fatra",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Chránený areál",
+    "Prírodná pamiatka",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náramkovka cisárska (Catathelasma imperiale)",
+    "zubček severský (Climacodon septentrionalis)",
+    "jamkatec pľúcny (Lobaria pulmonaria)",
+    "kyjanôčka zelená (Buxbaumia viridis)",
+    "priblica tuhá moravská (Aconitum firmum ssp. moravicum)",
+    "zvonček hrubokoreňový (Campanula serrata)",
+    "črievičník papučkový (Cypripedium calceolus)",
+    "klinček lesklý (Dianthus nitidus)",
+    "poniklec slovenský (Pulsatilla slavica)",
+    "vrchovka karpatská (Tozzia carpathica)",
+    "vstavač obyčajný (Anacamptis morio)",
+    "marinka Neilreichova (Asperula neilreichii)",
+    "kozinec ľadový (Astragalus frigidus)",
+    "rebrovka rôznolistá (Blechnum spicant)",
+    "ostrica Davallova (Carex davalliana)",
+    "zemežlč pobrežná slatinná (Centaurium littorale subsp. uliginosum)",
+    "drchnička najmenšia (Centunculus minimus)",
+    "prilbovka biela (Cephalanthera damasonium)",
+    "prilbovka dlholistá (Cephalanthera longifolia)",
+    "prilbovka červená (Cephalanthera rubra)",
+    "marica pílkatá (Cladium mariscus)",
+    "vemenníček zelený (Coeloglossum viride)",
+    "nátržnica močiarna (Comarum palustre)",
+    "koralica lesná (Corallorhiza trifida)",
+    "škarda sibírska (Crepis sibirica)",
+    "vstavačovec Fuchsov pravý (Dactylorhiza fuchsii subsp. fuchsii)",
+    "vstavačovec Fuchsov Soóov (Dactylorhiza fuchsii subsp. sooiana)",
+    "vstavačovec strmolistý neskorý (Dactylorhiza incarnata subsp. pulchella)",
+    "vstavačovec laponský (Dactylorhiza lapponica)",
+    "vstavačovec májový pravý (Dactylorhiza majalis subsp. majalis)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "lykovec voňavý (Daphne cneorum)",
+    "rosička anglická (Drosera anglica)",
+    "rosička okrúhlolistá (Drosera rotundifolia)",
+    "stračia nôžka tatranská (Delphinium oxysepalum)",
+    "kruštík močiarny (Epipactis palustris)",
+    "sklenobyľ bezlistá (Epipogium aphyllum)",
+    "praslička pestrá (Equisetum variegatum)",
+    "očianka stopkatá (Euphrasia stipitata)",
+    "mečík strechovitý (Gladiolus imbricatus)",
+    "smrečinovec plazivý (Goodyera repens)",
+    "päťprstnica obyčajná (Gymnadenia conopsea)",
+    "päťprstnica hustokvetá (Gymnadenia densiflora)",
+    "päťprstnica voňavá (Gymnadenia odoratissima)",
+    "trčuľa jednohľuzá (Herminium monorchis)",
+    "ľalia cibuľkonosná pravá (Lilium bulbiferum var. bulbiferum)",
+    "trčníček jednolistý (Malaxis monophyllos)",
+    "vachta trojlistá (Menyanthes trifoliata)",
+    "kurička vápencová (Minuartia langii)",
+    "vstavač počerný letný (Neotinea ustulata subsp. aestivalis)",
+    "hadivka obyčajná (Ophioglossum vulgatum)",
+    "hmyzovník muchovitý (Ophrys insectifera)",
+    "vstavač mužský poznačený (Orchis mascula subsp. signifera)",
+    "vstavač vojenský (Orchis militaris)",
+    "vstavač bledý (Orchis pallens)",
+    "kľukva močiarna (Vaccinium oxycoccos)",
+    "všivec lesný pravý (Pedicularis sylvatica subsp. sylvatica)",
+    "tučnica obyčajná (Pinguicula vulgaris)",
+    "prvosienka pomúčená pravá (Primula farinosa subsp. farinosa)",
+    "bieloprst belavý (Pseudorchis albida)",
+    "ľanček ľanovitý (Radiola linoides)",
+    "lomikameň sivý (Saxifraga caesia)",
+    "lomikameň okrúhlolistý pravý (Saxifraga rotundifolia subsp. rotundifolia)",
+    "lomikameň trváci (Saxifraga wahlenbergii)",
+    "šašina hrdzavá (Schoenus ferrugineus)",
+    "skalnica karpatská veľkolistá (Sempervivum carpathicum subsp. heterophyllum)",
+    "jarabina Margittaiova (Sorbus margittaiana)",
+    "tis obyčajný (Taxus baccata)",
+    "páperec nízky (Trichophorum pumilum)",
+    "barička prímorská (Triglochin maritima)",
+    "žltohlav najvyšší (Trollius altissimus)",
+    "bublinatka menšia (Utricularia minor)",
+    "vudsia skalná (Woodsia ilvensis)",
+    "pimprlík mokraďový (Vertigo angustior)",
+    "pimprlík močiarny (Vertigo geyeri)",
+    "korýtko riečne (Unio crassus)",
+    "fuzáč alpský (Rosalia alpina)",
+    "fuzáč karpatský (Pseudogaurotina excellens)",
+    "bystruška potočná (Carabus variolosus)",
+    "plocháč červený (Cucujus cinnaberinus)",
+    "roháč obyčajný (Lucanus cervus)",
+    "pralesník oranžovoštíty (Phryganophilus ruficollis)",
+    "drevník ryhovaný (Rhysodes sulcatus)",
+    "boros Schneiderov (Boros schneideri)",
+    "jasoň chochlačkový (Parnassius mnemosyne)",
+    "spriadač kostihojový (Euplagia quadripunctata)",
+    "kunka žltobruchá (Bombina variegata)",
+    "mlok karpatský (Lissotriton montandoni)",
+    "mlok hrebenatý (Triturus cristatus)",
+    "ropucha zelená (Bufotes viridis)",
+    "rosnička zelená (Hyla arborea)",
+    "užovka hladká (Coronella austriaca)",
+    "užovka stromová (Zamenis longissimus)",
+    "užovka fŕkaná (Natrix tessellata)",
+    "hlavátka podunajská (Hucho hucho)",
+    "hlaváč bieloplutvý (Cottus gobio)",
+    "pôtik kapcavý (Aegolius funereus)",
+    "výr skalný (Bubo bubo)",
+    "kuvičok vrabčí (Glaucidium passerinum)",
+    "sova dlhochvostá (Strix uralensis)",
+    "orol skalný (Aquila chrysaetos)",
+    "sokol sťahovavý (Falco peregrinus)",
+    "včelár lesný (Pernis apivorus)",
+    "rybárik riečny (Alcedo atthis)",
+    "bocian čierny (Ciconia nigra)",
+    "chrapkáč poľný (Crex crex)",
+    "ďateľ bielochrbtý (Dendrocopos leucotos)",
+    "ďateľ hnedkavý (Dendrocopos syriacus)",
+    "tesár čierny (Dryocopus martius)",
+    "ďubník trojprstý (Picoides tridactylus)",
+    "žlna sivá (Picus canus)",
+    "muchárik bielokrký (Ficedula albicollis)",
+    "muchárik malý (Ficedula parva)",
+    "strakoš obyčajný (Lanius collurio)",
+    "hlucháň hôrny (Tetrao urogallus)",
+    "jariabok hôrny (Tetrastes bonasia)",
+    "tetrov hoľniak (Lyrurus tetrix)",
+    "lelek lesný (Caprimulgus europaeus)",
+    "podkovár veľký (Rhinolophus ferrumequinum)",
+    "podkovár malý (Rhinolophus hipposideros)",
+    "netopier Bechsteinov (Myotis bechsteinii)",
+    "netopier veľký (Myotis myotis)",
+    "uchaňa čierna (Barbastella barbastellus)",
+    "rys ostrovid (Lynx lynx)",
+    "vlk dravý (Canis lupus)",
+    "vydra riečna (Lutra lutra)",
+    "medveď hnedý (Ursus arctos)",
+    "bystruška zlatá (Carabus auronitens escheri)",
+    "bystruška (Carabus irregularis moutandoni)",
+    "bystruška (Carabus arcensis)",
+    "bystruška (Carabus montivagus blandus)",
+    "bystruška medená (Carabus cancellatus)",
+    "krasoň jedľový (Eurythyrea austriaca)",
+    "krasoň lesklý (Dicerca aenea)",
+    "májka fialová (Meloe violaceus)",
+    "májka obyčajná (Meloe proscarabeus)",
+    "rak riečny (Astacus astacus)",
+    "mlok horský (Ichthyosaura alpestris)",
+    "mlok bodkovaný (Lissotriron vulgaris)",
+    "salamandra škvrnitá (Salamandra salamandra)",
+    "slepúch lámavý (Anguis fragilis)",
+    "užovka obojková (Natrix natrix)",
+    "vretenica severná (Vipera berus)",
+    "jašterica živorodá (Zootoca vivipara)",
+    "kalužiačik malý (Actitis hypoleucos)",
+    "prepelica poľná (Coturnix coturnix)",
+    "krutohlav hnedý (Jynx torquilla)",
+    "strakoš veľký (Lanius excubitor)",
+    "muchár sivý (Muscicapa striata)",
+    "žltochvost hôrny (Phoenicurus phoenicurus)",
+    "sluka hôrna (Scolopax rusticola)",
+    "cíbik chochlatý (Vanellus vanellus)",
+    "dudok chochlatý (Upupa epops)",
+    "lastovička skalná (Ptyonoprogne rupestris)",
+    "lipa malolistá (Tilia cordata)",
+    "lipa veľkolistá (Tilia platyphyllos)",
+    "buk lesný (Fagus sylvatica)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "w"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "a",
+        "c",
+        "e",
+        "i",
+        "j",
+        "l",
+        "m",
+        "o",
+        "p"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "i",
+        "j",
+        "l"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Programom starostlivosti Národného parku Malá Fatra a jeho ochranného pásma, vypracovaný Správou NP Malá Fatra. Popisuje stav chráneného územia, ktoré sa prekrýva s viacerými územiami Natura 2000 a maloplošnými chránenými územiami. Definuje ciele ochrany a manažmentové opatrenia zamerané na zachovanie prirodzených ekosystémov, nelesných biotopov a populácií vzácnych a chránených druhov rastlín a živočíchov, ako aj na udržanie krajinného rázu a zvyšovanie retenčnej schopnosti krajiny v Žilinskom kraji."
+}

@@ -1,0 +1,390 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-09-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa národného parku Malá Fatra so sídlom vo Varíne",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Dolný Kubín, Martin, Námestovo, Ružomberok, Žilina",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Istebné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kraľovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Párnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Zázrivá",
+        "parcely": []
+      },
+      {
+        "nazov": "Lipovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Šútovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Turany",
+        "parcely": []
+      },
+      {
+        "nazov": "Turčianske Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Tižiná",
+        "parcely": []
+      },
+      {
+        "nazov": "Krasňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Terchová",
+        "parcely": []
+      },
+      {
+        "nazov": "Varín",
+        "parcely": []
+      },
+      {
+        "nazov": "Nezbudská Lúčka",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolný Kubín",
+        "parcely": []
+      },
+      {
+        "nazov": "Kubínska Hoľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Veličná",
+        "parcely": []
+      },
+      {
+        "nazov": "Žaškov",
+        "parcely": []
+      },
+      {
+        "nazov": "Ratkovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrútky",
+        "parcely": []
+      },
+      {
+        "nazov": "Hruštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravská Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Stankovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Lysica",
+        "parcely": []
+      },
+      {
+        "nazov": "Stráža",
+        "parcely": []
+      },
+      {
+        "nazov": "Strečno",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Tižina",
+        "parcely": []
+      },
+      {
+        "nazov": "Revišné",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Národný park Malá Fatra a jeho ochranného pásma (SKUEV0252 Malá Fatra, SKUEV0221 Varínka, SKUEV0251 Zázrivské lazy, SKUEV0254 Močiar, SKUEV0663 Šíp, SKUEV0664 Uholníky, SKUEV0665 Strečnianske meandre Váhu)"
+  },
+  "typ_dokumentu": "Projekt ochrany",
+  "typ_zasahu": [
+    "manažment a zonácia chráneného územia",
+    "úprava hraníc chráneného územia",
+    "zachovanie alebo postupná obnova prirodzených ekosystémov",
+    "výskum a monitoring",
+    "odstraňovanie inváznych druhov rastlín a živočíchov",
+    "výruby drevín",
+    "úprava vodného toku",
+    "umiestňovanie stavieb",
+    "aplikácia chemických látok a hnojív",
+    "chytanie alebo usmrcovanie živočíchov",
+    "vsádzanie rastlín",
+    "ochrana proti poškodeniu kopytníkmi",
+    "regulovaný pohyb ľudí",
+    "organizovanie športových aktivít"
+  ],
+  "typ_uzemia": [
+    "Národný park",
+    "CHKO",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Chránený areál",
+    "Prírodná pamiatka",
+    "Chránené vtáčie územie",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV",
+    "SKCHVU",
+    "ochranné pásmo",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náramkovka cisárska",
+    "zubček severský",
+    "jamkatec pľúcny",
+    "kyjanôčka zelená",
+    "priblica tuhá moravská",
+    "zvonček hrubokoreňový",
+    "črievičník papučkový",
+    "klinček lesklý",
+    "poniklec slovenský",
+    "vrchovka karpatská",
+    "vstavač obyčajný",
+    "marinka Neilreichova",
+    "kozinec ľadový",
+    "rebrovka rôznolistá",
+    "ostrica Davallova",
+    "zemežlč pobrežná slatinná",
+    "drchnička najmenšia",
+    "prilbovka biela",
+    "prilbovka dlholistá",
+    "prilbovka červená",
+    "marica pílkatá",
+    "vemenníček zelený",
+    "nátržnica močiarna",
+    "koralica lesná",
+    "škarda sibírska",
+    "vstavačovec Fuchsov pravý",
+    "vstavačovec Fuchsov Soóov",
+    "vstavačovec strmolistý neskorý",
+    "vstavačovec laponský",
+    "vstavačovec májový pravý",
+    "vstavačovec bazový",
+    "lykovec voňavý",
+    "rosička anglická",
+    "rosička okrúhlolistá",
+    "stračia nôžka tatranská",
+    "kruštík močiarny",
+    "sklenobyľ bezlistá",
+    "praslička pestrá",
+    "očianka stopkatá",
+    "mečík strechovitý",
+    "smrečinovec plazivý",
+    "päťprstnica obyčajná",
+    "päťprstnica hustokvetá",
+    "päťprstnica voňavá",
+    "trčuľa jednohľuzá",
+    "ľalia cibuľkonosná pravá",
+    "trčníček jednolistý",
+    "vachta trojlistá",
+    "kurička vápencová",
+    "vstavač počerný letný",
+    "hadivka obyčajná",
+    "hmyzovník muchovitý",
+    "vstavač mužský poznačený",
+    "vstavač vojenský",
+    "vstavač bledý",
+    "kľukva močiarna",
+    "všivec lesný pravý",
+    "tučnica obyčajná",
+    "prvosienka pomúčená pravá",
+    "bieloprst belavý",
+    "ľanček ľanovitý",
+    "lomikameň sivý",
+    "lomikameň okrúhlolistý pravý",
+    "lomikameň trváci",
+    "šašina hrdzavá",
+    "skalnica karpatská veľkolistá",
+    "jarabina Margittaiova",
+    "tis obyčajný",
+    "páperec nízky",
+    "barička prímorská",
+    "žltohlav najvyšší",
+    "bublinatka menšia",
+    "pimprlík mokraďový",
+    "pimprlík močiarny",
+    "korýtko riečne",
+    "fuzáč alpský",
+    "fuzáč karpatský",
+    "bystruška potočná",
+    "plocháč červený",
+    "roháč obyčajný",
+    "pralesník oranžovoštíty",
+    "drevník ryhovaný",
+    "boros Schneiderov",
+    "jasoň chochlačkový",
+    "spriadač kostihojový",
+    "kunka žltobruchá",
+    "mlok karpatský",
+    "mlok hrebenatý",
+    "ropucha zelená",
+    "rosnička zelená",
+    "užovka hladká",
+    "užovka stromová",
+    "užovka fŕkaná",
+    "hlavátka podunajská",
+    "hlaváč bieloplutvý",
+    "pôtik kapcavý",
+    "výr skalný",
+    "kuvičok vrabčí",
+    "sova dlhochvostá",
+    "orol skalný",
+    "sokol sťahovavý",
+    "včelár lesný",
+    "rybárik riečny",
+    "bocian čierny",
+    "chrapkáč poľný",
+    "ďateľ bielochrbtý",
+    "ďateľ hnedkavý",
+    "tesár čierny",
+    "ďubník trojprstý",
+    "žlna sivá",
+    "muchárik bielokrký",
+    "muchárik malý",
+    "strakoš obyčajný",
+    "hlucháň hôrny",
+    "jariabok hôrny",
+    "tetrov hoľniak",
+    "lelek lesný",
+    "podkovár veľký",
+    "podkovár malý",
+    "netopier Bechsteinov",
+    "netopier veľký",
+    "uchaňa čierna",
+    "rys ostrovid",
+    "vlk dravý",
+    "vydra riečna",
+    "medveď hnedý",
+    "bystruška zlatá",
+    "bystruška (Carabus irregularis moutandoni)",
+    "bystruška (Carabus arcensis)",
+    "bystruška (Carabus montivagus blandus)",
+    "bystruška medená",
+    "krasoň jedľový",
+    "krasoň lesklý",
+    "májka fialová",
+    "májka obyčajná",
+    "rak riečny",
+    "mlok horský",
+    "mlok bodkovaný",
+    "salamandra škvrnitá",
+    "slepúch lámavý",
+    "užovka obojková",
+    "vretenica severná",
+    "jašterica živorodá",
+    "kalužiačik malý",
+    "prepelica poľná",
+    "krutohlav hnedý",
+    "strakoš veľký",
+    "muchár sivý",
+    "žltochvost hôrny",
+    "sluka hôrna",
+    "cíbik chochlatý",
+    "dudok chochlatý",
+    "lastovička skalná"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je Projektom ochrany Národného parku Malá Fatra a jeho ochranného pásma s dátumom 10. september 2025. Predkladá zonáciu územia (od 2. po 5. stupeň ochrany) a definuje ciele a manažmentové opatrenia pre zachovanie prirodzených ekosystémov a chránených druhov rastlín a živočíchov, vrátane medveďa hnedého, vlka dravého a rysa ostrovida. Kľúčové zásahy sa týkajú lesného hospodárenia, ochrany mokradí, vodných tokov a biodiverzity s cieľom minimalizovať ľudské zásahy a obmedziť činnosti s negatívnym vplyvom na prírodné hodnoty."
+}

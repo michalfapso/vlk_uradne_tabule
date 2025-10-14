@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP1-2025/533059/LAJ",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-14",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": "FiiHaa Engineering s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava",
+    "obec": "Svätý Jur",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svätý Jur",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Národná prírodná rezervácia Šúr"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "využitie lietajúceho bezpilotného prostriedku (UAV - dron)",
+    "inštalácia odkloňovacích prvkov"
+  ],
+  "typ_uzemia": [
+    "Národná prírodná rezervácia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje začatie konania na žiadosť spoločnosti FiiHaa Engineering s.r.o. o využitie dronu na inštaláciu odkloňovacích prvkov pre ochranu chránených druhov vtáctva pred nárazmi do elektrických vedení. Činnosť sa má realizovať na území Národnej prírodnej rezervácie Šúr v katastrálnom území Svätý Jur."
+}

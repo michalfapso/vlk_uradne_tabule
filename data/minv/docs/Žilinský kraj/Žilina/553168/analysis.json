@@ -1,0 +1,278 @@
+{
+  "cislo_konania_spisu": "2025/048158",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-07-02",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa Národného parku Malá Fatra, Ministerstvo životného prostredia Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": [
+      "Dolný Kubín",
+      "Martin",
+      "Námestovo",
+      "Ružomberok",
+      "Žilina"
+    ],
+    "obec": [
+      "Terchová",
+      "Istebné",
+      "Kraľovany",
+      "Párnica",
+      "Zázrivá",
+      "Lipovec",
+      "Sučany",
+      "Šútovo",
+      "Turany",
+      "Turčianske Kľačany",
+      "Belá",
+      "Dolná Tižina",
+      "Krasňany",
+      "Varín",
+      "Nezbudská Lúčka",
+      "Veličná",
+      "Žaškov",
+      "Vrútky",
+      "Hruštín",
+      "Oravská Lesná",
+      "Stankovany",
+      "Lysica",
+      "Stráža",
+      "Strečno",
+      "Horná Tižina"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Istebné",
+        "parcely": []
+      },
+      {
+        "nazov": "Kraľovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Párnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Zázrivá",
+        "parcely": []
+      },
+      {
+        "nazov": "Lipovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Sučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Šučany",
+        "parcely": []
+      },
+      {
+        "nazov": "Šútovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Turany",
+        "parcely": []
+      },
+      {
+        "nazov": "Turčianske Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Tižina",
+        "parcely": []
+      },
+      {
+        "nazov": "Krasňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Terchová",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "16154/317"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Varín",
+        "parcely": []
+      },
+      {
+        "nazov": "Nezbudská Lúčka",
+        "parcely": []
+      },
+      {
+        "nazov": "Kubínska Hoľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Revišné",
+        "parcely": []
+      },
+      {
+        "nazov": "Veličná",
+        "parcely": []
+      },
+      {
+        "nazov": "Žaškov",
+        "parcely": []
+      },
+      {
+        "nazov": "Ratkovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrútky",
+        "parcely": []
+      },
+      {
+        "nazov": "Hruštín",
+        "parcely": []
+      },
+      {
+        "nazov": "Oravská Lesná",
+        "parcely": []
+      },
+      {
+        "nazov": "Stankovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Lysica",
+        "parcely": []
+      },
+      {
+        "nazov": "Stráža",
+        "parcely": []
+      },
+      {
+        "nazov": "Strečno",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Tižina",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Vrátna dolina, Skaly Boboty, Veľký Rozsutec"
+  },
+  "typ_dokumentu": "Záznam z prerokovania",
+  "typ_zasahu": [
+    "vyhlásenie zón",
+    "zmena hraníc",
+    "vypracovanie programu starostlivosti",
+    "výstavba zjazdoviek",
+    "výstavba lanoviek",
+    "výstavba kanalizácie",
+    "výstavba ciest"
+  ],
+  "typ_uzemia": [
+    "Národný park Malá Fatra",
+    "ochranné pásmo",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany",
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV0252 Malá Fatra",
+    "SKUEV0221 Varínka",
+    "SKUEV0251 Zázrivské lazy",
+    "SKUEV0254 Močiar",
+    "SKUEV0663 Šíp",
+    "SKUEV0664 Uholníky",
+    "SKUEV0665 Strečianske meandre Váhu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "tetrov hlucháň"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "p"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "55",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "50",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "67",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je záznamom z prerokovania pripomienok k zámeru vyhlásenia zón Národného parku Malá Fatra a jeho ochranného pásma, spolu s návrhom Programu starostlivosti na roky 2025-2054. Stretnutie odhalilo značné rozpory medzi štátnymi orgánmi, vlastníkmi pozemkov a obcami, najmä čo sa týka obmedzenia rozvoja (lyžiarske strediská, infraštruktúra) a kompenzácií za obmedzené využívanie pôdy, ako aj nedostatočného rešpektovania platných územných plánov a biotopov tetrova hlucháňa."
+}
