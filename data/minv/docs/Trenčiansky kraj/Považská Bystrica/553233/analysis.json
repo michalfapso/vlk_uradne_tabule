@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "10.2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Udiča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Udiča",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o nevyhnutnom výrube a okliesňovaní náletových drevín v existujúcom ochrannom pásme 22 kV elektrického vedenia č. 195_k21 Udica - Nimnica, prechádzajúcom katastrálnym územím Udiča. Práce, ktoré vykonáva ENZA s.r.o., sú naplánované od októbra 2025 do marca 2026 a sú zdôvodnené zabezpečením bezporuchovej prevádzky energetických zariadení v zmysle zákona o energetike."
+}

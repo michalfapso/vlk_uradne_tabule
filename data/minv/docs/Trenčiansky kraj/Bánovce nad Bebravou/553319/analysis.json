@@ -1,0 +1,254 @@
+{
+  "cislo_konania_spisu": "2025/03940/025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s., Mlynské nivy 44/b, 825 11 Bratislava, IČO: 35 910 739",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bánovce nad Bebravou",
+    "obec": [
+      "Bánovce nad Bebravou",
+      "Dolné Nástice",
+      "Rybany",
+      "Horné Nástice",
+      "Uhrovec"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dežerice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2007/1",
+              "2185/6",
+              "1977/13"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Horné Ozorovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "431/1",
+              "468/2",
+              "466/18",
+              "351/7",
+              "348/1",
+              "344/1",
+              "333/13"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malé Chlievany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "238/3",
+              "154"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Biskupice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "311",
+              "312",
+              "341",
+              "310",
+              "309",
+              "306",
+              "302/1",
+              "300/4",
+              "368",
+              "372"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bánovce nad Bebravou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3500/1",
+              "3463",
+              "4692/1",
+              "21667/1",
+              "4694/1",
+              "11827/1",
+              "11827/18",
+              "11746",
+              "11756/1",
+              "11725/2",
+              "11692/4",
+              "11691",
+              "11689/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolné Nástice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "816/2",
+              "484",
+              "842",
+              "822"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rybany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1813"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Horné Nástice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1796/7",
+              "1796/2",
+              "1941/8",
+              "2068/1",
+              "1801"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Uhrovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1086/1",
+              "1167/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "trasy plynovodov v ochrannom pásme plynovodov"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstraňovanie stromov a krov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "6",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "16",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie od SPP – distribúcia, a.s., zaslané Okresnému úradu v Bánovciach nad Bebravou, sa týka plánovaného výrubu drevín a výseku porastov v ochranných pásmach plynovodov. Zásah je odôvodnený potrebou zabezpečiť spoľahlivú a bezpečnú prevádzku plynárenských zariadení v súlade so zákonom o energetike, a to v katastrálnych územiach viacerých obcí v okrese Bánovce nad Bebravou. Výruby sú plánované mimo vegetačného obdobia od 1. októbra 2025 do 15. marca 2026."
+}

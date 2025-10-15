@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/021169-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-13",
+  "datum_zverejnenia": "2025-10-14",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Eustream, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Košice-okolie",
+    "obec": "Belža",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Belža",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "218/1"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "218/52",
+              "218/53"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v ochrannom pásme nad optickým káblom"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo nad optickým káblom"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "86",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "87",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "87",
+      "odsek": "2",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznámil výrub 13 stromov (vŕb a topoľov) na pozemkoch C-KN 218/1 a E-KN 218/52, 218/53 v katastrálnom území Belža. Výrub, ktorý má vykonať Eustream, a.s., je plánovaný od 25.10.2025 do 28.2.2026 a je odôvodnený potrebou údržby v ochrannom pásme nad optickým káblom."
+}

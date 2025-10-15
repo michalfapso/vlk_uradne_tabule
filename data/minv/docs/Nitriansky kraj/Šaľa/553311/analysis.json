@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-SA-OSZP-2025/009695-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-14",
+  "datum_zverejnenia": "2025-10-15",
+  "lehoty_na_vyjadrenie": "Všeobecné predpisy o správnom konaní sa nevzťahujú na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z. z., preto nie je možné sa prihlásiť do konania.",
+  "ziadatel_navrhovatel": "RENAS, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Šaľa",
+    "obec": "Vlčany, Neded",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vlčany",
+        "parcely": [
+          {
+            "typ": "p.b.č.",
+            "cisla": [
+              "115-116"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Neded",
+        "parcely": [
+          {
+            "typ": "p.b.č.",
+            "cisla": [
+              "115-116",
+              "119-120",
+              "122-123",
+              "125-126",
+              "130-131",
+              "133-134",
+              "134-135",
+              "135-136",
+              "136-137",
+              "138-139",
+              "144-145",
+              "146-147"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 400 kV vedenia V479/480 Gabčíkovo – Veľký Ďur"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie porastov",
+    "okliesňovanie stromov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického zariadenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Šaľa zverejňuje oznámenie od spoločnosti RENAS, s.r.o. o výrube, odstraňovaní a okliesňovaní stromov a iných porastov. Činnosť sa bude realizovať v ochrannom pásme 400 kV vedenia V479/480 Gabčíkovo – Veľký Ďur v katastrálnych územiach Vlčany a Neded, výlučne mimo vegetačného obdobia. Konanie sa riadi zákonom o ochrane prírody a krajiny a nepodlieha všeobecným predpisom o správnom konaní, čím je vylúčená účasť verejnosti."
+}

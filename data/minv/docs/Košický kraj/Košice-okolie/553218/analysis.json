@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/021170-0063415/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-13",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Eustream, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Nižná Myšľa a Ždaňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižná Myšľa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "765/2",
+              "780/4"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "3266",
+              "1820/1",
+              "3267/1",
+              "1823/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ždaňa",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "686/1",
+              "1819"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo nad optickým káblom"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub stromov",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo (optický kábel)"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "86",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "87",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "87",
+      "odsek": "2",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube 60 ks stromov (vŕba a topoľ) a krovitých porastov spoločnosťou Eustream, a.s. v katastrálnych územiach Nižná Myšľa a Ždaňa v okrese Košice-okolie. Výrub sa má realizovať v ochrannom pásme nad optickým káblom a je odôvodnený zabezpečením prevádzky prepravnej siete a údržby plynovodov. Plánovaný termín výrubu je od 25.10.2025 do 28.2.2026."
+}
