@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/004542",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-15",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, š. p., odštepný závod Východ",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice – okolie",
+    "obec": "Hýľov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hýľov",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "465",
+              "468",
+              "471/2",
+              "586",
+              "587",
+              "588"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hlboké"
+  },
+  "typ_dokumentu": "Záväzné stanovisko orgánu štátnej vodnej správy",
+  "typ_zasahu": [
+    "rekonštrukcia lesnej cesty",
+    "úprava potoka Hlboké",
+    "obnovenie a rozšírenie vozovky",
+    "vybudovanie výhybní",
+    "doplnenie krajníc",
+    "odvodnenie",
+    "vybúrať a nahradiť novými priepustmi",
+    "prehĺbenie koryta potoka",
+    "odsun koryta potoka"
+  ],
+  "typ_uzemia": [
+    "II. ochranné pásmo vodárenského zdroja Bukovec",
+    "Chránené vtáčie územie SKCHVU036 Volovské vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bentická fauna",
+    "ichtyofauna",
+    "juvenilní jedinci pstruha potočného",
+    "vodná flóra a fauna"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko Okresného úradu Košice k rekonštrukcii lesnej cesty \"LC Hlboké\" a úprave potoka Hlboké v katastrálnom území Hýľov. Činnosť sa dotýka II. ochranného pásma vodárenského zdroja Bukovec a Chráneného vtáčieho územia SKCHVU036 Volovské vrchy, s možným vplyvom na bentickú faunu, ichtyofaunu a pstruha potočného. Úrad dospel k záveru, že sa nevyžaduje výnimka z environmentálnych cieľov, ak budú dodržané odporúčania na minimalizáciu zásahov do koryta potoka."
+}

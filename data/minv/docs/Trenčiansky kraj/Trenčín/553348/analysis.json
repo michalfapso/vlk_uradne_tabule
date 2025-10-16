@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Towercom, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Trenčianske Teplice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Teplice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "TVP Trenčianske Teplice"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie a okliesňovanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "javor"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.Z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť Towercom, a.s. oznamuje Okresnému úradu Trenčín výrub jedného javora v katastrálnom území Trenčianske Teplice. Dôvodom je obmedzenie prevádzky verejnej elektronickej komunikačnej siete, pričom výrub sa plánuje v 44.-45. týždni 2025 v období vegetačného pokoja."
+}

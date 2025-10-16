@@ -17,15 +17,13 @@
     ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Žiadosť o povolenie výnimky a vydanie súhlasu",
+  "typ_dokumentu": "Oznámenie o začatí konania",
   "typ_zasahu": [
     "odstránenie bobrej hrádze",
     "výrub drevín"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
-  "je_v_chranenom_uzemi": true,
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
     "bobor vodný (Castor fiber)"
   ],
@@ -35,16 +33,16 @@
       "paragraf": "6",
       "odsek": "5",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": null,
       "zakon_cislo": "543/2002 Z. z."
     },
     {
       "paragraf": "47",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_nazov": null,
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Obec Parihuzovce žiada o povolenie výnimky na odstránenie bobrej hrádze a súhlas na vodnom toku v k. ú. Parihuzovce. Žiadosť sa týka chráneného druhu živočícha bobra vodného a súhlasu na výrub drevín. Lehota na potvrdenie záujmu byť zúčastnenou osobou je päť pracovných dní od zverejnenia informácie."
+  "zhrnutie": "Obec Parihuzovce žiada o povolenie výnimky na odstránenie bobrej hrádze na vodnom toku v k. ú. Parihuzovce, čo súvisí s chráneným druhom bobor vodný. Konanie sa opiera o ustanovenia zákona č. 543/2002 Z. z. a verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou."
 }

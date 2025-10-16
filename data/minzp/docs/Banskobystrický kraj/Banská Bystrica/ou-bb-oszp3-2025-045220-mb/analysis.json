@@ -1,5 +1,5 @@
 {
-  "cislo_konania_spisu": "OU-BB-OSZP-2025/045220/MB",
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/045220-MB",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2025-10-15",
   "datum_zverejnenia": null,
@@ -8,7 +8,7 @@
   "miesto_realizacie": {
     "kraj": null,
     "okres": "Banská Bystrica",
-    "obec": "Radvaň",
+    "obec": "Banská Bystrica",
     "katastralne_uzemia": [
       {
         "nazov": "Radvaň",
@@ -24,7 +24,7 @@
     ],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Žiadosť o súhlas",
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu",
   "typ_zasahu": [
     "výrub drevín"
   ],
@@ -41,21 +41,21 @@
       "paragraf": "47",
       "odsek": "3",
       "pismena": [],
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z.z."
     },
     {
       "paragraf": "2",
       "odsek": "1",
       "pismena": [],
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z.z."
     },
     {
       "paragraf": "82",
       "odsek": "6",
       "pismena": [],
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z.z."
     },
     {
@@ -94,5 +94,5 @@
       "zakon_cislo": "71/1967 Zb."
     }
   ],
-  "zhrnutie": "Dokument je žiadosťou fyzickej osoby o súhlas na výrub 3 kusov stromov (jedľa biela) v katastrálnom území Radvaň, Banská Bystrica, z dôvodu ohrozenia rodinného domu. Združenia s právnou subjektivitou majú možnosť prihlásiť sa do konania do piatich pracovných dní od zverejnenia informácie."
+  "zhrnutie": "Dokument je žiadosťou o vydanie súhlasu na výrub 3 kusov jedle bielej na parcele KN-C č. 3863/1 v katastrálnom území Radvaň, Banská Bystrica, z dôvodu ohrozenia rodinného domu. Združenia s právnou subjektivitou môžu oznámiť svoju účasť v konaní do piatich pracovných dní od zverejnenia informácie."
 }

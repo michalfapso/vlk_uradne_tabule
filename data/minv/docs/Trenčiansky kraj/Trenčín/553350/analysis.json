@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-15",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomne záujem byť zúčastnenou osobou",
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Horné Srnie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horné Srnie",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "4807"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Biele Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania na vydanie súhlasu pre oplotenie pozemku mimo zastavaného územia obce Horné Srnie v Chránenej krajinnej oblasti Biele Karpaty, kde platí druhý stupeň ochrany. Žiadateľ, fyzická osoba, žiada súhlas pre parcelu KN-C 4807 v katastrálnom území Horné Srnie. Záujemci o účasť v konaní sa môžu prihlásiť do 5 pracovných dní od zverejnenia oznámenia."
+}

@@ -1,0 +1,690 @@
+{
+  "cislo_konania_spisu": "OU-LC-OSZP-2025/012818-015",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-15",
+  "datum_zverejnenia": "2025-09-11",
+  "lehoty_na_vyjadrenie": "odvolanie do 15 dní od zverejnenia záväzného stanoviska v centrálnom informačnom systéme",
+  "ziadatel_navrhovatel": "EV-GP a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Lučenec",
+    "obec": "Lučenec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lučenec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "7498/62",
+              "7498/89"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Výrobný závod firmy EV-GP, a.s. v Lučenci, priemyselný park Lučenec JUH"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba výrobného závodu",
+    "montáž gondol veterných turbín",
+    "montáž nabíjacích staníc",
+    "montáž batériových modulov",
+    "výstavba výrobnej haly",
+    "výstavba vodovodnej prípojky",
+    "výstavba kanalizačnej prípojky",
+    "výstavba dažďovej kanalizácie",
+    "výstavba oplotenia",
+    "výstavba elektrickej prípojky",
+    "výstavba prístrešku pre autá",
+    "výstavba spevnených plôch a komunikácií",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň územnej ochrany",
+    "genofondová lokalita GL26 Béter",
+    "močiar",
+    "periodická mokraď",
+    "Vegetácia vysokých ostríc (Lk10)",
+    "Trstinové spoločenstvá mokradí (Phragmition, Lk11)",
+    "Prirodzené eutrofné a mezotrofné stojaté vody s vegetáciou plávajúcich a/alebo ponorených cievnatých rastlín typu Magnopotamion alebo Hydrocharition (Vo2 – 3150)",
+    "Rieky s bahnitými až piesočnatými brehmi s vegetáciou zväzov Chenopodium rubri p.p. a Bidention p.p. (Br5)",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené živočíchy",
+    "voľne žijúce živočíchy",
+    "Acrocephalus schoenobaenus",
+    "Fulica atra",
+    "Acrocephalus palustris",
+    "Anas platyrhynchos",
+    "Emberiza schoeniclus",
+    "Botaurus stellaris",
+    "Anas acuta",
+    "Anas strepera",
+    "Porzana porzana",
+    "Grus grus",
+    "Charadrius hiaticula",
+    "Tringa erythropus",
+    "Tringa stagnatilis",
+    "Galinago media",
+    "Limosa limosa",
+    "Lymnocryptes minimus",
+    "Chlidonias niger",
+    "Chlidonias hybridus",
+    "Luscinia svecica cyanecula"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "29",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "249",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "45",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "191",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "29",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "31",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "36",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "61",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "10",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "29a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "17",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "27",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vyhláška",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": "28",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o verejnom zdraví",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": "44",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "44",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "38",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "t"
+      ],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom zo zisťovacieho konania pre navrhovanú činnosť 'Výrobný závod firmy EV-GP, a.s. v Lučenci'. Okresný úrad Lučenec rozhodol, že činnosť sa nebude posudzovať podľa zákona o EIA, za dodržania určených opatrení. Projekt je situovaný v priemyselnom parku Lučenec JUH a zahŕňa výstavbu závodu na montáž gondol veterných turbín, nabíjacích staníc a batériových modulov. Lokalita susedí s genofondovou lokalitou GL26 Béter, čo si vyžiadalo osobitné podmienky na ochranu prírody a druhov, s dôrazom na vodozádržné opatrenia a ochranu fauny a flóry. Dokument zohľadňuje aj pripomienky občianskeho združenia ZDS."
+}
