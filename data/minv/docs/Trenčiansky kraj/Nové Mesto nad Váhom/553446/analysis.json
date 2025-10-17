@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "SVP 21788/2025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-09",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Lubina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lubina",
+        "parcely": [
+          {
+            "typ": "KNE",
+            "cisla": [
+              "498"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Koryto vodného toku Dudváh"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "čistenie koryta"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "4",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": "4",
+      "pismena": [
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Slovenského vodohospodárskeho podniku, štátny podnik, o plánovanom výrube ríbezlových drevín a kríkového porastu v koryte vodného toku Dudváh v katastrálnom území Lubina. Cieľom je následné čistenie koryta od sedimentov. Práce sú plánované najneskôr do 28.2.2026 a dotknutá parcela je vedená ako vodná plocha v zóne VZ (ochranné pásmo vodárenského zdroja)."
+}

@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2025/029740",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené - štandardné konanie sa nevzťahuje",
+  "ziadatel_navrhovatel": "RENAS, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Nové Zámky",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tvrdošovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Šurany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme elektrického vedenia 400kV"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube drevín, ktorý vykonáva RENAS, s. r. o. v katastrálnych územiach Tvrdošovce a Šurany. Výrub sa uskutoční v ochrannom pásme elektrického vedenia 400kV. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní."
+}

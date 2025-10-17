@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/062602",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-10-17",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia",
+  "ziadatel_navrhovatel": "Mesto Košice",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice – Barca",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Barca",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "35/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "MŠ Hviezdova 13, Košice – Barca"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "zmena rozhodnutia",
+    "náhradná výsadba",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "borovica lesná (Pinus sylvestris)",
+    "jabloň (Malus Mill.)",
+    "slivka (Prunus L.)",
+    "tuja západná (Thuja occidentalis L.)",
+    "vavrínovce lekársky (Laurocerasus officinalis M. Roem.)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania týkajúceho sa zmeny rozhodnutia o pôvodnom súhlase na výrub borovice lesnej. Žiadosť podalo Mesto Košice a týka sa zmeny termínu uloženej náhradnej výsadby, ktorá sa mala uskutočniť na pozemku MŠ Hviezdova 13 v katastrálnom území Barca. Dôvodom je celková rekonštrukcia budovy a areálu materskej školy."
+}
