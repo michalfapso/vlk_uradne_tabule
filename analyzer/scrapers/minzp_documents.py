@@ -8,9 +8,9 @@ import os
 # Adjust sys.path to include scripts in the parent directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
 analyzer_dir = os.path.dirname(script_dir) # parent directory of the current script
-sys.path.insert(0, analyzer_dir)
+sys.path.insert(0, analyzer_dir+'/shared')
 
-from convert_date_to_iso import date_str_to_iso
+from date_converter import date_str_to_iso
 # import traceback # Odkomentuj pre detailnejší výpis chýb pri parsovaní
 
 BASE_URL = 'https://www.minzp.sk'

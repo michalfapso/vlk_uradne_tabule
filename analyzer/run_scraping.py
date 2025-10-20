@@ -3,6 +3,9 @@ import subprocess
 import os
 import sys
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.join(SCRIPT_DIR, "..")
+
 def run_scraper(script_path, output_path):
     """Spustí daný scraper skript a uloží jeho výstup."""
     script_full_path = os.path.abspath(script_path)
@@ -42,17 +45,17 @@ def main():
     # Definovanie ciest k scraperom a ich výstupným súborom
     SCRAPERS = {
         "minv_regions": {
-            "script": "analyzer/scrapers/minv_1_regions.py",
-            "output": "data/scraped/minv_1_regions.json"
+            "script": f"{ROOT_DIR}/analyzer/scrapers/minv_1_regions.py",
+            "output": f"{ROOT_DIR}/data/scraped/minv_1_regions.json"
         },
         "minv_documents": {
-            "script": "analyzer/scrapers/minv_2_documents.py",
-            "input": "data/scraped/minv_1_regions.json", # Tento skript potrebuje vstup
-            "output": "data/scraped/minv_2_documents.json"
+            "script": f"{ROOT_DIR}/analyzer/scrapers/minv_2_documents.py",
+            "input" : f"{ROOT_DIR}/data/scraped/minv_1_regions.json",
+            "output": f"{ROOT_DIR}/data/scraped/minv_2_documents.json"
         },
         "minzp_documents": {
-            "script": "analyzer/scrapers/minzp_documents.py",
-            "output": "data/scraped/minzp_documents.json"
+            "script": f"{ROOT_DIR}/analyzer/scrapers/minzp_documents.py",
+            "output": f"{ROOT_DIR}/data/scraped/minzp_documents.json"
         }
     }
     
