@@ -11,7 +11,7 @@ import subprocess
 
 # Importujeme ostatné zdieľané moduly
 from log_handler import log_status
-from doc_id_handler import get_doc_id
+from get_doc_id import get_doc_id
 from pdf_to_txt import extract_text_from_pdf
 from llm_analyzer import analyze_text_document
 from law_references import get_law_excerpts_for_text

@@ -23,7 +23,6 @@ jobs:
     outputs:
       data_changed: ${{ steps.commit_step.outputs.data_changed }}
       new_commit_sha: ${{ steps.commit_step.outputs.sha }}
-    secrets: inherit
 
     steps:
       - name: Install pandoc

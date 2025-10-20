@@ -10,14 +10,14 @@ jobs:
         python-version: ["3.10", "3.11"]
     defaults:
       run:
-        working-directory: ./analyzer 
-        # Assuming get_doc_id.py and test_get_doc_id.py are in 'analyzer'
+        working-directory: ./analyzer/shared
+        # Assuming get_doc_id.py and test_get_doc_id.py are in 'analyzer/shared'
         # and 'analyzer' is a Python package (has __init__.py)
         # If not, adjust paths or how pytest discovers tests.
         # For `from .get_doc_id import get_doc_id` to work,
         # test_get_doc_id.py should be in the same directory as get_doc_id.py,
         # and that directory should be treated as a package or tests run from parent.
-        # Simpler: place test_get_doc_id.py in 'analyzer' and run pytest from 'analyzer'.
+        # Simpler: place test_get_doc_id.py in 'analyzer/shared' and run pytest from 'analyzer/shared'.
 
     steps:
     - uses: actions/checkout@v4
