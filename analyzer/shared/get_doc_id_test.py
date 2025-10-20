@@ -9,7 +9,7 @@ def load_common_test_cases():
     # This file is in 'analyzer/', shared_test_cases.json is in 'tests/'
     # So, ../tests/shared_test_cases.json
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(base_dir, '..', 'tests', 'get_doc_id_test_cases.json')
+    json_path = os.path.join(base_dir, '../../tests/get_doc_id_test_cases.json')
     with open(json_path, 'r') as f:
         return [tuple(item) for item in json.load(f)]
 
