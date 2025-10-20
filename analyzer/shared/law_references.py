@@ -4,6 +4,9 @@ import os
 
 MAX_RECURSION_DEPTH = 3 # Maximálna hĺbka rekurzie
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "../../data")
+LAWS_DIR = os.path.join(DATA_DIR, "laws")
+LAW_REGISTRY_PATH = os.path.join(DATA_DIR, "laws/registry.json")
 
 # --- KROK 1: Vytvorenie registra zákonov ---
 def load_main_law_registry(registry_path: str) -> dict:
@@ -347,9 +350,7 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
     return all_resulting_blocks
 
 def get_law_excerpts_for_text(text: str) -> str:
-    REGISTRY_PATH = os.path.join(SCRIPT_DIR, "../data/laws/registry.json")
-    LAWS_DIR = os.path.join(SCRIPT_DIR, "../data/laws")
-    LAW_REGISTRY = load_main_law_registry(REGISTRY_PATH)
+    LAW_REGISTRY = load_main_law_registry(LAW_REGISTRY_PATH)
     laws = ""
     laws_count = 0
     if not LAW_REGISTRY:
@@ -393,9 +394,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     dokument_na_analyzu = args.input_text
 
-    DEFAULT_REGISTRY_PATH = os.path.join(SCRIPT_DIR, "../data/laws/registry.json")
-    LAWS_DIR = os.path.join(SCRIPT_DIR, "../data/laws")
-    LAW_REGISTRY = load_main_law_registry(DEFAULT_REGISTRY_PATH)
+    LAW_REGISTRY = load_main_law_registry(LAW_REGISTRY_PATH)
     if not LAW_REGISTRY:
         print("Nebolo možné spustiť príklad použitia, pretože register zákonov (LAW_REGISTRY) je prázdny alebo sa nepodarilo načítať.", file=sys.stderr)
     else:

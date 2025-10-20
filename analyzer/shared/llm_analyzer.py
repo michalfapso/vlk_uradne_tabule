@@ -4,7 +4,7 @@ import traceback
 import sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROMPT_FILEPATH = os.path.join(SCRIPT_DIR, "./analyze_text_document_prompt.md")
+PROMPT_FILEPATH = os.path.join(SCRIPT_DIR, "analyze_text_document_prompt.md")
 
 def analyze_text_document(text_content: str):
     """
