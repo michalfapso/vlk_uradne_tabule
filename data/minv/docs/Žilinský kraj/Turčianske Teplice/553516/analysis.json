@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000805",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-20",
+  "lehoty_na_vyjadrenie": "nejde o správne konanie a do konania sa nedá prihlásiť v zmysle zákona č. 543/2002 Z.z. o ochrane prírody a krajiny.",
+  "ziadatel_navrhovatel": "Slovenská správa ciest, IVSC Žilina",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Turčianske Teplice",
+    "obec": [
+      "Turček",
+      "Sklené",
+      "Mošovce"
+    ],
+    "katastralne_uzemia": [],
+    "nazov_lokality": "v cestnom telese štátnej cesty I/14 HP Šturec a v úseku Turček - Sklené a Mošovce v telese št. cesty I/65"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub kríkov",
+    "výrub suchých stromov",
+    "orezanie vetiev stromov"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Turčianske Teplice zverejňuje oznámenie Slovenskej správy ciest o výrube kríkov, suchých stromov a orezaní vetiev stromov v cestnom telese štátnej cesty I/14 HP Šturec a I/65 v úseku Turček - Sklené a Mošovce. Zásah sa uskutoční na území s prvým stupňom ochrany a konanie je len informačného charakteru bez možnosti prihlásiť sa."
+}

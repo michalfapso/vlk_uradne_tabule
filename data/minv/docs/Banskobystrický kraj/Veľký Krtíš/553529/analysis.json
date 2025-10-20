@@ -1,0 +1,234 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "TECHNOGYM E.E., s.r.o",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Veľký Krtíš",
+    "obec": "Malý Krtíš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malý Krtíš",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "381/4",
+              "381/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Priemyselný park Malý Krtíš"
+  },
+  "typ_dokumentu": "Oznámenie o zmene navrhovanej činnosti",
+  "typ_zasahu": [
+    "modifikácia výroby",
+    "rozšírenie výroby",
+    "povrchová úprava kovov",
+    "lakovanie",
+    "čistenie odpadových vôd",
+    "otryskávanie",
+    "stavebné úpravy",
+    "odber podzemných vôd"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "CHKO Štiavnické vrchy",
+    "Prírodná rezervácia Modrokamenská lesostep",
+    "Národná sústava chránených území",
+    "Prírodné rezervácie",
+    "Prírodné pamiatky",
+    "Chránený areál",
+    "Európska sústava chránených území Natura 2000",
+    "Územia európskeho významu",
+    "Chránené vtáčie územia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": "2",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "40",
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "127/1994 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o verejnom zdravotníctve a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "126/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa vykonáva zákon č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o prevencii závažných priemyselných havárií a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "128/2015 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "220/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú technické požiadavky na protipožiarnu bezpečnosť pri výstavbe a pri užívaní stavieb",
+      "zakon_cislo": "94/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú podrobnosti o technických požiadavkách na návrh, projektovú dokumentáciu a výstavbu verejných vodovodov a verejných kanalizácií",
+      "zakon_cislo": "684/2006 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška o podrobnostiach na zabezpečenie stavebnotechnických požiadaviek a technických podmienok zariadení civilnej ochrany",
+      "zakon_cislo": "532/20016 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Vyhláška o zabezpečení stavieb vodou na hasenie požiarov",
+      "zakon_cislo": "699/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Nariadenie vlády, ktorým sa ustanovujú prahové hodnoty a zoznam útvarov podzemných vôd",
+      "zakon_cislo": "282/2010 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": null,
+      "zakon_nazov": "Nariadenie vlády, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o zmene navrhovanej činnosti spoločnosti TECHNOGYM E.E., s.r.o. v Malom Krtíši sa týka modifikácie a rozšírenia priemyselnej výroby vo existujúcom objekte TG1. Zmeny zahŕňajú inštaláciu novej lakovacej linky, modernizáciu otryskávacieho zariadenia, rozšírenie čistiarne odpadových vôd a zvýšenie odberu podzemných vôd. Lokalita je v 1. stupni ochrany prírody v Priemyselnom parku Malý Krtíš, s blízkosťou CHKO Štiavnické vrchy a prírodnej rezervácie Modrokamenská lesostep, no bez priameho vplyvu na chránené druhy."
+}

@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2025/016326-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-20",
+  "datum_zverejnenia": "2025-10-20",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bardejov",
+    "obec": [
+      "Bartošovce",
+      "Šiba"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bartošovce",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "734/2",
+              "903"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Šiba",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "717"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "úsek trate Bardejov - Raslavice, žkm 35,200 – 35,650 po obidvoch stranách koľaje"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výsek krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "64",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bardejov zverejňuje oznámenie od ŽSR o výrube 28 stromov a krovia v katastrálnych územiach Bartošovce a Šiba, na pozemkoch železničnej trate Bardejov - Raslavice. Výrub, ktorý má zabezpečiť bezpečnosť železničnej dopravy, sa uskutoční mimo vegetačného obdobia od 01.10.2025 do 31.12.2027."
+}
