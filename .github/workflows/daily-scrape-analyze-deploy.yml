@@ -4,7 +4,6 @@ name: Scrape, Analyze, and Deploy Website
 
 on:
   # Schedule the workflow to run daily at 20:00 UTC
-  # You can adjust the time/frequency using cron syntax: https://crontab.guru/
   schedule:
     - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
 
@@ -18,102 +17,74 @@ permissions:
   id-token: write # Needed for the Deploy Pages action (OIDC)
 
 jobs:
-  # --- Job 1: Scrape and Analyze minv ---
-  scrape_analyze_minv:
-    uses: ./.github/workflows/scrape-minv.yml
-    secrets: inherit
-
-  # --- Job 2: Scrape and Analyze minzp ---
-  scrape_analyze_minzp:
-    uses: ./.github/workflows/scrape-minzp.yml
-    secrets: inherit
-
-
-  # --- Job 3: Commit Data Changes ---
-  # This job runs after both scraping jobs, downloads their outputs via artifacts,
-  # and commits ALL changes from both to the repository.
-  commit_data:
+  # --- Job 1: Scrape, Analyze, and Process All Data ---
+  scrape_and_process:
     runs-on: ubuntu-latest
-    needs: [scrape_analyze_minv, scrape_analyze_minzp] # Ensure scrape jobs ran (succeeded or failed)
-    if: ${{ always() }} # Always attempt to run this job
     outputs:
       data_changed: ${{ steps.commit_step.outputs.data_changed }}
       new_commit_sha: ${{ steps.commit_step.outputs.sha }}
+    secrets: inherit
 
     steps:
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-            fetch-depth: 0 # Fetch all history for potential diffing (optional, but good practice)
+          fetch-depth: 0
 
-      - name: Download minv data directory artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: minv-data
-          path: ./data/minv/ # Download directly into the target location
-        continue-on-error: true # Continue if artifact was not found (scrape job failed badly)
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup
 
-      - name: Download minzp data directory artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: minzp-data
-          path: ./data/minzp/ # Download directly into the target location
-        continue-on-error: true # Continue if artifact was not found
+      - name: Archive previous day's data for diffing
+        run: |
+          mv data/scraped/minv_2_documents.json data/scraped/minv_2_documents_old.json || true
+          mv data/scraped/minzp_documents.json data/scraped/minzp_documents_old.json || true
+        continue-on-error: true # Don't fail if files don't exist on first run
+
+      - name: Run Scrapers
+        id: scraping
+        run: python analyzer/run_scraping.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Run Document Processing
+        id: processing
+        run: python analyzer/run_processing.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and Push Data Changes
         id: commit_step
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Add the entire data directory.
           git add data/
-
-          # Check if there are any changes staged before committing
           if git diff-index --quiet HEAD --; then
             echo "No data changes detected to commit."
             echo "data_changed=false" >> $GITHUB_OUTPUT
           else
-            # Commit the changes
             git commit -m "data: Daily update ($(date +%Y-%m-%d))"
-
-            # Fetch latest changes from remote and rebase local branch
-            # This is crucial if the remote branch has new commits
-            echo "Fetching latest changes and rebasing..."
-            # Assuming your branch is 'main'. Adjust 'main' if necessary.
             git pull --rebase origin main
-
-            # Now push the changes (should be a fast-forward after rebase)
-            echo "Pushing changes..."
             git push origin main
-
-            # Get the SHA of the new commit and set it as an output
             NEW_SHA=$(git rev-parse HEAD)
-            echo "New commit SHA: $NEW_SHA"
             echo "sha=$NEW_SHA" >> $GITHUB_OUTPUT
             echo "data_changed=true" >> $GITHUB_OUTPUT
             echo "Data changes committed and pushed."
           fi
-        working-directory: ${{ github.workspace }}
-        if: always() # Attempt commit/push even if artifact downloads failed
 
-
-  # --- Job 4: Build Website ---
-  # This job runs AFTER the commit job to ensure it uses the latest data from the repo
+  # --- Job 2: Build Website ---
   build_website:
     runs-on: ubuntu-latest
-    needs: commit_data # Needs the commit job to have completed (succeeded or failed)
-    # Only run this job if the commit_data job detected and committed changes.
-    if: needs.commit_data.outputs.data_changed == 'true'
+    needs: scrape_and_process
+    if: needs.scrape_and_process.outputs.data_changed == 'true'
 
     steps:
       - name: Checkout specific commit
         uses: actions/checkout@v4
-        # Use the exact SHA from the commit_data job to avoid race conditions.
         with:
-          ref: ${{ needs.commit_data.outputs.new_commit_sha }}
-
-      # Data is now available directly in the ./data directory due to the checkout
+          ref: ${{ needs.scrape_and_process.outputs.new_commit_sha }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -133,16 +104,12 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './website/dist' # Specify the directory where Astro outputs its build files
+          path: './website/dist'
 
-
-  # --- Job 5: Deploy Website ---
+  # --- Job 3: Deploy Website ---
   deploy_website:
     runs-on: ubuntu-latest
-    needs: build_website # Needs the build job to have succeeded
-    # This job will only run if build_website runs and succeeds.
-    # Since build_website is skipped if there are no data changes, this job is also implicitly skipped.
-
+    needs: build_website
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
