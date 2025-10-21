@@ -2,6 +2,9 @@ import json
 import re
 import os
 
+# --- DEBUG FLAG ---
+DEBUG = True
+
 MAX_RECURSION_DEPTH = 3 # Maximálna hĺbka rekurzie
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "../../data")
@@ -16,7 +19,7 @@ def load_main_law_registry(registry_path: str) -> dict:
     try:
         with open(registry_path, 'r', encoding='utf-8') as f:
             registry = json.load(f)
-            print(f"Register zákonov úspešne načítaný z: {registry_path}")
+            if DEBUG: print(f"DEBUG: Register zákonov úspešne načítaný z: {registry_path}")
             return registry
     except FileNotFoundError:
         print(f"CHYBA: Súbor s registrom zákonov '{registry_path}' sa nenašiel.")
@@ -44,88 +47,125 @@ def build_law_identifier_regex(registry: dict) -> str:
 def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
     """
     Nájde referencie na zákony vrátane rozsahov a identifikácie podľa názvu.
+    Používa dvoj-prechodovú stratégiu na správne spracovanie reťazených odkazov.
     """
     normalized_text = text.replace('\n', ' ')
-    
-    # Dynamicky vložíme všetky možné názvy zákonov do výrazu
-    law_identifiers_pattern = build_law_identifier_regex(law_registry)
+    if DEBUG: print(f"\n{'='*20}\nDEBUG: Normalizovaný text:\n'{normalized_text}'\n{'='*20}")
 
-    # Fallback pattern for capturing unrecognized law names.
-    # It tries to match characters that are not a start of a new paragraph reference,
-    # newline, opening parenthesis, common punctuation followed by space, or specific conjunctions.
-    # This helps make reference['str'] more complete for unknown laws.
-    # Non-greedy, stops at logical boundaries.
-    # The negative lookahead ensures that the *next character* to be consumed
-    # is not the beginning of one of these stop sequences.
+    # --- Regex pre jednotlivé § klauzuly (s pomenovanými skupinami) ---
+    single_ref_pattern_named = r"""
+        §\s*(?P<paragraf_start>\d+[a-z]?)
+        (?: \s* (?:až|-|\.\.) \s* (?P<paragraf_end>\d+[a-z]?) )?
+        (?: \s+ods(?:t)?\.\s*(?P<odsek_start>\d+) (?: \s* (?:až|-|\.\.) \s* (?P<odsek_end>\d+) )? )?
+        (?: \s+písm\.\s*(?P<pismeno_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\)? )? )?
+    """
+    sub_ref_regex = re.compile(single_ref_pattern_named, re.IGNORECASE | re.VERBOSE)
+
+    # --- Vzor pre štruktúru jednej referencie (bez pomenovaných skupín) ---
+    single_ref_structure_pattern = r"""
+        §\s*\d+[a-z]?
+        (?: \s* (?:až|-|\.\.) \s* \d+[a-z]? )?
+        (?: \s+ods(?:t)?\.\s*\d+ (?: \s* (?:až|-|\.\.) \s* \d+ )? )?
+        (?: \s+písm\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+    """
+
+    # --- Hlavný Regex pre celý blok (vrátane zákona na konci) ---
     generic_law_text_pattern = r"""(?:(?:(?! # Stop if current position is followed by:
-        # More specific/less aggressive stop conditions for generic text
-        §\s*\d | # Start of another paragraph reference - strong stop
-        \s\( | # Space followed by opening parenthesis - strong stop (e.g. for "(ďalej len...)")
-        \s*[\r\n] | # Newline (optional preceding spaces) - strong stop
-        # Punctuation that clearly ends a phrase, especially if followed by space or common conjunction
-        # (?:[\.,;])(?=\s+(?:a|alebo|aj|i|no|či|že|keď|ak|aby|lebo|pretože|ktorý|ktorá|ktoré|$)) |
-        \s-\s | # Hyphen as a separator like "word - word" - strong stop
-        \s+(?:a|alebo|aj|i|no|či|teda|avšak|tiež|napríklad|okrem|vrátane|podľa|v zmysle|ktorý|ktorá|ktoré|zákona|predpisu)\b # Common words that usually end a reference
-    ).){1,85})""" # Max length for unknown law names, now greedy repetition
-    # Note: (?:[\.,;])(?=\s|$) will make the punctuation itself the last consumed char if it's a stop.
+        §\s*\d | # Start of another paragraph reference
+        \s\( | # Space followed by opening parenthesis
+        ,\s*   # Comma followed by optional space
+    ).){2,150})"""
+    
+    references_block_pattern = f"(?P<references_block>{single_ref_structure_pattern}(?:\\s*(?:,|a)\\s*{single_ref_structure_pattern})*)"
 
-    regex_pattern = re.compile(fr"""
-        §\s*(?P<paragraf_start>\d+[a-z]?)                               # Začiatok rozsahu paragrafu, napr. § 47
-        (?: \s* (?:až|-|\.\.) \s* (?P<paragraf_end>\d+[a-z]?) )?         # Voliteľný koniec rozsahu paragrafu, napr. ..49
-
-        (?:                                                             # Voliteľná skupina pre odsek
-            \s+ods(?:t)?\.\s*(?P<odsek_start>\d+)
-            (?: \s* (?:až|-|\.\.) \s* (?P<odsek_end>\d+) )?
-        )?
-        
-        (?:                                                             # Voliteľná skupina pre písmeno
-            \s+písm\.\s*(?P<pismeno_start>[a-z])\)?
-            (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\)? )?
-        )?
-
-        (?: # START Optional group for law identification
-            \s+ # Must be preceded by at least one space
-            (?: # Option 1: Has "zákona" or "zákona č."
+    main_regex = re.compile(fr"""
+        {references_block_pattern}
+        (?: # Voliteľná skupina pre identifikáciu zákona
+            \s+
+            (?:
                 zákona \s* (?:č\.\s*)? \s*
-                (?P<law_after_zakona> (?:{law_identifiers_pattern}) | (?:{generic_law_text_pattern}) )
-            |   # Option 2: No "zákona", just the identifier (or generic text)
-                (?P<law_direct> (?:{law_identifiers_pattern}) | (?:{generic_law_text_pattern}) )
+                (?P<law_after_zakona> {generic_law_text_pattern} )
+            |
+                (?P<law_direct> {generic_law_text_pattern} )
             )
-        )? # END Optional group for law identification
+        )?
     """, re.IGNORECASE | re.VERBOSE)
 
     found_references = []
-    for match in regex_pattern.finditer(normalized_text):
-        reference_data = match.groupdict()
-        reference_data['str'] = match.group(0).strip() # Celý nájdený text referencie
+    last_known_zakon_id = None
+    last_known_zakon_refname = None
+    anaphoric_phrases = {"citovaného zákona"}
+
+    match_count = 0
+    for match in main_regex.finditer(normalized_text):
+        match_count += 1
+        if DEBUG: print(f"\n--- DEBUG: Hlavný Regex Match #{match_count} ---")
+        if DEBUG: print(f"  Celý match: '{match.group(0)}'")
+
+        match_dict = match.groupdict()
+        if DEBUG: print(f"  Zachyt. skupina 'references_block': '{match_dict.get('references_block')}'")
         
-        # Get the captured law text from either 'law_after_zakona' or 'law_direct'
-        captured_law_text_val = reference_data.get('law_after_zakona') or reference_data.get('law_direct')
+        captured_law_text = match_dict.get('law_after_zakona') or match_dict.get('law_direct')
+        if DEBUG: print(f"  Zachyt. text zákona (surový): '{captured_law_text}'")
+        
+        zakon_id = None
+        zakon_refname = None
 
-        if captured_law_text_val:
-            # Try to map the captured text to a known law
-            found_known_law = False
-            for z_id, details in law_registry.items():
-                for name_in_registry in details['names']:
-                    # name_in_registry je teraz reťazec s regulárnym výrazom
-                    if re.fullmatch(name_in_registry, captured_law_text_val.strip(), re.IGNORECASE):
-                        reference_data['zakon_id'] = z_id
-                        reference_data['zakon_refname'] = captured_law_text_val.strip() # Text zachytený z dokumentu
-                        found_known_law = True
-                        break
-                if found_known_law:
-                    break
-            if not found_known_law:
-                # Law text was captured (possibly by generic_law_text_pattern) but not resolved to a known law
-                reference_data['zakon_refname'] = captured_law_text_val.strip()
+        if captured_law_text:
+            stripped_law_text = captured_law_text.strip()
+            if DEBUG: print(f"  Spracovávaný text zákona: '{stripped_law_text}'")
 
-        # Remove the temporary parsing groups
-        reference_data.pop('law_after_zakona', None)
-        reference_data.pop('law_direct', None)
+            if stripped_law_text.lower() in anaphoric_phrases:
+                if last_known_zakon_id:
+                    zakon_id = last_known_zakon_id
+                    zakon_refname = last_known_zakon_refname
+                    if DEBUG: print(f"  => ANAPHORIC REFERENCE! Použitý posledný známy zákon: ID='{zakon_id}', Meno='{zakon_refname}'")
+                else:
+                    zakon_refname = stripped_law_text
+                    if DEBUG: print(f"  => ANAPHORIC REFERENCE, ale predchádzajúci zákon nebol nájdený. Ponechaný text: '{zakon_refname}'")
+            else:
+                best_match_id = None
+                best_match_name = ""
+                for z_id, details in law_registry.items():
+                    for name_in_registry in details['names']:
+                        law_match = re.match(name_in_registry, stripped_law_text, re.IGNORECASE)
+                        if law_match:
+                            matched_text = law_match.group(0)
+                            if len(matched_text) > len(best_match_name):
+                                best_match_name = matched_text
+                                best_match_id = z_id
+                
+                if best_match_id:
+                    zakon_id = best_match_id
+                    zakon_refname = best_match_name
+                    last_known_zakon_id = zakon_id
+                    last_known_zakon_refname = zakon_refname
+                    if DEBUG: print(f"  => NÁJDENÝ ZNÁMY ZÁKON! ID: '{zakon_id}', Meno: '{zakon_refname}'. Aktualizovaný posledný známy zákon.")
+                else:
+                    zakon_refname = stripped_law_text
+                    if DEBUG: print(f"  => NEZNÁMY ZÁKON. Ponechaný text: '{zakon_refname}'")
+        else:
+            if DEBUG: print("  Text zákona nebol v tomto matchi nájdený.")
 
-        cleaned_reference = {k: v for k, v in reference_data.items() if v is not None}
-        found_references.append(cleaned_reference)
+        references_block_text = match_dict['references_block']
+        sub_match_count = 0
+        for sub_match in sub_ref_regex.finditer(references_block_text):
+            sub_match_count += 1
+            if DEBUG: print(f"  --- Sub-match #{sub_match_count} v bloku ---")
+            
+            reference_data = {k: v for k, v in sub_match.groupdict().items() if v is not None}
+            reference_data['str'] = sub_match.group(0).strip()
+            if DEBUG: print(f"    Pôvodné dáta: {reference_data}")
+            
+            if zakon_id:
+                reference_data['zakon_id'] = zakon_id
+            if zakon_refname:
+                reference_data['zakon_refname'] = zakon_refname
+            
+            if DEBUG: print(f"    Finálne dáta: {reference_data}")
+            found_references.append(reference_data)
 
+    if DEBUG: print(f"\nDEBUG: Celkový počet nájdených referencií: {len(found_references)}")
     return found_references
 
 def _get_canonical_ref_str(reference: dict) -> str:
