@@ -29,6 +29,10 @@ GENERAL_BOARD_SUFFIX = "&sekcia=uradna-tabula"
 # Flexible for leading zeros and space after dot
 DATE_REGEX = re.compile(r'\d{1,2}\.\s*\d{1,2}\.\s*\d{2,4}')
 
+# --- DEBUG FLAG ---
+# Set to True to print detailed debug information for each district being processed.
+DEBUG = True
+
 def is_potential_date_str(s):
     return DATE_REGEX.fullmatch(s) and len(s) < 15 # fullmatch ensures only the pattern is present
 
@@ -76,6 +80,10 @@ def scrape_district_environmental_board(kraj, okres, district_url):
     """
     # Construct the initial URL for the specific environmental board
     board_url = urljoin(BASE_URL, district_url + ENVIRO_BOARD_SUFFIX)
+
+    if DEBUG:
+        print(f"DEBUG: {kraj} - {okres} - {board_url}")
+
     print(f"Skúšam špecifickú URL: {board_url}")
 
     response = None

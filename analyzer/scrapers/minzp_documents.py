@@ -131,11 +131,20 @@ def scrape_minzp_documents():
     return all_documents
 
 if __name__ == '__main__':
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Scrape documents from minzp.sk.')
+    parser.add_argument('-o', '--output', help='Output JSON file path', required=True)
+    args = parser.parse_args()
+
     documents_data = scrape_minzp_documents()
     
-    # Výstup ako JSON na štandardný výstup
-    json_output = json.dumps(documents_data, indent=2, ensure_ascii=False)
-    print(json_output)
-
-    # Informácia o dokončení na stderr, aby sa nemiešala s JSON výstupom
-    print(f"\nSpracovanie dokončené. Nájdených {len(documents_data)} dokumentov.", file=sys.stderr)
+    # Výstup ako JSON do súboru
+    try:
+        with open(args.output, 'w', encoding='utf-8') as f:
+            json.dump(documents_data, f, indent=2, ensure_ascii=False)
+        print(f"\nSpracovanie dokončené. Nájdených {len(documents_data)} dokumentov.", file=sys.stderr)
+        print(f"Výstup uložený do: {os.path.abspath(args.output)}", file=sys.stderr)
+    except IOError as e:
+        print(f"Chyba pri zápise do súboru {args.output}: {e}", file=sys.stderr)
+        sys.exit(1)
