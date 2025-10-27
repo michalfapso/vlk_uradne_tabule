@@ -92,6 +92,16 @@ def main():
     documents_to_process = [doc for doc in unified_new if doc['url'] not in old_urls]
     
     print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie.")
+    
+    
+    with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
+        json.dump(unified_new, f, indent=2, ensure_ascii=False)
+    with open(f'{scraped_data_dir}/unified_old.json', 'w', encoding='utf-8') as f:
+        json.dump(unified_old, f, indent=2, ensure_ascii=False)
+    with open(f'{scraped_data_dir}/documents_to_process.json', 'w', encoding='utf-8') as f:
+        json.dump(documents_to_process, f, indent=2, ensure_ascii=False)
+
+    sys.exit(1) # Temporary for debugging only
 
     # --- 4. Spracovanie nových dokumentov ---
     if not documents_to_process:

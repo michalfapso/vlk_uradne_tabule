@@ -72,6 +72,15 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Upload unified_new artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified
+          path: |
+            data/scraped/unified_new.json
+            data/scraped/unified_old.json
+            data/scraped/documents_to_process.json
+
       - name: Commit and Push Data Changes
         id: commit_step
         run: |
