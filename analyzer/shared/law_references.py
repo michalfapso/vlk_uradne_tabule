@@ -3,7 +3,7 @@ import re
 import os
 
 # --- DEBUG FLAG ---
-DEBUG = True
+DEBUG = False
 
 MAX_RECURSION_DEPTH = 3 # Maximálna hĺbka rekurzie
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
