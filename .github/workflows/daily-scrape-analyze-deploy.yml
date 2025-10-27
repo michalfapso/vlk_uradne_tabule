@@ -48,6 +48,24 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Upload minv_1_regions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minv-1-regions
+          path: data/scraped/minv_1_regions.json
+
+      - name: Upload minv_2_documents artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minv-2-documents
+          path: data/scraped/minv_2_documents.json
+
+      - name: Upload minzp_documents artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minzp-documents
+          path: data/scraped/minzp_documents.json
+      
       - name: Run Document Processing
         id: processing
         run: python analyzer/run_processing.py
