@@ -213,7 +213,7 @@ def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=Non
     Returns a list of IDN5 values.
     """
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, '..', 'data', 'cadaster', 'USJ_hranice_0.csv')
+    file_path = os.path.join(current_dir, '..', '..', 'data', 'cadaster', 'USJ_hranice_0.csv')
 
     found_ids = []
     with open(file_path, mode='r', encoding='utf-8') as csvfile:
@@ -338,6 +338,9 @@ def get_geometry_of_a_parcel_set(data: dict):
         print("No geometries were found, so no file will be saved.", file=sys.stderr)
         return None
 
+    return gdf
+
+def save_to_file(gdf: gpd.GeoDataFrame, output_filepath: str):
     # Re-project the GeoDataFrame to the standard web map projection (EPSG:4326 - WGS 84)
     # GeoJSON standard officially recommends WGS 84. OpenLayers can handle the
     # reprojection from 4326 to 3857 (Web Mercator) on the fly.
@@ -347,9 +350,8 @@ def get_geometry_of_a_parcel_set(data: dict):
 
     # Save the re-projected data to a GeoJSON file
     # Option A: Standard GeoJSON (Recommended for servers with on-the-fly compression)
-    output_filename = "parcels.geojson"
-    gdf_wgs84.to_file(output_filename, driver='GeoJSON')
-    print(f"Successfully saved {len(gdf_wgs84)} parcels to '{output_filename}'")
+    gdf_wgs84.to_file(output_filepath, driver='GeoJSON')
+    print(f"Successfully saved {len(gdf_wgs84)} parcels to '{output_filepath}'")
 
     # Option B: Pre-compressed Gzip file (for basic servers). For this to work properly with OpenLayers, serve the file with the correct Content-Encoding: gzip and Content-Type: application/json headers.
     # import gzip
@@ -358,7 +360,20 @@ def get_geometry_of_a_parcel_set(data: dict):
     #     f.write(gdf_wgs84.to_json())
     # print(f"Successfully saved compressed parcels to '{output_filename_gz}'")
 
-    return gdf_wgs84 # Return the re-projected GeoDataFrame
+    # return gdf_wgs84 # Return the re-projected GeoDataFrame
+
+def load_from_file(input_filepath: str) -> gpd.GeoDataFrame | None:
+    if not os.path.exists(input_filepath):
+        print(f"File '{input_filepath}' does not exist.", file=sys.stderr)
+        return None
+
+    try:
+        gdf = gpd.read_file(input_filepath)
+        print(f"Successfully loaded {len(gdf)} parcels from '{input_filepath}'")
+        return gdf
+    except Exception as e:
+        print(f"Error loading file '{input_filepath}': {e}", file=sys.stderr)
+        return None
 
 def test_get_geometry_of_a_parcel_set():
     test_data = {
