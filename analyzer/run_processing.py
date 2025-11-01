@@ -2,7 +2,7 @@
 import json
 import os
 import sys
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Any
 
 # Úprava cesty, aby sme mohli importovať moduly z 'shared'
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.join(script_dir, 'shared'))
 
 # Importujeme zdieľané moduly
 from log_handler import log_status
+from datetime import datetime, timedelta
 # Ďalšie importy (napr. process_document) pridáme neskôr
 
 def load_json_file(filepath: str, default: Any = None) -> Any:
@@ -89,9 +90,27 @@ def main():
     unified_old = aggregate_and_transform(minv_old, minzp_old)
     
     old_urls = {doc['url'] for doc in unified_old}
-    documents_to_process = [doc for doc in unified_new if doc['url'] not in old_urls]
+    new_documents = [doc for doc in unified_new if doc['url'] not in old_urls]
+    print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
+
+    # --- 4. Filtrovanie podľa dátumu ---
+    print("Filtrujem nové dokumenty podľa dátumu (max 10 dní staré)...")
+    DAYS_OLD_THRESHOLD = 10
+    ten_days_ago = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
+    documents_to_process = []
+    for doc in new_documents:
+        date_str = doc.get('original_data', {}).get('datum')
+        if not date_str:
+            documents_to_process.append(doc) # Spracujeme, ak nemá dátum
+            continue
+        try:
+            doc_date = datetime.strptime(date_str, '%Y-%m-%d')
+            if doc_date >= ten_days_ago:
+                documents_to_process.append(doc)
+        except (ValueError, TypeError):
+            documents_to_process.append(doc) # Spracujeme, ak je formát dátumu neplatný
     
-    print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie.")
+    print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.")
     
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
@@ -101,9 +120,8 @@ def main():
     with open(f'{scraped_data_dir}/documents_to_process.json', 'w', encoding='utf-8') as f:
         json.dump(documents_to_process, f, indent=2, ensure_ascii=False)
 
-    sys.exit(1) # Temporary for debugging only
 
-    # --- 4. Spracovanie nových dokumentov ---
+    # --- 5. Spracovanie nových dokumentov ---
     if not documents_to_process:
         print("Žiadne nové dokumenty na spracovanie.")
         return
