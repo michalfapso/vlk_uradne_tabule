@@ -149,9 +149,11 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             if not text_content:
                 raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
         
+            print(f'Saving text doc to {txt_filepath}...')
             with open(txt_filepath, 'w', encoding='utf-8') as f:
                 f.write(text_content)
         else:
+            print(f'Loading text doc from {txt_filepath}...')
             with open(txt_filepath, 'r', encoding='utf-8') as f:
                 text_content = f.read()
 
@@ -160,9 +162,11 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         if not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
             laws_excerpts = get_law_excerpts_for_text(text_content)
             if laws_excerpts:
+                print(f'Saving laws to {laws_filepath}...')
                 with open(laws_filepath, 'w', encoding='utf-8') as f:
                     f.write(laws_excerpts)
         else:
+            print(f'Loading laws from {laws_filepath}...')
             with open(laws_filepath, 'r', encoding='utf-8') as f:
                 laws_excerpts = f.read()
         laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
@@ -170,19 +174,23 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
         analysis_json_filepath = os.path.join(output_dir, "analysis.json")
         if not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
+            print(f'Running LLM analysis...')
             analysis_input_text = text_content + "\n\n" + laws_excerpts
             analysis_result_str = analyze_text_document(analysis_input_text)
             if not analysis_result_str:
                 raise RuntimeError("LLM analýza nevrátila žiadny výsledok.")
 
             analysis_txt_filepath = os.path.join(output_dir, "analysis.txt")
+            print(f'Saving analysis to {analysis_txt_filepath}...')
             with open(analysis_txt_filepath, 'w', encoding='utf-8') as f:
                 f.write(analysis_result_str)
 
             analysis_data = json.loads(analysis_result_str)
+            print(f'Saving analysis to {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
                 json.dump(analysis_data, f, indent=2, ensure_ascii=False)
         else:
+            print(f'Loading from {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
                 analysis_data = json.load(f)
 
