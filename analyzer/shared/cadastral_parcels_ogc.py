@@ -4,6 +4,7 @@ import pandas as pd
 import io
 import csv, sys
 import os
+import json
 from dataclasses import dataclass, field
 from typing import List, Dict, Any, Literal
 
@@ -51,8 +52,14 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
 
         nationalCadastralReferences = []
         for zoningReferenceParcels in parcels_list:
-            for parcelLabel in zoningReferenceParcels.parcelLabels:
-                nationalCadastralReferences.append(f"{zoningReferenceParcels.nationalCadastralZoningReference}_{parcelLabel}.{cad_type}")
+            if zoningReferenceParcels.parcelLabels:
+                for parcelLabel in zoningReferenceParcels.parcelLabels:
+                    nationalCadastralReferences.append(f"{zoningReferenceParcels.nationalCadastralZoningReference}_{parcelLabel}.{cad_type}")
+            else:
+                zone_gdf = get_cadastral_zone(zoningReferenceParcels.nationalCadastralZoningReference, cad_type)
+                if zone_gdf is not None and not zone_gdf.empty:
+                    # Prevedieme GeoDataFrame na GeoJSON features a pridáme ich
+                    all_features.extend(json.loads(zone_gdf.to_json())['features'])
 
         if not nationalCadastralReferences:
             continue
@@ -323,7 +330,7 @@ def get_geometry_of_a_parcel_set(data: dict):
         nationalCadastralZoningReference = get_nationalCadastralZoningReference(ku_name, obec, okres, kraj)
         for parcel_set in ku.get('parcely', []):
             parcel_type = parcel_set.get('typ', '').upper()
-            parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else None
+            parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else 'C'
             parcel_set['typ'] = parcel_type  # Normalize type
             
             request.append(CadastralZoningReferenceParcels(
@@ -331,6 +338,7 @@ def get_geometry_of_a_parcel_set(data: dict):
                 cadasterType=parcel_type,
                 parcelLabels=parcel_set.get('cisla', [])
             ))
+
             
     gdf = get_geometry_of_cadastral_zone_parcels(request)
 
