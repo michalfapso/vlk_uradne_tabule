@@ -119,57 +119,74 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         os.remove(status_filepath)
 
     try:
-        orig_file = download_document(doc_url, output_dir, 'orig')
-        if not orig_file:
-            raise RuntimeError("Stiahnutie zlyhalo.")
-
         txt_filepath = os.path.join(output_dir, "text.txt")
-        
-        if orig_file.lower().endswith('.zip'):
-            extracted_dir = os.path.join(output_dir, "extracted")
-            if os.path.exists(extracted_dir):
-                shutil.rmtree(extracted_dir)
-            os.makedirs(extracted_dir)
-            with zipfile.ZipFile(orig_file, 'r') as zip_ref:
-                zip_ref.extractall(extracted_dir)
+        if not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
+            orig_file = download_document(doc_url, output_dir, 'orig')
+            if not orig_file:
+                raise RuntimeError("Stiahnutie zlyhalo.")
             
-            all_texts = []
-            for root, _, files in os.walk(extracted_dir):
-                for name in files:
-                    try:
-                        file_path = os.path.join(root, name)
-                        all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path)}")
-                    except Exception as e:
-                        log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
-            text_content = "\n\n".join(all_texts)
+            if orig_file.lower().endswith('.zip'):
+                extracted_dir = os.path.join(output_dir, "extracted")
+                if os.path.exists(extracted_dir):
+                    shutil.rmtree(extracted_dir)
+                os.makedirs(extracted_dir)
+                with zipfile.ZipFile(orig_file, 'r') as zip_ref:
+                    zip_ref.extractall(extracted_dir)
+                
+                all_texts = []
+                for root, _, files in os.walk(extracted_dir):
+                    for name in files:
+                        try:
+                            file_path = os.path.join(root, name)
+                            all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path)}")
+                        except Exception as e:
+                            log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
+                text_content = "\n\n".join(all_texts)
+            else:
+                text_content = _convert_to_text(orig_file)
+
+            text_content = text_content.strip()
+            if not text_content:
+                raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
+        
+            with open(txt_filepath, 'w', encoding='utf-8') as f:
+                f.write(text_content)
         else:
-            text_content = _convert_to_text(orig_file)
+            with open(txt_filepath, 'r', encoding='utf-8') as f:
+                text_content = f.read()
 
-        if not text_content or not text_content.strip():
-            raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
-        
-        with open(txt_filepath, 'w', encoding='utf-8') as f:
-            f.write(text_content)
 
-        laws_excerpts = get_law_excerpts_for_text(text_content)
-        if laws_excerpts:
-            with open(os.path.join(output_dir, 'laws.txt'), 'w', encoding='utf-8') as f:
-                f.write(laws_excerpts)
-            laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
+        laws_filepath = os.path.join(output_dir, "laws.txt")
+        if not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
+            laws_excerpts = get_law_excerpts_for_text(text_content)
+            if laws_excerpts:
+                with open(laws_filepath, 'w', encoding='utf-8') as f:
+                    f.write(laws_excerpts)
+        else:
+            with open(laws_filepath, 'r', encoding='utf-8') as f:
+                laws_excerpts = f.read()
+        laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
 
-        analysis_input_text = text_content + "\n\n" + laws_excerpts
-        analysis_result_str = analyze_text_document(analysis_input_text)
-        if not analysis_result_str:
-            raise RuntimeError("LLM analýza nevrátila žiadny výsledok.")
 
-        analysis_data = json.loads(analysis_result_str)
-        
-        with open(os.path.join(output_dir, 'analysis.txt'), 'w', encoding='utf-8') as f:
-            f.write(analysis_result_str)
-            
-        with open(os.path.join(output_dir, 'analysis.json'), 'w', encoding='utf-8') as f:
-            json.dump(analysis_data, f, indent=2, ensure_ascii=False)
-            
+        analysis_json_filepath = os.path.join(output_dir, "analysis.json")
+        if not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
+            analysis_input_text = text_content + "\n\n" + laws_excerpts
+            analysis_result_str = analyze_text_document(analysis_input_text)
+            if not analysis_result_str:
+                raise RuntimeError("LLM analýza nevrátila žiadny výsledok.")
+
+            analysis_txt_filepath = os.path.join(output_dir, "analysis.txt")
+            with open(analysis_txt_filepath, 'w', encoding='utf-8') as f:
+                f.write(analysis_result_str)
+
+            analysis_data = json.loads(analysis_result_str)
+            with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
+                json.dump(analysis_data, f, indent=2, ensure_ascii=False)
+        else:
+            with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
+                analysis_data = json.load(f)
+
+
         print(f"Dokument {doc_id} bol úspešne spracovaný.")
         return True
 
