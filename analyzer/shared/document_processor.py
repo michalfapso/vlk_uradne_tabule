@@ -204,8 +204,8 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         traceback.print_exc(file=sys.stderr)
         log_status(status_filepath, "error", error_message)
         try:
-            with open(os.path.join(output_dir, 'analysis.json'), 'w', encoding='utf-8') as f:
+            with open(os.path.join(output_dir, 'status.json'), 'w', encoding='utf-8') as f:
                 json.dump({"status": "error", "error_message": str(e)}, f, indent=2, ensure_ascii=False)
         except Exception as e_json:
-            log_status(status_filepath, "error", f"Nepodarilo sa zapísať chybový stav do analysis.json: {e_json}")
+            log_status(status_filepath, "error", f"Nepodarilo sa zapísať chybový stav do status.json: {e_json}")
         return False
