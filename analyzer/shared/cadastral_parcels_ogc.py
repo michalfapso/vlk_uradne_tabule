@@ -30,6 +30,7 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
 
     # Group parcels by cadasterType
     parcels_by_type = {'C': [], 'E': []}
+    print('get_geometry_of_cadastral_zone_parcels() zoningReferenceParcelsList:', zoningReferenceParcelsList)
     for item in zoningReferenceParcelsList:
         parcels_by_type[item.cadasterType].append(item)
 
@@ -50,6 +51,7 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
         if not parcels_list:
             continue
 
+        print('get_geometry_of_cadastral_zone_parcels() parcels_list:', parcels_list)
         nationalCadastralReferences = []
         for zoningReferenceParcels in parcels_list:
             if zoningReferenceParcels.parcelLabels:
@@ -59,7 +61,16 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
                 zone_gdf = get_cadastral_zone(zoningReferenceParcels.nationalCadastralZoningReference, cad_type)
                 if zone_gdf is not None and not zone_gdf.empty:
                     # Prevedieme GeoDataFrame na GeoJSON features a pridáme ich
-                    all_features.extend(json.loads(zone_gdf.to_json())['features'])
+                    print('get_geometry_of_cadastral_zone_parcels() zone_gdf:', zone_gdf)
+                    print('get_geometry_of_cadastral_zone_parcels() zone_gdf columns:', zone_gdf.columns)
+                    print('get_geometry_of_cadastral_zone_parcels() zone_gdf geometry column:', zone_gdf.geometry)
+                    print('get_geometry_of_cadastral_zone_parcels() zone_gdf geometry column:', zone_gdf.geometry.name)
+                    zone_jsonstr = zone_gdf.to_json()
+                    zone_json = json.loads(zone_jsonstr)
+                    print('get_geometry_of_cadastral_zone_parcels() zone_json:', zone_json)
+                    zone_json_features = zone_json.get('features', [])
+                    print('get_geometry_of_cadastral_zone_parcels() zone_json_features:', zone_json_features)
+                    all_features.extend(zone_json_features)
 
         if not nationalCadastralReferences:
             continue
@@ -85,6 +96,7 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
                 response = requests.get(next_url, headers=headers, timeout=90)
                 response.raise_for_status()
                 data = response.json()
+                print('get_geometry_of_cadastral_zone_parcels() data:', data)
                 if not crs_data and 'crs' in data:
                     crs_data = data
                 
@@ -116,13 +128,8 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
     gs = gpd.GeoSeries(geometries)
     # 3. Combine into a GeoDataFrame
     final_gdf = gpd.GeoDataFrame(df, geometry=gs)
-
-    if crs_data and 'crs' in crs_data:
-        final_gdf.set_crs(crs_data['crs']['properties']['name'], inplace=True)
-    else:
-        # Fallback CRS if not found in any response. EPSG:5514 is S-JTSK.
-        print("Warning: CRS not found in API response, falling back to EPSG:5514.", file=sys.stderr)
-        final_gdf.set_crs("EPSG:5514", inplace=True)
+    # The INSPIRE service provides data in ETRS89 (EPSG:4258)
+    final_gdf.set_crs("EPSG:4258", inplace=True)
 
     return final_gdf
 
@@ -184,8 +191,8 @@ def get_parcels_by_nationalCadastralReference(national_references: list[str]) ->
         return None
 
     final_gdf = gpd.GeoDataFrame.from_features(all_features)
-    if 'crs' in data:
-        final_gdf.set_crs(data['crs']['properties']['name'], inplace=True)
+    # The INSPIRE service provides data in ETRS89 (EPSG:4258)
+    final_gdf.set_crs("EPSG:4258", inplace=True)
 
     return final_gdf
 
@@ -288,6 +295,7 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
         response = requests.get(url, headers=headers, timeout=90)
         response.raise_for_status()
         data = response.json()
+        print('get_cadastral_zone() data:', data)
         if "features" in data and data["features"]:
             features.extend(data["features"])
     except requests.exceptions.RequestException as e:
@@ -300,9 +308,13 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
         print("Pre zadané nationalCadastralZoningReference nebolo nájdené žiadne katastrálne územie.")
         return None
 
-    final_gdf = gpd.GeoDataFrame.from_features(features)
-    if 'crs' in data:
-        final_gdf.set_crs(data['crs']['properties']['name'], inplace=True)
+    properties_list = [f['properties'] for f in features]
+    df = pd.DataFrame(properties_list)
+    geometries = [gpd.geoseries.shapely.geometry.shape(f['geometry']) if f.get('geometry') else None for f in features]
+    final_gdf = gpd.GeoDataFrame(df, geometry=geometries)
+
+    print('get_cadastral_zone() final_gdf columns:', final_gdf.columns)
+    final_gdf.set_crs("EPSG:4258", inplace=True)
 
     return final_gdf
 
@@ -328,7 +340,12 @@ def get_geometry_of_a_parcel_set(data: dict):
     for ku in data.get('katastralne_uzemia', []):
         ku_name = ku.get('nazov')
         nationalCadastralZoningReference = get_nationalCadastralZoningReference(ku_name, obec, okres, kraj)
-        for parcel_set in ku.get('parcely', []):
+        print('get_geometry_of_a_parcel_set() nationalCadastralZoningReference:', nationalCadastralZoningReference)
+        parcely = ku.get('parcely', [])
+        if not parcely:
+            parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
+        for parcel_set in parcely:
+            print('get_geometry_of_a_parcel_set() parcel_set:', parcel_set)
             parcel_type = parcel_set.get('typ', '').upper()
             parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else 'C'
             parcel_set['typ'] = parcel_type  # Normalize type
@@ -339,7 +356,9 @@ def get_geometry_of_a_parcel_set(data: dict):
                 parcelLabels=parcel_set.get('cisla', [])
             ))
 
-            
+
+    print('get_geometry_of_a_parcel_set() data:', data) 
+    print('get_geometry_of_a_parcel_set() request:', request) 
     gdf = get_geometry_of_cadastral_zone_parcels(request)
 
     if gdf is None or gdf.empty:
@@ -348,7 +367,7 @@ def get_geometry_of_a_parcel_set(data: dict):
 
     return gdf
 
-def save_to_file(gdf: gpd.GeoDataFrame, output_filepath: str):
+def gdf_save_to_file(gdf: gpd.GeoDataFrame, output_filepath: str):
     # Re-project the GeoDataFrame to the standard web map projection (EPSG:4326 - WGS 84)
     # GeoJSON standard officially recommends WGS 84. OpenLayers can handle the
     # reprojection from 4326 to 3857 (Web Mercator) on the fly.
@@ -370,7 +389,7 @@ def save_to_file(gdf: gpd.GeoDataFrame, output_filepath: str):
 
     # return gdf_wgs84 # Return the re-projected GeoDataFrame
 
-def load_from_file(input_filepath: str) -> gpd.GeoDataFrame | None:
+def gdf_load_from_file(input_filepath: str) -> gpd.GeoDataFrame | None:
     if not os.path.exists(input_filepath):
         print(f"File '{input_filepath}' does not exist.", file=sys.stderr)
         return None
@@ -458,12 +477,13 @@ def test_get_geometry_of_a_parcel_set():
 
 if __name__ == '__main__':
     # test_get_parcels_by_nationalCadastralReference()
-    test_get_geometry_of_a_parcel_set()
+    # test_get_geometry_of_a_parcel_set()
 
     # assert get_nationalCadastralZoningReference('Abrahámovce', okres='Bardejov') == '800066'
     # assert get_nationalCadastralZoningReference('Abrahámovce', okres='Kežmarok') == '800074'
 
-    # nationalCadastralZoningReference = get_nationalCadastralZoningReference('Abrahámovce', okres='Bardejov')
-    # print('nationalCadastralZoningReference:', nationalCadastralZoningReference)
-    # zone = get_cadastral_zone(nationalCadastralZoningReference, 'C')
-    # print('zone:', zone)
+    nationalCadastralZoningReference = get_nationalCadastralZoningReference('Hnilec', okres='Spišská Nová Ves')
+    print('nationalCadastralZoningReference:', nationalCadastralZoningReference)
+    zone = get_cadastral_zone(nationalCadastralZoningReference, 'C')
+    print('zone:', zone)
+    gdf_save_to_file(zone, '/tmp/zone_hnilec.geojson')
