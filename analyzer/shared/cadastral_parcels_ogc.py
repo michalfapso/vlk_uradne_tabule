@@ -23,6 +23,35 @@ class CadastralZoningReferenceParcels:
     cadasterType: Literal['C', 'E']
     parcelLabels: List[str]
 
+def _make_request(method, url, caller_name, headers, **kwargs):
+    retry_delays = [5, 10, 30, 60, 120]  # Delays in seconds for retries
+    for attempt, delay in enumerate(retry_delays + [None]):
+        try:
+            print(f'{caller_name}() request {method} url:', url)
+            if method.upper() == 'GET':
+                response = requests.get(url, headers=headers, **kwargs)
+            elif method.upper() == 'POST':
+                response = requests.post(url, headers=headers, **kwargs)
+            else:
+                raise ValueError("Unsupported HTTP method")
+            response.raise_for_status()
+            print('response:', response)
+            print('response:', response.text)
+            return response.json()
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 500 and delay is not None:
+                print(f"Server vrátil chybu 500. Opakujem pokus o {delay} sekúnd... (Pokus {attempt + 1}/{len(retry_delays)})", file=sys.stderr)
+                time.sleep(delay)
+                continue
+            print(f"{caller_name}() Chyba pri sťahovaní dát (HTTP): {e}", file=sys.stderr)
+            if e.response:
+                print(f"Odpoveď servera: {e.response.text}", file=sys.stderr)
+            return None  # Non-500 error or retries exhausted
+        except requests.exceptions.RequestException as e:
+            print(f"{caller_name}() Chyba pri sťahovaní dát: {e}", file=sys.stderr)
+            return None  # Other request exception
+    return None
+
 def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[CadastralZoningReferenceParcels]) -> gpd.GeoDataFrame | None:
     """
     Získa geometriu (polygón) parcely C pomocou WFS služby INSPIRE.
@@ -99,39 +128,24 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
         # Aj pri filtrovaní musíme počítať so stránkovaním, hoci je menej pravdepodobné
         next_url = requests.Request('GET', configs[cad_type]['url'], params=params).prepare().url
 
-        retry_delays = [5, 10, 30, 60, 120] # Delays in seconds for retries
         while next_url:
-            for attempt, delay in enumerate(retry_delays + [None]): # Add None for the last attempt which won't sleep
-                try:
-                    response = requests.get(next_url, headers=headers, timeout=90)
-                    response.raise_for_status()
-                    data = response.json()
-                    # print('get_geometry_of_cadastral_zone_parcels() data:', data)
-                    if not crs_data and 'crs' in data:
-                        crs_data = data
-                    
-                    if "features" in data and data["features"]:
-                        all_features.extend(data["features"])
-                    
-                    next_url = None
-                    if "links" in data:
-                        for link in data["links"]:
-                            if link.get("rel") == "next":
-                                next_url = link.get("href")
-                                break
-                    break # Success, exit retry loop for this URL
-                except requests.exceptions.HTTPError as e:
-                    if e.response.status_code == 500 and delay is not None:
-                        print(f"Server vrátil chybu 500. Opakujem pokus o {delay} sekúnd... (Pokus {attempt + 1}/{len(retry_delays)})", file=sys.stderr)
-                        time.sleep(delay)
-                        continue
-                    print(f"get_geometry_of_cadastral_zone_parcels() Chyba pri sťahovaní dát (HTTP): {e}", file=sys.stderr)
-                    if e.response:
-                        print(f"Odpoveď servera: {e.response.text}", file=sys.stderr)
-                    return None # Non-500 error or retries exhausted
-                except requests.exceptions.RequestException as e:
-                    print(f"get_geometry_of_cadastral_zone_parcels() Chyba pri sťahovaní dát: {e}", file=sys.stderr)
-                    return None # Other request exception
+            data = _make_request('GET', next_url, 'get_geometry_of_cadastral_zone_parcels', headers=headers, timeout=90)
+            print('get_geometry_of_cadastral_zone_parcels() data:', data)
+            if data is None:
+                return None # Request failed
+
+            if not crs_data and 'crs' in data:
+                crs_data = data
+            
+            if "features" in data and data["features"]:
+                all_features.extend(data["features"])
+            
+            next_url = None
+            if "links" in data:
+                for link in data["links"]:
+                    if link.get("rel") == "next":
+                        next_url = link.get("href")
+                        break
 
     if not all_features:
         print("Pre zadané referencie neboli nájdené žiadne parcely.", file=sys.stderr)
@@ -194,25 +208,19 @@ def get_parcels_by_nationalCadastralReference(national_references: list[str]) ->
     next_url = requests.Request('GET', base_url, params=params).prepare().url
 
     while next_url:
-        try:
-            response = requests.get(next_url, headers=headers, timeout=90)
-            response.raise_for_status()
-            data = response.json()
-            
-            if "features" in data and data["features"]:
-                all_features.extend(data["features"])
-            
-            next_url = None
-            if "links" in data:
-                for link in data["links"]:
-                    if link.get("rel") == "next":
-                        next_url = link.get("href")
-                        break
-        except requests.exceptions.RequestException as e:
-            print(f"get_parcels_by_nationalCadastralReference() Chyba pri sťahovaní dát: {e}", file=sys.stderr)
-            if e.response:
-                print(f"Odpoveď servera: {e.response.text}", file=sys.stderr)
-            return None
+        data = _make_request('GET', next_url, 'get_parcels_by_nationalCadastralReference', headers=headers, timeout=90)
+        if data is None:
+            return None # Request failed
+
+        if "features" in data and data["features"]:
+            all_features.extend(data["features"])
+        
+        next_url = None
+        if "links" in data:
+            for link in data["links"]:
+                if link.get("rel") == "next":
+                    next_url = link.get("href")
+                    break
 
     if not all_features:
         print("Pre zadané referencie neboli nájdené žiadne parcely.", file=sys.stderr)
@@ -348,19 +356,14 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
 
     features = []
     url = requests.Request('GET', configs[cadastralType]['url'], params=params).prepare().url
-    try:
-        response = requests.get(url, headers=headers, timeout=90)
-        response.raise_for_status()
-        data = response.json()
-        # print('get_cadastral_zone() data:', data)
-        if "features" in data and data["features"]:
-            features.extend(data["features"])
-    except requests.exceptions.RequestException as e:
-        print(f"get_cadastral_zone() Chyba pri sťahovaní dát: {e}", file=sys.stderr)
-        if e.response:
-            print(f"Odpoveď servera: {e.response.text}", file=sys.stderr)
+    data = _make_request('GET', url, 'get_cadastral_zone', headers=headers, timeout=90)
+    print('get_cadastral_zone() data:', data)
+    if data is None:
         return None
 
+    if "features" in data and data["features"]:
+        print('get_cadastral_zone() found features:', data["features"])
+        features.extend(data["features"])
     if not features:
         print("Pre zadané nationalCadastralZoningReference nebolo nájdené žiadne katastrálne územie.", file=sys.stderr)
         return None
