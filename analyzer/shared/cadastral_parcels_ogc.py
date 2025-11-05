@@ -256,7 +256,7 @@ def test_get_parcels_by_nationalCadastralReference():
         print(vybrane_parcely_gdf[['label', 'nationalCadastralReference', 'areaValue']])
 
 
-def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=None, kraj=None):
+def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=None, kraj=None) -> List[str]:
     """
     Loads the file ../data/cadaster/USJ_hranice_0.csv and finds all rows matching the given arguments.
     NM2 is kraj, NM3 is okres, NM4 is obec, NM5 is katastralneUzemie.
@@ -274,9 +274,9 @@ def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=Non
     print('get_nationalCadastralZoningReferences() norm_kraj:', norm_kraj, 'norm_okres:', norm_okres, 'norm_obec:', norm_obec, 'norm_ku:', norm_ku)
 
     found_ids = []
-    # print(f'get_nationalCadastralZoningReference() Loading cadastral data from {file_path}...')
+    # print(f'get_nationalCadastralZoningReferences() Loading cadastral data from {file_path}...')
     with open(file_path, mode='r', encoding='utf-8') as csvfile:
-        # print('get_nationalCadastralZoningReference() CSV file opened successfully.')
+        # print('get_nationalCadastralZoningReferences() CSV file opened successfully.')
         reader = csv.reader(csvfile)
         header = next(reader)  # Skip header
         
@@ -313,24 +313,24 @@ def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=Non
             # Skúsime odstrániť obec z názvu katastrálneho územia
             katastralneUzemie2 = re.sub(r'^' + obec + r'\s*-\s*', '', katastralneUzemie)
             if katastralneUzemie2 != katastralneUzemie:
-                return get_nationalCadastralZoningReference(katastralneUzemie2, obec, okres, kraj)
+                return get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
         if (okres is not None) and (katastralneUzemie is not None):
             # Skúsime odstrániť okres z názvu katastrálneho územia
             katastralneUzemie2 = re.sub(r'^' + okres + r'\s*-\s*', '', katastralneUzemie)
             if katastralneUzemie2 != katastralneUzemie:
-                return get_nationalCadastralZoningReference(katastralneUzemie2, obec, okres, kraj)
+                return get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
         if obec is not None:
             # Skúsime zavolať bez obce
-            return get_nationalCadastralZoningReference(katastralneUzemie, None, okres, kraj)
+            return get_nationalCadastralZoningReferences(katastralneUzemie, None, okres, kraj)
         if okres is not None:
             # Skúsime zavolať bez okresu
-            return get_nationalCadastralZoningReference(katastralneUzemie, obec, None, kraj)
+            return get_nationalCadastralZoningReferences(katastralneUzemie, obec, None, kraj)
         if kraj is not None:
             # Skúsime zavolať bez kraja
-            return get_nationalCadastralZoningReference(katastralneUzemie, obec, okres, None)
+            return get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, None)
         raise Exception(f"Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:{kraj}, okres:{okres}, obec:{obec}, katastralneUzemie:{katastralneUzemie}")
 
-    return found_ids[0]
+    return found_ids
 
 
 def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Literal['C', 'E']):
@@ -394,28 +394,38 @@ def get_geometry_of_a_parcel_set(data: dict):
     kraj  = data.get('kraj')
     okres = data.get('okres')
     obec  = data.get('obec')
-    if kraj is not None or okres is not None:
-        obec = None # If kraj or okres is specified, ignore obec to allow for zones outside the obec. Maybe also okres could be ignored when kraj is specified?
 
     request : List[CadastralZoningReferenceParcels] = []
-    for ku in data.get('katastralne_uzemia', []):
-        ku_name = ku.get('nazov')
-        print(f'ku_name:{ku_name} obec:{obec} okres:{okres} kraj:{kraj}')
-        nationalCadastralZoningReference = get_nationalCadastralZoningReference(ku_name, obec, okres, kraj)
-        # print(f'get_geometry_of_a_parcel_set() nationalCadastralZoningReference: {nationalCadastralZoningReference}')
-        parcely = ku.get('parcely', [])
-        if not parcely:
-            parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
-        for parcel_set in parcely:
-            # print('get_geometry_of_a_parcel_set() parcel_set:', parcel_set)
-            parcel_type = parcel_set.get('typ', '').upper()
-            parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else 'C'
-            parcel_set['typ'] = parcel_type  # Normalize type
-            
+    katastralne_uzemia = data.get('katastralne_uzemia', [])
+    if katastralne_uzemia:
+        for ku in katastralne_uzemia:
+            ku_name = ku.get('nazov')
+            print(f'ku_name:{ku_name} obec:{obec} okres:{okres} kraj:{kraj}')
+            nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(ku_name, obec, okres, kraj)
+            print('nationalCadastralZoningReferences:', nationalCadastralZoningReferences)
+            for nationalCadastralZoningReference in nationalCadastralZoningReferences:
+                # print(f'get_geometry_of_a_parcel_set() nationalCadastralZoningReference: {nationalCadastralZoningReference}')
+                parcely = ku.get('parcely', [])
+                if not parcely:
+                    parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
+                for parcel_set in parcely:
+                    # print('get_geometry_of_a_parcel_set() parcel_set:', parcel_set)
+                    parcel_type = parcel_set.get('typ', '').upper()
+                    parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else 'C'
+                    parcel_set['typ'] = parcel_type  # Normalize type
+                    
+                    request.append(CadastralZoningReferenceParcels(
+                        nationalCadastralZoningReference=nationalCadastralZoningReference,
+                        cadasterType=parcel_type,
+                        parcelLabels=parcel_set.get('cisla', [])
+                    ))
+    else:
+        nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(None, obec, okres, kraj)
+        for nationalCadastralZoningReference in nationalCadastralZoningReferences:
             request.append(CadastralZoningReferenceParcels(
                 nationalCadastralZoningReference=nationalCadastralZoningReference,
-                cadasterType=parcel_type,
-                parcelLabels=parcel_set.get('cisla', [])
+                cadasterType='C',
+                parcelLabels=[]
             ))
 
 
