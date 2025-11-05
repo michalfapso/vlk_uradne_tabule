@@ -8,6 +8,7 @@ import glob
 import shutil
 import zipfile
 import subprocess
+import geopandas as gpd
 
 # Importujeme ostatné zdieľané moduly
 from log_handler import log_status
@@ -15,6 +16,7 @@ from get_doc_id import get_doc_id
 from pdf_to_txt import extract_text_from_pdf
 from llm_analyzer import analyze_text_document
 from law_references import get_law_excerpts_for_text
+from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas
 
 PANDOC_FORMAT_MAPPINGS = [
     ('.docx', 'docx'), ('.doc', 'rtf'), ('.rtf', 'rtf'),
@@ -194,6 +196,30 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
                 analysis_data = json.load(f)
 
+
+        gis_filepath = os.path.join(output_dir, "gis.geojson")
+        if not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
+            print(f'Getting geometry of parcel set...')
+            # print('analysis_data:', analysis_data)
+            place_info = analysis_data.get('miesto_realizacie', {})
+            gdf = get_geometry_of_a_parcel_set(place_info)
+            print(f'Saving geometry to {gis_filepath}...')
+            gdf_save_to_file(gdf, gis_filepath)
+        else:
+            print(f'Loading geometry from {gis_filepath}...')
+            gdf = gdf_load_from_file(gis_filepath)
+
+
+        if 'zasiahnute_chranene_uzemia' in analysis_data:
+            print('Intersections with protected areas already computed. Skipping...')
+        else:
+            print('Intersections with protected areas...')
+            intersections = get_intersections_with_protected_areas(gdf, status_filepath)
+            print('intersections:', intersections)
+            analysis_data['zasiahnute_chranene_uzemia'] = intersections
+            print(f'Updating analysis JSON at {analysis_json_filepath}...')
+            with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
+                json.dump(analysis_data, f, indent=2, ensure_ascii=False)
 
         print(f"Dokument {doc_id} bol úspešne spracovaný.")
         return True
