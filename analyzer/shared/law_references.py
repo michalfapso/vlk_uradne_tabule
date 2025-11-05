@@ -193,7 +193,7 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
     if not zakon_id:
         original_ref_str = reference.get('str', '(text referencie nebol zachytený)')
         law_text_in_ref = reference.get('zakon_refname', '(text zákona nebol špecifikovaný alebo rozpoznaný)')
-        current_block_texts.append(f"Chyba: Nebol nájdený kľúč zákona pre referenciu '{original_ref_str}'. Text zákona v referencii: '{law_text_in_ref}'.")
+        # print(f"Chyba: Nebol nájdený kľúč zákona pre referenciu '{original_ref_str}'. Text zákona v referencii: '{law_text_in_ref}'.")
         return [current_block_texts]
 
     if visited_references is None:
@@ -410,7 +410,7 @@ def get_law_excerpts_for_text(text: str) -> str:
                     laws_count += 1
         laws = laws.strip()
         print('laws_count:', laws_count)
-        print('laws:', laws)
+        # print('laws:', laws)
     return laws
 
 # --- Príklad použitia ---
