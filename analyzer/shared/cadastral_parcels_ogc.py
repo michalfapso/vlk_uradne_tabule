@@ -10,6 +10,7 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Any, Literal
 import time
 from log_handler import log_status
+import unicodedata
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROTECTED_AREAS_DATA_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'data', 'protected_areas')
@@ -150,6 +151,16 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
 
     return final_gdf
 
+def _normalize_string(s: str | None) -> str | None:
+    """
+    Normalizuje reťazec prevedením na malé písmená a odstránením diakritiky.
+    """
+    if not s:
+        return s
+    # NFD normalizácia rozdelí znaky na základný znak a diakritické znamienko.
+    # Následne sa odfiltrujú všetky diakritické znamienka (kategória 'Mn').
+    return "".join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn').lower()
+
 
 def get_parcels_by_nationalCadastralReference(national_references: list[str]) -> gpd.GeoDataFrame | None:
     """
@@ -247,6 +258,13 @@ def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=Non
 
     kraj = re.sub(r'\s*kraj', '', kraj) if kraj else None
 
+    # Normalizácia vstupných parametrov
+    norm_kraj = _normalize_string(kraj)
+    norm_okres = _normalize_string(okres)
+    norm_obec = _normalize_string(obec)
+    norm_ku = _normalize_string(katastralneUzemie)
+    print('get_nationalCadastralZoningReferences() norm_kraj:', norm_kraj, 'norm_okres:', norm_okres, 'norm_obec:', norm_obec, 'norm_ku:', norm_ku)
+
     found_ids = []
     # print(f'get_nationalCadastralZoningReference() Loading cadastral data from {file_path}...')
     with open(file_path, mode='r', encoding='utf-8') as csvfile:
@@ -267,14 +285,14 @@ def get_nationalCadastralZoningReference(katastralneUzemie, obec=None, okres=Non
 
         for row in reader:
             # print('row:', row)
-            # print(f'Checking row for match: kraj: {kraj} | {row[kraj_idx]} -> {kraj and row[kraj_idx] == kraj}')
-            if kraj and row[kraj_idx].lower() != kraj.lower():
+            # Porovnávame normalizované hodnoty
+            if norm_kraj and _normalize_string(row[kraj_idx]) != norm_kraj:
                 continue
-            if okres and row[okres_idx].lower() != okres.lower():
+            if norm_okres and _normalize_string(row[okres_idx]) != norm_okres:
                 continue
-            if obec and row[obec_idx].lower() != obec.lower():
+            if norm_obec and _normalize_string(row[obec_idx]) != norm_obec:
                 continue
-            if katastralneUzemie and row[ku_idx].lower() != katastralneUzemie.lower():
+            if norm_ku and _normalize_string(row[ku_idx]) != norm_ku:
                 continue
             
             found_ids.append(row[idn5_idx])
