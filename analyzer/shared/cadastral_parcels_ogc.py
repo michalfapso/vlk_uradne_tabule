@@ -609,7 +609,12 @@ def test_get_geometry_of_a_parcel_set():
     }
 
     gdf = get_geometry_of_a_parcel_set(test_data)
-    print(gdf[['label', 'nationalCadastralReference', 'areaValue']])
+    print('gdf columns:', gdf.columns)
+    columns_to_print = [col for col in ['label', 'nationalCadastralReference', 'areaValue'] if col in gdf.columns]
+    if columns_to_print:
+        print(gdf[columns_to_print])
+    else:
+        print(gdf)
 
 if __name__ == '__main__':
     # test_get_parcels_by_nationalCadastralReference()
