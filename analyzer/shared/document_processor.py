@@ -19,7 +19,7 @@ from law_references import get_law_excerpts_for_text
 from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas
 
 PANDOC_FORMAT_MAPPINGS = [
-    ('.docx', 'docx'), ('.doc', 'rtf'), ('.rtf', 'rtf'),
+    ('.docx', 'docx'), ('.rtf', 'rtf'), ('.odt', 'odt'),
     ('.pptx', 'pptx'), ('.ppt', 'ppt'), ('.xlsx', 'xlsx'), ('.xls', 'xls'),
 ]
 
@@ -35,7 +35,13 @@ def get_file_suffix(content_type):
     }
     if content_type:
         main_type = content_type.split(';')[0].strip()
-        return mime_to_suffix.get(main_type, '.bin')
+        suffix = mime_to_suffix.get(main_type, None)
+        if suffix:
+            return suffix
+        else:
+            print(f'Unsupported content type: {content_type}, defaulting to .bin')
+            return '.bin'
+    print('Content type not provided, defaulting to .bin')
     return '.bin'
 
 def download_document(doc_url, output_dir, output_filename_nosuffix):
@@ -58,7 +64,25 @@ def download_document(doc_url, output_dir, output_filename_nosuffix):
     except IOError as e:
         raise RuntimeError(f"Chyba pri zápise súboru {filepath}: {e}") from e
 
-def _convert_to_text(source_file_path: str) -> str:
+def convert_doc_to_txt(input_doc_path, output_docx_path):
+    command = [
+        "libreoffice",
+        "--headless",
+        "--convert-to", "txt",
+        "--outdir", os.path.dirname(output_docx_path),
+        input_doc_path
+    ]
+    try:
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
+        # print(f"Conversion successful: {result.stdout}")
+        # print(f"Errors (if any): {result.stderr}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error during conversion: {e}")
+        print(f"Stdout: {e.stdout}")
+        print(f"Stderr: {e.stderr}")
+        raise
+
+def _convert_to_text(source_file_path: str, status_filepath: str) -> str:
     """
     Konvertuje súbor na text. V prípade chyby vyvolá RuntimeError.
     """
@@ -74,6 +98,22 @@ def _convert_to_text(source_file_path: str) -> str:
         with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f:
             return f.read()
 
+    if file_lower.endswith('.doc'):
+        try:
+            cmd = [ "libreoffice", "--headless", "--convert-to", "txt", "--outdir", os.path.dirname(source_file_path), source_file_path ]
+            result = subprocess.run(cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='replace')
+            print(f"LibreOffice conversion stdout: {result.stdout}")
+            print(f"LibreOffice conversion stderr: {result.stderr}")
+            target_file_path = source_file_path.replace('.doc', '.txt')
+            with open(target_file_path, 'r', encoding='utf-8', errors='replace') as f:
+                return f.read()
+        except FileNotFoundError:
+            raise RuntimeError("Príkaz 'libreoffice' nebol nájdený. Uistite sa, že je nainštalovaný.")
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(f"LibreOffice zlyhal s chybou: {e.stderr}")
+        except Exception as e:
+            raise RuntimeError(f"Chyba pri konverzii .doc na .txt: {e}")
+
     pandoc_format = next((fmt for ext, fmt in PANDOC_FORMAT_MAPPINGS if file_lower.endswith(ext)), None)
     if pandoc_format:
         try:
@@ -84,6 +124,8 @@ def _convert_to_text(source_file_path: str) -> str:
             raise RuntimeError("Príkaz 'pandoc' nebol nájdený. Uistite sa, že je nainštalovaný.")
         except subprocess.CalledProcessError as e:
             raise RuntimeError(f"Pandoc zlyhal s chybou: {e.stderr}")
+        except Exception as e:
+            raise RuntimeError(f"Chyba pri konverzii {pandoc_format} na .txt: {e}")
 
     raise RuntimeError(f"Nepodporovaný typ súboru pre konverziu na text: {source_file_path}")
 
@@ -145,7 +187,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                             log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
                 text_content = "\n\n".join(all_texts)
             else:
-                text_content = _convert_to_text(orig_file)
+                text_content = _convert_to_text(orig_file, status_filepath)
 
             text_content = text_content.strip()
             if not text_content:
@@ -202,6 +244,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             print(f'Getting geometry of parcel set...')
             # print('analysis_data:', analysis_data)
             place_info = analysis_data.get('miesto_realizacie', {})
+            print(f'place_info:{place_info}')
             gdf = get_geometry_of_a_parcel_set(place_info)
             print(f'Saving geometry to {gis_filepath}...')
             gdf_save_to_file(gdf, gis_filepath)
