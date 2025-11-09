@@ -52,6 +52,17 @@ def _make_request(method, url, caller_name, headers, **kwargs):
             return None  # Other request exception
     return None
 
+def _merge_gdfs(gdfs: List[gpd.GeoDataFrame]) -> gpd.GeoDataFrame | None:
+    """Zlúči zoznam GeoDataFrames do jedného."""
+    if not gdfs:
+        return None
+    # Použijeme concat z pandas, ktorý je základom pre geopandas
+    # a je efektívnejší pre zlučovanie viacerých rámcov.
+    # ignore_index=True zabezpečí čistý index vo výsledku.
+    merged_gdf = pd.concat(gdfs, ignore_index=True)
+    # Uistíme sa, že výsledok je stále GeoDataFrame
+    return gpd.GeoDataFrame(merged_gdf, geometry=merged_gdf.geometry.name)
+
 def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[CadastralZoningReferenceParcels]) -> gpd.GeoDataFrame | None:
     """
     Získa geometriu (polygón) parcely C pomocou WFS služby INSPIRE.
@@ -264,7 +275,7 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
     """
     file_path = os.path.join(CADASTER_DATA_DIR, 'USJ_hranice_0.csv')
 
-    kraj = re.sub(r'\s*kraj', '', kraj) if kraj else None
+    kraj = re.sub(r'\s*[kK][rR][aA][jJ]', '', kraj) if kraj else None
 
     # Normalizácia vstupných parametrov
     norm_kraj = _normalize_string(kraj)
@@ -305,9 +316,6 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
             
             found_ids.append(row[idn5_idx])
 
-    if len(found_ids) > 1:
-        raise Exception(f"Nájdených viacero ID pre zadané parametre: {found_ids}")
-
     if not found_ids:
         if (obec is not None) and (katastralneUzemie is not None):
             # Skúsime odstrániť obec z názvu katastrálneho územia
@@ -329,6 +337,8 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
             # Skúsime zavolať bez kraja
             return get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, None)
         raise Exception(f"Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:{kraj}, okres:{okres}, obec:{obec}, katastralneUzemie:{katastralneUzemie}")
+
+    assert len(found_ids) < 30, "Nájdených príliš veľa katastrálnych území, pravdepodobne je niekde chyba."
 
     return found_ids
 
@@ -379,7 +389,7 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
     return final_gdf
 
 
-def get_geometry_of_a_parcel_set(data: dict):
+def get_geometry_of_a_parcel_set(data: dict, status_filepath: str):
     """
     Finds geometry for each parcel in the input object.
 
@@ -394,44 +404,56 @@ def get_geometry_of_a_parcel_set(data: dict):
     kraj  = data.get('kraj')
     okres = data.get('okres')
     obec  = data.get('obec')
+    if isinstance(obec, List):
+        obec = ", ".join(obec)
 
-    request : List[CadastralZoningReferenceParcels] = []
+    gdf = None
     katastralne_uzemia = data.get('katastralne_uzemia', [])
     if katastralne_uzemia:
+        all_gdfs = []
         for ku in katastralne_uzemia:
             ku_name = ku.get('nazov')
             print(f'ku_name:{ku_name} obec:{obec} okres:{okres} kraj:{kraj}')
             nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(ku_name, obec, okres, kraj)
             print('nationalCadastralZoningReferences:', nationalCadastralZoningReferences)
+
+            ku_gdfs = []
             for nationalCadastralZoningReference in nationalCadastralZoningReferences:
-                # print(f'get_geometry_of_a_parcel_set() nationalCadastralZoningReference: {nationalCadastralZoningReference}')
+                request_for_ref: List[CadastralZoningReferenceParcels] = []
                 parcely = ku.get('parcely', [])
                 if not parcely:
                     parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
                 for parcel_set in parcely:
-                    # print('get_geometry_of_a_parcel_set() parcel_set:', parcel_set)
-                    parcel_type = parcel_set.get('typ', '').upper()
-                    parcel_type = 'C' if 'C' in parcel_type else 'E' if 'E' in parcel_type else 'C'
+                    parcel_type = parcel_set.get('typ') or ''
+                    parcel_type = 'E' if 'E' in parcel_type.upper() else 'C'
                     parcel_set['typ'] = parcel_type  # Normalize type
                     
-                    request.append(CadastralZoningReferenceParcels(
+                    request_for_ref.append(CadastralZoningReferenceParcels(
                         nationalCadastralZoningReference=nationalCadastralZoningReference,
                         cadasterType=parcel_type,
                         parcelLabels=parcel_set.get('cisla', [])
                     ))
+                
+                gdf_for_ref = get_geometry_of_cadastral_zone_parcels(request_for_ref)
+                if gdf_for_ref is not None and not gdf_for_ref.empty:
+                    ku_gdfs.append(gdf_for_ref)
+            if len(ku_gdfs) > 1:
+                log_status(status_filepath, "warning", f"Nejednoznačne zadané katastrálne územie '{ku_name}' - našli sa k nemu {len(ku_gdfs)} zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.")
+            if not ku_gdfs:
+                log_status(status_filepath, "error", f"Nenašlo sa žiadne katastrálne územie pre zadané parametre kraj:'{kraj}', okres:'{okres}', obec:'{obec}', katastrálne územie:'{ku_name}'")
+            all_gdfs.extend(ku_gdfs)
+
+        gdf = _merge_gdfs(all_gdfs)
     else:
         nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(None, obec, okres, kraj)
+        request: List[CadastralZoningReferenceParcels] = []
         for nationalCadastralZoningReference in nationalCadastralZoningReferences:
             request.append(CadastralZoningReferenceParcels(
                 nationalCadastralZoningReference=nationalCadastralZoningReference,
                 cadasterType='C',
                 parcelLabels=[]
             ))
-
-
-    # print('get_geometry_of_a_parcel_set() data:', data) 
-    # print('get_geometry_of_a_parcel_set() request:', request) 
-    gdf = get_geometry_of_cadastral_zone_parcels(request)
+        gdf = get_geometry_of_cadastral_zone_parcels(request)
 
     if gdf is None or gdf.empty:
         print("No geometries were found, so no file will be saved.", file=sys.stderr)

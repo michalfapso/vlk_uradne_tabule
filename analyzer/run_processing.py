@@ -8,10 +8,8 @@ from typing import List, Dict, Any
 script_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(script_dir, 'shared'))
 
-# Importujeme zdieľané moduly
 from log_handler import log_status
 from datetime import datetime, timedelta
-# Ďalšie importy (napr. process_document) pridáme neskôr
 
 def load_json_file(filepath: str, default: Any = None) -> Any:
     """Načíta JSON súbor. V prípade chyby vráti predvolenú hodnotu."""
@@ -69,6 +67,7 @@ def main():
     """
     Hlavný skript, ktorý orchestrates diffing a spracovanie dokumentov.
     """
+    print('main() begin')
     base_dir = os.path.abspath(os.path.join(script_dir, '..'))
     scraped_data_dir = os.path.join(base_dir, 'data', 'scraped')
     docs_output_dir = os.path.join(base_dir, 'data', 'docs')
@@ -155,6 +154,8 @@ def main():
             )
             import traceback
             traceback.print_exc(file=sys.stderr)
+
+        # sys.exit(1) # for debugging only
 
     print("\n--- Zhrnutie spracovania ---")
     print(f"Úspešne spracovaných: {processed_count}")

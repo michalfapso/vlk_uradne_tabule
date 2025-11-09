@@ -32,6 +32,7 @@ def get_file_suffix(content_type):
         'image/jpeg': '.jpg', 'image/png': '.png', 'image/gif': '.gif',
         'application/vnd.ms-powerpoint': '.ppt', 'application/vnd.openxmlformats-officedocument.presentationml.presentation': '.pptx',
         'application/rtf': '.rtf', 'text/csv': '.csv', 'application/zip': '.zip', 'application/vnd.rar': '.rar',
+        'text/html': '.html',
     }
     if content_type:
         main_type = content_type.split(';')[0].strip()
@@ -245,7 +246,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             # print('analysis_data:', analysis_data)
             place_info = analysis_data.get('miesto_realizacie', {})
             print(f'place_info:{place_info}')
-            gdf = get_geometry_of_a_parcel_set(place_info)
+            gdf = get_geometry_of_a_parcel_set(place_info, status_filepath)
             print(f'Saving geometry to {gis_filepath}...')
             gdf_save_to_file(gdf, gis_filepath)
         else:
