@@ -1,6 +1,6 @@
 export function statusTypeToIcon(type) {
     if (typeof type !== 'string') {
-        throw new Error('Invalid type: expected a string');
+        throw new Error('Invalid type: expected a string. Got: ' + (typeof type));
     }
 
     switch (type.toLowerCase()) {

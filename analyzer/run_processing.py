@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.join(script_dir, 'shared'))
 
 from log_handler import log_status
 from datetime import datetime, timedelta
+from get_doc_id import get_doc_id
 
 def load_json_file(filepath: str, default: Any = None) -> Any:
     """Načíta JSON súbor. V prípade chyby vráti predvolenú hodnotu."""
@@ -93,8 +94,8 @@ def main():
     print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
     # --- 4. Filtrovanie podľa dátumu ---
-    print("Filtrujem nové dokumenty podľa dátumu (max 10 dní staré)...")
-    DAYS_OLD_THRESHOLD = 10
+    DAYS_OLD_THRESHOLD = 7
+    print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
     ten_days_ago = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
     documents_to_process = []
     for doc in new_documents:
@@ -104,7 +105,17 @@ def main():
             continue
         try:
             doc_date = datetime.strptime(date_str, '%Y-%m-%d')
-            if doc_date >= ten_days_ago:
+            
+            # process_specific_doc_id = '555665' # Use for testing specific document:
+            process_specific_doc_id = None
+
+            do_process_doc = False
+            if process_specific_doc_id:
+                doc_id = get_doc_id(doc['url'])
+                do_process_doc = doc_id == process_specific_doc_id
+            else:
+                do_process_doc = doc_date >= ten_days_ago
+            if do_process_doc:
                 documents_to_process.append(doc)
         except (ValueError, TypeError):
             documents_to_process.append(doc) # Spracujeme, ak je formát dátumu neplatný
@@ -131,7 +142,7 @@ def main():
     failed_count = 0
 
     for doc_data in documents_to_process:
-        print(f"\n--- Spracovávam: {doc_data['url']} (zdroj: {doc_data['source']}) ---")
+        print(f"\n--- {documents_to_process.index(doc_data) + 1}/{len(documents_to_process)} Spracovávam: {doc_data['url']} (zdroj: {doc_data['source']}) ---")
         try:
             # Volanie hlavnej spracovateľskej funkcie
             success = process_document(doc_data, docs_output_dir)

@@ -9,6 +9,10 @@ import shutil
 import zipfile
 import subprocess
 import geopandas as gpd
+import re
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md_func # Alias to avoid conflict
+import tempfile
 
 # Importujeme ostatné zdieľané moduly
 from log_handler import log_status
@@ -83,7 +87,7 @@ def convert_doc_to_txt(input_doc_path, output_docx_path):
         print(f"Stderr: {e.stderr}")
         raise
 
-def _convert_to_text(source_file_path: str, status_filepath: str) -> str:
+def _convert_to_text(source_file_path: str, source: str, status_filepath: str) -> str:
     """
     Konvertuje súbor na text. V prípade chyby vyvolá RuntimeError.
     """
@@ -92,6 +96,27 @@ def _convert_to_text(source_file_path: str, status_filepath: str) -> str:
 
     file_lower = source_file_path.lower()
     
+    if source == 'minzp' and (file_lower.endswith('.html') or file_lower.endswith('.htm')):
+        with open(source_file_path, 'r', encoding='utf-8', errors='replace') as f:
+            html_content = f.read()
+
+            # --- Extrakcia a konverzia <main> obsahu na Markdown ---
+            soup = BeautifulSoup(html_content, 'lxml')
+            main_content_tag = soup.find('main')
+            if not main_content_tag:
+                error_msg = f"Tag <main> nebol nájdený v {source_file_path}."
+                log_status(status_filepath, "error", error_msg)
+                return {"error": error_msg}
+            
+            try:
+                markdown_content = md_func(str(main_content_tag), heading_style='atx')
+            except Exception as e:
+                error_msg = f"Chyba pri konverzii hlavného obsahu na Markdown pre {source_file_path}: {e}."
+                log_status(status_filepath, "error", error_msg)
+                return {"error": error_msg}
+
+            return markdown_content
+
     if file_lower.endswith('.pdf'):
         return extract_text_from_pdf(source_file_path)
     
@@ -130,6 +155,76 @@ def _convert_to_text(source_file_path: str, status_filepath: str) -> str:
 
     raise RuntimeError(f"Nepodporovaný typ súboru pre konverziu na text: {source_file_path}")
 
+def sanitize_okres_name(name):
+    if not name:
+        return ""
+    name = re.sub(r"^Okresný úrad\s+", "", name, flags=re.IGNORECASE)
+    name = name.strip(" ")
+    return name
+
+def sanitize_kraj_name(name):
+    if not name:
+        return ""
+    if name == "Ministerstvo":
+        return name
+
+    # Názvy krajov budeme používať rovnaké ako na minv.sk
+    kraj_mapping = {
+        "Kraj Bratislava": "Bratislavský kraj",
+        "Kraj Trnava": "Trnavský kraj",
+        "Kraj Trenčín": "Trenčiansky kraj",
+        "Kraj Nitra": "Nitriansky kraj",
+        "Kraj Banská Bystrica": "Banskobystrický kraj",
+        "Kraj Žilina": "Žilinský kraj",
+        "Kraj Košice": "Košický kraj",
+        "Kraj Prešov": "Prešovský kraj"
+    }
+    return kraj_mapping.get(name, name)
+
+def _get_minzp_kraj_okres(html_content: str, doc_url: str, status_global_path: str):
+    soup = BeautifulSoup(html_content, 'lxml')
+    breadcrumb_div = soup.find('div', class_='breadcrumb')
+    kraj_name_raw = None
+    okres_name_raw = None
+
+    if breadcrumb_div:
+        breadcrumb_links = breadcrumb_div.find_all('a')
+        if len(breadcrumb_links) > 2:
+            text_at_idx2 = breadcrumb_links[2].get_text(strip=True)
+            if text_at_idx2.startswith("Kraj ") or text_at_idx2 == "Ministerstvo":
+                kraj_name_raw = text_at_idx2
+        
+        if len(breadcrumb_links) > 3:
+            text_at_idx3 = breadcrumb_links[3].get_text(strip=True)
+            if text_at_idx3.startswith("Okresný úrad "):
+                okres_name_raw = text_at_idx3
+    
+    if not kraj_name_raw:
+        error_msg = f"KRAJ nebol nájdený alebo nemá očakávaný formát v breadcrumbs pre {doc_url}."
+        log_status(status_global_path, "error", error_msg)
+        return None, None
+    
+    if kraj_name_raw != "Ministerstvo" and not okres_name_raw:
+        error_msg = f"OKRES nebol nájdený alebo nemá očakávaný formát v breadcrumbs pre {doc_url} (Kraj: {kraj_name_raw})."
+        log_status(status_global_path, "error", error_msg)
+        return None, None
+
+    kraj_name = sanitize_kraj_name(kraj_name_raw)
+    okres_name = sanitize_okres_name(okres_name_raw)
+    if kraj_name == "Ministerstvo":
+        okres_name = "Ministerstvo"
+
+    if not kraj_name:
+        error_msg = f"Vyčistený KRAJ je prázdny pre '{kraj_name_raw}' z {doc_url}."
+        log_status(status_global_path, "error", error_msg)
+        return None, None
+    if not okres_name:
+        error_msg = f"Vyčistený OKRES je prázdny pre '{okres_name_raw}' z {doc_url} (Kraj: {kraj_name})."
+        log_status(status_global_path, "error", error_msg)
+        return None, None
+        
+    return kraj_name, okres_name
+
 def process_document(doc_data: dict, base_docs_dir: str) -> bool:
     doc_url = doc_data['url']
     source = doc_data['source']
@@ -140,36 +235,71 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Nepodarilo sa získať doc_id pre URL: {doc_url}")
         return False
 
-    if source == 'minv':
-        kraj = original_data.get('kraj', '_neznamy_kraj_')
-        okres = original_data.get('okres', '_neznamy_okres_')
-        output_dir = os.path.join(base_docs_dir, source, kraj, okres, doc_id)
-    elif source == 'minzp':
-        # TODO: Získať kraj a okres pre minzp z HTML stránky dokumentu
-        kraj = original_data.get('kraj', '_neznamy_kraj_')
-        okres = original_data.get('okres', '_neznamy_okres_')
-        output_dir = os.path.join(base_docs_dir, source, kraj, okres, doc_id)
-    else:
-        log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Neznámy zdroj '{source}' pre URL: {doc_url}")
-        return False
+    kraj = original_data.get('kraj')
+    okres = original_data.get('okres')
+    downloaded_content = None
+    response_headers = None
+
+    output_dir_tmp = None
+    orig_file_tmp = None
+    if source == 'minzp':
+        # Parsing kraj and okres from html document for minzp.sk documents
+        # use temp_dir, and when done:
+        output_dir_tmp = tempfile.TemporaryDirectory()
+        print('output_dir_tmp:', output_dir_tmp.name)
+        orig_file_tmp = download_document(doc_url, output_dir_tmp.name, 'orig')
+        assert orig_file_tmp.lower().endswith(('.html', '.htm'))
+        try:
+            with open(orig_file_tmp, 'r', encoding='utf-8', errors='replace') as f:
+                html_text = f.read()
+            
+            status_global_path = os.path.join(base_docs_dir, 'status.json')
+            kraj, okres = _get_minzp_kraj_okres(html_text, doc_url, status_global_path)
+            if not kraj or not okres:
+                return False
+        except requests.exceptions.RequestException as e:
+            log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Chyba pri sťahovaní HTML pre {doc_url}: {e}")
+            return False
+
+    if not kraj:
+        kraj = '_neznamy_kraj_'
+    if not okres:
+        okres = '_neznamy_okres_'
+
+    output_dir = os.path.join(base_docs_dir, source, kraj, okres, doc_id)
 
     try:
         os.makedirs(output_dir, exist_ok=True)
     except OSError as e:
         log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Chyba pri vytváraní adresára {output_dir}: {e}")
         return False
-        
+
+    if output_dir_tmp:
+        os.replace(orig_file_tmp, os.path.join(output_dir, os.path.basename(orig_file_tmp)))
+        output_dir_tmp.cleanup()
+    
     status_filepath = os.path.join(output_dir, "status.json")
     if os.path.exists(status_filepath):
         os.remove(status_filepath)
 
     try:
+        invalidate_files = False
+
         txt_filepath = os.path.join(output_dir, "text.txt")
-        if not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
-            orig_file = download_document(doc_url, output_dir, 'orig')
+        if invalidate_files or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
+            invalidate_files = True
+            # Search for an existing original file
+            existing_orig_files = glob.glob(os.path.join(output_dir, 'orig.*'))
+            if existing_orig_files:
+                orig_file = existing_orig_files[0]
+                print(f"Orig doc already downloaded: {orig_file}")
+            else:
+                orig_file = download_document(doc_url, output_dir, 'orig')
+
             if not orig_file:
                 raise RuntimeError("Stiahnutie zlyhalo.")
             
+            # Converting document to text
             if orig_file.lower().endswith('.zip'):
                 extracted_dir = os.path.join(output_dir, "extracted")
                 if os.path.exists(extracted_dir):
@@ -183,14 +313,21 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     for name in files:
                         try:
                             file_path = os.path.join(root, name)
-                            all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path)}")
+                            all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path, source, status_filepath)}")
                         except Exception as e:
                             log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
                 text_content = "\n\n".join(all_texts)
             else:
-                text_content = _convert_to_text(orig_file, status_filepath)
+                text_content = _convert_to_text(orig_file, source, status_filepath)
 
             text_content = text_content.strip()
+            
+            if source == 'minzp':
+                # Dokumenty z minzp.sk majú okrem dokumentu aj popis, tak ho pridáme na začiatok
+                text_content = f"{original_data.get('popis', '')}\n\n{text_content}"
+
+            text_content = f"Kraj: {kraj}\nOkres: {okres}\n\n{text_content}"
+
             if not text_content:
                 raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
         
@@ -204,7 +341,8 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
 
         laws_filepath = os.path.join(output_dir, "laws.txt")
-        if not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
+        if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
+            invalidate_files = True
             laws_excerpts = get_law_excerpts_for_text(text_content)
             if laws_excerpts:
                 print(f'Saving laws to {laws_filepath}...')
@@ -218,19 +356,33 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
 
         analysis_json_filepath = os.path.join(output_dir, "analysis.json")
-        if not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
-            print(f'Running LLM analysis...')
+        if invalidate_files or not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
+            invalidate_files = True
             analysis_input_text = text_content + "\n\n" + laws_excerpts
-            analysis_result_str = analyze_text_document(analysis_input_text)
-            if not analysis_result_str:
-                raise RuntimeError("LLM analýza nevrátila žiadny výsledok.")
+            analysis_data = None
+            analysis_result_str = None
+
+            for attempt in range(3):
+                print(f"Pokus o LLM analýzu {attempt + 1}/3...")
+                try:
+                    analysis_result_str = analyze_text_document(analysis_input_text)
+                    if not analysis_result_str:
+                        print("LLM analýza vrátila prázdny výsledok.")
+                        continue
+                    analysis_data = json.loads(analysis_result_str)
+                    print("LLM analýza úspešná, získaný platný JSON.")
+                    break  # Úspech, vyskočíme z cyklu
+                except json.JSONDecodeError as e:
+                    print(f"Pokus {attempt + 1} zlyhal: LLM nevrátil platný JSON. Chyba: {e}")
+                    analysis_data = None  # Resetujeme v prípade chyby
+
+            if analysis_data is None:
+                raise RuntimeError("LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.")
 
             analysis_txt_filepath = os.path.join(output_dir, "analysis.txt")
             print(f'Saving analysis to {analysis_txt_filepath}...')
             with open(analysis_txt_filepath, 'w', encoding='utf-8') as f:
                 f.write(analysis_result_str)
-
-            analysis_data = json.loads(analysis_result_str)
             print(f'Saving analysis to {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
                 json.dump(analysis_data, f, indent=2, ensure_ascii=False)
@@ -240,27 +392,47 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 analysis_data = json.load(f)
 
 
-        gis_filepath = os.path.join(output_dir, "gis.geojson")
-        if not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
-            print(f'Getting geometry of parcel set...')
-            # print('analysis_data:', analysis_data)
-            place_info = analysis_data.get('miesto_realizacie', {})
-            print(f'place_info:{place_info}')
-            gdf = get_geometry_of_a_parcel_set(place_info, status_filepath)
-            print(f'Saving geometry to {gis_filepath}...')
-            gdf_save_to_file(gdf, gis_filepath)
-        else:
-            print(f'Loading geometry from {gis_filepath}...')
-            gdf = gdf_load_from_file(gis_filepath)
+        def process_analysis_data(analysis_data, status_filepath, invalidate_files):
+            # Return analysis_data when modified, else None
+            gis_filepath = os.path.join(output_dir, "gis.geojson")
+            if invalidate_files or not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
+                invalidate_files = True
+                print(f'Getting geometry of parcel set...')
+                # print('analysis_data:', analysis_data)
+                place_info = analysis_data.get('miesto_realizacie', {})
+                print(f'place_info:{place_info}')
+                gdf = get_geometry_of_a_parcel_set(place_info, status_filepath)
+                print(f'Saving geometry to {gis_filepath}...')
+                gdf_save_to_file(gdf, gis_filepath)
+            else:
+                print(f'Loading geometry from {gis_filepath}...')
+                gdf = gdf_load_from_file(gis_filepath)
 
+            if invalidate_files or 'zasiahnute_chranene_uzemia' not in analysis_data:
+                invalidate_files = True
+                print('Intersections with protected areas...')
+                intersections = get_intersections_with_protected_areas(gdf, status_filepath)
+                print('intersections:', intersections)
+                analysis_data['zasiahnute_chranene_uzemia'] = intersections
+                return analysis_data
+            else:
+                print('Intersections with protected areas already computed. Skipping...')
 
-        if 'zasiahnute_chranene_uzemia' in analysis_data:
-            print('Intersections with protected areas already computed. Skipping...')
-        else:
-            print('Intersections with protected areas...')
-            intersections = get_intersections_with_protected_areas(gdf, status_filepath)
-            print('intersections:', intersections)
-            analysis_data['zasiahnute_chranene_uzemia'] = intersections
+            return None
+        
+        analysis_data_changed = False
+        if isinstance(analysis_data, dict):
+            analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+            analysis_data_changed = analysis_data is not None
+        elif isinstance(analysis_data, list):
+            for i, item in enumerate(analysis_data):
+                updated_item = process_analysis_data(item, status_filepath, invalidate_files)
+                if updated_item is not None:
+                    analysis_data[i] = updated_item
+                    analysis_data_changed = True
+
+        if analysis_data_changed:
+            invalidate_files = True
             print(f'Updating analysis JSON at {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
                 json.dump(analysis_data, f, indent=2, ensure_ascii=False)
@@ -273,9 +445,4 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         print(error_message, file=sys.stderr)
         traceback.print_exc(file=sys.stderr)
         log_status(status_filepath, "error", error_message)
-        try:
-            with open(os.path.join(output_dir, 'status.json'), 'w', encoding='utf-8') as f:
-                json.dump({"status": "error", "error_message": str(e)}, f, indent=2, ensure_ascii=False)
-        except Exception as e_json:
-            log_status(status_filepath, "error", f"Nepodarilo sa zapísať chybový stav do status.json: {e_json}")
         return False

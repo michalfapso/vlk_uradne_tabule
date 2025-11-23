@@ -110,6 +110,7 @@ const {
                       headerFilter: "select", headerFilterParams: {values: {"error":"Chyba", "warning":"Varovanie", "info":"Info", "":""}},
                       formatter: (cell) => {
                           const type = cell.getValue();
+                          console.log('status type:', type);
                           return statusTypeToIcon(type);
                       }
                   },

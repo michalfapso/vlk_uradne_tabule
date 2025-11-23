@@ -65,10 +65,14 @@ def main():
             "input" : f"{ROOT_DIR}/data/scraped/minv_1_regions.json",
             "output": f"{ROOT_DIR}/data/scraped/minv_2_documents.json"
         },
+        # "minzp_regions": {
+        #     "script": f"{ROOT_DIR}/analyzer/scrapers/minzp_1_regions.py",
+        #     "output": f"{ROOT_DIR}/data/scraped/minzp_1_regions.json"
+        # },
         "minzp_documents": {
-            "script": f"{ROOT_DIR}/analyzer/scrapers/minzp_documents.py",
-            "output": f"{ROOT_DIR}/data/scraped/minzp_documents.json"
-        }
+            "script": f"{ROOT_DIR}/analyzer/scrapers/minzp_2_documents.py",
+            "output": f"{ROOT_DIR}/data/scraped/minzp_2_documents.json"
+        },
     }
     
     os.makedirs(f"{ROOT_DIR}/data/scraped", exist_ok=True)
@@ -86,11 +90,16 @@ def main():
         if not run_scraper_with_args("minv_documents", SCRAPERS["minv_documents"]):
             failed_scrapers.append("minv_documents")
 
-    # 3. Spustenie minzp_documents
-    print("\n--- Krok 3: Získavanie zoznamu dokumentov z minzp.sk ---")
+    # # 3. Spustenie minzp_regions
+    # print("\n--- Krok 3: Získavanie zoznamu okresov z minzp.sk ---")
+    # if not run_scraper_with_args("minzp_regions", SCRAPERS["minzp_regions"]):
+    #     failed_scrapers.append("minzp_regions")
+        
+    # 4. Spustenie minzp_documents
+    print("\n--- Krok 4: Získavanie zoznamu dokumentov z minzp.sk ---")
     if not run_scraper_with_args("minzp_documents", SCRAPERS["minzp_documents"]):
         failed_scrapers.append("minzp_documents")
-        
+
     print("\n--- Zhrnutie scrapingu ---")
     if not failed_scrapers:
         print("Scraping bol úspešne dokončený pre všetky zdroje.")

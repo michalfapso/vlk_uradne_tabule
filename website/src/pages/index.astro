@@ -8,13 +8,14 @@ import DocumentTable from '../components/DocumentTable.astro';
 // Import Node.js built-in modules for file system and path manipulation
 import fs from 'node:fs';
 import path from 'node:path';
+import glob from 'glob';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked'; // Import marked library for markdown to HTML conversion
 
 // Import the initial JSON data.
 // We'll use 3_diff_test.json as specified by the structure requirements.
-import minv_rawInputData from '../../../data/minv/2_uradne_tabule_old.json';
-import minzp_rawInputData from '../../../data/minzp/4_merge_json_docs_old.json';
+import minv_rawInputData from '../../../data/scraped/minv_2_documents.json';
+import minzp_rawInputData from '../../../data/scraped/minzp_documents.json';
 
 // Import the getDocId function
 import { getDocId } from '../scripts/getDocId.js';
@@ -33,7 +34,7 @@ console.log('filename:', __filename);
 // Path to the markdown file relative to the current Astro file
 const promptFilePath = path.resolve(
     __dirname, // Current file's directory (website/src/pages)
-    '../../../analyzer/analyze_text_document_prompt.md' // Relative path to the prompt file
+    '../../../analyzer/shared/analyze_text_document_prompt.md' // Relative path to the prompt file
 );
 
 let promptHtml = '';
@@ -43,6 +44,26 @@ try {
 } catch (error) {
     console.error(`Error reading or parsing prompt file ${promptFilePath}:`, error);
     promptHtml = `<p class="text-red-500">Chyba pri načítaní alebo spracovaní súboru s promptom: ${error.message}</p>`;
+}
+
+// --- Optimalizácia: Vytvorenie cache pre cesty k dokumentom ---
+// Jedenkrát prejdeme celý adresár a vytvoríme mapu docId -> cesta k adresáru
+const docIdToPathMap = new Map();
+const allDocsBaseDir = path.resolve(__dirname, '../../../data/docs');
+
+try {
+    // Vzor nájde všetky adresáre, ktoré vyzerajú ako adresáre dokumentov (sú na 4. úrovni)
+    // Napr. data/docs/{source}/{kraj}/{okres}/{docId}
+    const allDocDirs = glob.sync(`${allDocsBaseDir}/*/*/*/*`);
+    for (const dirPath of allDocDirs) {
+        const docId = path.basename(dirPath);
+        if (docId) {
+            docIdToPathMap.set(docId, dirPath);
+        }
+    }
+    console.log(`Cache ciest k dokumentom vytvorená. Nájdených ${docIdToPathMap.size} adresárov.`);
+} catch (error) {
+    console.error('Kritická chyba pri vytváraní cache pre adresáre dokumentov:', error);
 }
 
 // Helper function to get a date string in YYYY-MM-DD format for N days ago
@@ -123,6 +144,7 @@ function appendErrorToStatus(doc, errorMessage) {
     if (!doc.status) {
         doc.status = [];
     }
+    console.log('doc.status:', doc.status);
     doc.status.push({
         date: getDateString(),
         type: "error",
@@ -145,37 +167,33 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                 doc.docId = docId; // Uloženie docId do dokumentu
 
                 // krajName and okresName are now directly on the doc object from flattening
-                const krajName = doc.kraj;
-                const okresName = doc.okres;
+                // const krajName = doc.kraj;
+                // const okresName = doc.okres;
 
-                // Ensure krajName and okresName are valid for path construction
-                if (!krajName || !okresName) {
-                    appendErrorToStatus(doc, `Missing kraj ('${krajName}') or okres ('${okresName}') name for document URL: ${doc.url}. Cannot load analysis.`);
+                // --- Optimalizácia: Použitie cache namiesto glob.sync() ---
+                const docDir = docIdToPathMap.get(docId);
+                if (!docDir) {
+                    appendErrorToStatus(doc, `Adresár pre docId '${docId}' nebol nájdený v cache.`);
                     enrichedDocs.push(doc);
                     continue; 
                 }
 
-                // Construct the path to the analysis.json file.
-                const docDir = path.resolve(
-                    __dirname, // Current file's directory (website/src/pages)
-                    '../../../', // Up to project root (/home/miso/projects/VLK/uradne_nastenky/)
-                    'data',
-                    dataSubdir,
-                    'docs',
-                    krajName,
-                    okresName,
-                    docId // Použitie docId získaného z getDocId
-                );
+                if (!doc.kraj) doc.kraj = docDir.split(path.sep).slice(-3, -2)[0];
+                if (!doc.okres) doc.okres = docDir.split(path.sep).slice(-2, -1)[0];
+                console.log('docDir:', docDir, ' kraj:', doc.kraj, ' okres:', doc.okres);
                 const statusFilePath   = path.resolve(docDir, 'status.json');
                 const analysisFilePath = path.resolve(docDir, 'analysis.json');
                 const lawsFilePath = path.resolve(docDir, 'laws.txt');
 
+                console.log('doc:', doc);
                 try {
                     if (fs.existsSync(statusFilePath)) {
                         const statusContent = fs.readFileSync(statusFilePath, 'utf-8');
                         // Ensure doc.status is an array before merging or assigning
                         const loadedStatus = JSON.parse(statusContent);
-                        doc.status = doc.status ? [...doc.status, ...loadedStatus] : loadedStatus;
+                        console.log('loadedStatus:', loadedStatus);
+                        const loadedStatusArray = Array.isArray(loadedStatus) ? loadedStatus : [loadedStatus];
+                        doc.status = doc.status ? [...doc.status, ...loadedStatusArray] : loadedStatusArray;
                     }
                 } catch (error) {
                     appendErrorToStatus(doc, `Failed to load/parse status from ${statusFilePath}: ${error.message}`);

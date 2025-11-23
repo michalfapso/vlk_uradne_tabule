@@ -268,6 +268,20 @@ def test_get_parcels_by_nationalCadastralReference():
 
 
 def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=None, kraj=None) -> List[str]:
+    # Ak je v obci viacero názvov oddelených čiarkou, spracujeme ich zvlášť   
+    obec_split = obec.split(',') if obec else []
+    if len(obec_split) > 1:
+        found_ids = []
+        for obec in obec_split:
+            obec = obec.strip()
+            if obec:
+                ids = _get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, kraj, katastralneUzemie, obec, okres, kraj)
+                found_ids.extend(ids)
+        return found_ids
+    else:
+        return _get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, kraj, katastralneUzemie, obec, okres, kraj)
+
+def _get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=None, kraj=None, katastralneUzemieOrig=None, obecOrig=None, okresOrig=None, krajOrig=None) -> List[str]:
     """
     Loads the file ../data/cadaster/USJ_hranice_0.csv and finds all rows matching the given arguments.
     NM2 is kraj, NM3 is okres, NM4 is obec, NM5 is katastralneUzemie.
@@ -282,12 +296,13 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
     norm_okres = _normalize_string(okres)
     norm_obec = _normalize_string(obec)
     norm_ku = _normalize_string(katastralneUzemie)
-    print('get_nationalCadastralZoningReferences() norm_kraj:', norm_kraj, 'norm_okres:', norm_okres, 'norm_obec:', norm_obec, 'norm_ku:', norm_ku)
-
+    print('_get_nationalCadastralZoningReferences() norm_kraj:', norm_kraj, 'norm_okres:', norm_okres, 'norm_obec:', norm_obec, 'norm_ku:', norm_ku)
+        
     found_ids = []
-    # print(f'get_nationalCadastralZoningReferences() Loading cadastral data from {file_path}...')
+
+    # print(f'_get_nationalCadastralZoningReferences() Loading cadastral data from {file_path}...')
     with open(file_path, mode='r', encoding='utf-8') as csvfile:
-        # print('get_nationalCadastralZoningReferences() CSV file opened successfully.')
+        # print('_get_nationalCadastralZoningReferences() CSV file opened successfully.')
         reader = csv.reader(csvfile)
         header = next(reader)  # Skip header
         
@@ -317,29 +332,45 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
             found_ids.append(row[idn5_idx])
 
     if not found_ids:
-        if (obec is not None) and (katastralneUzemie is not None):
-            # Skúsime odstrániť obec z názvu katastrálneho územia
-            katastralneUzemie2 = re.sub(r'^' + obec + r'\s*-\s*', '', katastralneUzemie)
-            if katastralneUzemie2 != katastralneUzemie:
-                return get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
-        if (okres is not None) and (katastralneUzemie is not None):
-            # Skúsime odstrániť okres z názvu katastrálneho územia
-            katastralneUzemie2 = re.sub(r'^' + okres + r'\s*-\s*', '', katastralneUzemie)
-            if katastralneUzemie2 != katastralneUzemie:
-                return get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
-        if obec is not None:
-            # Skúsime zavolať bez obce
-            return get_nationalCadastralZoningReferences(katastralneUzemie, None, okres, kraj)
-        if okres is not None:
-            # Skúsime zavolať bez okresu
-            return get_nationalCadastralZoningReferences(katastralneUzemie, obec, None, kraj)
-        if kraj is not None:
-            # Skúsime zavolať bez kraja
-            return get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, None)
+        if katastralneUzemie is not None:
+            if obec is not None:
+                # Skúsime odstrániť obec z názvu katastrálneho územia
+                katastralneUzemie2 = re.sub(r'^' + obec + r'\s*-\s*', '', katastralneUzemie)
+                if katastralneUzemie2 != katastralneUzemie:
+                    return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
+            if okres is not None:
+                # Skúsime odstrániť okres z názvu katastrálneho územia
+                katastralneUzemie2 = re.sub(r'^' + okres + r'\s*-\s*', '', katastralneUzemie)
+                if katastralneUzemie2 != katastralneUzemie:
+                    return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
+            if obec is not None:
+                # Skúsime zavolať bez obce
+                return _get_nationalCadastralZoningReferences(katastralneUzemie, None, okres, kraj)
+            if okres is not None:
+                # Skúsime zavolať bez okresu
+                return _get_nationalCadastralZoningReferences(katastralneUzemie, None, None, kraj)
+            if kraj is not None:
+                # Skúsime zavolať bez kraja
+                return _get_nationalCadastralZoningReferences(katastralneUzemie, None, None, None)
+            # Nakoniec skusime odstranit katastralneUzemie, mozno je v nom nejaky preklep a nechame len obec, okres, kraj
+            return _get_nationalCadastralZoningReferences(None, obecOrig, okresOrig, krajOrig)
+        else:
+            # Niekedy sa stane, ze je zadany zoznam viacerych obci oddelenych ciarkou a vacsina patri do daneho okresu, ale niektora obec je v inom okrese
+            if obec is not None:
+                # Skúsime zavolať bez okresu alebo bez kraja
+                if okres is not None:
+                    return _get_nationalCadastralZoningReferences(None, obec, None, kraj)
+                if kraj is not None:
+                    return _get_nationalCadastralZoningReferences(None, obec, None, None)
+            if okres is not None:
+                # Skúsime zavolať bez kraja
+                if kraj is not None:
+                    return _get_nationalCadastralZoningReferences(None, None, okres, None)
         raise Exception(f"Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:{kraj}, okres:{okres}, obec:{obec}, katastralneUzemie:{katastralneUzemie}")
 
-    assert len(found_ids) < 30, "Nájdených príliš veľa katastrálnych území, pravdepodobne je niekde chyba."
+    assert len(found_ids) < 5, f"Nájdených príliš veľa katastrálnych území ({len(found_ids)}), pravdepodobne je niekde chyba."
 
+    print('_get_nationalCadastralZoningReferences() found_ids:', found_ids)
     return found_ids
 
 
@@ -417,30 +448,58 @@ def get_geometry_of_a_parcel_set(data: dict, status_filepath: str):
             nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(ku_name, obec, okres, kraj)
             print('nationalCadastralZoningReferences:', nationalCadastralZoningReferences)
 
-            ku_gdfs = []
-            for nationalCadastralZoningReference in nationalCadastralZoningReferences:
-                request_for_ref: List[CadastralZoningReferenceParcels] = []
-                parcely = ku.get('parcely', [])
-                if not parcely:
-                    parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
-                for parcel_set in parcely:
-                    parcel_type = parcel_set.get('typ') or ''
-                    parcel_type = 'E' if 'E' in parcel_type.upper() else 'C'
-                    parcel_set['typ'] = parcel_type  # Normalize type
-                    
-                    request_for_ref.append(CadastralZoningReferenceParcels(
-                        nationalCadastralZoningReference=nationalCadastralZoningReference,
-                        cadasterType=parcel_type,
-                        parcelLabels=parcel_set.get('cisla', [])
-                    ))
-                
-                gdf_for_ref = get_geometry_of_cadastral_zone_parcels(request_for_ref)
-                if gdf_for_ref is not None and not gdf_for_ref.empty:
-                    ku_gdfs.append(gdf_for_ref)
-            if len(ku_gdfs) > 1:
-                log_status(status_filepath, "warning", f"Nejednoznačne zadané katastrálne územie '{ku_name}' - našli sa k nemu {len(ku_gdfs)} zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.")
-            if not ku_gdfs:
+            if not nationalCadastralZoningReferences:
                 log_status(status_filepath, "error", f"Nenašlo sa žiadne katastrálne územie pre zadané parametre kraj:'{kraj}', okres:'{okres}', obec:'{obec}', katastrálne územie:'{ku_name}'")
+
+            def get_gdfs(ku, nationalCadastralZoningReferences):
+                ku_gdfs = []
+                for nationalCadastralZoningReference in nationalCadastralZoningReferences:
+                    parcely = ku.get('parcely', [])
+                    if not parcely:
+                        parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
+                    for parcel_set in parcely:
+                        parcel_type = parcel_set.get('typ') or ''
+                        parcel_types = ['E'] if 'E' in parcel_type.upper() else ['C'] if 'C' in parcel_type.upper() else ['C', 'E']
+                        parcel_types_valid_count = 0
+                        for parcel_type in parcel_types:
+                            request_for_ref: List[CadastralZoningReferenceParcels] = []
+                            request_for_ref.append(CadastralZoningReferenceParcels(
+                                nationalCadastralZoningReference=nationalCadastralZoningReference,
+                                cadasterType=parcel_type,
+                                parcelLabels=parcel_set.get('cisla', [])
+                            ))
+                            gdf_for_ref = get_geometry_of_cadastral_zone_parcels(request_for_ref)
+                            if gdf_for_ref is not None and not gdf_for_ref.empty:
+                                ku_gdfs.append(gdf_for_ref)
+                                parcel_set['typ'] = parcel_type
+                                parcel_types_valid_count += 1
+
+                        if parcel_types_valid_count == 0:
+                            log_status(status_filepath, "warning", f"Pre parcelu '{parcel_set}' v katastrálnom území '{ku_name}' sa nenašli dáta v katastri.")
+                        if parcel_types_valid_count > 1:
+                            log_status(status_filepath, "warning", f"Pre parcelu '{parcel_set}' v katastrálnom území '{ku_name}' sa našli dáta v oboch typoch katastra C aj E.")
+
+                if len(ku_gdfs) > 1:
+                    log_status(status_filepath, "warning", f"Nejednoznačne zadané katastrálne územie '{ku_name}' - našli sa k nemu {len(ku_gdfs)} zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.")
+                if not ku_gdfs:
+                    log_status(status_filepath, "error", f"Nenašli sa žiadne parcely pre zadané parametre: {data}")
+                return ku_gdfs
+            
+            ku_gdfs = get_gdfs(ku, nationalCadastralZoningReferences)
+            print('ku_gdfs:', ku_gdfs)
+            if not ku_gdfs:
+                changed = False
+                for parcel_set in ku.get('parcely', []):
+                    original_cisla = parcel_set.get('cisla', [])
+                    # Normalize parcel numbers by removing prefixes like '1-'
+                    normalized_cisla = [re.sub(r'^.*\-', '', pn) for pn in original_cisla]
+                    if original_cisla != normalized_cisla:
+                        changed = True
+                        parcel_set['cisla'] = normalized_cisla
+
+                if changed:
+                    ku_gdfs = get_gdfs(ku, nationalCadastralZoningReferences)
+
             all_gdfs.extend(ku_gdfs)
 
         gdf = _merge_gdfs(all_gdfs)
@@ -561,76 +620,20 @@ def get_intersections_with_protected_areas(gdf: gpd.GeoDataFrame | None, status_
     return intersections
 
 def test_get_geometry_of_a_parcel_set():
-    test_data = {
-      "kraj": None,
-      "okres": "Banská Bystrica",
-      "obec": "Banská Bystrica",
-      "katastralne_uzemia": [
-        {
-          "nazov": "Badín",
-          "parcely": [
-            {
-              "typ": "C-KN",
-              "cisla": [
-                "1295",
-                "1616/1",
-                "1522",
-                "1246/1",
-                "1248/1",
-                "1599/4",
-                "1507/3",
-                "1320/8",
-                "1313/2",
-                "1314/3"
-              ]
-            }
-          ]
-        },
-        {
-          "nazov": "Vlkanová",
-          "parcely": [
-            {
-              "typ": "C-KN",
-              "cisla": [
-                "499/33"
-              ]
-            }
-          ]
-        },
-        {
-          "nazov": "Kremnička",
-          "parcely": [
-            {
-              "typ": "C-KN",
-              "cisla": [
-                "843/1",
-                "841/1",
-                "830/1",
-                "829/7",
-                "908/4",
-                "906/1",
-                "907/1",
-                "867/1",
-                "867/2",
-                "869",
-                "939/1",
-                "908/1",
-                "829/2",
-                "512",
-                "538",
-                "486/5",
-                "269/52",
-                "272/8",
-                "269/65",
-                "269/2"
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    # test_data = {'kraj': None, 'okres': 'Malacky', 'obec': 'Marianka', 'katastralne_uzemia': [], 'nazov_lokality': None}
+    # test_data = {'kraj': None, 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': [{'typ': None, 'cisla': ['6441/1']}]}], 'nazov_lokality': None}
+    # test_data = {'kraj': None, 'okres': 'Komárno', 'obec': 'Kolárovo', 'katastralne_uzemia': [{'nazov': 'Kolárovo', 'parcely': [{'typ': None, 'cisla': ['28445/37']}, {'typ': None, 'cisla': ['28447/1']}, {'typ': None, 'cisla': ['28451/743']}]}], 'nazov_lokality': None}
+    # test_data = {'kraj': None, 'okres': 'Bardejov', 'obec': 'Bardejov', 'katastralne_uzemia': [{'nazov': 'Bardejov', 'parcely': [{'typ': 'C KN', 'cisla': ['4945/79', '4945/80', '4945/81', '4945/82', '4945/93']}]}], 'nazov_lokality': None}
+    # test_data = {'kraj': None, 'okres': 'Nové Mesto nad Váhom', 'obec': 'Kočovce', 'katastralne_uzemia': [], 'nazov_lokality': 'IBV TOP DLHÉ DIELY'}
+    # test_data = {'kraj': 'Trenciansky', 'okres': 'Prievidza', 'obec': 'Handlova', 'katastralne_uzemia': [{'nazov': 'Handlova', 'parcely': [{'typ': 'E-KN', 'cisla': ['18032/1']}]}], 'nazov_lokality': 'ŽST Handlova, v km. 18,455 - 18,465'}
+    # test_data = {'kraj': None, 'okres': 'Čadca', 'obec': 'Svrčinovec', 'katastralne_uzemia': [], 'nazov_lokality': 'Skladová hala METALCOM'}
+    # test_data = {'kraj': 'Žilinský Kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [], 'nazov_lokality': 'Územný plán mesta Liptovský Mikuláš – Zmeny a doplnky č. 7'}
+    test_data = {'kraj': None, 'okres': 'Žarnovica', 'obec': 'Nová Baňa, Brehy, Rudno nad Hronom, Voznica', 'katastralne_uzemia': [{'nazov': 'Brehy', 'parcely': [{'typ': None, 'cisla': ['1215/1', '1215/2', '1216/1', '1442/1', '1448/6', '1437', '1438/1', '1438/2', '1438/3', '1439/2', '1442/2', '1445', '1446', '1447', '1448/1', '1448/5', '1448/2', '1139', '1143', '1144', '1156', '1341/3', '1461/12', '1448/7']}]}, {'nazov': 'Nová Baňa', 'parcely': [{'typ': None, 'cisla': ['1349/1', '1348', '1349', '1349/2', '1355', '1356', '5104/3', '6492/24', '6492/26', '30000', '1595/1', '5314', '1341/32', '1357']}]}, {'nazov': 'Rudno nad Hronom', 'parcely': [{'typ': None, 'cisla': ['400/6', '400/8', '461/4', '461/7', '481/6', '241/2', '241/3', '242/3', '242/2', '243/1', '246/1', '244', '245/4', '257/1', '258', '261/1', '261/2', '262', '263/1', '264', '266/2', '351/2', '354', '367/2', '366/2', '368/1', '368/2', '461/2', '769/3', '769/4', '771', '239', '352', '854/3', '857/2', '259', '349/1', '257/2', '349/2', '417/10', '60/1', '351/3', '353', '366/11', '858/1', '853/2', '366/1', '871', '869/2', '886/2', '461/1', '461/2', '461/3', '882/3']}]}, {'nazov': 'Voznica', 'parcely': [{'typ': None, 'cisla': ['427', '430', '440/2', '461/2', '310', '312', '327', '728/3', '728/9']}]}], 'nazov_lokality': 'ochrannom pásme/pod elektrickým vedením VN č. 305_k20'}
 
-    gdf = get_geometry_of_a_parcel_set(test_data)
+    gdf = get_geometry_of_a_parcel_set(test_data, '/tmp/status.json')
+    if gdf is None or gdf.empty:
+        print('No geometries found.')
+        return
     print('gdf columns:', gdf.columns)
     columns_to_print = [col for col in ['label', 'nationalCadastralReference', 'areaValue'] if col in gdf.columns]
     if columns_to_print:
@@ -640,13 +643,13 @@ def test_get_geometry_of_a_parcel_set():
 
 if __name__ == '__main__':
     # test_get_parcels_by_nationalCadastralReference()
-    # test_get_geometry_of_a_parcel_set()
+    test_get_geometry_of_a_parcel_set()
 
-    # assert get_nationalCadastralZoningReference('Abrahámovce', okres='Bardejov') == '800066'
-    # assert get_nationalCadastralZoningReference('Abrahámovce', okres='Kežmarok') == '800074'
+    # assert get_nationalCadastralZoningReferences('Abrahámovce', okres='Bardejov')[0] == '800066'
+    # assert get_nationalCadastralZoningReferences('Abrahámovce', okres='Kežmarok')[0] == '800074'
 
-    nationalCadastralZoningReference = get_nationalCadastralZoningReference('Hnilec', okres='Spišská Nová Ves')
-    print('nationalCadastralZoningReference:', nationalCadastralZoningReference)
-    zone = get_cadastral_zone(nationalCadastralZoningReference, 'C')
-    print('zone:', zone)
-    gdf_save_to_file(zone, '/tmp/zone_hnilec.geojson')
+    # nationalCadastralZoningReferences = get_nationalCadastralZoningReferences('Hnilec', okres='Spišská Nová Ves')
+    # print('nationalCadastralZoningReferences:', nationalCadastralZoningReferences)
+    # zone = get_cadastral_zone(nationalCadastralZoningReferences[0], 'C')
+    # print('zone:', zone)
+    # gdf_save_to_file(zone, '/tmp/zone_hnilec.geojson')

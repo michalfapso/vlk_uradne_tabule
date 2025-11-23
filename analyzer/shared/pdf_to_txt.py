@@ -13,8 +13,33 @@ import traceback
 # Constants
 MIN_TEXT_LENGTH_THRESHOLD = 32
 LLM_MODEL = "gemini/gemini-2.5-flash"
+# LLM_MODEL = "gemini/gemini-2.5-pro" # Lepsie pre rukou pisane dokumenty
 IMAGE_FORMAT = "png" # Format for image conversion
 IMAGE_DPI = 150 # Resolution for image conversion
+
+def is_garbled_text(text: str, threshold: float = 0.3) -> bool:
+    """
+    Heuristically determines if the text is garbled.
+    Checks for a high proportion of replacement characters or non-printable characters.
+    """
+    if not text:
+        return False # Not garbled if empty
+
+    garbled_chars = 0
+    total_chars = len(text)
+
+    # Characters to ignore in the garbled check (common whitespace)
+    allowed_control_chars = {'\n', '\r', '\t'}
+
+    for char in text:
+        # Check for replacement character, private use areas, or other control characters
+        if (char == '\ufffd' or                               # Official replacement character
+            '\uE000' <= char <= '\uF8FF' or                   # Private Use Area
+            (char.isprintable() is False and char not in allowed_control_chars)):
+            garbled_chars += 1
+
+    # If more than `threshold` of the text consists of these characters, consider it garbled.
+    return (garbled_chars / total_chars) > threshold
 
 def extract_text_from_pdf(pdf_path):
     """
@@ -29,9 +54,11 @@ def extract_text_from_pdf(pdf_path):
             page = doc.load_page(page_num)
             text += page.get_text()
 
+        text_is_garbled = is_garbled_text(text.strip())
         # Check if the extracted text is too short
-        if len(text.strip()) < MIN_TEXT_LENGTH_THRESHOLD:
-            print(f"Info: Fitz extracted text is too short ({len(text.strip())} chars). Falling back to LLM OCR.", file=sys.stderr)
+        if len(text.strip()) < MIN_TEXT_LENGTH_THRESHOLD or text_is_garbled:
+            reason = "garbled" if text_is_garbled else f"too short ({len(text.strip())} chars)"
+            print(f"Info: Fitz extracted text is {reason}. Falling back to LLM OCR.", file=sys.stderr)
             llm_text = ""
             messages = [
                 {
@@ -78,6 +105,7 @@ def extract_text_from_pdf(pdf_path):
             print("Info: Received OCR text from LLM.", file=sys.stderr)
             return llm_text.strip()
         else:
+            print("text extracted via fitz")
             return text.strip()
 
     except FileNotFoundError:
