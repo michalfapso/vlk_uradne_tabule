@@ -2,6 +2,7 @@
 // src/components/DocumentTable.astro
 import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import here for type safety if needed, but primarily loaded client-side
 import { statusTypeToIcon } from "../scripts/statusTypeToIcon.js"; // Import utility function for status type to icon mapping
+import { isDataImportant } from "../scripts/documentAnalysis.js";
 
 const {
     id = "document-table", // Default ID
@@ -22,6 +23,13 @@ console.log("allDocuments:", allDocuments);
 
 // Generate unique ID for the toggle button to avoid conflicts if multiple tables are on the page
 const toggleButtonId = `${id}-toggle-summaries-btn`;
+const countLabelId = `${id}-count-label`;
+
+const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN )?vedenia)";
+const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
+
+const totalCount = allDocuments.length;
+const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, defaultRegex)).length;
 ---
 
 {/* Component's HTML Structure */}
@@ -44,13 +52,13 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 checked
                 class="mr-2 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
             />
-            Iba dôležité dokumenty
+            Iba dôležité dokumenty <span id={countLabelId} class="ml-1 text-gray-600">({initialImportantCount}/{totalCount})</span>
         </label>
         <label for={`${id}-regex-filter`} class="flex items-center">
             Regex pre nedôležité dokumenty: <input
                 type="text"
                 id={`${id}-regex-filter`}
-                value="(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN )?vedenia)"
+                value={DEFAULT_REGEX_STRING}
                 class="ml-2 p-1 border border-gray-300 rounded-md w-56 focus:ring-blue-500 focus:border-blue-500"
             />
         </label>
@@ -88,9 +96,14 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
     }
 
     import { statusTypeToIcon } from "../scripts/statusTypeToIcon.js"; // Import the utility function
+    import { isDataImportant } from "../scripts/documentAnalysis.js";
+
     // Make statusTypeToIcon available globally
     if (!window.statusTypeToIcon) {
         window.statusTypeToIcon = statusTypeToIcon;
+    }
+    if (!window.isDataImportant) {
+        window.isDataImportant = isDataImportant;
     }
 </script>
 
@@ -102,6 +115,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
         btnId: toggleButtonId,
         importantOnlyCheckboxId: `${id}-important-only`,
         regexInputId: `${id}-regex-filter`,
+        countLabelId: countLabelId,
     }}
     is:inline
 >
@@ -127,6 +141,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             importantOnlyCheckboxId,
         );
         const regexInput = document.getElementById(regexInputId);
+        const countLabel = document.getElementById(countLabelId);
         let table = null; // Deklarujeme 'table' tu, inicializujeme na null
 
         if (!container) {
@@ -181,63 +196,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
         let currentRegex = null;
         let isRegexValid = true;
 
-        // Pomocná funkcia na získanie spojeného reťazca zo všetkých polí,
-        // v ktorých sa má vyhľadávať pomocou regex filtra.
-        const getSearchableString = (data) => {
-            const parts = [];
-            const typZasahu = data?.analyza?.typ_zasahu;
-            if (typZasahu)
-                parts.push(
-                    Array.isArray(typZasahu)
-                        ? typZasahu.join(" ")
-                        : String(typZasahu),
-                );
 
-            const typUzemia = data?.analyza?.typ_uzemia;
-            if (typUzemia)
-                parts.push(
-                    Array.isArray(typUzemia)
-                        ? typUzemia.join(" ")
-                        : String(typUzemia),
-                );
-
-            if (data?.nazov) parts.push(data.nazov);
-            if (data?.analyza?.zhrnutie) parts.push(data.analyza.zhrnutie);
-
-            return parts.join(" ");
-        };
-
-        const isDataImportant = (data) => {
-            console.log('isDataImportant()');
-            if (!isRegexValid || !currentRegex) return true;
-            const searchableString = getSearchableString(data);
-
-            const important_regex_matched = !currentRegex.test(searchableString);
-            const ucast_v_konani_povolena = data.analyza.ucast_v_konani.povolena === true || data.analyza.ucast_v_konani.povolena === null || data.analyza.ucast_v_konani.povolena === undefined;
-            const zasiahnute_chranene_uzemia = data.analyza.zasiahnute_chranene_uzemia === null || data.analyza.zasiahnute_chranene_uzemia === undefined || Object.keys(data.analyza.zasiahnute_chranene_uzemia).length > 0;
-
-            res =
-                important_regex_matched &&
-                ucast_v_konani_povolena &&
-                zasiahnute_chranene_uzemia &&
-                // (data.status !== null ) &&
-                true;
-            if (data.docId == '556406') {
-                console.log('data.docId:', data.docId);
-                console.log('important_regex_matched:', important_regex_matched);
-                console.log('ucast_v_konani_povolena:', ucast_v_konani_povolena);
-                console.log('zasiahnute_chranene_uzemia:', zasiahnute_chranene_uzemia);
-
-                console.log('regex.test(searchableString):', currentRegex.test(searchableString));
-                console.log('data.analyza.ucast_v_konani.povolena:', data.analyza.ucast_v_konani.povolena);
-                console.log('data.analyza.zasiahnute_chranene_uzemia:', data.analyza.zasiahnute_chranene_uzemia);
-                if (data.analyza.zasiahnute_chranene_uzemia) {
-                    console.log('Object.keys(data.analyza.zasiahnute_chranene_uzemia):', Object.keys(data.analyza.zasiahnute_chranene_uzemia));
-                }
-                console.log('res:', res);
-            }
-            return res;
-        };
 
         // Function to apply the filter based on checkbox and regex input
         const applyFilter = () => {
@@ -263,6 +222,13 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 regexInput.style.borderColor = "red"; // Indicate invalid regex
             }
 
+            // Update counts
+            if (countLabel && isRegexValid && currentRegex) {
+                const importantCount = documents.filter(d => window.isDataImportant(d, currentRegex)).length;
+                const totalCount = documents.length;
+                countLabel.textContent = `(${importantCount}/${totalCount})`;
+            }
+
             if (importantOnlyCheckbox.checked) {
                 // Remove any 'less-important-row' styling first
                 table.getRows().forEach((row) => {
@@ -271,7 +237,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
                 if (isRegexValid && currentRegex) {
                     table.setFilter((data) => {
-                        return isDataImportant(data);
+                        return window.isDataImportant(data, currentRegex);
                     });
                 } else {
                     // If regex is invalid or empty, and checkbox is checked, show all (effectively no "unimportant" items defined)
@@ -285,7 +251,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                     const rowElement = row.getElement();
                     const rowData = row.getData();
 
-                    if (isDataImportant(rowData)) {
+                    if (window.isDataImportant(rowData, currentRegex)) {
                         rowElement.classList.remove("less-important-row");
                     } else {
                         rowElement.classList.add("less-important-row");
