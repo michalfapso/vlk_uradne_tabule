@@ -402,6 +402,11 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 place_info = analysis_data.get('miesto_realizacie', {})
                 print(f'place_info:{place_info}')
                 gdf = get_geometry_of_a_parcel_set(place_info, status_filepath)
+
+                nazov_lokality = analysis_data.get('nazov_lokality', '')
+                if nazov_lokality:
+                    gdf_lokalita = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                    gdf = gdf.overlay(gdf_lokalita, how='intersection')
                 print(f'Saving geometry to {gis_filepath}...')
                 gdf_save_to_file(gdf, gis_filepath)
             else:

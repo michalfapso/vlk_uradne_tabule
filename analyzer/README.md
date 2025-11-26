@@ -23,6 +23,9 @@ cat ~/.local/lib/python3.10/site-packages/certifi/cacert.pem \
 ``
 
 # Known Issues:
+
+## DONE: Processing 'nazov_lokality'
+
 Following area references aren't retrieved properly. We should implement support for generic geographical names:
 ```
 place_info:{'kraj': 'Košice', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'Národný park Slovenský kras'}
@@ -37,14 +40,28 @@ place_info:{ "kraj": null, "okres": "Ilava", "obec": "Ilava, Beluša", "katastra
 
 data/docs/minv/Žilinský kraj/Tvrdošín/555191/analysis.json
 place_info:{ "kraj": null, "okres": "Tvrdošín", "obec": "Hladovka, Vitanová", "katastralne_uzemia": [], "nazov_lokality": "Hladovka – Vitanová. Kanalizačný zberač." }
-
 ```
 
+It's already implemented in shared/cadastral_parcels_ogc.py:get_geometry_of_a_geoname(), needs proper testing
+
+## Referenced documents
 We should implement retrieving referenced documents: (e.g. "...proti záväznému stanovisku zo zisťovacieho konania č. OU-KE-OSZP3-2025/012853-017 zo dňa 28.03.2025 pre navrhovanú činnosť...")
 
+## List of dicts in analysis.json
 Some documents seem to have subdocuments which make the analysis.json contain not just a dict, but a list of dicts. E.g. in `data/docs/minv/Žilinský kraj/Liptovský Mikuláš/555242/analysis.json`
 
+## Hand written docs
 Some documents are hand-written and improperly converted to text by gemini-flash and would need gemini-pro to achieve a better transcription to text. E.g.: data/docs/minv/Žilinský kraj/Žilina/555187/orig.pdf
+
+Is there a way to get a feedback from gemini-flash that the document is too hard to read and switch to gemini-pro just in then?
+
+## Typos
+Sometimes there are typos in cadastral zone names, e.g. "Dudikovany" instead of the correct "Budikovany". Maybe a similarity string matching could be used when no cadastral zone is found.
+
+Example: `/home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/556406/orig.pdf`
+
+
+
 
 
 /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/555491/analysis.json
