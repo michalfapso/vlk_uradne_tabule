@@ -50,7 +50,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             Regex pre nedôležité dokumenty: <input
                 type="text"
                 id={`${id}-regex-filter`}
-                value="(kanaliz|vodovod|plynovod|výstavb)"
+                value="(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN )?vedenia)"
                 class="ml-2 p-1 border border-gray-300 rounded-md w-56 focus:ring-blue-500 focus:border-blue-500"
             />
         </label>
@@ -207,6 +207,38 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
             return parts.join(" ");
         };
 
+        const isDataImportant = (data) => {
+            console.log('isDataImportant()');
+            if (!isRegexValid || !currentRegex) return true;
+            const searchableString = getSearchableString(data);
+
+            const important_regex_matched = !currentRegex.test(searchableString);
+            const ucast_v_konani_povolena = data.analyza.ucast_v_konani.povolena === true || data.analyza.ucast_v_konani.povolena === null || data.analyza.ucast_v_konani.povolena === undefined;
+            const zasiahnute_chranene_uzemia = data.analyza.zasiahnute_chranene_uzemia === null || data.analyza.zasiahnute_chranene_uzemia === undefined || Object.keys(data.analyza.zasiahnute_chranene_uzemia).length > 0;
+
+            res =
+                important_regex_matched &&
+                ucast_v_konani_povolena &&
+                zasiahnute_chranene_uzemia &&
+                // (data.status !== null ) &&
+                true;
+            if (data.docId == '556406') {
+                console.log('data.docId:', data.docId);
+                console.log('important_regex_matched:', important_regex_matched);
+                console.log('ucast_v_konani_povolena:', ucast_v_konani_povolena);
+                console.log('zasiahnute_chranene_uzemia:', zasiahnute_chranene_uzemia);
+
+                console.log('regex.test(searchableString):', currentRegex.test(searchableString));
+                console.log('data.analyza.ucast_v_konani.povolena:', data.analyza.ucast_v_konani.povolena);
+                console.log('data.analyza.zasiahnute_chranene_uzemia:', data.analyza.zasiahnute_chranene_uzemia);
+                if (data.analyza.zasiahnute_chranene_uzemia) {
+                    console.log('Object.keys(data.analyza.zasiahnute_chranene_uzemia):', Object.keys(data.analyza.zasiahnute_chranene_uzemia));
+                }
+                console.log('res:', res);
+            }
+            return res;
+        };
+
         // Function to apply the filter based on checkbox and regex input
         const applyFilter = () => {
             if (!importantOnlyCheckbox || !regexInput || !table) {
@@ -239,8 +271,7 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
 
                 if (isRegexValid && currentRegex) {
                     table.setFilter((data) => {
-                        const searchableString = getSearchableString(data);
-                        return !currentRegex.test(searchableString); // Hide if matches
+                        return isDataImportant(data);
                     });
                 } else {
                     // If regex is invalid or empty, and checkbox is checked, show all (effectively no "unimportant" items defined)
@@ -253,16 +284,11 @@ const toggleButtonId = `${id}-toggle-summaries-btn`;
                 table.getRows().forEach((row) => {
                     const rowElement = row.getElement();
                     const rowData = row.getData();
-                    const searchableString = getSearchableString(rowData);
 
-                    if (
-                        isRegexValid &&
-                        currentRegex &&
-                        currentRegex.test(searchableString)
-                    ) {
-                        rowElement.classList.add("less-important-row");
-                    } else {
+                    if (isDataImportant(rowData)) {
                         rowElement.classList.remove("less-important-row");
+                    } else {
+                        rowElement.classList.add("less-important-row");
                     }
                 });
             }
