@@ -2,40 +2,84 @@
   {
     "in": "že podľa § 18 ods. 3 zákona č. 71/1967 Zb. o správnom konaní (správny poriadok) v znení neskorších predpisov",
     "out": [
-      {"par": "18", "ods": "3", "zak": "71/1967"}
+      {
+        "par": "18",
+        "ods": "3",
+        "zak": "71/1967"
+      }
     ]
   },
   {
     "in": "že podľa § 64 ods. 1 písm. d) až f) a § 68 ods. 3 písm. c) zákona č. 543/2002 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov",
     "out": [
-      {"par": "64", "ods": "1", "pis": "d-f", "zak": "543/2002"},
-      {"par": "68", "ods": "3", "pis": "c", "zak": "543/2002"}
+      {
+        "par": "64",
+        "ods": "1",
+        "pis": "d-f",
+        "zak": "543/2002"
+      },
+      {
+        "par": "68",
+        "ods": "3",
+        "pis": "c",
+        "zak": "543/2002"
+      }
     ]
   },
   {
     "in": "V zmysle § 1 ods. 1 ZOPK. Následne podľa § 1 ods. 2 citovaného zákona.",
     "out": [
-        {"par": "1", "ods": "1", "zak": "543/2002"},
-        {"par": "1", "ods": "2", "zak": "543/2002"}
+      {
+        "par": "1",
+        "ods": "1",
+        "zak": "543/2002"
+      },
+      {
+        "par": "1",
+        "ods": "2",
+        "zak": "543/2002"
+      }
     ]
   },
   {
     "in": "Relevantné sú § 1 ZOPK a § 3 správneho poriadku.",
     "out": [
-        {"par": "1", "zak": "543/2002"},
-        {"par": "3", "zak": "71/1967"}
+      {
+        "par": "1",
+        "zak": "543/2002"
+      },
+      {
+        "par": "3",
+        "zak": "71/1967"
+      }
     ]
   },
   {
     "in": "Podľa § 99 zákona 123/2099 Z.z. ktorý nepoznáme.",
     "out": [
-        {"par": "99", "unmatched_name": "123/2099 Z.z. ktorý nepoznáme"}
+      {
+        "par": "99",
+        "unmatched_name": "123/2099 Z.z. ktorý nepoznáme"
+      }
     ]
   },
   {
     "in": "Uplatňuje sa § 1 ods. 2-4 ZOPK.",
     "out": [
-      {"par": "1", "ods": "2-4", "zak": "543/2002"}
+      {
+        "par": "1",
+        "ods": "2-4",
+        "zak": "543/2002"
+      }
+    ]
+  },
+  {
+    "in": "Ustanovenie odseku 3 sa nevzťahuje na výrub dreviny.",
+    "out": [
+      {
+        "ods": "3",
+        "unmatched_name": "sa nevzťahuje na výrub dreviny."
+      }
     ]
   }
 ]

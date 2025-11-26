@@ -53,25 +53,47 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
     if DEBUG: print(f"\n{'='*20}\nDEBUG: Normalizovaný text:\n'{normalized_text}'\n{'='*20}")
 
     # --- Regex pre jednotlivé § klauzuly (s pomenovanými skupinami) ---
+    # --- Regex pre jednotlivé § klauzuly (s pomenovanými skupinami) ---
+    # Upravené tak, aby akceptovalo aj začiatok "odsek X" alebo "písmeno Y" bez §
     single_ref_pattern_named = r"""
-        §\s*(?P<paragraf_start>\d+[a-z]?)
-        (?: \s* (?:až|-|\.\.) \s* (?P<paragraf_end>\d+[a-z]?) )?
-        (?: \s+ods(?:t)?\.\s*(?P<odsek_start>\d+) (?: \s* (?:až|-|\.\.) \s* (?P<odsek_end>\d+) )? )?
-        (?: \s+písm\.\s*(?P<pismeno_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\)? )? )?
+        (?:
+            §\s*(?P<paragraf_start>\d+[a-z]?)
+            (?: \s* (?:až|-|\.\.) \s* (?P<paragraf_end>\d+[a-z]?) )?
+            (?: \s+ods(?:ek|eku|ekom|t)?\.\s*(?P<odsek_start>\d+) (?: \s* (?:až|-|\.\.) \s* (?P<odsek_end>\d+) )? )?
+            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*(?P<pismeno_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\)? )? )?
+        |
+            (?:ods(?:ek|eku|ekom|t)?\.?)\s*(?P<odsek_only_start>\d+)
+            (?: \s* (?:až|-|\.\.) \s* (?P<odsek_only_end>\d+) )?
+            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*(?P<pismeno_only_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_only_end>[a-z])\)? )? )?
+        |
+            (?:písm(?:eno|ena|ená|enom|enami)?\.?)\s*(?P<pismeno_pure_start>[a-z])\)?
+            (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_pure_end>[a-z])\)? )?
+        )
     """
     sub_ref_regex = re.compile(single_ref_pattern_named, re.IGNORECASE | re.VERBOSE)
 
     # --- Vzor pre štruktúru jednej referencie (bez pomenovaných skupín) ---
+    # Musí byť zosúladený s single_ref_pattern_named
     single_ref_structure_pattern = r"""
-        §\s*\d+[a-z]?
-        (?: \s* (?:až|-|\.\.) \s* \d+[a-z]? )?
-        (?: \s+ods(?:t)?\.\s*\d+ (?: \s* (?:až|-|\.\.) \s* \d+ )? )?
-        (?: \s+písm\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+        (?:
+            §\s*\d+[a-z]?
+            (?: \s* (?:až|-|\.\.) \s* \d+[a-z]? )?
+            (?: \s+ods(?:ek|eku|ekom|t)?\.\s*\d+ (?: \s* (?:až|-|\.\.) \s* \d+ )? )?
+            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+        |
+            (?:ods(?:ek|eku|ekom|t)?\.?)\s*\d+
+            (?: \s* (?:až|-|\.\.) \s* \d+ )?
+            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+        |
+            (?:písm(?:eno|ena|ená|enom|enami)?\.?)\s*[a-z]\)?
+            (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )?
+        )
     """
 
     # --- Hlavný Regex pre celý blok (vrátane zákona na konci) ---
     generic_law_text_pattern = r"""(?:(?:(?! # Stop if current position is followed by:
         §\s*\d | # Start of another paragraph reference
+        (?:ods|písm) | # Start of odsek/pismeno reference
         \s\( | # Space followed by opening parenthesis
         ,\s*   # Comma followed by optional space
     ).){2,150})"""
@@ -112,7 +134,7 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
         zakon_refname = None
 
         if captured_law_text:
-            stripped_law_text = captured_law_text.strip()
+            stripped_law_text = captured_law_text.strip().rstrip('.,;')
             if DEBUG: print(f"  Spracovávaný text zákona: '{stripped_law_text}'")
 
             if stripped_law_text.lower() in anaphoric_phrases:
@@ -153,7 +175,28 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
             sub_match_count += 1
             if DEBUG: print(f"  --- Sub-match #{sub_match_count} v bloku ---")
             
-            reference_data = {k: v for k, v in sub_match.groupdict().items() if v is not None}
+            raw_data = sub_match.groupdict()
+            reference_data = {}
+            
+            # Normalizácia kľúčov (odstránenie _only/_pure suffixov)
+            if raw_data.get('paragraf_start'):
+                reference_data['paragraf_start'] = raw_data['paragraf_start']
+                if raw_data.get('paragraf_end'): reference_data['paragraf_end'] = raw_data['paragraf_end']
+                if raw_data.get('odsek_start'): reference_data['odsek_start'] = raw_data['odsek_start']
+                if raw_data.get('odsek_end'): reference_data['odsek_end'] = raw_data['odsek_end']
+                if raw_data.get('pismeno_start'): reference_data['pismeno_start'] = raw_data['pismeno_start']
+                if raw_data.get('pismeno_end'): reference_data['pismeno_end'] = raw_data['pismeno_end']
+            
+            elif raw_data.get('odsek_only_start'):
+                reference_data['odsek_start'] = raw_data['odsek_only_start']
+                if raw_data.get('odsek_only_end'): reference_data['odsek_only_end'] = raw_data['odsek_only_end']
+                if raw_data.get('pismeno_only_start'): reference_data['pismeno_only_start'] = raw_data['pismeno_only_start']
+                if raw_data.get('pismeno_only_end'): reference_data['pismeno_only_end'] = raw_data['pismeno_only_end']
+                
+            elif raw_data.get('pismeno_pure_start'):
+                reference_data['pismeno_start'] = raw_data['pismeno_pure_start']
+                if raw_data.get('pismeno_pure_end'): reference_data['pismeno_pure_end'] = raw_data['pismeno_pure_end']
+
             reference_data['str'] = sub_match.group(0).strip()
             if DEBUG: print(f"    Pôvodné dáta: {reference_data}")
             
@@ -292,6 +335,11 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                 if sub_ref.get("zakon_id") is None:
                     sub_ref["zakon_id"] = zakon_id # Use the current law's ID
                     sub_ref["zakon_refname"] = display_zakon_ref # Use the current law's ref name
+                
+                # Propagate paragraph context if missing
+                if not sub_ref.get("paragraf_start"):
+                    sub_ref["paragraf_start"] = paragraf_num
+
             sub_refs_for_recursion.extend(found_sub_refs)
             continue
 
@@ -328,6 +376,23 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                     if sub_ref.get("zakon_id") is None:
                         sub_ref["zakon_id"] = zakon_id
                         sub_ref["zakon_refname"] = display_zakon_ref
+                    
+                    # Propagate paragraph context if missing
+                    if not sub_ref.get("paragraf_start"):
+                        sub_ref["paragraf_start"] = paragraf_num
+                    
+                    # NOTE: We generally don't propagate odsek number to sub-references found inside the odsek text,
+                    # because "písmeno a)" inside "odsek 3" usually refers to "odsek 3 písmeno a)",
+                    # BUT "odsek 5" inside "odsek 3" refers to "odsek 5" of the same paragraph.
+                    # So we only propagate paragraph number.
+                    # Exception: if it says just "písmeno a)", it implies current paragraph AND current odsek?
+                    # Actually, usually "písmeno a)" is a child of an odsek.
+                    # If the text says "podľa písmena a)", it refers to "odsek X písmeno a)" where X is likely THIS odsek,
+                    # OR it refers to "§ Y písmeno a)" if the paragraph has letters directly (rare in SK laws, usually letters are under odsek).
+                    # Let's assume if we find "písmeno X" without odsek/paragraf, it belongs to THIS odsek.
+                    if not sub_ref.get("paragraf_start") and not sub_ref.get("odsek_start") and sub_ref.get("pismeno_start"):
+                         sub_ref["odsek_start"] = str(odsek_num)
+
                 sub_refs_for_recursion.extend(found_sub_refs_for_odsek)
                 continue
             
@@ -340,6 +405,8 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                  if sub_ref.get("zakon_id") is None:
                     sub_ref["zakon_id"] = zakon_id
                     sub_ref["zakon_refname"] = display_zakon_ref
+                 if not sub_ref.get("paragraf_start"):
+                    sub_ref["paragraf_start"] = paragraf_num
             sub_refs_for_recursion.extend(found_sub_refs_in_odsek_parent_text)
 
             pi_end_char = reference.get("pismeno_end", pi_start_char)
@@ -361,6 +428,8 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                          if sub_ref.get("zakon_id") is None:
                             sub_ref["zakon_id"] = zakon_id
                             sub_ref["zakon_refname"] = display_zakon_ref
+                         if not sub_ref.get("paragraf_start"):
+                            sub_ref["paragraf_start"] = paragraf_num
                     sub_refs_for_recursion.extend(found_sub_refs_in_pismeno)
                 else:
                     current_block_texts.append(f"Chyba: § {paragraf_num} ods. {odsek_num} písm. {pismeno_char}) sa nenašlo.")
