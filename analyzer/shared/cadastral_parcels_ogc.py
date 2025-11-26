@@ -12,6 +12,7 @@ import time
 from log_handler import log_status
 import unicodedata
 from shapely.geometry import shape
+import difflib
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROTECTED_AREAS_DATA_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'data', 'protected_areas')
@@ -282,13 +283,50 @@ def get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=No
     else:
         return _get_nationalCadastralZoningReferences(katastralneUzemie, obec, okres, kraj, katastralneUzemie, obec, okres, kraj)
 
+_CADASTER_DATA_CACHE = None
+
+def _load_cadaster_data():
+    global _CADASTER_DATA_CACHE
+    if _CADASTER_DATA_CACHE is not None:
+        return _CADASTER_DATA_CACHE
+    
+    file_path = os.path.join(CADASTER_DATA_DIR, 'USJ_hranice_0.csv')
+    data = []
+    indices = None
+    try:
+        with open(file_path, mode='r', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            header = next(reader)
+            try:
+                kraj_idx = header.index('NM2')
+                okres_idx = header.index('NM3')
+                obec_idx = header.index('NM4')
+                ku_idx = header.index('NM5')
+                idn5_idx = header.index('IDN5')
+                indices = (kraj_idx, okres_idx, obec_idx, ku_idx, idn5_idx)
+            except ValueError as e:
+                print(f"Chyba: Stĺpec {e} sa nenašiel v CSV súbore.")
+                return None, None
+
+            for row in reader:
+                data.append(row)
+    except FileNotFoundError:
+        print(f"Chyba: Súbor {file_path} sa nenašiel.")
+        return None, None
+            
+    _CADASTER_DATA_CACHE = (data, indices)
+    return _CADASTER_DATA_CACHE
+
 def _get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=None, kraj=None, katastralneUzemieOrig=None, obecOrig=None, okresOrig=None, krajOrig=None) -> List[str]:
     """
     Loads the file ../data/cadaster/USJ_hranice_0.csv and finds all rows matching the given arguments.
     NM2 is kraj, NM3 is okres, NM4 is obec, NM5 is katastralneUzemie.
     Returns a list of IDN5 values.
     """
-    file_path = os.path.join(CADASTER_DATA_DIR, 'USJ_hranice_0.csv')
+    cache = _load_cadaster_data()
+    if not cache or not cache[0]:
+        return []
+    rows, (kraj_idx, okres_idx, obec_idx, ku_idx, idn5_idx) = cache
 
     kraj = re.sub(r'\s*[kK][rR][aA][jJ]', '', kraj) if kraj else None
 
@@ -301,49 +339,52 @@ def _get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=N
         
     found_ids = []
 
-    # print(f'_get_nationalCadastralZoningReferences() Loading cadastral data from {file_path}...')
-    with open(file_path, mode='r', encoding='utf-8') as csvfile:
-        # print('_get_nationalCadastralZoningReferences() CSV file opened successfully.')
-        reader = csv.reader(csvfile)
-        header = next(reader)  # Skip header
+    for row in rows:
+        # Porovnávame normalizované hodnoty
+        if norm_kraj and _normalize_string(row[kraj_idx]) != norm_kraj:
+            continue
+        if norm_okres and _normalize_string(row[okres_idx]) != norm_okres:
+            continue
+        if norm_obec and _normalize_string(row[obec_idx]) != norm_obec:
+            continue
+        if norm_ku and _normalize_string(row[ku_idx]) != norm_ku:
+            continue
         
-        # Map columns to indices
-        try:
-            kraj_idx = header.index('NM2')
-            okres_idx = header.index('NM3')
-            obec_idx = header.index('NM4')
-            ku_idx = header.index('NM5')
-            idn5_idx = header.index('IDN5')
-        except ValueError as e:
-            print(f"Chyba: Stĺpec {e} sa nenašiel v CSV súbore.")
-            return []
-
-        for row in reader:
-            # print('row:', row)
-            # Porovnávame normalizované hodnoty
-            if norm_kraj and _normalize_string(row[kraj_idx]) != norm_kraj:
-                continue
-            if norm_okres and _normalize_string(row[okres_idx]) != norm_okres:
-                continue
-            if norm_obec and _normalize_string(row[obec_idx]) != norm_obec:
-                continue
-            if norm_ku and _normalize_string(row[ku_idx]) != norm_ku:
-                continue
-            
-            found_ids.append(row[idn5_idx])
+        found_ids.append(row[idn5_idx])
 
     if not found_ids:
+        # 1. Skúsime odstrániť obec/okres z názvu katastrálneho územia (existujúca logika)
         if katastralneUzemie is not None:
             if obec is not None:
-                # Skúsime odstrániť obec z názvu katastrálneho územia
-                katastralneUzemie2 = re.sub(r'^' + obec + r'\s*-\s*', '', katastralneUzemie)
+                katastralneUzemie2 = re.sub(r'^' + re.escape(obec) + r'\s*-\s*', '', katastralneUzemie, flags=re.IGNORECASE)
                 if katastralneUzemie2 != katastralneUzemie:
                     return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
             if okres is not None:
-                # Skúsime odstrániť okres z názvu katastrálneho územia
-                katastralneUzemie2 = re.sub(r'^' + okres + r'\s*-\s*', '', katastralneUzemie)
+                katastralneUzemie2 = re.sub(r'^' + re.escape(okres) + r'\s*-\s*', '', katastralneUzemie, flags=re.IGNORECASE)
                 if katastralneUzemie2 != katastralneUzemie:
                     return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
+
+        # 2. Fuzzy matching (Nová logika)
+        if norm_ku:
+            candidates = []
+            for row in rows:
+                if norm_kraj and _normalize_string(row[kraj_idx]) != norm_kraj: continue
+                if norm_okres and _normalize_string(row[okres_idx]) != norm_okres: continue
+                if norm_obec and _normalize_string(row[obec_idx]) != norm_obec: continue
+                candidates.append(row)
+            
+            if candidates:
+                candidate_kus_norm = [_normalize_string(r[ku_idx]) for r in candidates]
+                matches = difflib.get_close_matches(norm_ku, candidate_kus_norm, n=1, cutoff=0.75)
+                if matches:
+                    best_match_norm = matches[0]
+                    for r in candidates:
+                        if _normalize_string(r[ku_idx]) == best_match_norm:
+                            print(f"Fuzzy match found: '{katastralneUzemie}' -> '{r[ku_idx]}' (ID: {r[idn5_idx]})")
+                            return [r[idn5_idx]]
+
+        # 3. Relaxácia obmedzení (existujúca logika)
+        if katastralneUzemie is not None:
             if obec is not None:
                 # Skúsime zavolať bez obce
                 return _get_nationalCadastralZoningReferences(katastralneUzemie, None, okres, kraj)
@@ -691,7 +732,8 @@ def test_get_geometry_of_a_parcel_set():
     # test_data = {'kraj': 'Trenciansky', 'okres': 'Prievidza', 'obec': 'Handlova', 'katastralne_uzemia': [{'nazov': 'Handlova', 'parcely': [{'typ': 'E-KN', 'cisla': ['18032/1']}]}], 'nazov_lokality': 'ŽST Handlova, v km. 18,455 - 18,465'}
     # test_data = {'kraj': None, 'okres': 'Čadca', 'obec': 'Svrčinovec', 'katastralne_uzemia': [], 'nazov_lokality': 'Skladová hala METALCOM'}
     # test_data = {'kraj': 'Žilinský Kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [], 'nazov_lokality': 'Územný plán mesta Liptovský Mikuláš – Zmeny a doplnky č. 7'}
-    test_data = {'kraj': None, 'okres': 'Žarnovica', 'obec': 'Nová Baňa, Brehy, Rudno nad Hronom, Voznica', 'katastralne_uzemia': [{'nazov': 'Brehy', 'parcely': [{'typ': None, 'cisla': ['1215/1', '1215/2', '1216/1', '1442/1', '1448/6', '1437', '1438/1', '1438/2', '1438/3', '1439/2', '1442/2', '1445', '1446', '1447', '1448/1', '1448/5', '1448/2', '1139', '1143', '1144', '1156', '1341/3', '1461/12', '1448/7']}]}, {'nazov': 'Nová Baňa', 'parcely': [{'typ': None, 'cisla': ['1349/1', '1348', '1349', '1349/2', '1355', '1356', '5104/3', '6492/24', '6492/26', '30000', '1595/1', '5314', '1341/32', '1357']}]}, {'nazov': 'Rudno nad Hronom', 'parcely': [{'typ': None, 'cisla': ['400/6', '400/8', '461/4', '461/7', '481/6', '241/2', '241/3', '242/3', '242/2', '243/1', '246/1', '244', '245/4', '257/1', '258', '261/1', '261/2', '262', '263/1', '264', '266/2', '351/2', '354', '367/2', '366/2', '368/1', '368/2', '461/2', '769/3', '769/4', '771', '239', '352', '854/3', '857/2', '259', '349/1', '257/2', '349/2', '417/10', '60/1', '351/3', '353', '366/11', '858/1', '853/2', '366/1', '871', '869/2', '886/2', '461/1', '461/2', '461/3', '882/3']}]}, {'nazov': 'Voznica', 'parcely': [{'typ': None, 'cisla': ['427', '430', '440/2', '461/2', '310', '312', '327', '728/3', '728/9']}]}], 'nazov_lokality': 'ochrannom pásme/pod elektrickým vedením VN č. 305_k20'}
+    # test_data = {'kraj': None, 'okres': 'Žarnovica', 'obec': 'Nová Baňa, Brehy, Rudno nad Hronom, Voznica', 'katastralne_uzemia': [{'nazov': 'Brehy', 'parcely': [{'typ': None, 'cisla': ['1215/1', '1215/2', '1216/1', '1442/1', '1448/6', '1437', '1438/1', '1438/2', '1438/3', '1439/2', '1442/2', '1445', '1446', '1447', '1448/1', '1448/5', '1448/2', '1139', '1143', '1144', '1156', '1341/3', '1461/12', '1448/7']}]}, {'nazov': 'Nová Baňa', 'parcely': [{'typ': None, 'cisla': ['1349/1', '1348', '1349', '1349/2', '1355', '1356', '5104/3', '6492/24', '6492/26', '30000', '1595/1', '5314', '1341/32', '1357']}]}, {'nazov': 'Rudno nad Hronom', 'parcely': [{'typ': None, 'cisla': ['400/6', '400/8', '461/4', '461/7', '481/6', '241/2', '241/3', '242/3', '242/2', '243/1', '246/1', '244', '245/4', '257/1', '258', '261/1', '261/2', '262', '263/1', '264', '266/2', '351/2', '354', '367/2', '366/2', '368/1', '368/2', '461/2', '769/3', '769/4', '771', '239', '352', '854/3', '857/2', '259', '349/1', '257/2', '349/2', '417/10', '60/1', '351/3', '353', '366/11', '858/1', '853/2', '366/1', '871', '869/2', '886/2', '461/1', '461/2', '461/3', '882/3']}]}, {'nazov': 'Voznica', 'parcely': [{'typ': None, 'cisla': ['427', '430', '440/2', '461/2', '310', '312', '327', '728/3', '728/9']}]}], 'nazov_lokality': 'ochrannom pásme/pod elektrickým vedením VN č. 305_k20'}
+    test_data = {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Dudikovany', 'parcely': [{'typ': 'C-KN', 'cisla': ['1115', '1114', '1151']}]}, {'nazov': 'Padarovce', 'parcely': [{'typ': 'C-KN', 'cisla': ['837', '893', '894', '921', '924', '925', '926', '1030', '896']}]}, {'nazov': 'Drienčany', 'parcely': [{'typ': 'C-KN', 'cisla': ['824', '825', '826']}]}, {'nazov': 'Ostrany', 'parcely': [{'typ': 'E-KN', 'cisla': ['272/45']}]}, {'nazov': 'Vyšný Blh', 'parcely': [{'typ': 'C-KN', 'cisla': ['3218']}]}], 'nazov_lokality': None}
 
     gdf = get_geometry_of_a_parcel_set(test_data, '/tmp/status.json')
     if gdf is None or gdf.empty:
@@ -720,8 +762,8 @@ def test_get_geometry_of_a_geoname():
 
 if __name__ == '__main__':
     # test_get_parcels_by_nationalCadastralReference()
-    # test_get_geometry_of_a_parcel_set()
-    test_get_geometry_of_a_geoname()
+    test_get_geometry_of_a_parcel_set()
+    # test_get_geometry_of_a_geoname()
 
     # assert get_nationalCadastralZoningReferences('Abrahámovce', okres='Bardejov')[0] == '800066'
     # assert get_nationalCadastralZoningReferences('Abrahámovce', okres='Kežmarok')[0] == '800074'
