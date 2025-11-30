@@ -6,6 +6,7 @@ import os
 DEBUG = False
 
 MAX_RECURSION_DEPTH = 3 # Maximálna hĺbka rekurzie
+MAX_TREE_TEXT_LENGTH = 2500 # Maximálna dĺžka textu pre jeden strom referencií
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "../../data")
 LAWS_DIR = os.path.join(DATA_DIR, "laws")
@@ -53,40 +54,60 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
     if DEBUG: print(f"\n{'='*20}\nDEBUG: Normalizovaný text:\n'{normalized_text}'\n{'='*20}")
 
     # --- Regex pre jednotlivé § klauzuly (s pomenovanými skupinami) ---
-    # --- Regex pre jednotlivé § klauzuly (s pomenovanými skupinami) ---
-    # Upravené tak, aby akceptovalo aj začiatok "odsek X" alebo "písmeno Y" bez §
-    single_ref_pattern_named = r"""
+    
+    # Kľúčové slová s gramatickými tvarmi
+    ods_kw = r"ods(?:ek(?:y|ov|u|om|och|mi)?|t)?\.?"
+    pism_kw = r"písm(?:en(?:a|á|o|u|om|ami|ách)?)?\.?"
+
+    # Regex pre jednotlivé § klauzuly (s pomenovanými skupinami)
+    single_ref_pattern_named = fr"""
         (?:
             §\s*(?P<paragraf_start>\d+[a-z]?)
             (?: \s* (?:až|-|\.\.) \s* (?P<paragraf_end>\d+[a-z]?) )?
-            (?: \s+ods(?:ek|eku|ekom|t)?\.\s*(?P<odsek_start>\d+) (?: \s* (?:až|-|\.\.) \s* (?P<odsek_end>\d+) )? )?
-            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*(?P<pismeno_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\)? )? )?
+            (?: \s+ {ods_kw} \s*\(?(?P<odsek_start>\d+)\)? (?: \s* (?:až|-|\.\.) \s* \(?(?P<odsek_end>\d+)\)? )? )?
+            (?: \s+ {pism_kw} \s*(?P<pismeno_start>[a-z])\b\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_end>[a-z])\b\)? )? )?
         |
-            (?:ods(?:ek|eku|ekom|t)?\.?)\s*(?P<odsek_only_start>\d+)
-            (?: \s* (?:až|-|\.\.) \s* (?P<odsek_only_end>\d+) )?
-            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*(?P<pismeno_only_start>[a-z])\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_only_end>[a-z])\)? )? )?
+            (?: {ods_kw} )\s*\(?(?P<odsek_only_start>\d+)\)?
+            (?: \s* (?:až|-|\.\.) \s* \(?(?P<odsek_only_end>\d+)\)? )?
+            (?: \s+ {pism_kw} \s*(?P<pismeno_only_start>[a-z])\b\)? (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_only_end>[a-z])\b\)? )? )?
         |
-            (?:písm(?:eno|ena|ená|enom|enami)?\.?)\s*(?P<pismeno_pure_start>[a-z])\)?
-            (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_pure_end>[a-z])\)? )?
+            (?: {pism_kw} )\s*(?P<pismeno_pure_start>[a-z])\b\)?
+            (?: \s* (?:až|-|\.\.) \s* (?P<pismeno_pure_end>[a-z])\b\)? )?
+        |
+            (?P<bare_num>\d+[a-z]?)
+            (?: \s* (?:až|-|\.\.) \s* (?P<bare_num_end>\d+[a-z]?) )?
+        |
+            (?P<bare_letter>[a-z])\b\)?
+            (?: \s* (?:až|-|\.\.) \s* (?P<bare_letter_end>[a-z])\b\)? )?
         )
     """
     sub_ref_regex = re.compile(single_ref_pattern_named, re.IGNORECASE | re.VERBOSE)
 
     # --- Vzor pre štruktúru jednej referencie (bez pomenovaných skupín) ---
-    # Musí byť zosúladený s single_ref_pattern_named
-    single_ref_structure_pattern = r"""
+    
+    # Plná referencia (musí začínať kľúčovým slovom)
+    full_ref_structure_pattern = fr"""
         (?:
             §\s*\d+[a-z]?
             (?: \s* (?:až|-|\.\.) \s* \d+[a-z]? )?
-            (?: \s+ods(?:ek|eku|ekom|t)?\.\s*\d+ (?: \s* (?:až|-|\.\.) \s* \d+ )? )?
-            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+            (?: \s+ {ods_kw} \s*\(?\d+\)? (?: \s* (?:až|-|\.\.) \s* \(?\d+\)? )? )?
+            (?: \s+ {pism_kw} \s*[a-z]\b\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\b\)? )? )?
         |
-            (?:ods(?:ek|eku|ekom|t)?\.?)\s*\d+
-            (?: \s* (?:až|-|\.\.) \s* \d+ )?
-            (?: \s+písm(?:eno|ena|ená|enom|enami)?\.\s*[a-z]\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )? )?
+            (?: {ods_kw} )\s*\(?\d+\)?
+            (?: \s* (?:až|-|\.\.) \s* \(?\d+\)? )?
+            (?: \s+ {pism_kw} \s*[a-z]\b\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\b\)? )? )?
         |
-            (?:písm(?:eno|ena|ená|enom|enami)?\.?)\s*[a-z]\)?
-            (?: \s* (?:až|-|\.\.) \s* [a-z]\)? )?
+            (?: {pism_kw} )\s*[a-z]\b\)?
+            (?: \s* (?:až|-|\.\.) \s* [a-z]\b\)? )?
+        )
+    """
+
+    # "Holá" referencia (číslo alebo písmeno, povolené len v zozname)
+    bare_ref_structure_pattern = r"""
+        (?:
+            \d+[a-z]? (?: \s* (?:až|-|\.\.) \s* \d+[a-z]? )?
+        |
+            [a-z]\b\)? (?: \s* (?:až|-|\.\.) \s* [a-z]\b\)? )?
         )
     """
 
@@ -94,16 +115,16 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
     generic_law_text_pattern = r"""(?:(?:(?! # Stop if current position is followed by:
         §\s*\d | # Start of another paragraph reference
         (?:ods|písm) | # Start of odsek/pismeno reference
-        \s\( | # Space followed by opening parenthesis
-        ,\s*   # Comma followed by optional space
+        \s\( # Space followed by opening parenthesis
     ).){2,150})"""
     
-    references_block_pattern = f"(?P<references_block>{single_ref_structure_pattern}(?:\\s*(?:,|a)\\s*{single_ref_structure_pattern})*)"
+    # Blok referencií: PlnáRef (separátor (PlnáRef | HoláRef))*
+    references_block_pattern = f"(?P<references_block>{full_ref_structure_pattern}(?:\\s*(?:,|a|i|aj)\\s*(?:{full_ref_structure_pattern}|{bare_ref_structure_pattern}))*)"
 
     main_regex = re.compile(fr"""
         {references_block_pattern}
         (?: # Voliteľná skupina pre identifikáciu zákona
-            \s+
+            (?: \s+ | \s* , \s* )
             (?:
                 zákona \s* (?:č\.\s*)? \s*
                 (?P<law_after_zakona> {generic_law_text_pattern} )
@@ -171,6 +192,12 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
 
         references_block_text = match_dict['references_block']
         sub_match_count = 0
+        
+        # Kontext pre inferenciu "holých" referencií
+        last_context_type = None # 'paragraf', 'odsek', 'pismeno'
+        last_paragraf = None
+        last_odsek = None
+        
         for sub_match in sub_ref_regex.finditer(references_block_text):
             sub_match_count += 1
             if DEBUG: print(f"  --- Sub-match #{sub_match_count} v bloku ---")
@@ -178,7 +205,7 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
             raw_data = sub_match.groupdict()
             reference_data = {}
             
-            # Normalizácia kľúčov (odstránenie _only/_pure suffixov)
+            # 1. Plné referencie - nastavujú kontext
             if raw_data.get('paragraf_start'):
                 reference_data['paragraf_start'] = raw_data['paragraf_start']
                 if raw_data.get('paragraf_end'): reference_data['paragraf_end'] = raw_data['paragraf_end']
@@ -186,16 +213,84 @@ def find_law_references_advanced(text: str, law_registry: dict) -> list[dict]:
                 if raw_data.get('odsek_end'): reference_data['odsek_end'] = raw_data['odsek_end']
                 if raw_data.get('pismeno_start'): reference_data['pismeno_start'] = raw_data['pismeno_start']
                 if raw_data.get('pismeno_end'): reference_data['pismeno_end'] = raw_data['pismeno_end']
-            
+                
+                last_context_type = 'paragraf'
+                last_paragraf = raw_data['paragraf_start']
+                last_odsek = raw_data.get('odsek_start') # Môže byť None
+                if raw_data.get('pismeno_start'): last_context_type = 'pismeno'
+                elif raw_data.get('odsek_start'): last_context_type = 'odsek'
+
             elif raw_data.get('odsek_only_start'):
                 reference_data['odsek_start'] = raw_data['odsek_only_start']
                 if raw_data.get('odsek_only_end'): reference_data['odsek_only_end'] = raw_data['odsek_only_end']
                 if raw_data.get('pismeno_only_start'): reference_data['pismeno_only_start'] = raw_data['pismeno_only_start']
                 if raw_data.get('pismeno_only_end'): reference_data['pismeno_only_end'] = raw_data['pismeno_only_end']
                 
+                # Ak máme kontext paragrafu, pridáme ho
+                if last_paragraf:
+                    reference_data['paragraf_start'] = last_paragraf
+                
+                last_context_type = 'odsek'
+                last_odsek = raw_data['odsek_only_start']
+                if raw_data.get('pismeno_only_start'): last_context_type = 'pismeno'
+                
             elif raw_data.get('pismeno_pure_start'):
                 reference_data['pismeno_start'] = raw_data['pismeno_pure_start']
                 if raw_data.get('pismeno_pure_end'): reference_data['pismeno_pure_end'] = raw_data['pismeno_pure_end']
+                
+                if last_paragraf: reference_data['paragraf_start'] = last_paragraf
+                if last_odsek: reference_data['odsek_start'] = last_odsek
+                
+                last_context_type = 'pismeno'
+
+            # 2. Holé referencie - dedia kontext
+            elif raw_data.get('bare_num'):
+                # Číslo môže byť paragraf alebo odsek, záleží na kontexte
+                if last_context_type == 'paragraf':
+                    reference_data['paragraf_start'] = raw_data['bare_num']
+                    if raw_data.get('bare_num_end'): reference_data['paragraf_end'] = raw_data['bare_num_end']
+                    last_paragraf = raw_data['bare_num']
+                    last_odsek = None # Reset odseku pri novom paragrafe
+                    
+                elif last_context_type == 'odsek':
+                    reference_data['odsek_start'] = raw_data['bare_num']
+                    if raw_data.get('bare_num_end'): reference_data['odsek_end'] = raw_data['bare_num_end']
+                    if last_paragraf: reference_data['paragraf_start'] = last_paragraf
+                    last_odsek = raw_data['bare_num']
+                    
+                elif last_context_type == 'pismeno':
+                    # Ak sme v písmenách a príde číslo, predpokladáme, že sa vraciame o úroveň vyššie
+                    # Ak máme last_odsek, tak to bude ďalší odsek. Ak nie, tak ďalší paragraf.
+                    if last_odsek:
+                        reference_data['odsek_start'] = raw_data['bare_num']
+                        if raw_data.get('bare_num_end'): reference_data['odsek_end'] = raw_data['bare_num_end']
+                        if last_paragraf: reference_data['paragraf_start'] = last_paragraf
+                        last_context_type = 'odsek'
+                        last_odsek = raw_data['bare_num']
+                    else:
+                        reference_data['paragraf_start'] = raw_data['bare_num']
+                        if raw_data.get('bare_num_end'): reference_data['paragraf_end'] = raw_data['bare_num_end']
+                        last_context_type = 'paragraf'
+                        last_paragraf = raw_data['bare_num']
+                        last_odsek = None
+                else:
+                    # Fallback ak nie je kontext (nemalo by sa stať vďaka regexu bloku)
+                    # Ale ak sa stane, považujme za paragraf? Alebo ignorujme?
+                    if DEBUG: print(f"    Ignorovaná holá referencia '{raw_data['bare_num']}' bez kontextu.")
+                    continue
+
+            elif raw_data.get('bare_letter'):
+                # Fix pre "a" ako spojku: Ak je bare_letter "a" (alebo "i") a nemá zátvorku, ignorujeme ho.
+                if raw_data['bare_letter'] in ('a', 'i') and not sub_match.group(0).endswith(')'):
+                     if DEBUG: print(f"    Ignorovaná spojka '{raw_data['bare_letter']}' (bez zátvorky).")
+                     continue
+
+                reference_data['pismeno_start'] = raw_data['bare_letter']
+                if raw_data.get('bare_letter_end'): reference_data['pismeno_end'] = raw_data['bare_letter_end']
+                
+                if last_paragraf: reference_data['paragraf_start'] = last_paragraf
+                if last_odsek: reference_data['odsek_start'] = last_odsek
+                last_context_type = 'pismeno'
 
             reference_data['str'] = sub_match.group(0).strip()
             if DEBUG: print(f"    Pôvodné dáta: {reference_data}")
@@ -224,34 +319,25 @@ def _get_canonical_ref_str(reference: dict) -> str:
     ]
     return "|".join(str(p).lower() for p in parts if p is not None)
 
-def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, visited_references: set = None, recursion_depth: int = 0) -> list[list[str]]:
+def _fetch_law_text_node(reference: dict, law_registry: dict, laws_dir: str) -> tuple[list[str], list[dict]]:
     """
-    Na základe referencie (aj s rozsahmi) vráti zoznam textov zo zákona.
-    Vracia zoznam blokov textov (List[List[str]]), kde každý blok zodpovedá
-    jednej spracovanej referencii (pôvodnej alebo rekurzívnej).
+    Načíta text pre danú referenciu (bez rekurzie).
+    Vracia dvojicu: (zoznam textových blokov, zoznam nájdených pod-referencií).
     """
     current_block_texts = [] # Texty pre aktuálne spracovávanú referenciu
+    sub_refs_found = []
 
     zakon_id = reference.get("zakon_id")
     if not zakon_id:
-        original_ref_str = reference.get('str', '(text referencie nebol zachytený)')
-        law_text_in_ref = reference.get('zakon_refname', '(text zákona nebol špecifikovaný alebo rozpoznaný)')
+        # original_ref_str = reference.get('str', '(text referencie nebol zachytený)')
+        # law_text_in_ref = reference.get('zakon_refname', '(text zákona nebol špecifikovaný alebo rozpoznaný)')
         # print(f"Chyba: Nebol nájdený kľúč zákona pre referenciu '{original_ref_str}'. Text zákona v referencii: '{law_text_in_ref}'.")
-        return [current_block_texts]
-
-    if visited_references is None:
-        visited_references = set()
-
-    canonical_current_ref_str = _get_canonical_ref_str(reference)
-    if canonical_current_ref_str in visited_references or recursion_depth > MAX_RECURSION_DEPTH:
-        return [] # Prázdny zoznam blokov
-    visited_references.add(canonical_current_ref_str)
+        return current_block_texts, []
 
     law_entry = law_registry.get(zakon_id)
     if not law_entry:
         current_block_texts.append(f"Chyba: Zákon s kľúčom '{zakon_id}' neexistuje v registri.")
-        return [current_block_texts]
-
+        return current_block_texts, []
 
     law_data = law_entry.get('data') # Skontrolujeme, či sú dáta už načítané (cachované)
 
@@ -266,28 +352,29 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
             law_entry['data'] = law_data # Uložíme načítané dáta do cache pre budúce použitie
         except FileNotFoundError:
             current_block_texts.append(f"Chyba: Dátový súbor '{file_path}' pre zákon '{zakon_id}' sa nenašiel.")
-            return [current_block_texts]
+            return current_block_texts, []
         except json.JSONDecodeError:
             current_block_texts.append(f"Chyba: Súbor '{file_path}' neobsahuje validný JSON pre zákon '{zakon_id}'.")
-            return [current_block_texts]
+            return current_block_texts, []
         except Exception as e:
             current_block_texts.append(f"Chyba: Nepodarilo sa načítať dáta pre zákon '{zakon_id}' zo súboru '{file_path}': {e}")
-            return [current_block_texts]
+            return current_block_texts, []
 
     p_start = reference.get("paragraf_start")
     p_end = reference.get("paragraf_end", p_start)
 
+    if p_start is None:
+        # Ak nemáme paragraf, nemôžeme vyhľadať text (referencia je pravdepodobne neúplná)
+        return current_block_texts, []
+
     # Pre jednoduchosť predpokladáme, že rozsahy paragrafov sú číselné
     try:
         paragraf_numbers = [str(i) for i in range(int(p_start), int(p_end) + 1)]
-    except ValueError:
-        paragraf_numbers = [p_start] # Ak paragraf nie je číslo (napr. '12a'), nespracujeme rozsah
+    except (ValueError, TypeError):
+        paragraf_numbers = [p_start] # Ak paragraf nie je číslo (napr. '12a') alebo nastala iná chyba, nespracujeme rozsah
 
     # Použijeme priamo referenčný názov zákona (napr. "ZOPK", "543/2002 Z. z.")
     display_zakon_ref = reference.get("zakon_refname", zakon_id)
-
-    all_resulting_blocks = [] # Zoznam všetkých blokov (aktuálny + rekurzívne)
-    sub_refs_for_recursion = []
 
     for paragraf_num in paragraf_numbers:
         paragraf_obj = next((p for p in law_data if p["cislo_paragrafu"] == paragraf_num), None)
@@ -296,18 +383,9 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
             continue
 
         paragraf_nadpis = paragraf_obj['nadpis']
-        # Kontext pre lokálne referencie z tohto paragrafu/odseku/písmena
-        current_text_context = {
-            "zakon_id": zakon_id,
-            "zakon_refname": display_zakon_ref,
-            "paragraf_start": paragraf_num
-        }
-
+        
         odsek_start_str = reference.get("odsek_start")
         if not odsek_start_str: # Ak nie je špecifikovaný odsek, vrátime celý paragraf
-            # Formát pre celý paragraf: § <num> (<nadpis>):\n<obsah>
-            # alebo § <num> <ref_zakona>: <nadpis> ak je to súčasť rozsahu? Testy sú tu nekonzistentné.
-            # Pre jednoduchosť a konzistenciu s ostatnými formátmi:
             title_line = f"§ {paragraf_num} {display_zakon_ref}: {paragraf_nadpis}"
             content_parts = []
             text_to_scan_for_sub_refs = []
@@ -326,21 +404,16 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
 
             # Skenovanie obsahu paragrafu
             combined_text_to_scan = "\n".join(text_to_scan_for_sub_refs)
-
-            # Find all § references in the text (explicit or implicit)
             found_sub_refs = find_law_references_advanced(combined_text_to_scan, law_registry)
             
-            # For references found without an explicit law identifier, assume they refer to the current law
             for sub_ref in found_sub_refs:
                 if sub_ref.get("zakon_id") is None:
-                    sub_ref["zakon_id"] = zakon_id # Use the current law's ID
-                    sub_ref["zakon_refname"] = display_zakon_ref # Use the current law's ref name
-                
-                # Propagate paragraph context if missing
+                    sub_ref["zakon_id"] = zakon_id
+                    sub_ref["zakon_refname"] = display_zakon_ref
                 if not sub_ref.get("paragraf_start"):
                     sub_ref["paragraf_start"] = paragraf_num
 
-            sub_refs_for_recursion.extend(found_sub_refs)
+            sub_refs_found.extend(found_sub_refs)
             continue
 
         # Ak je špecifikovaný odsek/písmeno, najprv hlavička paragrafu
@@ -355,7 +428,6 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                 current_block_texts.append(f"Chyba: § {paragraf_num} ods. {odsek_num} sa nenašiel.")
                 continue
 
-            current_text_context["odsek_start"] = str(odsek_num) # Aktualizácia kontextu
             odsek_text_content = odsek_obj['text']
             odsek_header = f"§ {paragraf_num} ods. {odsek_num} {display_zakon_ref}:"
 
@@ -393,7 +465,7 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                     if not sub_ref.get("paragraf_start") and not sub_ref.get("odsek_start") and sub_ref.get("pismeno_start"):
                          sub_ref["odsek_start"] = str(odsek_num)
 
-                sub_refs_for_recursion.extend(found_sub_refs_for_odsek)
+                sub_refs_found.extend(found_sub_refs_for_odsek)
                 continue
             
             # Ak je špecifikované písmeno, pridáme text rodičovského odseku
@@ -407,7 +479,7 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                     sub_ref["zakon_refname"] = display_zakon_ref
                  if not sub_ref.get("paragraf_start"):
                     sub_ref["paragraf_start"] = paragraf_num
-            sub_refs_for_recursion.extend(found_sub_refs_in_odsek_parent_text)
+            sub_refs_found.extend(found_sub_refs_in_odsek_parent_text)
 
             pi_end_char = reference.get("pismeno_end", pi_start_char)
             pismeno_chars = [chr(c) for c in range(ord(pi_start_char), ord(pi_end_char) + 1)]
@@ -430,33 +502,11 @@ def get_law_texts_for_range(reference: dict, law_registry: dict, laws_dir: str, 
                             sub_ref["zakon_refname"] = display_zakon_ref
                          if not sub_ref.get("paragraf_start"):
                             sub_ref["paragraf_start"] = paragraf_num
-                    sub_refs_for_recursion.extend(found_sub_refs_in_pismeno)
+                    sub_refs_found.extend(found_sub_refs_in_pismeno)
                 else:
                     current_block_texts.append(f"Chyba: § {paragraf_num} ods. {odsek_num} písm. {pismeno_char}) sa nenašlo.")
 
-    # Ak boli pre aktuálnu referenciu zozbierané nejaké texty (vrátane chýb), pridáme ich ako blok.
-    if current_block_texts:
-        all_resulting_blocks.append(current_block_texts)
-
-    # Rekurzívne spracovanie nájdených pod-referencií
-    if sub_refs_for_recursion and recursion_depth < MAX_RECURSION_DEPTH:
-        unique_sub_refs_to_call = []
-        seen_sub_ref_strs = set()
-        for sub_ref in sub_refs_for_recursion:
-            sub_ref_canonical = _get_canonical_ref_str(sub_ref)
-            if sub_ref_canonical not in visited_references and sub_ref_canonical not in seen_sub_ref_strs:
-                # Základná validácia, či má referencia dosť info na spracovanie (musí mať aspoň zákon a paragraf)
-                # zakon_id should always be present here due to the logic above
-                if sub_ref.get("zakon_id") and sub_ref.get("paragraf_start"):
-                    unique_sub_refs_to_call.append(sub_ref)
-                    seen_sub_ref_strs.add(sub_ref_canonical)
-
-        if unique_sub_refs_to_call:
-            for sub_ref_item in unique_sub_refs_to_call:
-                recursive_texts = get_law_texts_for_range(sub_ref_item, law_registry, laws_dir, visited_references, recursion_depth + 1)
-                all_resulting_blocks.extend(recursive_texts)
-
-    return all_resulting_blocks
+    return current_block_texts, sub_refs_found
 
 def get_law_excerpts_for_text(text: str) -> str:
     LAW_REGISTRY = load_main_law_registry(LAW_REGISTRY_PATH)
@@ -466,17 +516,80 @@ def get_law_excerpts_for_text(text: str) -> str:
         raise RuntimeError("Register zákonov (LAW_REGISTRY) je prázdny alebo sa ho nepodarilo načítať.")
     else:
         # 1. Nájdi všetky primárne referencie v dokumente
-        referencie = find_law_references_advanced(text, LAW_REGISTRY)
+        primary_references = find_law_references_advanced(text, LAW_REGISTRY)
+        if DEBUG: print("\n--- Nájdené a spracované referencie ---")
+        if DEBUG: print(json.dumps(primary_references, indent=2, ensure_ascii=False))
+        if DEBUG: print("\n" + "="*30 + "\n")
 
-        # 2. Pre každú referenciu nájdi a vypíš texty zákona
-        for i, ref in enumerate(referencie):
-            list_of_blocks = get_law_texts_for_range(ref, LAW_REGISTRY, LAWS_DIR)
-            for text_block in list_of_blocks:
-                if text_block: # Vytlačíme blok a za ním prázdny riadok, len ak blok nie je prázdny
-                    for text_line in text_block:
-                        laws += text_line + "\n"
-                    laws += "\n" # Prázdny riadok oddeľujúci bloky
-                    laws_count += 1
+        # 2. Pre každú primárnu referenciu spracuj strom
+        if DEBUG: print("--- Extrahované texty zákonov ---")
+        global_visited_references = set()
+        
+        for primary_ref in primary_references:
+            # Inicializácia pre strom
+            tree_text_blocks = []
+            current_tree_length = 0
+            
+            # Queue pre BFS: zoznam referencií na spracovanie v aktuálnom leveli
+            current_level_refs = [primary_ref]
+            for depth in range(MAX_RECURSION_DEPTH + 1):
+                if DEBUG: print('primary_ref:', primary_ref, ' depth:', depth)
+                next_level_refs = []
+                level_text_blocks = []
+                level_length = 0
+                level_visited_refs = [] # Dočasný zoznam pre tento level
+                
+                for ref in current_level_refs:
+                    canonical_ref = _get_canonical_ref_str(ref)
+                    if canonical_ref in global_visited_references:
+                        continue
+                    
+                    # Získaj text a pod-referencie
+                    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                    if DEBUG: print('ref:', ref, ' text_blocks:', text_blocks, ' sub_refs:', sub_refs)
+                    
+                    if text_blocks:
+                        level_text_blocks.append(text_blocks)
+                        block_len = sum(len(t) for t in text_blocks)
+                        level_length += block_len
+                        
+                        # Pridáme pod-referencie do queue pre ďalší level
+                        # Filtrujeme duplicity v rámci queue
+                        for sr in sub_refs:
+                            if sr.get("zakon_id") and sr.get("paragraf_start"):
+                                next_level_refs.append(sr)
+                        
+                        level_visited_refs.append(canonical_ref)
+
+                # Rozhodnutie o prijatí levelu
+                # Level 0 (primárna referencia) berieme vždy
+                if DEBUG: print('level_text_blocks:', level_text_blocks)
+                if DEBUG: print('current_tree_length:', current_tree_length, ' level_length:', level_length, ' depth:', depth)
+                if depth == 0 or (current_tree_length + level_length <= MAX_TREE_TEXT_LENGTH):
+                    if DEBUG: print('Prijatý level:', ref, ' depth:', depth, ' level_visited_refs:', level_visited_refs)
+                    # Prijímame level
+                    for blocks in level_text_blocks:
+                        for text_line in blocks:
+                            laws += text_line + "\n"
+                        laws += "\n"
+                        laws_count += 1
+                    
+                    current_tree_length += level_length
+                    
+                    # Označíme referencie ako navštívené globálne
+                    for v_ref in level_visited_refs:
+                        global_visited_references.add(v_ref)
+                        
+                    # Posunieme sa na ďalší level
+                    current_level_refs = next_level_refs
+                else:
+                    # Zamietame level a končíme spracovanie tohto stromu
+                    if DEBUG: print(f"DEBUG: Level {depth} zamietnutý. Dĺžka levelu: {level_length}, Aktuálna dĺžka stromu: {current_tree_length}, Limit: {MAX_TREE_TEXT_LENGTH}")
+                    break
+                
+                if not current_level_refs:
+                    break
+
         laws = laws.strip()
         print('laws_count:', laws_count)
         # print('laws:', laws)
@@ -493,34 +606,52 @@ if __name__ == "__main__":
         nargs='?',  # Znamená 0 alebo 1 argument. Ak 0, použije sa default.
         help="Text dokumentu na analýzu. Ak nie je zadaný, použije sa predvolený testovací text.",
         default="""
-    Žiadosť podávame v zmysle § 47 ods. 3 zákona o ochrane prírody a krajiny.
-    Ďalej sa odvolávame na § 14 ods. 1 písm. a) až c) zákona č. 543/2002 Z. z.
-    Rovnako je dôležitý aj § 13 ods. 3 písm. a-c ZOPK.
-    Ignorujeme § 99 zákona 123/2099 Z.z. ktorý nepoznáme.
-    A taktiež § 1 odst. 3 písm. b..c zákona 543/2002 Z. z.
+Kraj: Bratislavský kraj
+Okres: Bratislava
+
+Správne konanie na úseku ochrany prírody a krajiny 
+ 
+  
+         V súlade s ustanovením § 82 ods. (7) zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov (ďalej len „zákon“) Okresný
+úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných zložiek životného prostredia kraja informuje o začatých
+správnych konaniach, v ktorých môžu byť dotknuté záujmy ochrany prírody a krajiny chránené týmto zákonom. 
+         V zmysle § 82 ods. (3) zákona, združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny
+podľa § 2 ods. (1) zákona, a ktoré a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa odseku 7, sa považuje
+za zúčastnenú osobu. 
+         Podľa § 82 ods. (6) zákona, združenie podľa odseku 3 uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo 
+organizácie, meno a priezvisko osoby oprávnenej konať v jeho mene. K oznámeniu združenie pripojí stanovy, ktoré preukazujú, že jeho predmetom 
+činnosti je ochrana prírody a krajiny podľa odseku 3. 
+        Podanie urobené v elektronickej podobe bez autorizácie podľa osobitného predpisu o elektronickej podobe výkonu verejnej moci treba do 3
+pracovných dní doplniť buď v listinnej podobe, v elektronickej podobe autorizované podľa osobitného predpisu o elektronickej podobe výkonu verejnej
+moci alebo ústne do zápisnice v zmysle § 19 ods. (1) zákona č. 71/1967 Zb. o správnom konaní (správny poriadok) v znení neskorších predpisov. Správny
+orgán v zmysle uvedeného ustanovenia na dodatočné doplnenie podania nevyzýva.  
+  
+Začaté správne konanie: 
+Poradové 
+číslo 
+Spisová značka konania 
+Dátum 
+zverejnenia 
+informácie 
+o začatom 
+konaní 
+Lehota na 
+potvrdenie 
+záujmu 
+byť zúčastnenou 
+osobou 
+Predmet konania 
+1. 
+OU-BA-OSZP1-2025/565037/SME 26. 11. 2025 5 pracovných dní 
+Žiadosť Ivony Jankovičovej o povolenie výnimky zo zakázanej činnosti 
+ustanovenej v § 13 ods. (1) písm. a) zákona č. 543/2002 Z. z. o ochrane 
+prírody a krajiny v znení neskorších predpisov na státie s motorovým 
+vozidlom v CHKO Malé Karpaty na p. č. 3575/1 v k. ú. Devínska Nová Ves, 
+za účelom prístupu k pozemkom
     """
     )
     args = parser.parse_args()
     dokument_na_analyzu = args.input_text
 
-    LAW_REGISTRY = load_main_law_registry(LAW_REGISTRY_PATH)
-    if not LAW_REGISTRY:
-        print("Nebolo možné spustiť príklad použitia, pretože register zákonov (LAW_REGISTRY) je prázdny alebo sa nepodarilo načítať.", file=sys.stderr)
-    else:
-        print("\n--- Príklad použitia ---")
-        # 1. Nájdi všetky referencie v dokumente
-        referencie = find_law_references_advanced(dokument_na_analyzu, LAW_REGISTRY)
-
-        print("\n--- Nájdené a spracované referencie ---")
-        print(json.dumps(referencie, indent=2, ensure_ascii=False))
-        print("\n" + "="*30 + "\n")
-        
-        # 2. Pre každú referenciu nájdi a vypíš texty zákona
-        print("--- Extrahované texty zákonov ---")
-        for i, ref in enumerate(referencie):
-            list_of_blocks = get_law_texts_for_range(ref, LAW_REGISTRY, LAWS_DIR)
-            for text_block in list_of_blocks:
-                if text_block: # Vytlačíme blok a za ním prázdny riadok, len ak blok nie je prázdny
-                    for text_line in text_block:
-                        print(text_line)
-                    print() # Prázdny riadok oddeľujúci bloky
+    laws = get_law_excerpts_for_text(dokument_na_analyzu)
+    print(laws)

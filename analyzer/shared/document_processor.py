@@ -20,7 +20,7 @@ from get_doc_id import get_doc_id
 from pdf_to_txt import extract_text_from_pdf
 from llm_analyzer import analyze_text_document
 from law_references import get_law_excerpts_for_text
-from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas
+from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas, get_geometry_of_a_geoname
 
 PANDOC_FORMAT_MAPPINGS = [
     ('.docx', 'docx'), ('.rtf', 'rtf'), ('.odt', 'odt'),
@@ -341,13 +341,19 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
 
         laws_filepath = os.path.join(output_dir, "laws.txt")
+        laws_excerpts = ''
         if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
             invalidate_files = True
-            laws_excerpts = get_law_excerpts_for_text(text_content)
-            if laws_excerpts:
-                print(f'Saving laws to {laws_filepath}...')
-                with open(laws_filepath, 'w', encoding='utf-8') as f:
-                    f.write(laws_excerpts)
+            try:
+                laws_excerpts = get_law_excerpts_for_text(text_content)
+                if laws_excerpts:
+                    print(f'Saving laws to {laws_filepath}...')
+                    with open(laws_filepath, 'w', encoding='utf-8') as f:
+                        f.write(laws_excerpts)
+            except Exception as e:
+                traceback.print_exc(file=sys.stderr)
+                log_status(status_filepath, "warning", f"Nepodarilo sa získať znenia zákonov pre dokument: {e}")
+                laws_excerpts = ""
         else:
             print(f'Loading laws from {laws_filepath}...')
             with open(laws_filepath, 'r', encoding='utf-8') as f:
@@ -401,12 +407,29 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 # print('analysis_data:', analysis_data)
                 place_info = analysis_data.get('miesto_realizacie', {})
                 print(f'place_info:{place_info}')
-                gdf = get_geometry_of_a_parcel_set(place_info, status_filepath)
+                gdf_parcelset = None
+                if len(place_info.get('katastralne_uzemia', [])) > 0:
+                    gdf_parcelset = get_geometry_of_a_parcel_set(place_info, status_filepath) 
 
-                nazov_lokality = analysis_data.get('nazov_lokality', '')
+                gdf_geoname = None
+                nazov_lokality = place_info.get('nazov_lokality', '')
+                print('nazov_lokality:', nazov_lokality)
                 if nazov_lokality:
-                    gdf_lokalita = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
-                    gdf = gdf.overlay(gdf_lokalita, how='intersection')
+                    gdf_geoname = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                    print('gdf_geoname:', gdf_geoname)
+
+                print('gdf_parcelset:', gdf_parcelset)
+                print('gdf_geoname:', gdf_geoname)
+                gdf = None
+                if gdf_parcelset is not None and not gdf_parcelset.empty and gdf_geoname is not None and not gdf_geoname.empty:
+                    gdf = gdf_parcelset.overlay(gdf_geoname, how='intersection')
+                elif gdf_parcelset is not None and not gdf_parcelset.empty:
+                    gdf = gdf_parcelset
+                elif gdf_geoname is not None and not gdf_geoname.empty:
+                    gdf = gdf_geoname
+                else:
+                    log_status(status_filepath, "warning", "Nepodarilo sa získať geometriu parcel set alebo geoname")
+                    return None
                 print(f'Saving geometry to {gis_filepath}...')
                 gdf_save_to_file(gdf, gis_filepath)
             else:

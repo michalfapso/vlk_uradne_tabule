@@ -78,7 +78,87 @@
     "out": [
       {
         "ods": "3",
-        "unmatched_name": "sa nevzťahuje na výrub dreviny."
+        "unmatched_name": "sa nevzťahuje na výrub dreviny"
+      }
+    ]
+  },
+  {
+    "in": "V súlade s § 82 ods. 7 zákona NR SR č. 543/2002 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov",
+    "out": [
+      {
+        "par": "82",
+        "ods": "7",
+        "zak": "543/2002"
+      }
+    ]
+  },
+  {
+    "in": "podľa § 89 ods. 1 písm. a) zákona o OPaK",
+    "out": [
+      {
+        "par": "89",
+        "ods": "1",
+        "pis": "a",
+        "zak": "543/2002"
+      }
+    ]
+  },
+  {
+    "in": "odsekov 6 a 7 sa nevzťahujú na konanie podľa",
+    "out": [
+      {
+        "ods": "6",
+        "unmatched_name": "sa nevzťahujú na konanie podľa"
+      },
+      {
+        "ods": "7",
+        "unmatched_name": "sa nevzťahujú na konanie podľa"
+      }
+    ]
+  },
+  {
+    "in": "podľa § 1 ods. 1 písm. a) a b) zákona o OPaK",
+    "out": [
+      {
+        "par": "1",
+        "ods": "1",
+        "pis": "a",
+        "zak": "543/2002"
+      },
+      {
+        "par": "1",
+        "ods": "1",
+        "pis": "b",
+        "zak": "543/2002"
+      }
+    ]
+  },
+  {
+    "in": "§ 82 ods. (7) zákona č. 543/2002 Z. z.",
+    "out": [
+      {
+        "par": "82",
+        "ods": "7",
+        "zak": "543/2002"
+      }
+    ]
+  },
+  {
+    "in": "§ 82 ods. (3) zákona",
+    "out": [
+      {
+        "par": "82",
+        "ods": "3",
+        "unmatched_name": "zákona"
+      }
+    ]
+  },
+  {
+    "in": "podľa odseku 7, sa považuje za zúčastnenú osobu",
+    "out": [
+      {
+        "ods": "7",
+        "unmatched_name": "sa považuje za zúčastnenú osobu"
       }
     ]
   }

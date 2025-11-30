@@ -10,9 +10,11 @@ from .law_references import find_law_references_advanced
 MOCK_LAW_REGISTRY = {
     "543/2002": {
         "names": [
-            "(?:č\.\s*)?543/2002\s*(?:Z\.\s?z\.)?",
+            "(?:NR\s+SR\s+)?(?:č\.\s*)?543/2002\s*(?:Z\.\s?z\.)?",
             "o\s+ochrane\s+pr[ií]rody(?:\s+a\s+krajiny)?",
-            "ZOPK"
+            "ZOPK",
+            "ZOPaK",
+            "(?:(?:zákon[ea]?\s+)?(?:o\s+)?)?OPaK"
         ]
     },
     "71/1967": {

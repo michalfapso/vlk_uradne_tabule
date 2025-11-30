@@ -25,7 +25,7 @@ console.log("allDocuments:", allDocuments);
 const toggleButtonId = `${id}-toggle-summaries-btn`;
 const countLabelId = `${id}-count-label`;
 
-const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN )?vedenia)";
+const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN |elektrického )?vedenia)";
 const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
 
 const totalCount = allDocuments.length;
@@ -353,7 +353,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                         summaryHtml += "<br>";
                     }
 
-                    if (data.analyza.zasiahnute_chranene_uzemia) {
+                    if (data.analyza && data.analyza.zasiahnute_chranene_uzemia) {
                         summaryHtml += `<b>Zasiahnuté chránené územia (podľa GIS analýzy):</b><br>`;
                         const uzemia = data.analyza.zasiahnute_chranene_uzemia;
                         summaryHtml += `<ul class="list-dics">`;
