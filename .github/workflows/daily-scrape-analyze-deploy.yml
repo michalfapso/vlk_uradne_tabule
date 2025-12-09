@@ -42,6 +42,20 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Download previous GIS data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find the last successful run ID for this workflow on the current branch
+          RUN_ID=$(gh run list --workflow "daily-scrape-analyze-deploy.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          if [ -n "$RUN_ID" ]; then
+            echo "Downloading artifact from run $RUN_ID"
+            gh run download $RUN_ID -n gis-geojson-files -D data/docs || echo "Artifact not found or download failed"
+          else
+            echo "No previous successful run found."
+          fi
+        continue-on-error: true
+
       - name: Upload minv_1_regions artifact
         uses: actions/upload-artifact@v4
         with:
@@ -74,6 +88,15 @@ jobs:
             data/scraped/unified_new.json
             data/scraped/unified_old.json
             data/scraped/documents_to_process.json
+
+      - name: Prune old GIS files
+        run: python analyzer/prune_gis_files.py
+
+      - name: Upload GIS GeoJSON files artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-geojson-files
+          path: data/docs/**/gis.geojson
 
       - name: Archive data for diffing in the next run
         run: |
