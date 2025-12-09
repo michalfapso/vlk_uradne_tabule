@@ -79,10 +79,10 @@ def main():
     # --- 2. Načítanie dát ---
     print("Načítavam staré a nové dáta...")
     minv_new = load_json_file(os.path.join(scraped_data_dir, 'minv_2_documents.json'), default=[])
-    minzp_new = load_json_file(os.path.join(scraped_data_dir, 'minzp_documents.json'), default=[])
+    minzp_new = load_json_file(os.path.join(scraped_data_dir, 'minzp_2_documents.json'), default=[])
     
     minv_old = load_json_file(os.path.join(scraped_data_dir, 'minv_2_documents_old.json'), default=[])
-    minzp_old = load_json_file(os.path.join(scraped_data_dir, 'minzp_documents_old.json'), default=[])
+    minzp_old = load_json_file(os.path.join(scraped_data_dir, 'minzp_2_documents_old.json'), default=[])
 
     # --- 3. Agregácia a Diffing ---
     print("Agregujem dáta a hľadám nové dokumenty...")
