@@ -684,10 +684,15 @@ def gdf_load_from_file(input_filepath: str) -> gpd.GeoDataFrame | None:
 
 def get_intersections_with_protected_areas(gdf: gpd.GeoDataFrame | None, status_filepath: str):
     protected_areas = [
+        # {
+        #     "name": 'rezervacie',
+        #     "path": os.path.join(PROTECTED_AREAS_DATA_DIR, 'sz_protection_degree', 'sz_protection_degree_stupen5.gpkg'),
+        #     "attrs": ['registry_n', 'site_name', 'category_i'],
+        # },
         {
-            "name": 'rezervacie',
-            "path": os.path.join(PROTECTED_AREAS_DATA_DIR, 'sz_protection_degree', 'sz_protection_degree_stupen5.gpkg'),
-            "attrs": ['registry_n', 'site_name', 'category_i'],
+            "name": '5st_konsUEV',
+            "path": os.path.join(PROTECTED_AREAS_DATA_DIR, 'konsolidovane_UEV', 'konsolidovane_UEV_st5.gpkg'),
+            "attrs": ['NAZOV_UEV', 'KOD_UEV'],
         },
         {
             "name": 'UEV',
@@ -720,7 +725,10 @@ def get_intersections_with_protected_areas(gdf: gpd.GeoDataFrame | None, status_
         area_attrs = area['attrs']
         try:
             # print(f"Checking for intersection with '{area_name}' layer...")
-            protected_gdf = gpd.read_file(area_path, encoding='cp1250')
+            if area_path.endswith('.gpkg'):
+                protected_gdf = gpd.read_file(area_path)
+            else:
+                protected_gdf = gpd.read_file(area_path, encoding='cp1250')
 
             # Ensure CRS match, reproject if necessary
             if protected_gdf.crs != gdf.crs:
