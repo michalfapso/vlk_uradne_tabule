@@ -33,7 +33,9 @@ jobs:
       # If 'analyzer' is not a package, run pytest from the root specifying the test file.
       # run: pytest ./analyzer/test_get_doc_id.py 
       # If 'analyzer' is a package and tests are run from within 'analyzer':
-      run: pytest # Pytest will discover test_*.py files
+      run: |
+        export PYTHONPATH=$PYTHONPATH:.
+        pytest # Pytest will discover test_*.py files
 
   javascript-tests:
     runs-on: ubuntu-latest
