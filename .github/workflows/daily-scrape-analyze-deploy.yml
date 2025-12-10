@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Scrapers
         id: scraping
-        run: python analyzer/run_scraping.py
+        run: python -u analyzer/run_scraping.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -81,7 +81,7 @@ jobs:
 
       - name: Run Document Processing
         id: processing
-        run: python analyzer/run_processing.py
+        run: python -u analyzer/run_processing.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -95,7 +95,7 @@ jobs:
             data/scraped/documents_to_process.json
 
       - name: Prune old GIS files
-        run: python analyzer/prune_gis_files.py
+        run: python -u analyzer/prune_gis_files.py
 
       - name: Upload GIS GeoJSON files artifact
         uses: actions/upload-artifact@v4
