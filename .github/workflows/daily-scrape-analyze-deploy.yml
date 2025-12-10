@@ -17,8 +17,31 @@ permissions:
   id-token: write # Needed for the Deploy Pages action (OIDC)
 
 jobs:
-  # --- Job 1: Scrape, Analyze, and Process All Data ---
-  scrape_and_process:
+  # --- Job 1: Scrape Data ---
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup
+
+      - name: Run Scrapers
+        id: scraping
+        run: python analyzer/run_scraping.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Upload Scraped Data
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data
+          path: data/scraped/
+
+  # --- Job 2: Process Data ---
+  process:
+    needs: scrape
     runs-on: ubuntu-latest
     outputs:
       data_changed: ${{ steps.commit_step.outputs.data_changed }}
@@ -36,11 +59,11 @@ jobs:
       - name: Setup Analyzer Environment
         uses: ./.github/actions/analyzer-setup
 
-      - name: Run Scrapers
-        id: scraping
-        run: python analyzer/run_scraping.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Download Scraped Data
+        uses: actions/download-artifact@v4
+        with:
+          name: scraped-data
+          path: data/scraped
 
       - name: Download previous GIS data
         env:
@@ -56,24 +79,6 @@ jobs:
           fi
         continue-on-error: true
 
-      - name: Upload minv_1_regions artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: minv-1-regions
-          path: data/scraped/minv_1_regions.json
-
-      - name: Upload minv_2_documents artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: minv-2-documents
-          path: data/scraped/minv_2_documents.json
-
-      - name: Upload minzp_documents artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: minzp-documents
-          path: data/scraped/minzp_documents.json
-      
       - name: Run Document Processing
         id: processing
         run: python analyzer/run_processing.py
@@ -122,11 +127,11 @@ jobs:
             echo "Data changes committed and pushed."
           fi
 
-  # --- Job 2 & 3: Build and Deploy Website (Reusable) ---
+  # --- Job 3: Build and Deploy Website (Reusable) ---
   call-build-deploy:
-    needs: scrape_and_process
-    if: needs.scrape_and_process.outputs.data_changed == 'true'
+    needs: process
+    if: needs.process.outputs.data_changed == 'true'
     uses: ./.github/workflows/reusable-build-deploy.yml
     with:
-      ref: ${{ needs.scrape_and_process.outputs.new_commit_sha }}
+      ref: ${{ needs.process.outputs.new_commit_sha }}
 
