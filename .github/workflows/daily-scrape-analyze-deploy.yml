@@ -1,137 +1,33 @@
-# This workflow orchestrates the daily data scrape/analysis,
-# commits the updated data, builds the Astro site, and deploys it to GitHub Pages.
-name: Scrape, Analyze, and Deploy Website
+name: Daily Scrape, Analyze, and Deploy
 
 on:
   # Schedule the workflow to run daily at 20:00 UTC
-  #schedule:
-  #  - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
+  schedule:
+    - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
 
   # Allow manual triggering of the workflow from the GitHub Actions tab
   workflow_dispatch: {}
 
-# Set permissions needed for the actions
 permissions:
-  contents: write # Needed to commit changes to the data directory
-  pages: write # Needed to deploy to GitHub Pages
-  id-token: write # Needed for the Deploy Pages action (OIDC)
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  # --- Job 1: Scrape Data ---
   scrape:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    uses: ./.github/workflows/scrape.yml
+    secrets: inherit
 
-      - name: Setup Analyzer Environment
-        uses: ./.github/actions/analyzer-setup
-
-      - name: Run Scrapers
-        id: scraping
-        run: python -u analyzer/run_scraping.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Upload Scraped Data
-        uses: actions/upload-artifact@v4
-        with:
-          name: scraped-data
-          path: data/scraped/
-
-  # --- Job 2: Process Data ---
   process:
     needs: scrape
-    runs-on: ubuntu-latest
-    outputs:
-      data_changed: ${{ steps.commit_step.outputs.data_changed }}
-      new_commit_sha: ${{ steps.commit_step.outputs.sha }}
+    uses: ./.github/workflows/process.yml
+    with:
+      download_artifact_locally: true
+    secrets: inherit
 
-    steps:
-      - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Analyzer Environment
-        uses: ./.github/actions/analyzer-setup
-
-      - name: Download Scraped Data
-        uses: actions/download-artifact@v4
-        with:
-          name: scraped-data
-          path: data/scraped
-
-      - name: Download previous GIS data
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Find the last successful run ID for this workflow on the current branch
-          RUN_ID=$(gh run list --workflow "daily-scrape-analyze-deploy.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
-          if [ -n "$RUN_ID" ]; then
-            echo "Downloading artifact from run $RUN_ID"
-            gh run download $RUN_ID -n gis-geojson-files -D data/docs || echo "Artifact not found or download failed"
-          else
-            echo "No previous successful run found."
-          fi
-        continue-on-error: true
-
-      - name: Run Document Processing
-        id: processing
-        run: python -u analyzer/run_processing.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Upload unified_new artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: unified
-          path: |
-            data/scraped/unified_new.json
-            data/scraped/unified_old.json
-            data/scraped/documents_to_process.json
-
-      - name: Prune old GIS files
-        run: python -u analyzer/prune_gis_files.py
-
-      - name: Upload GIS GeoJSON files artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: gis-geojson-files
-          path: data/docs/**/gis.geojson
-
-      - name: Archive data for diffing in the next run
-        run: |
-          mv data/scraped/minv_2_documents.json data/scraped/minv_2_documents_old.json
-          mv data/scraped/minzp_2_documents.json data/scraped/minzp_2_documents_old.json
-
-      - name: Commit and Push Data Changes
-        id: commit_step
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/
-          if git diff-index --quiet HEAD --; then
-            echo "No data changes detected to commit."
-            echo "data_changed=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "data: Daily update ($(date +%Y-%m-%d))"
-            git pull --rebase origin main
-            git push origin main
-            NEW_SHA=$(git rev-parse HEAD)
-            echo "sha=$NEW_SHA" >> $GITHUB_OUTPUT
-            echo "data_changed=true" >> $GITHUB_OUTPUT
-            echo "Data changes committed and pushed."
-          fi
-
-  # --- Job 3: Build and Deploy Website (Reusable) ---
-  call-build-deploy:
+  deploy:
     needs: process
     if: needs.process.outputs.data_changed == 'true'
     uses: ./.github/workflows/reusable-build-deploy.yml
     with:
       ref: ${{ needs.process.outputs.new_commit_sha }}
-

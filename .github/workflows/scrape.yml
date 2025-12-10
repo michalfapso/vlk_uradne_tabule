@@ -1,0 +1,35 @@
+name: Scrape Data
+
+on:
+  # Schedule the workflow to run daily at 20:00 UTC
+  #schedule:
+  #  - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
+
+  # Allow manual triggering
+  workflow_dispatch: {}
+  workflow_call: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup
+
+      - name: Run Scrapers
+        id: scraping
+        run: python -u analyzer/run_scraping.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Upload Scraped Data
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data
+          path: data/scraped/

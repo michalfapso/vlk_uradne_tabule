@@ -1,0 +1,150 @@
+name: Process Data
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      download_artifact_locally:
+        type: boolean
+        default: false
+  workflow_run:
+    workflows: ["Scrape Data"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  process:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_call' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    outputs:
+      data_changed: ${{ steps.commit_step.outputs.data_changed }}
+      new_commit_sha: ${{ steps.commit_step.outputs.sha }}
+
+    steps:
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Analyzer Environment
+        uses: ./.github/actions/analyzer-setup
+
+      - name: Download Scraped Data (Local)
+        if: inputs.download_artifact_locally == true
+        uses: actions/download-artifact@v4
+        with:
+          name: scraped-data
+          path: data/scraped
+
+      - name: Download Scraped Data (Remote)
+        if: inputs.download_artifact_locally == false
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_run" ]; then
+            echo "Downloading artifacts from triggering run ${{ github.event.workflow_run.id }}"
+            gh run download ${{ github.event.workflow_run.id }} -n scraped-data -D data/scraped
+          else
+            # Find last successful scrape run
+            echo "Finding last successful 'Scrape Data' run..."
+            RUN_ID=$(gh run list --workflow "scrape.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+            if [ -n "$RUN_ID" ]; then
+              echo "Downloading scraped-data from run $RUN_ID"
+              gh run download $RUN_ID -n scraped-data -D data/scraped
+            else
+              echo "No successful scrape run found."
+              exit 1
+            fi
+          fi
+
+      - name: Download previous GIS data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find the last successful run ID for THIS workflow to get previous GIS files
+          # Note: We look for 'process.yml' runs now.
+          # If running as part of daily-scrape-analyze-deploy.yml, we should look for THAT workflow's history?
+          # Or just look for any successful run that produced gis-geojson-files?
+          # Actually, if we are in daily-scrape-analyze-deploy.yml, we might want to download from IT.
+          # But daily-scrape-analyze-deploy.yml calls this workflow.
+          # The artifact is uploaded by THIS workflow.
+          # So we should look for runs of the workflow that uploaded the artifact.
+          # If this is a reusable workflow, the run is associated with the CALLER workflow (daily...).
+          # So we should search for successful runs of 'daily-scrape-analyze-deploy.yml' OR 'process.yml'.
+          
+          # Let's try to find the last run of EITHER workflow that was successful.
+          # Or simpler: just try to find 'daily-scrape-analyze-deploy.yml' first, then 'process.yml'.
+          
+          echo "Looking for previous GIS data..."
+          
+          # Try daily workflow first
+          RUN_ID=$(gh run list --workflow "daily-scrape-analyze-deploy.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          
+          if [ -z "$RUN_ID" ]; then
+             # Try process workflow
+             RUN_ID=$(gh run list --workflow "process.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
+          fi
+          
+          if [ -n "$RUN_ID" ]; then
+            echo "Downloading GIS artifact from run $RUN_ID"
+            gh run download $RUN_ID -n gis-geojson-files -D data/docs || echo "Artifact not found or download failed"
+          else
+            echo "No previous successful run found."
+          fi
+        continue-on-error: true
+
+      - name: Run Document Processing
+        id: processing
+        run: python -u analyzer/run_processing.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Upload unified_new artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified
+          path: |
+            data/scraped/unified_new.json
+            data/scraped/unified_old.json
+            data/scraped/documents_to_process.json
+
+      - name: Prune old GIS files
+        run: python -u analyzer/prune_gis_files.py
+
+      - name: Upload GIS GeoJSON files artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-geojson-files
+          path: data/docs/**/gis.geojson
+
+      - name: Archive data for diffing in the next run
+        run: |
+          mv data/scraped/minv_2_documents.json data/scraped/minv_2_documents_old.json
+          mv data/scraped/minzp_2_documents.json data/scraped/minzp_2_documents_old.json
+
+      - name: Commit and Push Data Changes
+        id: commit_step
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if git diff-index --quiet HEAD --; then
+            echo "No data changes detected to commit."
+            echo "data_changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "data: Daily update ($(date +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push origin main
+            NEW_SHA=$(git rev-parse HEAD)
+            echo "sha=$NEW_SHA" >> $GITHUB_OUTPUT
+            echo "data_changed=true" >> $GITHUB_OUTPUT
+            echo "Data changes committed and pushed."
+          fi
