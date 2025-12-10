@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/001242",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Eva Dupnáková",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1052/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "umiestnenie prenosného prístrešku"
+  ],
+  "typ_uzemia": [
+    "tretí stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre vydanie súhlasu na umiestnenie prenosného prístrešku na parcele KNE č. 1052/5 v katastrálnom území Muráň, Okres Revúca, Banskobystrický kraj. Konanie sa týka územia, na ktorom platí tretí stupeň ochrany podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1052/5",
+        "NATIONALSI": "SKUEV0225",
+        "SITETITLE_": "Muránska planina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "1052/5",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      }
+    ]
+  }
+}

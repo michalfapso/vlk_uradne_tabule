@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2025/001388-004",
+  "cislo_rozhodnutia": "OU-BY-OSZP-2025/001388-004",
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Severoslovenské vodárne a kanalizácie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hliník nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1011",
+              "589/1",
+              "589/3",
+              "991/1",
+              "591",
+              "988/1",
+              "990/1",
+              "1019/1",
+              "1026/1",
+              "1020/1",
+              "1027",
+              "1025"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "923/1",
+              "935/1",
+              "923/3",
+              "936/1",
+              "950/1",
+              "936/101",
+              "936/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. ČSM"
+  },
+  "typ_dokumentu": "Rozhodnutie o predĺžení platnosti stavebného povolenia",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu",
+    "úprava vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bytča predĺžil platnosť stavebného povolenia pre Severoslovenské vodárne a kanalizácie, a.s. na rekonštrukciu vodovodu v katastrálnom území Hliník nad Váhom (obec Bytča), lokalita ul. ČSM. Dôvodom je nedostatok finančných prostriedkov. Lehota na začatie stavby je predĺžená do 31.12.2028 a dokončenie do 31.12.2029.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/001518-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od dňa zverejnenia tohto oznamu na http://www.minv.sk/"
+  },
+  "ziadatel_navrhovatel": "Obec Žlkovce",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Žlkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žlkovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "302/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Hlohovec oznamuje začatie správneho konania vo veci vydania súhlasu na výrub 2 ks drevín v katastrálnom území Žlkovce. Pozemok je umiestnený mimo zastavaného územia obce a platí na ňom prvý stupeň ochrany. Verejnosť má možnosť prihlásiť sa do konania do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

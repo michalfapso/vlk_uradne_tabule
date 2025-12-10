@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/018018-0048756/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-09",
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 15.01.2026"
+  },
+  "ziadatel_navrhovatel": "Miroslava Duda",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Bobrovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bobrovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2260/15",
+              "2263/5",
+              "2259/57",
+              "2259/106",
+              "2259/76",
+              "2297/31",
+              "535/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Bobrovec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania, nariadenie ústneho pojednávania a miestneho zisťovania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "kolaudácia vodnej stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš oznamuje začatie kolaudačného konania vodnej stavby \"IBV Bobrovec\" v katastrálnom území Bobrovec, Okres Liptovský Mikuláš. Žiadosť podala Miroslava Duda a týka sa kolaudácie vodovodu a splaškovej kanalizácie na určených C-KN parcelách. Ústne pojednávanie a miestne zisťovanie sa uskutoční dňa 15.01.2026, kde účastníci môžu vzniesť námietky.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2025/021619-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-24",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "SPP – distribúcia, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6441/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromov mimo správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "úprava vegetácie v ochrannom pásme energetického zariadenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Okresného úradu Komárno o výrube stromov, ktoré doručila spoločnosť SPP – distribúcia, a. s. Výrub sa má uskutočniť na parcele č. 6441/1 v katastrálnom území Komárno z dôvodu ohrozenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení. Konanie sa riadi špecifickými ustanoveniami zákona o ochrane prírody a krajiny a správne konanie sa naň nevzťahuje, čo znamená, že verejnosť sa nemôže prihlásiť do konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

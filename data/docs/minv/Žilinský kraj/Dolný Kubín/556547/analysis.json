@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010218-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskoršie na ústnom pojednávaní dňa 08. 01. 2026"
+  },
+  "ziadatel_navrhovatel": "Oravská vodárenská spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Dolný Kubín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Kubín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "670/213",
+              "670/112",
+              "670/42",
+              "670/552",
+              "667/2",
+              "1894/10",
+              "667/6",
+              "1894/4",
+              "1894/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "667/2",
+              "668/201",
+              "665/4",
+              "749/1",
+              "1894/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Ožnica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania - verejnou vyhláškou a nariadenie ústneho pojednávania spojeného s miestnym zisťovaním",
+  "typ_zasahu": [
+    "kolaudácia stavby",
+    "výstavba splaškovej kanalizácie",
+    "výstavba dažďovej kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie kolaudačného konania pre výstavbu splaškovej a dažďovej kanalizácie v lokalite IBV Ožnica v Dolnom Kubíne. Žiadateľom je Oravská vodárenská spoločnosť, a. s. Ústne pojednávanie spojené s miestnym zisťovaním sa uskutoční 08. 01. 2026, pričom námietky je možné uplatniť najneskôr na tomto pojednávaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

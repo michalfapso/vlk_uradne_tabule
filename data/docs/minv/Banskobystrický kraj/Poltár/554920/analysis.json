@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "021-TSU-ZSR/2023-00709",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-10-20",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ŽSR OR Zvolen, SMÚ TSÚ Jesenské",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Poltár",
+    "obec": "Utekáč",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Utekáč",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9814/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie Železnice Slovenskej republiky (ŽSR) o plánovanom výrube 2 drevín (smrek, čerešňa/hrab) v katastrálnom území Utekáč na parcele č. 9814/3. Dôvodom výrubu je priame ohrozenie železničnej dopravy a infraštruktúry. Dokument neuvádza, že by sa zásah týkal chráneného územia.",
+  "zasiahnute_chranene_uzemia": {}
+}

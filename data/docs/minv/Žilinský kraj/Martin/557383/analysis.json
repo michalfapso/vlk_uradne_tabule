@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023562",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Benice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Benice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "223"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pravý breh Valčianskeho potoka, rkm 0,300 – 0,400"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznamovateľ Slovenský vodohospodársky podnik oznamuje výrub drevín na parcele C 223 v katastrálnom území Benice, v blízkosti Valčianskeho potoka. Predmetom konania je vydanie stanoviska podľa zákona o ochrane prírody a krajiny. Do konania sa nemožno prihlásiť, keďže má informatívny charakter.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "223",
+        "NATIONALSI": "SKUEV0382",
+        "SITETITLE_": "Turiec a Blatnický potok"
+      }
+    ]
+  }
+}

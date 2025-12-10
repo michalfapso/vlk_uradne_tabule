@@ -1,0 +1,41 @@
+{
+  "cislo_konania_spisu": "18252/2025-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Národná zoologická záhrada Bojnice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Bojnice",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Národná zoologická záhrada Bojnice"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o žiadosti o predĺženie platnosti rozhodnutia",
+  "typ_zasahu": [
+    "prevádzkovanie zoologickej záhrady"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "živočíchy"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument informuje o žiadosti Národnej zoologickej záhrady Bojnice o predĺženie platnosti rozhodnutia na prevádzkovanie zoologickej záhrady. Verejnosť má možnosť potvrdiť záujem byť zúčastnenou osobou v konaní do piatich pracovných dní od zverejnenia informácie. Konanie sa týka zoologickej záhrady v Bojniciach.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Bojnice",
+        "NATIONALSI": "387",
+        "SITETITLE_": "OP NPP Prepoštská jaskyňa"
+      },
+      {
+        "parcel_label": "Bojnice",
+        "NATIONALSI": "0",
+        "SITETITLE_": "PP Bojnická hradná jaskyňa"
+      }
+    ]
+  }
+}

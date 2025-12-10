@@ -1,0 +1,402 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/022560-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": "2025-11-05",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Košice",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Viacero obcí v okrese Košice-okolie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižná Myšľa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "700/24",
+              "700/18"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vyšná Myšľa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2393/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bohdanovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "659/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Blažice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "371/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Slanec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1064/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Haniska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "923/86",
+              "923/8",
+              "923/18",
+              "923/60",
+              "2410/3",
+              "919/1",
+              "894/43",
+              "894/25"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Turňa nad Bodvou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5905",
+              "683/2",
+              "2029/12",
+              "5375/1",
+              "2029/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Milhosť",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2734",
+              "2731"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kechnec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "253/3",
+              "253/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Seňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2474/1",
+              "2474/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Valaliky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1418/1",
+              "1419",
+              "1404/26",
+              "1420",
+              "1421"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Medzev",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "11100/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vyšný Medzev",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "7591/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Jasov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1069",
+              "1237",
+              "1054",
+              "1053",
+              "1048/1",
+              "1336/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Debraď",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1770/2",
+              "1770/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Moldava nad Bodvou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2029",
+              "141/1",
+              "2010",
+              "2003",
+              "1140/2",
+              "3612",
+              "4936",
+              "2113/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Gyňov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "613/5"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čaňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1973/1",
+              "1819/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Drienovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1663/1",
+              "1140/2",
+              "1366",
+              "951",
+              "2113/1",
+              "1668/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Cestice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2355"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čečejovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "809/25"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Mokrance",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5887/28",
+              "5887/38",
+              "5876/17",
+              "803",
+              "1157/5",
+              "5621/143",
+              "147",
+              "14",
+              "5877/38"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dvorníky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2356"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká Ida",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3538"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Komárovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "251/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ruskov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1129",
+              "1189/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "traťové úseky ŽST Krásna nad Hornádom - ŽST Slanec, ŽST Barca – ŽST Rožňava, Št. hr. MÁV - ŽST Barca, ŽST Moldava nad Bodvou - ŽST Medzev"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub stromov",
+    "výrub krovitých porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje oznámenie Železníc Slovenskej republiky o plánovanom výrube stromov a krovitých porastov v rôznych traťových úsekoch v okrese Košice-okolie, vrátane KÚ Nižná Myšľa, Vyšná Myšľa, Slanec, Haniska a mnoho ďalších. Výrub je odôvodnený zaistením bezpečnosti a plynulosti železničnej dopravy, ako aj zlým zdravotným stavom drevín. Oznámenie je podané podľa § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "3538",
+        "NATIONALSI": "SKCHVU009",
+        "SITETITLE_": "Košická kotlina"
+      },
+      {
+        "parcel_label": "253/3",
+        "NATIONALSI": "SKCHVU009",
+        "SITETITLE_": "Košická kotlina"
+      },
+      {
+        "parcel_label": "253/1",
+        "NATIONALSI": "SKCHVU009",
+        "SITETITLE_": "Košická kotlina"
+      },
+      {
+        "parcel_label": "613/5",
+        "NATIONALSI": "SKCHVU009",
+        "SITETITLE_": "Košická kotlina"
+      }
+    ]
+  }
+}

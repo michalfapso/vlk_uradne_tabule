@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/016697",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š.p., Povodie Dunaja, OZ Martinská 49, 821 05 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Modra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modra",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8500/1",
+              "8500/3",
+              "711/6",
+              "8459"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "prietokovom profile a pobrežných pozemkoch bezmenných prítokov Stoličného potoka"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správe a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok zverejňuje oznámenie o plánovanom výrube drevín v prietokovom profile a na pobrežných pozemkoch bezmenných prítokov Stoličného potoka v k. ú. Modra. Žiadateľom je SVP, š.p. Toto oznámenie nie je informáciou o začatom správnom konaní, a preto sa naň nevzťahujú predpisy o správnom konaní a verejnosť sa nemôže prihlásiť ako účastník konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

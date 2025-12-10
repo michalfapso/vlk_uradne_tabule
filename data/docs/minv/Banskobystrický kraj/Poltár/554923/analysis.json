@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "105795/2018",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2018-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poltár",
+    "obec": "Poltár",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Poltár",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2477/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ŽST Poltár"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Železníc Slovenskej republiky, OR Zvolen, o plánovanom výrube 3 smrekov na parcele č. 2477/1 v katastrálnom území Poltár (lokalita ŽST Poltár). Výrub je odôvodnený ohrozením železničnej infraštruktúry a bezpečnosti dopravy. Dokument neuvádza, že by sa zásah týkal chráneného územia.",
+  "zasiahnute_chranene_uzemia": {}
+}

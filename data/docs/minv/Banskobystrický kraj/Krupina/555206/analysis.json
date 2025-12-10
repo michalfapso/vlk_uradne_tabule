@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001158",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Krupina",
+    "obec": "Súdovce, Kostolné Moravce, Opatovské Moravce, Dudince, Dolné Terany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Súdovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Kostolné Moravce",
+        "parcely": []
+      },
+      {
+        "nazov": "Opatovské Moravce",
+        "parcely": []
+      },
+      {
+        "nazov": "Dudince",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Terany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vedenia č. VN 325"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia",
+    "mimo lesa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina zverejňuje oznámenie o plánovanom odstránení a okliesnení drevín správcom elektrickej energie Stredoslovenská distribučná a.s. v ochrannom pásme vedenia č. VN 325 v katastrálnom území obcí Súdovce, Kostolné Moravce, Opatovské Moravce, Dudince a Dolné Terany. Konanie sa uskutočňuje podľa § 47 ods. 7 zákona č. 543/2002 Z.z. a nepodlieha všeobecným predpisom o správnom konaní, preto nie je možné sa prihlásiť do konania."
+}

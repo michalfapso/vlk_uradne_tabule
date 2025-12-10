@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/017259",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Zuzana Bartková",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Východná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Východná",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8505/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš oznamuje začatie konania vo veci žiadosti Zuzany Bartkovej o vydanie súhlasu na výrub 5 drevín (borovica lesná, smrek obyčajný) na parcele č. CKN 9-8505/2 v katastrálnom území Východná, z dôvodu ohrozenia blízko stojacej chaty. Zúčastnené osoby majú možnosť potvrdiť záujem o účasť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "8505/2",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

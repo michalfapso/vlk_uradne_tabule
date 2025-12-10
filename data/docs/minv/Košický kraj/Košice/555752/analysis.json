@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/066951",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Zdravotnícke zariadenie MUDr. Švehlík s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Južné Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1944/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Srbská"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "javor horský",
+    "lipa malolistá",
+    "čerešňa vtáčia"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania na vydanie súhlasu s výrubom 4 ks stromov (javor horský, lipa malolistá, čerešňa vtáčia) na pozemku C-KN č. 1944/1 v katastrálnom území Južné Mesto, Košice, z dôvodu kolízie s plánovanou výstavbou zdravotníckeho zariadenia „Centrum zdravia“. Verejnosť má 5 pracovných dní od zverejnenia na prihlásenie sa za účastníka konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

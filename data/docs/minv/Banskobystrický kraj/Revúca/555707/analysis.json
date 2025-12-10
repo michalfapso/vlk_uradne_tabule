@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/001196",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chyžné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "525/79"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí správneho konania vo veci vydania súhlasu na výrub 1 ks dreviny pre fyzickú osobu. Uvedená drevina rastie na parcele KN-C č. 525/79 v katastrálnom území Chyžné v okrese Revúca. Konanie prebieha podľa zákona o ochrane prírody a krajiny, pričom verejnosť má možnosť potvrdiť záujem o účasť v konaní v lehote nie kratšej ako päť pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

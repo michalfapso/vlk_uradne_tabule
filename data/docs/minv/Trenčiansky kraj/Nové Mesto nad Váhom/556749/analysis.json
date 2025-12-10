@@ -1,0 +1,177 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/017333",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2025/017333",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-24",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pekné bývanie plus, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5781/5",
+              "5781/714",
+              "5781/237",
+              "5781/353",
+              "5202",
+              "6157",
+              "6141",
+              "6159"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1-1312"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Pekné bývanie pod Kamennou"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "príprava územia pre výstavbu",
+    "výstavba obytnej zóny",
+    "výstavba dopravnej infraštruktúry",
+    "výstavba technickej infraštruktúry",
+    "sadové úpravy",
+    "parkovacie plochy"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Územie európskeho významu",
+    "Územie národného významu",
+    "Biotop európskeho významu",
+    "Biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "invázne nepôvodné druhy rastlín",
+    "chránené živočíchy",
+    "chránené rastliny",
+    "synantropné druhy živočíchov",
+    "avifauna",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia-sea/informacny-system",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa ustanovujú podmienky a spôsoby odstraňovania inváznych nepôvodných druhov",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa vydáva Zoznam inváznych nepôvodných druhov vzbudzujúcich obavy SR",
+      "zakon_cislo": "449/2019 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Federálneho ministerstva dopravy, ktorou sa vykonáva zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovujú podrobnosti o technických požiadavkách na návrh, projektovú dokumentáciu a výstavbu verejných vodovodov a verejných kanalizácií",
+      "zakon_cislo": "684/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ovzduší",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva Slovenskej republiky o podrobnostiach o požiadavkách na zdroje elektromagnetického žiarenia a na limity expozície obyvateľov elektromagnetickému žiareniu v životnom prostredí",
+      "zakon_cislo": "534/2007 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko Okresného úradu Nové Mesto nad Váhom k zisťovaciemu konaniu pre projekt \"Pekné bývanie pod Kamennou\" od Pekné bývanie plus, s.r.o. Úrad rozhodol, že navrhovaná činnosť, zahŕňajúca prípravu územia pre výstavbu rodinných a polyfunkčných domov, ciest a inžinierskych sietí v Novom Meste nad Váhom, nebude posudzovaná podľa zákona o EIA. Sú však určené opatrenia na zabránenie a zmiernenie znečisťovania životného prostredia, vrátane odstraňovania inváznych druhov rastlín, ochrany chránených živočíchov pred zemnými pascami a uprednostňovania pôvodných druhov rastlín pri sadových úpravách. Miesto realizácie sa nachádza v území s prvým stupňom ochrany a nezasahuje do lesného pôdneho fondu.",
+  "zasiahnute_chranene_uzemia": {}
+}

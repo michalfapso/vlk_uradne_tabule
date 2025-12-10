@@ -1,0 +1,186 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/022873-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slanské Nové Mesto",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1680"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kalša",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "575"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Slanec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1213",
+              "942",
+              "1147"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rákoš",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "331"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Skároš",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2340"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vyšná Myšľa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2350"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nižná Myšľa",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "791"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Belža",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "319"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": null,
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "1255"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vyšný Lánec",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "294"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Perín",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "4546"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Mokrance",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "5877"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dvorníky",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "2022"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube stromov a krovia v okrese Košice-okolie, na viacerých katastrálnych územiach. Výrub, ktorý má byť dokončený do konca februára 2026, je odôvodnený potrebou odstrániť dreviny nachádzajúce sa v ochrannom pásme plynovodov, ktoré predstavujú riziko pre ich bezpečnú prevádzku. Žiadateľom je SPP – distribúcia, a.s."
+}

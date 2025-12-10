@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-20252/051275-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Slovenská Ľupča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slovenská Ľupča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2321"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je žiadosťou o vydanie súhlasu na výrub jedného stromu v katastrálnom území Slovenská Ľupča, okres Banská Bystrica, z dôvodu ohrozenia majetku. Organizácie pre ochranu prírody môžu oznámiť svoju účasť v konaní do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

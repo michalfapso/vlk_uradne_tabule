@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/017136",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Ing. Daniel Šeďo a Milada Halková",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Važec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Važec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5053"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný (Picea abies)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania o vydanie súhlasu na výrub 38 kusov drevín druhu smrek obyčajný v katastrálnom území Važec, okres Liptovský Mikuláš. Dôvodom výrubu je zlý zdravotný stav drevín napadnutých drevokazným hmyzom. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "5053",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001782",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-28",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žarnovica",
+    "obec": "Nová Baňa, Brehy, Rudno nad Hronom, Voznica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brehy",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1215/1",
+              "1215/2",
+              "1216/1",
+              "1442/1",
+              "1448/6",
+              "1437",
+              "1438/1",
+              "1438/2",
+              "1438/3",
+              "1439/2",
+              "1442/2",
+              "1445",
+              "1446",
+              "1447",
+              "1448/1",
+              "1448/5",
+              "1448/2",
+              "1139",
+              "1143",
+              "1144",
+              "1156",
+              "1341/3",
+              "1461/12",
+              "1448/7"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nová Baňa",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1349/1",
+              "1348",
+              "1349",
+              "1349/2",
+              "1355",
+              "1356",
+              "5104/3",
+              "6492/24",
+              "6492/26",
+              "30000",
+              "1595/1",
+              "5314",
+              "1341/32",
+              "1357"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rudno nad Hronom",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "400/6",
+              "400/8",
+              "461/4",
+              "461/7",
+              "481/6",
+              "241/2",
+              "241/3",
+              "242/3",
+              "242/2",
+              "243/1",
+              "246/1",
+              "244",
+              "245/4",
+              "257/1",
+              "258",
+              "261/1",
+              "261/2",
+              "262",
+              "263/1",
+              "264",
+              "266/2",
+              "351/2",
+              "354",
+              "367/2",
+              "366/2",
+              "368/1",
+              "368/2",
+              "461/2",
+              "769/3",
+              "769/4",
+              "771",
+              "239",
+              "352",
+              "854/3",
+              "857/2",
+              "259",
+              "349/1",
+              "257/2",
+              "349/2",
+              "417/10",
+              "60/1",
+              "351/3",
+              "353",
+              "366/11",
+              "858/1",
+              "853/2",
+              "366/1",
+              "871",
+              "869/2",
+              "886/2",
+              "461/1",
+              "461/2",
+              "461/3",
+              "882/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Voznica",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "427",
+              "430",
+              "440/2",
+              "461/2",
+              "310",
+              "312",
+              "327",
+              "728/3",
+              "728/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme/pod elektrickým vedením VN č. 305_k20"
+  },
+  "typ_dokumentu": "Oznámenie o vykonaní výrubu",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie a okliesnenie stromov a iných porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "zákon o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žarnovica oznamuje vykonanie výrubu a okliesnenia stromov a porastov v ochrannom pásme elektrického vedenia VN č. 305_k20 v katastrálnych územiach Nová Baňa, Brehy, Rudno nad Hronom a Voznica. Činnosť vykonáva spoločnosť Platan PRO s.r.o. na základe poverenia Stredoslovenskej distribučnej, a.s., v súlade so zákonom o energetike. Oznámenie je zverejnené v zmysle § 47 ods. 7 zákona o ochrane prírody a krajiny."
+}

@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/008052-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 20 dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Nové Mesto nad Váhom",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Ulica Jánošíková"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "odstránenie vozidla",
+    "nakladanie so starým vozidlom"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je verejnou vyhláškou Okresného úradu Nové Mesto nad Váhom o začatí konania vo veci odstránenia a určenia vlastníctva k starému vozidlu (FIAT PUNTO) z ulice Jánošíkovej v Novom Meste nad Váhom, ktoré ohrozovalo životné prostredie. Konanie sa týka vozidla, ktorého vlastníčka si ho neprevzala z parkoviska. Účastníci majú 20 dní na uplatnenie námietok.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Nové Mesto nad Váhom",
+        "NATIONALSI": "SKUEV0379",
+        "SITETITLE_": "Kobela"
+      },
+      {
+        "parcel_label": "Nové Mesto nad Váhom",
+        "NATIONALSI": "SKUEV0567",
+        "SITETITLE_": "Turecký vrch"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Nové Mesto nad Váhom",
+        "NATIONALSI": "19",
+        "SITETITLE_": "OP NPP Čachtická jaskyňa"
+      },
+      {
+        "parcel_label": "Nové Mesto nad Váhom",
+        "NATIONALSI": "76",
+        "SITETITLE_": "PR Kobela"
+      },
+      {
+        "parcel_label": "Nové Mesto nad Váhom",
+        "NATIONALSI": "179",
+        "SITETITLE_": "PR Turecký vrch"
+      }
+    ]
+  }
+}

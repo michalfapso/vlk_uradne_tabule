@@ -1,0 +1,135 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/021801",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Mgr. Viera Kadášová – advokátka, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dudikovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1115",
+              "1114",
+              "1151"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Padarovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "837",
+              "893",
+              "894",
+              "921",
+              "924",
+              "925",
+              "926",
+              "1030",
+              "896"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Drienčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "824",
+              "825",
+              "826"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ostrany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "272/45"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vyšný Blh",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "3218"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín v katastrálnych územiach Dudikovany, Padarovce, Drienčany, Ostrany a Vyšný Blh v okrese Rimavská Sobota. Žiadosť podala Mgr. Viera Kadášová – advokátka, s.r.o. z dôvodu efektívneho využívania plochy na poľnohospodársku produkciu a získania zelenej energie. Záujem byť zúčastnenou osobou je možné potvrdiť do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1115",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      },
+      {
+        "parcel_label": "1151",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      },
+      {
+        "parcel_label": "1114",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      },
+      {
+        "parcel_label": "826",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      },
+      {
+        "parcel_label": "825",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      },
+      {
+        "parcel_label": "824",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      }
+    ]
+  }
+}

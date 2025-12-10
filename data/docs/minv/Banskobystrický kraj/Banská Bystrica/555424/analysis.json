@@ -1,0 +1,223 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/047974-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania.",
+  "ziadatel_navrhovatel": "PRES GREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Medzibrod, Hiadeľ, Lučatín, Slovenská Ľupča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Hiadeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Lučatín",
+        "parcely": []
+      },
+      {
+        "nazov": "Slovenská Ľupča",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme elektrického vedenia č. 110 kV, č. VVN 7859 – 7860"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Informácia pre verejnosť o plánovanom výrube drevín spoločnosťou PRES GREEN, s.r.o. v ochrannom pásme elektrického vedenia v katastrálnych územiach Medzibrod, Hiadeľ, Lučatín a Slovenská Ľupča v okrese Banská Bystrica. Do konania nie je možné sa prihlásiť podľa § 81 ods. 2 písm. m) zákona č. 543/2002 Z.z. o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Medzibrod",
+        "registry_n": "838",
+        "site_name": "Mačková",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0062",
+        "site_name": "Príboj",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0062",
+        "site_name": "Príboj",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "389",
+        "site_name": "Príboj",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "389",
+        "site_name": "Príboj",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0062",
+        "site_name": "Príboj",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0062",
+        "site_name": "Príboj",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "1053",
+        "site_name": "Šupín",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0246",
+        "site_name": "Šupín",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "registry_n": "SKUEV0246",
+        "site_name": "Šupín",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Hiadeľ",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Lučatín",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Lučatín",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "SKUEV0062",
+        "SITETITLE_": "Príboj"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "SKUEV0246",
+        "SITETITLE_": "Šupín"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "SKUEV0149",
+        "SITETITLE_": "Mackov bok"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "838",
+        "SITETITLE_": "PR Mačková"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "389",
+        "SITETITLE_": "NPR Príboj"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "1053",
+        "SITETITLE_": "PR Šupín"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "338",
+        "SITETITLE_": "PR Mackov bok"
+      },
+      {
+        "parcel_label": "Slovenská Ľupča",
+        "NATIONALSI": "336",
+        "SITETITLE_": "PP Ľupčiansky skalný hríb"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Hiadeľ",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

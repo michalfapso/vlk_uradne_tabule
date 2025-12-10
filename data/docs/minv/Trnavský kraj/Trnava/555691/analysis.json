@@ -1,0 +1,113 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/027587-008",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/027587-0194296/2025",
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Obec Košolná",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Košolná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Košolná",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "300"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "304/1",
+              "309"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v lokalite po ľavej strane št. cesty III/1295 v uličke oproti ihrisku smerom k Obecnému úradu po RD č. 207"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Významný krajinný prvok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava vydal rozhodnutie o povolení vodnej stavby pre obecnú splaškovú kanalizáciu v obci Košolná, okres Trnava. Stavba zahŕňa výkopové práce a potenciálny výrub drevín na parcelách v katastrálnom území Košolná. Dotknuté územie má prvý stupeň územnej ochrany prírody a krajiny a obsahuje významné krajinné prvky.",
+  "zasiahnute_chranene_uzemia": {}
+}

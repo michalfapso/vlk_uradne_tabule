@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-SL-OSZP-2025/012499-022",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 10 dní od jeho zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Obec Údol",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Stará Ľubovňa",
+    "obec": "Údol",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Údol",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozsah hodnotenia strategického dokumentu",
+  "typ_zasahu": [
+    "územné plánovanie",
+    "výstavba budovy",
+    "výstavba inžinierskych stavieb",
+    "zmenšovanie alebo zastavanie zelených plôch"
+  ],
+  "typ_uzemia": [
+    "Chránené územia európskej sústavy",
+    "Natura 2000",
+    "Chránené vtáčie územie",
+    "CHKO",
+    "prírodné rezervácie",
+    "ochranné pásmo",
+    "Územie európskeho významu",
+    "ÚEV Stredného toku Popradu",
+    "Pieninský národný park",
+    "územný systém ekologickej stability"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy",
+    "biotopy európskeho významu"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument určuje rozsah hodnotenia pre strategický dokument \"Územný plán obce Údol\", ktorého cieľom je navrhnúť koncepciu územného rozvoja obce Údol v Prešovskom kraji. Plán musí rešpektovať chránené územia ako Natura 2000, CHKO, Pieninský národný park a ochranné pásma, zohľadniť ochranu chránených druhov a ich biotopov. Verejnosť môže predkladať pripomienky k rozsahu hodnotenia do 10 dní od jeho zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

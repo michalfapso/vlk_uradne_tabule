@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/015277-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 22.12.2025",
+  "ziadatel_navrhovatel": "Obec Parchovany",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Parchovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Parchovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "16",
+              "182",
+              "181",
+              "185",
+              "188",
+              "191",
+              "194",
+              "197",
+              "200",
+              "204",
+              "207",
+              "210",
+              "213",
+              "216",
+              "219",
+              "225"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3168/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lúčna a Nová ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "vodná stavba"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003"
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976"
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3,4",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004"
+    },
+    {
+      "paragraf": "33",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správneho zákona",
+      "zakon_cislo": "71/1967"
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trebišov oznamuje začatie vodoprávneho konania pre stavbu „Parchovany – dobudovanie kanalizačnej siete pre domy na ulici Lúčna a Nová ulica“, ktorú navrhuje obec Parchovany. Navrhovaná vodná stavba sa bude realizovať v katastrálnom území Parchovany. Účastníci konania môžu podať námietky najneskôr pri ústnom pojednávaní, ktoré sa uskutoční 22.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2025/013581",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Ľubochňa",
+  "miesto_realizacie": {
+    "kraj": "Žilinský",
+    "okres": "Ružomberok",
+    "obec": "Ľubochňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hubová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9439"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "cintorín Ľubochňa"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň územnej ochrany prírody a krajiny"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania o žiadosti obce Ľubochňa o vydanie súhlasu na výrub 1 ks tuje západnej v katastrálnom území Hubová, na parcele C-KN 9439 (cintorín Ľubochňa). Lokalita sa nachádza v prvom stupni územnej ochrany prírody a krajiny. Záujem byť zúčastnenou osobou je možné potvrdiť do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

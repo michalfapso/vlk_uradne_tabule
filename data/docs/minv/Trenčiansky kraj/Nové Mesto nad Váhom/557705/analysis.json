@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/021100-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-09",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Stará Turá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Turá",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2879/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "2998/31"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "mimo zastavaného územia obce"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania o udelenie súhlasu na výrub 1 ks vŕby v katastrálnom území Stará Turá, Okres Nové Mesto nad Váhom. Dotknutý pozemok sa nachádza mimo zastavaného územia obce a platí na ňom prvý stupeň ochrany. Subjekty s právnou subjektivitou a predmetom činnosti ochrana prírody a krajiny sa môžu prihlásiť ako účastníci konania do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

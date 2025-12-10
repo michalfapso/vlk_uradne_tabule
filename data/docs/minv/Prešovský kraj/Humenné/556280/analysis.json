@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "019/H/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Humenné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Humenné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5000/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranná hrádza vodného toku Laborec"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje plánovaný výrub krovitého porastu na ochrannej hrádzi vodného toku Laborec v katastrálnom území Humenné. Výrub, odôvodnený údržbou hrádze, sa bude realizovať v období vegetačného pokoja v zmysle zákona o ochrane prírody a krajiny a vodného zákona. Na vedomie bol informovaný SCHKO Východné Karpaty.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP2-2025/016365-0487918/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "INTRADE Financial Investments, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9383/13",
+              "9383/28",
+              "10566/1",
+              "10566/2",
+              "10566/10",
+              "9383/29",
+              "10566/3",
+              "10568/43",
+              "10568/44",
+              "10569/1",
+              "10569/2",
+              "21889/2",
+              "21895/27",
+              "21895/29",
+              "22194/3",
+              "22194/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Polyfunkčný komplex „Nový trh“, Ružová dolina"
+  },
+  "typ_dokumentu": "Záväzné stanovisko k navrhovanej stavbe",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba podzemnej garáže",
+    "odstránenie existujúceho objektu",
+    "zemné práce",
+    "čerpanie podzemných vôd",
+    "vsakovanie vôd",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "odber podzemných vôd",
+    "krajinné a terénne úpravy",
+    "výstavba ciest a komunikácií",
+    "výstavba energetického diela"
+  ],
+  "typ_uzemia": [
+    "čiastkové povodie Dunaja",
+    "Útvar podzemnej vody SK1000300P Medzizrnové podzemné vody kvartérnych náplavov centrálnej časti Podunajskej panvy",
+    "Útvar podzemnej vody SK2001000P Medzizrnové podzemné vody centrálnej časti Podunajskej panvy a jej výbežkov",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje záväzné stanovisko Okresného úradu Bratislava k navrhovanej stavbe „Polyfunkčný komplex „Nový trh“, Ružová dolina, Bratislava“ v katastrálnom území Nivy. Posudzuje sa vplyv činnosti, ktorá zahŕňa rozsiahle zemné práce, čerpanie a vsakovanie podzemných vôd a vybudovanie studne pre závlahu, na podzemné vodné útvary SK1000300P a SK2001000P. Záverom je, že sa nepredpokladá nesplnenie environmentálnych cieľov a nie je potrebná výnimka. Územie nie je v žiadnej vodohospodársky chránenej oblasti.",
+  "zasiahnute_chranene_uzemia": {}
+}

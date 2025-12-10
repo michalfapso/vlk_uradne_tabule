@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa, keď bolo toto oznámenie zverejnené dotknutou obcou",
+  "ziadatel_navrhovatel": "Obec Lipová",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Lipová",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "typ_zasahu": [
+    "Územné plánovanie",
+    "Zmeny a doplnky územného plánu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o strategickom dokumente \"Územný plán obce Lipová - Zmeny a doplnky č.1\". Verejnosť má možnosť predkladať stanoviská do 15 dní od zverejnenia oznámenia dotknutou obcou, týka sa obce Lipová v okrese Nové Zámky. Konzultácie sú možné na Okresnom úrade Nové Zámky.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Mlynský Sek",
+        "NATIONALSI": "951",
+        "SITETITLE_": "CHA Lipovský park"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Mlynský Sek",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      }
+    ]
+  }
+}

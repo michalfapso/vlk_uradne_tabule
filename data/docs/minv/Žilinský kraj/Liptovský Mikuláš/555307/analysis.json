@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/016390-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "Juraj Ostrolucký",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Liptovský Mikuláš",
+    "obec": "Pribylina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pribylina",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "10276/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí správneho konania na žiadosť Juraja Ostroluckého o vydanie súhlasu na výrub 7 kusov drevín. Realizácia je plánovaná v katastrálnom území obce Pribylina, okres Liptovský Mikuláš, mimo zastavaného územia, na parcele KN-E 10276/2. Dôvodom výrubu je zabezpečenie bezpečnosti cestnej premávky. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "10276/2",
+        "NATIONALSI": "SKUEV0141",
+        "SITETITLE_": "Belá"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "10276/2",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

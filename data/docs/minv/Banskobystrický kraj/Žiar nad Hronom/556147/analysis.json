@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/011757-0",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 18. decembra 2025 o 09:00 hod"
+  },
+  "ziadatel_navrhovatel": "Šaliga s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Hliník nad Hronom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hliník nad Hronom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4198/1",
+              "4198/2",
+              "4198/35",
+              "4198/37",
+              "4288",
+              "4235"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hrabiny II - Lipová"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného konania (verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba splaškovej kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "úprava vodného toku",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorým sa mení a dopĺňa zákona č. 24/2006 Z. z. o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "314/2014 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí stavebného konania pre výstavbu inžinierskych sietí (vodovod, splašková a dažďová kanalizácia) pre individuálnu bytovú výstavbu v Hliníku nad Hronom, časť Hrabiny II - Lipová. Súčasťou projektu je aj úprava vodného toku Hliníček a vypúšťanie dažďových vôd do neho. Ústne pojednávanie je stanovené na 18. decembra 2025 v Žiari nad Hronom, kde môžu účastníci konania uplatniť námietky.",
+  "zasiahnute_chranene_uzemia": {}
+}

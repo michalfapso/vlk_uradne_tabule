@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OÚ-GL-OSZP-2025/001304",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Kluknava",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Kluknava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kluknava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1302/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "cintorín"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Smrek obyčajný",
+    "Picea abies"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Upovedomenie o začatí konania pre žiadosť Obce Kluknava o vydanie súhlasu na výrub jedného Smreku obyčajného na cintoríne v katastrálnom území Kluknava. Verejnosť má 5 dní od zverejnenia na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/017721",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-08-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Báhoň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Báhoň",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3005",
+              "3006"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok oznamuje začatie správneho konania vo veci vydania súhlasu na výrub 2 kusov agátu na parcelách C 3005-3006 v katastrálnom území Báhoň, Pezinok. Lehota na potvrdenie záujmu byť účastníkom konania pre združenia s právnou subjektivitou je 5 pracovných dní od zverejnenia oznamu.",
+  "zasiahnute_chranene_uzemia": {}
+}

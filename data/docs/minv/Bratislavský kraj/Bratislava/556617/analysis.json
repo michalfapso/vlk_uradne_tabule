@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP1-2025/563376/LAJ",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-24",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Patrik Vajda",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Devínske jazero"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "jazdenie a státie s motorovým vozidlom"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Záhorie",
+    "Chránený areál Devínske jazero",
+    "3. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje začatie správneho konania k žiadosti Patrika Vajdu o povolenie výnimky na jazdenie a státie s motorovým vozidlom v Chránenej krajinnej oblasti Záhorie a v Chránenom areáli Devínske jazero (3. stupeň ochrany) za účelom rybárstva.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "registry_n": "SKUEV0313",
+        "site_name": "Devínske jazero",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "registry_n": "SKUEV0313",
+        "site_name": "Devínske jazero",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "NATIONALSI": "SKUEV0313",
+        "SITETITLE_": "Devínske jazero"
+      },
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "NATIONALSI": "SKUEV0314",
+        "SITETITLE_": "Morava"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "NATIONALSI": "1072",
+        "SITETITLE_": "CHA Devínske alúvium Moravy"
+      },
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "NATIONALSI": "1262",
+        "SITETITLE_": "CHA Devínske jazero"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Devínske jazero, Devínska Nová Ves, Záhorská Bystrica, Vysoká pri Morave, okres Malacky, Bratislavský kraj, Slovensko",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      }
+    ]
+  }
+}

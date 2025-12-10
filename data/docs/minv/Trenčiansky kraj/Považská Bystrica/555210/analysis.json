@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "050888/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-31",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podvažie",
+        "parcely": []
+      },
+      {
+        "nazov": "Šebešťanová",
+        "parcely": []
+      },
+      {
+        "nazov": "Považská Podhradie",
+        "parcely": []
+      },
+      {
+        "nazov": "Orlové",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "el. vedenie VN 133_k10: Mikšová - Orlové"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliešťovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliešťovaní náletových drevín v ochrannom pásme 22 kV elektrického vedenia VN 133_k10 Mikšová - Orlové. Činnosť sa má realizovať v katastrálnych územiach Podvažie, Šebešťanová, Považská Podhradie a Orlové v okrese Považská Bystrica. Odvoláva sa na zabezpečenie prevádzky energetických zariadení v súlade so zákonom o ochrane prírody a krajiny a zákonom o energetike."
+}

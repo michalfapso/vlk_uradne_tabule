@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001252",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 26.11.2025"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolné Mladonice",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "256"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín a krovín na parcele E č. 256 v katastrálnom území Dolné Mladonice, v Krupinskom okrese Banskobystrického kraja. Záujem o účasť v konaní je potrebné doručiť do 26.11.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

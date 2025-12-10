@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010424",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice SR, Oblastné riaditeľstvo Žilina",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Medzibrodie nad Oravou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrodie nad Oravou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "275"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o plánovanom výrube 18 ks tuje západnej v katastrálnom území Medzibrodie nad Oravou, na parcele C-KN č. 275, ktorý realizujú Železnice SR. Dôvodom výrubu je bezprostredné ohrozenie majetku a bezpečnosti železničnej dopravy v ochrannom pásme dráhy. Konanie podľa § 47 ods. 8 zákona o ochrane prírody a krajiny vylučuje všeobecné predpisy o správnom konaní, čo naznačuje obmedzenú možnosť účasti verejnosti.",
+  "zasiahnute_chranene_uzemia": {}
+}

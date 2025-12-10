@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OOP3-2025/089513-002",
+  "cislo_rozhodnutia": "OU-CA-OSZP-2025/015208-011",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "METALCOM Čadca, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Čadca",
+    "obec": "Krásno nad Kysucou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krásno nad Kysucou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "12843/3",
+              "12844/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Skladová hala METALCOM"
+  },
+  "typ_dokumentu": "Rozhodnutie o odvolaní",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba parkoviska",
+    "skladovanie"
+  ],
+  "typ_uzemia": [
+    "Územný systém ekologickej stability (ÚSES)",
+    "nadregionálny hydrický biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/skladova-hala-metalcom",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Ústava Slovenskej republiky",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o verejnom zdraví",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutie Okresného úradu Žilina o odvolaní, ktorým potvrdzuje pôvodné záväzné stanovisko Okresného úradu Čadca, že činnosť „Skladová hala METALCOM“ navrhovateľa METALCOM Čadca, s.r.o. v obci Krásno nad Kysucou sa nebude posudzovať podľa zákona EIA. Odvolanie podalo Združenie domových samospráv, ktoré namietalo nedostatočné posúdenie vplyvov a arbitrárnosť rozhodnutia, vrátane možného vplyvu na nadregionálny hydrický biokoridor Kysuca. Odvolací orgán odvolanie zamietol a potvrdil, že skutkový a právny stav bol dostatočne zistený.",
+  "zasiahnute_chranene_uzemia": {}
+}

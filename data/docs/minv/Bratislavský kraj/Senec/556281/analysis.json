@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/031938",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": "2025-11-18",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Peter Eľko",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Kalinkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kalinkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "638/16"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Populus alba L.",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senec oznamuje začatie správneho konania o žiadosti Petra Eľka na výrub 6 kusov drevín (Populus alba L.) na parcele č. C 638/16 v katastrálnom území Kalinkovo, okres Senec. Dôvodom výrubu je poškodzovanie oplotenia a susedných pozemkov. Verejnosť má možnosť prihlásiť sa do konania ako účastník do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

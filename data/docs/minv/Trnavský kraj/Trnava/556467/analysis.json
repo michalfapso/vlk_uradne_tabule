@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/084516",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, oblastné riaditeľstvo Trnava, sekcia železničných tratí a stavieb",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Trnava, Cífer",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "traťový úsek Trnava – Cífer, koľaj č.1 a 2 žkm 44,500 – 38,085"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava zverejňuje oznámenie od Železníc Slovenskej republiky o výrube drevín v traťovom úseku Trnava – Cífer. Na toto oznámenie sa nevzťahujú všeobecné predpisy o správnom konaní a nie je možné voči nemu podať odvolanie. V dokumente nie sú špecifikované dotknuté chránené územia ani druhy živočíchov a rastlín.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Trnava",
+        "NATIONALSI": "175",
+        "SITETITLE_": "CHA Trnavské rybníky"
+      },
+      {
+        "parcel_label": "Trnava",
+        "NATIONALSI": "175",
+        "SITETITLE_": "OP CHA Trnavské rybníky"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Modranka",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      },
+      {
+        "parcel_label": "Trnava",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      },
+      {
+        "parcel_label": "Trnava",
+        "NATIONALSI": "SKCHVU054",
+        "SITETITLE_": "Špačinsko-nižnianske polia"
+      },
+      {
+        "parcel_label": "Cífer",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      },
+      {
+        "parcel_label": "Pác",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      }
+    ]
+  }
+}

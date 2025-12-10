@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-HE-OSZP-2025/019077",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Komplex Bystrá s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Chlmec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chlmec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "360/2",
+              "360/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument upovedomuje o začatí správneho konania na základe žiadosti spoločnosti Komplex Bystrá s.r.o. o vydanie súhlasu na výrub náletových drevín a krovín. Výrub sa má uskutočniť na parcelných číslach 360/2 a 360/3 v katastrálnom území Chlmec, okres Humenné, mimo intravilánu obce. V konaní môžu byť dotknuté záujmy ochrany prírody a krajiny a je možné sa doň prihlásiť.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "360/2",
+        "NATIONALSI": "SKUEV0250",
+        "SITETITLE_": "Krivoštianka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "360/3",
+        "NATIONALSI": "SKCHVU035",
+        "SITETITLE_": "Vihorlatské vrchy"
+      },
+      {
+        "parcel_label": "360/2",
+        "NATIONALSI": "SKCHVU035",
+        "SITETITLE_": "Vihorlatské vrchy"
+      },
+      {
+        "parcel_label": "360/2",
+        "NATIONALSI": "SKCHVU035",
+        "SITETITLE_": "Vihorlatské vrchy"
+      }
+    ]
+  }
+}

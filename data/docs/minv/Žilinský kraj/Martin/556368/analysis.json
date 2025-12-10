@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/010132-Hš",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2025/010132-Hš",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Turčianska vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záturčie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "759/16",
+              "759/27",
+              "759/1",
+              "1305/3",
+              "1305/4",
+              "1312/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "765/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Záturčie, zóna IBV"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení užívania vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": "513/1991 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím o povolení užívania vodnej stavby 'Martin - Záturčie, Rozšírenie vodovodu a kanalizácie I. etapa' pre Turčiansku vodárenskú spoločnosť, a.s. Realizácia rozšírenia vodovodu a kanalizácie sa týka katastrálneho územia Záturčie v meste Martin, konkrétne zóny IBV na uvedených parcelných číslach. V texte nie sú spomenuté žiadne chránené územia ani významné živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2025/025236",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Marianka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Marianka",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "387"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, š.p. oznamuje výrub 5 kusov drevín v katastrálnom území obce Marianka na parcele č. E KN 387. Činnosť je plánovaná v zastavanom území obce v súlade so zákonom o ochrane prírody a krajiny a zákonom o vodách.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "TU/l07/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "po uplynutí lehoty na vyjadrenie orgánu ochrany prírody v zmysle § 47 ods. 8 zákona č. 543/2002 Z. z.",
+  "ziadatel_navrhovatel": "FORTISCHEM a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prievidza",
+    "obec": "Novaky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Novaky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2660/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "areál FORTISCHEM a. s."
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001 Z. z."
+    },
+    {
+      "paragraf": "25",
+      "odsek": "1",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001 Z. z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť FORTISCHEM a.s. oznamuje plánovaný výrub troch smrekov obyčajných v areáli spoločnosti v katastrálnom území Nováky (okres Prievidza) na parcele č. 2660/1. Dôvodom výrubu je odstránenie nedostatkov z protipožiarnej kontroly, ktoré bránia účinnému zásahu hasičského zariadenia. Výrub sa vykoná po uplynutí lehoty na vyjadrenie orgánu ochrany prírody v zmysle príslušných zákonov.",
+  "zasiahnute_chranene_uzemia": {}
+}

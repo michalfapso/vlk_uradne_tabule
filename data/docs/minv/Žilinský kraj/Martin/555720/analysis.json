@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/022364",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s. r. o., Čadca",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Priekopa",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 110 kV vedení č. 7715, 7716, 7713, podporný bod č. Rozvodňa Martin-Vrútky"
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického zariadenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je verejnou vyhláškou z 11. novembra 2025 (číslo spisu OU-MT-OSZP-2025/022364), informujúcou o plánovanom výrube drevín spoločnosťou ENZA s. r. o. v katastrálnom území Priekopa (okres Martin, Žilinský kraj). Výrub sa realizuje v ochrannom pásme 110 kV elektrického vedenia a vyžaduje si stanovisko podľa zákona č. 543/2002 Z. z. Vzhľadom na informatívny charakter zverejnenia nie je možná účasť verejnosti v konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Priekopa",
+        "registry_n": "SKUEV0930",
+        "site_name": "Lúčanská Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Priekopa",
+        "NATIONALSI": "SKUEV0930",
+        "SITETITLE_": "Lúčanská Fatra"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Priekopa",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

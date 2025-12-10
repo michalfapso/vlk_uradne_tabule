@@ -1,0 +1,45 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/027354",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, odštepný závod, Jančeka 36, 034 01 Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Babín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Babín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "17113/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Skalnatý potok"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje výrub 10 smrekov v katastrálnom území Babín – Skalnatý potok, okres Námestovo, ktorý realizuje Slovenský vodohospodársky podnik. Výrub sa vykonáva na parcele C-KN 17113/4 v období január – marec 2026 a október – december 2026 na základe § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny."
+}

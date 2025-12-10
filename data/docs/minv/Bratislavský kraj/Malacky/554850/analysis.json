@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/023663-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-27",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr do 8 dní odo dňa doručenia oznámenia",
+  "ziadatel_navrhovatel": "obec Pernek",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Malacky",
+    "obec": "Pernek",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pernek",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a upustenie od ústneho pojednávania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba čistiarne odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre predĺženie lehoty výstavby verejnej kanalizácie a ČOV v obci Pernek. Okresný úrad Malacky upustil od ústneho pojednávania. Účastníci konania môžu podať námietky do 8 dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Pernek",
+        "NATIONALSI": "SKUEV0276",
+        "SITETITLE_": "Kuchynská hornatina"
+      },
+      {
+        "parcel_label": "Pernek",
+        "NATIONALSI": "SKUEV0219",
+        "SITETITLE_": "Malina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Pernek",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

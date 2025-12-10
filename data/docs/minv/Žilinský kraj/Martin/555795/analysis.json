@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/022372",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Sučany, Vrútky, Košúty",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "ochrannom pásme VN vedenia 110 kV, č. V 7715, 7716, 7713, TR: Sučany – Vrútky - Košúty"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Martin zverejňuje oznámenie o plánovanom výrube drevín v ochrannom pásme VN vedenia 110 kV na trase Sučany – Vrútky - Košúty v okrese Martin. Oznámenie podala spoločnosť ENZA s.r.o. na základe poverenia od Stredoslovenskej distribučnej, a.s. Ide o informačný charakter, kde nie je možné prihlásiť sa do konania.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Sučany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sučany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sučany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sučany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Vrútky",
+        "registry_n": "SKUEV0930",
+        "site_name": "Lúčanská Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Sučany",
+        "NATIONALSI": "SKUEV0252",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKUEV0930",
+        "SITETITLE_": "Lúčanská Fatra"
+      },
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKUEV0665",
+        "SITETITLE_": "Strečnianske meandre Váhu"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Sučany",
+        "NATIONALSI": "303",
+        "SITETITLE_": "NPR Kľačianska Magura"
+      },
+      {
+        "parcel_label": "Košúty",
+        "NATIONALSI": "942",
+        "SITETITLE_": "CHA Park pri Ihrisku"
+      },
+      {
+        "parcel_label": "Košúty",
+        "NATIONALSI": "943",
+        "SITETITLE_": "CHA Košútsky park"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Sučany",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

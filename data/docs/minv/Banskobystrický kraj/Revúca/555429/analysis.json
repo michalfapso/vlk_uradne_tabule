@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/001160",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-05",
+  "lehoty_na_vyjadrenie": "lehota, ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1053/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "umiestnenie vstupnej brány"
+  ],
+  "typ_uzemia": [
+    "tretí stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na umiestnenie vstupnej brány na parcele KNE č. 1053/2 v katastrálnom území Muráň. Činnosť sa týka územia, na ktorom platí tretí stupeň ochrany podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1053/2",
+        "NATIONALSI": "SKUEV0225",
+        "SITETITLE_": "Muránska planina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "1053/2",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023057",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Dolný Kalník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Kalník",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "302/286"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ľavý breh toku Kalník, rkm 1,850-1,950"
+  },
+  "typ_dokumentu": "Informácia o oznámení výrubu a vydaní stanoviska",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o oznámení Slovenského vodohospodárskeho podniku o výrube drevín na parcele CKN 302/286 v k. ú. Dolný Kalník, lokalita ľavý breh toku Kalník. Konanie sa týka vydania stanoviska podľa zákona č. 543/2002 Z. z. a má len informatívny charakter, pričom účasť v konaní nie je povolená.",
+  "zasiahnute_chranene_uzemia": {}
+}

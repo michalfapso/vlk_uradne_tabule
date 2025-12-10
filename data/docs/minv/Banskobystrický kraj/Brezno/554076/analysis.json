@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-27",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Obec Telgárt",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Telgárt",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Telgárt",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4074/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "umiestnenie informačnej konštrukcie"
+  ],
+  "typ_uzemia": [
+    "ochrana prírody a krajiny"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí správneho konania na Okresnom úrade Brezno na žiadosť Obce Telgárt o udelenie súhlasu na umiestnenie informačnej konštrukcie. Činnosť sa má realizovať za hranicami zastavaného územia obce Telgárt na parcele C-KN 4074/3 v k.ú. Telgárt a spadá pod zákon o ochrane prírody a krajiny. Verejnosť má 5 pracovných dní od zverejnenia dňa 27.10.2025 na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "4074/3",
+        "NATIONALSI": "SKUEV0310",
+        "SITETITLE_": "Kráľovohoľské Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "4074/3",
+        "NATIONALSI": "257",
+        "SITETITLE_": "NPR Hnilecká jelšina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "4074/3",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

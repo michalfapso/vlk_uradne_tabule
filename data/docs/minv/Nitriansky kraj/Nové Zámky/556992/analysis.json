@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2025/030231-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 13.01.2026"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Radava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Radava",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1519/2",
+              "1519/102",
+              "1500",
+              "1499/100",
+              "1487/102",
+              "1514",
+              "1487/17",
+              "1487/18",
+              "1487/19",
+              "1487/20"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hul",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1487/19",
+              "1487/20",
+              "1487/21"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania (verejná vyhláška)",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "č. 525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "č. 364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "č. 50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "č. 453/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o elektronickej podobe výkonu pôsobnosti orgánov verejnej moci a o zmene a doplnení niektorých zákonov (zákon o e-Governmente)",
+      "zakon_cislo": "č. 305/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "č. 85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "č. 272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Ide o oznámenie o začatí kolaudačného konania (formou verejnej vyhlášky) pre vodnú stavbu „Radava – premostenie vodovodného potrubia“, ktorej žiadateľom je Západoslovenská vodárenská spoločnosť, a.s. Realizácia stavby sa týka katastrálnych území Radava a Hul v okrese Nové Zámky. Ústne konanie, kde je možné podať námietky a stanoviská, sa uskutoční 13.01.2026.",
+  "zasiahnute_chranene_uzemia": {}
+}

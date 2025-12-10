@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/418864-012",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/418864-0511141/2025",
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "DÚBRAVKA Development, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava IV",
+    "obec": "Dúbravka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dúbravka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2406/31",
+              "2406/33",
+              "2406/63",
+              "2406/74",
+              "2406/76",
+              "2406/78",
+              "2406/80",
+              "2406/82",
+              "2406/234",
+              "2411/56"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "POLYFUNKČNÝ SÚBOR MEDZE – JUH I."
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovitého porastu"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Vŕbovo-topoľové nížinné lesy",
+    "Dubovo – hrabové lesy karpatské",
+    "ochranné pásmo vedenia VVN"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hniezdiace vtáky",
+    "netopiere",
+    "xylofágny hmyz",
+    "roháče",
+    "fuzáče",
+    "dub letný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o prokuratúre",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava vydal rozhodnutie o súhlase na výrub 51 stromov a krovitého porastu na parcelách v katastrálnom území Dúbravka pre spoločnosť DÚBRAVKA Development, s. r. o., z dôvodu výstavby polyfunkčného súboru Medze – Juh I. Rozhodnutie zahŕňa podmienky pre výrub vrátane potreby zoologických prieskumov na chránené živočíchy (vtáky, netopiere, xylofágny hmyz) a náhradnú výsadbu, s ohľadom na skutočnosť, že pozemky sú v 1. stupni ochrany prírody a v blízkosti významných biotopov.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,121 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/008546-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia."
+  },
+  "ziadatel_navrhovatel": "Obec Žaškov",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Žaškov",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Babicovská"
+  },
+  "typ_dokumentu": "Rozhodnutie o zmene stavby pred dokončením, verejná vyhláška",
+  "typ_zasahu": [
+    "Zmena termínu dokončenia stavby",
+    "Rozšírenie vodovodu",
+    "Rozšírenie kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou o rozhodnutí Okresného úradu Dolný Kubín o zmene termínu dokončenia stavby „Žaškov – Babicovská. Rozšírenie vodovodu a kanalizácie“ pre žiadateľa Obec Žaškov. Pôvodný termín dokončenia do decembra 2025 sa predlžuje do 31. decembra 2035 z dôvodu nedostatku finančných prostriedkov. Dokument nešpecifikuje dotknuté chránené územia ani druhy živočíchov a rastlín.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Žaškov",
+        "registry_n": "SKUEV0663",
+        "site_name": "Šíp",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Žaškov",
+        "registry_n": "SKUEV0663",
+        "site_name": "Šíp",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Žaškov",
+        "registry_n": "SKUEV0663",
+        "site_name": "Šíp",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Žaškov",
+        "registry_n": "SKUEV0663",
+        "site_name": "Šíp",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "SKUEV0663",
+        "SITETITLE_": "Šíp"
+      },
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "441",
+        "SITETITLE_": "NPR Šíp"
+      },
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "Žaškov",
+        "NATIONALSI": "SKCHVU050",
+        "SITETITLE_": "Chočské vrchy"
+      }
+    ]
+  }
+}

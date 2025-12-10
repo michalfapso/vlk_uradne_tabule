@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2025-11-23 21:50:11",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['783/32']}' v katastrálnom území 'Trstené pri Hornáde' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-23 21:50:11",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Trstené pri Hornáde', 'katastralne_uzemia': [{'nazov': 'Trstené pri Hornáde', 'parcely': [{'typ': 'C-KN', 'cisla': ['783/32']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-23 21:50:11",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 556366 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=556366): 'NoneType' object has no attribute 'to_crs'"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Ciemy FUCHSFARM",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostolná Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Seč",
+        "parcely": []
+      },
+      {
+        "nazov": "Dlžín",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Sutovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Sutovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "odstránenie a odlesňovanie stromov a iných porastov",
+    "okliesnenie stromov a iných porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom odstránení a okliesnení stromov a iných porastov v ochrannom pásme VN vedenia I.c.259, ktoré prechádza katastrálnymi územiami Kostolná Ves, Seč, Dlžín, Dolné Sutovce a Horné Sutovce v okrese Prievidza. Dôvodom je zabezpečenie spoľahlivej a bezpečnej prevádzky vedenia a bezpečnosti osôb. Činnosť bude vykonaná v mesiacoch december, január a február.",
+  "zasiahnute_chranene_uzemia": {}
+}

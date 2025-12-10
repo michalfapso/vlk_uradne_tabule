@@ -1,0 +1,554 @@
+{
+  "cislo_konania_spisu": "OU-TS-OSZP-2025/001347-008",
+  "cislo_rozhodnutia": "OU-TS-OSZP-2025/001347-007",
+  "datum_dokumentu": "2025-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Oravská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Tvrdošín",
+    "obec": "Hladovka, Vitanová",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Hladovka – Vitanová. Kanalizačný zberač."
+  },
+  "typ_dokumentu": "Oprava rozhodnutia verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba čerpacej stanice"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "51",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je opravou rozhodnutia formou verejnej vyhlášky o stavebnom zámere pre vodnú stavbu „Hladovka – Vitanová. Kanalizačný zberač“, vrátane čerpacej stanice a výtlačného potrubia. Oprava sa týka zrejmej nesprávnosti v písomnom vyhotovení pôvodného rozhodnutia, konkrétne v záväznom stanovisku Slovenského pozemkového fondu a podmienkach zriadenia vecného bremena na pozemkoch Slovenskej republiky/neznámych vlastníkov v obciach Hladovka a Vitanová.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Habovka",
+        "registry_n": "339",
+        "site_name": "Mačie diery",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Habovka",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Habovka",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Podbiel",
+        "registry_n": "212",
+        "site_name": "Bielska skala",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Podbiel",
+        "registry_n": "212",
+        "site_name": "Bielska skala",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Oravice",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Oravice",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "845",
+        "site_name": "Suchá dolina",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "462",
+        "site_name": "Úplazíky",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "462",
+        "site_name": "Úplazíky",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zuberec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "SKUEV0145",
+        "SITETITLE_": "Medzi bormi"
+      },
+      {
+        "parcel_label": "Hladovka",
+        "NATIONALSI": "SKUEV0222",
+        "SITETITLE_": "Jelešňa"
+      },
+      {
+        "parcel_label": "Hladovka",
+        "NATIONALSI": "SKUEV0057",
+        "SITETITLE_": "Rašeliniská Oravskej kotliny"
+      },
+      {
+        "parcel_label": "Krásna Hôrka",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      },
+      {
+        "parcel_label": "Liesek",
+        "NATIONALSI": "SKUEV0193",
+        "SITETITLE_": "Zimník"
+      },
+      {
+        "parcel_label": "Liesek",
+        "NATIONALSI": "SKUEV0222",
+        "SITETITLE_": "Jelešňa"
+      },
+      {
+        "parcel_label": "Nižná",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      },
+      {
+        "parcel_label": "Podbiel",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      },
+      {
+        "parcel_label": "Suchá Hora",
+        "NATIONALSI": "SKUEV0057",
+        "SITETITLE_": "Rašeliniská Oravskej kotliny"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKUEV0193",
+        "SITETITLE_": "Zimník"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKUEV0222",
+        "SITETITLE_": "Jelešňa"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKUEV0057",
+        "SITETITLE_": "Rašeliniská Oravskej kotliny"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKUEV0963",
+        "SITETITLE_": "Osadská"
+      },
+      {
+        "parcel_label": "Medvedzie",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      },
+      {
+        "parcel_label": "Tvrdošín",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      },
+      {
+        "parcel_label": "Oravské Hámre",
+        "NATIONALSI": "SKUEV0222",
+        "SITETITLE_": "Jelešňa"
+      },
+      {
+        "parcel_label": "Osada",
+        "NATIONALSI": "SKUEV0222",
+        "SITETITLE_": "Jelešňa"
+      },
+      {
+        "parcel_label": "Oravice",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "SKUEV0145",
+        "SITETITLE_": "Medzi bormi"
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "353",
+        "SITETITLE_": "PR Medzi Bormi"
+      },
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "339",
+        "SITETITLE_": "PR Mačie diery"
+      },
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "369",
+        "SITETITLE_": "NPR Osobitá"
+      },
+      {
+        "parcel_label": "Krásna Hôrka",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      },
+      {
+        "parcel_label": "Nižná",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      },
+      {
+        "parcel_label": "Podbiel",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      },
+      {
+        "parcel_label": "Podbiel",
+        "NATIONALSI": "212",
+        "SITETITLE_": "OP NPR Bielska skala"
+      },
+      {
+        "parcel_label": "Podbiel",
+        "NATIONALSI": "212",
+        "SITETITLE_": "NPR Bielska skala"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "1055",
+        "SITETITLE_": "CHA Bratkovčík"
+      },
+      {
+        "parcel_label": "Medvedzie",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      },
+      {
+        "parcel_label": "Tvrdošín",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      },
+      {
+        "parcel_label": "Oravice",
+        "NATIONALSI": "294",
+        "SITETITLE_": "NPR Juráňova dolina"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "402",
+        "SITETITLE_": "NPR Roháčske plesá"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "462",
+        "SITETITLE_": "PR Úplazíky"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "353",
+        "SITETITLE_": "PR Medzi Bormi"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "317",
+        "SITETITLE_": "NPR Kotlový žľab"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "224",
+        "SITETITLE_": "OP NPP Brestovská jaskyňa"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "369",
+        "SITETITLE_": "NPR Osobitá"
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "NATIONALSI": "317",
+        "SITETITLE_": "NPR Kotlový žľab"
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "NATIONALSI": "294",
+        "SITETITLE_": "NPR Juráňova dolina"
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "NATIONALSI": "369",
+        "SITETITLE_": "NPR Osobitá"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Habovka",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Hladovka",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Liesek",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Oravský Biely Potok",
+        "NATIONALSI": "SKCHVU050",
+        "SITETITLE_": "Chočské vrchy"
+      },
+      {
+        "parcel_label": "Suchá Hora",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Dolný Štefanov",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Trstená",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Ústie nad Priehradou",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Oravské Hámre",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Osada",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "Oravice",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Zuberec",
+        "NATIONALSI": "SKCHVU050",
+        "SITETITLE_": "Chočské vrchy"
+      },
+      {
+        "parcel_label": "Tichá dolina",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

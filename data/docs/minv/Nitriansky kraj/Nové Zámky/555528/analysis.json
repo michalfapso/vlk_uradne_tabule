@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2025/031572",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Železnice SR",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Nové Zámky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Zámky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny zákon)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Železníc SR o výrube drevín z dôvodu údržbovej činnosti v katastrálnom území Nové Zámky. Ide o konanie podľa § 47 ods. 7 zákona o ochrane prírody a krajiny, na ktoré sa nevzťahujú všeobecné predpisy o správnom konaní, a preto nie je možná účasť verejnosti.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "SKUEV0084",
+        "SITETITLE_": "Zátoň"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "137",
+        "SITETITLE_": "PP Potok Chrenovka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      }
+    ]
+  }
+}

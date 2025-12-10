@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/022723",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Nacina Ves",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Nacina Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nacina Ves",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "11",
+              "12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "orech kráľovský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania v Košickom kraji, okrese Michalovce, na základe žiadosti Obce Nacina Ves o súhlas na výrub dvoch stromov druhu orech kráľovský v katastrálnom území Nacina Ves na parcelách C-KN 11 a 12. Dreviny sú v zlom zdravotnom stave. Verejnosť má možnosť prihlásiť sa do konania do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

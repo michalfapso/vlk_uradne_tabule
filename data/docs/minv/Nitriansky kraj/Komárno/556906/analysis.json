@@ -1,0 +1,116 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSŽP-2025/023161",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": "2025-11-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie písomne na adresu Okresný úrad Komárno, odbor starostlivosti o životné prostredie, Záhradnícka 6, 945 01 Komárno alebo elektronicky na adresu oszp.kn@minv.sk"
+  },
+  "ziadatel_navrhovatel": "Vladimír Baráth",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Váh rkm 3950 – 3930"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "umiestnenie zariadenia na vodnom toku",
+    "predĺženie povolenia na státie plávajúceho zariadenia"
+  ],
+  "typ_uzemia": [
+    "chránené územie",
+    "ochranné pásmo",
+    "Druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania pre žiadosť o predĺženie povolenia na státie plávajúceho zariadenia na rieke Váh v katastrálnom území Komárno. Činnosť sa uskutočňuje v chránenom území alebo jeho ochrannom pásme, konkrétne na území s druhým stupňom ochrany. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0393",
+        "SITETITLE_": "Dunaj"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0010",
+        "SITETITLE_": "Komárňanské slanisko"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0017",
+        "SITETITLE_": "Pri Orechovom rade"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0092",
+        "SITETITLE_": "Dolnovážske luhy"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0155",
+        "SITETITLE_": "Alúvium Starej Nitry"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKUEV0819",
+        "SITETITLE_": "Vážsky Dunaj"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "1215",
+        "SITETITLE_": "CHA Komárňanské slanisko"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "1213",
+        "SITETITLE_": "CHA Pri Orechovom rade"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "3",
+        "SITETITLE_": "NPR Apálsky ostrov"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "823",
+        "SITETITLE_": "PR Vrbina"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "1078",
+        "SITETITLE_": "PR Komočín"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      },
+      {
+        "parcel_label": "Komárno",
+        "NATIONALSI": "SKCHVU007",
+        "SITETITLE_": "Dunajské luhy"
+      }
+    ]
+  }
+}

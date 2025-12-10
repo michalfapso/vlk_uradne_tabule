@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/022941",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Rimavská Baňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rimavská Baňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2063/11",
+              "2068"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje zverejnenie informácie o začatí správneho konania týkajúceho sa oznámenia o výrube a okliesnení drevín. Žiadateľ, Železnice Slovenskej republiky, plánuje odstránenie 2 kusov drevín a iných porastov v katastrálnom území Rimavská Baňa, v ochrannom pásme vedenia. Všeobecné predpisy o správnom konaní sa na toto konanie nevzťahujú, čo znamená, že účasť verejnosti je vylúčená.",
+  "zasiahnute_chranene_uzemia": {}
+}

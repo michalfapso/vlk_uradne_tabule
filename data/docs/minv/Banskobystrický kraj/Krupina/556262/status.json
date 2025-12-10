@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2025-11-23 23:00:51",
+    "type": "warning",
+    "text": "Nejednoznačne zadané katastrálne územie 'Rakovec' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne."
+  },
+  {
+    "date": "2025-11-23 23:00:54",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'E', 'cisla': ['1123/8']}' v katastrálnom území 'Hontianske Nemce' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-23 23:00:57",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'E', 'cisla': ['1123/8']}' v katastrálnom území 'Hontianske Nemce' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-23 23:00:57",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Krupina', 'obec': 'Hontianske Nemce, Krupina', 'katastralne_uzemia': [{'nazov': 'Rakovec', 'parcely': [{'typ': 'E', 'cisla': ['882/1']}]}, {'nazov': 'Hontianske Nemce', 'parcely': [{'typ': 'E', 'cisla': ['1123/8']}]}], 'nazov_lokality': 'ochranné pásmo trate v úseku žst. Hontianske Nemce - žst. Krupina'}"
+  }
+]

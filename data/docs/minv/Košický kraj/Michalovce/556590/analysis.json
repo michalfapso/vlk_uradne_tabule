@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Pavlovce nad Uhom",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Pavlovce nad Uhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pavlovce nad Uhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1368"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "lipa malolistá"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci žiadosti o súhlas na výrub 10 ks stromov druhu lipa malolistá v zlom zdravotnom stave na parcele C KN 1368 v katastrálnom území Pavlovce nad Uhom. Žiadateľom je Obec Pavlovce nad Uhom. Občianske združenia majú 5 pracovných dní od zverejnenia na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {}
+}

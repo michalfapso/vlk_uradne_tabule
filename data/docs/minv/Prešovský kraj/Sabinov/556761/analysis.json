@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-SB-OSZP-2025/001753-010",
+  "cislo_rozhodnutia": "OU-SB-OSZP-2025/001753-0008282/2025",
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia na podanie odvolania"
+  },
+  "ziadatel_navrhovatel": "TLM Trans, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Sabinov",
+    "obec": "Sabinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sabinov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3331/26",
+              "3331/50",
+              "3331/60",
+              "3331/148",
+              "3341/4",
+              "3341/5",
+              "3341/7",
+              "5170/5",
+              "5170/6",
+              "5170/11",
+              "5225/1",
+              "5170/7",
+              "3331/197",
+              "3331/196",
+              "3331/195",
+              "3331/194",
+              "3331/193",
+              "3331/192",
+              "3331/191",
+              "3331/190",
+              "3331/189",
+              "3331/188"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3315/2",
+              "5170/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytný súbor RD Čierny potok"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom povolení a povolení na užívanie vôd",
+  "typ_zasahu": [
+    "výstavba kanalizácie splaškovej",
+    "preložka kanalizácie splaškovej",
+    "likvidácia kanalizácie splaškovej",
+    "výstavba kanalizácie dažďovej",
+    "výstavba vodovodu",
+    "vypúšťanie odpadových vôd z povrchového odtoku",
+    "výstavba komunikácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Sabinov povoľuje výstavbu vodnej stavby (splašková a dažďová kanalizácia, vodovod) a vypúšťanie vôd z povrchového odtoku pre obytný súbor RD Čierny potok v katastrálnom území Sabinov. Súčasťou projektu je aj preložka a likvidácia existujúcej splaškovej kanalizácie. Dokument neuvádza, že by sa stavba nachádzala v chránenom území alebo dotýkala chránených druhov.",
+  "zasiahnute_chranene_uzemia": {}
+}

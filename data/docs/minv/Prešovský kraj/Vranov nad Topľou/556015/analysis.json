@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2025/015684",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 10.12.2025"
+  },
+  "ziadatel_navrhovatel": "Obec Ondavské Matiašovce",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Ondavské Matiašovce",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Vodovod Ondavské Matiašovce"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a verejná vyhláška",
+  "typ_zasahu": [
+    "zmena termínu ukončenia stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie vodoprávneho konania a vydanie verejnej vyhlášky vo veci žiadosti Obce Ondavské Matiašovce o zmenu termínu ukončenia stavby 'Vodovod Ondavské Matiašovce' s navrhovaným predĺžením do roku 2028. Účastníci konania môžu podať námietky a pripomienky najneskôr do 10. decembra 2025.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Ondavské Matiašovce",
+        "NATIONALSI": "SKUEV4008",
+        "SITETITLE_": "Stredný tok Ondavy"
+      }
+    ]
+  }
+}

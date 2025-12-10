@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2025/034002-19",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Okresný úrad Banská Bystrica, Odbor starostlivosti o životné prostredie",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Prírodná rezervácia Pokoradzské jazierka"
+  },
+  "typ_dokumentu": "Schvaľovací protokol programu starostlivosti",
+  "typ_zasahu": [
+    "bezzásahový režim",
+    "ťažba dreva",
+    "výrub drevín",
+    "odstraňovanie inváznych druhov",
+    "používanie chemických látok",
+    "kosenie",
+    "riadená pastva",
+    "úprava vodných plôch"
+  ],
+  "typ_uzemia": [
+    "Prírodná rezervácia",
+    "Územie európskeho významu",
+    "Biotop európskeho významu (91H0)",
+    "Biotop európskeho významu (8230)",
+    "Biotop európskeho významu (6510)",
+    "Biotop európskeho významu (3150)",
+    "Biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Cerambyx cerdo",
+    "Lucanus cervus",
+    "Lathyrus transsilvanicus",
+    "Robinia pseudoacacia",
+    "Ailanthus altissima",
+    "Picea abies"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je schvaľovacím protokolom Programu starostlivosti o Prírodnú rezerváciu Pokoradzské jazierka v Banskobystrickom kraji na obdobie rokov 2025 až 2034. Definuje opatrenia na zachovanie a zlepšenie stavu biotopov európskeho a národného významu, ako aj druhov Cerambyx cerdo, Lucanus cervus a Lathyrus transsilvanicus. Program zahŕňa bezzásahový režim, riadenú ťažbu dreva (havarijnú/asanačnú), odstraňovanie inváznych druhov (vrátane použitia chemikálií), kosenie, riadenú pastvu a úpravu vodných plôch."
+}

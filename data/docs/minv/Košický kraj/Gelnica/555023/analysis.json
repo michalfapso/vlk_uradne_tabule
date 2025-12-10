@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-GL-OSZP-2025100",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-28",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo elektronickou formou (anna.kleinova@minv.sk) záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "Obec Nálepkovo",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Gelnica",
+    "obec": "Nálepkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nálepkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10294"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zahájnica"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "breza previsnutá (Betula pendula)"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Upovedomenie o začatí konania vo veci žiadosti Obce Nálepkovo o súhlas na výrub jednej brezy previsnutej (Betula pendula) na parcele C-KN 10294 v katastrálnom území Nálepkovo, lokalita Zahájnica. Drevina je zdôvodnená ako zasahujúca do komunikácie. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "10294",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      }
+    ]
+  }
+}

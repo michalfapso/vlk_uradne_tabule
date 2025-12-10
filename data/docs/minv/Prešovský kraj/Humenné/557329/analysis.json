@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "2023/020321",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-27",
+  "datum_zverejnenia": "2023-12-01",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Jasenov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3746"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bezmenný vodný tok (prítok Laborca)"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik (SVP) oznamuje plánovaný pomiestny výrub krovitého porastu na pobrežných pozemkoch Bezmenného vodného toku (prítoku Laborca) v katastrálnom území Jasenov, okres Humenné. Výrub je plánovaný v období vegetačného pokoja od 1.12.2023 do 28.02.2026 z dôvodu udržiavania vodného toku a odstraňovania prekážok odtoku vody. Lokalita sa nachádza v CHKO Východné Karpaty.",
+  "zasiahnute_chranene_uzemia": {}
+}

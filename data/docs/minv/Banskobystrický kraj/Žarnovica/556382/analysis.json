@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001854",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Žarnovica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žarnovica",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1301"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovitého porastu",
+    "vyčistenie pozemku od náletových drevín",
+    "výsadba ovocných drevín"
+  ],
+  "typ_uzemia": [
+    "2. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hrab",
+    "dub",
+    "buk",
+    "hloch",
+    "agát"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žarnovica oznamuje začatie správneho konania na základe žiadosti fyzickej osoby o súhlas na výrub a odstránenie krovitého porastu (hrab, dub, buk, hloch, agát) na parcele č. 1301 v k. ú. Žarnovica. Pozemok sa nachádza mimo zastavaného územia obce a lesa, na území s 2. stupňom územnej ochrany. Združenia s právnou subjektivitou môžu oznámiť záujem o účasť do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

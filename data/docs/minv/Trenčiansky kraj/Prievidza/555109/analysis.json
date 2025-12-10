@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Hornonitrianske bane Prievidza, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky",
+    "okres": "Prievidza",
+    "obec": "Novaky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Novaky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1630/60"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "areál bane Nováky"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického diela"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Topoľ čierny"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Hornonitrianske bane Prievidza, a.s. oznamuje zámer vyrúbať 7 ks topoľa čierneho v katastrálnom území Nováky, v areáli bane Nováky. Výrub v ochrannom pásme 22 kV energetického vedenia je nutný pre zabezpečenie jeho prevádzky a je vykonaný v zmysle zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

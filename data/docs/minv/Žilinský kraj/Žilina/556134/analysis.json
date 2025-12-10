@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2025/073699-006",
+  "cislo_rozhodnutia": "OU-ZA-OSZP3-2025/073699-0209476/2025",
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní"
+  },
+  "ziadatel_navrhovatel": "LIDL Slovenská republika, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Rajec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rajec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3009",
+              "1103/1",
+              "1328/1",
+              "3011"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "7119"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Predajňa potravín LIDL RAJEC"
+  },
+  "typ_dokumentu": "Rozhodnutie - Stavebné povolenie a povolenie na osobitné užívanie vôd",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "vypúšťanie odpadových vôd",
+    "úprava odpadových vôd",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo prírodných liečivých zdrojov",
+    "ochranné pásmo prírodných minerálnych zdrojov",
+    "II. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáky",
+    "živočíchy",
+    "nepôvodné rastliny",
+    "nitrofilné rastliny",
+    "ruderálne rastliny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú ochranné pásma prírodných liečivých zdrojov a prírodných minerálnych zdrojov v Rajeckých Tepliciach",
+      "zakon_cislo": "79/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "O verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Zb."
+    },
+    {
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa vykonáva zákon o cestnej premávke",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Žilina, odboru životného prostredia, o udelení stavebného povolenia a povolenia na osobitné užívanie vôd pre výstavbu vodovodnej a kanalizačnej infraštruktúry novej predajne LIDL v Rajci. Zahŕňa vypúšťanie prečistených dažďových vôd do podzemných vôd prostredníctvom vsakovacích objektov. Projekt sa nachádza v II. stupni ochranného pásma prírodných liečivých a minerálnych zdrojov Rajeckých Teplíc a zmienka je aj o potrebe ochrany vtákov počas hniezdenia a prevencii uviaznutia živočíchov vo výkopoch.",
+  "zasiahnute_chranene_uzemia": {}
+}

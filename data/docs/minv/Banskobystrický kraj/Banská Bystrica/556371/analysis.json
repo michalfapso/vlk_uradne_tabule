@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP2-2025/007766",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Ľubietová",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Ľubietová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ľubietová",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2857",
+              "2858",
+              "1358",
+              "1359",
+              "1474",
+              "1475",
+              "2607"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Maselný potok, Šajban dolina, Potok Vôdka, Železný potok"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "úprava vodného toku",
+    "akumulácia vody",
+    "záchyt splavenín"
+  ],
+  "typ_uzemia": [
+    "vodný útvar",
+    "pstruhové rybie pásmo"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "pstruh potočný",
+    "hlaváč pásoplutvý",
+    "čerebľa pestrá",
+    "ichtyofauna"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/budovanie-jednoduchych-objektov-protipovodnovej-ochrany-v-obecnych-les",
+  "zakony": [
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Banská Bystrica vydáva záväzné stanovisko k budovaniu objektov protipovodňovej ochrany v obecných lesoch Ľubietová, konkrétne prehrádzok a záchytov splavenín na viacerých potokoch. Stanovisko konštatuje, že nedôjde k významnému vplyvu na ekologický stav vodných útvarov Hutná, Vôdka a súvisiacich bezmenných potokov ani na podzemné vody, a preto sa nevyžaduje výnimka z environmentálnych cieľov. Dotknuté sú aj druhy rýb ako pstruh potočný.",
+  "zasiahnute_chranene_uzemia": {}
+}

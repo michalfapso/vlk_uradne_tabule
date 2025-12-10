@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-RV-OSZP-2025/013933-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "TONE s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Rožňava",
+    "obec": "Rožňava",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "neviem"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rožňava oznamuje začatie správneho konania vo veci vydania rozhodnutia podľa § 47 ods. 3 a 5 zákona o ochrane prírody a krajiny, ktoré sa týka žiadosti spoločnosti TONE s.r.o. v Rožňave. Verejnosť má možnosť potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Rožňava",
+        "NATIONALSI": "SKUEV0918",
+        "SITETITLE_": "Volovské bučiny"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Rožňava",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      }
+    ]
+  }
+}

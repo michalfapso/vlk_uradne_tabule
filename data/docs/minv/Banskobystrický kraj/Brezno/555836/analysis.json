@@ -1,0 +1,145 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2025/014220",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Obec Valaská (prostredníctvom zmien a doplnkov Územného plánu)",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Valaská",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "zmeny a doplnky územného plánu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje informáciu pre verejnosť o zmene strategického dokumentu, konkrétne o Zmenách a doplnkoch č. 4 Územného plánu sídelného útvaru Valaská. Verejnosť má možnosť predkladať svoje stanoviská k oznámeniu najneskôr do 15 dní od zverejnenia. Konzultácie sú možné na Okresnom úrade Brezno.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "383",
+        "site_name": "Zadná Poľana",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0319",
+        "SITETITLE_": "Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0154",
+        "SITETITLE_": "Suchá dolina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "383",
+        "SITETITLE_": "NPR Zadná Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "426",
+        "SITETITLE_": "PP Spády"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "OP NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1064",
+        "SITETITLE_": "PP Kamenistý potok"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1156",
+        "SITETITLE_": "CHA Suchá dolina"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "NPP Bystrianska jaskyňa"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      }
+    ]
+  }
+}

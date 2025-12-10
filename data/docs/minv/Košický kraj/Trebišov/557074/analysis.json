@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/011268-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "na ústnom pojednávaní, najneskôr však do 10 dní odo dňa doručenia oznámenia o začatí konania"
+  },
+  "ziadatel_navrhovatel": "mesto Trebišov",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Trebišov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trebišov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1429/1",
+              "4429",
+              "4430",
+              "1319/25",
+              "1319/54",
+              "1319/73",
+              "1319/1",
+              "1319/31",
+              "1319/47",
+              "1317",
+              "1316/2",
+              "1319/38",
+              "1429/13",
+              "1429/5",
+              "4445/1",
+              "4512/3",
+              "1316/3",
+              "4431/1",
+              "1272/6",
+              "1272/10",
+              "1272/9",
+              "4512/2",
+              "4512/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "rómska osada"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "úprava odtoku zrážkových vôd",
+    "výstavba retenčnej nádrže"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou oznamujúcou začatie konania o stavebnom zámere pre projekt \"Komplexné vybudovanie technickej infraštruktúry v meste Trebišov\". Žiadateľom je mesto Trebišov a projekt zahŕňa výstavbu verejného vodovodu, splaškovej kanalizácie a úpravu odvádzania zrážkových vôd s vybudovaním retenčnej nádrže v miestnej časti mesta Trebišov (rómska osada).",
+  "zasiahnute_chranene_uzemia": {}
+}

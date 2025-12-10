@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/022004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo v elektronickou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Michalovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Michalovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1292/13",
+              "1292/15",
+              "6367/8",
+              "1841/13",
+              "1841/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci žiadosti fyzickej osoby o súhlas na výrub 11 680 m2 krovín a náletových drevín, ktoré sú v zlom zdravotnom stave, na parcelách v katastrálnom území Michalovce. Záujem byť zúčastnenou osobou je potrebné potvrdiť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

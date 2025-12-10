@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-SA-OSZP-2025/010197-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie písomne na adrese Hlavná 2/1, 927 01 Šaľa alebo elektronicky na adresu martin.stanko@minv.sk",
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Šaľa",
+    "obec": "Tešedíkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tešedíkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1115/61"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1115/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Pred oplotením rodinného domu č. 607, v zastavanom území obce Tešedíkovo"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Šaľa oznamuje začatie správneho konania na základe žiadosti fyzickej osoby o vydanie súhlasu na výrub 2 ks smrekov v obci Tešedíkovo, k.ú. Tešedíkovo. Dreviny ohrozujú rodinný dom a oplotenie. Verejnosť sa môže prihlásiť do konania do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

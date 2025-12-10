@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-11-17 00:46:57",
+    "type": "warning",
+    "text": "Nejednoznačne zadané katastrálne územie 'Koprivnica' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne."
+  },
+  {
+    "date": "2025-11-17 00:46:57",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 555732 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=555732): Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba."
+  }
+]

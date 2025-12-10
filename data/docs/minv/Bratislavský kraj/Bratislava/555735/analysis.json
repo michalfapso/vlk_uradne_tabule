@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/549136-002/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Vajnory",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vajnory",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2145/32",
+              "2145/46",
+              "2139/4",
+              "2157/7"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "4142/16",
+              "4142/18"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správe",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje plánovaný výrub drevín v ochrannom pásme 22 kV elektrického vedenia v katastrálnom území Vajnory. Žiadateľom je Západoslovenská distribučná, a.s. Účasť verejnosti v tomto type konania nie je podľa zákona č. 543/2002 Z. z. povolená.",
+  "zasiahnute_chranene_uzemia": {}
+}

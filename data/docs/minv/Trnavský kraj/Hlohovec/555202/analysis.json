@@ -1,0 +1,125 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/001364-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné podať odvolanie, nevzťahujú sa všeobecné predpisy o správnom konaní.",
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Hlohovec",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trakovice",
+        "parcely": []
+      },
+      {
+        "nazov": "Žlkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Červeník",
+        "parcely": []
+      },
+      {
+        "nazov": "Madunice",
+        "parcely": []
+      },
+      {
+        "nazov": "Hlohovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Tepličky",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Trhovište",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Trhovište",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme plynovodov"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "všeobecné predpisy o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie Okresného úradu Hlohovec o plánovanom výrube drevín v ochranných pásmach plynovodov v katastrálnych územiach Trakovice, Žlkovce, Červeník, Madunice, Hlohovec, Tepličky, Horné Trhovište a Dolné Trhovište. Výrub realizuje spoločnosť LUMAREZ s.r.o. pre SPP – distribúcia, a.s. Podľa oznámenia nie je možné podať odvolanie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Madunice",
+        "NATIONALSI": "SKUEV0852",
+        "SITETITLE_": "Váh pri Hlohovci"
+      },
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "SKUEV0175",
+        "SITETITLE_": "Sedliská"
+      },
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "SKUEV0852",
+        "SITETITLE_": "Váh pri Hlohovci"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Červeník",
+        "NATIONALSI": "99",
+        "SITETITLE_": "CHA Malé Vážky"
+      },
+      {
+        "parcel_label": "Červeník",
+        "NATIONALSI": "899",
+        "SITETITLE_": "CHA Dedova jama"
+      },
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "149",
+        "SITETITLE_": "PR Sedliská"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2025/069499-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní"
+  },
+  "ziadatel_navrhovatel": "Ladislav Mihál-Beta-K",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Lietavská Lúčka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lietavská Lúčka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1172/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "odber podzemných vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žilina oznamuje začatie konania o dodatočnom povolení vodnej stavby \"Vŕtaná studňa\" a povolení na odber podzemných vôd pre Ladislava Mihála-Betu-K v katastrálnom území Lietavská Lúčka. Ústne pojednávanie je nariadené na 8. januára 2026, kde môžu účastníci uplatniť svoje námietky.",
+  "zasiahnute_chranene_uzemia": {}
+}

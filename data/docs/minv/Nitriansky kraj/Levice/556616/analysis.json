@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/025716",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik , š.p., Povodie Hrona, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Levice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Levice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "vodnom toku Podlužianka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Slovenského vodohospodárskeho podniku o výrube drevín na vodnom toku Podlužianka v katastrálnom území Levice. Konanie je vylúčené z pôsobnosti všeobecných predpisov o správnom konaní, čo naznačuje obmedzenú možnosť účasti verejnosti.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Levice",
+        "NATIONALSI": "89",
+        "SITETITLE_": "CHA Levické rybníky"
+      },
+      {
+        "parcel_label": "Levice",
+        "NATIONALSI": "950",
+        "SITETITLE_": "CHA Levický park"
+      }
+    ]
+  }
+}

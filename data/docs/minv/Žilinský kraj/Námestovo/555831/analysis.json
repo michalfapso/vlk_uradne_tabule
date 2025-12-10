@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/026637",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "V súlade s § 82 ods. 3 zákona do 5 pracovných dní od zverejnenia oznámenia na Okresnom úrade Námestove, odbore starostlivosti o životné prostredie, Miestneho priemyslu 571, 029 01 Námestovo alebo elektronicky na oszp.no@minv.sk"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Zákamenné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zákamenné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5768/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania na Okresnom úrade Námestovo. Predmetom je žiadosť o vydanie súhlasu na výrub drevín na parcele C-KN 5768/2 v katastrálnom území Zákamenné. Žiadosť bola doručená 12.11.2025 a verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "5768/2",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      }
+    ]
+  }
+}

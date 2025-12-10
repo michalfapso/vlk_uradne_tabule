@@ -1,0 +1,131 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VELE, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Handlová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Handlová",
+        "parcely": []
+      },
+      {
+        "nazov": "Nová Lehota",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "506/2013"
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť VELE, spol. s r.o. oznamuje Okresnému úradu Prievidza výrub porastov v ochrannom pásme 22 kV vedenia na VN linke č. 312 v katastrálnych územiach Handlová a Nová Lehota. Výrub je plánovaný na obdobie december 2025 - január 2026 a riadi sa zákonom o ochrane prírody a krajiny a zákonom o energetike.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Handlová",
+        "registry_n": "SKUEV0871",
+        "site_name": "Biely kameň",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Handlová",
+        "registry_n": "SKUEV0871",
+        "site_name": "Biely kameň",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "registry_n": "SKUEV0871",
+        "site_name": "Biely kameň",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "registry_n": "SKUEV0871",
+        "site_name": "Biely kameň",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "registry_n": "213",
+        "site_name": "Biely kameň",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "registry_n": "SKUEV0871",
+        "site_name": "Biely kameň",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "SKUEV0871",
+        "SITETITLE_": "Biely kameň"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "SKUEV4031",
+        "SITETITLE_": "Handlovské lúky"
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "NATIONALSI": "SKUEV0273",
+        "SITETITLE_": "Vtáčnik"
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "NATIONALSI": "SKUEV0871",
+        "SITETITLE_": "Biely kameň"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "213",
+        "SITETITLE_": "PR Biely kameň"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "1347",
+        "SITETITLE_": "PR Pralesy Slovenska-Veľký Grič"
+      },
+      {
+        "parcel_label": "Nová Lehota",
+        "NATIONALSI": "213",
+        "SITETITLE_": "PR Biely kameň"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2025-11-17 01:04:20",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': None, 'cisla': ['1752/6']}' v katastrálnom území 'Holíč' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 01:04:20",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trnavský kraj', 'okres': 'Skalica', 'obec': 'Holíč', 'katastralne_uzemia': [{'nazov': 'Holíč', 'parcely': [{'typ': None, 'cisla': ['1752/6']}]}], 'nazov_lokality': 'Lesná 6'}"
+  },
+  {
+    "date": "2025-11-17 01:04:20",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 555671 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=11&odbor=10&sekcia=uradna-tabula&subor=555671): 'NoneType' object has no attribute 'to_crs'"
+  }
+]

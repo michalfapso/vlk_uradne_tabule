@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/0222623",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": "2025-11-13",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Stráňany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stráňany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5405"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce informuje o začatí správneho konania na základe žiadosti fyzickej osoby o súhlas na výrub 4000 m2 krovín na parcele 5405 v katastrálnom území Stráňany. Dôvodom je vyčistenie pozemku od náletových drevín v zlom zdravotnom stave. Občianske združenia majú lehotu do 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu o účasť v konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

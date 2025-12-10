@@ -1,0 +1,442 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/014890-017",
+  "cislo_rozhodnutia": "OU-SC-OSZP/2025/014890-G-35-Bo",
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-10-01",
+  "lehoty_na_vyjadrenie": "svoje námietky a pripomienky môžu uplatniť najneskôr 8 dní od doručenia oznámenia, deň zvesenia je dňom doručenia",
+  "ziadatel_navrhovatel": "AGROMAČAJ a.s. Kráľová pri Senci 455, 900 50 Kráľová pri Senci IČO: 46 184 341",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senec",
+    "obec": "Kostolná pri Dunaji",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostolná pri Dunaji",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "442/27",
+              "442/31",
+              "442/62",
+              "442/64",
+              "442/135",
+              "442/115"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "442/10",
+              "442/11",
+              "442/15"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Dodatočné stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba dažďovej kanalizácie",
+    "výstavba energetického diela",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "vsakovanie vôd",
+    "prečisťovanie vôd (odlučovač ropných látok)"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja",
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "krovité porasty",
+    "stromová vegetácia"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "88",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "88a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "4",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "52",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "f",
+        "g"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o evidenčnej povinnosti a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "e",
+        "f"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "19",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "u"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "99",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "1",
+      "pismena": [
+        "f"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o bezpečnosti technických zariadení",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MPSVR SR",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MPSVR SR",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MPSVR SR",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "387/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "391/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MPSVR SR",
+      "zakon_cislo": "147/2013 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "69",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senec vydal dodatočné stavebné povolenie pre spoločnosť AGROMAČAJ a.s. na vodnú stavbu „Protipožiarna zemná nádrž“ s pridruženými objektmi (kanalizácia, nádrže, osvetlenie) v katastrálnom území Kostolná pri Dunaji. Projekt zahŕňa vypúšťanie prečistených dažďových vôd do podzemných vôd cez vsakovací systém. Územie sa nachádza v ochrannom pásme vodárenského zdroja a v prvom stupni ochrany prírody, pričom je potrebné dbať na ochranu drevín a krovitých porastov.",
+  "zasiahnute_chranene_uzemia": {}
+}

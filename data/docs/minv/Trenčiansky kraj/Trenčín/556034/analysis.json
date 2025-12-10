@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "FM Melčice, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Ivanovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ivanovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "168/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "novovybudovaná IBV Ivanovce"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub 1 ks dreviny neurčeného druhu v obci Ivanovce, k.ú. Ivanovce, na p.č. KN-E 168/1, mimo zastavaného územia obce. Dôvodom výrubu je vedenie VN kábla v novovybudovanej IBV Ivanovce. Verejnosť môže písomne potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

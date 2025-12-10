@@ -1,0 +1,127 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/021852-006",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2025/021852-0069030/2025",
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia o začatí konania"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Šahy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šahy",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2533/1",
+              "2520"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2537/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hontianska cesta"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "obnova vodovodu",
+    "výstavba vodovodu",
+    "rekonštrukcia vodovodu",
+    "výkopové práce"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektroenergetických zariadení",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo sietí elektronických komunikácií"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy živočíchov",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "230/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o technických požiadavkách na výrobky a o posudzovaní zhody",
+      "zakon_cislo": "436/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Levice vydal rozhodnutie o stavebnom zámere pre Západoslovenskú vodárenskú spoločnosť, a.s. na obnovu a výstavbu vodovodu v meste Šahy, lokalita Hontianska cesta. Práce sa dotknú katastrálneho územia Šahy a musia rešpektovať ochranné pásma inžinierskych sietí (elektro, plyn, telekomunikácie) a všeobecné podmienky ochrany prírody, najmä v súvislosti s chránenými druhmi živočíchov a drevinami.",
+  "zasiahnute_chranene_uzemia": {}
+}

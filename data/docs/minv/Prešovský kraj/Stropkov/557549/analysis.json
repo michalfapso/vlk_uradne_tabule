@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "OU-SP-OSZP-2025/005155",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Mesto Stropkov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Stropkov",
+    "obec": "Stropkov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stropkov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1260/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Stropkov upovedomuje o začatom správnom konaní na žiadosť Mesta Stropkov o súhlas na výrub drevín na pozemku parc. č. KNC 1260/1 v katastrálnom území Stropkov. V konaní môžu byť dotknuté záujmy ochrany prírody a krajiny, pričom lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-PT-OCP-2023/000787",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-25",
+  "datum_zverejnenia": "2023-11-25",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Banskobystrická regionálna správa ciest, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
+    "obec": "Breznička, Kalinovo, Veľká Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Breznička",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1649",
+              "1648",
+              "1658",
+              "1656",
+              "1655",
+              "1653",
+              "1651",
+              "1081",
+              "2309",
+              "2305"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kalinovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2383/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká Ves",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "875/3",
+              "875/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "cestná zeleň cesty II/595"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "cestná zeleň",
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o pozemných komunikáciách a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva zákon o cestných komunikáciách",
+      "zakon_cislo": "35/1984"
+    }
+  ],
+  "zhrnutie": "Banskobystrická regionálna správa ciest oznamuje Okresnému úradu Poltár povinný výrub drevín rastúcich mimo lesa (slivka, hruška, čerešňa, jabloň) v katastrálnych územiach Breznička, Kalinovo a Veľká Ves. Dôvodom výrubu je ohrozenie bezpečnosti a plynulosti cestnej premávky na ceste II/595. Ide o výrub v cestnej zeleni na základe osobitných predpisov.",
+  "zasiahnute_chranene_uzemia": {}
+}

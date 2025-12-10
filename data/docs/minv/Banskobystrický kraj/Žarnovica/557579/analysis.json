@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001919",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP-distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Orovnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Orovnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "674/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o vykonaní výrubu",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Javor jaseňolistý"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o vykonaní výrubu jedného Javora jaseňolistého v katastrálnom území Orovnica, okres Žarnovica. Výrub je realizovaný spoločnosťou LUMAREZ s.r.o. pre SPP-distribučná, a.s. v ochrannom pásme plynovodu a nevyžaduje súhlas orgánu ochrany prírody podľa zákona o ochrane prírody a krajiny, § 47 ods. 7. Oznámenie bolo doručené 4.12.2025 a zverejnené 5.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

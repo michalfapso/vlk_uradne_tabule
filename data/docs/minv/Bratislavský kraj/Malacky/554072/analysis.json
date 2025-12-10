@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou",
+  "ziadatel_navrhovatel": "Obec Marianka",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Malacky",
+    "obec": "Marianka",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "strategický dokument",
+    "hospodársky a sociálny rozvoj obce"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/program-hospodarskeho-rozvoja-socialneho-rozvoja-obce-marianka-na-roky",
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky informuje verejnosť o sprístupnení strategického dokumentu „Program hospodárskeho rozvoja a sociálneho rozvoja obce Marianka na roky 2025 – 2034“, ktorý podlieha posudzovaniu vplyvov na životné prostredie. Verejnosť môže predkladať stanoviská najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou. Konzultácie sú možné na Okresnom úrade Malacky.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "Marianka",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

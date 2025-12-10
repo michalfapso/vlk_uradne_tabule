@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "0068148/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Východoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV elektrického vedenia",
+    "ochranné pásmo 110 kV elektrického vedenia",
+    "ochranné pásmo elektrických staníc"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    }
+  ],
+  "zhrnutie": "Východoslovenská distribučná, a.s. oznamuje Okresnému úradu Michalovce výrub a okliesnenie drevín v rokoch 2026-2027 v ochranných pásmach 22 kV a 110 kV elektrických vedení a elektrických staníc v celom kompetenčnom území OÚ Michalovce za účelom zabezpečenia bezpečnosti a spoľahlivosti prevádzky elektrického vedenia a zariadení."
+}

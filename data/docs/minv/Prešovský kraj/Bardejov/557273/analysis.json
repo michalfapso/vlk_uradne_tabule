@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÁ AGENTÚRA ŽIVOTNÉHO PROSTREDIA",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "RÚSES okresu Bardejov"
+  },
+  "typ_dokumentu": "Správa o Regionálnom územnom systéme ekologickej stability (RÚSES)",
+  "typ_zasahu": [
+    "územie ohrozené svahovými deformáciami",
+    "rekreačný a športový areál",
+    "inundačné územie",
+    "záplavová čiara Q100",
+    "priemyselný areál",
+    "ťažobný areál",
+    "poľnohospodársky areál funkčný alebo s čiastočne zmenenou funkciou",
+    "poľnohospodársky areál nefunkčný",
+    "lyžiarsky vlek",
+    "sídelná plocha",
+    "záhradkárska osada",
+    "fotovoltaická elektráreň",
+    "transformovňa",
+    "elektrické vedenie VN a VVN",
+    "plynovod",
+    "cesty I. triedy",
+    "cesty II. a III. triedy",
+    "železnica",
+    "letisko",
+    "náletový kužeľ",
+    "malá vodná elektráreň",
+    "hať, prah, stupeň",
+    "upravený vodný tok, kanál",
+    "hydromeliorácie – závlahy",
+    "orná pôda – veľkobloková",
+    "pôda ohrozená vodnou eróziou",
+    "kontaminovaná pôda v kategórii B a C",
+    "zdroj hluku",
+    "ČOV",
+    "plocha so silnou defoliáciou",
+    "smreková monokultúra",
+    "environmentálna záťaž – typ A",
+    "environmentálna záťaž – typ B",
+    "environmentálna záťaž – typ C",
+    "skládka",
+    "hnojisko",
+    "kompostáreň, spaľovňa a bioplynová stanica",
+    "výskyt inváznych druhov rastlín",
+    "hydromeliorácie – odvodnené plochy",
+    "vojenské areály"
+  ],
+  "typ_uzemia": [
+    "chránené územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Dokument predstavuje spracovanie Regionálnych územných systémov ekologickej stability (RÚSES) pre okres Bardejov. Identifikuje a mapuje prírodné a antropogénne stresové faktory v okrese, vrátane rôznych typov zástavby, infraštruktúry, poľnohospodárskej a priemyselnej činnosti, znečistenia a vplyvov na vodné toky a lesy. Dokument bol objednaný Slovenskou agentúrou životného prostredia a zahŕňa aj GIS vrstvy ochrany prírody."
+}

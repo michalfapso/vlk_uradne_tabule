@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-BS-OSZP-2025/001761-0007553/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": "2025-11-17",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "JUDr. Dušan Lukačko",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Štiavnica",
+    "obec": "Banská Štiavnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "789"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Topoľ osikový"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Banská Štiavnica oznamuje začatie správneho konania o žiadosti JUDr. Dušana Lukačka na výrub 1 jedinca dreviny Topoľ osikový na parcele C-KN 789 v katastrálnom území Banky, Banská Štiavnica. Organizácie s právnou subjektivitou môžu potvrdiť záujem byť zúčastnenou osobou v lehote do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "789",
+        "NATIONALSI": "SKUEV0265",
+        "SITETITLE_": "Suť"
+      }
+    ]
+  }
+}

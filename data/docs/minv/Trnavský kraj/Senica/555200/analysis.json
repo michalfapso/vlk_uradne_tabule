@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/020552-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Marek Burcl",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senica",
+    "obec": "Sekule",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sekule",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5078/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica oznamuje začatie správneho konania vo veci žiadosti Mareka Burcla o vydanie súhlasu na výrub 3 drevín v k. ú. Sekule, parcela č. 5078/7, z dôvodu narušenia základov stavby. Záujem byť účastníkom konania je potrebné doručiť v lehote piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

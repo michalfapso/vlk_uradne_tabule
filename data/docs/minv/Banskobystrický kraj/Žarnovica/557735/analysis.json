@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001914",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Píla",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Píla",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Píla",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "typ_zasahu": [
+    "vypracovanie územného plánu",
+    "stanovenie regulatívov pre stavebné aktivity",
+    "využívanie prírodných zdrojov",
+    "funkčné využitie územia",
+    "nároky na trasy a zariadenia dopravy a technického vybavenia",
+    "záber poľnohospodárskej pôdy"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Ponitrie",
+    "Územie európskeho významu",
+    "SKUEV0273 Vtáčnik",
+    "NATURA 2000",
+    "2. stupeň ochrany",
+    "biocentrum nadregionálneho významu",
+    "regionálne biocentrum",
+    "regionálny biokoridor hydrický",
+    "regionálny biokoridor terestrický",
+    "Územný systém ekologickej stability (ÚSES)",
+    "biotop európskeho významu 6510",
+    "biotop európskeho významu 6430",
+    "biotop európskeho významu 9180*",
+    "biotop európskeho významu 9130",
+    "biotop európskeho významu 9110"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Dactylohriza majalis (vstvačovec májový)",
+    "Orchis morio (vstavač obyčajný)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "zakon_nazov": "o obsahu a spôsobe spracovania územnoplánovacej dokumentácie a o územnoplánovacích podkladoch a všeobecných požiadavkách na priestorové usporiadanie a funkčné využívanie územia",
+      "zakon_cislo": "392/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o štandardoch a metodike spracovania územnoplánovacej dokumentácie a územnoplánovacích podkladov",
+      "zakon_cislo": "153/2024 Z. z."
+    },
+    {
+      "zakon_nazov": "O ochrane prírody a krajiny",
+      "zakon_cislo": "543/2000 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o strategickom dokumente 'Územný plán obce Píla', ktorý definuje budúce využitie územia a regulatívy pre stavebné aktivity. Obec Píla sa nachádza v Chránenej krajinnej oblasti Ponitrie a zasahuje do územia európskeho významu SKUEV0273 Vtáčnik (Natura 2000) s 2. stupňom ochrany. V území sú evidované biotopy európskeho významu a chránené rastliny ako vstvačovec májový a vstavač obyčajný.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Píla",
+        "NATIONALSI": "SKUEV0273",
+        "SITETITLE_": "Vtáčnik"
+      }
+    ]
+  }
+}

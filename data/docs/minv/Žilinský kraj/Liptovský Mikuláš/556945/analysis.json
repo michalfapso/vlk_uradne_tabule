@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/006710-009",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2025/006710-0046615/2025",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Angéla Mikulalinec",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bodice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "179/1",
+              "179/4",
+              "179/5",
+              "179/6",
+              "179/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom vodoprávnom povolení",
+  "typ_zasahu": [
+    "prekládka vodovodu",
+    "zatrubnenie odvodňovacieho rigolu",
+    "úprava vodného toku",
+    "zemné práce"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška o dopravnom značení",
+      "zakon_cislo": "30/2020 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o cestnej premávke",
+      "zakon_cislo": "8/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím o stavebnom vodoprávnom povolení pre prekládku vodovodu a zatrubnenie odvodňovacieho rigolu v katastrálnom území Bodice, Liptovský Mikuláš. Umožňuje realizáciu zemných prác a úpravu vodného toku, pričom stanovuje podmienky pre nakladanie s odpadmi a v prípade potreby aj pre výrub drevín. Dokument nespomína žiadne konkrétne chránené územia alebo druhy, ktoré by boli priamo dotknuté.",
+  "zasiahnute_chranene_uzemia": {}
+}

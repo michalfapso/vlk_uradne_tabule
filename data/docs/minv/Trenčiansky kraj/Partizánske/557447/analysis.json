@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-PE-OSZP-2025/001400",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní spojenom s miestnym zisťovaním dňa 20.01.2026 o 10:00 hod."
+  },
+  "ziadatel_navrhovatel": "METROPOLITEJ PARTIZÁNSKE, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Partizánske",
+    "obec": "Partizánske",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Bielice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "208/4",
+              "213/2",
+              "227/1",
+              "215"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Pod hvezdárňou"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou oznamujúcou začatie vodoprávneho konania pre stavbu \"IBV Pod hvezdárňou, Splašková kanalizácia\" v katastrálnom území Veľké Bielice, obec Partizánske. Žiadateľom je METROPOLITEJ PARTIZÁNSKE, s.r.o. Ústne pojednávanie spojené s miestnym zisťovaním je naplánované na 20. januára 2026, kde je možné uplatniť námietky a stanoviská.",
+  "zasiahnute_chranene_uzemia": {}
+}

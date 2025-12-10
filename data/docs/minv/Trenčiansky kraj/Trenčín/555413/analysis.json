@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2025/050472",
+  "cislo_rozhodnutia": "OU-TN-OSZP2-2025/050472-002",
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3316/113"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Výpravná budova železničnej stanice Trenčín"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "rekonštrukcia a prestavba budovy",
+    "využívanie tepelného čerpadla (voda-voda)",
+    "odber podzemných vôd",
+    "spätné vsakovanie vôd",
+    "úprava podzemnej vody"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "16a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "60",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16",
+      "odsek": "6",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "21",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trenčín vydal záväzné stanovisko pre Železnice Slovenskej republiky k rekonštrukcii a prestavbe výpravnej budovy železničnej stanice Trenčín, ktorá zahŕňa využitie tepelného čerpadla. Súčasťou projektu je odber a vsakovanie podzemných vôd, ktoré budú pred vsakovaním čistené od tetrachlóreténu, aby sa zabezpečila ochrana kvality podzemných vôd, vrátane tých v blízkosti vodárenského zdroja Sihoť.",
+  "zasiahnute_chranene_uzemia": {}
+}

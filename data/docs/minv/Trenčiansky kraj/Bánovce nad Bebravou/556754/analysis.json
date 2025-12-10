@@ -1,0 +1,167 @@
+{
+  "cislo_konania_spisu": "OU-BN-OSZP-2025/014843 -002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Právnická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Bánovce nad Bebravou",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Závada pod Č. vrchom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "560",
+              "562"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Slatina nad Bebravou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "862"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čierna Lehota",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "961/1",
+              "965/1",
+              "965/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Šípkov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "770/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výstavba oplotenia",
+    "ochrana lesných porastov"
+  ],
+  "typ_uzemia": [
+    "lesný pozemok",
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "lesné porasty",
+    "zver"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bánovce nad Bebravou oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na oplotenie pozemkov pre ochranu mladých lesných porastov pred zverou. Dotknuté pozemky, klasifikované ako lesné, sa nachádzajú za hranicami zastavaného územia obcí Závada pod Č. vrchom, Slatina nad Bebravou, Čierna Lehota a Šípkov. Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "560",
+        "NATIONALSI": "SKUEV0275",
+        "SITETITLE_": "Kňaží stôl"
+      },
+      {
+        "parcel_label": "562",
+        "NATIONALSI": "SKUEV0275",
+        "SITETITLE_": "Kňaží stôl"
+      },
+      {
+        "parcel_label": "965/3",
+        "NATIONALSI": "SKUEV0275",
+        "SITETITLE_": "Kňaží stôl"
+      },
+      {
+        "parcel_label": "961/1",
+        "NATIONALSI": "SKUEV0275",
+        "SITETITLE_": "Kňaží stôl"
+      },
+      {
+        "parcel_label": "965/1",
+        "NATIONALSI": "SKUEV0275",
+        "SITETITLE_": "Kňaží stôl"
+      },
+      {
+        "parcel_label": "770/1",
+        "NATIONALSI": "SKUEV0274",
+        "SITETITLE_": "Baské"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "560",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "562",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "862",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "965/3",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "961/1",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "965/1",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "770/1",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

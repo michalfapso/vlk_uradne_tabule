@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "MSM LAND SYSTEMS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zlatovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1914",
+              "1920/9",
+              "1921"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba parkoviska"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument upovedomuje o začatí správneho konania na vydanie súhlasu na výrub 9 ks drevín (topoľ, čerešňa, breza, smrek) v katastrálnom území Zlatovce, mesto Trenčín. Dôvodom výrubu je výstavba nového parkoviska a ohrozenie rodinných domov. Verejnosť môže potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

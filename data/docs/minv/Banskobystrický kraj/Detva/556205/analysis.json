@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001453",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-18",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 24.11.2025"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Látky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Látky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1098"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín na parcele KN-C č. 1098 v katastrálnom území Látky, v okrese Detva. Záujemci sa môžu prihlásiť ako účastníci konania do 24.11.2025. Konanie prebieha podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

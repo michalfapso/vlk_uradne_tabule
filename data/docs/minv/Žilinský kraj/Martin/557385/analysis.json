@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023564",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Podhradie nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podhradie nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1428"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ľavý breh Podhradského potoka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje výrub drevín, ktorý plánuje Slovenský vodohospodársky podnik, š. p. na parcele C 1428 v katastrálnom území Podhradie nad Váhom, v lokalite ľavého brehu Podhradského potoka. Ide o vydanie stanoviska podľa § 47 ods. 8 zákona o ochrane prírody a krajiny. Do tohto konania sa nemožno prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

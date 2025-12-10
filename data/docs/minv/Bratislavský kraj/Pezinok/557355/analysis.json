@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/017734",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Častá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Častá",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1477"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok oznamuje začatie správneho konania vo veci vydania súhlasu na výrub 1 ks vŕby na pozemku v katastrálnom území Častá, okres Pezinok. Lehotu na doručenie potvrdenia záujmu byť účastníkom konania stanovil na 5 pracovných dní odo dňa zverejnenia oznamu.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "1477",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

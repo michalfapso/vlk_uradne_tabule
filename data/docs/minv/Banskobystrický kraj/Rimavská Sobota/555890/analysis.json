@@ -1,0 +1,110 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/022843",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-13",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "UNICARBACK, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Ožďany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ožďany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "3563/116"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3561"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3557/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3553"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3551"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3550"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3546"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3525/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3524"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3342"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo plynovodu"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je zverejnením informácie o začatí správneho konania k oznámeniu o výrube 29 kusov drevín v katastrálnom území Ožďany, okres Rimavská Sobota. Žiadateľom je UNICARBACK, s. r. o., pričom výrub je odôvodnený potrebou SPP-D odstrániť dreviny z ochranného pásma plynovodu z bezpečnostných dôvodov. Verejná účasť v tomto type konania je podľa zákona vylúčená.",
+  "zasiahnute_chranene_uzemia": {}
+}

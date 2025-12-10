@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2025-11-30 13:19:33",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['17113/4']}' v katastrálnom území 'Babín' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-30 13:19:33",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Babín', 'katastralne_uzemia': [{'nazov': 'Babín', 'parcely': [{'typ': 'C', 'cisla': ['17113/4']}]}], 'nazov_lokality': 'Skalnatý potok'}"
+  },
+  {
+    "date": "2025-11-30 13:19:36",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

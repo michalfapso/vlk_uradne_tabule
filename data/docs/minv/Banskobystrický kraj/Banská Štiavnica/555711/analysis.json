@@ -1,0 +1,184 @@
+{
+  "cislo_konania_spisu": "OU-BS-OSZP-2025/001730-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Štiavnica",
+    "obec": "Banská Štiavnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Štiavnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6729/2",
+              "6801",
+              "853/12",
+              "887/3",
+              "6393",
+              "6402/1",
+              "6402/2",
+              "6403/1",
+              "6404",
+              "6405/1",
+              "6410/22",
+              "6530/5",
+              "6708/1",
+              "6714/1",
+              "6716",
+              "6727/1",
+              "6729/1",
+              "6745/3",
+              "6750",
+              "6751/5",
+              "6751/7",
+              "6763",
+              "6767",
+              "6780/4",
+              "880",
+              "6789",
+              "6531/6",
+              "6642/1",
+              "6708/2",
+              "6745/2",
+              "6530/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Počúvadlo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "437/8",
+              "442",
+              "452/1",
+              "449/1",
+              "450",
+              "854",
+              "855"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Štiavnické Bane",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3032",
+              "3040",
+              "3044",
+              "1439/1",
+              "2381/2",
+              "3043",
+              "1751/1",
+              "1986/1",
+              "2378",
+              "3031/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vysoká",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "426",
+              "437",
+              "578/4",
+              "597/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dekýš",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "807",
+              "809/15",
+              "809/17",
+              "934",
+              "1310",
+              "1313",
+              "1314/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo/pod elektrickým vedením VN č. 365_k10"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie a okliesnenie stromov a iných porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Banská Štiavnica zverejnil informáciu o začatí konania týkajúceho sa výrubu a okliesnenia stromov a porastov. Žiadosť podala Stredoslovenská distribučná, a.s., za účelom zabezpečenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení v ochrannom pásme elektrického vedenia VN č. 365_k10. Činnosť sa má uskutočniť v novembri - decembri 2025 v katastrálnych územiach Banská Štiavnica, Počúvadlo, Štiavnické Bane, Vysoká a Dekýš.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "6801",
+        "NATIONALSI": "SKUEV0216",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "452/1",
+        "NATIONALSI": "SKUEV0216",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "450",
+        "NATIONALSI": "SKUEV0216",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "449/1",
+        "NATIONALSI": "SKUEV0216",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "437",
+        "NATIONALSI": "SKUEV0263",
+        "SITETITLE_": "Hodrušská hornatina"
+      },
+      {
+        "parcel_label": "426",
+        "NATIONALSI": "SKUEV0263",
+        "SITETITLE_": "Hodrušská hornatina"
+      }
+    ]
+  }
+}

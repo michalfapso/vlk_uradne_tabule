@@ -1,0 +1,264 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/014923",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": "2025-11-17",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik, Povodie dolného Váhu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "viaceré obce v okrese Topoľčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bzince",
+        "parcely": []
+      },
+      {
+        "nazov": "Ardanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Radošina",
+        "parcely": []
+      },
+      {
+        "nazov": "Behynce",
+        "parcely": []
+      },
+      {
+        "nazov": "Krtovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Nitrianska Blatnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Lužany",
+        "parcely": []
+      },
+      {
+        "nazov": "Obsolovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Malé Ripňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Hajná Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Obdokovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Ripňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Biskupová",
+        "parcely": []
+      },
+      {
+        "nazov": "Čermany",
+        "parcely": []
+      },
+      {
+        "nazov": "Oponice",
+        "parcely": []
+      },
+      {
+        "nazov": "Súlovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Kovarce",
+        "parcely": []
+      },
+      {
+        "nazov": "Vozokany",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Štitáre",
+        "parcely": []
+      },
+      {
+        "nazov": "Čeľadince",
+        "parcely": []
+      },
+      {
+        "nazov": "Ludanice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dvorany nad Nitrou",
+        "parcely": []
+      },
+      {
+        "nazov": "Mýtna Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Kamanová",
+        "parcely": []
+      },
+      {
+        "nazov": "Belince",
+        "parcely": []
+      },
+      {
+        "nazov": "Preseľany",
+        "parcely": []
+      },
+      {
+        "nazov": "Hrušovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Koniarovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "tokoch a vodných nádržiach: Bzinka, Dvorec, Ardanovský, Stará Radošinka, Blatnica, Hlavinka, Lipovnícky, Blesovský, Perkovský, Radošinka, Hlavina, Cérový, Oponický, Dubnica, Cintorínsky, Slivkový, Vozokanský, VN Bodok, VN Horné Obdokovce, VN V. Ripňany, VN Krtovce, VN Urmince I., VN Urmince II., VN Horné Štitáre, Nitra"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstraňovanie inváznych drevín",
+    "odstraňovanie popadaných/poškodených stromov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "bobor",
+    "javorovce"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Topoľčany zverejňuje oznámenie od Slovenského vodohospodárskeho podniku o výrube stromov a vysekávaní krovia na tokoch a vodných nádržiach v okrese Topoľčany. Ide o odstraňovanie inváznych drevín a poškodených stromov, vrátane tých poškodených bobrom, v rôznych katastrálnych územiach. Práce budú realizované v mimovegetačnom období do konca februára 2026.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Čermany",
+        "registry_n": "25",
+        "site_name": "Čermiansky močiar",
+        "category_i": 4.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Radošina",
+        "NATIONALSI": "SKUEV4006",
+        "SITETITLE_": "Inovecké dubiny"
+      },
+      {
+        "parcel_label": "Súlovce",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      },
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Radošina",
+        "NATIONALSI": "900",
+        "SITETITLE_": "PP Visiace skaly"
+      },
+      {
+        "parcel_label": "Radošina",
+        "NATIONALSI": "1154",
+        "SITETITLE_": "PP Čertova pec"
+      },
+      {
+        "parcel_label": "Nitrianska Blatnica",
+        "NATIONALSI": "900",
+        "SITETITLE_": "PP Visiace skaly"
+      },
+      {
+        "parcel_label": "Čermany",
+        "NATIONALSI": "25",
+        "SITETITLE_": "PP Čermiansky močiar"
+      },
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "808",
+        "SITETITLE_": "PR Kovarská hôrka"
+      },
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "51",
+        "SITETITLE_": "NPR Hrdovická"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Oponice",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Súlovce",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Čeľadince",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Dvorany nad Nitrou",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Kamanová",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Preseľany",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Hrušovany",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      },
+      {
+        "parcel_label": "Koniarovce",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      }
+    ]
+  }
+}

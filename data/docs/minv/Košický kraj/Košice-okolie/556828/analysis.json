@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/022354-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 14. 01. 2026"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Vyšný Klátov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vyšný Klátov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "360",
+              "362",
+              "361",
+              "216",
+              "367/1",
+              "363",
+              "364",
+              "365/1",
+              "366",
+              "185"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "96",
+              "98"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rekonštrukcia vodovodu",
+    "výstavba vodovodných prípojok"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznamuje začatie vodoprávneho konania na žiadosť Východoslovenskej vodárenskej spoločnosti, a.s., pre rekonštrukciu verejného vodovodu a výstavbu vodovodných prípojok v obci Vyšný Klátov, Košický kraj. Navrhovaná činnosť spočíva v obnove rozvodných potrubí a bude prebiehať na parcelách v k. ú. Vyšný Klátov. Ústne pojednávanie je stanovené na 14. 01. 2026.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "216",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "365/1",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "364",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "362",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      }
+    ]
+  }
+}

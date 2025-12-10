@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2024/001482",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ŽSR, OR Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Podkriváň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podkriváň",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1303/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "úseku žel. Trate TÚ/DÚ 2902/12 žst. Lovinobaňa – žst. Kriváň"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Ide o zverejnenie informácie o začatí správneho konania pre vydanie súhlasu na výrub drevín. Žiadateľom sú ŽSR a aktivita sa týka železničnej trate v katastrálnom území Podkriváň, okres Detva, Banskobystrický kraj. Konanie sa vedie podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

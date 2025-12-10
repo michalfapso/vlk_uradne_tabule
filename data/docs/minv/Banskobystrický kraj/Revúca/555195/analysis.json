@@ -1,0 +1,281 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/001150",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Košice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": [
+      "Revúca",
+      "Hucín",
+      "Lubeník",
+      "Mokrá Lúka",
+      "Muránska Dlhá Lúka",
+      "Muráň"
+    ],
+    "katastralne_uzemia": [
+      {
+        "nazov": "Revúca",
+        "parcely": []
+      },
+      {
+        "nazov": "Hucín",
+        "parcely": []
+      },
+      {
+        "nazov": "Lubeník",
+        "parcely": []
+      },
+      {
+        "nazov": "Mokrá Lúka",
+        "parcely": []
+      },
+      {
+        "nazov": "Muránska Dlhá Lúka",
+        "parcely": []
+      },
+      {
+        "nazov": "Muráň",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznamuje sa plánovaný výrub 2 ks drevín a krovitých porastov zo strany Železnice Slovenskej republiky v katastrálnych územiach Revúca, Hucín, Lubeník, Mokrá Lúka, Muránska Dlhá Lúka a Muráň. Dôvodom je zaistenie bezpečnosti a plynulosti železničnej dopravy. V dokumente nie sú uvedené informácie o chránených územiach ani o špecifických dotknutých druhoch.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Muráň",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "SKUEV0730",
+        "SITETITLE_": "Hodošov les"
+      },
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "SKUEV0018",
+        "SITETITLE_": "Lúka pod cintorínom"
+      },
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "SKUEV0002",
+        "SITETITLE_": "Lúky pod Ukorovou"
+      },
+      {
+        "parcel_label": "Hucín",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Lubeník",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Mokrá Lúka",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Mokrá Lúka",
+        "NATIONALSI": "SKUEV0202",
+        "SITETITLE_": "Trešková"
+      },
+      {
+        "parcel_label": "Mokrá Lúka",
+        "NATIONALSI": "SKUEV0203",
+        "SITETITLE_": "Stolica"
+      },
+      {
+        "parcel_label": "Muránska Dlhá Lúka",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Muráň",
+        "NATIONALSI": "SKUEV4072",
+        "SITETITLE_": "Lúky pod Čierťažou"
+      },
+      {
+        "parcel_label": "Muráň",
+        "NATIONALSI": "SKUEV0285",
+        "SITETITLE_": "Alúvium Muráňa"
+      },
+      {
+        "parcel_label": "Muráň",
+        "NATIONALSI": "SKUEV0225",
+        "SITETITLE_": "Muránska planina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "1044",
+        "SITETITLE_": "PR Hodošov les"
+      },
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "1201",
+        "SITETITLE_": "CHA Lúka pod cintorínom"
+      },
+      {
+        "parcel_label": "Revúca",
+        "NATIONALSI": "1200",
+        "SITETITLE_": "CHA Lúky pod Ukorovou"
+      },
+      {
+        "parcel_label": "Mokrá Lúka",
+        "NATIONALSI": "1377",
+        "SITETITLE_": "CHA Stolica"
+      },
+      {
+        "parcel_label": "Muráň",
+        "NATIONALSI": "1374",
+        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Mokrá Lúka",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      },
+      {
+        "parcel_label": "Muráň",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      }
+    ],
+    "UNESCO": [
+      {
+        "parcel_label": "Hucín",
+        "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+        "Kod_chrane": "UN01"
+      }
+    ]
+  }
+}

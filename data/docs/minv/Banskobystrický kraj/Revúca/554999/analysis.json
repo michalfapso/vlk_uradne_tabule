@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2025/001140",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "A3, občianske združenie",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Revúcka Lehota",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "535/3",
+              "535/4",
+              "536/6",
+              "536/7",
+              "536/8",
+              "536/9",
+              "536/10",
+              "537/3",
+              "538/4",
+              "538/8",
+              "538/5",
+              "538/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub 43 kusov drevín. Žiadateľom je občianske združenie A3 a výrub sa má realizovať v katastrálnom území Revúcka Lehota na uvedených parcelách KN-E. Konanie prebieha v zmysle zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

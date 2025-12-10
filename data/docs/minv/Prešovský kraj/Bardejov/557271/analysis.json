@@ -1,0 +1,148 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÁ AGENTÚRA ŽIVOTNÉHO PROSTREDIA",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "okres Bardejov"
+  },
+  "typ_dokumentu": "Strategický dokument - RÚSES návrh",
+  "typ_zasahu": [
+    "zvýšenie podielu nelesnej drevinovej vegetácie",
+    "monitorovanie environmentálnych záťaží",
+    "sanácia environmentálnych záťaží",
+    "sanácia nezabezpečených hnojísk",
+    "revitalizácia okolia hnojísk",
+    "stabilizácia zosuvných území",
+    "monitoring zosuvných území",
+    "výsadba izolačnej hygienickej vegetácie",
+    "zosúladenie rekreačných aktivít s ochranou prírody",
+    "monitoring kvality povrchových vôd",
+    "eliminácia vypúšťania odpadových vôd",
+    "zlepšenie kvality povrchových vôd",
+    "vylúčenie používania chemických prípravkov",
+    "vylúčenie používania minerálnych hnojív",
+    "vylúčenie používania hnojovice",
+    "zamedzovanie vytváraniu nepriepustných plôch",
+    "prevod lesov hospodárskych na lesy s ochrannou funkciou",
+    "realizácia agrotechnických protieróznych opatrení",
+    "zatrávňovanie"
+  ],
+  "typ_uzemia": [
+    "biocentrum nadregionálneho významu",
+    "biocentrum regionálneho významu",
+    "biokoridor nadregionálneho významu – hydrický",
+    "biokoridor nadregionálneho významu – terestrický",
+    "biokoridor regionálneho významu – terestrický",
+    "ekologicky významný segment krajiny",
+    "biokoridor regionálneho významu – hydrický",
+    "genofondová lokalita"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Dokument predstavuje návrh Regionálneho územného systému ekologickej stability (RÚSES) pre okres Bardejov, ktorý bol spracovaný v roku 2019 pre potreby budovania zelenej infraštruktúry. Zahŕňa návrhy ekostabilizačných, hydroekologických, protieróznych a protipovodňových opatrení, ako aj manažmentové opatrenia pre biocentrá a biokoridory regionálneho a nadregionálneho významu. Cieľom je zlepšenie kvality životného prostredia v okrese Bardejov, vrátane monitoringu vôd, sanácie záťaží a regulácie hospodárskych činností.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NAZOV_UEV": "Stebnícka Magura",
+        "KOD_UEV": "SKUEV0754"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0936",
+        "SITETITLE_": "Horný tok Tople"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0754",
+        "SITETITLE_": "Stebnícka Magura"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0936",
+        "SITETITLE_": "Horný tok Tople"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0754",
+        "SITETITLE_": "Stebnícka Magura"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "676",
+        "SITETITLE_": "PR Slatina pod Lieskovcom"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "1338",
+        "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "600",
+        "SITETITLE_": "NPR Stebnícka Magura"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "1338",
+        "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
+      },
+      {
+        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "600",
+        "SITETITLE_": "NPR Stebnícka Magura"
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2019",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ESPRIT, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Regionálny územný systém ekologickej stability okresu Bardejov"
+  },
+  "typ_dokumentu": "Strategický dokument",
+  "typ_zasahu": [
+    "strategické plánovanie",
+    "manažment krajiny",
+    "ochrana prírody",
+    "revitalizácia vodných tokov",
+    "budovanie zelenej infraštruktúry"
+  ],
+  "typ_uzemia": [
+    "NATURA 2000",
+    "Územie európskeho významu",
+    "Chránené vtáčie územie",
+    "Národná prírodná rezervácia",
+    "Prírodná rezervácia",
+    "Územie Svetového prírodného dedičstva UNESCO",
+    "ochranné pásmo vodárenského zdroja",
+    "ochranné lesy",
+    "lesy osobitného určenia",
+    "mokrade medzinárodného významu",
+    "5. stupeň ochrany",
+    "4. stupeň ochrany",
+    "3. stupeň ochrany",
+    "2. stupeň ochrany",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "tis obyčajný (Taxus baccata)",
+    "ostrica hrebienkatá (Carex strigosa)",
+    "vachta trojlistá (Menyanthes trifoliata)",
+    "rosička okrúhlolistá (Drosera rotundifolia)",
+    "diablik močiarny (Calla palustris)",
+    "perovník pštrosí (Mateuccia struthiopteris)",
+    "skopólia kranská (Scopolia carniolica)",
+    "buk lesný (Fagus sylvatica)",
+    "jedľa biela (Abies alba)",
+    "javor horský (Acer pseudoplatanus)",
+    "jaseň štíhly (Fraxinus excelsior)",
+    "lipa malolistá (Tilia cordata)",
+    "brest horský (Ulmus glabra)",
+    "dub zimný (Quercus petraea)",
+    "hrab obyčajný (Carpinus betulus)",
+    "vres obyčajný (Calluna vulgaris)",
+    "rašelinníky",
+    "vstavačovec májový (Dactylorhiza majalis)",
+    "tučnica obyčajná (Pinguicula vulgaris)",
+    "všivec močiarny (Pedicularis palustris)",
+    "mliečnik sladký (Tithymalus dulcis)",
+    "vlk dravý (Canis lupus)",
+    "rys ostrovid (Lynx lynx)",
+    "medveď hnedý (Ursus arctos)",
+    "vydra riečna (Lutra lutra)",
+    "sova dlhochvostá (Strix uralensis)",
+    "bocian čierny (Ciconia nigra)",
+    "bystruška medená (Carabus auronitens)",
+    "fuzáč alpský (Rosalia alpina)",
+    "rak riečny (Astacus astacus)",
+    "korýtko riečne (Unio crassus)",
+    "kunka žltobruchá (Bombina variegata)",
+    "mlok karpatský (Triturus montandoni)",
+    "mlok hrebenatý (Triturus cristatus)",
+    "roháč obyčajný (Lucanus cervus)",
+    "netopier obyčajný (Myotis myotis)",
+    "podkovár malý (Rhinolophus hipposideros)",
+    "orol skalný (Aquila chrysaetos)",
+    "orol krikľavý (Aquila pomarina)",
+    "včelár lesný (Pernis apivorus)",
+    "tetrov hôlniak (Tetrao tetrix)",
+    "ďateľ čierny (Dryocopus martius)",
+    "mrena karpatská (Barbus meridionalis)",
+    "bobor vodný (Castor fiber)",
+    "pĺž podunajský (Cobitis taenia)",
+    "hrúz Vladykov (Gobio albipinnatus)",
+    "hrúz Kesslerov (Gobio kessleri)",
+    "pĺž zlatistý (Sabanejewia aurata)",
+    "pimprlík mokraďový (Vertigo angustior)",
+    "kolok vretenovitý (Zingel streber)",
+    "syseľ pasienkový (Spermophilus citellus)",
+    "drop veľký (Otis tarda)",
+    "kobylka zelená (Tettigonia viridissima)",
+    "hlucháň hôrny (Tetrao urogallus)",
+    "blatniak tmavý (Pelobates fuscus)",
+    "piskor vrchovský (Neomys fodiens)",
+    "jašterica živorodá (Lacerta vivipara)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa mení a dopĺňa vyhláška MŽP SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "492/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument 'Regionálny územný systém ekologickej stability okresu Bardejov' z roku 2019, spracovaný firmou ESPRIT, s.r.o., predstavuje komplexnú analýzu územia Prešovského kraja, okresu Bardejov. Jeho cieľom je vytvoriť základnú východiskovú bázu pre reguláciu návrhu budovania zelenej infraštruktúry a manažment krajiny. Dokument identifikuje rozsiahle chránené územia vrátane lokalít Natura 2000, NPR, PR a UNESCO, s výskytom mnohých chránených a ohrozených druhov rastlín a živočíchov. Zároveň navrhuje rozsiahle ekostabilizačné a manažmentové opatrenia na ochranu a zvýšenie ekologickej stability."
+}

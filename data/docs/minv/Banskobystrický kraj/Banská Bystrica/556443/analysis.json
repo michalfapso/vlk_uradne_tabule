@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Greentech Slovakia s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "374/9",
+              "374/10",
+              "374/24",
+              "374/78"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Priemyselná zóna v areáli bývalej Stredoslovenskej cementárne"
+  },
+  "typ_dokumentu": "Žiadosť o udelenie povolenia stacionárneho zdroja",
+  "typ_zasahu": [
+    "recyklácia PET fliaš",
+    "drvenie odpadu",
+    "pranie PET vločiek",
+    "sušenie PET vločiek",
+    "výroba pary",
+    "znečisťovanie ovzdušia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ovzduší",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška",
+      "zakon_cislo": "248/2023"
+    },
+    {
+      "zakon_nazov": "zákon o poplatkoch za znečisťovanie ovzdušia",
+      "zakon_cislo": "190/2023"
+    }
+  ],
+  "zhrnutie": "Žiadosť spoločnosti Greentech Slovakia s. r. o. o povolenie stacionárneho zdroja znečisťovania ovzdušia pre prevádzku recyklácie PET fliaš v priemyselnej zóne v katastrálnom území Senica, Banská Bystrica. Súčasťou je horúce pranie PET vločiek a plynová kotolňa, ktorá emituje znečisťujúce látky ako NOx, CO, TZL, SO2, TOC. Dokument sa odvoláva na zákony o ovzduší a súvisiace vyhlášky.",
+  "zasiahnute_chranene_uzemia": {}
+}

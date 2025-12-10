@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001887",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-28",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Revištské Podzámčie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Revištské Podzámčie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "420"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ osikový",
+    "hrab obyčajný",
+    "čerešňa vtáčia",
+    "javor horský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žarnovica oznamuje začatie správneho konania na základe žiadosti fyzickej osoby o vydanie súhlasu na výrub 9 kusov drevín (topoľ osikový, hrab obyčajný, čerešňa vtáčia, javor horský) rastúcich mimo lesa na parcele C-KN č. 420 v katastrálnom území Revištské Podzámčie. Konanie sa týka záujmov chránených zákonom o ochrane prírody a krajiny. Združenia môžu potvrdiť záujem byť účastníkmi konania do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

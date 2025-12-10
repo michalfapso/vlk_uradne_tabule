@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/011471-017",
+  "cislo_rozhodnutia": "OU-SC-OSZP-2025/011471/VY-46/Ke",
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 3 dní od doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "SK4 Logimac s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Senec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5556/3",
+              "5556/4",
+              "5556/5",
+              "5557/1",
+              "5557/2",
+              "5557/4",
+              "5544/8",
+              "5562/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "GARBE PARK Senec"
+  },
+  "typ_dokumentu": "Upovedomenie o podkladoch rozhodnutia",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o podkladoch rozhodnutia vo veci žiadosti o stavebné povolenie pre stavbu „GARBE PARK Senec“ SO 04 Vodovod a SO 05 Kanalizácia v katastrálnom území Senec. Žiadateľom je SK4 Logimac s. r. o. Účastníci konania majú lehotu 3 dní na vyjadrenie sa k podkladom. Dokument nespomína žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

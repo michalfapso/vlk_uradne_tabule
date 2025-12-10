@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/016855-0059130/2025",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2025/016855-0059130/2025",
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Zemianske Podhradie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Zemianske Podhradie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zemianske Podhradie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3277/2"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "3348/43"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "vypúšťanie odpadových vôd",
+    "výstavba cesty",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Okresný úrad Nové Mesto nad Váhom povolil obci Zemianske Podhradie výstavbu dažďovej kanalizácie a vypúšťanie vôd z povrchového odtoku do vodného toku Bošáčka. Projekt je súčasťou vybudovania chodníka v obci Zemianske Podhradie a v prípade nevyhnutného výrubu drevín musí postupovať v zmysle zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

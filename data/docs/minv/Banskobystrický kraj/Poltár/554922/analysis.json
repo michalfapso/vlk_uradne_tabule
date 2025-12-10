@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "082597/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-20",
+  "datum_zverejnenia": "2025-10-29",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen, SMSÚ Traťový obvod Jesenské",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poltár",
+    "obec": "Kokava nad Rimavicou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kokava nad Rimavicou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9813/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením ŽSR o plánovanom výrube 2 ks drevín (gaštanov) na parcele č. 9813/1 v katastrálnom území Kokava nad Rimavicou, okres Poltár. Výrub je odôvodnený priamym ohrozením bezpečnosti a plynulosti železničnej dopravy, v zmysle zákona o dráhach a zákona o ochrane prírody a krajiny. Nie sú spomenuté žiadne chránené územia ani druhy živočíchov/rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

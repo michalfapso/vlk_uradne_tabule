@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/016216 ZJ30",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ivan Sádecký",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Orlové",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "608"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Považská Bystrica oznamuje začatie správneho konania na žiadosť Ivana Sádeckého o súhlas na výrub jedného duba rastúceho mimo les a za hranicami zastavaného územia v katastrálnom území Orlové, parcela E 608. Záujem o účasť v konaní je možné potvrdiť do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,128 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/001293-009",
+  "cislo_rozhodnutia": "OU-ZM-OSZP-2025/001293-0009381/2025",
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Obec Velčice",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Zlaté Moravce",
+    "obec": "Velčice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Velčice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "295/1",
+              "295/7",
+              "295/8",
+              "294/7",
+              "294/6",
+              "294/8",
+              "294/3",
+              "294/2",
+              "294/9",
+              "294/10",
+              "729/2",
+              "294/12"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "582/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Pri cintoríne"
+  },
+  "typ_dokumentu": "Rozhodnutie - stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "čerpanie podzemných vôd"
+  ],
+  "typ_uzemia": [
+    "územný systém ekologickej stability"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "chránený živočích",
+    "chránená rastlina",
+    "invázne druhy rastlín",
+    "zeleň drevinového zloženia"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o lesnom reprodukčnom materiáli",
+      "zakon_cislo": "138/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Zlaté Moravce povoľuje obci Velčice uskutočnenie vodnej stavby „Velčice, rozšírenie kanalizácie a vodovodu IBV Pri cintoríne“ pre novú obytnú zónu. Projekt sa má realizovať v katastrálnom území Velčice na viacerých parcelách. Dokument zdôrazňuje potrebu chrániť zeleň drevinového zloženia a územný systém ekologickej stability, ako aj povinnosť oznámiť nález chránených živočíchov alebo rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

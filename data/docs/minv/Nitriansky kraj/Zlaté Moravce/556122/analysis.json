@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/001055-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Skýcov",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Zlaté Moravce",
+    "obec": "Skýcov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Skýcov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5000"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1369/2",
+              "1369/3",
+              "1591",
+              "1586",
+              "1585/1",
+              "1585/2",
+              "1582",
+              "1715/1",
+              "1715/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV BRODOK"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania - verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje oznámenie o začatí konania k stavebnému zámeru obce Skýcov. Ide o rozšírenie verejnej kanalizácie v lokalite IBV BRODOK, ktorá zahŕňa výstavbu gravitačnej a tlakovej kanalizácie, čerpacej stanice a križovanie vodného toku Leveš. Verejnosť má 7 pracovných dní na vyjadrenie sa k podkladom rozhodnutia.",
+  "zasiahnute_chranene_uzemia": {}
+}

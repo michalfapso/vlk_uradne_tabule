@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/051151-ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Radvaň",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5013"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2-848",
+              "2-649",
+              "2-650/3",
+              "2-650/4",
+              "2-650/5",
+              "2-650/7",
+              "2-650/6",
+              "2-650/10",
+              "2-650/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Cyklotrasa BB-Vlkanová-Sliač"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba cesty"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "čremcha",
+    "breza",
+    "vŕba",
+    "jelša",
+    "čerešňa",
+    "javor",
+    "brest"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Žiadosť sa týka vydania súhlasu na výrub 19 stromov (čremcha, breza, vŕba, jelša, čerešňa, javor a brest) v katastrálnom území Radvaň, Banská Bystrica. Dôvodom výrubu je realizácia stavby „Cyklotrasa BB-Vlkanová-Sliač“ 1. etapa. Združenia s predmetom činnosti ochrana prírody a krajiny môžu oznámiť svoju účasť v konaní do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

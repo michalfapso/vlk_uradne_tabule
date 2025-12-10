@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-04",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "JUDr. Jozef Kánoš",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Pohorelá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pohorelá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2476/1",
+              "2476/2",
+              "2476/3",
+              "2476/4",
+              "2476/5",
+              "2476/6",
+              "2476/7",
+              "2476/8",
+              "2476/15",
+              "2479/1",
+              "2479/2",
+              "2479/3",
+              "2479/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "umiestnenie informačnej konštrukcie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí správneho konania k žiadosti JUDr. Jozefa Kánoša o udelenie súhlasu na umiestnenie informačnej konštrukcie za hranicami zastavaného územia obce Pohorelá na uvedených parcelách. Lehota na potvrdenie záujmu byť zúčastnenou osobou je do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "2476/1",
+        "registry_n": "348",
+        "site_name": "Mašianske skalky",
+        "category_i": 2.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "2476/1",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      }
+    ]
+  }
+}

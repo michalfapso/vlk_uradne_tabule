@@ -1,0 +1,162 @@
+{
+  "cislo_konania_spisu": "OU-CA-OSZP-2025/018532",
+  "cislo_rozhodnutia": "OU-CA-OSZP-2025/018532-015",
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "COOP Jednota Čadca, spotrebné družstvo, Palárikova 87, 022 01 Čadca, IČO: 00168947",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Čadca",
+    "obec": "Čadca",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čadca",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4215/6",
+              "4215/16",
+              "4215/17",
+              "4215/19",
+              "4215/21"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Sihly"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba bytových domov",
+    "výstavba obchodnej galérie",
+    "výstavba ciest",
+    "výstavba parkovísk",
+    "výrub drevín",
+    "trvalý záber poľnohospodárskej pôdy",
+    "sadové úpravy",
+    "pripojenie na verejný vodovod",
+    "pripojenie na verejnú kanalizáciu",
+    "výstavba verejného osvetlenia",
+    "výstavba vysokorýchlostnej infraštruktúry /internet-optika",
+    "výstavba elektrickej prípojky a areálové rozvody",
+    "príprava územia a hrubé terénne úpravy",
+    "odvodnenie dažďových vôd do vsakovacieho zariadenia"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "hydrický biokoridor NRBk II Kysuca",
+    "ochranné pásmo cesty II/487",
+    "ochranné pásmo technických zariadení a produktovodov VN 400 kV",
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "náletové dreviny",
+    "pohánkovec japonský",
+    "brehové porasty",
+    "bezstavovce",
+    "drobné zemné cicavce",
+    "synantropné druhy",
+    "rastlinstvo"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/-sihly-obytny-subor-s-obcianskou-vybavenostou-",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MZ SR",
+      "zakon_cislo": "57/2024 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Federálneho ministerstva dopravy",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva SR",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ovzduší",
+      "zakon_cislo": "137/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o znalcoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Aarhuský dohovor",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Smernica o vodách",
+      "zakon_cislo": "2000/60/ES"
+    },
+    {
+      "zakon_nazov": "Smernica Európskeho parlamentu a Rady o posudzovaní vplyvov určitých verejných a súkromných projektov na životné prostredie",
+      "zakon_cislo": "2011/92/EÚ"
+    },
+    {
+      "zakon_nazov": "Smernica o energetickej efektivite",
+      "zakon_cislo": "2010/31/EÚ"
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko zo zisťovacieho konania pre projekt \"Sihly – Obytný súbor s občianskou vybavenosťou\" v Čadci. Okresný úrad Čadca rozhodol, že činnosť nebude posudzovaná podľa zákona o EIA. Projekt zahŕňa výstavbu 8 bytových domov a 2 obchodných galérií, ciest a parkovísk. Realizácia si vyžiada trvalý záber poľnohospodárskej pôdy a výrub drevín, vrátane inváznych druhov. Územie spadá pod 1. stupeň ochrany prírody a nachádza sa v blízkosti hydrického biokoridoru Kysuca, pričom boli stanovené opatrenia na zmiernenie environmentálnych vplyvov, najmä týkajúcich sa zelene a hluku.",
+  "zasiahnute_chranene_uzemia": {}
+}

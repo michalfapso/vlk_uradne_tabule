@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Fimu s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sebedražie",
+        "parcely": []
+      },
+      {
+        "nazov": "Prievidza",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube/okliesnení drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín",
+    "odstraňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "a",
+        "b"
+      ],
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti Fimu s.r.o. o plánovanom odstránení a okliesnení stromov a iných porastov v katastrálnych územiach Sebedražie a Prievidza, okres Prievidza, v mesiacoch november a december 2025. Účelom zásahu je zabezpečenie bezpečnej a spoľahlivej prevádzky vysokonapäťového vedenia, pričom odkazuje na Zákon o ochrane prírody a krajiny a Zákon o energetike.",
+  "zasiahnute_chranene_uzemia": {}
+}

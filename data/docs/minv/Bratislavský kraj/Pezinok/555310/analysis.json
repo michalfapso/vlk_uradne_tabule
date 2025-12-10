@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/016414",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu",
+  "ziadatel_navrhovatel": "Obec Častá",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Pezinok",
+    "obec": "Častá",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "vrchy Geldek a Jelenec"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "organizovanie verejnosti prístupných spoločenských podujatí"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "k"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok oznamuje začatie správneho konania vo veci vydania súhlasu pre Obec Častá na organizovanie „Turistického silvestrovského výstupu na vrchy Geldek a Jelenec“ dňa 31.12.2025. Podujatie sa má konať v území CHKO Malé Karpaty s 2. stupňom územnej ochrany. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je 5 pracovných dní odo dňa zverejnenia oznamu.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Častá",
+        "registry_n": "41",
+        "site_name": "Hajdúchy",
+        "category_i": 1.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Častá",
+        "NATIONALSI": "SKUEV0267",
+        "SITETITLE_": "Biele hory"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Častá",
+        "NATIONALSI": "41",
+        "SITETITLE_": "NPR Hajdúchy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Častá",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

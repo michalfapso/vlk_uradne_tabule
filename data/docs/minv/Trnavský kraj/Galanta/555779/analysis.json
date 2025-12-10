@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2025/021163",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik, Povodie dolného Váhu, odštepný závod Piešťany",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Hoste",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hoste",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "141/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "prietočný profil vodného toku – BP Dolného Dudváhu (Hostiansky náhon) na prevádzkovom území Gidra - Parná"
+  },
+  "typ_dokumentu": "Upovedomenie o zverejnení oznámenia",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovitých porastov"
+  ],
+  "typ_uzemia": [
+    "CHKO Dunajské luhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topole biele",
+    "krovité porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Galanta oznamuje výrub 3 kusov topoľov bielych a krovitých porastov do 20 m2 v katastrálnom území Hoste, pozdĺž Hostianskeho náhonu. Činnosť vykoná Slovenský vodohospodársky podnik v období vegetačného pokoja od 15.10.2025, so súhlasom Štátnej ochrany prírody SR, Správy CHKO Dunajské luhy.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "141/1",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      }
+    ]
+  }
+}

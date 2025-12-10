@@ -1,0 +1,40 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Vlčany",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Cintorín Vlčany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube/orezaní drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezanie drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument informuje o zámere výrubu a orezania 34 stromov v lokalite Cintorín Vlčany. Obsahuje zoznam stromov s číslami a pravdepodobnými rozmermi konárov.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Vlčany",
+        "NATIONALSI": "188",
+        "SITETITLE_": "PP Vlčianske mŕtve rameno"
+      },
+      {
+        "parcel_label": "Vlčany",
+        "NATIONALSI": "5",
+        "SITETITLE_": "PP Bábske jazierko"
+      }
+    ]
+  }
+}

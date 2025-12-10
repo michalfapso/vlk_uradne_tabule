@@ -1,0 +1,136 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/021849-007",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2025/021849-0070998/2025",
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-11-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Šahy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šahy",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2569"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "1649/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kapitulská ulica"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rekonštrukcia vodovodu",
+    "obnova vodovodu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo podzemných vedení",
+    "ochranné pásmo verejnej kanalizácie",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo sietí elektronických komunikácií",
+    "ochranné pásmo elektrického vedenia",
+    "ochranné pásmo pozemných komunikácií"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "chránené druhy živočíchov"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "230/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o technických požiadavkách na výrobky a o posudzovaní zhody",
+      "zakon_cislo": "436/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Levice vydal rozhodnutie o stavebnom zámere pre Západoslovenskú vodárenskú spoločnosť, a.s. na obnovu a rekonštrukciu vodovodu v meste Šahy, na Kapitulskej ulici. Konanie sa týka parciel C 1649/1 a E 2569 v katastrálnom území Šahy a predpokladá dodržiavanie ochranných pásiem inžinierskych sietí a všeobecnej ochrany drevín a chránených druhov živočíchov. Proti rozhodnutiu je možné podať odvolanie do 15 dní od jeho doručenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,36 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "VRÁTNA VILLAGE - APARTMÁNOVÉ DOMY",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "VRÁTNA VILLAGE - Apartmánové domy"
+  },
+  "typ_dokumentu": "Inventarizácia drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Vŕba rakyta",
+    "Brest",
+    "Javor horský",
+    "Breza",
+    "Buk lesný",
+    "Jarabina vtáčia",
+    "Čerešňa vtáčia",
+    "Jabloň",
+    "Čerešňa obyčajná"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Dokument je inventarizáciou a spoločenským ohodnotením drevín rastúcich mimo lesa pre projekt \"VRÁTNA VILLAGE - Apartmánové domy\". Obsahuje zoznam a hodnotenie drevín ako Vŕba rakyta, Brest, Javor horský, Breza, Buk lesný, Jarabina vtáčia, Čerešňa vtáčia, Jabloň a Čerešňa obyčajná, pravdepodobne v súvislosti s ich možným výrubom pre výstavbu. Žiadne chránené územia ani konkrétne živočíchy nie sú spomenuté."
+}

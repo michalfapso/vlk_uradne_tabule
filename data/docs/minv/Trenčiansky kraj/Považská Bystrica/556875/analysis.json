@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "0054580/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA S.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "45",
+              "46",
+              "47",
+              "48"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pod el. vedením: 110 kV, vedenie č. 7702 TR: Považská Bystrica - Predmier"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín pod el. vedením",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín",
+    "odstraňovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia",
+    "110 kV"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Spoločnosť ENZA s.r.o. oznamuje nevyhnutný výrub a okliesňovanie náletových drevín v ochrannom pásme 110 kV elektrického vedenia č. 7702 v katastrálnom území Považská Bystrica. Činnosť je plánovaná od decembra 2025 do marca 2026 s cieľom zabezpečiť bezporuchovú prevádzku vedenia v súlade so zákonom o ochrane prírody a krajiny a zákonom o energetike."
+}

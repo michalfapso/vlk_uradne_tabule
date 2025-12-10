@@ -1,0 +1,138 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/009616-019",
+  "cislo_rozhodnutia": "OU-PN-OSZP-2025/009616-0037827/2025",
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolanie"
+  },
+  "ziadatel_navrhovatel": "MARINA Piešťany s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10227/4",
+              "10227/5",
+              "10227/297",
+              "10233/5",
+              "10233/14",
+              "10227/296",
+              "10172/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytný súbor MARINA Piešťany"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba garáže",
+    "výrub drevín",
+    "úprava terénu",
+    "vsakovanie vôd",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo II. stupeň prírodných liečivých zdrojov",
+    "ochranné pásmo letiska",
+    "1. stupeň ochrany prírody",
+    "územný systém ekologickej stability"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytny-subor-marina-piestany",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Ústava SR",
+      "zakon_cislo": "čl. 44"
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "245/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Piešťany vydal záväzné stanovisko zo zisťovacieho konania pre navrhovanú činnosť „Obytný súbor MARINA Piešťany“ (výstavba troch bytových domov s podzemnou garážou). Konanie určilo, že činnosť sa nebude posudzovať podľa zákona o EIA, ale boli stanovené podmienky a opatrenia. Lokalita sa nachádza v Trnavskom kraji, Piešťany, v katastrálnom území Piešťany, v 1. stupni ochrany prírody, v ochrannom pásme prírodných liečivých zdrojov II. stupňa a v ochranných pásmach letiska. Medzi podmienkami je aj potreba dopracovať geologický prieskum na chlórvané uhľovodíky.",
+  "zasiahnute_chranene_uzemia": {}
+}

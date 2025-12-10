@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/574642CIK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bratislava – Jarovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "242"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Jarovskom ramene Dunaja"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "státie plávajúceho zariadenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci žiadosti právnickej osoby o vydanie súhlasu na státie plávajúceho zariadenia na polohe č. 242 v Jarovskom ramene Dunaja v katastrálnom území Bratislava – Jarovce. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania."
+}

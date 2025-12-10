@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/545290CIK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, so sídlom Klemensova 8, 813 61 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "21229/1",
+              "21229/73"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pri železničnej trati na km 51 500 – 53 000"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "g",
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava zverejňuje oznámenie o plánovanom výrube 250 stromov a 26780 m2 krovitého porastu spoločnosťou Železnice Slovenskej republiky. Výrub sa má uskutočniť v katastrálnom území Staré Mesto v Bratislave, pri železničnej trati na parcelách C-KN č. 21229/1, 21229/73. Dokument explicitne uvádza, že na konanie sa nevzťahujú predpisy o správnom konaní a nie je možné sa prihlásiť do konania.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "21229/1",
+        "NATIONALSI": "SKUEV0388",
+        "SITETITLE_": "Vydrica"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "21229/1",
+        "NATIONALSI": "1356",
+        "SITETITLE_": "PR Vydrica"
+      }
+    ]
+  }
+}

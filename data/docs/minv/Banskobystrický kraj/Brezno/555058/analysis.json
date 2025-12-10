@@ -1,0 +1,125 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Obce Pohronská Polhora",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Pohronská Polhora",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí správneho konania na základe žiadosti obce Pohronská Polhora o vydanie zmeny súhlasu na výrub drevín. Záujemcovia sa môžu prihlásiť do konania do 5 pracovných dní od zverejnenia (31.10.2025).",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "P/45",
+        "site_name": "NP Muránska planina",
+        "category_i": 8.0
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "SKUEV0729",
+        "SITETITLE_": "Rosiarka"
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "SKUEV0225",
+        "SITETITLE_": "Muránska planina"
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "SKUEV0728",
+        "SITETITLE_": "Podpoľana"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "1020",
+        "SITETITLE_": "PR Rosiarka"
+      },
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "1374",
+        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Pohronská Polhora",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      }
+    ]
+  }
+}

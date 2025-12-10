@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-PD-OSZP-2025/000225",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Castor & Pollux, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Bojnice",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "BAŽANTNICA Bojnice"
+  },
+  "typ_dokumentu": "Rozhodnutie o prerušení konania – verejná vyhláška",
+  "typ_zasahu": [
+    "osobitné užívanie vôd",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd vsakovaním",
+    "uskutočnenie vodnej stavby",
+    "odvedenie dažďových vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Prievidza o prerušení vodoprávneho konania a predĺžení lehoty pre spoločnosť Castor & Pollux, s.r.o., na doplnenie podkladov k žiadosti o povolenie vodnej stavby BAŽANTNICA Bojnice SO-670 Odvedenie dažďových vôd – Vetva A v obci Bojnice. Žiadosť sa týka osobitného užívania vôd a vypúšťania povrchového odtoku do podzemných vôd vsakovaním. V dokumente nie sú uvedené žiadne informácie o dotknutých chránených územiach alebo druhoch.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Bojnice",
+        "NATIONALSI": "387",
+        "SITETITLE_": "OP NPP Prepoštská jaskyňa"
+      },
+      {
+        "parcel_label": "Bojnice",
+        "NATIONALSI": "0",
+        "SITETITLE_": "PP Bojnická hradná jaskyňa"
+      }
+    ]
+  }
+}

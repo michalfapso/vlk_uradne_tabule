@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "do 15 dní od zverejnenia oznámenia dotknutou obcou",
+  "ziadatel_navrhovatel": "Obec Ľubotín",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Stará Ľubovňa",
+    "obec": "Ľubotín",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "zmena územného plánu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-lubotin-zmeny-doplnky-c-01",
+  "paragrafy": [
+    {
+      "paragraf": "6",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje Informáciu pre verejnosť o oznámení strategického dokumentu „Územný plán obce Ľubotín – Zmeny a doplnky č. 01“, predloženého Obcou Ľubotín. Verejnosť má možnosť predkladať stanoviská k tomuto územnému plánu najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Ľubotín",
+        "NATIONALSI": "SKUEV0338",
+        "SITETITLE_": "Plavečské štrkoviská"
+      },
+      {
+        "parcel_label": "Ľubotín",
+        "NATIONALSI": "SKUEV0951",
+        "SITETITLE_": "Stredný tok Popradu"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Ľubotín",
+        "NATIONALSI": "638",
+        "SITETITLE_": "CHA Plavečské štrkoviská"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Ľubotín",
+        "NATIONALSI": "SKCHVU052",
+        "SITETITLE_": "Čergov"
+      }
+    ]
+  }
+}

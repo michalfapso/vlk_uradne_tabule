@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-LC-OSZP-2025/017124",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Lučenec",
+    "obec": "Tuhár",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tuhár",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2960/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný (Picea abies)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Lučenec zverejňuje informáciu o začatí správneho konania na udelenie súhlasu na výrub 13 smrekov obyčajných v katastrálnom území Tuhár na parcele č. C 2960/9. Konanie sa týka zásahu, ktorý by mohol dotknúť záujmy ochrany prírody a krajiny. Verejnosť má lehotu 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

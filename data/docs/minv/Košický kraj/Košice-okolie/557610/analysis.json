@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/024970-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou podľa odseku 3 v začatom správnom konaní písomnou alebo elektronickou formou."
+  },
+  "ziadatel_navrhovatel": "Obec Bidovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Bidovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bidovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1374/9",
+              "1375/2",
+              "1375/67"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania o vydanie súhlasu na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznamuje začatie správneho konania o žiadosti Obce Bidovce na výrub 13 topolov v k. ú. Bidovce. Dreviny sú vyschnuté a ohrozujú bezpečnosť, ako aj prístup na ČOV Bidovce. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou."
+}

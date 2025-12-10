@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "SVP 2490112025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovensky vodohospodarsky podnik, s. p. Povodie dolneho Vahu, odstepny zavod",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Zemianske Kostol'any",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zemianske Kostol'any",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "286/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie krovín"
+  ],
+  "typ_uzemia": [
+    "CHKO Ponitrie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška ktorou sa vykonáva zákon o ochrane prírody",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Prievidza plánovaný výrub jedného javora a jednej jelše v katastrálnom území Zemianske Kostol'any na parcele EKN 286/3. Dôvodom výrubu je bezpečnosť a ochrana majetku. Práce sú plánované mimo vegetačného obdobia v rokoch 2025-2026, so žiadosťou o miestnu obhliadku za účasti CHKO Ponitrie.",
+  "zasiahnute_chranene_uzemia": {}
+}

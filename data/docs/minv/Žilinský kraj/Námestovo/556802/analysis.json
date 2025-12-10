@@ -1,0 +1,191 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/012274-006",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Bobrov",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Bobrov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bobrov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1190/1",
+              "1190/24",
+              "1190/25",
+              "1190/102",
+              "1190/103",
+              "1552/28",
+              "1552/80"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1503/1",
+              "4494/2",
+              "4498",
+              "4499",
+              "4500",
+              "4501/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zábobrovec II"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného konania verejnou vyhláškou",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Námestovo oznamuje začatie stavebného konania pre Obec Bobrov, týkajúce sa rozšírenia kanalizácie a vodovodu v lokalite Zábobrovec II v obci Bobrov. Účastníci konania môžu podať námietky a pripomienky do 7 pracovných dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1190/24",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1190/1",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1552/28",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1190/102",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1190/103",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1190/25",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "1503/1",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "4494/2",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "4500",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      },
+      {
+        "parcel_label": "4501/1",
+        "NATIONALSI": "SKUEV0304",
+        "SITETITLE_": "Oravská vodná nádrž"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "1190/24",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1190/1",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1552/28",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1190/102",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1190/103",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1190/25",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "1503/1",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "4494/2",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "4500",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "4501/1",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      }
+    ]
+  }
+}

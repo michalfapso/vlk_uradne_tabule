@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/001204-011",
+  "cislo_rozhodnutia": "OU-ZM-OSZP-2025/001204-0009962/2025",
+  "datum_dokumentu": "2025-12-01",
+  "datum_zverejnenia": "2025-12-02",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Obec Velčice",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Zlaté Moravce",
+    "obec": "Velčice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Velčice",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "586/100",
+              "799",
+              "797",
+              "796",
+              "795",
+              "794",
+              "793",
+              "791/4",
+              "791/3",
+              "791/1",
+              "789",
+              "787",
+              "786",
+              "784",
+              "783",
+              "782",
+              "780",
+              "778",
+              "586/101",
+              "842/1",
+              "841/100",
+              "840/100",
+              "839/5",
+              "839/1",
+              "838/2",
+              "843/100",
+              "845/101",
+              "845/102",
+              "844/101",
+              "848/101"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Veľká stráň - Záhumenice"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "rozšírenie kanalizácie",
+    "rozšírenie vodovodu"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je kolaudačné rozhodnutie pre vodné stavby „SO 01 Kanalizácia“ a „SO 02 Vodovod“, ktoré boli vybudované v rámci stavby „Velčice rozšírenie kanalizácie a vodovodu, IBV Veľká stráň - Záhumenice“. Realizácia sa uskutočnila v katastrálnom území Velčice, okres Zlaté Moravce. Dokument neuvádza dotknuté chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010150",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzickej osoby",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Dolná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7308/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie konania o výrub drevín (11 smrekov) na parcele E-KN č. 7308/1 v katastrálnom území Dolná Lehota, Okres Dolný Kubín. Dôvodom výrubu je zlý zdravotný stav drevín a napadnutie podkôrnikom. Záujemcovia môžu potvrdiť svoju účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

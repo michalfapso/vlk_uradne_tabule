@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Modra nad Cirochou, Udavské",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modra n/Cirochou",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "736/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Udavske",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "913/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesňovaní drevín v katastrálnych územiach Modra nad Cirochou a Udavské, ktoré sa nachádzajú v ochrannom pásme plynovodov v Prešovskom kraji. Výrub realizuje SPP-distribúcia, a.s. za účelom zabezpečenia bezpečnej a spoľahlivej prevádzky plynovodov a eliminácie rizika poškodenia koreňovým systémom."
+}

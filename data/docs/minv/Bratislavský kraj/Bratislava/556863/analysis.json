@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/410672-017",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/410672-017",
+  "datum_dokumentu": "2025-10-24",
+  "datum_zverejnenia": "2025-04-14",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Averta, s.r.o. Dvořákovo nábrežie 10, 811 02 Bratislava a Kalos, s.r.o., Dvořákovo nábrežie 10, 811 02 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9255/1",
+              "21798",
+              "9254/18",
+              "9253/5",
+              "9254/1",
+              "9254/6",
+              "21796/1",
+              "21797",
+              "9186/45",
+              "9254/23"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Staré Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "21836/12",
+              "21836/2",
+              "21836/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Klingerka"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "inštalácia fotovoltických panelov",
+    "rozšírenie objektu",
+    "používanie tepelných čerpadiel",
+    "zmena sadových úprav",
+    "sanácia environmentálnej záťaže",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/polyfunkcy-subor-stavieb-klingerka-2-stavba-c-5-objekt-so-206-polyfunk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o civilnom letectve (letecký zákon) a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon Slovenskej národnej rady o hlavnom meste Slovenskej republiky Bratislave",
+      "zakon_cislo": "377/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o vodovodoch a kanalizáciách",
+      "zakon_cislo": "230/2005 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje záväzné stanovisko zo zisťovacieho konania pre zmeny polyfunkčného súboru stavieb Klingerka 2 a 3 v Bratislave (k.ú. Nivy, Staré Mesto). Zmeny zahŕňajú inštaláciu fotovoltických panelov, rozšírenie objektov, úpravy fasád, zmeny technológií vykurovania/chladenia (tepelné čerpadlá) a sadových úprav. Zisťovacie konanie dospelo k záveru, že zmeny nevyžadujú ďalšie posudzovanie vplyvov na životné prostredie pri dodržaní určených opatrení, vrátane ochrany drevín a sanácie environmentálnej záťaže na lokalite, ktorá je v 1. stupni ochrany. Účasť verejnosti v tomto konaní nie je povolená.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/083805-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 21. 11. 2025"
+  },
+  "ziadatel_navrhovatel": "p. Jozef Škuta",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Buková",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Buková",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "3670",
+              "3680"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "umiestnenie prenosných zariadení",
+    "výstavba prístrešku pre hospodárske zvieratá"
+  ],
+  "typ_uzemia": [
+    "druhý stupeň územnej ochrany",
+    "Chránená krajinná oblasť Malé Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania pre vydanie súhlasu na umiestnenie dvoch maringotiek a prístrešku pre hospodárske zvieratá v katastrálnom území Buková. Realizácia je plánovaná v Chránenej krajinnej oblasti Malé Karpaty, kde platí druhý stupeň územnej ochrany. Organizácie môžu potvrdiť záujem o účasť v konaní do 21. novembra 2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

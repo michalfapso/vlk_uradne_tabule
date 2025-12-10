@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/000200-052",
+  "cislo_rozhodnutia": "OU-DT-OSZP-2025/000200-052",
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolanie"
+  },
+  "ziadatel_navrhovatel": "Residence Monika s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Stožok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stožok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2601"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bytové domy - Stožok"
+  },
+  "typ_dokumentu": "Rozhodnutie Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba bytových domov",
+    "výstavba občianskej vybavenosti",
+    "výstavba parkovacích miest",
+    "výstavba ciest a komunikácií",
+    "rozšírenie miestnej komunikácie",
+    "rekonštrukcia mosta",
+    "vybudovanie chodníka",
+    "vybudovanie dažďovej kanalizácie",
+    "prekládka kanalizácie",
+    "revitalizácia vodných zdrojov",
+    "odber podzemných vôd",
+    "rozšírenie kapacity ČOV",
+    "vsakovanie vôd",
+    "inštalácia odlučovačov ropných látok",
+    "výsadba zelene",
+    "inštalácia solárnych panelov",
+    "inštalácia fotovoltických panelov",
+    "záber pôdy"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "mokraď",
+    "vodný tok Stožocký potok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo",
+    "brehové porasty toku Stožocký potok"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/bytove-domy-stozok",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon, ktorým sa mení a dopĺňa zákon o vodách",
+      "zakon_cislo": "74/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon, ktorým sa mení a dopĺňa zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "2/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o technických požiadavkách na verejné vodovody a kanalizácie",
+      "zakon_cislo": "684/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o technických požiadavkách na parkovacie plochy",
+      "zakon_cislo": "200/2018 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Detva k zámeru \"Bytové domy - Stožok\" v obci Stožok, okres Detva. Konštatuje, že zámer sa nebude posudzovať podľa zákona o EIA, ale určuje rozsiahle podmienky a opatrenia pre realizáciu. Činnosť zahŕňa výstavbu 170 bytových jednotiek a súvisiacej infraštruktúry (cesty, kanalizácia, vodovod, ČOV, parkoviská) v štyroch etapách do roku 2039. Lokalita je mimo zastavaného územia, v 1. stupni ochrany prírody, a dotýka sa vodného toku Stožocký potok, ktorý je mokraďou. Kľúčové obavy sa týkajú kapacity vodných zdrojov a ČOV, ako aj dopravného zaťaženia, ktoré sú riešené etapizáciou výstavby s podmienkou monitoringu a rozširovania infraštruktúry.",
+  "zasiahnute_chranene_uzemia": {}
+}

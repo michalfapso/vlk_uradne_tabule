@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2025/025673",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 dní"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystrická Hora",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "376",
+              "377",
+              "378",
+              "379"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky oznamuje začatie konania o vydaní súhlasu na výrub drevín na parcelách C KN 376, 377, 378, 379 v k.ú. Bystrická Hora v okrese Malacky. Lehota na potvrdenie záujmu byť účastníkom konania pre oprávnené združenia je 5 dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

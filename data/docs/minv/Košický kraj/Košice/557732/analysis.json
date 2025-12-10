@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/072503",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-09",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Košice",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Južné Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "510/4"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "733/27"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Turgenevova, Lomonosovova, Slnečná"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jaseň štíhly",
+    "orech kráľovský",
+    "borovica čierna"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania vo veci vydania súhlasu na výrub 3 stromov (jaseň štíhly, orech kráľovský, borovica čierna) v katastrálnom území Južné Mesto, Košice. Dreviny rastú v lokalitách Turgenevova a Lomonosovova, Slnečná a sú vo vlastníctve Mesta Košice. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

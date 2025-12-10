@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-MI -OSZP-2025/024322",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Stretava",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Stretava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stretava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "548",
+              "554"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na žiadosť Obce Stretava o udelenie súhlasu na výrub 9 smrekov a 2 briez na parcelách C-KN 548, 554 v katastrálnom území Stretava, okres Michalovce. Dôvodom je ohrozenie bezpečnosti. Občianske združenia majú 5 pracovných dní od zverejnenia na potvrdenie záujmu o účasť v konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

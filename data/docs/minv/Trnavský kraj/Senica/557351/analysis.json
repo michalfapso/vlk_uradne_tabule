@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/022794 002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 12.12.2025 (vrátane)"
+  },
+  "ziadatel_navrhovatel": "Ing. Silvia Kabaňová",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Jablonica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jablonica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3247/2",
+              "3248"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "oplotenie pozemku",
+    "umiestnenie prenosného zariadenia ako je prístrešok"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/202 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica oznamuje začatie správneho konania o udelenie súhlasu pre Ing. Silviu Kabaňovú na oplotenie pozemku za hranicami zastavaného územia obce a umiestnenie prenosného prístrešku v katastrálnom území Jablonica. Lehota na potvrdenie záujmu byť účastníkom konania je do 12.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

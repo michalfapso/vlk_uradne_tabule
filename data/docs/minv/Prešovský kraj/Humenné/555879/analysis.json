@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "SVP 8908/2025/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-29",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik, Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Jablon",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jablon",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "724"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "674/20",
+              "674/21",
+              "674/22",
+              "674/23",
+              "674/28",
+              "674/39",
+              "674/40",
+              "674/41",
+              "674/42"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pobrežných pozemkoch vodného toku Výrava"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie brehových porastov"
+  ],
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "lipa malolistá",
+    "vŕba biela"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Humenné plánovaný výrub 14 líp malolistých a 2 vŕb bielych na pobrežných pozemkoch vodného toku Výrava v katastrálnom území Jablon. Dreviny sa nachádzajú na parcelách C-KN č. 724 a 674/20-42. Výrub je odôvodnený potrebou udržiavania toku a odstraňovania prekážok pri povodniach. Oznámenie bolo zaslané aj Správe CHKO Východné Karpaty.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "724",
+        "NATIONALSI": "SKCHVU011",
+        "SITETITLE_": "Laborecká vrchovina"
+      }
+    ]
+  }
+}

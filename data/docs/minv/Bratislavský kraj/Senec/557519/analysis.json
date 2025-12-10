@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/033831",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Nina Szalaya",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Nové Košariská",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Košariská",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1240/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Juglans regia L."
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť Nina Szalaya o súhlas na výrub 1 ks dreviny druhu Juglans regia L. na parcele E 1240/2 v k. ú. Nové Košariská, okres Senec. Drevina sa nachádza na hranici pozemku a bráni realizácii oplotenia. Účastníci konania sa môžu prihlásiť do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

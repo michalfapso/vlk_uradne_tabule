@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/544791/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-20",
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie. Lehota začína plynúť dňom nasledujúcim po dni, kedy bola informácia o konkrétnom začatom konaní zverejnená.",
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Rača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "19067/2",
+              "19069/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Mimo zastavaného územia obce"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba oplotenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje začatie správneho konania na základe žiadosti fyzickej osoby o vydanie súhlasu na výrub 1 ks dreviny (pri báze spráchnivená) v katastrálnom území Rača, mimo zastavaného územia obce. Dôvodom výrubu je výstavba plotu. Lehota na oznámenie účasti v konaní je 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

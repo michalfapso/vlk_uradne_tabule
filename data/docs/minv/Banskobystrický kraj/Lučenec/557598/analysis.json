@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "OU-LC-OSZP-2025/013496-044",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-09-24",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "21 dní od zverejnenia zámeru"
+  },
+  "ziadatel_navrhovatel": "Voltalia Central & Eastern Europe s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Lučenec",
+    "obec": "Stará Halič",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Halič",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "473/35",
+              "473/36"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba fotovoltickej elektrárne",
+    "výrub drevín",
+    "výsadba krovinovej zelene",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody",
+    "migračný koridor",
+    "CHKO Cerová vrchovina",
+    "Územný systém ekologickej stability (ÚSES)",
+    "vodohospodársky významné vodné toky",
+    "vodárenské vodné toky"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené živočíchy",
+    "voľne žijúce živočíchy",
+    "veľké suchozemské cicavce",
+    "veľké šelmy",
+    "rysej populácie",
+    "brehové porasty",
+    "kroviny",
+    "invázne nepôvodné druhy"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "58/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva zákona o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov, a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "150/2019 Z.z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa vydáva zoznam inváznych nepôvodných druhov vzbudzujúcich obavy Slovenskej republiky",
+      "zakon_cislo": "449/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovujú podmienky a spôsoby odstraňovania inváznych nepôvodných druhov",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o civilnej ochrane obyvateľstva",
+      "zakon_cislo": "42/1994 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2024 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ovzduší",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o ovzduší",
+      "zakon_cislo": "410/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje záväzné stanovisko zo zisťovacieho konania pre výstavbu fotovoltickej elektrárne PELICAN I v obci Stará Halič, okres Lučenec. Po počiatočnom zistení, že projekt zasahuje do migračného koridoru veľkých šeliem (KM Lučenec – Halič), žiadateľ upravil plochu zámeru (z 30,73 ha na 20,2 ha), aby sa zabránilo zásahu do koridoru a zachovala sa jeho priechodnosť. Orgány ochrany prírody sa zhodli, že po tejto úprave nie je potrebné ďalšie posudzovanie vplyvov na životné prostredie, ak sú dodržané podmienky na ochranu živočíchov a brehových porastov.",
+  "zasiahnute_chranene_uzemia": {}
+}

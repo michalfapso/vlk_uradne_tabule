@@ -1,0 +1,185 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/022373",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Lipovec",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "v ochrannom pásme VN vedenia 110 kV, č. V 7746, 7744, 7767, úsek Martin – Lipovec"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín rastúcich mimo les",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Martin zverejňuje oznámenie o výrube drevín od Stredoslovenská distribučná, a.s., vykonávanom spoločnosťou ENZA s.r.o. Výrub sa týka ochranného pásma VN vedenia 110 kV na úseku Martin – Lipovec v okrese Martin. Konanie je len informačné a neumožňuje prihlásenie sa doň.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Lipovec",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "SKUEV0665",
+        "SITETITLE_": "Strečnianske meandre Váhu"
+      },
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "SKUEV0252",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "250",
+        "SITETITLE_": "PR Hajasová"
+      },
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "303",
+        "SITETITLE_": "NPR Kľačianska Magura"
+      },
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "267",
+        "SITETITLE_": "PR Hrádok"
+      },
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "323",
+        "SITETITLE_": "NPR Krivé"
+      },
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "435",
+        "SITETITLE_": "NPR Suchý"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Lipovec",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "310/1310/2023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-12-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "HYDROMELIORÁCIE, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Partizánske",
+    "obec": "Livinské Opatovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Livinské Opatovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "odvodňovací kanál ev. č. 5209 059 001"
+  },
+  "typ_dokumentu": "Oznámenie o údržbe",
+  "typ_zasahu": [
+    "kosenie (mulčovanie)",
+    "orez drevín",
+    "odstránenie sedimentov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonáva zákon č. 543/2002 Z. z. o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z. z."
+    }
+  ],
+  "zhrnutie": "HYDROMELIORÁCIE, š. p. oznamuje Okresnému úradu Partizánske plánovanú údržbu odvodňovacieho kanála ev. č. 5209 059 001 v katastrálnom území Livinské Opatovce, okres Partizánske. Údržba zahŕňa kosenie (mulčovanie), orez drevín a odstránenie sedimentov, a je plánovaná na november a december 2025. Dokument explicitne uvádza, že nedôjde k výrubu drevín a nie sú spomenuté žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

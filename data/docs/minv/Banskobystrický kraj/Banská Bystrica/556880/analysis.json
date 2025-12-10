@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/005195",
+  "cislo_rozhodnutia": "OU-BB-OSZP3-2025/005195-026",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ARCHAT MD s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Bystrica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2320",
+              "2319/4",
+              "5416/1",
+              "2371/3",
+              "2307/2",
+              "5399/8",
+              "5399/53",
+              "5409/19",
+              "2057/1",
+              "5625/19",
+              "2057/2",
+              "5625/10",
+              "5399/8",
+              "5524/3",
+              "2371/46"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Slnečné stráne II Banská Bystrica – Lokalita A"
+  },
+  "typ_dokumentu": "Upovedomenie verejnou vyhláškou o zaslaní odvolania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je upovedomením verejnou vyhláškou o zaslaní odvolania proti rozhodnutiu o vodných stavbách (vodovod a splašková kanalizácia) pre projekt „Slnečné stráne II Banská Bystrica – Lokalita A“ v katastrálnom území Banská Bystrica. Uvedené vodné stavby sa týkajú ochranného pásma vodárenského zdroja.",
+  "zasiahnute_chranene_uzemia": {}
+}

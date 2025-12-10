@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/047608-009",
+  "cislo_rozhodnutia": "128/2025",
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mesto Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sásová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2495/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "484/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "2699/11"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "2699/36"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Parkovisko Tatranská č. 52 - 64, Banská Bystrica"
+  },
+  "typ_dokumentu": "Rozhodnutie o predĺžení platnosti stavebného povolenia",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba parkoviska"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutím Okresného úradu Banská Bystrica o predĺžení platnosti stavebného povolenia a termínu dokončenia vodných stavieb: dažďovej kanalizácie a preložky vodovodu. Tieto stavby sú súčasťou projektu „Parkovisko Tatranská č. 52 - 64, Banská Bystrica“, realizovaného Mestom Banská Bystrica v katastrálnom území Sásová. V texte nie sú spomenuté žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

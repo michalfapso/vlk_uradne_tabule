@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/554735/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "fyzickej osoby",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Rača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2499/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje začatie správneho konania o žiadosti fyzickej osoby o vydanie súhlasu na výrub 1 ks dreviny na pozemku parc. č. 2499/3 v katastrálnom území Rača, mimo zastavaného územia obce. Drevina je navrhnutá na výrub z dôvodu poškodzovania oporného múru, pričom konanie odkazuje na zákon č. 543/2002 Z. z., ktorý obsahuje ustanovenia o štvrtom a piatom stupni ochrany.",
+  "zasiahnute_chranene_uzemia": {}
+}

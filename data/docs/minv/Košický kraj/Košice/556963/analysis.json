@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZPI-2025/069907",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "KST Hikemates",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "NPR Sivec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "organizovanie turistického podujatia",
+    "výstup"
+  ],
+  "typ_uzemia": [
+    "Národná prírodná rezervácia",
+    "NPR Sivec"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania k žiadosti KST Hikemates o vydanie súhlasu na organizovanie verejného turistického výstupu na Národnú prírodnú rezerváciu Sivec. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "registry_n": "SKUEV0328",
+        "site_name": "Stredné Pohornádie",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "registry_n": "SKUEV0328",
+        "site_name": "Stredné Pohornádie",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "registry_n": "SKUEV0328",
+        "site_name": "Stredné Pohornádie",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "registry_n": "SKUEV0328",
+        "site_name": "Stredné Pohornádie",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "712",
+        "SITETITLE_": "NPR Vozárska"
+      },
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "712",
+        "SITETITLE_": "OP NPR Vozárska"
+      },
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "671",
+        "SITETITLE_": "NPR Sivec"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Sivec, Ružín, Malá Lodina, okres Košice - okolie, Košický kraj, Východné Slovensko, Slovensko",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      }
+    ]
+  }
+}

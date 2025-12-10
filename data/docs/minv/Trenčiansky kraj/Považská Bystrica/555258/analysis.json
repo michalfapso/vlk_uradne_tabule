@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "0875-001",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Podvažie, Jasenica, Stupné, Brvnište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podvažie",
+        "parcely": []
+      },
+      {
+        "nazov": "Jasenica",
+        "parcely": []
+      },
+      {
+        "nazov": "Stupné",
+        "parcely": []
+      },
+      {
+        "nazov": "Brvnište",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod el. vedením: 22 kV, vedenie č. VN 133_k20: Podvažie - Brvnište"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie a odlesňovanie porastov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Spoločnosť ENZA s.r.o. oznamuje Okresnému úradu Považská Bystrica nevyhnutný výrub náletových drevín v ochrannom pásme 22 kV elektrického vedenia č. VN 133_k20, ktoré prechádza katastrálnymi územiami Podvažie, Jasenica, Stupné a Brvnište. Výrub sa má uskutočniť medzi októbrom 2025 a marcom 2026 s cieľom zabezpečiť bezporuchovú prevádzku vedenia v zmysle zákonov o ochrane prírody a krajiny a o energetike.",
+  "zasiahnute_chranene_uzemia": {}
+}

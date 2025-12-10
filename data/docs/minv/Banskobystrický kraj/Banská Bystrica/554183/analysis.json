@@ -1,0 +1,570 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/021441-012",
+  "cislo_rozhodnutia": "106/2025",
+  "datum_dokumentu": "2025-10-23",
+  "datum_zverejnenia": "2025-10-27",
+  "lehoty_na_vyjadrenie": "Odvolanie do 15 dní odo dňa oznámenia rozhodnutia.",
+  "ziadatel_navrhovatel": "Bernard Matrka, Strmé Sady 3551/2B, 841 01 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Banská Bystrica",
+    "obec": "Králiky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Králiky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "862/75",
+              "862/6",
+              "862/2",
+              "862/5",
+              "862/72"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "215/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Chaty Králiky"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "výstavba automatickej tlakovej stanice",
+    "potenciálny výrub drevín"
+  ],
+  "typ_uzemia": [
+    "pásmo hygienickej ochrany vodárenského zdroja Čutková",
+    "ochranné pásmo vodárenského zdroja II. stupňa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené rastliny",
+    "chránené živočíchy",
+    "medveď hnedý",
+    "invázne druhy rastlín a krov"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "36",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "84",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon a o zmene a doplnení niektorých zákonov (stavebný zákon)",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "paragraf": "62",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "46d",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "43i",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "100",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "52",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "58",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "139",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "97",
+      "odsek": "1",
+      "pismena": [
+        "s"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [
+        "h"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "77",
+      "odsek": "3",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [
+        "i"
+      ],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o evidenčnej povinnosti a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o evidenčnej povinnosti a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu (pamiatkový zákon)",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu (pamiatkový zákon)",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "30",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pamiatkového fondu (pamiatkový zákon)",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "21",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "24",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "284",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "285",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "286",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "288",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "paragraf": "73",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "61",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "120",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "140b",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o dôveryhodných službách pre elektronické transakcie na vnútornom trhu a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje stavebné povolenie na výstavbu vodnej stavby „SO 02 Vonkajší vodovod“ pre zásobovanie rekreačných chát v lokalite Chaty Králiky, v katastrálnom území Králiky. Navrhovaná činnosť sa bude realizovať v ochrannom pásme vodárenského zdroja II. stupňa, čo si vyžaduje dodržiavanie špecifických podmienok na ochranu vôd a prírody, vrátane potenciálneho výrubu drevín a zabránenia znečisteniu či šíreniu inváznych druhov. Žiadateľom je Bernard Matrka.",
+  "zasiahnute_chranene_uzemia": {}
+}

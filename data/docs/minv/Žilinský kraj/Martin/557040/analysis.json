@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/017263-Hš",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "7 pracovných dní odo dňa prevzatia oznámenia"
+  },
+  "ziadatel_navrhovatel": "OZ TRNOVO – MEDOVÁRKA",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Trnovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "237",
+              "308/2",
+              "248/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "431/1",
+              "429/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Trnovo"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie verejného vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": "513/1991 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Martin o povolení vodnej stavby pre OZ TRNOVO – MEDOVÁRKA. Ide o rozšírenie verejného vodovodu v katastrálnom území Trnovo, okres Martin, konkrétne na parcelách C 237, 308/2, 248/2 a E 431/1, 429/1. Dokument nešpecifikuje dotknuté chránené územia ani významné živočíchy alebo rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-LE-OSZP-2025/001309/HE",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Mekomot Slovakia, o.z.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Levoča",
+    "obec": "Levoča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Levoča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8408",
+              "8410"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Levoča oznamuje začatie správneho konania na žiadosť Mekomot Slovakia, o.z. o vydanie súhlasu na výrub 32 stromov a 250 m2 krovinatých porastov. Tieto dreviny rastú mimo lesa v extraviláne mesta Levoča na parcelách KN-C č. 8408 a 8410 v katastrálnom území Levoča. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

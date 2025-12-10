@@ -1,0 +1,179 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/019561-003",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2025/019561-0068462/2025",
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a. s., Komenského 50, 042 48 Košice",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Malá Lodina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malá Lodina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "132/1",
+              "132/3",
+              "132/6",
+              "132/7",
+              "132/8",
+              "132/9",
+              "133/1",
+              "133/2",
+              "133/3",
+              "134/1",
+              "134/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "88/2",
+              "88/3",
+              "88/4",
+              "405/4",
+              "405/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Malá Lodina – Prameň I. starý a Prameň II. nový"
+  },
+  "typ_dokumentu": "Rozhodnutie o určení ochranných pásiem",
+  "typ_zasahu": [
+    "ťažba dreva",
+    "výstavba budovy",
+    "poľnohospodárska činnosť",
+    "používanie chemických látok",
+    "zemné práce",
+    "úprava vodného toku",
+    "výkon práva poľovníctva",
+    "skládkovanie odpadov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja I. stupňa",
+    "ochranné pásmo vodárenského zdroja II. stupňa",
+    "ochranné lesy",
+    "lesy osobitného určenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o určovaní ochranných pásiem vodárenských zdrojov",
+      "zakon_cislo": "29/2005 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice – okolie vydal rozhodnutie o určení ochranných pásiem I. a II. stupňa vodárenského zdroja „Malá Lodina – Prameň I. starý a Prameň II. nový“ v obci Malá Lodina. Dokument stanovuje rozsiahle zákazy a režimy hospodárenia v týchto pásmach, zamerané na ochranu kvality a výdatnosti podzemných vôd, ktoré sa týkajú najmä lesohospodárskej, poľnohospodárskej činnosti, výstavby a zemných prác. Dotknuté sú viaceré parcely v k. ú. Malá Lodina, vrátane oblastí s ochrannými lesmi.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "134/1",
+        "registry_n": "SKUEV0328",
+        "site_name": "Stredné Pohornádie",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "134/2",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      },
+      {
+        "parcel_label": "133/2",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      },
+      {
+        "parcel_label": "133/1",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      },
+      {
+        "parcel_label": "134/1",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      },
+      {
+        "parcel_label": "132/1",
+        "NATIONALSI": "SKUEV0328",
+        "SITETITLE_": "Stredné Pohornádie"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "134/1",
+        "NATIONALSI": "506",
+        "SITETITLE_": "NPR Bokšov"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "134/2",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "133/3",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "133/2",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "133/1",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "134/1",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "132/1",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "88/2",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      },
+      {
+        "parcel_label": "88/4",
+        "NATIONALSI": "SKCHVU036",
+        "SITETITLE_": "Volovské vrchy"
+      }
+    ]
+  }
+}

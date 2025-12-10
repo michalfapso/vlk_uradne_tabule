@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2025-12-09 23:21:09",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['1374/9', '1375/2', '1375/67']}' v katastrálnom území 'Bidovce' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-12-09 23:21:09",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Bidovce', 'katastralne_uzemia': [{'nazov': 'Bidovce', 'parcely': [{'typ': 'C', 'cisla': ['1374/9', '1375/2', '1375/67']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-12-09 23:21:09",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

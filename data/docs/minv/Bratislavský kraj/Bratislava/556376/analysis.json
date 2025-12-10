@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU – BA - OSZP3 - 2025 / 560370 / POS",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Bratislavský samosprávny kraj",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3021/3",
+              "130",
+              "247",
+              "3023/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kampus zdravia a športu"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje začatie správneho konania na základe žiadosti Bratislavského samosprávneho kraja o súhlas na výrub 81 stromov. Výrub sa má uskutočniť v katastrálnom území Petržalka, mimo zastavaného územia obce, v súvislosti s výstavbou budúcej stavby „Kampus zdravia a športu“. Lehota na oznámenie účasti v konaní je 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,186 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/011841-022",
+  "cislo_rozhodnutia": "OU-PK-OSZP-2025/011841-0038962/2025",
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Jablonec",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Jablonec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jablonec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "979",
+              "878",
+              "880"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "886/1",
+              "886/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Cífer",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2540/17",
+              "2581"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Juh"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "zemné práce",
+    "pretláčanie",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "ochranné pásmo cesty",
+    "ochranné pásmo plynovodu",
+    "ochranné pásmo elektroenergetických zariadení"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o inžinierskych vodných stavbách",
+      "zakon_cislo": "59/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o podrobnostiach na zaistenie bezpečnosti a ochrany zdravia pri stavebných prácach",
+      "zakon_cislo": "147/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o všeobecných technických požiadavkách na výstavbu",
+      "zakon_cislo": "532/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o evidenčnej a ohlasovacej povinnosti",
+      "zakon_cislo": "366/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "245/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o ukazovateľoch a limitných hodnotách kvality pitnej vody",
+      "zakon_cislo": "91/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o ochrannom pásme ciest",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška o listinnom rovnopise elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronickej podobe výkonu pôsobnosti orgánov verejnej moci",
+      "zakon_cislo": "272/2016 Z. z."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok vydal rozhodnutie o stavebnom zámere pre výstavbu vodovodu „Vodovod Cífer - Jablonec, Vetva Jv1 Jablonec“, ktorý prepojí obce Cífer a Jablonec. Činnosť sa dotýka katastrálnych území Jablonec a Cífer, pre ktoré je určený 1. stupeň ochrany prírody a krajiny. V lokalite sú tiež ochranné pásma ciest, plynovodov a elektrických zariadení.",
+  "zasiahnute_chranene_uzemia": {}
+}

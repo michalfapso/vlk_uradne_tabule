@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/015136-Va",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2025/015136-0067278/2025",
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 11.11.2025"
+  },
+  "ziadatel_navrhovatel": "Obec Ratkovo",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Ratkovo, Turany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ratkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "229/58",
+              "229/57",
+              "229/59",
+              "229/86",
+              "206/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Turany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3463/33"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "JBV Ratkovo"
+  },
+  "typ_dokumentu": "Rozhodnutie (Zmena stavby pred dokončením a Povolenie na užívanie vodnej stavby)",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "rozšírenie vodovodnej siete"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie Okresného úradu Martin povoľuje zmenu stavby pred dokončením a užívanie vodnej stavby \"JBV Ratkovo, rozšírenie verejného vodovodu a vodovodnej prípojky\" pre Obec Ratkovo v katastrálnych územiach Ratkovo a Turany. Predĺži sa vetva verejného vodovodu a zrealizujú sa nové vodovodné napojenia. V dokumente nie sú spomenuté žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

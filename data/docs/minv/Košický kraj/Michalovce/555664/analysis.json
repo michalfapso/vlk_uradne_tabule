@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "006040412025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "TOPPRO s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Vinné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vinné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2452/1",
+              "2453"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "krovie"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "22",
+      "odsek": "14",
+      "pismena": [],
+      "zakon_nazov": "ktorou sa vykonáva zákon č. 543/2002 Z.z. o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "paragraf": "64",
+      "odsek": "6",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "16",
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "79",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "9",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti TOPPRO s.r.o. (pre SPP-Distribúcia, a.s.) o plánovanom výrube drevín a krovín v katastrálnom území Vinné, okres Michalovce. Účelom výrubu je zabezpečenie bezpečnej a spoľahlivej prevádzky plynovodov v ich ochranných pásmach, kde vegetácia predstavuje riziko poškodenia. Žiadateľ žiada súhlas orgánu ochrany prírody podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

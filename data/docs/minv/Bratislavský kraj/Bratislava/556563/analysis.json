@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ARPenviro s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Rusovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rusovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1120/15",
+              "1120/18",
+              "1120/27",
+              "1120/28",
+              "1120/59"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Nový stavebný obvod Rusovce"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o zisťovacom konaní",
+  "typ_zasahu": [
+    "výstavba rodinných domov",
+    "výstavba komunikácie",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba elektrického vedenia",
+    "výstavba verejného osvetlenia",
+    "výstavba optických rozvodov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o začatí zisťovacieho konania k zámeru \"IBV BRATISLAVA RUSOVCE – Nový stavebný obvod Rusovce\". Projekt navrhuje výstavbu 32 rodinných domov a súvisiacej infraštruktúry (cesty, vodovod, kanalizácia, elektrické a optické siete, verejné osvetlenie) v katastrálnom území Rusovce, Bratislava. Navrhovateľom je ARPenviro s.r.o. Dokument nespomína žiadne chránené územia ani konkrétne dotknuté živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

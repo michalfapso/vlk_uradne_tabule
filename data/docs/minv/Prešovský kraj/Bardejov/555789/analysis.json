@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2025/014658-0047969",
+  "cislo_rozhodnutia": "OU-BJ-OSZP-2025/014658-0047969/2025",
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní"
+  },
+  "ziadatel_navrhovatel": "František Kelemen",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Marhaň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Marhaň",
+        "parcely": [
+          {
+            "typ": "C-KN",
+            "cisla": [
+              "487/191",
+              "387/4"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "487/191"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška - Rozhodnutie v pochybnostiach",
+  "typ_zasahu": [
+    "riešenie pochybností o vodnom toku",
+    "zmena druhu pozemku"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "2/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Bardejov v pochybnostiach o tom, či časť pozemku s parcelnými číslami CKN 487/191 a EKN 487/191 v katastrálnom území Marhaň je vodným tokom. Rozhodnutie konštatuje, že táto časť pozemku nie je vodným tokom, prirodzeným ani umelým korytom, a súhlasí so zmenou druhu pozemku na zabezpečenie súladu so skutočným stavom v teréne. Dokument nespomína žiadne chránené územia ani špecifické dotknuté živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

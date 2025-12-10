@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "NAFTA a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Brodské",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brodské",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Prieskumné vrty Brodské 111, 112, 113, 114 a 115"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "realizácia prieskumných vrtov",
+    "ťažba ropy",
+    "likvidácia vrtov",
+    "rekultivácia pozemkov"
+  ],
+  "typ_uzemia": [
+    "chránené ložiskové územie",
+    "chránené územie na osobitné zásahy do zemskej kôry"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "245/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (stavebný zákon)",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o výbušninách, výbušných predmetoch a munícii a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "58/2014 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "zakon_nazov": "o banskej činnosti, výbušninách a o štátnej banskej správe",
+      "zakon_cislo": "51/1988 Zb."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Informáciou pre verejnosť o zisťovacom konaní podľa zákona č. 24/2006 Z. z. týkajúcom sa zmeny navrhovanej činnosti \"Prieskumné vrty Brodské 111, 112, 113, 114 a 115\" v k. ú. Brodské, okres Skalica. Žiadateľom je NAFTA a. s. Cieľom je realizácia piatich prieskumných vrtov pre ťažbu ropy a následná likvidácia vrtov s rekultiváciou pozemkov. Proces zahŕňa získanie povolení podľa viacerých zákonov, vrátane zákona o ochrane prírody a krajiny a banského zákona, pričom sa spomínajú chránené ložiskové územia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Brodské",
+        "NATIONALSI": "SKUEV0165",
+        "SITETITLE_": "Kútsky les"
+      },
+      {
+        "parcel_label": "Brodské",
+        "NATIONALSI": "SKUEV0904",
+        "SITETITLE_": "Gbelský les"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Brodské",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      }
+    ]
+  }
+}

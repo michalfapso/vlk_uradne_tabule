@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/024020",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Rimavská Sobota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rimavská Sobota",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3966/42"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o začatí správneho konania vo veci vydania súhlasu na výrub 3 smrekov v katastrálnom území Rimavská Sobota na parcele č. 3966/42. Dôvodom výrubu je počiatočné štádium vysychania a statická nestabilita drevín. Združenia s právnou subjektivitou môžu potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

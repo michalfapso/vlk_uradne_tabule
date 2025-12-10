@@ -1,0 +1,141 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/009552-008",
+  "cislo_rozhodnutia": "OU-NO-OSZP-2025/009552-0083089/2025",
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní"
+  },
+  "ziadatel_navrhovatel": "Oravská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Zubrohlava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zubrohlava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1226/267",
+              "1210/28",
+              "1069/52",
+              "1226/41",
+              "1226/266",
+              "1226/499",
+              "1226/132",
+              "1226/251",
+              "1226/162",
+              "1226/223",
+              "1226/167",
+              "1226/250",
+              "1226/131",
+              "1226/248",
+              "1556",
+              "1226/133",
+              "1226/114",
+              "1226/136",
+              "1226/121",
+              "1226/253",
+              "1226/244",
+              "1226/89",
+              "1226/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "4067/5",
+              "440/4",
+              "440/3",
+              "4072",
+              "440/2",
+              "440/1",
+              "441",
+              "443/2",
+              "4071/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Klinec, Skladaná a Kuňaky"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba čerpacej stanice",
+    "výstavba elektrickej prípojky",
+    "výstavba výtlačného potrubia",
+    "výstavba oplotenia",
+    "výstavba vodovodnej prípojky"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Námestovo vydal kolaudačné rozhodnutie pre stavbu „Zubrohlava – rozšírenie kanalizácie lokalita Klinec, Skladaná a Kuňaky“ žiadateľa Oravská vodárenská spoločnosť, a.s. Rozhodnutie povoľuje užívanie vodnej stavby zahŕňajúcej gravitačnú kanalizáciu, čerpaciu stanicu, elektrickú a vodovodnú prípojku a oplotenie na pozemkoch v katastrálnom území Zubrohlava. Dokument nespomína žiadne chránené územia alebo druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

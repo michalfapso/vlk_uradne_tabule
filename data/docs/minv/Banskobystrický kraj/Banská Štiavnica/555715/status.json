@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2025-11-17 22:46:18",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['326/2']}' v katastrálnom území 'Vysoká' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 22:46:21",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['328/2']}' v katastrálnom území 'Vysoká' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 22:46:21",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Vysoká', 'katastralne_uzemia': [{'nazov': 'Vysoká', 'parcely': [{'typ': 'C-KN', 'cisla': ['326/2']}, {'typ': 'C-KN', 'cisla': ['328/2']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 22:46:21",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 555715 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=46&odbor=10&sekcia=uradna-tabula&subor=555715): 'NoneType' object has no attribute 'to_crs'"
+  }
+]

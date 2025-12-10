@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/001497",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 26. novembra 2025"
+  },
+  "ziadatel_navrhovatel": "Elizaveta Keyhan Rad",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Madunice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Madunice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1943",
+              "1945/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ",
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Hlohovec oznamuje začatie správneho konania na základe žiadosti p. Elizavety Keyhan Rad o vydanie súhlasu na výrub 2 ks topoľov a náletových drevín vo výmere 680 m2. Zásah sa týka pozemkov v katastrálnom území Madunice, mimo zastavaného územia obce, kde platí prvý stupeň ochrany. Subjekty s právnou subjektivitou zameranou na ochranu prírody sa môžu prihlásiť ako účastníci konania do 26. novembra 2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

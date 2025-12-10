@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/016296-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 04.12.2025",
+  "ziadatel_navrhovatel": "Steper, s.r.o., Developerská spoločnosť",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Grinava",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "825"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "788/11",
+              "788/12",
+              "790/107",
+              "790/99",
+              "788/6",
+              "788/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Limbašská cesta, Grinava - kanalizácia"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok oznamuje začatie kolaudačného konania pre vodnú stavbu 'Grinava - kanalizácia' v katastrálnom území Grinava, obec Pezinok. Žiadateľom je Steper, s.r.o. Ústne pojednávanie je naplánované na 04.12.2025, pričom stanoviská je možné uplatniť najneskôr pri ústnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

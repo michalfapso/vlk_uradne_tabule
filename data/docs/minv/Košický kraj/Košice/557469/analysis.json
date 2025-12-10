@@ -1,0 +1,109 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/062432-005",
+  "cislo_rozhodnutia": "OU-KE-OSZP3-2025/062432-0192469/2025",
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lorinčík",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5063"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Košice – MČ Pereš"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba kanalizačných prípojok"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "krovitý porast",
+    "invázne nepôvodné druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice vydal rozhodnutie o stavebnom zámere, ktorým povoľuje rozšírenie kanalizácie a výstavbu kanalizačných prípojok v mestskej časti Košice – Pereš, katastrálne územie Lorinčík. Súčasťou rozhodnutia sú podmienky na ochranu prírody a krajiny, vrátane regulácie výrubu drevín a používania autochtónnych rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

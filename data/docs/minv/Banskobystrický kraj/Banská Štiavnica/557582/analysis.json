@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-BS-OSZP-2025/001538-008",
+  "cislo_rozhodnutia": "OU-BS-OSZP-2025/001538-0008055/2025",
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Banská Belá",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Štiavnica",
+    "obec": "Banská Belá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Belá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1130/2",
+              "1136/2",
+              "1136/4",
+              "1136/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba čistiarne odpadových vôd",
+    "rekonštrukcia čistiarne odpadových vôd",
+    "úprava vodného toku",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "vodný tok",
+    "záplavové územie"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o metrológii",
+      "zakon_cislo": "157/2018 Z.z."
+    }
+  ],
+  "zhrnutie": "Toto rozhodnutie orgánu štátnej vodnej správy vydáva stavebné povolenie obci Banská Belá na rozšírenie a rekonštrukciu čistiarne odpadových vôd (ČOV) v katastrálnom území Banská Belá na uvedených parcelách. Činnosť zahŕňa výstavbu novej kanalizačnej stoky, odľahčovacej komory a zvýšenie kapacity ČOV, s dôrazom na ochranu vodného toku Jasenica a predchádzanie zhoršeniu kvality vôd.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-RV -OSZP-2025/0 I3504-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "TOPPRO s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Rožňava",
+    "obec": "Hrhov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrhov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rožňava oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín, ktorý žiada TOPPRO s. r. o. Výrub je plánovaný v katastrálnom území Hrhov, okres Rožňava, z dôvodu zasahovania drevín do trasy plynovodov. Do tohto konania sa nie je možné prihlásiť.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Hrhov",
+        "registry_n": "SKUEV0341",
+        "site_name": "Dolný vrch",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Hrhov",
+        "registry_n": "P/28",
+        "site_name": "NP Slovenský kras",
+        "category_i": 8.0
+      },
+      {
+        "parcel_label": "Hrhov",
+        "registry_n": "SKUEV0356",
+        "site_name": "Horný vrch",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Hrhov",
+        "NATIONALSI": "SKUEV0341",
+        "SITETITLE_": "Dolný vrch"
+      },
+      {
+        "parcel_label": "Hrhov",
+        "NATIONALSI": "SKUEV0356",
+        "SITETITLE_": "Horný vrch"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Hrhov",
+        "NATIONALSI": "871",
+        "SITETITLE_": "PR Zemné hradisko"
+      },
+      {
+        "parcel_label": "Hrhov",
+        "NATIONALSI": "0",
+        "SITETITLE_": "PP Oltár"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Hrhov",
+        "NATIONALSI": "SKCHVU027",
+        "SITETITLE_": "Slovenský kras"
+      }
+    ],
+    "UNESCO": [
+      {
+        "parcel_label": "Hrhov",
+        "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+        "Kod_chrane": "UN01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/001698-010",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2025/001698-0080262/2025",
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": "2024-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Čakany",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Čakany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrakúň",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "253",
+              "1866/2",
+              "1811"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1842"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čakany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "655",
+              "554",
+              "206/5",
+              "208",
+              "99/5",
+              "504/2",
+              "99/6",
+              "99/4",
+              "104/5",
+              "490/2",
+              "490/24",
+              "99/8",
+              "481/11",
+              "84/1",
+              "84/18",
+              "84/17",
+              "210",
+              "203/16",
+              "203/76",
+              "203/18",
+              "507",
+              "481/2",
+              "84/19",
+              "99/2",
+              "504/1",
+              "505",
+              "1/2",
+              "205/1",
+              "484/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "491",
+              "209/23"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Štvrtok na Ostrove",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "352/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Horného Žitného ostrova"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení dočasného užívania vodnej stavby (verejná vyhláška)",
+  "typ_zasahu": [
+    "prevádzka kanalizácie",
+    "užívanie vodnej stavby",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o organizácií miestnej štátnej správy",
+      "zakon_cislo": "180/2019 Z.z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o niektorých opatreniach na usporiadanie vlastníctva k pozemkov",
+      "zakon_cislo": "180/1995 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemkových úpravách",
+      "zakon_cislo": "330/1991 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dunajská Streda povoľuje dočasné užívanie vodnej stavby „Tlaková kanalizácia s prípojkami“ v obci Vrakúň a „Kanalizácia Čakany“ v katastrálnom území Čakany a Štvrtok na Ostrove pre skúšobnú prevádzku do 31.01.2027. Ide o verejnú kanalizáciu na odvádzanie splaškových odpadových vôd v rámci Horného Žitného ostrova.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/007605",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Trnavský samosprávny kraj",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Piešťany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "12202/28",
+              "12202/29",
+              "12204/9",
+              "1598/3",
+              "1601/1",
+              "12204/20",
+              "1598/14",
+              "1598/13"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2361/401",
+              "2361/601",
+              "3859/1",
+              "3861/103"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Integrované parkovisko Piešťany"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o podaní návrhu na vydanie vodoprávneho povolenia",
+  "typ_zasahu": [
+    "vypúšťanie vôd z povrchového odtoku",
+    "uskutočnenie vodnej stavby",
+    "výstavba dažďovej kanalizácie",
+    "výstavba parkoviska",
+    "rekonštrukcia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/integrovane-parkovisko-pri-letisku-piestany",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "439/2012 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je zverejnením informácie o podaní návrhu Trnavského samosprávneho kraja na vydanie vodoprávneho a stavebného povolenia pre integrované parkovisko v Piešťanoch. Navrhovaná činnosť zahŕňa výstavbu dažďovej kanalizácie a vypúšťanie povrchových vôd, pričom predchádzajúce zisťovacie konanie rozhodlo, že činnosť sa nebude posudzovať. Projekt je lokalizovaný v katastrálnom území Piešťany.",
+  "zasiahnute_chranene_uzemia": {}
+}

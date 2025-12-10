@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2025/001472-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Severoslovenské vodárne a kanalizácie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Bytča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2180/4",
+              "2179",
+              "3493/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3493/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Družstevná ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia",
+  "typ_zasahu": [
+    "rozšírenie vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bytča oznamuje začatie konania o predĺžení platnosti stavebného povolenia pre vodnú stavbu 'Bytča – Družstevná ulica, rozšírenie vodovodu', ktorej žiadateľom sú Severoslovenské vodárne a kanalizácie, a.s. Realizácia stavby sa týka katastrálneho územia Veľká Bytča. Ústne pojednávanie bolo upustené a účastníci konania môžu podať námietky do 7 pracovných dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

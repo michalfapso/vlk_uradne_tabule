@@ -1,0 +1,323 @@
+{
+  "cislo_konania_spisu": "OU-VK-OSZP-2025/010579-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 10 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Záhorce",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický",
+    "okres": "Veľký Krtíš",
+    "obec": "Záhorce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záhorce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "994",
+              "996",
+              "997",
+              "1040",
+              "1179",
+              "1180/1",
+              "1922",
+              "1923/1",
+              "1924/1",
+              "2069",
+              "2071",
+              "2095",
+              "2105",
+              "2107",
+              "2108",
+              "2212/1",
+              "2212/3",
+              "2227/11",
+              "2227/12",
+              "2227/13",
+              "2229/2",
+              "2231",
+              "2234/3",
+              "2234/4",
+              "2235",
+              "2236",
+              "2227/14"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "6202",
+              "425/11",
+              "2055/2",
+              "2058/421",
+              "2058/422",
+              "2058/43",
+              "6324/3",
+              "6622",
+              "6323/11",
+              "6001/5",
+              "6520",
+              "6521",
+              "425/4",
+              "425/3",
+              "6512/15",
+              "2058/10",
+              "2058/11",
+              "2058/12",
+              "6512/11",
+              "2058/14",
+              "6512/9",
+              "2058/16",
+              "2058/17",
+              "2058/18",
+              "2058/19",
+              "2058/20",
+              "2058/21",
+              "2058/22",
+              "2058/23",
+              "2309/332",
+              "2310/332",
+              "6634",
+              "2080/11",
+              "2079",
+              "2029/2",
+              "6253",
+              "2058/373",
+              "2058/393",
+              "6324/23",
+              "2058/401",
+              "6632"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Selešťany"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania o stavebnom zámere \"ZÁHORCE, m.č. SELEŠŤANY – splašková kanalizácia\" v katastrálnom území Záhorce, okres Veľký Krtíš. Žiadateľom je Obec Záhorce. Konanie sa týka výstavby splaškovej gravitačnej kanalizácie s prečerpávaním splaškových odpadových vôd v miestnej časti Selešťany.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "2236",
+        "NATIONALSI": "SKUEV0958",
+        "SITETITLE_": "Stredný tok Ipľa"
+      },
+      {
+        "parcel_label": "6253",
+        "NATIONALSI": "SKUEV0958",
+        "SITETITLE_": "Stredný tok Ipľa"
+      },
+      {
+        "parcel_label": "6634",
+        "NATIONALSI": "SKUEV0958",
+        "SITETITLE_": "Stredný tok Ipľa"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "997",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "996",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "994",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "1180/1",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2107",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2069",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2236",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2105",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2108",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2071",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2235",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "1040",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2229/2",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2234/3",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2234/4",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2227/13",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2227/12",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2227/11",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2079",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2080/11",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6622",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2058/421",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6202",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6632",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6253",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6634",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2029/2",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6323/11",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6324/3",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2058/422",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "6001/5",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2309/332",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2310/332",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      },
+      {
+        "parcel_label": "2058/43",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      }
+    ]
+  }
+}

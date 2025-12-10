@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2025/086234-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": "2025-11-28",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 05.12.2025"
+  },
+  "ziadatel_navrhovatel": "Drahomír Malíšek",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Horné Orešany",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Chránená krajinná oblasť Malé Karpaty"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "organizovanie športovej akcie"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "408/2011 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava oznamuje začatie správneho konania vo veci povolenia športovej cyklo-akcie s názvom „2. cyklo-pohoda z Orešán do Orešán“. Plánovaná akcia má prebiehať v Chránenej krajinnej oblasti Malé Karpaty na územiach s 2. stupňom ochrany. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je do 05.12.2025.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Horné Orešany",
+        "registry_n": "94",
+        "site_name": "Lošonský háj",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Horné Orešany",
+        "registry_n": "94",
+        "site_name": "Lošonský háj",
+        "category_i": 2.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Horné Orešany",
+        "NATIONALSI": "SKUEV0267",
+        "SITETITLE_": "Biele hory"
+      },
+      {
+        "parcel_label": "Horné Orešany",
+        "NATIONALSI": "SKUEV0277",
+        "SITETITLE_": "Nad vinicami"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Horné Orešany",
+        "NATIONALSI": "94",
+        "SITETITLE_": "PR Lošonský háj"
+      },
+      {
+        "parcel_label": "Horné Orešany",
+        "NATIONALSI": "786",
+        "SITETITLE_": "CHA Všivavec"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Horné Orešany",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

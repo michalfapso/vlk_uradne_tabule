@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/022317",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": "2025-11-05",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen, SMSÚ Traťový obvod Jesenské",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Tisovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tisovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8369/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania / Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rimavská Sobota zverejnil informáciu o začatí konania na základe oznámenia Železníc Slovenskej republiky o výrube 17 kusov drevín na parcele C-KN 8369/1 v katastrálnom území Tisovec. Výrub je odôvodnený ohrozením železničnej infraštruktúry. Pre toto konanie podľa zákona o ochrane prírody a krajiny neplatia všeobecné predpisy o správnom konaní, čo znamená, že pre verejnosť nie je možné sa prihlásiť do konania.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "8369/1",
+        "registry_n": "SKUEV0282",
+        "site_name": "Tisovský kras",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "8369/1",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "8369/1",
+        "registry_n": "SKUEV0225",
+        "site_name": "Muránska planina",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "8369/1",
+        "NATIONALSI": "SKUEV0282",
+        "SITETITLE_": "Tisovský kras"
+      },
+      {
+        "parcel_label": "8369/1",
+        "NATIONALSI": "SKUEV0225",
+        "SITETITLE_": "Muránska planina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "8369/1",
+        "NATIONALSI": "1375",
+        "SITETITLE_": "CHA Tisovský kras"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "8369/1",
+        "NATIONALSI": "SKCHVU017",
+        "SITETITLE_": "Muránska planina - Stolica"
+      }
+    ]
+  }
+}

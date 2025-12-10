@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/037821",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Mesto Poprad",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Poprad",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišská Sobota",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2993/953",
+              "2993/563",
+              "3009/480",
+              "3222/67",
+              "2595/5",
+              "1902/1",
+              "2993/927",
+              "2993/928",
+              "2609/1",
+              "1794",
+              "211",
+              "2594/2",
+              "2545/1",
+              "2538/3",
+              "2735/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Poprad",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "7806/7"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "416/9",
+              "183/1",
+              "176/1",
+              "2830/1",
+              "2557"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Stráže pod Tatrami",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "450/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na žiadosť Mesta Poprad o vydanie súhlasu na výrub drevín rastúcich mimo lesa na viacerých parcelách v katastrálnych územiach Spišská Sobota, Poprad a Stráže pod Tatrami. Dôvodom výrubu je zlý zdravotný stav drevín. Verejnosť má 5 pracovných dní od zverejnenia informácie na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {}
+}

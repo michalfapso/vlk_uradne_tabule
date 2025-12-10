@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "SVP 1330/2025/32",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Myjava",
+    "obec": "Brestovec, Myjava, Brezová pod Bradlom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brestovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Myjava",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "30520"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Brezová pod Bradlom",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7862/1",
+              "7594"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Brestovský potok, Sviniarky, Žriedlovský potok"
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "CHKO Záhorie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jaseň",
+    "orech",
+    "jelša",
+    "agát biely",
+    "vŕba",
+    "javor horský",
+    "lipa"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, š.p. oznamuje Okresnému úradu Myjava plánovaný výrub drevín pri vodných tokoch Brestovský potok, Sviniarky a Žriedlovský potok v katastrálnych územiach Brestovec, Myjava a Brezová pod Bradlom, okr. Myjava. Ide o náletové a suché dreviny ako jaseň, jelša, agát, vŕba, javor a lipa, ktorých výrub odporučil dendrológ zo Správy CHKO Záhorie z dôvodu bezpečnosti a údržby.",
+  "zasiahnute_chranene_uzemia": {}
+}

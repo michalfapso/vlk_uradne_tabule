@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VELE, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zemianske Kostoľany",
+        "parcely": []
+      },
+      {
+        "nazov": "Vieska",
+        "parcely": []
+      },
+      {
+        "nazov": "Chalmová",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "VN linka č.1339"
+  },
+  "typ_dokumentu": "Oznámenie o výrube porastov",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube porastov v ochrannom pásme 22 kV vedenia na VN linke č. 1339 v katastrálnych územiach Zemianske Kostoľany, Vieska a Chalmová v Trenčianskom kraji, okres Prievidza.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Zemianske Kostoľany",
+        "NATIONALSI": "SKUEV0883",
+        "SITETITLE_": "Nitrické vrchy"
+      },
+      {
+        "parcel_label": "Vieska",
+        "NATIONALSI": "SKUEV0883",
+        "SITETITLE_": "Nitrické vrchy"
+      },
+      {
+        "parcel_label": "Chalmová",
+        "NATIONALSI": "SKUEV0883",
+        "SITETITLE_": "Nitrické vrchy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/013274-008",
+  "cislo_rozhodnutia": "OU-TO-OSZP-2025/013274-0044890/2025",
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Markandi s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Preseľany, Hrušovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Preseľany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "536/67",
+              "536/5",
+              "536/63",
+              "538/27",
+              "536/62",
+              "536/59",
+              "536/4",
+              "546/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hrušovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "550/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "HBV, IBV, komunikácie a inžinierske siete"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "rozšírenie verejného vodovodu",
+    "rozšírenie verejnej kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "výstavba komunikácií a inžinierskych sietí"
+  ],
+  "typ_uzemia": [
+    "nechránené",
+    "ochranné pásmo sietí elektronických komunikácií",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo verejného vodovodu",
+    "ochranné pásmo elektroenergetických zariadení"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "509/1991 Zb."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": "513/1991 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva vnútra SR O zabezpečení stavieb vodou na hasenie požiarov",
+      "zakon_cislo": "699/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Topoľčany vydal rozhodnutie o povolení vodnej stavby a osobitného užívania vôd pre rozšírenie verejného vodovodu, kanalizácie a dažďovej kanalizácie v obciach Preseľany a Hrušovany. Žiadateľom je Markandi s.r.o. Dokument konštatuje, že stavba sa nedotýka osobitne chránených častí prírody, ale vyžaduje dodržiavanie ochranných pásiem inžinierskych sietí a upozorňuje na možný výrub drevín a ochranu rastlín a živočíchov.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/023255",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Michalovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Michalovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Michalovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2902/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "3920"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "4645/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "4659/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "5315"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "3036/41"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "9467/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "lieska obyčajná",
+    "vŕba popolavá",
+    "lipa",
+    "smrek obyčajný",
+    "smrekovec opadavý",
+    "javor",
+    "cyprus",
+    "tuja západná"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce informuje o začatí správneho konania na žiadosť Mesta Michalovce o súhlas na výrub 13 drevín a krovín v katastrálnom území Michalovce. Dreviny (lieska, vŕba, lipa, smrek, smrekovec, javor, cyprus, tuja) ohrozujú bezpečnosť. Občianske združenia majú 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

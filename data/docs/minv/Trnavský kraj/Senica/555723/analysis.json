@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/020499-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom konaní, dňa 16. 12. 2025 o 09:30 hod."
+  },
+  "ziadatel_navrhovatel": "WERTIKA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Senica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senica",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "283",
+              "1-266"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "24289/1",
+              "24289/420",
+              "24289/21",
+              "24289/826",
+              "24289/829",
+              "24289/795",
+              "24289/933",
+              "24289/931",
+              "3787/742",
+              "3787/747",
+              "3787/261",
+              "3787/247",
+              "24289/835",
+              "24289/158",
+              "24289/477",
+              "24289/418",
+              "24289/419"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV VINOHRADY a IBV VINOHRADY II. Etapa"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o e-Governmente",
+      "zakon_cislo": "305/2013 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie kolaudačného konania pre výstavbu inžinierskych sietí (verejný vodovod a splašková kanalizácia) pre lokality IBV VINOHRADY a IBV VINOHRADY II. Etapa v meste Senica. Ústne pojednávanie je nariadené na 16. decembra 2025, kde môžu účastníci konania uplatniť svoje námietky a stanoviská.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2025/001580-023",
+  "cislo_rozhodnutia": "OU-BJ-OSZP-2025/001580-0050114/2025",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mesto Bardejov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Bardejov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dlhá Lúka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1266/14",
+              "1266/2",
+              "1266/9",
+              "1148/1",
+              "1266/8",
+              "1150/52",
+              "1150/53",
+              "1150/55",
+              "1267/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o prerušení konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "vypúšťanie odpadových vôd",
+    "výstavba komunikácií",
+    "výstavba inžinierskych sietí"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Bardejov o prerušení konania vo veci povolenia na uskutočnenie stavebného objektu \"SO 09 Dažďová kanalizácia\", ktorý je súčasťou stavby \"IBV Dlhá Lúka – komunikácie a inžinierske siete\", a povolenia na vypúšťanie vôd z povrchového odtoku do povrchových vôd. Žiadateľom je Mesto Bardejov a lokalita sa nachádza v katastrálnom území Dlhá Lúka, Bardejov. Konanie bolo prerušené z dôvodu nedostatkov v žiadosti, ktoré má žiadateľ odstrániť.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-SP-OSZP-2025/004592",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Mesto Stropkov",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Stropkov",
+    "obec": "Stropkov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stropkov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "442/9",
+              "486/1",
+              "484/1",
+              "1053/1",
+              "2398/10",
+              "681/1",
+              "1052/2",
+              "447/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Stropkov oznamuje začatie správneho konania o žiadosti Mesta Stropkov o súhlas na výrub drevín na viacerých parcelách v katastrálnom území Stropkov. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

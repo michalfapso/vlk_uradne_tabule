@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2025-11-30 13:14:57",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': None, 'cisla': ['45', '46', '47', '48']}' v katastrálnom území 'Považská Bystrica' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-30 13:14:57",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [{'nazov': 'Považská Bystrica', 'parcely': [{'typ': None, 'cisla': ['45', '46', '47', '48']}]}], 'nazov_lokality': 'pod el. vedením: 110 kV, vedenie č. 7702 TR: Považská Bystrica - Predmier'}"
+  },
+  {
+    "date": "2025-11-30 13:15:00",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

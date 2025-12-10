@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010149",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Dolná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7273",
+              "7471",
+              "7285",
+              "7284"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie konania o vydanie súhlasu na výrub 48 drevín (smrek obyčajný a buk lesný) rastúcich mimo zastavaného územia obce Dolná Lehota na pozemkoch typu trvalý trávny porast. Dôvodom výrubu je zlý zdravotný stav drevín. V konaní môžu byť dotknuté záujmy ochrany prírody a krajiny a verejnosť sa môže prihlásiť ako účastník konania do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/020179-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-24",
+  "datum_zverejnenia": "2025-10-24",
+  "lehoty_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "Obec Kúty, Obecný úrad Kúty, Nám. Radlinského 981, 908 01 Kúty",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Senica",
+    "obec": "Kúty",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kúty",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "12000"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "mimo zastavaného územia obce, v strede miestnej komunikácie"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "budovanie miestnej komunikácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba biela"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica oznamuje začatie správneho konania na žiadosť Obce Kúty o súhlas na výrub 4 ks vŕby bielej na parcele č. 12000 C-KN v k. ú. Kúty. Dôvodom výrubu je budovanie miestnej komunikácie. Záujemcovia sa môžu prihlásiť do konania do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

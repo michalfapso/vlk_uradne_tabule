@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2025/021617-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-24",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "SPP – distribúcia, a. s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Komárno",
+    "obec": "Kolárovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kolárovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "28445/37"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "28447/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "28451/743"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromov mimo správneho konania",
+  "typ_zasahu": [
+    "výrub stromov",
+    "ohrozenie energetických zariadení"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Komárno zverejňuje oznámenie od SPP – distribúcia, a. s. o nevyhnutnom výrube stromov na parcelách č. 28445/37, 28447/1, 28451/743 v katastrálnom území Kolárovo. Dôvodom výrubu je ohrozenie bezpečnosti a spoľahlivosti prevádzky energetických zariadení. Konanie prebieha mimo správneho konania a nie je možné sa do neho prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

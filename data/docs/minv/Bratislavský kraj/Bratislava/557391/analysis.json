@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/569220-002/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Rača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "17464/39"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v tesnej blízkosti trafostanice č. MTS 496-000"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správe a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje plánovaný výrub dreviny na pozemku parc. č. 17464/39 v k. ú. Rača, Bratislava, v blízkosti trafostanice č. MTS 496-000. Žiadateľom je spoločnosť Západoslovenská distribučná, a.s. prostredníctvom splnomocnenca VOMA – SK, spol. s.r.o., pričom dôvodom je poškodzovanie trafostanice konármi a koreňovým systémom. Dokument explicitne uvádza, že na toto konanie sa nevzťahujú predpisy o správnom konaní a nie je to informácia o začatom správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

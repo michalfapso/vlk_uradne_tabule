@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5813/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument upovedomuje o začatí správneho konania pre žiadosť o vydanie súhlasu na výrub drevín na parcele C-KN 5813/4 v katastrálnom území Brezno. Záujem byť zúčastnenou osobou je možné potvrdiť do 5 pracovných dní od zverejnenia, ktoré začalo 30.10.2025. Hoci sa odvoláva na zákon o ochrane prírody, v dokumente nie sú explicitne uvedené konkrétne chránené územia ani druhy živočíchov alebo rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

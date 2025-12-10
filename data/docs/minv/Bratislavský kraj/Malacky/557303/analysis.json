@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/025157-0060772/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Lozorno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lozorno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3317/15",
+              "3726/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "rekonštrukcia priepustu na poľnej ceste"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "rekonštrukcia priepustu",
+    "modernizácia železničnej trate"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky oznamuje začatie vodoprávneho konania pre žiadosť Železníc Slovenskej republiky o povolenie na rekonštrukciu priepustu na poľnej ceste v katastrálnom území Lozorno, ktorá je súčasťou modernizácie železničnej trate. Účastníci konania môžu podať námietky do 7 pracovných dní. Od ústneho pojednávania sa upúšťa.",
+  "zasiahnute_chranene_uzemia": {}
+}

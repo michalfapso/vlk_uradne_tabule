@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2025/015093",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 03. 12. 2025"
+  },
+  "ziadatel_navrhovatel": "Vladimír Kováč",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Vrbové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbové",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3194"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "smrekovec opadavý"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o začatí správneho konania vo veci výrubu 1 ks smrekovca opadavého v katastrálnom území Vrbové, okres Piešťany. Žiadateľom je Vladimír Kováč z Horných Vesteníc. Lehota na potvrdenie záujmu byť zúčastnenou osobou v konaní je do 03. 12. 2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

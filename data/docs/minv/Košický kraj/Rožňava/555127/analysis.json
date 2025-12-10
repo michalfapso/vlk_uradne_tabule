@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-RV-OSZP-2025/011764-0042136/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-31",
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "do 3 pracovných dní odo dňa doručenia tohto oznámenia",
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s., Košice, Komenského 50, 042 48 Košice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Rožňava",
+    "obec": "Gemerská Hôrka",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Gemerská Hôrka"
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "33",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebného zákona",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "32",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rožňava, odbor starostlivosti o životné prostredie, vydal verejnú vyhlášku týkajúcu sa kolaudačného konania pre vodnú stavbu „Gemerská Hôrka - rozšírenie a rekonštrukcia vodovodu“ žiadateľa Východoslovenská vodárenská spoločnosť, a.s. Účastníci konania majú možnosť vyjadriť sa k podkladom rozhodnutia do 3 pracovných dní od doručenia oznámenia. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani dotknuté živočíchy alebo rastliny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Gemerská Hôrka",
+        "NATIONALSI": "SKUEV0398",
+        "SITETITLE_": "Slaná"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Gemerská Hôrka",
+        "NATIONALSI": "SKCHVU027",
+        "SITETITLE_": "Slovenský kras"
+      }
+    ],
+    "UNESCO": [
+      {
+        "parcel_label": "Gemerská Hôrka",
+        "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+        "Kod_chrane": "UN01"
+      }
+    ]
+  }
+}

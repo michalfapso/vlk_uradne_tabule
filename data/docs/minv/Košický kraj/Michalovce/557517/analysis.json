@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/024323",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Michalovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Michalovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Michalovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "6377/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hrádok Michalovce"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce informuje o začatí správneho konania na žiadosť Mesta Michalovce o udelenie súhlasu na výrub 1800 m2 krovín na parcele č. E 6377/3 v katastrálnom území Michalovce, v lokalite Hrádok Michalovce. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

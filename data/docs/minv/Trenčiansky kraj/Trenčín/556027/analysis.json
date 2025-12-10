@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "2023/053740",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-04",
+  "datum_zverejnenia": "2023-11-13",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Soblahov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Soblahov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "698"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "5109/3"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "5139/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Soblahovský potok"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "CHKO Biele Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje Okresnému úradu Trenčín plánovaný výrub 4 kusov drevín (breza previsnutá, orech kráľovský) z brehového porastu Soblahovského potoka v obci Soblahov, na parcelách C-KN 698, 5109/3 a 5139/1. Dôvodom výrubu je riziko vyvrátenia drevín a poškodenia koryta vodného toku a priľahlých objektov. Oznámenie je určené na vedomie aj pre CHKO Biele Karpaty.",
+  "zasiahnute_chranene_uzemia": {}
+}

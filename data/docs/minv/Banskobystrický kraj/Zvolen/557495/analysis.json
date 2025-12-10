@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2025/023113-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Sliač",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Zvolen",
+    "obec": "Sliač",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rybáre",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "882/1",
+              "882/8",
+              "882/7",
+              "882/6",
+              "822/4"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "91305/2",
+              "1178/3",
+              "1176/2",
+              "1174/3",
+              "1172/9",
+              "1187/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Nová ulica"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "predĺženie platnosti stavebného povolenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o e-Govermente",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou o začatí vodoprávneho konania, ktorým Mesto Sliač žiada o predĺženie platnosti stavebného povolenia a termínu ukončenia vodnej stavby 'SLIAČ – KANALIZÁCIA NOVÁ ULICA' v katastrálnom území Rybáre. Účastníci konania môžu uplatniť námietky do 8 dní od doručenia oznámenia. V dokumente nie sú spomenuté žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

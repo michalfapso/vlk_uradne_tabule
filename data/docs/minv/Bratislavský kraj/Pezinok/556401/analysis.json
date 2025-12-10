@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/017136",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-05-16",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Budmerice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Budmerice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1410/26"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ biely"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok oznamuje začatie správneho konania o vydanie súhlasu na výrub jedného topoľa bieleho na parcele č. 1410/26 v katastrálnom území Budmerice, Bratislavský kraj. Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

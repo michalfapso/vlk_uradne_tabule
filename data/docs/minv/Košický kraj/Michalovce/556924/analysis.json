@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/023425",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Zalužice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zalužice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1274",
+              "1275",
+              "1276"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce informuje o začatí správneho konania vo veci žiadosti fyzickej osoby o súhlas na výrub 66 stromov (topoľ, čerešňa) a 2000 m2 krovín v katastrálnom území Zalužice na parcelách CKN 1274, 1275, 1276. Dôvodom je zlý zdravotný stav drevín a ohrozenie bezpečnosti a majetku. Zúčastnené osoby môžu potvrdiť záujem o účasť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

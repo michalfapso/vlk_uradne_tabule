@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/023884",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/003976",
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní od doručenia (posledného dňa vyvesenia rozhodnutia)"
+  },
+  "ziadatel_navrhovatel": "Trnavská vodárenská spoločnosť a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Kátlovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kátlovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "380/8",
+              "380/11",
+              "361/8"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "361/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Kátlovce, Lokalita 2.2 – 5 RD (10b.j.)"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie pre vodnú stavbu",
+  "typ_zasahu": [
+    "užívaniu vodnej stavby",
+    "prevádzka vodovodu",
+    "prevádzka splaškovej kanalizácie",
+    "odvádzanie splaškových odpadových vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorým sa menia a dopĺňajú zákony v pôsobnosti Ministerstva financií SR v súvislosti so zavedením meny euro v Slovenskej republike",
+      "zakon_cislo": "465/2008 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje kolaudačné rozhodnutie pre Trnavskú vodárenskú spoločnosť a. s., povoľujúce trvalé užívanie vodovodu a splaškovej kanalizácie v rámci projektu IBV Kátlovce, Lokalita 2.2 v obci Kátlovce, okres Trnava. Vodná stavba je určená na zásobovanie rodinných domov pitnou vodou a na hromadné odvádzanie splaškových odpadových vôd. V dokumente nie sú spomenuté žiadne chránené územia ani významné druhy živočíchov alebo rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

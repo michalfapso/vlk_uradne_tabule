@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "Z-NAF-011359/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "NAFTA a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Gbely",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gbely",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3345/1",
+              "334/6",
+              "3345/16"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Okolie plochy sondy Gbely G121"
+  },
+  "typ_dokumentu": "Oznámenie o uskutočnení výrubu",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť NAFTA a.s. oznamuje Okresnému úradu Skalica plánovaný výrub 5 topoľov v katastrálnom území Gbely, v okolí sondy Gbely G121. Výrub je potrebný z dôvodu ohrozenia bezpečnosti sondy a zabezpečenia priestoru pre budúce využitie alebo likvidáciu sondy.",
+  "zasiahnute_chranene_uzemia": {}
+}

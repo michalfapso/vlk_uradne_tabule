@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2025/023086-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Bajč",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Bajč",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bajč",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "432/1",
+              "539/2",
+              "539/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Chránené vtáčie územie",
+    "SKCHVU005 Dolné Považie",
+    "NATURA 2000",
+    "1. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "orech kráľovský",
+    "Juglans regia"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Komárno oznamuje začatie správneho konania o žiadosti Obce Bajč na výrub 11 kusov orechov kráľovských v katastrálnom území Bajč. Lokalita zásahu zasahuje do Chráneného vtáčieho územia SKCHVU005 Dolné Považie, ktoré je súčasťou sústavy NATURA 2000 a má 1. stupeň ochrany.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "432/1",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      },
+      {
+        "parcel_label": "539/3",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      },
+      {
+        "parcel_label": "539/2",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      }
+    ]
+  }
+}

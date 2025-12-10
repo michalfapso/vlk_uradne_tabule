@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/024495",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-09",
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Stretava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stretava",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1384/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "agát biely"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na základe žiadosti fyzickej osoby o udelenie súhlasu na výrub jedného stromu agátu bieleho na parcele EKN 1384/1 v katastrálnom území Stretava, okres Michalovce. Dôvodom výrubu je ohrozenie bezpečnosti a zlý zdravotný stav stromu. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {}
+}

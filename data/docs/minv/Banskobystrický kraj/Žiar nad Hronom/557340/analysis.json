@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/016066-0057257/2025",
+  "cislo_rozhodnutia": "OU-ZH-OSZP-2025/016066-0057257/2025",
+  "datum_dokumentu": "2025-12-01",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "OP Centrum Retail4 s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Žiar nad Hronom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žiar nad Hronom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1804/69",
+              "2034/1",
+              "719/28",
+              "2034/100",
+              "2034/97",
+              "722",
+              "1804/70",
+              "1804/43",
+              "1804/48",
+              "1804/71",
+              "1804/72",
+              "1804/41",
+              "2581",
+              "2582",
+              "2583"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "653/2",
+              "652/2",
+              "652/1",
+              "651/1",
+              "9-620/3",
+              "9-620/4",
+              "9-620/6",
+              "655/1",
+              "536/1",
+              "655/2",
+              "656/2",
+              "654/2",
+              "664/2",
+              "620/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obchodné centrum Žiar nad Hronom"
+  },
+  "typ_dokumentu": "kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "rozšírenie verejného vodovodu",
+    "rozšírenie verejnej splaškovej kanalizácie",
+    "dažďová kanalizácia a zberná šachta",
+    "dažďová kanalizácia - zaústenie do recipientu",
+    "úprava terénu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo cesty I/9",
+    "ochranné pásmo verejného vodovodu",
+    "ochranné pásmo verejnej kanalizácie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obchodne-centrum-ziar-nad-hronom111",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o pozemkových úpravách, usporiadaní pozemkového vlastníctva k pozemkom",
+      "zakon_cislo": "330/1991 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Kolaudačné rozhodnutie pre Obchodné centrum Žiar nad Hronom povoľuje užívanie vodných stavieb, konkrétne rozšírenie vodovodu a budovanie splaškovej a dažďovej kanalizácie. Dokument obsahuje podmienky prevádzky, opatrenia na zmiernenie vplyvov na životné prostredie, povinnosť sadových úprav a prvkov modrozelenej infraštruktúry, a tiež rieši rešpektovanie ochranných pásiem cesty a vodných stavieb. Neuvádzajú sa žiadne dotknuté chránené druhy ani územia špecifické pre ochranu prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

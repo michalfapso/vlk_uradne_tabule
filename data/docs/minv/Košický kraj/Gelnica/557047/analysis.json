@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-GL-OSZP-2025/001309",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": "2025-11-28",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Bernadeta Frankovičová",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Gelnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gelnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4587"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2481"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Sídlisko"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "breza",
+    "borovica"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je upovedomením o začatí konania o súhlase na výrub 2 ks drevín (breza, borovica) v katastrálnom území Gelnica, na verejnej zeleni sídliska. Žiadateľka odôvodňuje výrub alergiou a nestabilitou drevín. Občianske združenia majú možnosť potvrdiť záujem byť zúčastnenou osobou v konaní do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

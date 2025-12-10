@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/003853",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Beniakovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice – okolie",
+    "obec": "Beniakovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vajkovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1404/1",
+              "434/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Budimír",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "613"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Beniakovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1241/1",
+              "3081/1",
+              "1231/1",
+              "1171/1",
+              "1231/1",
+              "3081/1",
+              "1231/1",
+              "1232/59",
+              "1232/83",
+              "1232/141",
+              "1227/2",
+              "1226/32",
+              "1226/40",
+              "360/1",
+              "860/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1224",
+              "1235/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zásobovanie vodou Beniakovce"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba vodojemu"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o chránených oblastiach prirodzenej akumulácie vôd",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom k navrhovanej stavbe „Zásobovanie vodou Beniakovce“, ktorá spočíva v dobudovaní vodovodného systému pre nové rozvojové lokality obcí Beniakovce, Budimír a Vajkovce v Košickom kraji. Stanovisko konštatuje, že stavba nevyžaduje výnimku z environmentálnych cieľov podľa vodného zákona a nezasahuje do chránených území prírody a krajiny ani do chránených vodohospodárskych oblastí.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1232/141",
+        "NATIONALSI": "SKUEV4007",
+        "SITETITLE_": "Dolný tok Torysy"
+      },
+      {
+        "parcel_label": "1235/1",
+        "NATIONALSI": "SKUEV4007",
+        "SITETITLE_": "Dolný tok Torysy"
+      }
+    ]
+  }
+}

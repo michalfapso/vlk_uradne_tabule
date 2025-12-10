@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/016893-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "NAFTA a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Kravany, Parchovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kravany",
+        "parcely": []
+      },
+      {
+        "nazov": "Parchovany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vrtov"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike a o doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od spoločnosti NAFTA a.s. o plánovanom výrube drevín rastúcich mimo lesa v katastrálnych územiach Kravany a Parchovany, okres Trebišov. Výrub je odôvodnený z dôvodu zabezpečenia bezpečnosti energetických zariadení v ochrannom pásme vrtov. Všeobecné predpisy o správnom konaní sa na toto konanie nevzťahujú.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Parchovany",
+        "NATIONALSI": "SKUEV0841",
+        "SITETITLE_": "Dolný tok Tople"
+      },
+      {
+        "parcel_label": "Parchovany",
+        "NATIONALSI": "SKUEV0841",
+        "SITETITLE_": "Dolný tok Tople"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Kravany",
+        "NATIONALSI": "SKCHVU025",
+        "SITETITLE_": "Slanské vrchy"
+      },
+      {
+        "parcel_label": "Kravany",
+        "NATIONALSI": "SKCHVU025",
+        "SITETITLE_": "Slanské vrchy"
+      },
+      {
+        "parcel_label": "Parchovany",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      },
+      {
+        "parcel_label": "Parchovany",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      }
+    ]
+  }
+}

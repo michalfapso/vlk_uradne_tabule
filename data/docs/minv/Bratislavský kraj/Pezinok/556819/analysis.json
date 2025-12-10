@@ -1,0 +1,120 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/000649-029",
+  "cislo_rozhodnutia": "OU-PK-OSZP-2025/000649-029",
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-10-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Hydrotech a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Vinosady",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malé Tŕnie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "424/1",
+              "424/77",
+              "424/78",
+              "424/38",
+              "430/2",
+              "435/3",
+              "900",
+              "904",
+              "424/98",
+              "424/99",
+              "424/100",
+              "424/101",
+              "424/102",
+              "424/103",
+              "424/104",
+              "424/105",
+              "424/106",
+              "424/107",
+              "424/108",
+              "424/109",
+              "424/111",
+              "424/112",
+              "424/113",
+              "424/114",
+              "424/115"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "431/113"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytná zóna Hrubá roľa II – technická infraštruktúra"
+  },
+  "typ_dokumentu": "Stavebné povolenie (vodná stavba) a verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba obytnej zóny",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba cestnej komunikácie",
+    "výstavba lávky pre peších",
+    "preložka inžinierskych sietí"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "pobrežné pozemky vodného toku Trniansky potok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane pamiatkového fondu (pamiatkový zákon)",
+      "zakon_cislo": "49/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Pezinok vydáva povolenie na uskutočnenie vodných stavieb, ktoré sú súčasťou projektu 'Obytná zóna Hrubá roľa II – technická infraštruktúra' v katastrálnom území Malé Tŕnie, obec Vinosady. Projekt zahŕňa výstavbu splaškovej kanalizácie, prečerpávacej šachty, vodovodu, preložky obecnej kanalizácie a úpravy prípojok. Lokalita sa nachádza v 1. stupni ochrany prírody a krajiny a dotýka sa pobrežných pozemkov Trnianskeho potoka, pričom stavebník musí pri realizácii dbať na ochranu koreňových systémov stromov a minimalizovať vplyvy na životné prostredie.",
+  "zasiahnute_chranene_uzemia": {}
+}

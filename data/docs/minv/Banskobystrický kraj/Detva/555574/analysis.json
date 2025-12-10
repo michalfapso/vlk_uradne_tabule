@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001419",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-07",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Slatinské Lazy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slatinské Lazy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "384",
+              "385/1",
+              "897/1",
+              "363/1",
+              "213"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "71/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochrana prírody a krajiny"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín na parcelách v katastrálnom území Slatinské Lazy, okres Detva. Konanie sa vedie podľa Zákona o ochrane prírody a krajiny, čo naznačuje dotknutie záujmov ochrany prírody. Lehota na vyjadrenie nie je v dokumente explicitne uvedená.",
+  "zasiahnute_chranene_uzemia": {}
+}

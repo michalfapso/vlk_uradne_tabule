@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/011682-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Royal Trading Ltd. s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Zohor",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zohor",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "848/5",
+              "10434/1",
+              "231/2",
+              "10435/2",
+              "10433/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Benátky"
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "rozšírenie verejnej kanalizácie",
+    "vodná stavba"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického zariadenia",
+    "ochranné pásmo plynárenského zariadenia",
+    "ochranné pásmo telekomunikačného vedenia",
+    "ochranné pásmo vodovodu a kanalizácie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Trestný zákon",
+      "zakon_cislo": "300/2005 Z.z."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "250/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie na rozšírenie verejnej kanalizácie pre žiadateľa Royal Trading Ltd. s.r.o. v obci Zohor, katastrálne územie Zohor. Činnosť sa dotýka parciel C KN 848/5, 10434/1, 231/2, 10435/2, 10433/1 v lokalite Benátky a nachádza sa v ochranných pásmach rôznych inžinierskych sietí. Dokument tiež upozorňuje na potrebu súhlasu pre prípadný výrub drevín.",
+  "zasiahnute_chranene_uzemia": {}
+}

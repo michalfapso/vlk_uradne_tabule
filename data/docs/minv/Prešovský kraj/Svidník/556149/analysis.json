@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-SK-OSZP-2025/006231-008",
+  "cislo_rozhodnutia": "OU-SK-OSZP-2025/006231-008",
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": "2025-11-17",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na tomto konaní (26. 09. 2025)"
+  },
+  "ziadatel_navrhovatel": "Obec Soboš, Soboš 12, 090 42 Okrúhle, IČO: 00330965",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Svidník",
+    "obec": "Soboš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Soboš",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "174",
+              "175",
+              "177/1",
+              "177/2",
+              "179",
+              "191",
+              "196/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "11",
+              "1042"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "užívánie vodnej stavby",
+    "prepojenie vodovodnej siete"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je kolaudačným rozhodnutím pre vodnú stavbu „Obec Soboš – vodovod, Prepojenie vodovodnej siete“, ktorá bola zrealizovaná v katastrálnom území Soboš na viacerých parcelách KN-C a KN-E. Cieľom stavby je zabezpečiť spoľahlivé zásobovanie obyvateľov pitnou vodou. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani významné druhy živočíchov alebo rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

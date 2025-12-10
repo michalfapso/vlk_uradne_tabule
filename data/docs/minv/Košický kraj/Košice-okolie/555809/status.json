@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2025-11-17 00:32:14",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['575']}' v katastrálnom území 'Kalša' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:14",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C-KN', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:20",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['331']}' v katastrálnom území 'Rákoš' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:20",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:23",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['2340']}' v katastrálnom území 'Skároš' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:23",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:26",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['2350']}' v katastrálnom území 'Vyšná Myšľa' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:26",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:29",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['791']}' v katastrálnom území 'Nižná Myšľa' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:29",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:32",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['319']}' v katastrálnom území 'Belža' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-17 00:32:32",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Slanské Nové Mesto', 'parcely': [{'typ': 'C', 'cisla': ['1680']}]}, {'nazov': 'Kalša', 'parcely': [{'typ': 'C-KN', 'cisla': ['575']}]}, {'nazov': 'Slanec', 'parcely': [{'typ': 'C', 'cisla': ['1213', '942', '1147']}]}, {'nazov': 'Rákoš', 'parcely': [{'typ': 'C-KN', 'cisla': ['331']}]}, {'nazov': 'Skároš', 'parcely': [{'typ': 'C-KN', 'cisla': ['2340']}]}, {'nazov': 'Vyšná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['2350']}]}, {'nazov': 'Nižná Myšľa', 'parcely': [{'typ': 'C-KN', 'cisla': ['791']}]}, {'nazov': 'Belža', 'parcely': [{'typ': 'C-KN', 'cisla': ['319']}]}, {'nazov': None, 'parcely': [{'typ': 'C-KN', 'cisla': ['1255']}]}, {'nazov': 'Vyšný Lánec', 'parcely': [{'typ': 'C-KN', 'cisla': ['294']}]}, {'nazov': 'Perín', 'parcely': [{'typ': 'C-KN', 'cisla': ['4546']}]}, {'nazov': 'Mokrance', 'parcely': [{'typ': 'C-KN', 'cisla': ['5877']}]}, {'nazov': 'Dvorníky', 'parcely': [{'typ': 'C-KN', 'cisla': ['2022']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-11-17 00:32:32",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 555809 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=555809): Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:Košice-okolie, obec:None, katastralneUzemie:None"
+  }
+]

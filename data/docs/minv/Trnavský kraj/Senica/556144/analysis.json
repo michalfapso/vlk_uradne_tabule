@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/021008-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Sobotište",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Sobotište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sobotište",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o oznámení",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica zverejňuje informáciu o oznámení plánovaného výrubu jedného kusu agátu v katastrálnom území Sobotište. Žiadateľom je Obec Sobotište a dôvodom je zabezpečenie prejazdnosti vozidiel nákladnej dopravy k stavebným pozemkom. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní, čím je vylúčená štandardná účasť verejnosti.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Sobotište",
+        "NATIONALSI": "SKUEV0804",
+        "SITETITLE_": "Javorec"
+      },
+      {
+        "parcel_label": "Sobotište",
+        "NATIONALSI": "SKUEV0900",
+        "SITETITLE_": "Uchánok"
+      }
+    ]
+  }
+}

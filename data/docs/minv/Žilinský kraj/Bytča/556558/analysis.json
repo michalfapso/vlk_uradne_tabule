@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2025/001471-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia."
+  },
+  "ziadatel_navrhovatel": "Severoslovenské vodárne a kanalizácie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Bytča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3493/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3493/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Družstevná ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia a upustenie od ústneho pojednávania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie vodovodu"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bytča oznamuje začatie konania o predĺžení platnosti stavebného povolenia pre Severoslovenské vodárne a kanalizácie, a.s. na rozšírenie vodovodu v Bytči, konkrétne na Družstevnej ulici v katastrálnom území Veľká Bytča. Pôvodná stavba, klasifikovaná ako vodná stavba, ešte nebola začatá a konanie zahŕňa upustenie od ústneho pojednávania. Účastníci konania môžu uplatniť námietky do 7 pracovných dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

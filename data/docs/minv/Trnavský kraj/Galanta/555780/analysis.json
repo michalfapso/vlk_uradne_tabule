@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "ORBA POO 105",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LADISLAV PETROVIČ a Daniela Petrovičová",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "GALANTA",
+    "katastralne_uzemia": [
+      {
+        "nazov": "GALANTA",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1157/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Žiadosť",
+  "typ_zasahu": [
+    "výrub dreviny"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR",
+      "zakon_cislo": "24/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon NR SR",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť o súhlas na výrub 32 stromov (orechov) v katastrálnom území Galanta, Trnavský kraj. Dôvodom výrubu je ich zlý zdravotný stav (vyschnuté, polámané) a ohrozenie osôb a parkujúcich vozidiel.",
+  "zasiahnute_chranene_uzemia": {}
+}

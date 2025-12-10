@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/024496",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-09",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Fyzické osoby",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Stráňany, Vinné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stráňany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1601/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vinné",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5148"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na základe žiadosti o udelenie súhlasu na výrub 42 stromov (topoľ, dub, čerešňa, agát, lieska, hrab) v katastrálnych územiach Stráňany a Vinné, okres Michalovce. Dôvodom výrubu je zasahovanie stromov do ochranného pásma elektrického vedenia. Občianske združenia majú možnosť prihlásiť sa do konania do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

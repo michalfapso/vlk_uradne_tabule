@@ -1,0 +1,110 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-21",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., OZ Ružomberok, Povodie horného Váhu, stredisko Podtureň",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Liptovský Peter, Vavrišovo, Pribylina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Peter",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4436/6",
+              "4435/5",
+              "4434/4",
+              "4436/3",
+              "4436/2",
+              "4436/1",
+              "443",
+              "2396"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vavrišovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "160/2",
+              "229/12",
+              "2229/11",
+              "2229/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pribylina",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "11141/503",
+              "11146/501"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "11146"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Mlynsky potok, Rakytínsky potok, Suchý hrádok, Suchý jarok"
+  },
+  "typ_dokumentu": "Žiadosť o výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "prečistenie vodného toku",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Vŕba krehká",
+    "Jelša sivá",
+    "Vŕbový porast",
+    "Jelšový porast"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [],
+  "zhrnutie": "Žiadosť o súhlas na výrub drevín a krovitých porastov podaná Slovenským vodohospodárskym podnikom, š.p., v katastrálnych územiach Liptovský Peter, Vavrišovo a Pribylina. Dôvodom je prečistenie vodných tokov (Mlynsky potok, Rakytínsky potok, Suchý hrádok, Suchý jarok) a uvoľnenie prietočného profilu, ako aj zlepšenie podmienok pre výlov a zarybnenie pôvodnými druhmi rýb. Dotknuté sú Vŕba krehká a Jelša sivá.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "2396",
+        "NATIONALSI": "SKUEV0141",
+        "SITETITLE_": "Belá"
+      },
+      {
+        "parcel_label": "4436/6",
+        "NATIONALSI": "SKUEV0141",
+        "SITETITLE_": "Belá"
+      },
+      {
+        "parcel_label": "11141/503",
+        "NATIONALSI": "SKUEV0306",
+        "SITETITLE_": "Pod Suchým hrádkom"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "11141/503",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

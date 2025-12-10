@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/017504-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP-distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Trebišov, Zemplínske Hradište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trebišov",
+        "parcely": []
+      },
+      {
+        "nazov": "Zemplínske Hradište",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z.z. o ochrane prírody a krajiny",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike a o doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie o plánovanom výrube drevín a krovitých porastov spoločnosťou SPP-distribúcia, a.s. v katastrálnych územiach Trebišov a Zemplínske Hradište. Dôvodom je zabezpečenie bezpečnosti a spoľahlivosti prevádzky plynovodu. Na konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "Trebišov",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      },
+      {
+        "parcel_label": "Trebišov",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      },
+      {
+        "parcel_label": "Zemplínske Hradište",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      },
+      {
+        "parcel_label": "Zemplínske Hradište",
+        "NATIONALSI": "SKCHVU037",
+        "SITETITLE_": "Ondavská rovina"
+      }
+    ]
+  }
+}

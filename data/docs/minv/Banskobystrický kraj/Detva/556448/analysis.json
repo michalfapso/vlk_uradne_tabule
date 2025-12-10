@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001259",
+  "cislo_rozhodnutia": "OU-DT-OSZP-2025/001259-013",
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": "2025-01-23",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia odvolanie"
+  },
+  "ziadatel_navrhovatel": "NCH SLOVAKIA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Dúbravy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dúbravy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1267"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Servisná jednotka PURE SOLVE SK - Detva"
+  },
+  "typ_dokumentu": "ZÁVÄZNÉ STANOVISKO ZO ZISŤOVACIEHO KONANIA",
+  "typ_zasahu": [
+    "zber nebezpečných odpadov",
+    "skladovanie nebezpečných látok",
+    "nakladanie s odpadmi"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/servisna-jednotka-pure-solve-sk-detva",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "o poplatkoch za znečisťovanie ovzdušia",
+      "zakon_cislo": "190/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko zo zisťovacieho konania pre zmenu činnosti 'Servisná jednotka PURE SOLVE SK - Detva' (zber a skladovanie nebezpečných odpadov a chemikálií) v obci Dúbravy, okres Detva. Okresný úrad Detva rozhodol, že činnosť sa nebude ďalej posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie, ale stanovil podmienky na zabránenie znečisťovania životného prostredia. Územie sa nachádza v 1. stupni ochrany prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

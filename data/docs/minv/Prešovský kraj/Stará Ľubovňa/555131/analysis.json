@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-SL-OSZP-2025/012499",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-31",
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "stanoviská verejnosti k oznámeniu o strategickom dokumente „Územný plán obce Údol” je možné predkladať najneskôr do 15 dní od zverejnenia",
+  "ziadatel_navrhovatel": "Obec Údol",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Stará Ľubovňa",
+    "obec": "Údol",
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o strategickom dokumente",
+  "typ_zasahu": [
+    "vypracovanie územného plánu obce",
+    "územný rozvoj obce"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-udol",
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou o strategickom dokumente 'Územný plán obce Údol', ktorý má navrhnúť koncepciu územného rozvoja obce Údol v Prešovskom kraji. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia. Navrhovaný dokument podlieha povinnému hodnoteniu vplyvov na životné prostredie podľa zákona č. 24/2006 Z. z.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Údol",
+        "NATIONALSI": "SKUEV0951",
+        "SITETITLE_": "Stredný tok Popradu"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Údol",
+        "NATIONALSI": "672",
+        "SITETITLE_": "PP Údolské skalky"
+      }
+    ]
+  }
+}

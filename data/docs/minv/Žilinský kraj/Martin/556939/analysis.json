@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023055",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Martin",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4366/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ľavý breh toku Turiec, rkm 6,500"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania na vydanie stanoviska",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o začatí konania na vydanie stanoviska k výrubu drevín na pozemku parc. č. C 4366/2 v katastrálnom území Martin, na ľavom brehu toku Turiec. Žiadateľom je Slovenský vodohospodársky podnik. Konanie má informatívny charakter a nie je možné sa do neho prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

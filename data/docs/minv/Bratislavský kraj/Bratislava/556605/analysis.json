@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "HOTIS RECYCLING SLOVAKIA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9193/414"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Prístav Bratislava"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o zisťovacom konaní",
+  "typ_zasahu": [
+    "zhodnocovanie kovových odpadov",
+    "inštalácia nového kladivového mlyna",
+    "zvýšenie kapacity"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o začatom zisťovacom konaní k zmene navrhovanej činnosti. Žiadateľ, HOTIS RECYCLING SLOVAKIA s.r.o., plánuje zvýšenie kapacity zariadenia na zhodnocovanie kovových odpadov v lokalite Prístav Bratislava v katastrálnom území Nivy, Bratislava - Ružinov. Zmena zahŕňa inštaláciu nového kladivového mlyna a zvýšenie ročnej kapacity spracovania kovových odpadov na 180 000 ton. Dokument nespomína žiadne chránené územia ani špecifické živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

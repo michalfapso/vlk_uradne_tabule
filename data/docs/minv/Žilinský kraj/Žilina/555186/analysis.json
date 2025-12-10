@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2025/002119-031/Bal",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Optima Finance s. r. o",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žilina",
+    "obec": "Terchová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Terchová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "16404/382",
+              "16404/383"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Horská osada Tížinka"
+  },
+  "typ_dokumentu": "Zverejnenie žiadosti",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://enviroportal.sk/eia/detail/horska-osada-tizinka",
+  "paragrafy": [
+    {
+      "paragraf": "38",
+      "odsek": "(2)",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žilina zverejňuje žiadosť spoločnosti Optima Finance s.r.o. o súhlas na výrub drevín a krovitého porastu v katastrálnom území Terchová, na parcelách C-KN 16404/382 a 16404/383. Dokument, ktorý sa týka obnovy výrubového konania, odkazuje na záverečné stanovisko pre lokalitu „Horská osada Tížinka“ dostupné na enviroportal.sk.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "16404/383",
+        "NATIONALSI": "SKUEV0252",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "16404/382",
+        "NATIONALSI": "SKUEV0252",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "16404/383",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "16404/382",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "0993377/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Veolia Energia Slovensko, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislava",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1950"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ulici Znievska 12/14"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výkopové práce"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "17",
+      "odsek": "12",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR o vykonávaní zákona o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti Veolia Energia Slovensko, a.s. o plánovanom výrube dvoch borovíc na ulici Znievska 12/14 v MČ Bratislava - Petržalka, katastrálne územie Petržalka, parcela C 1950. Dôvodom výrubu je havarijný stav teplovodného potrubia v ochrannom pásme. Výrub je oznámený podľa §47 ods. 7 zákona č. 543/2002 Z.z.",
+  "zasiahnute_chranene_uzemia": {}
+}

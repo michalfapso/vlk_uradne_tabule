@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023056",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Bystrička",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystrička",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "928/1",
+              "925/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Valaský potok a Bystrička"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub stromov",
+    "výrub krovitého porastu"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, š. p. oznamuje výrub drevín a krovitého porastu na parcelách CKN 928/1 a 925/4 v katastrálnom území Bystrička, konkrétne na brehoch Valaského potoka a toku Bystrička. Konanie prebieha podľa zákona o ochrane prírody a krajiny, má informatívny charakter a do konania sa nemožno prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2025/022390-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Hronská Breznica",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Zvolen",
+    "obec": "Hronská Breznica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hronská Breznica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "412/3",
+              "311/1",
+              "412/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "62",
+              "63",
+              "64",
+              "65",
+              "515/6",
+              "515/19",
+              "486/1",
+              "485/1",
+              "126/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hronská Breznica – kanalizácia a ČOV"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Upovedomenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "predĺženie platnosti stavebného povolenia",
+    "predĺženie termínu ukončenia stavby",
+    "výstavba kanalizácie",
+    "výstavba čistiarne odpadových vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o e-Governmente",
+      "zakon_cislo": "272/2016 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je verejná vyhláška, ktorá upovedomuje o začatí vodoprávneho konania pre predĺženie platnosti stavebného povolenia a termínu ukončenia vodnej stavby „Hronská Breznica – kanalizácia a ČOV“ v obci Hronská Breznica, okres Zvolen. Ide o výstavbu splaškovej kanalizácie a čistiarne odpadových vôd. V dokumente nie sú spomenuté žiadne chránené územia ani druhy živočíchov či rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

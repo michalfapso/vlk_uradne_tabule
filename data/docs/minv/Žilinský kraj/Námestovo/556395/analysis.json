@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/022787-006",
+  "cislo_rozhodnutia": "OU-NO-OSZP-2025/022787-0081448/2025",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Jakub Novák JN SERVIS a DIELY",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Bobrov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bobrov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "578/49"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba haly",
+    "výstavba spevnených plôch",
+    "výstavba kanalizácie",
+    "vsakovanie vôd",
+    "vypúšťanie vôd z povrchového odtoku",
+    "nakladanie s ropnými látkami"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia",
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je kolaudačné rozhodnutie pre stavbu \"Hala a spevnené plochy – Autorizované pracovisko na zber a spracovanie starých vozidiel a odpadov z elektrozariadení\" v obci Bobrov. Povoľuje sa užívanie dažďovej kanalizácie a vsakovacieho bloku, vrátane vypúšťania vôd z povrchového odtoku do podzemných vôd po prečistení v odlučovači ropných látok. Stavba bola posudzovaná podľa zákona EIA a nie je spomenuté umiestnenie v chránenom území ani dotknuté významné živočíchy/rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

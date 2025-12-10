@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2025/051236-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": "2025-12-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Nitra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zobor",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2197/1",
+              "2197/2",
+              "2327/1",
+              "2328/3",
+              "4457/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1-3183",
+              "1-3153/101"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "4457/129"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Oravská ulica"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho a stavebného konania pre prekládku verejnej kanalizácie a výstavbu šiestich kanalizačných šácht v Nitre, v katastrálnom území Zobor, lokalita Oravská ulica. Žiadateľom je Západoslovenská vodárenská spoločnosť, a.s. Účastníci konania môžu podať námietky a pripomienky najneskôr do 7 pracovných dní odo dňa doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

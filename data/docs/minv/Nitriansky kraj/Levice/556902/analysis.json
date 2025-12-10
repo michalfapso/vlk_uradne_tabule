@@ -1,0 +1,134 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/021851-006",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2025/021851-0071468/2025",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa jeho doručenia (odvolanie)"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Šahy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "k. ú. Šahy",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2497/12"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "686/10",
+              "1633/3",
+              "1636",
+              "1642",
+              "1643"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Hlavné námestie"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "typ_zasahu": [
+    "obnova vodovodu",
+    "rekonštrukcia vodovodu",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo podzemných vedení",
+    "ochranné pásmo elektrických vedení",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo sietí elektronických komunikácií"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "chránené druhy živočíchov"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška o štruktúre a prevádzke informačného systému územného plánovania a výstavby",
+      "zakon_cislo": "60/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky",
+      "zakon_cislo": "230/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o technických požiadavkách na výrobky",
+      "zakon_cislo": "436/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Levice vydal rozhodnutie o stavebnom zámere pre Západoslovenskú vodárenskú spoločnosť, a.s. na obnovu vodovodu v meste Šahy, na Hlavnom námestí a priľahlých pozemkoch. Projekt zahŕňa rekonštrukciu a výstavbu vodovodného potrubia a podmieňuje dodržiavanie ochranných pásiem inžinierskych sietí a ochranu drevín a chránených druhov živočíchov podľa zákona o ochrane prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

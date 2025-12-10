@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2025/054627-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "Obec Krivoklát",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Krivoklát",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krivoklát",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "536/502"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "396/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Drieňová"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "pohyb mimo vyznačených turistických a náučných chodníkov",
+    "prechod cez chránené územie"
+  ],
+  "typ_uzemia": [
+    "Prírodná rezervácia Drieňová",
+    "5. stupeň ochrany prírody",
+    "ochranné pásmo prírodnej rezervácie",
+    "3. stupeň ochrany prírody",
+    "Chránená krajinná oblasť Biele Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trenčín oznamuje začatie správneho konania k žiadosti Obce Krivoklát o výnimku zo zákazu pohybu mimo vyznačených turistických a náučných chodníkov v Prírodnej rezervácii Drieňová. Žiadosť sa týka jednorazového Silvestrovského výstupu skupiny občanov na vrch Drieňová, ktorá je v území s piatym stupňom ochrany prírody a v jej ochrannom pásme s tretím stupňom ochrany.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "536/502",
+        "registry_n": "SKUEV0373",
+        "site_name": "Krivoklátske bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "396/1",
+        "registry_n": "SKUEV0373",
+        "site_name": "Krivoklátske bradlá",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "536/502",
+        "NATIONALSI": "SKUEV0373",
+        "SITETITLE_": "Krivoklátske bradlá"
+      },
+      {
+        "parcel_label": "396/1",
+        "NATIONALSI": "SKUEV0373",
+        "SITETITLE_": "Krivoklátske bradlá"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "536/502",
+        "NATIONALSI": "1033",
+        "SITETITLE_": "PR Drieňová"
+      },
+      {
+        "parcel_label": "396/1",
+        "NATIONALSI": "1033",
+        "SITETITLE_": "PR Drieňová"
+      }
+    ]
+  }
+}

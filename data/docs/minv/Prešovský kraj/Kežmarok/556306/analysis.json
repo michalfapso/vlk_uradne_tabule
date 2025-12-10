@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-KK-OSZP-2025/018875-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "6 dní"
+  },
+  "ziadatel_navrhovatel": "Spoločnosť FORBEST, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Kežmarok",
+    "obec": "Veľká Lomnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Lomnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4378/7",
+              "4378/48",
+              "4378/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "2. stupeň ochrany prírody"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Vŕba biela"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania o vydanie súhlasu na výrub 9 kusov Vŕby bielej, ktoré podala spoločnosť FORBEST, s.r.o. Výrub sa má uskutočniť v extraviláne obce Veľká Lomnica na parcelách C-KN 4378/7, 4378/48, 4378/8, a to na území s druhým stupňom ochrany prírody. Verejnosť má 6 dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/079812-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "do: 06. 11. 2025 (pre potvrdenie záujmu byť zúčastnenou osobou)",
+  "ziadatel_navrhovatel": "Obec Malženice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Malženice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malženice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokumentom je upovedomenie Okresného úradu Trnava o začatí správneho konania dňa 28. 10. 2025 vo veci vydania súhlasu na výrub drevín. Žiadateľom je Obec Malženice, a výrub sa má uskutočniť v katastrálnom území Malženice v zastavanom aj mimo zastavaného územia obce. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je do 06. 11. 2025.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "Malženice",
+        "NATIONALSI": "SKCHVU054",
+        "SITETITLE_": "Špačinsko-nižnianske polia"
+      }
+    ]
+  }
+}

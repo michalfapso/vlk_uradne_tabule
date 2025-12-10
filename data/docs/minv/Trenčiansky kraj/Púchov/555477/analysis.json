@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OÚP/2021/0010671",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2021-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Púchov, Beluša, Visolaje",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Púchov",
+        "parcely": []
+      },
+      {
+        "nazov": "Beluša",
+        "parcely": []
+      },
+      {
+        "nazov": "Visolaje",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pod el. vedením TR: 421/77774 Ladoi-Pabistrica, v oblasti Púchov, Beluša, Nová Dubnica, Dubnica, Ilava"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie a okliešťovanie porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "11",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením od spoločnosti ENZA s.r.o. o nevyhnutnom výrube náletových drevín a iných porastov v ochrannom pásme elektrického vedenia TR: 421/77774 Ladoi-Pabistrica. Výrub sa uskutoční v katastrálnych územiach Púchov, Beluša a Visolaje v Trenčianskom kraji, okrese Púchov, v období od 14.11.2021 do 30.11.2021. Činnosť je odôvodnená zabezpečením plynulej a bezporuchovej prevádzky energetických zariadení v zmysle Zákona o energetike a Zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Beluša",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Beluša",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

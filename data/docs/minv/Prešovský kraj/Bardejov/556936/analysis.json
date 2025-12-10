@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2025/017939",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": "2025-11-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Ing. Ivan Jacenko",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Stebník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stebník",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "673/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bardejov oznamuje začatie správneho konania na žiadosť Ing. Ivana Jacenka o vydanie súhlasu na výrub 3 kusov stromov na parcele č. 673/4 v katastrálnom území Stebník, okres Bardejov. Účasť v konaní je pre verejnosť povolená, lehota na vyjadrenie je 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

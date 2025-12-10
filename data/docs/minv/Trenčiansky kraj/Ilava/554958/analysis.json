@@ -1,0 +1,452 @@
+{
+  "cislo_konania_spisu": "/41753/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-14",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Národná diaľničná spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Ilava",
+    "obec": "Ilava, Beluša",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "D1 Ilava – D1 Križovatka Beluša od km 145 po km 157 obojsmerne"
+  },
+  "typ_dokumentu": "Oznámenie o vykonaní prác",
+  "typ_zasahu": [
+    "prerezávky drevinných porastov",
+    "odstraňovanie suchých vetiev",
+    "vyčistenie plôch",
+    "odstraňovanie vyvrátených stromov",
+    "rezy konárov listnatých drevín",
+    "odstraňovanie mladých stromových náletových druhov",
+    "odstraňovanie inváznych rastlinných druhov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "chránené živočíchy",
+    "hniezdiace vtáky"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Cestný zákon",
+      "zakon_cislo": "135/1961 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "24/2003 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Novela zákona o ochrane prírody a krajiny",
+      "zakon_cislo": "202/2024 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Národná diaľničná spoločnosť, a.s. oznamuje Okresnému úradu Ilava plánované vykonávanie údržbových prác na vegetačných krytoch diaľnice D1 medzi Ilavou a križovatkou Beluša (km 145-157) v období od 1.11.2025 do 28.2.2026. Práce zahŕňajú prerezávky drevín, odstraňovanie suchých vetiev, vyvrátených stromov, náletových drevín a inváznych rastlín, s ohľadom na druhovú ochranu chránených živočíchov, najmä hniezdiacich vtákov, a v súlade so zákonom o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Bolešov",
+        "registry_n": "880",
+        "site_name": "Dračia studňa",
+        "category_i": 4.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "registry_n": "433",
+        "site_name": "Strošovský močiar",
+        "category_i": 4.0
+      },
+      {
+        "parcel_label": "Dubnica nad Váhom",
+        "registry_n": "SKUEV0811",
+        "site_name": "Omšenská Baba",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Horná Poruba",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Horná Poruba",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kopec",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kopec",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "registry_n": "SKUEV0373",
+        "site_name": "Krivoklátske bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "registry_n": "880",
+        "site_name": "Dračia studňa",
+        "category_i": 4.0
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "registry_n": "SKUEV0376",
+        "site_name": "Vršatské bradlá",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zliechov",
+        "registry_n": "1101",
+        "site_name": "Zliechovský močiar",
+        "category_i": 4.0
+      },
+      {
+        "parcel_label": "Zliechov",
+        "registry_n": "432",
+        "site_name": "Strážov",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Zliechov",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Zliechov",
+        "registry_n": "SKUEV0256",
+        "site_name": "Strážovské vrchy",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Bohunice",
+        "NATIONALSI": "SKUEV0806",
+        "SITETITLE_": "Babiná"
+      },
+      {
+        "parcel_label": "Bohunice",
+        "NATIONALSI": "SKUEV0373",
+        "SITETITLE_": "Krivoklátske bradlá"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "SKUEV0376",
+        "SITETITLE_": "Vršatské bradlá"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "SKUEV0368",
+        "SITETITLE_": "Brezovská dolina"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "SKUEV0813",
+        "SITETITLE_": "Trokanovo"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "SKUEV0809",
+        "SITETITLE_": "Šmatlová"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "SKUEV0378",
+        "SITETITLE_": "Nebrová"
+      },
+      {
+        "parcel_label": "Dubnica nad Váhom",
+        "NATIONALSI": "SKUEV0811",
+        "SITETITLE_": "Omšenská Baba"
+      },
+      {
+        "parcel_label": "Horná Poruba",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Kopec",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Košecké Rovné",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "SKUEV0373",
+        "SITETITLE_": "Krivoklátske bradlá"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "SKUEV0372",
+        "SITETITLE_": "Krivoklátske lúky"
+      },
+      {
+        "parcel_label": "Ladce",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Malé Košecké Podhradie",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Mikušovce pri Pruskom",
+        "NATIONALSI": "SKUEV0803",
+        "SITETITLE_": "Hrehorkové"
+      },
+      {
+        "parcel_label": "Pruské",
+        "NATIONALSI": "SKUEV0806",
+        "SITETITLE_": "Babiná"
+      },
+      {
+        "parcel_label": "Sedmerovec",
+        "NATIONALSI": "SKUEV0373",
+        "SITETITLE_": "Krivoklátske bradlá"
+      },
+      {
+        "parcel_label": "Veľké Košecké Podhradie",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "NATIONALSI": "SKUEV0376",
+        "SITETITLE_": "Vršatské bradlá"
+      },
+      {
+        "parcel_label": "Zliechov",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Bohunice",
+        "NATIONALSI": "1119",
+        "SITETITLE_": "PP Babiná"
+      },
+      {
+        "parcel_label": "Bolešov",
+        "NATIONALSI": "880",
+        "SITETITLE_": "PP Dračia studňa"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "236",
+        "SITETITLE_": "PR Červenokamenské bradlo"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "480",
+        "SITETITLE_": "PR Vršatské bradlá"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "226",
+        "SITETITLE_": "PP Brezovská dolina"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "433",
+        "SITETITLE_": "PP Strošovský močiar"
+      },
+      {
+        "parcel_label": "Červený Kameň",
+        "NATIONALSI": "840",
+        "SITETITLE_": "PR Nebrová"
+      },
+      {
+        "parcel_label": "Horná Poruba",
+        "NATIONALSI": "847",
+        "SITETITLE_": "NPR Vápeč"
+      },
+      {
+        "parcel_label": "Kopec",
+        "NATIONALSI": "847",
+        "SITETITLE_": "NPR Vápeč"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "1033",
+        "SITETITLE_": "PR Drieňová"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "880",
+        "SITETITLE_": "PP Dračia studňa"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "324",
+        "SITETITLE_": "PP Krivoklátska tiesňava"
+      },
+      {
+        "parcel_label": "Krivoklát",
+        "NATIONALSI": "881",
+        "SITETITLE_": "PP Krivoklátske lúky"
+      },
+      {
+        "parcel_label": "Mikušovce pri Pruskom",
+        "NATIONALSI": "417",
+        "SITETITLE_": "PP Skalice"
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "NATIONALSI": "481",
+        "SITETITLE_": "PR Vršatské hradné bralo"
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "NATIONALSI": "480",
+        "SITETITLE_": "PR Vršatské bradlá"
+      },
+      {
+        "parcel_label": "Vršatské Podhradie",
+        "NATIONALSI": "214",
+        "SITETITLE_": "PP Biely vrch"
+      },
+      {
+        "parcel_label": "Zliechov",
+        "NATIONALSI": "1101",
+        "SITETITLE_": "PP Zliechovský močiar"
+      },
+      {
+        "parcel_label": "Zliechov",
+        "NATIONALSI": "432",
+        "SITETITLE_": "NPR Strážov"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Borčice",
+        "NATIONALSI": "SKCHVU006",
+        "SITETITLE_": "Dubnické štrkovisko"
+      },
+      {
+        "parcel_label": "Dubnica nad Váhom",
+        "NATIONALSI": "SKCHVU006",
+        "SITETITLE_": "Dubnické štrkovisko"
+      },
+      {
+        "parcel_label": "Horná Poruba",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Kopec",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Košecké Rovné",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Malé Košecké Podhradie",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Veľké Košecké Podhradie",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Zliechov",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

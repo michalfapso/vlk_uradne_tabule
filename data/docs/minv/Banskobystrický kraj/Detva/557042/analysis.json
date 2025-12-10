@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001503",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-28",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 04.12.2025"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Hriňová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hriňová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9552/174"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "typ_zasahu": [
+    "výrub dreviny"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je zverejnením informácie o začatí správneho konania vo veci vydania súhlasu na výrub dreviny pre fyzickú osobu. Výrub sa má realizovať na parcele č. 9552/174 v katastrálnom území Hriňová, okres Detva. Potvrdenie záujmu byť účastníkom konania je možné podať do 04.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

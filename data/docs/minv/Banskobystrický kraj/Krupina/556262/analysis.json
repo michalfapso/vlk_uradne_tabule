@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001206",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-10",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen, Stredisko miestnej správy a údržby, Traťový obvod Levice",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": "Hontianske Nemce, Krupina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rakovec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "882/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hontianske Nemce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1123/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo trate v úseku žst. Hontianske Nemce - žst. Krupina"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo trate"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hrab obyčajný",
+    "dub letný",
+    "dub cerový",
+    "agát obyčajný",
+    "javor horský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina zverejňuje oznámenie od ŽSR o plánovanom výrube a okliesňovaní drevín mimo lesa v ochrannom pásme železničnej trate v úseku Hontianske Nemce - Krupina, konkrétne v k.ú. Rakovec a Hontianske Nemce. Dôvodom je ohrozenie bezpečnosti prevádzky. V konaní sa nevyžaduje aplikácia všeobecných predpisov o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

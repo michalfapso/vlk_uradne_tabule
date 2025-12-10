@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2025/007024-011",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": "2024-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "ERMELTA, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3111/11",
+              "3111/6",
+              "3111/7",
+              "2571"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1257/152",
+              "1257/207",
+              "1257/502"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Novostavba bytovky na námestí"
+  },
+  "typ_dokumentu": "Verejná vyhláška – Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba vodných stavieb",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "vypúšťanie odpadových vôd",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí vodoprávneho konania pre výstavbu vodných stavieb (dážďová kanalizácia a rozšírenie verejného vodovodu) a povolenie na vypúšťanie dažďových vôd do podzemných vôd z novostavby bytovky v Novom Meste nad Váhom. Žiadateľom je ERMELTA, s.r.o. Účastníci konania môžu podať námietky a pripomienky do 7 pracovných dní od doručenia tohto oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

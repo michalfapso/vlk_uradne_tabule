@@ -1,0 +1,114 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/022115",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-10-31",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania, keďže sa neuplatňujú všeobecné predpisy o správnom konaní.",
+  "ziadatel_navrhovatel": "Banskobystrická regionálna správa ciest, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Rimavská Sobota",
+    "obec": "Teplý vrch, Drienčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Teplý vrch",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "677"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "682"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Drienčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "725"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie a okliesnenie stromov a iných porastov",
+    "výrub náletových drevín – krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [
+        "a",
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rimavská Sobota zverejňuje informáciu o začatí konania o výrube drevín a krovia v katastrálnom území obcí Teplý vrch a Drienčany. Žiadateľom je Banskobystrická regionálna správa ciest, a.s., ktorá plánuje odstrániť porasty v ochrannom pásme vedenia a na cestných pozemkoch. V tomto konaní nie je možné uplatniť všeobecné predpisy o správnom konaní, a teda nie je možná účasť verejnosti.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "725",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "677",
+        "NATIONALSI": "344",
+        "SITETITLE_": "CHA Hikóriový porast"
+      }
+    ]
+  }
+}

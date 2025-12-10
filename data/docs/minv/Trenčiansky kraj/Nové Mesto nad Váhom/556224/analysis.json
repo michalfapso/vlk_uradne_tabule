@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2023/000798-037",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "odvolanie v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "NICOLI ONE s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Horná Streda",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Streda",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "985/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zberný dvor Horná Streda"
+  },
+  "typ_dokumentu": "Rozhodnutie o zastavení konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "odvodnenie betónovej plochy",
+    "vypúšťanie vôd z povrchového odtoku do povrchových vôd",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "realizácia odlučovača ropných látok"
+  ],
+  "typ_uzemia": [
+    "Územný plán obce"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Úradu podpredsedu vlády SR pre investície a informatizáciu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o zákone o niektorých opatreniach súvisiacich s prijímaním právnych aktov Európskych spoločenstiev a Európskej únie",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Nové Mesto nad Váhom o zastavení konania vo veci vydania vodoprávneho povolenia žiadateľovi NICOLI ONE s.r.o. na vodnú stavbu 'Odvodnenie betónovej plochy' v k.ú. Horná Streda. Konanie bolo zastavené, pretože žiadateľ neodstránil nedostatky svojho podania a nepredložil súhlasné záväzné stanovisko Obce Horná Streda, ktorá zamietla stavbu ako nesúladnú s aktuálnym územným plánom obce, zmeneným na obytné územie.",
+  "zasiahnute_chranene_uzemia": {}
+}

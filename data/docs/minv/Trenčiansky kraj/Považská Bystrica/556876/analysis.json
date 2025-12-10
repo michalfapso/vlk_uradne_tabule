@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "0054529/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA S.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica, Orlové, Udiča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": []
+      },
+      {
+        "nazov": "Orlové",
+        "parcely": []
+      },
+      {
+        "nazov": "Udiča",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 22 kV, vedenie č. VN V_195_k10 TR: PB_pri moste - Udiča_Podvažie"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o nevyhnutnom výrube a okliesňovaní náletových drevín v ochrannom pásme elektrického vedenia 22 kV č. VN V_195_k10 TR: PB_pri moste - Udiča_Podvažie, ktoré prechádza katastrálnymi územiami Považská Bystrica, Orlové a Udiča. Činnosť je plánovaná od decembra 2025 do marca 2026.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Udiča",
+        "registry_n": "SKUEV0581",
+        "site_name": "Klapy",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Považská Bystrica",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Udiča",
+        "NATIONALSI": "SKUEV0581",
+        "SITETITLE_": "Klapy"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Udiča",
+        "NATIONALSI": "833",
+        "SITETITLE_": "PR Klapy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Považská Bystrica",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

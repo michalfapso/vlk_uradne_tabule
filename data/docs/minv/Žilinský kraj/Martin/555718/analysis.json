@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/022363",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s. r. o., Čadca",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Vrútky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrútky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 110 kV vedenia č. 7718, podporný bod č. 41 – 42"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 110 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje výrub drevín v katastrálnom území Vrútky, okres Martin, v ochrannom pásme 110 kV elektrického vedenia č. 7718. Oznamovateľom je ENZA s. r. o., splnomocnená Stredoslovenskou distribučnou, a. s. Ide o informatívne zverejnenie konania podľa zákona č. 543/2002 Z. z. o ochrane prírody a krajiny, pričom verejnosť sa do konania nemôže prihlásiť.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Vrútky",
+        "registry_n": "SKUEV0930",
+        "site_name": "Lúčanská Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKUEV0930",
+        "SITETITLE_": "Lúčanská Fatra"
+      },
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKUEV0665",
+        "SITETITLE_": "Strečnianske meandre Váhu"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Vrútky",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

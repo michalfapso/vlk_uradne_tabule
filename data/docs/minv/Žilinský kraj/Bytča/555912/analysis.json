@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2025/001196-005",
+  "cislo_rozhodnutia": "OU-BY-OSZP-2025/001196-0006694/2025",
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": "2025-11-06",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Daniel Harcsmik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Veľké Rovné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Rovné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8757"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "5272"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "8756/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie - Verejná vyhláška o súhlase s výrubom dreviny",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výsadba ovocného sadu",
+    "náhradná výsadba"
+  ],
+  "typ_uzemia": [
+    "CHKO Kysuce",
+    "druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "breza previsnutá (Betula pendula)",
+    "marhuľa (Prunus)",
+    "jabloň (Malus)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Ministerstvo vnútra Slovenskej republiky",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bytča vydal rozhodnutie a verejnú vyhlášku udeľujúcu súhlas Danielovi Harcsmikovi na výrub jednej brezy previsnutej v k.ú. Veľké Rovné, Žilinský kraj. Drevina sa nachádza v Chránenej krajinnej oblasti Kysuce s druhým stupňom ochrany. Výrub je podmienený náhradnou výsadbou troch ovocných drevín (marhuľa a jabloň) na pozemku v rovnakom katastrálnom území.",
+  "zasiahnute_chranene_uzemia": {}
+}

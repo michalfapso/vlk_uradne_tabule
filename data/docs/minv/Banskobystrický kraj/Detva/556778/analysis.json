@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001488",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Horný Tisovník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horný Tisovník",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3069/3",
+              "3069/5",
+              "3069/7",
+              "3069/9",
+              "3078/3",
+              "1178",
+              "3031/1",
+              "3028/2",
+              "3027/6",
+              "3071",
+              "3072/1",
+              "3075/5",
+              "3075/8",
+              "3076/2",
+              "3078/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre vydanie súhlasu na výrub drevín a krovín na parcelách v katastrálnom území Horný Tisovník, okres Detva, Banskobystrický kraj. Lesoochranárske zoskupenie VLK môže potvrdiť záujem byť zúčastnenou osobou, pričom lehota na vyjadrenie nesmie byť kratšia ako päť pracovných dní od zverejnenia 25.11.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomne ... záujem byť zúčastnenou osobou v uvedenom správnom konaní.",
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2635/78"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "douglaska tisolistá"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Upovedomením o začatí správneho konania na výrub dreviny druhu douglaska tisolistá na parcele KN-C 2635/78 v katastrálnom území Trenčín, mimo zastavaného územia obce. Žiadateľ je fyzická osoba (FO). Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

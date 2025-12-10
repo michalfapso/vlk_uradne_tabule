@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010425",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-25",
+  "datum_zverejnenia": "2025-11-25",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice SR, Oblastné riaditeľstvo Žilina",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Párnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Párnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "29"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v obvode, resp. v ochrannom pásme dráhy"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "smrekovec opadavý"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín zverejňuje informáciu o plánovanom výrube 2 smrekov obyčajných a 1 smrekovca opadavého v katastrálnom území Párnica. Výrub v ochrannom pásme dráhy vykonávajú Železnice SR z dôvodu ohrozenia majetku a bezpečnosti dopravy. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

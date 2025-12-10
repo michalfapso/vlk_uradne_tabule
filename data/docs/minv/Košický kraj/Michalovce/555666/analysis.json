@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/022425",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo elektronickou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "Obec Krásnovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Krásnovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krásnovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1790/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub stromov",
+    "výstavba chodníka"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce oznamuje začatie správneho konania na žiadosť Obce Krásnovce o súhlas na výrub 4 líp na parcele 1790/2 v k. ú. Krásnovce. Dreviny sú prekážkou pri výstavbe chodníka. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

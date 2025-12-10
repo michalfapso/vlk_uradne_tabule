@@ -1,0 +1,180 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010578",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": "2025-11-28",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Kraľovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kraľovany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o plánovanom výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument informuje verejnosť o plánovanom výrube porastov v katastrálnom území Kraľovany, okres Dolný Kubín, v ochrannom pásme 22 kV elektrického vedenia. Výrub vykonáva Katarína Piliarová na základe splnomocnenia od Stredoslovenskej distribučnej, a.s., kvôli údržbe energetických zariadení. Na konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "registry_n": "SKUEV0252",
+        "site_name": "Malá Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "SKUEV0253",
+        "SITETITLE_": "Váh"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "SKUEV0252",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "SKUEV0243",
+        "SITETITLE_": "Orava"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "1344",
+        "SITETITLE_": "PR Pralesy Slovenska-Šútovská dolina"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "446",
+        "SITETITLE_": "NPR Šútovská dolina"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "443",
+        "SITETITLE_": "NPR Šrámková"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "320",
+        "SITETITLE_": "PP Kraľoviansky meander"
+      },
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "1034",
+        "SITETITLE_": "CHA Rieka Orava"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Kraľovany",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

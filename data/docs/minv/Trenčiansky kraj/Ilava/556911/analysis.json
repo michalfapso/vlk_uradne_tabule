@@ -1,0 +1,171 @@
+{
+  "cislo_konania_spisu": "OU-IL-OSZP-2025/000148-049",
+  "cislo_rozhodnutia": "OU-IL-OSZP-2025/000148-049",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "František Polák a Božena Poláková",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Košecké Podhradie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľké Košecké Podhradie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1009/1",
+              "1039",
+              "1039/2",
+              "405",
+              "405/1",
+              "405/2",
+              "405/3",
+              "406",
+              "406/1",
+              "406/2",
+              "406/3",
+              "407",
+              "407/1",
+              "407/2",
+              "407/3",
+              "408",
+              "408/1",
+              "408/18",
+              "408/6",
+              "412/1",
+              "413",
+              "414/3",
+              "430",
+              "433",
+              "434",
+              "434/1",
+              "434/2",
+              "435",
+              "435/5",
+              "435/6",
+              "436",
+              "436/4",
+              "436/5",
+              "436/6",
+              "436/7",
+              "437",
+              "438",
+              "439",
+              "442",
+              "443/1",
+              "829/3",
+              "829/39",
+              "829/65"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "187/23",
+              "187/231",
+              "187/24",
+              "187/26",
+              "2174",
+              "2175",
+              "2176",
+              "2179/1",
+              "2179/15",
+              "2179/2",
+              "2179/3",
+              "2180",
+              "2252/501",
+              "2273",
+              "2292",
+              "7113/502",
+              "7185/501",
+              "7186/501",
+              "7196/502",
+              "7196/509"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o prerušení konania a výzva",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba energetického diela"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemkových spoločenstvách",
+      "zakon_cislo": "97/2013 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím o prerušení konania a výzvou pre stavebníkov, Františka a Boženu Polákovcov, aby v lehote 3 mesiacov doplnili žiadosť o predĺženie termínu na dokončenie vodnej stavby \"Malá vodná elektráreň – Košecké Podhradie\" a predložili doklady o práve k stavebným pozemkom. Konanie sa týka pozemkov v katastrálnom území Veľké Košecké Podhradie a je prerušené z dôvodu nevyriešených vlastníckych práv k pozemkom, o ktorých prebieha súdne konanie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1009/1",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "7196/502",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "7196/509",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "1009/1",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "7196/502",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "7196/509",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

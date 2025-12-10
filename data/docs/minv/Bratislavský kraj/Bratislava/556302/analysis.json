@@ -1,0 +1,159 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/514968-013",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/514968-0501232/2025",
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": "2025-09-23",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Wayden, s. r. o., Dvořákovo nábrežie 10, 811 02 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava IV",
+    "obec": "Dúbravka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dúbravka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2433/121",
+              "2433/123",
+              "2433/124",
+              "2433/125",
+              "2433/126",
+              "2433/127",
+              "2433/128",
+              "2433/129",
+              "2433/130",
+              "2433/131",
+              "2433/132",
+              "2433/133",
+              "2433/134",
+              "2433/135",
+              "2433/138",
+              "2433/139",
+              "2433/140",
+              "2433/141",
+              "2433/142",
+              "2433/143",
+              "2433/12",
+              "2433/161",
+              "2433/171",
+              "2433/16",
+              "2433/179",
+              "2433/196"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3107/300",
+              "3102",
+              "3105"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Harmincova – Pri Suchej Vydrici"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "výstavba podzemného parkovania",
+    "výrub drevín",
+    "nakladanie s odpadmi",
+    "používanie chemických látok",
+    "odber podzemných vôd",
+    "vypúšťanie odpadových vôd",
+    "úprava vodného toku",
+    "príprava územia na následnú výstavbu pozemných stavieb"
+  ],
+  "typ_uzemia": [
+    "1. stupeň územnej ochrany prírody a krajiny",
+    "NATURA 2000",
+    "Územie európskeho významu",
+    "vodohospodársky chránená oblasť",
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené a ohrozené druhy"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/polyfunkcny-komplex-harmincova-pri-suchej-vydrici-",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon č. 25/2025 Z. z.",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška Federálneho ministerstva dopravy, ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa ustanovujú požiadavky na stavby užívané osobami s obmedzenou schopnosťou pohybu a orientácie",
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR o stavebnom odpade a odpade z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovujú podmienky a spôsoby odstraňovania inváznych nepôvodných druhov",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom zo zisťovacieho konania pre zámer „Polyfunkčný komplex Harmincova – Pri Suchej Vydrici“ v Bratislave IV, mestskej časti Dúbravka, navrhovateľa Wayden, s. r. o. Činnosť zahŕňa výstavbu polyfunkčného komplexu, podzemné parkovanie a výrub 90 stromov na parcelách v k.ú. Dúbravka, pričom sa nachádza v 1. stupni územnej ochrany prírody a krajiny. Príslušný orgán rozhodol, že zámer sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie, avšak stanovuje 15 podmienok pre realizáciu, vrátane súhlasu na výrub drevín a rešpektovanie ochrany chránených a ohrozených druhov. Najbližšie územie Natura 2000 je vzdialené 1,7 km. Verejnosť (OZZDH) podala nevyžiadané stanovisko.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2025/001052-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie (do 11.12.2025 vrátane)"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Holíč",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Holíč",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "12123/27"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Skalica oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na výrub jedného smreku v katastrálnom území Holíč, parcela C 12123/27. Verejnosť má možnosť prihlásiť sa do konania do piatich pracovných dní od zverejnenia informácie, najneskôr do 11. decembra 2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

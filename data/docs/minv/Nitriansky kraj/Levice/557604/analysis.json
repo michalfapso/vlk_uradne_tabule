@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/024061-005",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2025/024061-0074045/2025",
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (odvolanie)"
+  },
+  "ziadatel_navrhovatel": "Sunny Relax Village, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Plavé Vozokany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Plavé Vozokany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2730/3",
+              "2730/38",
+              "2730/192",
+              "2730/23"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "SLNEČNÝ ODDYCHOVÝ REZORT"
+  },
+  "typ_dokumentu": "Stavebné povolenie vodnej stavby",
+  "typ_zasahu": [
+    "výstavba bazénov",
+    "výstavba dažďovej kanalizácie",
+    "výstavba odlučovača ropných látok",
+    "výstavba retenčného jazierka",
+    "úprava vody",
+    "odber vody",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo WN, VN a NN vedení",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo sietí elektronických komunikácií"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy živočíchov a rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/95 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Levice vydal stavebné povolenie pre vodnú stavbu „SO 06 Slnečné bazény“ a „SO 14 Vnútroareálové rozvody dažďovej kanalizácie, ORL a jazierko“, ktoré sú súčasťou rozsiahleho projektu „SLNEČNÝ ODDYCHOVÝ REZORT“ v obci Plavé Vozokany. Projekt zahŕňa výstavbu piatich bazénov, dažďovej kanalizácie s odlučovačom ropných látok a retenčného jazierka. Konanie sa dotýka ochranných pásiem inžinierskych sietí a vyžaduje dodržanie všeobecnej ochrany chránených druhov živočíchov a rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/023884",
+  "cislo_rozhodnutia": "OU-TT-OSZP3-2025/023884",
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Breza s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Kátlovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kátlovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "380/8",
+              "380/11",
+              "361/8"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "361/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Kátlovce, Lokalita 2.2 – 5 RD (10b.j.)"
+  },
+  "typ_dokumentu": "Rozhodnutie o trvalom užívaní vodnej stavby (Kolaudačné rozhodnutie)",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "odvádzanie odpadových vôd",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon, ktorým sa menia a dopĺňajú zákony v pôsobnosti Ministerstva financií SR v súvislosti so zavedením meny euro v Slovenskej republike",
+      "zakon_cislo": "465/2008 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Trnava, ktorým sa udeľuje povolenie na trvalé užívanie vodnej stavby \"SO 04 Dažďová kanalizácia\" žiadateľovi Breza s.r.o. v rámci stavby \"IBV Kátlovce, Lokalita 2.2 – 5 RD (10b.j.)\" v obci Kátlovce. Vodná stavba slúži na odvádzanie prečistených vôd z povrchového odtoku do podzemných vôd. Proti rozhodnutiu je možné podať odvolanie do 15 dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

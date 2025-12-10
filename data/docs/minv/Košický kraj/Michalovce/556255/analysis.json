@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/02287l",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto omámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Šamudovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Šamudovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šamudovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "600/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "tuja západná"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce oznamuje začatie správneho konania na žiadosť Obce Šamudovce o súhlas na výrub 2 ks drevín druhu tuja západná na parcele 600/6 v katastrálnom území Šamudovce z dôvodu zlého zdravotného stavu. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

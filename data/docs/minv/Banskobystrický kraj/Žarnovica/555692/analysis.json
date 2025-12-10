@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2025/001828",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-07",
+  "datum_zverejnenia": "2025-11-11",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej Republiky, Oblastné riaditeľstvo Zvolen, stredisko miestnej správy a údržby traťový obvod Levice",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Psiare",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1559"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hronský Beňadik",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3443"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "úsek železničnej trate TÚ/DÚ 3005/01 žst. Kozárovce a TÚ/DÚ 3005/02 žst. Kozárovce – žst. Hronský Beňadik"
+  },
+  "typ_dokumentu": "Oznámenie o vykonaní výrubu",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "orech",
+    "javor poľný",
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žarnovica oznamuje, že Železnice Slovenskej Republiky vykonajú výrub 3 ks drevín (orech, javor poľný, vŕba) v úseku železničnej trate medzi Kozárovcami a Hronským Beňadikom, konkrétne v katastrálnych územiach Psiare a Hronský Beňadik. Tento výrub je podľa § 47 ods. 7 zákona o ochrane prírody a krajiny nevyhnutný z dôvodu zabezpečenia obvodu dráhy a nevyžaduje súhlas orgánu ochrany prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

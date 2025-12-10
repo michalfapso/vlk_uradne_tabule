@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/562293/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2095/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava informuje o začatí správneho konania na žiadosť fyzickej osoby o súhlas na výrub 2 drevín z dôvodu výstavby rekreačnej chaty. Činnosť sa má realizovať na pozemku parc. č. 2095/3 v katastrálnom území Rača, mimo zastavaného územia obce. Verejnosť má 5 pracovných dní od zverejnenia na oznámenie účasti v konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

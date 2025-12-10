@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001249",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medovarce",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Rykynčice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Rykynčice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dvorníky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo vedenia 22kV č. VN 325 k 41"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina zverejňuje oznámenie od Stredoslovenskej distribučnej a.s. o plánovanom výrube a okliesnení drevín rastúcich mimo lesa v ochrannom pásme 22kV vedenia v katastrálnych územiach Medovarce, Horné Rykynčice, Dolné Rykynčice a Dvorníky. Zásah sa vykonáva z dôvodu bezpečnosti a plynulej dodávky elektrickej energie a nevyžaduje sa v ňom štandardné správne konanie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Medovarce",
+        "NATIONALSI": "SKUEV0889",
+        "SITETITLE_": "Medovarské dubiny"
+      },
+      {
+        "parcel_label": "Medovarce",
+        "NATIONALSI": "SKUEV0036",
+        "SITETITLE_": "Litava"
+      },
+      {
+        "parcel_label": "Horné Rykynčice",
+        "NATIONALSI": "SKUEV0036",
+        "SITETITLE_": "Litava"
+      },
+      {
+        "parcel_label": "Dolné Rykynčice",
+        "NATIONALSI": "SKUEV0875",
+        "SITETITLE_": "Čierny hrad"
+      },
+      {
+        "parcel_label": "Dolné Rykynčice",
+        "NATIONALSI": "SKUEV0392",
+        "SITETITLE_": "Brezovská stráň"
+      },
+      {
+        "parcel_label": "Dolné Rykynčice",
+        "NATIONALSI": "SKUEV0036",
+        "SITETITLE_": "Litava"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Dvorníky",
+        "NATIONALSI": "1066",
+        "SITETITLE_": "PR Šinkov salaš"
+      }
+    ]
+  }
+}

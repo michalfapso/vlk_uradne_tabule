@@ -1,0 +1,164 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/000222",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MAČAj, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Ratkovce a Žlkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ratkovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "691/1",
+              "692/1",
+              "692/2",
+              "693/1",
+              "694/1",
+              "695/1",
+              "698/1",
+              "698/2",
+              "699/1",
+              "699/2",
+              "699/3"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "690/1",
+              "690/2",
+              "690/3",
+              "690/4",
+              "690/5",
+              "690/6",
+              "690/7",
+              "690/8",
+              "690/9",
+              "690/10",
+              "690/11",
+              "690/12",
+              "690/13",
+              "690/17",
+              "723/1",
+              "724/1",
+              "725/1",
+              "795/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Žlkovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1229/106"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "1413/1",
+              "1296",
+              "1721/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Skladový areál Ratkovce"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba skladov",
+    "skladovanie zeleniny",
+    "chladenie",
+    "ohrev",
+    "výstavba ciest",
+    "výstavba vodných stavieb",
+    "úprava vodného toku",
+    "vypúšťanie vôd",
+    "výsadba zelene"
+  ],
+  "typ_uzemia": [
+    "I. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "poľné vtáky",
+    "menšie cicavce",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/skladovy-areal-ratkovce",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácii",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o fluórovaných skleníkových plynoch",
+      "zakon_cislo": "286/2009 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "220/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o obecnom zriadení",
+      "zakon_cislo": "369/1990 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je záväzné stanovisko Okresného úradu Hlohovec, odboru starostlivosti o životné prostredie, ktoré konštatuje, že navrhovaná činnosť 'Skladový areál Ratkovce' sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Projekt zahŕňa výstavbu moderných chladených skladov na zeleninu, administratívnej budovy a súvisiacej infraštruktúry v obciach Ratkovce a Žlkovce, v rámci I. stupňa územnej ochrany. Dokument tiež určuje rad opatrení na zmiernenie vplyvov na životné prostredie a stanovuje, že činnosť je environmentálne prijateľná.",
+  "zasiahnute_chranene_uzemia": {}
+}

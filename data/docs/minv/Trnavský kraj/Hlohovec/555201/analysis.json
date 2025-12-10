@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2025/001363-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "Nie je možné sa prihlásiť do konania",
+  "ziadatel_navrhovatel": "ALTA-PJ s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Hlohovec",
+    "obec": "Hlohovec, Siladice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hlohovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Siladice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme vzdušného elektrického vedenia"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vzdušného elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "4",
+      "pismena": [
+        "b",
+        "c"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "paragraf": "81",
+      "odsek": "2",
+      "pismena": [
+        "m"
+      ],
+      "zakon_nazov": "o ochrane prírody",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Hlohovec zverejňuje oznámenie od spoločnosti ALTA-PJ s.r.o. o výrube drevín v katastrálnych územiach Hlohovec a Siladice. Činnosť sa má realizovať v ochrannom pásme vzdušného elektrického vedenia. Dokument uvádza, že voči tomuto oznámeniu nie je možné podať odvolanie, keďže sa naň nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "SKUEV0175",
+        "SITETITLE_": "Sedliská"
+      },
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "SKUEV0852",
+        "SITETITLE_": "Váh pri Hlohovci"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Hlohovec",
+        "NATIONALSI": "149",
+        "SITETITLE_": "PR Sedliská"
+      }
+    ]
+  }
+}

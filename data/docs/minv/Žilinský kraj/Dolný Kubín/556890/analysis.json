@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010483",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Párnica",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Párnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Párnica",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "91213"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie správneho konania o žiadosti Obce Párnica o vydanie súhlasu na výrub 590 m2 náletových drevín a krovín. Zásah sa týka pozemku parcela E-KN č. 91213 v katastrálnom území Párnica. Dôvodom výrubu je suchosť a prestarnutosť drevín, pričom konanie môže dotknúť záujmy ochrany prírody a krajiny. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

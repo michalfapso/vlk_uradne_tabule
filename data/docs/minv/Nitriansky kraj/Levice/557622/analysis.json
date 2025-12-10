@@ -1,0 +1,156 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/026896",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LUMAREZ s.r.o., Dunajov 175, 023 02 Dunajov",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Hokovce, Hontianske Trsťany, Domadice, Bory, Horné Brhlovce, Dolné Brhlovce, Veľké Krškany, Malé Krškany, Tekovská Nová Ves, Hronské Kosihy, Rybník, Kozárovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hokovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Hontianske Trsťany",
+        "parcely": []
+      },
+      {
+        "nazov": "Domadice",
+        "parcely": []
+      },
+      {
+        "nazov": "Bory",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Brhlovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Brhlovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľké Krškany",
+        "parcely": []
+      },
+      {
+        "nazov": "Malé Krškany",
+        "parcely": []
+      },
+      {
+        "nazov": "Tekovská Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Hronské Kosihy",
+        "parcely": []
+      },
+      {
+        "nazov": "Rybník",
+        "parcely": []
+      },
+      {
+        "nazov": "Kozárovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube drevín od spoločnosti LUMAREZ s.r.o. na trasách plynovodov SPP-D v katastrálnych územiach viacerých obcí v okrese Levice. Ide o konanie podľa § 47 ods. 7 zákona č. 543/2002 Z.z., na ktoré sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Rybník",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Dolné Brhlovce",
+        "NATIONALSI": "SKUEV0876",
+        "SITETITLE_": "Horná hora"
+      },
+      {
+        "parcel_label": "Veľké Krškany",
+        "NATIONALSI": "SKUEV0876",
+        "SITETITLE_": "Horná hora"
+      },
+      {
+        "parcel_label": "Veľké Krškany",
+        "NATIONALSI": "SKUEV0870",
+        "SITETITLE_": "Horšianska dolina"
+      },
+      {
+        "parcel_label": "Malé Krškany",
+        "NATIONALSI": "SKUEV0870",
+        "SITETITLE_": "Horšianska dolina"
+      },
+      {
+        "parcel_label": "Rybník",
+        "NATIONALSI": "SKUEV0262",
+        "SITETITLE_": "Čajkovské bralie"
+      },
+      {
+        "parcel_label": "Rybník",
+        "NATIONALSI": "SKUEV0263",
+        "SITETITLE_": "Hodrušská hornatina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Hokovce",
+        "NATIONALSI": "1076",
+        "SITETITLE_": "CHA Kráľovičova slatina"
+      },
+      {
+        "parcel_label": "Veľké Krškany",
+        "NATIONALSI": "49",
+        "SITETITLE_": "NPR Horšianska dolina"
+      },
+      {
+        "parcel_label": "Malé Krškany",
+        "NATIONALSI": "49",
+        "SITETITLE_": "NPR Horšianska dolina"
+      },
+      {
+        "parcel_label": "Rybník",
+        "NATIONALSI": "809",
+        "SITETITLE_": "PR Krivín"
+      },
+      {
+        "parcel_label": "Rybník",
+        "NATIONALSI": "1371",
+        "SITETITLE_": "Beňadické alúvium Hrona"
+      }
+    ]
+  }
+}

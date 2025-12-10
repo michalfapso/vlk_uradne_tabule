@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/037042",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": "2025-11-05",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": "MINA s.r.o., Tatranská Javorina 38, 059 56 Tatranská Javorina",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Poprad",
+    "obec": "Tatranská Javorina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tatranská Javorina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "96"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad informuje o začatom správnom konaní pre žiadosť spoločnosti MINA s.r.o. o súhlas na výrub drevín na parcele KN-C č. 96 v katastrálnom území Tatranská Javorina. Verejnosť má 5 pracovných dní od 05.11.2025 na potvrdenie záujmu byť zúčastnenou osobou v konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "96",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

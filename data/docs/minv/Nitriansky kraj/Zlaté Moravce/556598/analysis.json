@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2025/001598-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik š. p., OZ Piešťany, Povodie dolného Váhu",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Zlaté Moravce",
+    "obec": "Zlaté Moravce, Topoľčianky, Nevidzany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zlaté Moravce",
+        "parcely": []
+      },
+      {
+        "nazov": "Topoľčianky",
+        "parcely": []
+      },
+      {
+        "nazov": "Nevidzany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Žitava, Hostiansky potok, Podegerský potok"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie vegetačného porastu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodných tokov a stavieb"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Zlaté Moravce zverejňuje oznámenie Slovenského vodohospodárskeho podniku o výrube drevín a odstránení nežiaducej vegetácie na vodných tokoch Žitava, Hostiansky potok a Podegerský potok v katastrálnych územiach Zlaté Moravce, Topoľčianky a Nevidzany. Zásah sa týka ochranných pásiem vodných tokov a stavieb a konanie podľa § 47 ods. 8 zákona č. 543/2002 Z. z. vylučuje všeobecné predpisy o správnom konaní, čo znamená, že účasť verejnosti v tomto konaní nie je povolená.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      },
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      },
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      },
+      {
+        "parcel_label": "Nevidzany",
+        "NATIONALSI": "SKUEV0867",
+        "SITETITLE_": "Mochovská cerina"
+      },
+      {
+        "parcel_label": "Nevidzany",
+        "NATIONALSI": "SKUEV0867",
+        "SITETITLE_": "Mochovská cerina"
+      },
+      {
+        "parcel_label": "Nevidzany",
+        "NATIONALSI": "SKUEV0867",
+        "SITETITLE_": "Mochovská cerina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "981",
+        "SITETITLE_": "CHA Topoľčiansky park"
+      },
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "981",
+        "SITETITLE_": "CHA Topoľčiansky park"
+      },
+      {
+        "parcel_label": "Topoľčianky",
+        "NATIONALSI": "981",
+        "SITETITLE_": "CHA Topoľčiansky park"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/023362",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": "2025-11-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Falkušovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Falkušovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Falkušovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "370/1",
+              "63/4",
+              "66"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre žiadosť Obce Falkušovce o súhlas na výrub 3 ks jaseňov a 1 ks smreka v katastrálnom území Falkušovce, okres Michalovce. Verejnosť má 5 pracovných dní od zverejnenia informácie na potvrdenie záujmu byť zúčastnenou osobou v konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

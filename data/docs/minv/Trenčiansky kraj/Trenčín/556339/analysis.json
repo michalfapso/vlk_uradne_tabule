@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/045965-009",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 18.11.2025"
+  },
+  "ziadatel_navrhovatel": "Trenčianske vodárne a kanalizácie, a.s. (TVK a.s.)",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3262/1",
+              "3252/2",
+              "3252/1",
+              "3249/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ulíc Jilemnického, Jesenského, Dolný Šianec"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie (Verejná vyhláška)",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "nový stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je kolaudačné rozhodnutie pre vodnú stavbu „Rekonštrukcia vodárenskej infraštruktúry ulíc Jilemnického, Jesenského, Dolný Šianec v Trenčíne“, konkrétne pre vodovodný rad na ulici Jilemnického. Žiadateľom je spoločnosť Trenčianske vodárne a kanalizácie, a.s. Realizácia prebieha v katastrálnom území Trenčín na uvedených parcelách. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani významné živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

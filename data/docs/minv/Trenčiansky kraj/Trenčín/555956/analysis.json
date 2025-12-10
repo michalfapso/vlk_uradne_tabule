@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/051005-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 10. 12. 2025"
+  },
+  "ziadatel_navrhovatel": "RV 3, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zlatovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1900/248",
+              "1900/746",
+              "1900/839",
+              "1900/848",
+              "1900/871",
+              "1900/899"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "REZIDENICIA VINOHRADY - SILVÁNSKA"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trenčín oznamuje začatie kolaudačného konania pre vodnú stavbu \"REZIDENCIA VINOHRADY - SILVÁNSKA\" v k. ú. Zlatovce, Trenčín, ktoré zahŕňa predĺženie verejného vodovodu a kanalizácie. Stavebník RV 3, s. r. o. podal návrh na kolaudáciu a ústne pojednávanie s miestnym zisťovaním sa uskutoční dňa 10. 12. 2025. Námietky možno uplatniť najneskôr na tomto pojednávaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/022407",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo v elektronickou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "Obec Staré",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Staré",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5356"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "výrub stromu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na žiadosť Obce Staré o súhlas na výrub jedného smreka obyčajného na parcele 5356 v katastrálnom území Staré z dôvodu ohrozenia bezpečnosti a zdravia. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastnou osobou v konaní. Nie sú explicitne spomenuté žiadne chránené územia ani druhy živočíchov/rastlín, s výnimkou smreka obyčajného, ktorý je predmetom výrubu.",
+  "zasiahnute_chranene_uzemia": {}
+}

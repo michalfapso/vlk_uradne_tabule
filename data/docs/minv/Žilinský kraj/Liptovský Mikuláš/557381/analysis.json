@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/014503-006",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2025/014503-0047844/2025",
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Obec Žiar",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Žiar",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žiar",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "340/2",
+              "1575/1",
+              "1548/4",
+              "1548/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1575",
+              "1548/2",
+              "1548/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení na užívanie vodných stavieb",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách a o zmene zákona č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025"
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "435/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Liptovský Mikuláš o povolení na užívanie vodných stavieb pre Obec Žiar. Ide o rozšírenie vodovodnej siete a výstavbu požiarnej nádrže v katastrálnom území Žiar. Konanie prebehlo podľa stavebného a vodného zákona, pričom dokument nespomína žiadne chránené územia ani špecifické živočíchy či rastliny relevantné pre záujmy LZ VLK.",
+  "zasiahnute_chranene_uzemia": {}
+}

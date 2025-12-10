@@ -1,0 +1,366 @@
+{
+  "cislo_konania_spisu": "45258/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Jalovec, Trstené, Bobrovec, Lipt. Ondrašová, Lipt. Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jalovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Trstené",
+        "parcely": []
+      },
+      {
+        "nazov": "Bobrovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Ondrašová",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovský Mikuláš",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie stromov a iných porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti JPRL s.r.o. konajúcej na základe poverenia Stredoslovenskej distribučnej, a.s. o plánovanej údržbe a výrube drevín a iných porastov. Údržba bude prebiehať v ochrannom pásme 22 kV vedenia VN 211 k40 v katastrálnych územiach Jalovec, Trstené, Bobrovec, Liptovská Ondrašová a Liptovský Mikuláš v okrese Liptovský Mikuláš, Žilinský kraj. Práce sú plánované od 8. decembra 2025 do 28. februára 2026.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Jalovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Jalovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Jalovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Jalovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Jalovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "registry_n": "SKUEV0307",
+        "site_name": "Tatry",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "360",
+        "SITETITLE_": "NPR Mních"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "360",
+        "SITETITLE_": "NPR Mních"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "360",
+        "SITETITLE_": "NPR Mních"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "360",
+        "SITETITLE_": "NPR Mních"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "360",
+        "SITETITLE_": "NPR Mních"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "845",
+        "SITETITLE_": "NPR Suchá dolina"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "415",
+        "SITETITLE_": "NPR Sivý vrch"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Jalovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Bobrovec",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

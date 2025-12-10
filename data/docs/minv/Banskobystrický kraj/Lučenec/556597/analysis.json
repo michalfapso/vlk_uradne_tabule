@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-LC-OSZP-2025/016538",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Lučenec",
+    "obec": "Mýtna",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mýtna",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1566/1",
+              "1567/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre udelenie súhlasu na výrub 45 kusov drevín (topoľ osikový, hrab, vŕba, breza) rastúcich mimo lesa v katastrálnom území Mýtna, okres Lučenec. Dreviny sa nachádzajú na ornej pôde v blízkosti elektrického vedenia vysokého napätia. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

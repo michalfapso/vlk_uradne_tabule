@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-21",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Zberné suroviny Žilina a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Trnava",
+    "obec": "Hrnčiarovce nad Parnou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrnčiarovce nad Parnou",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zisťovaciemu konaniu",
+  "typ_zasahu": [
+    "zber odpadov",
+    "zhodnocovanie odpadov",
+    "recyklácia kovov",
+    "spätné získavanie kovov"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o začatí zisťovacieho konania pre zmenu navrhovanej činnosti 'Zariadenie na zber a zhodnocovanie odpadov Trnava' v obci Hrnčiarovce nad Parnou, okres Trnava. Zmena spočíva v rozšírení činnosti o recykláciu a spätné získavanie kovov a kovových zlúčenín. Navrhovateľom je Zberné suroviny Žilina a. s."
+}

@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/000168-0059879/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Marianka",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Marianka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Marianka",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "403",
+              "445",
+              "44611",
+              "374",
+              "424"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "42611"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Bystrická ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "dodatočná zmena stavby",
+    "výstavba kanalizácie",
+    "predĺženie stoky",
+    "zdvojenie kanalizačnej šachty",
+    "povolenie na užívanie stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky oznamuje začatie konania o dodatočnej zmene stavby splaškovej kanalizácie v obci Marianka, konkrétne predĺženie stoky BJ a zdvojenie šachty na Bystrickej ulici, dotknuté parcely sú v katastrálnom území Marianka. Účastníci konania môžu podať námietky do 8 dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

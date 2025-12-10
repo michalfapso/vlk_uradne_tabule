@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSŽP3-2025/061225",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Nová Ves nad Žitavou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nová Ves nad Žitavou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3148/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromov mimo správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Orech kráľovský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Nitra zverejňuje oznámenie Železníc SR o plánovanom výrube dreviny Orech kráľovský na parcele CKN č. 3148/4 v katastrálnom území Nová Ves nad Žitavou. Výrub je odôvodnený zákonom o dráhach a má sa uskutočniť v mimovegetačnom a mimohniezdnom období. Na konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

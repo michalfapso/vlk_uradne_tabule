@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/023503-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 02.12.2025"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Santovka, Hontianska Vrbica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Santovka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1493/10",
+              "1493/1",
+              "1490",
+              "1492"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hontianska Vrbica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2957/9",
+              "2958",
+              "2957/3",
+              "3035/3",
+              "3038/2",
+              "3123/1",
+              "3039/2",
+              "2947",
+              "2941",
+              "3041",
+              "3121/3",
+              "3070/4",
+              "3121/2",
+              "3133/2",
+              "3093",
+              "3113/1",
+              "3113/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Prívod vody z VDJ Santovka do VDJ Hontianska Vrbica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania, Verejná vyhláška",
+  "typ_zasahu": [
+    "kolaudácia vodnej stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie kolaudačného konania vodnej stavby \"Prívod vody z VDJ Santovka do VDJ Hontianska Vrbica\". Projekt realizuje Západoslovenská vodárenská spoločnosť, a.s., v katastrálnych územiach Santovka a Hontianska Vrbica, okres Levice. Ústne pojednávanie spojené s miestnym zisťovaním sa uskutoční dňa 02.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

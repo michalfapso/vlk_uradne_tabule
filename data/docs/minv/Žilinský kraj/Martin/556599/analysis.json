@@ -1,0 +1,171 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/022874",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": "2025-11-24",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Čierny FUCHSFARM",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Belá – Dulice",
+        "parcely": []
+      },
+      {
+        "nazov": "Necpaly",
+        "parcely": []
+      },
+      {
+        "nazov": "Folkušová",
+        "parcely": []
+      },
+      {
+        "nazov": "Blatnica",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo VN vedenia č. 248"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube drevín, ktoré rastú v ochrannom pásme VN vedenia č. 248. Žiadateľom je Pavol Čierny FUCHSFARM. Dotknuté sú katastrálne územia Belá – Dulice, Necpaly, Folkušová a Blatnica v okrese Martin.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Necpaly",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Necpaly",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Necpaly",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Folkušová",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Folkušová",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Folkušová",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Blatnica",
+        "registry_n": "P/31",
+        "site_name": "NP Veľká Fatra",
+        "category_i": 8.0
+      },
+      {
+        "parcel_label": "Blatnica",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Blatnica",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Blatnica",
+        "registry_n": "SKUEV0238",
+        "site_name": "Veľká Fatra",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Necpaly",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Folkušová",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Blatnica",
+        "NATIONALSI": "SKUEV0382",
+        "SITETITLE_": "Turiec a Blatnický potok"
+      },
+      {
+        "parcel_label": "Blatnica",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Blatnica",
+        "NATIONALSI": "997",
+        "SITETITLE_": "CHA Mošovské aleje"
+      },
+      {
+        "parcel_label": "Blatnica",
+        "NATIONALSI": "1180",
+        "SITETITLE_": "PP Mažarná"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Necpaly",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Folkušová",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Blatnica",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      }
+    ]
+  }
+}

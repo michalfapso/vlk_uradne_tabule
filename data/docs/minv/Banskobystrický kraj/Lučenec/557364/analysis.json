@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-LC-OSZP-2025/017135-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Lučenec",
+    "obec": "Tomášovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tomášovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "741/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v blízkosti rekreačnej chaty"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný (Picea abies)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania na Okresnom úrade Lučenec, odbore starostlivosti o životné prostredie. Žiadateľ žiada o udelenie súhlasu na výrub 1 kusu smreka obyčajného v katastrálnom území Tomášovce, na parcele KN-C č. 741/9, z dôvodu, že rastie v blízkosti rekreačnej chaty a môže poškodiť majetok. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

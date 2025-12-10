@@ -1,0 +1,173 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/018917-Va",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Proti tomuto rozhodnutiu je možné do 15 dní odo dňa jeho oznámenia podať odvolanie (po zvesení z úradnej tabule po 15 dňoch vyvesenia).",
+  "ziadatel_navrhovatel": "Turčianska vodárenská spoločnosť, a.s., Kuzmányho 25, Martin, IČO: 36 672 084",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Martin",
+    "obec": "Vrícko",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrícko",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1342",
+              "1343",
+              "1395/1",
+              "95/1",
+              "95/3",
+              "96",
+              "1319"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "VDJ Vrícko 2x100 m3"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "rekonštrukcia vodnej stavby",
+    "prevádzka vodnej stavby",
+    "používanie chemických látok"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "71",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "80",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "81a",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "103",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "8",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (Správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je kolaudačné rozhodnutie vydané Okresným úradom Martin, odborom starostlivosti o životné prostredie, ktorým sa povoľuje užívanie zrekonštruovanej vodnej stavby VDJ Vrícko 2x100 m3 v k.ú. Vrícko. Žiadateľom je Turčianska vodárenská spoločnosť, a.s. Rozhodnutie sa týka zabezpečenia pitnej vody z verejného vodovodu a stanovuje podmienky pre prevádzku. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani významné druhy živočíchov alebo rastlín.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "1395/1",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "1319",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "95/3",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "96",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "1343",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      },
+      {
+        "parcel_label": "1342",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

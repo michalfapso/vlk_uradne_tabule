@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/026628",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "V súlade s § 82 ods. 3 zákona do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Hruštín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hruštín",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "18022",
+              "18024"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je oznámením o začatí správneho konania pre žiadosť o vydanie súhlasu na výrub drevín na parcelách E-KN 18022 a 18024 v katastrálnom území Hruštín, okres Námestovo. Verejnosť má možnosť potvrdiť záujem byť účastníkom konania do 5 pracovných dní od dátumu zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/069382-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní od doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10132/501",
+              "10132/502",
+              "5067/8",
+              "5067/9",
+              "5067/6",
+              "5067/5",
+              "5051/41",
+              "5067/7",
+              "2400/1",
+              "2400/9",
+              "2400/10",
+              "2400/12",
+              "2400/7",
+              "2401/2",
+              "2406/77",
+              "2406/74",
+              "2407/1",
+              "2460",
+              "2468",
+              "2406/6",
+              "2649/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "10269",
+              "10268",
+              "10267/3",
+              "10267/5",
+              "10267/2",
+              "10271/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Košice – Prioritné protipovodňové opatrenia v SR, Hornád – ochrana intravilánu krajského mesta – pravý breh, stavba II. rkm 140,575 – 142,517"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "372/1990"
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie stavebného konania o predĺžení termínu dokončenia protipovodňových vodných stavieb na rieke Hornád v Košiciach. Žiadateľom je Slovenský vodohospodársky podnik, štátny podnik. Konanie sa týka katastrálneho územia Staré Mesto a úrad upúšťa od ústneho pojednávania a miestneho zisťovania.",
+  "zasiahnute_chranene_uzemia": {}
+}

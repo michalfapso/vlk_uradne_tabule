@@ -1,0 +1,120 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2025/020067-015",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia"
+  },
+  "ziadatel_navrhovatel": "Enviro Lieskovec, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Zvolen",
+    "obec": "Lieskovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lieskovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1535/110",
+              "1535/116",
+              "1535/117",
+              "1535/118",
+              "1535/119",
+              "1535/120",
+              "1535/121",
+              "1535/122",
+              "1535/123",
+              "1535/124",
+              "1535/125",
+              "1535/29",
+              "1535/115"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1667/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Priemyselná zóna Lieskovec"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "recyklácia minerálnych odpadov",
+    "spracovanie odpadov",
+    "výroba recyklátov pre stavebníctvo",
+    "rekonštrukcia budovy",
+    "výstavba solárnej elektrárne"
+  ],
+  "typ_uzemia": [
+    "prvý (všeobecný) stupeň ochrany podľa zákona OPK",
+    "priemyselná zóna",
+    "regionálne biocentrum ÚSES"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/recyklacna-linka-na-spracovanie-mineralnych-odpadov",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "200/2018 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška MZ SR o podrobnostiach o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška MZ SR o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2024 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred hlukom a vibráciami",
+      "zakon_cislo": "126/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred hlukom a vibráciami pri práci",
+      "zakon_cislo": "115/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Zvolen vydal záväzné stanovisko, podľa ktorého sa navrhovaná činnosť „Recyklačná linka na spracovanie minerálnych odpadov“ nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Činnosť navrhovaná spoločnosťou Enviro Lieskovec, a.s. sa má realizovať v priemyselnej zóne obce Lieskovec na viacerých parcelách v katastrálnom území Lieskovec, pričom toto územie je v prvom stupni ochrany prírody. Zámer zahŕňa rekonštrukciu dvojhaly, inštaláciu recyklačnej technológie a výstavbu solárnej elektrárne.",
+  "zasiahnute_chranene_uzemia": {}
+}

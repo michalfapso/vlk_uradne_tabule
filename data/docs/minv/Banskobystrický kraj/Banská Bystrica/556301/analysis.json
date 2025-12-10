@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/049491-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Bystrica",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2500/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Banská Bystrica oznamuje verejnosti, že spoločnosť SPP – distribúcia, a.s. plánuje výrub dreviny na parcele KN-E 2500/2 v k. ú. Banská Bystrica. Drevina sa nachádza v ochrannom pásme plynovodu, a preto nie je možné sa prihlásiť do konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/019839-Hš",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Turčianska vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Bystrička",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bystrička",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "675/2",
+              "675/119",
+              "887/14"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "388",
+              "387/101"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lázky"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení užívania vodnej stavby",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je kolaudačné rozhodnutie o povolení užívania vodnej stavby pre rekonštrukciu vodovodu v lokalite Lázky v obci Bystrička, okres Martin. Žiadateľom je Turčianska vodárenská spoločnosť, a.s. Dokument nespomína žiadne špecifické chránené územia ani dotknuté živočíchy či rastliny.",
+  "zasiahnute_chranene_uzemia": {}
+}

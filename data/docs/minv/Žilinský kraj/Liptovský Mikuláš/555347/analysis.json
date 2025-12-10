@@ -1,0 +1,136 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-08",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Gôtovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gôtovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "608/4"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1-607/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Čemník, Gôtovany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie kríkov",
+    "periodická údržba"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Vŕba",
+    "krovité porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "48",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "49",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodného zákona",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "125/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "147/2013 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "59/1982 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Slovenského vodohospodárskeho podniku o plánovanom výrube drevín (kríkov Vŕb) v prietočnom profile vodného toku Čemník v katastrálnom území Gôtovany, okres Liptovský Mikuláš, Žilinský kraj. Práce sú plánované od 1.10.2025 do 27.2.2026 s cieľom zabezpečiť plynulý prietok vody a vykonať periodickú údržbu. V texte nie sú spomenuté žiadne chránené územia ani osobitne chránené druhy živočíchov.",
+  "zasiahnute_chranene_uzemia": {}
+}

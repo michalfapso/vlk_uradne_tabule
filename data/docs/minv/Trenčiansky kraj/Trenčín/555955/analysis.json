@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "02406/2025/OR ŽA/SZTS-4",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčianske Teplice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Teplice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2792/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube dreviny",
+  "typ_zasahu": [
+    "výrub dreviny"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o Železniciach Slovenskej republiky",
+      "zakon_cislo": "258/1993 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o dráhach a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú výrub 1 kusa dreviny (brezy) na parcele C-KN 2792/1 v katastrálnom území Trenčianske Teplice. Výrub je potrebný z dôvodu ohrozenia bezpečnosti železničnej dopravy, keďže drevina rastie v ochrannom pásme dráhy a hrozí jej pád na trať.",
+  "zasiahnute_chranene_uzemia": {}
+}

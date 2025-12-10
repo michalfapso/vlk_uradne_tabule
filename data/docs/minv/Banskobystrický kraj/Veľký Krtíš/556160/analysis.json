@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-VK-OSZP-2025/010732-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "obec Slovenské Kľačany",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Veľký Krtíš",
+    "obec": "Slovenské Kľačany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slovenské Kľačany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2266/5",
+              "2265",
+              "2227",
+              "2226",
+              "2290/2",
+              "2225",
+              "330/1",
+              "2223/1",
+              "2222/1",
+              "373/1",
+              "18/3",
+              "18/1",
+              "2284/4",
+              "18/12",
+              "395/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vieska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "280/3",
+              "555/2",
+              "306/1",
+              "306/2",
+              "548/6",
+              "548/7",
+              "548/5",
+              "536/1",
+              "556/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Kanalizácia pre obec Slovenské Kľačany"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania o zmene stavby pred jej dokončením",
+  "typ_zasahu": [
+    "zmena stavby pred dokončením",
+    "výstavba kanalizácie",
+    "úprava termínu dokončenia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe vo veciach vodného hospodárstva",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Veľký Krtíš oznamuje začatie konania o zmene už povolenej vodnej stavby \"Kanalizácia pre obec Slovenské Kľačany\", ktorá sa týka predĺženia termínu jej dokončenia do 31.12.2028. Žiadateľom je obec Slovenské Kľačany a dotknuté sú katastrálne územia Slovenské Kľačany a Vieska. Do konania sa môžu účastníci vyjadriť do 8 pracovných dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

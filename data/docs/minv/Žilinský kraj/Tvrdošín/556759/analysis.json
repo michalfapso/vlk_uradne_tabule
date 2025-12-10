@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-TS-OSZP-2025/001588-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Liesek",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Tvrdošín",
+    "obec": "Liesek",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liesek",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1274/74",
+              "1449/4",
+              "1275/4",
+              "1449/1",
+              "160/2",
+              "1124/2",
+              "1337/4",
+              "1449/4",
+              "1275/4",
+              "1449/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Tichá"
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výkopové práce",
+    "úprava vozovky"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje verejnú vyhlášku Okresného úradu Tvrdošín o začatí vodoprávneho konania pre Obec Liesek. Predmetom konania je rozšírenie vodovodu a splaškovej kanalizácie v obci Liesek, konkrétne na ulici Tichá, pre plánovanú výstavbu približne 28 rodinných domov. Konanie sa uskutočňuje bez ústneho pojednávania a miestneho zisťovania, pričom účastníci majú 8 pracovných dní na predloženie námietok a pripomienok.",
+  "zasiahnute_chranene_uzemia": {}
+}

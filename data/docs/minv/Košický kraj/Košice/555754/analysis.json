@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2025/067052",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "B2E s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Severné Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8302/8"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Severné Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1731/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Urbánkova"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jaseň mannový",
+    "smrek pichľavý „Glauca“",
+    "smrek pichľavý",
+    "smrek obyčajný",
+    "javor horský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania o vydaní súhlasu na výrub 6 ks stromov (jaseň mannový, smrek pichľavý, smrek obyčajný, javor horský) v katastrálnom území Severné Mesto, lokalita ul. Urbánkova, Košice. Dôvodom je novonavrhovaná stavba BD „Urbánkova“ a jej infraštruktúra. Záujem o účasť v konaní je možné potvrdiť do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "8302/8",
+        "NATIONALSI": "SKUEV4011",
+        "SITETITLE_": "Črmeľ"
+      }
+    ]
+  }
+}

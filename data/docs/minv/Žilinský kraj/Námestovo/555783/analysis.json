@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/026507",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "V súlade s § 82 ods. 3 zákona do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Vavrečka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vavrečka",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "4833"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Námestovo oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na výrub drevín na parcele E-KN 4833 v katastrálnom území Vavrečka v Žilinskom kraji. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia oznámenia dňa 12.11.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

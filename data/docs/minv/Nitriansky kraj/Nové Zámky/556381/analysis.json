@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2025/002706-031",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní od doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Kolta",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Kolta",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kolta",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "460",
+              "463/1",
+              "463/2",
+              "463/3",
+              "512/1",
+              "192/2",
+              "525"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Novostavba zariadenia pre seniorov, Kolta"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "vypúšťanie odpadových vôd"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Nové Zámky oznamuje začatie stavebného konania na výstavbu prípojky dažďovej kanalizácie a povolenie na osobitné užívanie vôd pre Obec Kolta. Konanie sa týka vypúšťania povrchového odtoku do vodného toku Paríž a do podzemných vôd v katastrálnom území Kolta. Účastníci môžu podať námietky do 7 pracovných dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

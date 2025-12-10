@@ -1,0 +1,150 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/016047",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-27",
+  "datum_zverejnenia": "2025-10-27",
+  "lehoty_na_vyjadrenie": "do 15 dní odo dňa, keď bolo oznámenie zverejnené",
+  "ziadatel_navrhovatel": "Mestský úrad Liptovský Mikuláš",
+  "miesto_realizacie": {
+    "kraj": "Žilinský Kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Územný plán mesta Liptovský Mikuláš – Zmeny a doplnky č. 7"
+  },
+  "typ_dokumentu": "Informácia o oznámení strategického dokumentu",
+  "typ_zasahu": [
+    "zmeny územného plánu",
+    "upresnenie územnoplánovacej dokumentácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://enviroportal.sk",
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": null,
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Tento dokument je informáciou o oznámení strategického dokumentu „Územný plán mesta Liptovský Mikuláš – Zmeny a doplnky č. 7“, ktorý navrhuje 27 zmien a upresnení územnoplánovacej dokumentácie. Dotknuté sú obce v okrese Liptovský Mikuláš, Žilinský kraj. Verejnosť môže podať písomné stanoviská do 15 dní od zverejnenia oznámenia (27.10.2025).",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Bodice",
+        "registry_n": "SKUEV0059",
+        "site_name": "Jelšie",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Bodice",
+        "registry_n": "SKUEV0059",
+        "site_name": "Jelšie",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Bodice",
+        "NATIONALSI": "SKUEV0059",
+        "SITETITLE_": "Jelšie"
+      },
+      {
+        "parcel_label": "Demänová",
+        "NATIONALSI": "SKUEV0061",
+        "SITETITLE_": "Demänovská slatina"
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Ploštín",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Svätý Štefan",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Bodice",
+        "NATIONALSI": "290",
+        "SITETITLE_": "PR Jelšie"
+      },
+      {
+        "parcel_label": "Bodice",
+        "NATIONALSI": "215",
+        "SITETITLE_": "CHA Bodický rybník"
+      },
+      {
+        "parcel_label": "Demänová",
+        "NATIONALSI": "1208",
+        "SITETITLE_": "CHA Demänovská slatina"
+      },
+      {
+        "parcel_label": "Demänová",
+        "NATIONALSI": null,
+        "SITETITLE_": "OP CHA Demänovská slatina"
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "NATIONALSI": "240",
+        "SITETITLE_": "OP NPP Demänovské jaskyne"
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "NATIONALSI": "239",
+        "SITETITLE_": "NPR Demänovská dolina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Demänová",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Iľanovo",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Ploštín",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Svätý Štefan",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

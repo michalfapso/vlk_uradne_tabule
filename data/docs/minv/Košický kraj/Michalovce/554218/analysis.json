@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2025/02l530",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-27",
+  "datum_zverejnenia": "2025-10-27",
+  "lehoty_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomnou alebo v elektronickou formou záujem byť zúčastnenou osobou v uvedenom správnom konaní",
+  "ziadatel_navrhovatel": "Mesto Strážske",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Michalovce",
+    "obec": "Strážske",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Strážske",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "821/1",
+              "1393/1",
+              "1389/1",
+              "1680/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "67/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "park v blízkosti bytových domov"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "borovica lesná",
+    "breza bradavičná",
+    "tuja",
+    "lipa",
+    "tis"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Michalovce informuje o začatí správneho konania na žiadosť Mesta Strážske o súhlas na výrub 16 kusov drevín (smrek, borovica, breza, tuja, lipa, tis) v katastrálnom území Strážske. Dreviny rastú v parku v blízkosti bytových domov a sú suché, prestarnuté, čo predstavuje riziko pre obyvateľov. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

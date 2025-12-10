@@ -1,0 +1,193 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno, Mýto pod Ďumbierom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      },
+      {
+        "nazov": "Mýto pod Ďumbierom",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo vedenia 22 kV: č. VN 417 k10"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno oznamuje plánovaný výrub drevín spoločnosťou Slovenská distribučná, a. s. v katastrálnych územiach Brezno a Mýto pod Ďumbierom. Výrub sa uskutoční v ochrannom pásme vedenia 22 kV a je klasifikovaný ako výnimka podľa zákona o ochrane prírody a krajiny pre zabezpečenie bezpečnej prevádzky energetických zariadení.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0695",
+        "site_name": "Rohoznianska jelšina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0695",
+        "site_name": "Rohoznianska jelšina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0695",
+        "SITETITLE_": "Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0695",
+        "SITETITLE_": "Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "403",
+        "SITETITLE_": "PR Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "225",
+        "SITETITLE_": "PR Breznianska skalka"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "1359",
+        "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "246",
+        "SITETITLE_": "NPR Ďumbier"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "403",
+        "SITETITLE_": "PR Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "225",
+        "SITETITLE_": "PR Breznianska skalka"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "1359",
+        "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "246",
+        "SITETITLE_": "NPR Ďumbier"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

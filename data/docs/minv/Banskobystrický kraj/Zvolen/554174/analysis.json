@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": "021465/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do päť pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Zvolen",
+    "obec": "Zvolen",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zvolen-Môťová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1774/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "rekreačnej oblasti vodnej nádrže Môťová"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "čistenie pozemku"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Zvolen informuje o začatom správnom konaní týkajúcom sa žiadosti právnickej osoby o súhlas na výrub 6500 m² krovitých porastov drevín na parcele KNC 1774/1 v k. ú. Zvolen-Môťová. Dôvodom výrubu je čistenie pozemku v rekreačnej oblasti vodnej nádrže Môťová. Lehota na vyjadrenie záujmu byť účastníkom konania je päť pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

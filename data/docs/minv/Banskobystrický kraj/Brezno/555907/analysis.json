@@ -1,0 +1,393 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PRES GREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno, Valaská",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      },
+      {
+        "nazov": "Valaská",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochrannom pásme 110 kV vedenia VN 7910, 7907, 7908"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením Okresného úradu Brezno o plánovanom výrube drevín spoločnosťou PRES GREEN, s.r.o. v katastrálnych územiach Brezno a Valaská. Výrub sa má uskutočniť v ochrannom pásme 110 kV vedenia a spadá pod zákonné výnimky bez potreby súhlasu, pričom sa len oznamuje orgánu ochrany prírody.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0695",
+        "site_name": "Rohoznianska jelšina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0695",
+        "site_name": "Rohoznianska jelšina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "383",
+        "site_name": "Zadná Poľana",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "383",
+        "site_name": "Zadná Poľana",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Valaská",
+        "registry_n": "SKUEV0319",
+        "site_name": "Poľana",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0695",
+        "SITETITLE_": "Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0695",
+        "SITETITLE_": "Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0319",
+        "SITETITLE_": "Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0154",
+        "SITETITLE_": "Suchá dolina"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0319",
+        "SITETITLE_": "Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKUEV0154",
+        "SITETITLE_": "Suchá dolina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "403",
+        "SITETITLE_": "PR Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "225",
+        "SITETITLE_": "PR Breznianska skalka"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "1359",
+        "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "246",
+        "SITETITLE_": "NPR Ďumbier"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "403",
+        "SITETITLE_": "PR Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "225",
+        "SITETITLE_": "PR Breznianska skalka"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "1359",
+        "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "246",
+        "SITETITLE_": "NPR Ďumbier"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "383",
+        "SITETITLE_": "NPR Zadná Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "426",
+        "SITETITLE_": "PP Spády"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "OP NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1064",
+        "SITETITLE_": "PP Kamenistý potok"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1156",
+        "SITETITLE_": "CHA Suchá dolina"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "383",
+        "SITETITLE_": "NPR Zadná Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "426",
+        "SITETITLE_": "PP Spády"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "OP NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "271",
+        "SITETITLE_": "NPR Hrončecký grúň"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1064",
+        "SITETITLE_": "PP Kamenistý potok"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "1156",
+        "SITETITLE_": "CHA Suchá dolina"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "232",
+        "SITETITLE_": "NPP Bystrianska jaskyňa"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      },
+      {
+        "parcel_label": "Valaská",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/016247-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-31",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 8 dní odo dňa doručenia oznámenia",
+  "ziadatel_navrhovatel": "Obec Dubová",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Pezinok",
+    "obec": "Dubová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dubová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1469/45"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1363",
+              "1506/1",
+              "1506/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Novosady"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "rekonštrukcia vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "69",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Tento dokument je verejná vyhláška a oznámenie o začatí konania o predĺženie platnosti stavebného povolenia pre stavbu „Rekonštrukcia prehrádzky Novosady“ v katastrálnom území Dubová. Stavebníkom je Obec Dubová. Účastníci konania a dotknuté orgány môžu svoje námietky a pripomienky uplatniť do 8 dní odo dňa doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "1469/45",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      },
+      {
+        "parcel_label": "1506/1",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      },
+      {
+        "parcel_label": "1363",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      },
+      {
+        "parcel_label": "1506/2",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001545",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15.12.2025"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Látky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Látky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1760/1",
+              "1770/1",
+              "1773",
+              "1759"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3090/312",
+              "3090/512",
+              "3090/112",
+              "3090/115",
+              "3090/116",
+              "3090/117"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Detva oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín v katastrálnom území Látky, okres Detva. Konanie sa vedie podľa zákona o ochrane prírody a krajiny. Záujem o účasť v konaní je možné potvrdiť do 15.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

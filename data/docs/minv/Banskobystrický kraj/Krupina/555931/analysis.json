@@ -1,0 +1,276 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2020",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská agentúra životného prostredia",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": "Okres Krupina",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Regionálny územný systém ekologickej stability okresu Krupina"
+  },
+  "typ_dokumentu": "Strategický dokument",
+  "typ_zasahu": [
+    "uplatňovať prírode blízke hospodárenie v lesoch",
+    "zabezpečiť ťažbu a obnovu lesných porastov šetrnými metódami",
+    "minimalizovať zásahy do koryta a brehov vodných tokov",
+    "zabrániť sukcesným procesom na trávinno-bylinných ekosystémoch",
+    "vysádzať brehovú a sprievodnú vegetáciu",
+    "regulovať intenzitu zástavby a investičné aktivity",
+    "realizovať účinné opatrenia na odstránenie kolízií živočíchov s dopravnými prostriedkami",
+    "sanovať environmentálne záťaže",
+    "kontrolovať, zamedziť rozširovaniu a odstraňovať invázne druhy rastlín",
+    "podporovať výsadbu plošnej a líniovej zelene",
+    "revitalizovať vodné toky a ich brehové porasty",
+    "realizovať protierózne opatrenia"
+  ],
+  "typ_uzemia": [
+    "CHKO Štiavnické vrchy (2. stupeň ochrany)",
+    "NPR Mäsiarsky bok (5. stupeň ochrany)",
+    "PR Čabraď (5. stupeň ochrany)",
+    "PR Holý vrch (4. stupeň ochrany)",
+    "PR Šinkov salaš (4. stupeň ochrany)",
+    "PP Dudinské travertíny (4. stupeň ochrany)",
+    "PP Krupinské bralce (4. stupeň ochrany)",
+    "PP Sixova stráň (4. stupeň ochrany)",
+    "PP Tesárska roklina (5. stupeň ochrany)",
+    "Územie európskeho významu (NATURA 2000)",
+    "SKUEV0036 Litava (2. a 5. stupeň ochrany)",
+    "SKUEV0258 Tlstý vrch (2. stupeň ochrany)",
+    "SKUEV0259 Stará hora (2. stupeň ochrany)",
+    "SKUEV0260 Mäsiarsky bok (2. a 5. stupeň ochrany)",
+    "SKUEV0266 Skalka (2. a 4. stupeň ochrany)",
+    "SKUEV0889 Medovarské dubiny (4. stupeň ochrany)",
+    "SKUEV0890 Pírovské (2. stupeň ochrany)",
+    "SKUEV0891 Domanícke stráne (2. stupeň ochrany)",
+    "ochranné pásmo vodárenského zdroja",
+    "Mokrade národného významu",
+    "Mokrade lokálneho významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ľalia zlatohlavá (Lilium martagon)",
+    "konvalinka voňavá (Convallaria majalis)",
+    "prilbovka dlholistá (Cephalanthera longifolia)",
+    "vstavač purpurový (Orchis purpurea)",
+    "kukučka vencová (Lychnis coronaria)",
+    "bezkolenec belasý (Molinia caerulea)",
+    "vstavač močiarny (Orchis palustris)",
+    "horec pľúcny (Gentiana pneumonanthe)",
+    "kosatec sibírsky (Iris sibirica)",
+    "žltohlav najvyšší (Trollius altissimus)",
+    "rebríček bertrámový (Achillea ptarmica)",
+    "vstavačovec májový (Dactylorhiza majalis)",
+    "vstavačovec bazový (Dactylorhiza sambucina)",
+    "pavstavač hlavatý (Traunsteinera globosa)",
+    "vstavač obyčajný (Orchis morio)",
+    "päťprstnica obyčajná (Gymnadenia conopsea)",
+    "vstavačovec Fuchsov Soóov (Dactylorhiza fuchsii subsp. sooiana)",
+    "hlaváčik jarný (Adonis vernalis)",
+    "ostrica Hartmanova (Carex hartmanii)",
+    "modruška pošvatá (Limodorum abortivum)",
+    "lúčovka veľkokvetá (Orlaya grandiflora)",
+    "vemenník dvojlistý (Platanthera bifolia)",
+    "chrumkavec väčší (Polycnemum majus)",
+    "poniklec veľkokvetý (Pulsatilla grandis)",
+    "kavyľ chlpatý (Stipa dasyphylla)",
+    "valdštajnka trojlistá Magicova (Waldsteinia ternata subsp. Magicii)",
+    "suchokvietok drobnoúborový (Xeroloma cylindracea)",
+    "kosatec nízky (Iris pumila)",
+    "šalát trváci (Lactuca perennis)",
+    "lucerna rozprestretá (Medicago prostrata)",
+    "leopoldia tenkokvetá (Muscari tenuifolium)",
+    "čermeľ bradatý (Melampyrum barbatum)",
+    "fuzáč veľký (Cerambyx cerdo)",
+    "salamandra škvrnitá (Salamandra salamandra)",
+    "krátkonôžka štíhla (Ablepharus kitaibelii)",
+    "ďateľ bielochrbtý (Dendrocopos leucotos)",
+    "plšík lieskový (Muscardinus avellanarius)",
+    "kobylka teplomilná (Rhacocleis germanica)",
+    "koník čiernopásy (Oedaleus decorus)",
+    "užovka stromová (Elaphe longissima)",
+    "dudok chochlatý (Upupa epops)",
+    "kobylka močiarna (Conocephalus fuscus)",
+    "potápka chochlatá (Podiceps cristatus)",
+    "jašterica múrová (Podarcis muralis)",
+    "podkovár malý (Rhinolophus hipposideros)",
+    "ropucha zelená (Bufo=Pseudepidalea viridis)",
+    "bobor vodný (Castor fiber)",
+    "vydra riečna (Lutra lutra)",
+    "rys ostrovid (Lynx lynx)",
+    "medveď hnedý (Ursus arctos)",
+    "vlk dravý (Canis lupus)",
+    "mačka divá (Felis silvestris)",
+    "roháč obyčajný (Lucanus cervus)",
+    "plocháč červený (Cucujus cinnaberinus)",
+    "fuzáč alpský (Rosalia alpina)",
+    "hnedáčik osikový (Euphydryas maturna)",
+    "mora schmidtova (Dioszeghyana schmidtii)",
+    "spriadač kostihojový (Callimorpha quadripunctaria)",
+    "ohniváčik veľký (Lycaena dispar)",
+    "netopier obyčajný (Myotis myotis)",
+    "syseľ pasienkový (Spermophilus citellus)",
+    "hlaváč bieloplutvý (Cottus gobio)",
+    "kováčik fialový (Limoniscus violaceus)",
+    "modráčik krvavcový (Phengaris teleius)",
+    "bystruška potočná (Carabus variolosus)",
+    "šidielko ozdobné (Coenoagrion ornatum)",
+    "vážka jasnoškvrnná (Leucorrhynia pectoralis)",
+    "rak riečny (Astacus astacus)",
+    "mrena severná (Barbus barbus)",
+    "hrúz škvrnitý (Gobio gobio)",
+    "jalec hlavatý (Leuciscus cephalus)",
+    "podustva severná (Chondrostoma nasus)",
+    "nosáľ sťahovavý (Vimba vimba)",
+    "ploska pásavá (Alburnoides bipunctatus)",
+    "užovka fŕkaná (Natrix tessellata)",
+    "bučiačik močiarny (Ixobrychus minutus)",
+    "chriašteľ vodný (Rallus aquaticus)",
+    "trsteniarik obyčajný (Acrocephalus palustris)",
+    "svrčiak slávikovitý (Locustella luscinioides)",
+    "korytnačka močiarna (Emys orbicularis)",
+    "hrúz kesslerov (Romanogobio kesslerii)",
+    "pĺž vrchovský (Sabanejewia balcanica)",
+    "lastúrnik hrachovka nížinná (Pisidium amnicum)",
+    "čiapočka potočná (Ancylus fluviatilis)",
+    "korýtko riečne (Unio crassus)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky, ktorou sa mení a dopĺňa vyhláška MŽP SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "492/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o katastri nehnuteľností a o zápise vlastníckych a iných práv k nehnuteľnostiam (katastrálny zákon)",
+      "zakon_cislo": "162/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane druhov voľne žijúcich živočíchov a voľne rastúcich rastlín reguláciou obchodu s nimi",
+      "zakon_cislo": "15/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využití nerastného bohatstva (banský zákon)",
+      "zakon_cislo": "44/1988 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o prírodných liečivých vodách, prírodných liečebných kúpeľoch, kúpeľných miestach a prírodných minerálnych vodách",
+      "zakon_cislo": "538/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o lesnom reprodukčnom materiáli",
+      "zakon_cislo": "138/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o poľovníctve",
+      "zakon_cislo": "274/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o rybárstve",
+      "zakon_cislo": "139/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ovzduší",
+      "zakon_cislo": "137/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o posudzovaní a kontrole hluku vo vonkajšom prostredí",
+      "zakon_cislo": "2/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o energetike",
+      "zakon_cislo": "656/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon NR SR o civilnom letectve",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonáva geologický zákon",
+      "zakon_cislo": "51/2008 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o chránených nerastoch a chránených skamenelinách a ich spoločenskom ohodnocovaní",
+      "zakon_cislo": "213/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o vykonaní niektorých ustanovení zákona o odpadoch",
+      "zakon_cislo": "283/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "24/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o ochrane druhov voľne žijúcich živočíchov a voľne rastúcich rastlín reguláciou obchodu s nimi",
+      "zakon_cislo": "110/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje zoznam vodohospodársky významných vodných tokov a vodárenských vodných tokov",
+      "zakon_cislo": "211/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR o kvalite ovzdušia",
+      "zakon_cislo": "244/2016 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MPRV SR o vykonaní niektorých ustanovení vodného zákona",
+      "zakon_cislo": "418/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú citlivé oblasti a zraniteľné oblasti",
+      "zakon_cislo": "617/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR o odvodoch za odňatie a neoprávnený záber poľnohospodárskej pôdy",
+      "zakon_cislo": "58/2013 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je \"Regionálny územný systém ekologickej stability okresu Krupina\" spracovaný v roku 2020. Analyzuje prírodné pomery, krajinnú štruktúru, identifikuje pozitívne a negatívne javy a navrhuje manažmentové a ekostabilizačné opatrenia pre zachovanie biodiverzity a ekologickej stability v okrese Krupina. Zameriava sa na chránené územia ako CHKO Štiavnické vrchy a rôzne SKUEV lokality, ako aj na ochranu ohrozených druhov rastlín a živočíchov."
+}

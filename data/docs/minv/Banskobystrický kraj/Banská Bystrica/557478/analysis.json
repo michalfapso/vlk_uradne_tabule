@@ -1,0 +1,434 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2025/051154",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický samosprávny kraj a Žilinský samosprávny kraj",
+    "okres": "Banská Bystrica, Ružomberok",
+    "obec": "Medzibrod, Hiadeľ, Donovaly, Liptovská Osada",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Hiadeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Donovaly",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Osada",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba energetického diela"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je informáciou pre verejnosť o zámere výstavby novej elektrickej stanice 110/22 kV a 110 kV prívodných vedení pre oblasť Donovaly. Činnosť bude realizovaná v obciach Medzibrod, Hiadeľ, Donovaly, Liptovská Osada v okresoch Banská Bystrica a Ružomberok a podlieha zisťovaciemu konaniu podľa zákona o posudzovaní vplyvov na životné prostredie.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Medzibrod",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Hiadeľ",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NATIONALSI": "SKUEV0198",
+        "SITETITLE_": "Zvolen"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKUEV0198",
+        "SITETITLE_": "Zvolen"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKUEV0164",
+        "SITETITLE_": "Revúca"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "838",
+        "SITETITLE_": "PR Mačková"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NATIONALSI": "1065",
+        "SITETITLE_": "PR Štrosy"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "834",
+        "SITETITLE_": "PR Kozí chrbát"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Medzibrod",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Hiadeľ",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Donovaly",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Liptovská Osada",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      }
+    ]
+  }
+}

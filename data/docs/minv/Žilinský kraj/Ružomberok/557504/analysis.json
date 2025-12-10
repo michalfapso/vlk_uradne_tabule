@@ -1,0 +1,224 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2025/014391",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LUMAREZ s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Ružomberok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružomberok",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Ružomberok zverejňuje oznámenie o plánovanom výrube drevín v katastrálnom území Ružomberok, v priamej línii a ochrannom pásme plynovodov. Oznamovateľom je LUMAREZ s.r.o. Toto konanie je len na informovanie verejnosti a nevzťahujú sa naň všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Salatín",
+        "KOD_UEV": "SKUEV0197"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Salatín",
+        "KOD_UEV": "SKUEV0197"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NAZOV_UEV": "Veľká Fatra",
+        "KOD_UEV": "SKUEV0238"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKUEV0164",
+        "SITETITLE_": "Revúca"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKUEV0197",
+        "SITETITLE_": "Salatín"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKUEV0238",
+        "SITETITLE_": "Veľká Fatra"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKUEV4092",
+        "SITETITLE_": "Lúky v Trlenskej doline"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKUEV0253",
+        "SITETITLE_": "Váh"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "223",
+        "SITETITLE_": "NPP Brankovský vodopád"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "350",
+        "SITETITLE_": "PP Matejkovský kamenný prúd"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "454",
+        "SITETITLE_": "PP Bukovinka"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "287",
+        "SITETITLE_": "PP Jazierske travertíny"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "242",
+        "SITETITLE_": "PP Dogerské skaly"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "475",
+        "SITETITLE_": "PP Vlčia skala"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "325",
+        "SITETITLE_": "PP Krkavá skala"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      },
+      {
+        "parcel_label": "Ružomberok",
+        "NATIONALSI": "SKCHVU033",
+        "SITETITLE_": "Veľká Fatra"
+      }
+    ]
+  }
+}

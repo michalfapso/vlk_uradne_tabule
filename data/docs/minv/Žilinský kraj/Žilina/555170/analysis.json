@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP-2023/008262-010-099914/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-10-26",
+  "datum_zverejnenia": "2023-10-26",
+  "lehoty_na_vyjadrenie": "30 dní od doručenia tohto oznámenia",
+  "ziadatel_navrhovatel": "Okresný úrad Žilina",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Žilina",
+    "obec": "Žilina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré mesto",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "jazda motorovými vozidlami",
+    "státie motorovými vozidlami"
+  ],
+  "typ_uzemia": [
+    "3. stupeň ochrany",
+    "4. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "89",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o elektronickej podobe výkonu pôsobnosti orgánov verejnej moci a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2013 Z. z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": "1",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žilina oznamuje začatie konania o obmedzení alebo zákaze jazdy a státia motorových vozidiel v územiach s 3. a 4. stupňom ochrany v katastrálnom území Staré mesto v obci Žilina. Verejnosť sa môže vyjadriť v lehote 30 dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "SKUEV0064",
+        "SITETITLE_": "Bratislavské luhy"
+      },
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "SKUEV0388",
+        "SITETITLE_": "Vydrica"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "904",
+        "SITETITLE_": "CHA Bôrik"
+      },
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "994",
+        "SITETITLE_": "CHA Zeleň pri vodárni"
+      },
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "903",
+        "SITETITLE_": "CHA Borovicový lesík"
+      },
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "48",
+        "SITETITLE_": "CHA Horský park"
+      },
+      {
+        "parcel_label": "Staré Mesto",
+        "NATIONALSI": "1356",
+        "SITETITLE_": "PR Vydrica"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-11-27 00:04:11",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C-KN', 'cisla': ['3218']}' v katastrálnom území 'Vyšný Blh' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-27 00:04:11",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Dudikovany', 'parcely': [{'typ': 'C', 'cisla': ['1115', '1114', '1151']}]}, {'nazov': 'Padarovce', 'parcely': [{'typ': 'C', 'cisla': ['837', '893', '894', '921', '924', '925', '926', '1030', '896']}]}, {'nazov': 'Drienčany', 'parcely': [{'typ': 'C', 'cisla': ['824', '825', '826']}]}, {'nazov': 'Ostrany', 'parcely': [{'typ': 'E', 'cisla': ['272/45']}]}, {'nazov': 'Vyšný Blh', 'parcely': [{'typ': 'C-KN', 'cisla': ['3218']}]}], 'nazov_lokality': None}"
+  }
+]

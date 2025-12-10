@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/020910-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Júlia Prídavková",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Kunov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kunov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "727/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica oznamuje začatie správneho konania vo veci žiadosti Júlie Prídavkovej o vydanie súhlasu na výrub 1 ks dreviny v zlom zdravotnom stave. Výrub sa má realizovať v katastrálnom území Kunov, okres Senica, na parcele C-KN 727/1, mimo zastavaného územia obce. Verejnosť má možnosť potvrdiť záujem byť účastníkom konania v lehote piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

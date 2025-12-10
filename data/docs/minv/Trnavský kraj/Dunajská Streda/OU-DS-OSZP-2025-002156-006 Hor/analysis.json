@@ -1,0 +1,208 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/002156-006",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-10-29",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "odvolanie v lehote do 15 dní odo dňa oznámenia rozhodnutia",
+  "ziadatel_navrhovatel": "Obec Čakany",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Dunajská Streda",
+    "obec": "Čakany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čakany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "482/6",
+              "482/48",
+              "481/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "rozšírenie kanalizácie",
+    "výstavba kanalizácie",
+    "výstavba čerpacej stanice"
+  ],
+  "typ_uzemia": [
+    "ochranné vodohospodárske oblasť Žitný ostrov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "73",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [
+        "a",
+        "o"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "66",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "146",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "paragraf": "43f",
+      "odsek": "3",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "17",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "453/2000 Z.z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "paragraf": "35",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "35",
+      "odsek": "4",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "23",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": "108",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane životného prostredia",
+      "zakon_cislo": "305/2018"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "543/2018"
+    },
+    {
+      "paragraf": "53",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "54",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "2",
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Toto rozhodnutie povoľuje obci Čakany výstavbu vodnej stavby \"E1. SO 01 Čakany – rozšírenie kanalizácie\" v katastrálnom území Čakany. Stavba zahŕňa rozšírenie kanalizačnej siete s potrubím a výstavbu čerpacej stanice. Lokalita realizácie sa nachádza v ochrannej vodohospodárskej oblasti Žitný ostrov, čo si vyžaduje zvýšenú ochranu podzemných a povrchových vôd.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/020092",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2025/020092",
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Obec Kláštor pod Znievom",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Kláštor pod Znievom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kláštor pod Znievom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "943/2",
+              "940",
+              "943/3"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "623/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "bývalý lom dolomitického piesku"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "rekultivácia skládky odpadov",
+    "uzavretie skládky odpadov",
+    "monitorovanie skládky odpadov",
+    "výrub drevín",
+    "vysekávanie krovia",
+    "odstránenie oplotenia",
+    "používanie stavebných odpadov",
+    "používanie recyklátu",
+    "používanie dnových sedimentov",
+    "svahovanie telesa odpadu",
+    "zatrávnenie a výsadba zelene"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody",
+    "Územie európskeho významu",
+    "SKUEV0381 Dielce",
+    "RÚSES-u okresu Martin – RBk13 Ekotón Lúčanskej Fatry Vrútky – Kláštor pod Znievom",
+    "ochranné pásma vodárenských zdrojov I. stupňa",
+    "ochranné pásma vodárenských zdrojov II. stupňa",
+    "ochranné pásma vodárenských zdrojov III. stupňa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "invázne druhy rastlín",
+    "ruderálne druhy rastlín",
+    "chránené biotopy",
+    "biotopy chránených druhov"
+  ],
+  "odkaz_enviroportal": "www.enviroportal.sk/eia/detail/uzavretie-rekultivacia-monitorovanie-skladky-odpadov-klastor-pod-zniev",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o aplikácii čistiarenského kalu a dnových sedimentov do pôdy a o doplnení zákona č. 223/2001 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "188/2003 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje záväzné stanovisko zo zisťovacieho konania pre zmenu navrhovanej činnosti „Uzavretie, rekultivácia a monitorovanie skládky odpadov Kláštor pod Znievom – zmena technologického postupu uzavretia a rekultivácie“, kde sa rozhodlo, že činnosť sa nebude ďalej posudzovať podľa zákona o posudzovaní vplyvov na ŽP. Činnosť sa realizuje v katastrálnom území Kláštor pod Znievom, v území s 1. stupňom ochrany prírody, v blízkosti Územia európskeho významu SKUEV0381 Dielce a prvkov RÚSES, pričom zahŕňa výrub drevín a manažment inváznych rastlín. Kľúčové podmienky sa týkajú monitoringu vôd, riadenia prašnosti a zabránenia šírenia inváznych druhov rastlín, pričom sa má spolupracovať so Správou NP Veľká Fatra v súvislosti s chránenými biotopmi.",
+  "zasiahnute_chranene_uzemia": {}
+}

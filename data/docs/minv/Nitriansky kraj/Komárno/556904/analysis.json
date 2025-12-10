@@ -1,0 +1,183 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2025/020988-013",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": "2025-10-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa zverejnenia v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Obec Bátorove Kosihy",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Bátorove Kosihy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bátorove Kosihy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1128/7",
+              "1128/1",
+              "1107/2",
+              "1239",
+              "1105"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1164/1",
+              "1174/2",
+              "1174/3",
+              "1239/1",
+              "1106",
+              "1239/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál čistiarne odpadových vôd"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba čistiarne odpadových vôd",
+    "výstavba kanalizácie",
+    "výstavba cesty",
+    "výstavba oplotenia",
+    "výstavba energetického diela",
+    "výrub drevín",
+    "odber podzemných vôd",
+    "vypúšťanie odpadových vôd",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Chránená vodohospodárska oblasť Žitný ostrov",
+    "ochranné pásmo vodárenského zdroja",
+    "ochranné pásmo plynovodu",
+    "hygienické a ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "stromy",
+    "dreviny",
+    "kríky"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku, vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z.z."
+    },
+    {
+      "zakon_nazov": "o podrobnostiach poskytovania údajov z majetkovej evidencie a prevádzkovej evidencie o objektoch a zariadeniach verejného vodovodu a verejnej kanalizácie",
+      "zakon_cislo": "605/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "127/1994 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa mení a dopĺňa vyhláška Ministerstva zdravotníctva Slovenskej republiky č. 549/2007 Z. z.",
+      "zakon_cislo": "237/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa ustanovuje kategorizácia odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o aplikácii čistiarenského kalu a dnových sedimentov do pôdy a o doplnení zákona č. 223/2001 Z. z. o odpadoch",
+      "zakon_cislo": "188/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "223/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách na stavenisko",
+      "zakon_cislo": "396/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o minimálnych bezpečnostných a zdravotných požiadavkách pri používaní pracovných prostriedkov",
+      "zakon_cislo": "392/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti na zaistenie bezpečnosti a ochrany zdravia pri práci s technickými zariadeniami tlakovými, zdvíhacími, elektrickými a plynovými",
+      "zakon_cislo": "508/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o požiadavkách a rozsahu výchovnej a vzdelávacej činnosti",
+      "zakon_cislo": "356/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o minimálnych požiadavkách na poskytovanie a používanie osobných ochranných pracovných prostriedkov",
+      "zakon_cislo": "395/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti na zaistenie bezpečnosti a ochrany zdravia pri stavebných prácach",
+      "zakon_cislo": "147/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o kvalite ovzdušia",
+      "zakon_cislo": "250/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodovodoch a kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o ovzduší",
+      "zakon_cislo": "410/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je záväzné stanovisko zo zisťovacieho konania Okresného úradu Komárno, ktoré určuje, že zmena navrhovanej činnosti 'Bátorove Kosihy, obecná ČOV pre 4000 EO' sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Projekt zahŕňa výstavbu novej čistiarne odpadových vôd, kanalizácie, prístupovej cesty a súvisiacej infraštruktúry v obci Bátorove Kosihy. Súčasťou projektu je výrub stromov, drevín a kríkov. Lokalita sa nachádza v 1. stupni ochrany, v Chránenej vodohospodárskej oblasti Žitný ostrov a v ochranných pásmach vodárenských zdrojov.",
+  "zasiahnute_chranene_uzemia": {}
+}

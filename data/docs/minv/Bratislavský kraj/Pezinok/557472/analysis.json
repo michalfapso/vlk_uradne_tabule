@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2025/017829",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pezinok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6295/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "čerešňa vtáčia"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub 1 ks čerešne vtáčej na parcele C 6295/1 v katastrálnom území Pezinok. Žiadateľom je fyzická osoba. Verejnosť sa môže zúčastniť konania, pričom lehota na doručenie potvrdenia záujmu je 5 pracovných dní od zverejnenia oznamu.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "6295/1",
+        "NATIONALSI": "SKCHVU014",
+        "SITETITLE_": "Malé Karpaty"
+      }
+    ]
+  }
+}

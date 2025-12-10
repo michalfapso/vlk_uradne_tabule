@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023669",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Turčianska vodárenská spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Martin",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4037/203",
+              "7425/1",
+              "7429/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "trasa prívodného potrubia do vodojemu Hrby"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o vydaní stanoviska",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje výrub drevín na parcelách C 4037/203, 7425/1 a 7429/1 v katastrálnom území Martin pre trasu prívodného potrubia do vodojemu Hrby. Žiadateľom je Turčianska vodárenská spoločnosť, a. s. Konanie má informatívny charakter a nie je možné sa doň prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

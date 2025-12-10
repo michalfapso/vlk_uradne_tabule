@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000934",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská elektrizačná prenosová sústava, a.s., Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Turčianske Teplice",
+    "obec": "Kaľamenová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kaľamenová",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "4220kV vedenie V271 Považská Bystrica - Sučany"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezávanie drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o výrube a orezávaní drevín pre zabezpečenie bezpečnej prevádzky 4220kV vedenia V271 Považská Bystrica - Sučany v katastrálnom území Kaľamenová, okres Turčianske Teplice. Do konania sa nedá prihlásiť a nie sú spomenuté žiadne konkrétne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Kaľamenová",
+        "NATIONALSI": "SKUEV0960",
+        "SITETITLE_": "Niva Turca"
+      },
+      {
+        "parcel_label": "Kaľamenová",
+        "NATIONALSI": "SKUEV0382",
+        "SITETITLE_": "Turiec a Blatnický potok"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Kaľamenová",
+        "NATIONALSI": "458",
+        "SITETITLE_": "OP NPR Turiec"
+      },
+      {
+        "parcel_label": "Kaľamenová",
+        "NATIONALSI": "458",
+        "SITETITLE_": "NPR Turiec"
+      }
+    ]
+  }
+}

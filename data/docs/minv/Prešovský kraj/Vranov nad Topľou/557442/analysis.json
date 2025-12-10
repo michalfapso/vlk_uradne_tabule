@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2025/011029-015",
+  "cislo_rozhodnutia": "OU-VT-OSZP-2025/011029-015",
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15-dní odo dňa oznámenia verejnou vyhláškou"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Giglovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Giglovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "205"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Giglovce – rekonštrukcia budovy pri VDJ"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "rekonštrukcia vodnej stavby",
+    "búracie práce",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického vedenia",
+    "ochranné pásmo elektronických komunikácií",
+    "pamiatková ochrana"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1991 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov (Stavebný zákon)",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o stavebných výrobkoch a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "133/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov (zákon o energetike)",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "351/2011 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane pamiatkového fondu v znení neskorších predpisov (pamiatkový zákon)",
+      "zakon_cislo": "49/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "124/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Vranov nad Topľou vydal rozhodnutie, ktorým povolil Východoslovenskej vodárenskej spoločnosti, a.s. rekonštrukciu vodnej stavby „Giglovce – rekonštrukcia budovy pri VDJ“ v obci Giglovce. Projekt zahŕňa búracie práce a výstavbu novej nadzemnej časti manipulačnej komory vodojemu na parcele C-KN č. 205. Konanie zohľadňuje požiadavky ochrany prírody a krajiny, pamiatkovej ochrany a technických ochranných pásiem.",
+  "zasiahnute_chranene_uzemia": {}
+}

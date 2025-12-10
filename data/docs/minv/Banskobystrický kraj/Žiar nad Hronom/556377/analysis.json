@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/019101",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-18",
+  "datum_zverejnenia": "2025-11-18",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Bartošova Lehôtka",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Bartošova Lehôtka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bartošova Lehôtka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1307"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žiar nad Hronom oznamuje začatie správneho konania vo veci žiadosti Obec Bartošova Lehôtka o súhlas na výrub 1 ks smreka v katastrálnom území Bartošova Lehôtka z dôvodu zlého zdravotného stavu dreviny. Záujem byť účastníkom konania je potrebné doručiť do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

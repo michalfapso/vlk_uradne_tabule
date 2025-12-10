@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/548428-2/POS-BAV",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": "2025-11-04",
+  "lehoty_na_vyjadrenie": "Na konanie podľa § 47 ods. 8 zákona č. 543/2002 Z. z. sa nevzťahujú predpisy o správnom konaní a zverejnené oznámenie nie je informáciou o začatom správnom konaní v zmysle § 82 ods. 7 zákona č. 543/2002 Z. z.",
+  "ziadatel_navrhovatel": "Veolia Energia Slovensko a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1950"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "68",
+      "odsek": null,
+      "pismena": [
+        "g",
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o tepelnej energetike",
+      "zakon_cislo": "657/2004 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "8",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava oznamuje plánovaný nevyhnutný výrub dvoch drevín spoločnosťou Veolia Energia Slovensko a.s. v katastrálnom území Petržalka, parcela č. 1950. Výrub súvisí s ochranným pásmom teplovodu a riadi sa zákonom o tepelnej energetike. Na toto konanie sa nevzťahujú predpisy o správnom konaní, čo obmedzuje možnosť verejnej účasti.",
+  "zasiahnute_chranene_uzemia": {}
+}

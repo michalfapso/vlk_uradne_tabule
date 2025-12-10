@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "OU-IL-OSZP-2025/000113-009",
+  "cislo_rozhodnutia": "OU-IL-OSZP-2025/000113-0011253/2025",
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Mesto Dubnica nad Váhom",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Dubnica nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dubnica nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3881/5",
+              "4450/2",
+              "3907/2",
+              "3907/5",
+              "3907/3",
+              "3908/80",
+              "3887/11",
+              "3887/1",
+              "3887/37",
+              "3887/12",
+              "3887/15",
+              "3908/56",
+              "3887/10",
+              "3908/60",
+              "3889/7",
+              "3887/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "5011/501",
+              "616/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Nádražná"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002"
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je kolaudačné rozhodnutie pre vodnú stavbu „Rozšírenie verejnej kanalizácie a vodovodu – ul. Nádražná – Dubnica nad Váhom“, konkrétne pre predĺženie vodovodu. Realizácia prebieha na rôznych parcelách v katastrálnom území Dubnica nad Váhom a zahŕňa aj križovanie Lieskovského potoka. Žiadateľom je Mesto Dubnica nad Váhom. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani druhy živočíchov či rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

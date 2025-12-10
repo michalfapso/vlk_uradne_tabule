@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-SV-OSZP-2025/001137",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Snina",
+    "obec": "Snina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Snina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2546/37",
+              "3067/1",
+              "3067/2",
+              "3067/4"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "6045",
+              "6066"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Slovenského národného povstania"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "rozšírenie vodovodu",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou Okresného úradu Snina, odboru starostlivosti o životné prostredie, oznamujúcou začatie kolaudačného konania pre vodnú stavbu „Snina – ul. Slovenského národného povstania - rozšírenie vodovodu“, ktorú navrhla Východoslovenská vodárenská spoločnosť, a.s. Ústne pojednávanie je nariadené na 13.01.2026 a účastníci konania môžu uplatniť námietky najneskôr pri pojednávaní. Dokument neuvádza žiadne explicitné informácie o dotknutých chránených územiach alebo špecifických živočíchoch/rastlinách.",
+  "zasiahnute_chranene_uzemia": {}
+}

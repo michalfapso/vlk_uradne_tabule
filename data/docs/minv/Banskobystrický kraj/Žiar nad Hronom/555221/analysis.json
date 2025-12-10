@@ -1,0 +1,474 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2025/015816-025",
+  "cislo_rozhodnutia": "OU-ZH-OSZP-2025/015816-0051233/2025",
+  "datum_dokumentu": "2025-10-24",
+  "datum_zverejnenia": "2025-09-19",
+  "lehoty_na_vyjadrenie": "Verejnosť bola informovaná o dokumente v obciach v termínoch od 19.09.2025 do 09.10.2025. Písomné stanoviská boli doručené do 09.10.2025 a ústne pojednávanie sa konalo 20.10.2025.",
+  "ziadatel_navrhovatel": "Mesto Žiar nad Hronom",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Žiar nad Hronom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horné Opatovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Žiar nad Hronom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3216"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Šášovské Podhradie",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Zmeny a doplnky č. 9 územného plánu mesta Žiar nad Hronom"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "zmeny funkčného využitia územia",
+    "záber poľnohospodárskej pôdy",
+    "vyňatie alebo obmedzenie využívania lesných pozemkov",
+    "výstavba budovy",
+    "výstavba cesty",
+    "výstavba energetického diela",
+    "výstavba vodnej stavby",
+    "skládkovanie odpadov",
+    "úprava vodného toku",
+    "ochrana pred povodňami"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "ochranné pásmo lesa",
+    "pobrežné pozemky vodných tokov",
+    "chránené ložiskové územia",
+    "prieskumné územia",
+    "záplavové územia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://sea.enviroportal.sk/zoznam",
+  "paragrafy": [
+    {
+      "paragraf": "7",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "3",
+      "odsek": "1",
+      "pismena": [
+        "e"
+      ],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "paragraf": "53",
+      "odsek": "1",
+      "pismena": [
+        "c"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "10",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": "14",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú kvalitatívne ciele povrchových vôd a limitné hodnoty ukazovateľov znečistenia odpadových a osobitných vôd",
+      "zakon_cislo": "269/2010 NV SR"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "15",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "banský zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "18",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "banský zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "banský zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "17",
+      "odsek": "5",
+      "pismena": [],
+      "zakon_nazov": "banský zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "26",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "banský zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "23",
+      "odsek": "16",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "22",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "12",
+      "odsek": "4",
+      "pismena": [
+        "n"
+      ],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": "4",
+      "pismena": [
+        "o"
+      ],
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky o územnoplánovacích podkladoch a územnoplánovacej dokumentácii",
+      "zakon_cislo": "55/2001 Z. z."
+    },
+    {
+      "paragraf": "20",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "20",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "geologický zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o obmedzovaní ožiarenia pracovníkov a obyvateľov z prírodných zdrojov ionizujúceho žiarenia",
+      "zakon_cislo": "57/2024 Z. z."
+    },
+    {
+      "paragraf": "12",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR o podrobnostiach o požiadavkách na vnútorné prostredia budov a o minimálnych požiadavkách na byty nižšieho štandardu a na ubytovacie zariadenia",
+      "zakon_cislo": "259/2008 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Technická norma Bytové budovy",
+      "zakon_cislo": "STN 73 4301"
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú ukazovatele a limitné hodnoty kvality pitnej vody a kvality teplej vody, postup pri monitorovaní pitnej vody, manažment rizík systému zásobovania pitnou vodou a manažment rizík domových rozvodných systémov",
+      "zakon_cislo": "91/2023 Z. z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": null,
+      "pismena": [
+        "g"
+      ],
+      "zakon_nazov": "zákon o územnom plánovaní",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky",
+      "zakon_cislo": "263/1998 Z.z."
+    },
+    {
+      "paragraf": "6",
+      "odsek": "10",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "8",
+      "odsek": "13",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Technická norma Úpravy riek a potokov",
+      "zakon_cislo": "STN 75 2102"
+    },
+    {
+      "paragraf": "22",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2024 Z. z."
+    },
+    {
+      "paragraf": "9",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Vyhláška Úradu pre územné plánovanie a výstavbu SR",
+      "zakon_cislo": "69/2024 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Technická norma Žumpy na splaškové odpadové vody",
+      "zakon_cislo": "STN 75 6081"
+    },
+    {
+      "paragraf": "4",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "Smernica Európskeho parlamentu a Rady Európskej Únie",
+      "zakon_cislo": "2000/601ES"
+    },
+    {
+      "paragraf": "63",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "7",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Občiansky súdny poriadok",
+      "zakon_cislo": "99/1963 Zb."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania pre strategický dokument \"Zmeny a doplnky č. 9 územného plánu mesta Žiar nad Hronom\" potvrdzuje, že dokument nebude posudzovaný v rámci celého procesu EIA. Dokument však musí rešpektovať viaceré podmienky, týkajúce sa najmä ochrany lesných a poľnohospodárskych pozemkov, vodného hospodárstva, riadenia odpadov, a obmedzení v územiach s 1. stupňom ochrany, ochranných pásmach lesa a vodných tokov, ako aj v záplavových a ložiskových územiach.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Šášovské Podhradie",
+        "registry_n": "SKUEV0265",
+        "site_name": "Suť",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Horné Opatovce",
+        "NATIONALSI": "SKUEV0947",
+        "SITETITLE_": "Stredný tok Hrona"
+      },
+      {
+        "parcel_label": "Horné Opatovce",
+        "NATIONALSI": "SKUEV0265",
+        "SITETITLE_": "Suť"
+      },
+      {
+        "parcel_label": "Šášovské Podhradie",
+        "NATIONALSI": "SKUEV0265",
+        "SITETITLE_": "Suť"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Šášovské Podhradie",
+        "NATIONALSI": "1340",
+        "SITETITLE_": "PR Pralesy Slovenska-Suť"
+      }
+    ]
+  }
+}

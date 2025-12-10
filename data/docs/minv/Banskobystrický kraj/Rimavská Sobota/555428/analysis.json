@@ -1,0 +1,153 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/022325",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie",
+  "ziadatel_navrhovatel": "AGROSPOL Hradová spol. s.r.o. Tisovec",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Tisovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tisovec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "3694/2",
+              "3693",
+              "3695/2",
+              "3695/1",
+              "3696",
+              "3698",
+              "3697",
+              "3699",
+              "3692",
+              "3700",
+              "3688/1",
+              "3688/2",
+              "3691",
+              "3690",
+              "3689/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "čistenie pastvy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Toto je oznámenie o začatí správneho konania pre vydanie súhlasu na výrub 50 ks drevín a 3 ha krovín v katastrálnom území Tisovec, okres Rimavská Sobota, za účelom čistenia a prinavrátenia pozemkov na poľnohospodárske účely. Žiadateľom je AGROSPOL Hradová spol. s.r.o. Tisovec. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "3698",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3700",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3690",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3691",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3692",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3693",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3694/2",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3695/2",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3688/1",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3688/2",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3689/2",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3697",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      },
+      {
+        "parcel_label": "3699",
+        "NATIONALSI": "SKUEV4076",
+        "SITETITLE_": "Lúky pod Šajbou"
+      }
+    ]
+  }
+}

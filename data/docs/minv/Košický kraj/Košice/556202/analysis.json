@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP2-2025/066735",
+  "cislo_rozhodnutia": "OU-KE-OSZP2-2025/066735-002",
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "DANUCEM Slovensko a.s., Závod Turňa nad Bodvou",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Rožňava",
+    "obec": "Gemerská Hôrka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gemerská Hôrka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "965/49",
+              "965/53",
+              "976/2",
+              "965/22",
+              "965/50",
+              "965/23",
+              "976/1",
+              "965/21"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Dobývací priestor Gemerská Hôrka"
+  },
+  "typ_dokumentu": "Záväzné stanovisko orgánu štátnej vodnej správy",
+  "typ_zasahu": [
+    "dobývanie výhradného ložiska sadrovec – anhydrit",
+    "otvárka ložiska",
+    "príprava ložiska",
+    "ťažba sadrovca a anhydritu",
+    "odvodňovanie bane",
+    "vypúšťanie prečistených banských a zaolejovaných vôd",
+    "vyplňovanie vydobytých priestorov základkovým materiálom",
+    "výstavba podzemných banských diel (štôlne, úpadnice, komíny, čerpacie stanice)"
+  ],
+  "typ_uzemia": [
+    "Chránené ložiskové územie",
+    "Slovenský kras"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov",
+      "zakon_cislo": "525/2003 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Košice, odboru starostlivosti o životné prostredie, k plánu otvárky, prípravy a dobývania sadrovca a anhydritu v dobývacom priestore Gemerská Hôrka – Zmena č. 1, pre žiadateľa DANUCEM Slovensko a.s. Uvádza, že činnosť, ktorá sa realizuje v katastrálnom území Gemerská Hôrka (okres Rožňava) a v Chránenom ložiskovom území, nevyžaduje výnimku z environmentálnych cieľov vodného zákona a nepredpokladá sa výrazný dopad na podzemné vody Slovenského krasu, ak sa dodržia podmienky pre zamedzenie znečistenia. Ide o pokračovanie a navýšenie ťažby banskej činnosti.",
+  "zasiahnute_chranene_uzemia": {}
+}

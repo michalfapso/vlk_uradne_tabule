@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001441",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Hriňová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hriňová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "14626/1",
+              "14633/5",
+              "14633/4",
+              "14633/3",
+              "14633/2",
+              "14633/1",
+              "14632/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "14633"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín a krovín. Predmetná činnosť sa týka pozemkov v katastrálnom území Hriňová, okres Detva. Účastníci konania môžu potvrdiť svoj záujem najskôr do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

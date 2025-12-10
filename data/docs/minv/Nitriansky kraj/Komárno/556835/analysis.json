@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSŽP-2025/023119",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie písomne na adresu Okresný úrad Komárno, odbor starostlivosti o životné prostredie, Záhradnícka 6, 945 01 Komárno alebo elektronicky na adresu oszp.kn@minv.sk"
+  },
+  "ziadatel_navrhovatel": "František Molnár",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "12071/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pri pravom brehu Váh rkm 3,620 – 3,600"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "státie plávajúceho zariadenia"
+  ],
+  "typ_uzemia": [
+    "chránené územie",
+    "ochranné pásmo",
+    "Druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania pre súhlas na predĺženie povolenia státia plávajúceho zariadenia na rieke Váh v katastrálnom území Komárno. Činnosť sa má realizovať v chránenom území alebo jeho ochrannom pásme, konkrétne na území, kde platí druhý stupeň ochrany podľa zákona o ochrane prírody a krajiny. Žiadateľom je František Molnár.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "12071/12",
+        "NATIONALSI": "SKUEV0819",
+        "SITETITLE_": "Vážsky Dunaj"
+      }
+    ]
+  }
+}

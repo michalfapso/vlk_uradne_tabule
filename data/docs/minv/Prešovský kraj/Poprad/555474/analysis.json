@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/037145",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": "2025-11-05",
+  "lehoty_na_vyjadrenie": "5 pracovných dní",
+  "ziadatel_navrhovatel": "Poľnohospodárske družstvo TATRAN Gerlachov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Gerlachov, Batizovce, Veľká",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gerlachov",
+        "parcely": []
+      },
+      {
+        "nazov": "Batizovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Veľká",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "terénne úpravy",
+    "zemné práce",
+    "stavebné úpravy",
+    "ťažba nerastov",
+    "zmena charakteru krajiny",
+    "používanie chemických látok",
+    "vstup a jazda motorovými vozidlami mimo ciest"
+  ],
+  "typ_uzemia": [
+    "3. stupeň ochrany",
+    "4. stupeň ochrany",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": "2",
+      "pismena": [
+        "b",
+        "e",
+        "h"
+      ],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad informuje o začatí správneho konania na základe žiadosti Poľnohospodárskeho družstva TATRAN Gerlachov. Žiadosť sa týka vydania súhlasu pre činnosti podľa § 13 ods. 2 písm. b), e) a h) Zákona o ochrane prírody a krajiny, ktoré sú obmedzené v chránených územiach, na pozemkoch LPIS v katastrálnych územiach Gerlachov, Batizovce a Veľká. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Batizovce",
+        "registry_n": "747",
+        "site_name": "Mraznica",
+        "category_i": 1.0
+      },
+      {
+        "parcel_label": "Batizovce",
+        "registry_n": "747",
+        "site_name": "Mraznica",
+        "category_i": 1.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Batizovce",
+        "NATIONALSI": "SKUEV0309",
+        "SITETITLE_": "Poprad"
+      },
+      {
+        "parcel_label": "Batizovce",
+        "NATIONALSI": "SKUEV0307",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "Veľká",
+        "NATIONALSI": "SKUEV0309",
+        "SITETITLE_": "Poprad"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Batizovce",
+        "NATIONALSI": "741",
+        "SITETITLE_": "PR Jelšina"
+      },
+      {
+        "parcel_label": "Batizovce",
+        "NATIONALSI": "747",
+        "SITETITLE_": "NPR Mraznica"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2025/032742",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Ing. Romana Achimského",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Chorvátsky Grob",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chorvátsky Grob",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1656/146"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Cupressocyparis leylandii"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senec oznamuje začatie správneho konania o žiadosti Ing. Romana Achimského na výrub 1 ks dreviny (Cupressocyparis leylandii) na parcele C 1656/146 v katastrálnom území Chorvátsky Grob, z dôvodu ohrozenia plotu a zdravia. Verejnosť sa môže prihlásiť do konania do 5 pracovných dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

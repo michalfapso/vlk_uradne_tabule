@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-PE-OSZP-2025/001366",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Partizánske",
+    "obec": "Kolačno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kolačno",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2260"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "osika",
+    "breza"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Partizánske oznamuje žiadosť fyzickej osoby o súhlas na výrub 2 ks osiky a 3 ks brezy na parcele č. 2260 (orná pôda) v katastrálnom území Kolačno v Trenčianskom kraji, za hranicami zastavaného územia. Dreviny sú vrastené v oplotení a naklonené na voľne prístupnej ploche. Lehota na potvrdenie účasti v konaní je 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

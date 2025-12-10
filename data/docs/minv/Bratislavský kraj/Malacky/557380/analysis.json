@@ -1,0 +1,47 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2025/026027",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-04",
+  "datum_zverejnenia": "2025-12-04",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Malacky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malacky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5618/7",
+              "5618/27"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín na parcelách C KN 5618/7 a 5618/27 v katastrálnom území Malacky. Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

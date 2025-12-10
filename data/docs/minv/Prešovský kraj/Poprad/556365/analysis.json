@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2025/038200",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Platan PRO, s.r.o., Pribinova 9843/10A, 960 01 Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Štrba",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štrba",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2172/17",
+              "2189/4",
+              "4267",
+              "4263",
+              "4367",
+              "2172/14",
+              "2172/49",
+              "2189/3",
+              "2189/5",
+              "2189/6",
+              "2189/7",
+              "2189/8",
+              "4284",
+              "4285",
+              "4286",
+              "4288",
+              "4289",
+              "4313",
+              "4330",
+              "4331",
+              "4365"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "pod el. vedením VN č. 199_k20"
+  },
+  "typ_dokumentu": "Upovedomenie o oznámení o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad oznamuje podané oznámenie o nevyhnutnom výrube drevín spoločnosťou Platan PRO, s.r.o. v katastrálnom území Štrba. Výrub sa má uskutočniť pod elektrickým vedením vysokého napätia (VN č. 199_k20) v ochrannom pásme vedenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

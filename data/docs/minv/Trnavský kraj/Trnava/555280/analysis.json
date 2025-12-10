@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "84 24",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-27",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "CTP ALPHA SK s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "VODERADY",
+    "katastralne_uzemia": [
+      {
+        "nazov": "VODERADY",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1766/69"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "CTPark VODERADY III. etapa"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie povolenia na uskutočnenie vodnej stavby",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba čistiarne odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "26",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Táto žiadosť od spoločnosti CTP ALPHA SK s.r.o. sa týka vydania povolenia na uskutočnenie vodnej stavby, konkrétne čističky odpadových vôd (SO 237), v obci Voderady v rámci projektu CTPark VODERADY III. etapa. Dokument nespomína žiadne chránené územia ani konkrétne dotknuté živočíchy či rastliny. Konanie sa opiera o § 26 zákona o vodách.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "1766/69",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      }
+    ]
+  }
+}

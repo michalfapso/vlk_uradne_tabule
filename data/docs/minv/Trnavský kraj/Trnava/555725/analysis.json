@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2025/082973-001",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 19. 11. 2024"
+  },
+  "ziadatel_navrhovatel": "Slovenského vodohospodárskeho podniku, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Baka",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "oblasti štrkových lavíc Baka"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "zmena stavu mokrade",
+    "Úprava – revitalizácia koryta Dunaja"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava oznamuje začatie správneho konania na základe žiadosti Slovenského vodohospodárskeho podniku o súhlas so zmenou stavu mokrade a revitalizáciu koryta Dunaja v oblasti štrkových lavíc Baka. Verejnosť má možnosť prihlásiť sa do konania do 19. 11. 2024.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Baka",
+        "registry_n": "SKUEV0090",
+        "site_name": "Dunajské luhy",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Baka",
+        "registry_n": "SKUEV0090",
+        "site_name": "Dunajské luhy",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Baka",
+        "NATIONALSI": "SKUEV0227",
+        "SITETITLE_": "Čiližské močiare"
+      },
+      {
+        "parcel_label": "Baka",
+        "NATIONALSI": "SKUEV0090",
+        "SITETITLE_": "Dunajské luhy"
+      },
+      {
+        "parcel_label": "Baka",
+        "NATIONALSI": "SKUEV0093",
+        "SITETITLE_": "Severný Bodícky kanál"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Baka",
+        "NATIONALSI": "123",
+        "SITETITLE_": "NPR Ostrov orliaka morského"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Baka",
+        "NATIONALSI": "SKCHVU007",
+        "SITETITLE_": "Dunajské luhy"
+      }
+    ]
+  }
+}

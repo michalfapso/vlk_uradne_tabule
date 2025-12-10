@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2025/089189-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-20",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Roman Maruniak, Terchová 1580, 013 06 Terchová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Terchová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Terchová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1633/42",
+              "1633/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Biely potok"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "úprava vodného toku",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Žilina oznamuje začatie vodoprávneho konania pre stavebný zámer Romana Maruniaka v katastrálnom území Terchová. Ide o úpravu ľavostranného svahu a toku Biely potok v dĺžke cca 22 metrov s cieľom stabilizácie pozemku a komunikácie. Účastníci konania môžu podať námietky a pripomienky do 7 pracovných dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "1633/42",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

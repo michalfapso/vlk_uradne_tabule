@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "OSÚPŽP PB: 2035/019702",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ladce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "289/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ilava",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "770/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Košeca",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "195/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolná Maríková",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "210/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1090/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo elektrického vedenia Ladce-Považská Bystrica"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliešťovanie drevín"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "paragraf": "43",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením spoločnosti ENZA s.r.o. o nevyhnutnom výrube náletových drevín v ochrannom pásme 110 kV elektrického vedenia č. TR: Ladce-Považská Bystrica. Výrub sa bude realizovať v katastrálnych územiach Ladce, Ilava, Košeca, Dolná Maríková a Považská Bystrica v okrese Považská Bystrica pre zabezpečenie bezporuchovej prevádzky vedenia v súlade so zákonom o energetike a zákonom o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {}
+}

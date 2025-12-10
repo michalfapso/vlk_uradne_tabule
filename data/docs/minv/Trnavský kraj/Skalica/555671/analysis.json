@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "000597/2024-ODP/70.20/D00994",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Holíč",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Holíč",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1752/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lesná 6"
+  },
+  "typ_dokumentu": "Oznámenie pred plánovaným výrubom drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Bratislavskej vodárenskej spoločnosti, a.s. o plánovanom výrube jedného orecha v Holíči, ulica Lesná 6, parcela č. 1752/6. Dôvodom výrubu je ohrozenie vodovodného potrubia koreňovým systémom dreviny v ochrannom pásme. Oznámenie sa opiera o § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny."
+}

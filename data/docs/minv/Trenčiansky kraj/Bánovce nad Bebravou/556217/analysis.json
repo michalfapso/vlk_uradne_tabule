@@ -1,0 +1,149 @@
+{
+  "cislo_konania_spisu": "OU-BN-OSZP-2025/009034 - 23",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, š.p., organizačná zložka OZ Považie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Bánovce nad Bebravou",
+    "obec": "Zlatníky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zlatníky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4087/2",
+              "4088",
+              "4106/3",
+              "4106/4",
+              "4106/5",
+              "4089",
+              "4090/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lesná správa Duchonka - Bystré (Bystrý potok, bystrina Chotina)"
+  },
+  "typ_dokumentu": "Záverečné stanovisko",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "úprava vodného toku",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "Územie európskeho významu",
+    "NATURA 2000",
+    "SKUEV0134"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Cordulegaster heros (pásikavec veľký)",
+    "Rosalia alpina (fuzáč alpský)",
+    "Lucanus cervus (roháč veľký)",
+    "Cucujus cinnaberinus (plocháč červený)",
+    "Carabus cancellatus (bystruška medená)",
+    "Dicerca alni (krasoň jelšový)",
+    "Bielzia coerulans (slizniak karpatský)",
+    "ryby",
+    "obojživelníky",
+    "Bukové a jedľové kvetnaté lesy (Biotop 9130)",
+    "Lužné vrbovo-topoľové a jelšové lesy (Biotop 91E0)",
+    "Prameniská nížin a pahorkatín (Biotop PR02)"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zlepsenie-vodneho-hospodarstva-v-lesoch-oz-povazie-ls-duchonka-1-etapa-1",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene a doplnení zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o lesoch",
+      "zakon_cislo": "326/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "o elektronickej podobe výkonu pôsobnosti orgánov verejnej moci a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "305/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Záverečné stanovisko Okresného úradu Bánovce nad Bebravou schvaľuje realizáciu projektu LESY SR, š.p., na zlepšenie vodného hospodárstva v lesoch Lesnej správy Duchonka v obci Zlatníky výstavbou Hornej vodnej nádrže (Variant 2). Činnosť sa dotýka územia európskeho významu Kulháň (SKUEV0134) a viacerých chránených druhov živočíchov (napr. pásikavec veľký, fuzáč alpský) a biotopov, s podmienkami na minimalizáciu vplyvov a monitoring biodiverzity.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "4089",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4088",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4106/4",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4106/3",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4106/5",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4090/5",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      },
+      {
+        "parcel_label": "4087/2",
+        "NATIONALSI": "SKUEV0134",
+        "SITETITLE_": "Kulháň"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/000366-057",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2025/000366-052",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 3 pracovných dní od doručenia tejto výzvy"
+  },
+  "ziadatel_navrhovatel": "obec Demänovská Dolina",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Demänovská Dolina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2932/5",
+              "2926/381",
+              "2926/382",
+              "2932/31",
+              "2932/32",
+              "2926/30",
+              "2932/2",
+              "2932/20",
+              "2932/24",
+              "3069/9",
+              "2925/1",
+              "2925/17",
+              "2925/18",
+              "2925/19",
+              "2925/20",
+              "2925/21",
+              "2925/32",
+              "2925/23",
+              "2926/25",
+              "2926/313",
+              "2926/312"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "CENTRUM NOVÉ KOLIESKO – M1 (II. ETAPA) DEMÄNOVSKÁ DOLINA"
+  },
+  "typ_dokumentu": "Upovedomenie o predložení odvolania",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "developerský projekt",
+    "zásah do krajinného rázu"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "ochrana krajinného rázu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o predložení odvolania odvolaciemu orgánu, ktoré bolo podané proti záverečnému stanovisku pre navrhovanú činnosť „CENTRUM NOVÉ KOLIESKO – M1 (II. ETAPA) DEMÄNOVSKÁ DOLINA“ v k.ú. Demänovská Dolina. Odvolatelia namietajú nesúlad zámeru s ochranou krajinného rázu a prírodných hodnôt územia. Správa Národného parku Nízke Tatry je medzi adresátmi.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "2926/25",
+        "NATIONALSI": "478",
+        "SITETITLE_": "OP NPP Vrbické pleso"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2025/055935-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "Arkádia s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Myjava",
+    "obec": "Myjava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Myjava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2784/16"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "zmena stavu mokrade",
+    "výstavba budovy"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania k žiadosti spoločnosti Arkádia s. r. o. o súhlas na zmenu stavu mokrade pre výstavbu výrobno-logistickej haly. Mokraď sa nachádza v katastrálnom území Myjava, na parcele CKN č. 2784/16, kde platí prvý stupeň ochrany prírody. Mimovládne organizácie zamerané na ochranu prírody sa môžu prihlásiť do konania do piatich pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

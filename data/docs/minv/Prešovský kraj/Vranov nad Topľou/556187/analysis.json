@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2025/015754-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": "2025-11-17",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "písomne najneskôr do 17.12.2025"
+  },
+  "ziadatel_navrhovatel": "Obec Pavlovce",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Pavlovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pavlovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2997/6",
+              "2997/7",
+              "1862/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení nesk. predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je verejnou vyhláškou oznamujúcou začatie vodoprávneho konania na predĺženie platnosti povolenia pre rekonštrukciu vodovodu v obci Pavlovce. Žiadateľom je Obec Pavlovce. Úrad upúšťa od ústneho pojednávania a miestneho šetrenia. Účastníci konania a dotknuté orgány môžu podať námietky a pripomienky písomne najneskôr do 17.12.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

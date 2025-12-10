@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2025/001389-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Severoslovenské vodárne a kanalizácie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Bytča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1362/1",
+              "1356",
+              "1349",
+              "1346/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Rázusová a Červeňaského"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu",
+    "predĺženie platnosti stavebného povolenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie konania o predĺžení platnosti stavebného povolenia na rekonštrukciu vodovodu v Bytči, katastrálnom území Veľká Bytča, ktorú plánujú Severoslovenské vodárne a kanalizácie, a.s. Úrad upúšťa od ústneho pojednávania, pričom námietky možno podať do 7 pracovných dní od doručenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

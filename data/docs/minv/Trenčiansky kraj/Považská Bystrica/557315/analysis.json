@@ -1,0 +1,175 @@
+{
+  "cislo_konania_spisu": "003678/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Teplá",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "DTS Považská Teplá poľovnícka chata"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti ENZA s.r.o. o nevyhnutnom výrube a okliesňovaní náletových drevín a iných porastov v ochrannom pásme 22 kV elektrického vedenia č.VN100 TR: DTS pol. chata. Činnosť sa má realizovať v katastrálnom území Považská Teplá (Považská Bystrica) od decembra 2025 do marca 2026 s cieľom zabezpečiť plynulú a bezporuchovú prevádzku vedenia v zmysle zákona o energetike.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NAZOV_UEV": "Strážovské vrchy",
+        "KOD_UEV": "SKUEV0256"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Považská Teplá",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Považská Teplá",
+        "NATIONALSI": "346",
+        "SITETITLE_": "OP NPR Manínska tiesňava"
+      },
+      {
+        "parcel_label": "Považská Teplá",
+        "NATIONALSI": "346",
+        "SITETITLE_": "NPR Manínska tiesňava"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Považská Teplá",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001172",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do 10.11.2025",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Krupina",
+    "obec": "Krupina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krupina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5434/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je upovedomením o začatí správneho konania vo veci vydania súhlasu na výrub drevín a krovín na parcele č. 5434/8 v katastrálnom území Krupina, okres Krupina. Verejnosť má možnosť potvrdiť záujem byť účastníkom konania do 10.11.2025.",
+  "zasiahnute_chranene_uzemia": {}
+}

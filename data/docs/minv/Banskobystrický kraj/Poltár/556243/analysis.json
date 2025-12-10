@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "OU-PT-OSZP-2025/000649",
+  "cislo_rozhodnutia": "OU-PT-OSZP-2025/000649-004",
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "do 8 dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Uhorské",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
+    "obec": "Uhorské",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Uhorské",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1545/1",
+              "1569/16",
+              "1558/1",
+              "1552/2",
+              "9/1",
+              "10/14",
+              "1558/3",
+              "1545/3"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1569/702",
+              "1569/102",
+              "1545/2",
+              "1569/202",
+              "1569/602",
+              "1546/1",
+              "1552/1",
+              "1558"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Poltár, odboru starostlivosti o životné prostredie, o predĺžení platnosti stavebného povolenia a termínu dokončenia vodnej stavby s názvom „Zlepšenie prístupu MRK k pitnej vode v obci Uhorské“. Žiadateľom je Obec Uhorské. Stavba spočíva v rozšírení a zokruhovani verejného vodovodu. V texte nie sú spomenuté žiadne chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

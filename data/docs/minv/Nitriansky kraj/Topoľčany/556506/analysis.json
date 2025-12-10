@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/015126",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní (vrátane) od zverejnenia informácie písomne na adresu Okresný úrad Topoľčany, odbor starostlivosti o životné prostredie, Nám. Ľ. Štúra 1738, 955 40 Topoľčany, alebo elektronicky cez portál www.slovensko.sk, prípadne na e-mailovú adresu lenka.jantakova@minv.sk"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Kovarce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kovarce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "zákon o združovaní občanov",
+      "zakon_cislo": "83/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje informáciu o začatí správneho konania na Okresnom úrade Topoľčany týkajúceho sa žiadosti fyzickej osoby o vydanie súhlasu na výrub drevín rastúcich za hranicami zastavaného územia obce v katastrálnom území Kovarce. Verejnosť má možnosť prihlásiť sa ako účastník konania do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "SKUEV0133",
+        "SITETITLE_": "Hôrky"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "808",
+        "SITETITLE_": "PR Kovarská hôrka"
+      },
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "51",
+        "SITETITLE_": "NPR Hrdovická"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Kovarce",
+        "NATIONALSI": "SKCHVU031",
+        "SITETITLE_": "Tribeč"
+      }
+    ]
+  }
+}

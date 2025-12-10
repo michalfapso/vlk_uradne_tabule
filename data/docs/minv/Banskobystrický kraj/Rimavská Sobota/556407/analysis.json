@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2025/021939",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Mgr. Viera Kadášová – advokátka, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dražice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "417/4",
+              "417/5",
+              "417/6",
+              "417/7",
+              "417/8",
+              "415/10",
+              "415/12",
+              "145/13",
+              "415/14",
+              "415/15",
+              "415/16",
+              "415/17",
+              "415/11",
+              "415/18",
+              "415/19",
+              "415/20",
+              "415/21",
+              "415/22"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "728",
+              "536/2",
+              "657/2",
+              "658",
+              "659",
+              "783/1",
+              "783/2",
+              "783/3",
+              "785/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Rimavská Sobota oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín a krovitých porastov v katastrálnom území Dražice. Žiadateľ požaduje výrub rozsiahlej plochy (spolu 583592 m2) pre poľnohospodársku produkciu a získanie zelenej energie. Záujemcovia môžu potvrdiť účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "415/20",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "415/22",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "415/21",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "783/3",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "785/1",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "783/1",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      },
+      {
+        "parcel_label": "783/2",
+        "NATIONALSI": "SKCHVU003",
+        "SITETITLE_": "Cerová vrchovina - Porimavie"
+      }
+    ]
+  }
+}

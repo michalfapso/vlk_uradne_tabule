@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/023771",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LUMAREZ s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Priekopa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1759/29",
+              "1759/28",
+              "1759/26",
+              "1759/27",
+              "1759/25"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "251/2012 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením o plánovanom výrube drevín, ktoré zasahujú do ochranného pásma plynárenských zariadení. Výrub bude realizovaný v katastrálnom území Priekopa v obci Martin, ktorá sa nachádza v Žilinskom kraji a podlieha prvému stupňu ochrany. Do konania sa nedá prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

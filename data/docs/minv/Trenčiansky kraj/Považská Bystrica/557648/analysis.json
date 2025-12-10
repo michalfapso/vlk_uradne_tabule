@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/017099 ZJ30 A-10",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ing. Stanislav Hradňanský",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Milochov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1001/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba rodinného domu",
+    "výstavba altánu",
+    "výstavba parkovacích miest"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "jabloň",
+    "slivka",
+    "čerešňa",
+    "orech",
+    "hruška"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Považská Bystrica oznamuje začatie správneho konania o žiadosti Ing. Stanislava Hradňanského na výrub ovocných drevín (jabloní, sliviek, čerešní, orechov, hrušiek) v katastrálnom území Milochov. Výrub je odôvodnený potrebou realizácie výstavby rodinného domu, altánu a parkovacích miest. Združenia s právnou subjektivitou môžu potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

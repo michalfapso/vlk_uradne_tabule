@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-PU-OSZP-2025/001665",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ivan Pavlech",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Púchov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vieska-Bezdedov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "267/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Púchov oznamuje začatie správneho konania o vydanie súhlasu na výrub 5 drevín (smrek, breza, borovica) v katastrálnom území Vieska-Bezdedov, ktoré ohrozujú cestnú komunikáciu a rodinný dom. Žiadateľom je Ivan Pavlech. Verejnosť má možnosť prihlásiť sa ako účastník konania do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

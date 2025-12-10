@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-17",
+  "datum_zverejnenia": "2025-11-20",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP BB, š.p., Povodie Hrona",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Podbrezová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podbrezová",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "rieka Hron, úsek VVVT, id. č.: 4-23-01, r. km 212,00"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie porastov",
+    "protipovodňové opatrenia",
+    "výstavba líniovej ochrannej stavby"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "č. 543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Brezno upovedomuje o plánovaných výruboch a okliesnení drevín spoločnosťou SVP BB, š.p. v katastrálnom území Podbrezová na rieke Hron. Cieľom zásahu je realizácia protipovodňových opatrení a líniovej ochrannej stavby, čo je v súlade s výnimkou podľa zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Podbrezová",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Podbrezová",
+        "NATIONALSI": "SKUEV0862",
+        "SITETITLE_": "Predajnianska slatina"
+      }
+    ]
+  }
+}

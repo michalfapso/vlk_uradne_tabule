@@ -1,0 +1,44 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP2-2025/000071-058",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": "2025-12-09",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri verejnom prerokovaní dňa 30.12.2025"
+  },
+  "ziadatel_navrhovatel": "Okresný úrad Prešov, odbor starostlivosti o životné prostredie, oddelenie štátnej správy vôd a vybraných zložiek životného prostredia kraja",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Pozvánka na verejné prerokovanie strategického dokumentu",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "úprava vodného toku",
+    "odber podzemných vôd",
+    "vypúšťanie odpadových vôd",
+    "vsakovanie vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona o regulácii v sieťových odvetviach",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov (zákon o EIA)",
+      "zakon_cislo": "24/2006 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je pozvánkou na verejné prerokovanie správy o hodnotení a návrhu strategického dokumentu „Plán rozvoja verejných vodovodov a verejných kanalizácii pre územie Prešovského kraja na roky 2021 – 2027“. Prerokovanie sa uskutoční dňa 30.12.2025. Pôjde o plánovanie výstavby a úprav vodovodných a kanalizačných sietí v celom Prešovskom kraji."
+}

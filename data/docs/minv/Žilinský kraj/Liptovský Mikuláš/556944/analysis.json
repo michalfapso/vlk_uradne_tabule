@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/15827-Ha",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Eugen Vojtuš",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Pribylina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pribylina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10492/3",
+              "10942/16"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "10491",
+              "10940"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania pre žiadosť Eugena Vojtuša o vydanie súhlasu na výrub drevín na parcelách v katastrálnom území Pribylina, okres Liptovský Mikuláš. Konanie sa týka súhlasu podľa zákona o ochrane prírody a krajiny a účastníci konania musia potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "10492/3",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      },
+      {
+        "parcel_label": "10491",
+        "NATIONALSI": "SKCHVU030",
+        "SITETITLE_": "Tatry"
+      }
+    ]
+  }
+}

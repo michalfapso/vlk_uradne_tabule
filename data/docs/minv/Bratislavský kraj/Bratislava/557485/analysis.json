@@ -1,0 +1,51 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/573546/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": "2025-12-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Rača",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5350/22",
+              "5350/33",
+              "5350/34",
+              "5358/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba rodinného domu",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava informuje o začatom správnom konaní na základe žiadosti fyzickej osoby o súhlas na výrub 4 kusov drevín. Dreviny v zlom zdravotnom stave majú byť vyrúbané z dôvodu výstavby rodinného domu a terénnych úprav na pozemkoch v katastrálnom území Rača, mimo zastavaného územia obce. Združenia s právnou subjektivitou môžu oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

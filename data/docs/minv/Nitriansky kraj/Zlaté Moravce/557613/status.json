@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2025-12-09 23:28:31",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['2058', '2002']}' v katastrálnom území 'Choča' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-12-09 23:28:31",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Volkovce, Veľké Vozokany, Tesárske Mlyňany, Choča, Beladice, Neverice', 'katastralne_uzemia': [{'nazov': 'Volkovce', 'parcely': [{'typ': 'C', 'cisla': ['2540/2']}]}, {'nazov': 'Veľké Vozokany', 'parcely': [{'typ': 'C', 'cisla': ['6195', '6194', '6237', '1705/5', '6254', '6151', '1152/1', '4535', '4532', '4537']}]}, {'nazov': 'Tesáre nad Žitavou', 'parcely': [{'typ': 'C', 'cisla': ['2749', '2878/2', '465/58']}]}, {'nazov': 'Choča', 'parcely': [{'typ': 'C', 'cisla': ['2058', '2002']}]}, {'nazov': 'Beladice', 'parcely': [{'typ': 'C', 'cisla': ['95/34', '80/1', '82/3']}]}, {'nazov': 'Pustý Chotár', 'parcely': [{'typ': 'C', 'cisla': ['542/1']}]}, {'nazov': 'Neverice', 'parcely': [{'typ': 'C', 'cisla': ['2033', '2000', '2030']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2025-12-09 23:28:41",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['2033', '2000', '2030']}' v katastrálnom území 'Neverice' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-12-09 23:28:41",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Volkovce, Veľké Vozokany, Tesárske Mlyňany, Choča, Beladice, Neverice', 'katastralne_uzemia': [{'nazov': 'Volkovce', 'parcely': [{'typ': 'C', 'cisla': ['2540/2']}]}, {'nazov': 'Veľké Vozokany', 'parcely': [{'typ': 'C', 'cisla': ['6195', '6194', '6237', '1705/5', '6254', '6151', '1152/1', '4535', '4532', '4537']}]}, {'nazov': 'Tesáre nad Žitavou', 'parcely': [{'typ': 'C', 'cisla': ['2749', '2878/2', '465/58']}]}, {'nazov': 'Choča', 'parcely': [{'typ': 'C', 'cisla': ['2058', '2002']}]}, {'nazov': 'Beladice', 'parcely': [{'typ': 'C', 'cisla': ['95/34', '80/1', '82/3']}]}, {'nazov': 'Pustý Chotár', 'parcely': [{'typ': 'C', 'cisla': ['542/1']}]}, {'nazov': 'Neverice', 'parcely': [{'typ': 'C', 'cisla': ['2033', '2000', '2030']}]}], 'nazov_lokality': None}"
+  }
+]

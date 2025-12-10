@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2025/001497",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": "2025-11-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "nie kratšia ako päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Hriňová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hriňová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4946/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub drevín na parcele C-KN č. 4946/6 v katastrálnom území Hriňová. Konanie sa týka žiadosti fyzickej osoby. Združenia majú možnosť oznámiť svoju účasť v konaní v lehote nie kratšej ako päť pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "4946/6",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      }
+    ]
+  }
+}

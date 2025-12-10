@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2025/086044-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 04.12.2025"
+  },
+  "ziadatel_navrhovatel": "Slovenský rybársky zväz – miestna organizácia Šoporňa",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Šoporňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šoporňa",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "9230/1",
+              "9230/2",
+              "7634"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "rybársky revír Pasienok Šoporňa, rybársky revír Štrkovisko"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "organizovanie športového podujatia - rybárskych pretekov",
+    "povolenie výnimky zo zakázaných činností"
+  ],
+  "typ_uzemia": [
+    "Chránené vtáčie územie Kráľová"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "408/2011 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "21/2008 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava oznamuje začatie správneho konania vo veci žiadosti Slovenského rybárskeho zväzu – miestna organizácia Šoporňa o povolenie výnimky zo zakázaných činností v Chránenom vtáčom území Kráľová. Dôvodom je organizovanie rybárskych pretekov na rybárskych revíroch Pasienok Šoporňa a Štrkovisko v k.ú. Šoporňa v rokoch 2026-2029.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "9230/2",
+        "NATIONALSI": "SKCHVU010",
+        "SITETITLE_": "Kráľová"
+      },
+      {
+        "parcel_label": "9230/1",
+        "NATIONALSI": "SKCHVU010",
+        "SITETITLE_": "Kráľová"
+      },
+      {
+        "parcel_label": "7634",
+        "NATIONALSI": "SKCHVU010",
+        "SITETITLE_": "Kráľová"
+      }
+    ]
+  }
+}

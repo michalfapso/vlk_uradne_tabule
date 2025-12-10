@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2025/020964-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Marek Skokánek",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Šaštín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaštín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1916/189"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba oplotenia",
+    "výstavba záhradného domčeka"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica oznamuje začatie správneho konania vo veci žiadosti Mareka Skokánka o vydanie súhlasu na výrub 4 ks drevín v k. ú. Šaštín na pozemku C-KN 1916/189. Dôvodom výrubu je plánovaná výstavba oplotenia a umiestnenie záhradného domčeka, pričom dreviny sú tiež považované za nebezpečné. Potvrdenie záujmu byť účastníkom konania je potrebné doručiť do piatich pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

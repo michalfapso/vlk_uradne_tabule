@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/025136-005",
+  "cislo_rozhodnutia": "OU-NO-OSZP-2025/025136-0080497/2025",
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Oravská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Babín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Babín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "998",
+              "999"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lán"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "rozšírenie verejného vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je kolaudačné rozhodnutie pre rozšírenie verejného vodovodu (SO-02 Vodovod – Rad A-1-1-a, Rad A-1-1-a-1) v lokalite Lán v obci Babín, okres Námestovo. Stavebníkom je Oravská vodárenská spoločnosť, a.s., a stavba sa nachádza na parcelách C KN: 998, 999 v katastrálnom území Babín. Rozhodnutie nespomína žiadne dotknuté chránené územia ani významné druhy rastlín či živočíchov relevantné pre LZ VLK.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-07",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Ciemy FUCHS FARM",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nevidzany",
+        "parcely": []
+      },
+      {
+        "nazov": "Temeš",
+        "parcely": []
+      },
+      {
+        "nazov": "Čavoj",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením od Pavla Cierneho (FUCHS FARM) Okresnému úradu Prievidza o plánovanom výrube a okliesnení stromov a iných porastov v ochrannom pásme VN vedenia I.c.259. Zásah, ktorý sa má realizovať v mesiacoch november, december a január, sa týka katastrálnych území Nevidzany, Temeš a Čavoj s cieľom zabezpečiť bezpečnú a spoľahlivú prevádzku energetického zariadenia.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Temeš",
+        "registry_n": "SKUEV0127",
+        "site_name": "Temešská skala",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Čavoj",
+        "registry_n": "SKUEV0127",
+        "site_name": "Temešská skala",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Temeš",
+        "NATIONALSI": "SKUEV0127",
+        "SITETITLE_": "Temešská skala"
+      },
+      {
+        "parcel_label": "Čavoj",
+        "NATIONALSI": "SKUEV0127",
+        "SITETITLE_": "Temešská skala"
+      },
+      {
+        "parcel_label": "Čavoj",
+        "NATIONALSI": "SKUEV4032",
+        "SITETITLE_": "Lúky pod Čičermanom"
+      },
+      {
+        "parcel_label": "Čavoj",
+        "NATIONALSI": "SKUEV0256",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Temeš",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Čavoj",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2025/047920",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
+    "obec": "Sihla",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sihla",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "podkôrny hmyz"
+  ],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "15a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje informáciu o začatí konania vo veci žiadosti o vydanie súhlasu pre výrub smrekov napadnutých podkôrnym hmyzom v katastrálnom území Sihla, okres Poltár. Verejnosť má možnosť prihlásiť sa do konania ako zúčastnená osoba do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Sihla",
+        "registry_n": "SKUEV0694",
+        "site_name": "Vrchslatina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Sihla",
+        "registry_n": "849",
+        "site_name": "Vrchslatina",
+        "category_i": 2.0
+      },
+      {
+        "parcel_label": "Sihla",
+        "registry_n": "SKUEV0694",
+        "site_name": "Vrchslatina",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Sihla",
+        "NATIONALSI": "SKUEV0694",
+        "SITETITLE_": "Vrchslatina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Sihla",
+        "NATIONALSI": "849",
+        "SITETITLE_": "PR Vrchslatina"
+      },
+      {
+        "parcel_label": "Sihla",
+        "NATIONALSI": "771",
+        "SITETITLE_": "CHA Meandre Kamenistého potoka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Sihla",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2025/000820",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-21",
+  "datum_zverejnenia": "2025-10-27",
+  "lehoty_na_vyjadrenie": "nejde o správne konanie a do konania sa nedá prihlásiť v zmysle zákona č. 543/2002 Z.z. o ochrane prírody a krajiny.",
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., OZ Piešťany, Správa povodia horného Váhu",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Turčianske Teplice",
+    "obec": "Turčianske Teplice, Diviaky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Turčianske Teplice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "615/1",
+              "628/1",
+              "37/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Diviaky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "21/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "tok Teplica"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovitého porastu",
+    "odstránenie náletových drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Turčianske Teplice zverejnil oznámenie od Slovenského vodohospodárskeho podniku o plánovanom výrube drevín, krovitého porastu a náletových drevín rastúcich mimo les. Výrub sa má uskutočniť z dôvodu údržby brehového porastu pozdĺž toku Teplica v katastrálnych územiach Turčianske Teplice a Diviaky. Dokument uvádza, že nejde o správne konanie a verejnosť sa nemôže prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

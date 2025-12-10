@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2025/010131",
+  "cislo_rozhodnutia": "OU-TN-OSZP3-2025/010131-035",
+  "datum_dokumentu": "2025-12-03",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Recable, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Svinná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svinná",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1096/7",
+              "1096/8",
+              "1096/13",
+              "1096/16",
+              "1080",
+              "1081",
+              "1069/16"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zariadenie na zhodnocovanie odpadov a zariadenie na zber odpadov - Svinná"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "zhodnocovanie odpadov",
+    "zber odpadov",
+    "recyklácia plastov",
+    "drvenie odpadov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zariadenie-na-zhodnocovanie-odpadov-zariadenie-na-zber-odpadov-svinna",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška, ktorou sa ustanovujú podrobnosti o zaobchádzaní s nebezpečnými látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "200/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR o minimálnych bezpečnostných a zdravotných požiadavkách na pracovisko",
+      "zakon_cislo": "391/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane ovzdušia",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MZ SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácii a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Ide o záväzné stanovisko zo zisťovacieho konania pre zmenu navrhovanej činnosti „Zariadenie na zhodnocovanie odpadov a zariadenie na zber odpadov - Svinná“ v obci Svinná, okres Trenčín. Okresný úrad Trenčín rozhodol, že činnosť sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie, avšak stanovil súbor opatrení na zmiernenie vplyvov na ovzdušie, vodu a hluk. Lokalita leží v 1. stupni ochrany prírody, ale nie je súčasťou žiadneho špecifického chráneného územia a nebol zistený výskyt chránených druhov.",
+  "zasiahnute_chranene_uzemia": {}
+}

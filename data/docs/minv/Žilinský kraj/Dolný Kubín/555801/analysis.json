@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2025/010146",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Dolná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Lehota",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7197",
+              "7463"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie konania pre výrub 38 smrekov obyčajných v k.ú. Dolná Lehota, z dôvodu ich zlého zdravotného stavu a napadnutia podkôrnikom. Konanie sa týka záujmov ochrany prírody a krajiny a účastníci sa môžu prihlásiť do 5 pracovných dní.",
+  "zasiahnute_chranene_uzemia": {}
+}

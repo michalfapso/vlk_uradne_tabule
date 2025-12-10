@@ -1,0 +1,127 @@
+{
+  "cislo_konania_spisu": "OU-SV-OSZP-2025/001078-011",
+  "cislo_rozhodnutia": "OU-SV-OSZP-2025/001078-011",
+  "datum_dokumentu": "2025-12-08",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní od zverejnenia záväzného stanoviska v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "STAFER, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Snina",
+    "obec": "Snina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Snina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1224/75",
+              "1224/108",
+              "1224/130",
+              "1224/131",
+              "1224/132"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Zariadenie na zber a výkup odpadov, ul. Stakčínska"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "rozšírenie zberu a výkupu odpadov",
+    "nakladanie s odpadmi",
+    "zber nebezpečných odpadov",
+    "zber ostatných kovových odpadov",
+    "zber starých vozidiel",
+    "zber starých batérií a akumulátorov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany prírody",
+    "nechránené vtáčie územie",
+    "mimo NATURA 2000"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/snina-ul-stakcinska-existujuce-zariadenie-na-zber-vykup-odpadov",
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, ktorou sa ustanovuje katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška Ministerstva vnútra SR, protipožiarna bezpečnosť",
+      "zakon_cislo": "96/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MZ SR, o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "nariadenie vlády SR, o ochrane zamestnancov pred rizikami súvisiacimi s expozíciou hluku",
+      "zakon_cislo": "115/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "nariadenie vlády SR, o minimálnych bezpečnostných a zdravotných požiadavkách na pracovisko",
+      "zakon_cislo": "391/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred požiarmi",
+      "zakon_cislo": "314/2001 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "vyhláška MŽP SR, o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "zakon_cislo": "248/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko zo zisťovacieho konania Okresného úradu Snina, odboru životného prostredia, pre navrhovateľa STAFER, s. r. o. Stanovisko určuje, že zmena činnosti spočívajúca v rozšírení kategórií zberu a výkupu odpadov (vrátane nebezpečných) v existujúcom zariadení v Snine na ul. Stakčínska, sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Lokalita sa nachádza v 1. stupni ochrany prírody, avšak mimo NATURA 2000 a iných významných chránených území. Negatívne vplyvy na životné prostredie a zdravie obyvateľov sa nepredpokladajú pri dodržaní určených opatrení.",
+  "zasiahnute_chranene_uzemia": {}
+}

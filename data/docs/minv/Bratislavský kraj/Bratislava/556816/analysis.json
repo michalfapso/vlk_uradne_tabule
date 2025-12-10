@@ -1,0 +1,110 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/418869-011",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/418869-011",
+  "datum_dokumentu": "2025-11-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "DÚBRAVKA Development, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dúbravka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2406/31",
+              "2406/32",
+              "2406/33",
+              "2406/63",
+              "2406/74",
+              "2406/78",
+              "2406/449",
+              "2406/55",
+              "2406/76",
+              "2406/80",
+              "2406/82",
+              "2406/440",
+              "2406/446",
+              "2411/56"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2411/52"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "POLYFUNKČNÝ SÚBOR MEDZE – SEVER"
+  },
+  "typ_dokumentu": "Rozhodnutie o súhlase na výrub drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovitého porastu",
+    "výstavba polyfunkčného súboru",
+    "náhradná výsadba"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "Ls1.1 Vŕbovo-topoľové nížinné lesy",
+    "Ls2.1 Dubovo – hrabové lesy karpatské"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hniezdiacich vtákov",
+    "netopiere",
+    "chránený xylofágny hmyz (roháče, fuzáče)",
+    "Vŕbovo-topoľové nížinné lesy",
+    "Dubovo – hrabové lesy karpatské"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z .z."
+    },
+    {
+      "zakon_nazov": "Správneho súdneho poriadku",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o prokuratúre",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava vydal súhlas na výrub 51 stromov a krovitého porastu v katastrálnom území Dúbravka, Bratislava, pre projekt „POLYFUNKČNÝ SÚBOR MEDZE – SEVER“. Oblasť sa nachádza v 1. stupni ochrany prírody a vyžaduje si podmienky na ochranu hniezdiacich vtákov, netopierov a xylofágneho hmyzu. Súčasťou rozhodnutia je aj povinnosť realizovať primeranú náhradnú výsadbu a chrániť okolité biotopy Vŕbovo-topoľových nížinných a Dubovo-hrabových lesov.",
+  "zasiahnute_chranene_uzemia": {}
+}

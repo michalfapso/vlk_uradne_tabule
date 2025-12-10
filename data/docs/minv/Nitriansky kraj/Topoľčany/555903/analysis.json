@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2025/012670-007",
+  "cislo_rozhodnutia": "OU-TO-OSZP-2025/012670-0043595/2025",
+  "datum_dokumentu": "2025-11-06",
+  "datum_zverejnenia": "2025-11-13",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (odvolanie)"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Topoľčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Topoľčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5416",
+              "4712",
+              "4818",
+              "4835/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Pivovarnícka"
+  },
+  "typ_dokumentu": "Rozhodnutie (Verejná vyhláška)",
+  "typ_zasahu": [
+    "rekonštrukcia vodovodu",
+    "výstavba vodnej stavby",
+    "zemné práce",
+    "križovanie odvodňovacieho kanála"
+  ],
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "509/1991 Zb."
+    },
+    {
+      "zakon_nazov": "Obchodný zákonník",
+      "zakon_cislo": "513/1991 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1965 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva kultúry SR",
+      "zakon_cislo": "253/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva kultúry SR",
+      "zakon_cislo": "231/2014 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Úradu podpredsedu vlády Slovenskej republiky pre investície a informatizáciu",
+      "zakon_cislo": "85/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Topoľčany vydal rozhodnutie o stavebnom zámere pre Západoslovenskú vodárenskú spoločnosť a.s. na rekonštrukciu vodovodu na ulici Pivovarnícka v Topoľčanoch. Stavba, ktorá zahŕňa zemné práce a križovanie odvodňovacieho kanála, sa nachádza v katastrálnom území Topoľčany a nedotýka sa žiadnych osobitne chránených častí prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "cislo_konania_spisu": "OU-DS-OSZP-2025/037407",
+    "cislo_rozhodnutia": null,
+    "datum_dokumentu": "2025-11-18",
+    "datum_zverejnenia": null,
+    "ucast_v_konani": {
+      "povolena": true,
+      "lehota_na_vyjadrenie": "5 pracovných dní t.j. do: 28.11.2025"
+    },
+    "ziadatel_navrhovatel": "Ladislav Mészáros",
+    "miesto_realizacie": {
+      "kraj": "Trnavský kraj",
+      "okres": "Dunajská Streda",
+      "obec": "Bodíky",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Bodíky",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "1661/112"
+              ]
+            }
+          ]
+        }
+      ],
+      "nazov_lokality": null
+    },
+    "typ_dokumentu": "Upovedomenie o začatí konania",
+    "typ_zasahu": [
+      "výrub drevín"
+    ],
+    "typ_uzemia": [
+      "neviem"
+    ],
+    "je_v_chranenom_uzemi": null,
+    "dotknute_zivocichy_rastliny": [
+      "dreviny"
+    ],
+    "odkaz_enviroportal": null,
+    "zakony": [
+      {
+        "zakon_nazov": "zákon o ochrane prírody a krajiny",
+        "zakon_cislo": "543/2002 Z. z."
+      },
+      {
+        "zakon_nazov": null,
+        "zakon_cislo": "408/2011 Z.z."
+      }
+    ],
+    "zhrnutie": "Upovedomenie o začatí konania týkajúceho sa udelenia súhlasu na zásah do drevín na parc. č. 1661/112 v katastrálnom území Bodíky pre žiadateľa Ladislava Mészárosa. Účastníci konania môžu prejaviť záujem do 28.11.2025.",
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1661/112",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    }
+  },
+  {
+    "cislo_konania_spisu": "OU-DS-OSZP-2025/037391",
+    "cislo_rozhodnutia": null,
+    "datum_dokumentu": "2025-11-18",
+    "datum_zverejnenia": null,
+    "ucast_v_konani": {
+      "povolena": true,
+      "lehota_na_vyjadrenie": "5 pracovných dní t.j. do: 28.11.2025"
+    },
+    "ziadatel_navrhovatel": "Ivan Zilinsky",
+    "miesto_realizacie": {
+      "kraj": "Trnavský kraj",
+      "okres": "Dunajská Streda",
+      "obec": "Jahodná",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Jahodná",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "1209/9"
+              ]
+            }
+          ]
+        }
+      ],
+      "nazov_lokality": null
+    },
+    "typ_dokumentu": "Upovedomenie o začatí konania",
+    "typ_zasahu": [
+      "výrub drevín"
+    ],
+    "typ_uzemia": [
+      "neviem"
+    ],
+    "je_v_chranenom_uzemi": null,
+    "dotknute_zivocichy_rastliny": [
+      "dreviny"
+    ],
+    "odkaz_enviroportal": null,
+    "zakony": [
+      {
+        "zakon_nazov": "zákon o ochrane prírody a krajiny",
+        "zakon_cislo": "543/2002 Z. z."
+      },
+      {
+        "zakon_nazov": null,
+        "zakon_cislo": "408/2011 Z.z."
+      }
+    ],
+    "zhrnutie": "Upovedomenie o začatí konania týkajúceho sa udelenia súhlasu na zásah do drevín na parc. č. 1209/9 v katastrálnom území Jahodná pre žiadateľa Ivana Zilinskeho. Účastníci konania môžu prejaviť záujem do 28.11.2025.",
+    "zasiahnute_chranene_uzemia": {}
+  }
+]

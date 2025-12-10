@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2025-11-23 22:23:27",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'KN-C', 'cisla': ['149', '126/28', '47', '40', '59', '37', '36', '42', '41']}' v katastrálnom území 'Kostolné Kračany' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2025-11-23 22:23:27",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Kostolné Kračany', 'katastralne_uzemia': [{'nazov': 'Moravské Kračany', 'parcely': [{'typ': 'C', 'cisla': ['126/28']}]}, {'nazov': 'Kostolné Kračany', 'parcely': [{'typ': 'KN-C', 'cisla': ['149', '126/28', '47', '40', '59', '37', '36', '42', '41']}]}], 'nazov_lokality': 'IBV Kostolné Kračany'}"
+  }
+]

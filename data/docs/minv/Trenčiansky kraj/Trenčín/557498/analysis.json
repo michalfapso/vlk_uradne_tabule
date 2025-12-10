@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia potvrdiť písomne na adresu Okresný úrad Trenčín, odbor starostlivosti o životné prostredie, Hviezdoslavova 3, 911 01 Trenčín alebo elektronickou formou (e-podanie) záujem byť zúčastnenou osobou"
+  },
+  "ziadatel_navrhovatel": "Obec Ivanovce",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Ivanovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ivanovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "935"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba detského ihriska"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je Upovedomením o začatí správneho konania týkajúceho sa žiadosti Obce Ivanovce o súhlas na výrub 5 kusov agátov bielych v k. ú. Ivanovce, na parcele C-KN č. 935. Dôvodom výrubu je plánovaná realizácia detského ihriska. Lehota na potvrdenie záujmu byť zúčastnenou osobou v konaní je do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

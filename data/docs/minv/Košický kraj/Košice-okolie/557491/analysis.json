@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/023877",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": "2025-12-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou"
+  },
+  "ziadatel_navrhovatel": "UNP, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Mokrance",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mokrance",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5887/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Logistické centrum Mokrance"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba rakytová",
+    "topoľ osikový",
+    "dub zimný (Quercus petraea)",
+    "topoľ biely",
+    "agát biely (Robinia pseudoacacia)",
+    "vŕba biela (Salix alba)",
+    "javor horský (Acer pseudoplatanus)",
+    "slivka trnková (Prunus spinosa)",
+    "svíb krvavý (Swida sanguinea)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument oznamuje začatie správneho konania vo veci predĺženia termínu na výrub 55 stromov a krovitých porastov v rozsahu 1470 m² v katastrálnom území Mokrance, okres Košice-okolie, pre účely výstavby Logistického centra Mokrance. Žiadateľom je UNP, spol. s r.o. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {}
+}

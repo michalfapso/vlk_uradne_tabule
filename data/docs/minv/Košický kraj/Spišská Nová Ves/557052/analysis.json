@@ -1,0 +1,50 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2025/025242",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Spišské Vlachy",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": "Spišské Vlachy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišské Vlachy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "193/1",
+              "192"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ul. Jarná, Pamiatková zóna Spišské Vlachy"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "tuja západná",
+    "lipa malolistá"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Spišská Nová Ves oznamuje začatie správneho konania na základe žiadosti Mesta Spišské Vlachy o súhlas na výrub 6 ks tuje západnej a 2 ks lipy malolistej v Spišských Vlachoch na ulici Jarná, v Pamiatkovej zóne Spišské Vlachy. Dôvodom je zhoršený zdravotno-biologický stav drevín a nadmerné tienenie. Verejnosť má možnosť potvrdiť záujem byť zúčastnenou osobou v konaní do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

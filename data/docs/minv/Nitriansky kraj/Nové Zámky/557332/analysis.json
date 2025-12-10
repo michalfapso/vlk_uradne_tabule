@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2025/033363",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "Do 5 pracovných dní od zverejnenia informácie, písomne na vyššie uvedenú adresu alebo elektronicky cez www.slovensko.sk."
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Nové Zámky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Zámky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "83/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Nové Zámky oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na výrub drevín v katastrálnom území Nové Zámky. Informácia o konaní podľa § 82 ods. 7 zákona č. 543/2002 Z.z. umožňuje združeniam s právnou subjektivitou pôsobiacim v oblasti ochrany prírody prihlásiť sa ako zúčastnená osoba do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "SKUEV0084",
+        "SITETITLE_": "Zátoň"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "137",
+        "SITETITLE_": "PP Potok Chrenovka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Nové Zámky",
+        "NATIONALSI": "SKCHVU005",
+        "SITETITLE_": "Dolné Považie"
+      }
+    ]
+  }
+}

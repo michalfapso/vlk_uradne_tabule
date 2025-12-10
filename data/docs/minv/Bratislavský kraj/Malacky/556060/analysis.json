@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2025/019824-005",
+  "cislo_rozhodnutia": "OU-MA-OSZP-2025/019824-005",
+  "datum_dokumentu": "2025-11-14",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Malacky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malacky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "361/1",
+              "361/2",
+              "361/3",
+              "361/4",
+              "361/5",
+              "361/6",
+              "361/7",
+              "361/8",
+              "361/9",
+              "361/10",
+              "361/11",
+              "361/12",
+              "361/13",
+              "361/14",
+              "361/15",
+              "361/16",
+              "361/18",
+              "361/19",
+              "361/20",
+              "361/21",
+              "361/22",
+              "361/23",
+              "361/24",
+              "361/25",
+              "361/26",
+              "361/27",
+              "361/28",
+              "361/29",
+              "361/30",
+              "361/31",
+              "361/32",
+              "361/33",
+              "361/34"
+            ]
+          },
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "4692/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ČOV Malacky"
+  },
+  "typ_dokumentu": "Rozhodnutie o predĺžení platnosti stavebného povolenia",
+  "typ_zasahu": [
+    "rekonštrukcia čistiarne odpadových vôd",
+    "výstavba vodnej stavby",
+    "úprava infraštruktúry"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní v znení neskorších predpisov",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch v znení neskorších predpisov",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Tento dokument je rozhodnutím Okresného úradu Malacky, odboru starostlivosti o životné prostredie, ktorým sa predlžuje platnosť stavebného povolenia pre Bratislavskú vodárenskú spoločnosť, a.s., na komplexnú rekonštrukciu ČOV Malacky na katastrálnom území Malacky do 27.09.2027. Projekt zahŕňa rekonštrukciu mechanického predčistenia, čerpacej stanice, aktivačných a dosadzovacích nádrží, terciárneho dočistenia, kalového hospodárstva a potrubných a káblových rozvodov.",
+  "zasiahnute_chranene_uzemia": {}
+}

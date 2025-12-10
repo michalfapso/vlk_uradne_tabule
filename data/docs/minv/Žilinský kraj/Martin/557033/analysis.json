@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2025/006968-Hš",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2025/006968-Hš",
+  "datum_dokumentu": "2025-11-28",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Lipovec",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Lipovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lipovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "504/34",
+              "1201/26",
+              "1207/3",
+              "504/38",
+              "1207/4",
+              "1213/4",
+              "1213/7",
+              "1202/2",
+              "330/2",
+              "1203/2",
+              "498/15",
+              "498/81",
+              "1200/1",
+              "498/16",
+              "498/30",
+              "1511/17",
+              "1514/9",
+              "1508/42",
+              "1514/18"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "858/1",
+              "548/105",
+              "610/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení užívania vodnej stavby",
+  "typ_zasahu": [
+    "užívanie vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba čerpacej stanice",
+    "výstavba oplotenia",
+    "výstavba NN prípojky"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je rozhodnutím Okresného úradu Martin o povolení užívania vodnej stavby \"Lipovec – Turčianske Kľačany, kanalizácia – I. etapa\" pre Obec Lipovec. Stavba zahŕňa výstavbu výtlačného potrubia, čerpacej stanice, oplotenia, NN prípojky, vodovodnej prípojky a stokovej siete za účelom odvádzania splaškových odpadových vôd. Realizácia prebieha na parcelách v katastrálnom území obce Lipovec. Možnosť odvolania proti rozhodnutiu do 15 dní od oznámenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

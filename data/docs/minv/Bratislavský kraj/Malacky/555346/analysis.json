@@ -1,0 +1,137 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2024/024231",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-05",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie",
+  "ziadatel_navrhovatel": "POZAGAS, a.s. Malé námestie 1, Malacky",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Malacky",
+    "obec": "Malacky, Kostolište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostolište",
+        "parcely": []
+      },
+      {
+        "nazov": "Malacky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "27",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1976 Zb."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "11",
+      "odsek": "1",
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky informuje o začatom správnom konaní na výrub drevín, ktoré oznámila spoločnosť POZAGAS, a.s. v katastrálnych územiach Kostolište a Malacky. Výrub je odôvodnený bezpečnosťou plynárenských zariadení a lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Kostolište",
+        "NATIONALSI": "SKUEV0116",
+        "SITETITLE_": "Jakubovské rybníky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKUEV0121",
+        "SITETITLE_": "Marhecké rybníky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKUEV0219",
+        "SITETITLE_": "Malina"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKUEV0116",
+        "SITETITLE_": "Jakubovské rybníky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKUEV0169",
+        "SITETITLE_": "Orlovské vŕšky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKUEV0170",
+        "SITETITLE_": "Mešterova lúka"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "1184",
+        "SITETITLE_": "CHA Marhecké rybníky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "1205",
+        "SITETITLE_": "PR Orlovské vŕšky"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "1204",
+        "SITETITLE_": "CHA Mešterova lúka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Kostolište",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      },
+      {
+        "parcel_label": "Malacky",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      }
+    ]
+  }
+}

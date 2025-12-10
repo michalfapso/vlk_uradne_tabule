@@ -1,0 +1,149 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/028655-005",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2025/028655-0076960/2025",
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": "2025-11-17",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MGM Nábytok s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Kostolné Kračany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moravské Kračany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "126/28"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kostolné Kračany",
+        "parcely": [
+          {
+            "typ": "KN-C",
+            "cisla": [
+              "149",
+              "126/28",
+              "47",
+              "40",
+              "59",
+              "37",
+              "36",
+              "42",
+              "41"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Kostolné Kračany"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie vodovodu",
+    "rozšírenie kanalizácie",
+    "výstavba rodinných domov",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodnej stavby",
+    "ochranné pásmo VN vedenia",
+    "ochranné pásmo ciest III. triedy",
+    "obytná zóna"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "listnatý porast"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva niektoré ustanovenia stavebného zákona",
+      "zakon_cislo": "453/2000 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "65/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška o stavebných odpadoch a odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o pozemných komunikáciách",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o cestnej premávke",
+      "zakon_cislo": "8/2009 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa vykonáva zákon o cestnej premávke",
+      "zakon_cislo": "30/2020 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "vyhláška, ktorou sa ustanovuje zoznam skupín stavebných výrobkov a systém posudzovania parametrov",
+      "zakon_cislo": "162/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o elektronickej verejnej správe",
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dunajská Streda vydal rozhodnutie o povolení vodnej stavby \"SO-04 Rozšírenie vodovodu a kanalizácie\" v rámci výstavby 6 rodinných domov pre \"IBV Kostolné Kračany\" v obci Kostolné Kračany, katastrálne územie Moravské Kračany a Kostolné Kračany. Projekt zahŕňa výstavbu verejného vodovodu a kanalizácie. Dokument zdôrazňuje potrebu súhlasu pre prípadný výrub drevín a dodržiavanie ochranných pásiem vodnej stavby, inžinierskych sietí a ciest.",
+  "zasiahnute_chranene_uzemia": {}
+}

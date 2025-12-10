@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-KA-OSZP-2025/001197",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": "2025-11-10",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Krupina",
+    "obec": "Krupina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krupina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1222/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "9287/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "9659/8"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "406/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Traťové úseky železničnej trate Hontianske Nemce – Krupina"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesňovanie drevín"
+  ],
+  "typ_uzemia": [
+    "Ochranné pásmo železničnej trate"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "orech",
+    "smrek",
+    "duglaska",
+    "slivka"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Krupina zverejňuje oznámenie od Železníc Slovenskej republiky o plánovanom výrube a okliesňovaní drevín (orech, smrek, duglaska, slivka) v ochrannom pásme železničnej trate v katastrálnom území Krupina. Ide o notifikačné konanie podľa zákona o ochrane prírody a krajiny, na ktoré sa nevyžaduje uplatnenie všeobecných predpisov o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

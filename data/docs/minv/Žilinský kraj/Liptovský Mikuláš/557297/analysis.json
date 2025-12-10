@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "40825/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Svätý Kríž",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svätý Kríž",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3002/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Palúdzanka, intravilán Svätý Kríž"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie krovín",
+    "odstraňovanie stromov",
+    "úprava hrádze"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "jaseň",
+    "jelša",
+    "smrek",
+    "smrekovec opadavý",
+    "borovica",
+    "kroviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "125/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub drevín a krovín na vodnom toku Palúdzanka v katastrálnom území Svätý Kríž, okres Liptovský Mikuláš. Práce sa majú realizovať v období od 1.12.2025 do 29.2.2028 za účelom zabezpečenia plynulého prietoku a ochrany koryta. V dokumente nie sú spomenuté žiadne chránené územia ani osobitne chránené druhy okrem samotných drevín určených na výrub.",
+  "zasiahnute_chranene_uzemia": {}
+}

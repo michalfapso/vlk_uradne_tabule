@@ -1,0 +1,128 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2025/031628-004",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2025/031628-0076926/2025",
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": "2025-11-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Nárad",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Nárad",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nárad",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "872/2",
+              "866/46",
+              "866/62",
+              "866/63",
+              "866/67",
+              "866/118",
+              "866/120",
+              "866/121",
+              "866/122"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Nárad – III. etapa Baloňská cesta"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba prečerpávacej stanice"
+  ],
+  "typ_uzemia": [
+    "chránená vodohospodárska oblasť Žitný ostrov",
+    "ochranné pásmo vodného toku",
+    "vodohospodársky významný vodný tok Dunakňa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o chránených oblastiach prirodzenej akumulácie vôd",
+      "zakon_cislo": "405/2018 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Pamiatkový zákon",
+      "zakon_cislo": null
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o cestnej premávke",
+      "zakon_cislo": "8/2009 Z.z."
+    },
+    {
+      "zakon_nazov": "Cestný zákon",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o autorizovaných architektoch a autorizovaných stavebných inžinieroch",
+      "zakon_cislo": "138/2000 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odbornej spôsobilosti na vybrané činnosti vo výstavbe",
+      "zakon_cislo": "136/1995 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o Policajnom zbore",
+      "zakon_cislo": "171/1993 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o stavebných výrobkoch",
+      "zakon_cislo": "133/2013 Z.z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení vodnej stavby – výstavby verejnej gravitačnej a tlakovej kanalizácie s prečerpávacou stanicou v obci Nárad, lokalita \"IBV Nárad – III. etapa Baloňská cesta\". Realizácia projektu sa nachádza v chránenej vodohospodárskej oblasti Žitný ostrov a v blízkosti vodohospodársky významného toku Dunakňa, čo si vyžaduje zvýšenú ochranu podzemných vôd a dodržiavanie ochranných pásiem.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2025/028229",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2025-12-08",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "V súlade s § 82 ods. 3 zákona do 5 pracovných dní od zverejnenia oznámenia na Okresnom úrade Námestove, odbore starostlivosti o životné prostredie, Miestneho priemyslu 571, 029 01 Námestovo alebo elektronicky na oszp.no@minv.sk"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Breza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Breza",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "11193"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Námestovo oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na výrub drevín na parcele E-KN 11193 v katastrálnom území Breza. Konanie sa riadi Zákonom o ochrane prírody a krajiny. Verejnosť má možnosť prihlásiť sa ako účastník konania do 5 pracovných dní od zverejnenia oznámenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "11193",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      }
+    ]
+  }
+}

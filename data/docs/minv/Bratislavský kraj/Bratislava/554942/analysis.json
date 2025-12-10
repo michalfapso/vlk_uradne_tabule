@@ -1,0 +1,217 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/430066-022",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/430066-022",
+  "datum_dokumentu": "2025-07-18",
+  "datum_zverejnenia": "2025-05-05",
+  "lehoty_na_vyjadrenie": "Do 15 dní odo dňa doručenia možno podať odvolanie (pre dotknutú verejnosť sa za deň doručenia považuje prvý deň zverejnenia v CIS).",
+  "ziadatel_navrhovatel": "YIT Slovakia a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský samosprávny kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava - mestská časť Petržalka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petržalka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5920/6"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "9-5403/13"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytné súbory Viedenská cesta - západ, Pečnianska niva"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba obytnej zóny",
+    "výstavba technickej infraštruktúry",
+    "výstavba dopravnej vybavenosti",
+    "úprava krajiny",
+    "výrub drevín",
+    "vsakovanie dažďovej vody",
+    "čerpanie vody zo studne"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja Pečniansky les (2. stupeň)",
+    "1. stupeň ochrany prírody a krajiny",
+    "Územie európskeho významu (SKUEV0064 Bratislavské luhy)",
+    "Chránené vtáčie územie (SKCHVU007 Dunajské luhy)",
+    "NATURA 2000",
+    "vŕbovo-topoľové nížinné lužné lesy (biotop 91E0)",
+    "dubovo-brestovo-jaseňové nížinné lužné lesy (biotop 91F0)",
+    "nížinné a podhorské kosné lúky (biotop 6510)",
+    "mezofilné pasienky a spásané lúky (biotop Lk3)",
+    "regionálny biokoridor „Jarovské rameno – mestská časť Petržalka – Sad Janka Kráľa – Pečniansky les“"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáky (obdobie hniezdenia)",
+    "dreviny",
+    "kroviny",
+    "mobilné druhy",
+    "bezstavovce",
+    "obojživelníky",
+    "netopiere",
+    "Lucanus cervus (roháč obyčajný)"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytne-subory-viedenska-cesta-zapad-1",
+  "paragrafy": [
+    {
+      "paragraf": "1",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "1",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "3",
+      "odsek": null,
+      "pismena": [
+        "l"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "56",
+      "odsek": null,
+      "pismena": [
+        "b"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "2",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "11",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": null,
+      "pismena": [
+        "d"
+      ],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "29",
+      "odsek": "15",
+      "pismena": [],
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": "135",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "1961 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o stavebných odpadoch z demolácií",
+      "zakon_cislo": "344/2022 Z. z."
+    },
+    {
+      "paragraf": "364",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "2004 Z. z."
+    },
+    {
+      "paragraf": "39",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "paragraf": "200",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o postupe pri riešení mimoriadneho zhoršenia vôd",
+      "zakon_cislo": "2018 Z. z."
+    },
+    {
+      "paragraf": "13",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "paragraf": "532",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o všeobecných technických požiadavkách na výstavbu a o všeobecných technických požiadavkách na stavby užívané osobami s obmedzenou schopnosťou pohybu a orientácie",
+      "zakon_cislo": "2002 Z. z."
+    },
+    {
+      "paragraf": "549",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií a o požiadavkách na objektivizáciu hluku, infrazvuku a vibrácií v životnom prostredí",
+      "zakon_cislo": "2007 Z. z."
+    },
+    {
+      "paragraf": "555",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o energetickej hospodárnosti budov",
+      "zakon_cislo": "2005 Z. z."
+    },
+    {
+      "paragraf": "16a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzným stanoviskom Okresného úradu Bratislava k navrhovanej činnosti \"Obytné súbory Viedenská cesta - západ\" navrhovateľa YIT Slovakia a.s. v Bratislave - Petržalke, katastrálnom území Petržalka, konkrétne na parcele C-KN 5920/6. Zámerom je výstavba obytnej zóny, technickej infraštruktúry a úprava krajiny. Úrad rozhodol, že činnosť sa nebude posudzovať podľa zákona o EIA, avšak stanovil rozsiahle opatrenia pre minimalizáciu vplyvov. Lokalita spadá do II. stupňa ochranného pásma vodárenského zdroja Pečniansky les a do 1. stupňa ochrany prírody, s presahom do potenciálnych území Natura 2000 (Bratislavské a Dunajské luhy) a biotopov lužných lesov. Opatrenia zahŕňajú výrub drevín mimo obdobia hniezdenia vtákov, ochranu vôd, nakladanie s odpadmi a protihlukové opatrenia. LZ VLK môže zaujať stanovisko k odvolaniu do 15 dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

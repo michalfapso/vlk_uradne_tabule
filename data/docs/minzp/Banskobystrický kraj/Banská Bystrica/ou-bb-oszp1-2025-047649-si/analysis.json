@@ -1,0 +1,168 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2025-047649-SI",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-04",
+  "datum_zverejnenia": null,
+  "lehoty_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia tejto informácie",
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Horné Lazy"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba turistického chodníka",
+    "žiadosť o povolenie výnimiek",
+    "žiadosť o súhlasy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "82",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "2",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "82",
+      "odsek": "6",
+      "pismena": [],
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "paragraf": "19",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "15a",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "5",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "6",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "paragraf": "7",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument predstavuje informáciu pre verejnosť o žiadosti na povolenie výnimiek a súhlasov súvisiacich s výstavbou zaisteného turistického chodníka \"Horné Lazy\" v katastrálnom území Brezno, Banskobystrický kraj. Verejnosť má možnosť prihlásiť sa do konania ako zúčastnená osoba do piatich pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "rezervacie": [
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0695",
+        "site_name": "Rohoznianska jelšina",
+        "category_i": 21.0
+      },
+      {
+        "parcel_label": "Brezno",
+        "registry_n": "SKUEV0302",
+        "site_name": "Ďumbierske Tatry",
+        "category_i": 21.0
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0695",
+        "SITETITLE_": "Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0153",
+        "SITETITLE_": "Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "403",
+        "SITETITLE_": "PR Rohoznianska jelšina"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "260",
+        "SITETITLE_": "PR Horné lazy"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "225",
+        "SITETITLE_": "PR Breznianska skalka"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "232",
+        "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "1359",
+        "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+      },
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "246",
+        "SITETITLE_": "NPR Ďumbier"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Brezno",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

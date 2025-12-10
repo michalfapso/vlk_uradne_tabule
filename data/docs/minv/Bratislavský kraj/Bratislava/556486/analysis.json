@@ -1,0 +1,219 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/391469-018",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/391469-0504274/2025",
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Hlavné mesto Slovenskej republiky Bratislava, Primaciálne nám. 1, 814 99 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružinov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3184/2",
+              "3184/23",
+              "3184/24",
+              "3184/25",
+              "3184/22",
+              "1237/5",
+              "1240/199",
+              "1237/4",
+              "1240/369",
+              "1240/126",
+              "15681/2",
+              "15680/6",
+              "15680/48",
+              "15680/41",
+              "15680/4",
+              "15680/11",
+              "15680/3",
+              "1499/3",
+              "15681/7",
+              "15680/39"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Trnávka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "21329/8",
+              "22220/2",
+              "22220/4",
+              "21329/9",
+              "15689/21",
+              "15689/117",
+              "22222/3",
+              "15711/37",
+              "15711/41",
+              "15711/40",
+              "15711/1",
+              "22222/2",
+              "15711/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Predĺženie Ružinovskej električkovej radiály"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba električkovej radiály",
+    "výstavba mostných objektov",
+    "výstavba oporných múrov",
+    "výstavba meniarne",
+    "výstavba zázemia pre vodičov",
+    "výrub drevín",
+    "asanácia objektov",
+    "úprava cestnej siete",
+    "záber poľnohospodárskej pôdy",
+    "úpravy parkoviska"
+  ],
+  "typ_uzemia": [
+    "prvý stupeň ochrany",
+    "ochranné pásmo letiska",
+    "ochranné pásmo radaru",
+    "ornitologické ochranné pásmo letiska"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "krovia",
+    "pajaseň žliazkatý",
+    "javorovec jaseňolistý"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/predlzenie-ruzinovskej-elektrickovej-radialy",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o civilnom letectve (letecký zákon)",
+      "zakon_cislo": "143/1998 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "Vyhláška Federálneho ministerstva dopravy, ktorou sa vykonáva cestný zákon",
+      "zakon_cislo": "35/1984 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o energetickej hospodárnosti budov",
+      "zakon_cislo": "555/2005 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva zdravotníctva SR, ktorou sa ustanovujú podrobnosti o prípustných hodnotách hluku, infrazvuku a vibrácií",
+      "zakon_cislo": "549/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa ustanovujú požiadavky na stavby užívané osobami s obmedzenou schopnosťou pohybu a orientácie",
+      "zakon_cislo": "532/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Vykonávacie nariadenie Komisie (EÚ)",
+      "zakon_cislo": "2016/1141"
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky, ktorým sa vydáva zoznam inváznych nepôvodných druhov",
+      "zakon_cislo": "449/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR",
+      "zakon_cislo": "450/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch",
+      "zakon_cislo": "371/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva životného prostredia SR, ktorou sa ustanovuje Katalóg odpadov",
+      "zakon_cislo": "365/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Ministerstva vnútra SR, ktorou sa ustanovujú technické požiadavky na protipožiarnu bezpečnosť pri výstavbe a užívaní stavieb",
+      "zakon_cislo": "699/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon, ktorým sa mení a dopĺňa zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "57/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "245/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o životnom prostredí",
+      "zakon_cislo": "17/1992 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovuje limitná hodnota pre dobrý ekologický stav vodných útvarov",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o ovzduší",
+      "zakon_cislo": "137/2010 Z. z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko zo zisťovacieho konania pre zámer \"Predĺženie Ružinovskej električkovej radiály\" v Bratislave, mestských častiach Ružinov a Trnávka. Predmetom je výstavba novej električkovej trate vrátane mostov, meniarne a súvisiacej infraštruktúry, spojená s výrubom drevín a záberom poľnohospodárskej pôdy. Lokalita sa nachádza v prvom stupni ochrany prírody a v ochranných pásmach letiska, pričom neboli identifikované významné negatívne vplyvy na životné prostredie pri dodržaní určených opatrení.",
+  "zasiahnute_chranene_uzemia": {}
+}

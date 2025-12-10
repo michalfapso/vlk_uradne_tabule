@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2025/080663-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-03",
+  "datum_zverejnenia": "2025-11-03",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "CTP Alpha SK, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Voderady",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "CTPark Voderady III. etapa"
+  },
+  "typ_dokumentu": "Zverejnenie žiadosti",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba čistiarne odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/ctpark-voderady-iii-etapa",
+  "paragrafy": [
+    {
+      "paragraf": "5",
+      "odsek": "1",
+      "pismena": [],
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "paragraf": "61",
+      "odsek": null,
+      "pismena": [
+        "a"
+      ],
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": null
+    },
+    {
+      "paragraf": "120",
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "paragraf": "58a",
+      "odsek": "4",
+      "pismena": [],
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trnava zverejňuje žiadosť stavebníka CTP Alpha SK, spol. s r.o. o vydanie povolenia na uskutočnenie vodnej stavby „Čistiareň odpadových vôd v SO 237 Automatická umývacia linka nákladných automobilov“ v obci Voderady, v rámci hlavnej stavby „CTPark Voderady III. etapa“. Predmetná stavba bola posudzovaná v rámci zisťovacieho konania, pričom výsledkom je, že sa nebude posudzovať. Dokument je dostupný na enviroportáli.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "Voderady",
+        "NATIONALSI": "SKCHVU023",
+        "SITETITLE_": "Úľanská mokraď"
+      }
+    ]
+  }
+}

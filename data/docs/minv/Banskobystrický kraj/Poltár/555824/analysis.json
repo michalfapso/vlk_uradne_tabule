@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": "OU-PT- OSZP-2025/000746",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-12",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "Do 5 pracovných dní (vrátane) od zverejnenia informácie písomne na adresu: Okresný úrad Poltár, odbor starostlivosti o životné prostredie, Železničná 2, 987 01 Poltár, alebo elektronickou formou (e-podanie)."
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
+    "obec": "Kokava nad Rimavicou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kokava nad Rimavicou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "7774/161"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poltár oznamuje začatie správneho konania na žiadosť fyzickej osoby o vydanie súhlasu na výrub 4 ks vyschnutých drevín v katastrálnom území Kokava nad Rimavicou na parcele C-KN č. 7774/161. Ide o výrub stromov ohrozujúcich nehnuteľnosti. Verejnosť sa môže prihlásiť ako účastník konania do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {}
+}

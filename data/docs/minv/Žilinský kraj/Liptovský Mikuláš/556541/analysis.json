@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/017178",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-21",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Združenie aktívneho cestovného ruchu Liptovská Mara",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovská Sielnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovská Sielnica",
+        "parcely": [
+          {
+            "typ": "E-KN",
+            "cisla": [
+              "9-167"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "460/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub krovitého porastu",
+    "výstavba náučného chodníka"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš oznamuje začatie konania vo veci žiadosti Združenia aktívneho cestovného ruchu Liptovská Mara o vydanie súhlasu na výrub 395 m2 krovitého porastu a výstavbu náučného chodníka v katastrálnom území Liptovská Sielnica. Žiadosť sa týka parciel KN-E: 9-167 a KN-C: 460/1. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu o účasť v správnom konaní, ktoré sa riadi zákonom o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "460/1",
+        "NATIONALSI": "SKCHVU050",
+        "SITETITLE_": "Chočské vrchy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/024308-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-02",
+  "datum_zverejnenia": "2025-12-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou"
+  },
+  "ziadatel_navrhovatel": "Ing. Viera Babuščáková",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Bukovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bukovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "817"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "borovica",
+    "dub"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "272/2016 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznamuje začatie správneho konania k žiadosti o súhlas na výrub dvoch drevín (borovica, dub) na pozemku KN-C parc. č. 817 v katastrálnom území Bukovec. Dôvodom výrubu je ohrozenie majetku a života vlastníkov v blízkosti chaty a oplotenia. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia dokumentu.",
+  "zasiahnute_chranene_uzemia": {}
+}

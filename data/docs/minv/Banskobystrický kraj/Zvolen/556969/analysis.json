@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-ZV-OSZP-2025/020064-013",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia podľa §29 ods. 17 zákona o posudzovaní"
+  },
+  "ziadatel_navrhovatel": "Zberné suroviny Žilina a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Zvolen",
+    "obec": "Lieskovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lieskovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1805/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "priemyselný areál obce Lieskovec"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "navýšenie kapacity zberu odpadov",
+    "zber nebezpečných odpadov",
+    "zber starých vozidiel",
+    "zber ostatných odpadov"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zariadenie-na-zber-odpadov-miestna-vykupna-zvolen-lieskovec",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády SR, ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd",
+      "zakon_cislo": "269/2010 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami",
+      "zakon_cislo": "200/2018 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje katalóg odpadov",
+      "zakon_cislo": "365/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z.z."
+    }
+  ],
+  "zhrnutie": "Dokument je záväzné stanovisko zo zisťovacieho konania pre zámer \"Zariadenie na zber odpadov – miestna výkupňa Zvolen - Lieskovec\", ktoré určuje, že činnosť sa nebude posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie. Navrhovaná činnosť spočíva v navýšení kapacity a doplnení nových druhov odpadov (vrátane nebezpečných odpadov a starých vozidiel) v existujúcom priemyselnom areáli v obci Lieskovec, okres Zvolen. Územie sa nachádza v 1. stupni ochrany, avšak podľa vyjadrení úradov nebudú ovplyvnené chránené územia ani druhy.",
+  "zasiahnute_chranene_uzemia": {}
+}

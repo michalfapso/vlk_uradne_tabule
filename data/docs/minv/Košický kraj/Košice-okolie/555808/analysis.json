@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/022977-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-11",
+  "datum_zverejnenia": "2025-11-12",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., Povodie Bodrogu – odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Slanské Nové Mesto",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slanské Nové Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2617/2",
+              "2617/1",
+              "1648/36",
+              "1648/37",
+              "1648/39",
+              "1648/40"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "vodný tok Slančík, r.km 0,490 - 0,610"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "lieska",
+    "krovité porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznamuje plánovaný výrub vŕb, liesok a krovitých porastov s celkovou výmerou približne 1200 m² pozdĺž vodného toku Slančík v katastrálnom území Slanské Nové Mesto. Výrub vykonáva Slovenský vodohospodársky podnik za účelom udržiavania vodného toku, odstraňovania prekážok odtoku vody a zamedzenia povodní, v súlade so zákonom o ochrane prírody a vodným zákonom.",
+  "zasiahnute_chranene_uzemia": {}
+}

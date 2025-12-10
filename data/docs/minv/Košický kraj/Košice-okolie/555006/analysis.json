@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2025/022298-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-30",
+  "datum_zverejnenia": "2025-10-30",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "Správa ciest Košického samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Košický",
+    "okres": "Košice-okolie",
+    "obec": "Ďurkov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ďurkov",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "pri ceste II/576 smer Ďurkov, pri moste M5726"
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromu",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "paragraf": null,
+      "odsek": null,
+      "pismena": [],
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Košice-okolie oznámil výrub jedného topoľa v katastrálnom území Ďurkov, ktorý sa nachádza pri ceste II/576 smer Ďurkov, pri moste M5726. Oznamovateľom je Správa ciest Košického samosprávneho kraja. Dôvodom výrubu je zabezpečenie bezpečnosti rekonštruovaného mosta, cestnej premávky a ochrany cesty, nakoľko strom je v zlom zdravotnom stave. Ide o oznámenie podľa § 47 ods. 7 zákona o ochrane prírody a krajiny.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Ďurkov",
+        "NATIONALSI": "SKUEV4009",
+        "SITETITLE_": "Dolný tok Oľšavy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Ďurkov",
+        "NATIONALSI": "SKCHVU009",
+        "SITETITLE_": "Košická kotlina"
+      },
+      {
+        "parcel_label": "Ďurkov",
+        "NATIONALSI": "SKCHVU025",
+        "SITETITLE_": "Slanské vrchy"
+      }
+    ]
+  }
+}

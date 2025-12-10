@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "0018328/2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Stropkov",
+    "obec": "Havaj, Breznica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Havaj",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "351/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Breznica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "648"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "trasy a ochranné pásma plynovodov v k.ú. Havaj a Breznica"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo plynovodov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Vyhláška MŽP SR",
+      "zakon_cislo": "170/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Spoločnosť SPP – distribúcia, a.s. oznamuje plánovaný výrub drevín, vrátane vŕb a krovín, ktoré sa nachádzajú v priamej línii a ochrannom pásme plynovodov v katastrálnych územiach Havaj a Breznica (okres Stropkov, Prešovský kraj). Výrub je odôvodnený potrebou zabezpečiť bezpečnú a spoľahlivú prevádzku plynovodov v súlade so zákonom o energetike.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "351/1",
+        "NATIONALSI": "SKCHVU011",
+        "SITETITLE_": "Laborecká vrchovina"
+      },
+      {
+        "parcel_label": "351/1",
+        "NATIONALSI": "SKCHVU011",
+        "SITETITLE_": "Laborecká vrchovina"
+      }
+    ]
+  }
+}

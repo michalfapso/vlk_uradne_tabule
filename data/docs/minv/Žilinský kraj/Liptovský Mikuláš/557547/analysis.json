@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2025/017681",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Pavčina Lehota, Demänovská Dolina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pavčina Lehota",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3068",
+              "3069",
+              "3071",
+              "3072",
+              "3062",
+              "3060"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2905/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1-3451",
+              "1-3452"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "rozšírenie VN vedenia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš oznamuje začatie konania pre žiadosť spoločnosti Stredoslovenská distribučná, a. s. o súhlas na výrub drevín z dôvodu rozšírenia VN vedenia v katastrálnych územiach Pavčina Lehota a Demänovská Dolina. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "2905/1",
+        "NAZOV_UEV": "Ďumbierske Tatry",
+        "KOD_UEV": "SKUEV0302"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "2905/1",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "2905/1",
+        "NATIONALSI": "239",
+        "SITETITLE_": "NPR Demänovská dolina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "2905/1",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

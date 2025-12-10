@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2025/012983",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2025/012983-004",
+  "datum_dokumentu": "2025-11-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Kaufland Slovenská republika, v.o.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Bystrica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2432/62",
+              "2432/15",
+              "2432/16",
+              "2432/14",
+              "2432/13",
+              "2432/17"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Výstavba hypermarketu - Považská Bystrica parkoviska a kruhovej križovatky"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "typ_zasahu": [
+    "prekládka kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Kolaudačné rozhodnutie povoľuje užívanie preložky verejnej kanalizácie v Považskej Bystrici pre navrhovateľa Kaufland Slovenská republika, v.o.s. Ide o líniovú vodnú stavbu na pozemkoch v katastrálnom území Považská Bystrica, ktorá je súčasťou výstavby hypermarketu.",
+  "zasiahnute_chranene_uzemia": {}
+}

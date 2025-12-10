@@ -1,0 +1,55 @@
+{
+  "cislo_konania_spisu": "01338/2025/ORTI/TOTO-11",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-20",
+  "datum_zverejnenia": "2025-10-21",
+  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ziadatel_navrhovatel": "ZELEZNICE SLOVENSKEJ REPUBLIKY",
+  "miesto_realizacie": {
+    "kraj": "Trenciansky",
+    "okres": "Prievidza",
+    "obec": "Handlova",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Handlova",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "18032/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ŽST Handlova, v km. 18,455 - 18,465"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "paragrafy": [
+    {
+      "paragraf": "4",
+      "odsek": "3",
+      "pismena": [],
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z.z."
+    },
+    {
+      "paragraf": "47",
+      "odsek": "7",
+      "pismena": [],
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú výrub drevín v Železničnej stanici Handlová, v kilometri 18,455 - 18,465 v katastrálnom území Handlová, okres Prievidza, Trenčiansky kraj. Dreviny ohrozujú bezpečnosť osôb a majetok.",
+  "zasiahnute_chranene_uzemia": {}
+}

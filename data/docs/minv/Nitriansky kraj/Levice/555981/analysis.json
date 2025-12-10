@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2025/025123",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice SR",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Tekovské Lužany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tekovské Lužany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2006/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "úseku železničnej trate TÚ /DÚ 3061/14 Želiezovce – Tekovské Lužany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "č. 543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "č. 71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Dokument je oznámením Železníc SR o plánovanom výrube drevín v ochrannom pásme dráhy na úseku trate Želiezovce – Tekovské Lužany v katastrálnom území Tekovské Lužany, parcela CKN č. 2006/1. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

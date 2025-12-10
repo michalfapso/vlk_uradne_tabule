@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2025/017521-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-11-19",
+  "datum_zverejnenia": "2025-11-19",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "NAFTA a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Kapoňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kapoňa",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo sondy Ptruksá 58"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo energetického zariadenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od NAFTA a.s. o plánovanom výrube drevín a krovitých porastov v katastrálnom území Kapoňa, okres Trebišov. Výrub je odôvodnený zabezpečením bezpečnosti energetických zariadení v ochrannom pásme sondy Ptruksá 58. Konanie nepodlieha všeobecným predpisom o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Kapoňa",
+        "NATIONALSI": "SKUEV0006",
+        "SITETITLE_": "Latorica"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Kapoňa",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      }
+    ]
+  }
+}
