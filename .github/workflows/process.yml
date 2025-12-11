@@ -57,7 +57,10 @@ jobs:
             echo "Finding last successful 'Scrape Data' run..."
             RUN_ID=$(gh run list --workflow "scrape.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
             if [ -n "$RUN_ID" ]; then
-              rm -f data/scraped/*
+              rm -f data/scraped/minv_1_regions.json
+              rm -f data/scraped/minv_2_documents.json
+              rm -f data/scraped/minzp_1_regions.json
+              rm -f data/scraped/minzp_2_documents.json
               echo "Downloading scraped-data from run $RUN_ID"
               gh run download $RUN_ID -n scraped-data -D data/scraped
             else
