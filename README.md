@@ -19,6 +19,22 @@ Celý proces je plne automatizovaný pomocou [GitHub Actions](.github/workflows/
 4.  **Aktualizácia dát:** Spracované dáta sa uložia priamo do tohto repozitára do adresára `data`.
 5.  **Nasadenie webu:** Webstránka postavená na Astro sa automaticky znova vygeneruje s novými dátami a nasadí na GitHub Pages.
 
+## Lokálny vývoj
+
+Ak chcete spúšťať analýzu lokálne, postupujte podľa týchto krokov:
+
+1.  **Stiahnutie dát z GitHubu:** Keďže GIS súbory a niektoré medzivýsledky nie sú súčasťou repozitára (sú v `.gitignore`), môžete si ich stiahnuť z posledných úspešných behov GitHub Actions:
+    ```bash
+    ./analyzer/sync_github_data.sh
+    ```
+    *(Vyžaduje nainštalované a prihlásené [GitHub CLI](https://cli.github.com/))*
+
+2.  **Spustenie analýzy:**
+    ```bash
+    ./analyzer/local_process.sh
+    ```
+    Tento skript spustí `run_processing.py` a následne `prune_gis_files.py`, čím nasimuluje spracovanie dát tak, ako prebieha v CI.
+
 ## Použité technológie
 
 *   **Backend & Scraper:** Python
