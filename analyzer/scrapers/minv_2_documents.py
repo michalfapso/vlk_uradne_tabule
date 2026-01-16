@@ -326,7 +326,7 @@ def main(input_json_file, output_json_file):
             # okres_data.pop('url', None)
 
     # --- Retry Logic ---
-    retry_delays = [10, 60, 400] # Delays in seconds
+    retry_delays = [10, 30, 60] # Delays in seconds
     max_attempts = len(retry_delays) + 1 # Initial attempt + retries
 
     for attempt in range(max_attempts):
