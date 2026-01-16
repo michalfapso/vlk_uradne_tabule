@@ -99,7 +99,8 @@ jobs:
           
           if [ -n "$RUN_ID" ]; then
             echo "Downloading GIS artifact from run $RUN_ID"
-            gh run download $RUN_ID -n gis-geojson-files -D data/docs || echo "Artifact not found or download failed"
+            gh run download $RUN_ID -n gis-geojson-files -D . || echo "Artifact not found or download failed"
+            find . -name "gis.geojson"
           else
             echo "No previous successful run found."
           fi
