@@ -20,7 +20,7 @@ def analyze_text_document(text_content: str):
         # Použi litellm na volanie LLM (napr. gpt-4o-mini alebo iný model)
         # Uisti sa, že máš nastavené API kľúče ako environmentálne premenné
         response = litellm.completion(
-            model="gemini/gemini-2.5-flash", # gemini-2.5-flash-preview-04-17
+            model="gemini/gemini-3-flash-preview", # gemini-2.5-flash
             messages=[{"role": "user", "content": prompt}],
             response_format={ "type": "json_object" }, # Požiadame o JSON výstup
             # reasoning_effort="medium"
