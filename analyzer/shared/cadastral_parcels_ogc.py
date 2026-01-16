@@ -38,7 +38,7 @@ def _make_request(method, url, caller_name, headers, **kwargs):
                 raise ValueError("Unsupported HTTP method")
             response.raise_for_status()
             print('response:', response)
-            print('response:', response.text)
+            # print('response:', response.text)
             return response.json()
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 500 and delay is not None:
@@ -143,8 +143,9 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
 
         while next_url:
             data = _make_request('GET', next_url, 'get_geometry_of_cadastral_zone_parcels', headers=headers, timeout=90)
-            print('get_geometry_of_cadastral_zone_parcels() data:', data)
+            # print('get_geometry_of_cadastral_zone_parcels() data:', data)
             if data is None:
+                print('get_geometry_of_cadastral_zone_parcels() data is None')
                 return None # Request failed
 
             if not crs_data and 'crs' in data:
