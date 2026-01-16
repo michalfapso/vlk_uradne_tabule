@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2026/009657",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-12-05",
+  "datum_zverejnenia": "2026-01-15",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Láb",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Láb",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Močiarka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik, š.p. oznamuje plánovaný výrub 450 ks drevín v koryte toku Močiarka (úsek r.km 2,3 - 3,8) v katastrálnom území Láb. Výrub sa realizuje v súlade s povinnosťami správcu vodných tokov.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Láb",
+        "NATIONALSI": "SKUEV0512",
+        "SITETITLE_": "Mokrý les"
+      },
+      {
+        "parcel_label": "Láb",
+        "NATIONALSI": "SKUEV0217",
+        "SITETITLE_": "Ondriašov potok"
+      },
+      {
+        "parcel_label": "Láb",
+        "NATIONALSI": "SKUEV0317",
+        "SITETITLE_": "Rozporec"
+      },
+      {
+        "parcel_label": "Láb",
+        "NATIONALSI": "SKUEV0218",
+        "SITETITLE_": "Močiarka"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Láb",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      }
+    ]
+  }
+}

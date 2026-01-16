@@ -1,0 +1,42 @@
+{
+  "cislo_konania_spisu": "8542/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Alžbeta Devánová, Agátová 9 C, 841 01 Bratislava",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výskum a monitoring veľkých lupeňonôžok",
+    "výnimka zo zákazov z druhovej ochrany",
+    "výnimka zo zákazov z územnej ochrany"
+  ],
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "CHKO Záhorie",
+    "CHKO Dunajské luhy",
+    "CHKO Latorica"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "veľké lupeňonôžky (Branchiopoda, Crustacea)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky zo zákazov z druhovej a územnej ochrany na účely výskumu a monitoringu veľkých lupeňonôžok v chránených krajinných oblastiach Malé Karpaty, Záhorie, Dunajské luhy a Latorica."
+}

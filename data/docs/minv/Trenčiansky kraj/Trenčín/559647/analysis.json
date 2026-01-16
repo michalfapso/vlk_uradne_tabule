@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/008049-002",
+  "cislo_rozhodnutia": "OU-TN-OSZP1-2017/016657-5/Ďu",
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": "2026-01-15",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "Obec Čachtice",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Čachtice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čachtice",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "3241"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Čachtický hrad"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "organizovanie spoločenských podujatí",
+    "umiestnenie krátkodobého prenosného zariadenia",
+    "predajné stánky",
+    "mobilné WC",
+    "jazdenie a státie motorovým vozidlom",
+    "použitie zariadenia spôsobujúceho svetelné a hlukové efekty"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Malé Karpaty",
+    "územie európskeho významu SKUEV0103 Čachtické Karpaty",
+    "národná prírodná rezervácia Čachtický hradný vrch",
+    "chránený areál Čachtické Karpaty",
+    "ochranné pásmo",
+    "2. stupeň ochrany",
+    "3. stupeň ochrany",
+    "4. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": null
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na predĺženie platnosti súhlasu a výnimky pre obec Čachtice na organizovanie spoločenských podujatí a vjazd vozidiel v areáli Čachtického hradu. Lokalita sa nachádza v chránenom areáli Čachtické Karpaty a NPR Čachtický hradný vrch s výskytom chránených druhov vtáctva.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "3241",
+        "NATIONALSI": "SKUEV0103",
+        "SITETITLE_": "Čachtické Karpaty"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "3241",
+        "NATIONALSI": "1265",
+        "SITETITLE_": "CHA Čachtické Karpaty"
+      }
+    ]
+  }
+}

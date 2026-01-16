@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "00761/2026/OR ŽA/SŽTS-1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-13",
+  "datum_zverejnenia": "2026-01-14",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Nemšová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nemšová",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2524/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ochranné pásmo dráhy"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Agát"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o Železniciach Slovenskej republiky",
+      "zakon_cislo": "258/1993 Z. z."
+    },
+    {
+      "zakon_nazov": "o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú plánovaný výrub 6 ks agátov v k. ú. Nemšová na parcele E-KN 2524/3. Dreviny rastú v ochrannom pásme dráhy, vykazujú známky vysychania a ohrozujú bezpečnosť železničnej dopravy.",
+  "zasiahnute_chranene_uzemia": {}
+}

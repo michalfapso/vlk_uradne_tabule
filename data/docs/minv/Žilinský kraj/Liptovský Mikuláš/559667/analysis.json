@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2026/002353-005",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2026/002353-0001861/2026",
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "15 dní na úradnej tabuli správneho orgánu"
+  },
+  "ziadatel_navrhovatel": "Miroslav Duda",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Bobrovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bobrovec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2260/15",
+              "2263/5",
+              "2259/57",
+              "2259/106",
+              "2259/76",
+              "2297/31",
+              "535/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Bobrovec"
+  },
+  "typ_dokumentu": "Rozhodnutie o prerušení konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Liptovský Mikuláš prerušil vodoprávne konanie o vydaní užívacieho povolenia pre stavbu vodovodu a kanalizácie v obci Bobrovec (IBV Bobrovec). Dôvodom prerušenia je výzva žiadateľovi na doplnenie chýbajúcich podkladov, vrátane darovacej zmluvy a protokolov o skúškach tesnosti.",
+  "zasiahnute_chranene_uzemia": {}
+}

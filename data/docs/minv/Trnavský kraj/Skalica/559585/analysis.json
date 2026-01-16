@@ -1,0 +1,54 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2026/000303-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie (do 21.01.2026 vrátane)"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Skalica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Skalica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "14906/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "agát biely"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Informácia o začatí správneho konania vo veci žiadosti o súhlas na výrub 1 ks agátu bieleho s obvodom kmeňa 152 cm na parcele č. 14906/1 v k.ú. Skalica.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/003643-003-Va",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia oznámenia."
+  },
+  "ziadatel_navrhovatel": "Združenie pre rozvoj a budovanie komunity obec Karlová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Karlová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Karlová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "166/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Karlová"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "vodná stavba"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí stavebného konania na vodnú stavbu 'IBV KARLOVÁ', ktorá zahŕňa rozšírenie verejného vodovodu v obci Karlová na parcele KN-C 166/35. Projekt predpokladá výstavbu vodovodného potrubia HDPE v dĺžke takmer 388 metrov vrátane dvoch podzemných hydrantov.",
+  "zasiahnute_chranene_uzemia": {}
+}

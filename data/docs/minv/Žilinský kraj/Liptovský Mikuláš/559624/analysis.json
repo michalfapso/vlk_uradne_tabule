@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2026/003041-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 18.02.2026"
+  },
+  "ziadatel_navrhovatel": "Obec Prosiek",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Prosiek",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prosiek",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "451/1",
+              "534/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "367/2",
+              "132/15",
+              "132/16",
+              "131/2",
+              "131/3",
+              "131/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho a stavebného konania pre stavbu „Verejný vodovod Prosiek - rozšírenie“ v katastrálnom území obce Prosiek. Ústne pojednávanie spojené s miestnym zisťovaním je nariadené na 18.02.2026.",
+  "zasiahnute_chranene_uzemia": {}
+}

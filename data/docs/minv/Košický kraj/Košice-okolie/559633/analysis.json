@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/002427-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-14",
+  "datum_zverejnenia": "2026-01-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť účastníkom v začatom správnom konaní"
+  },
+  "ziadatel_navrhovatel": "Košický samosprávny kraj",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Družstevná pri Hornáde",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostoľany nad Hornádom",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "638/4",
+              "638/5",
+              "639/9",
+              "639/10",
+              "639/18",
+              "639/19",
+              "639/20",
+              "639/21"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Tepličany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1536/2",
+              "1720/3",
+              "1720/20"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Eurovelo 11"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "zničenie časti biotopov",
+    "výrub stromov a krov",
+    "terénne úpravy",
+    "výstavba cesty",
+    "výstavba cyklotrasy"
+  ],
+  "typ_uzemia": [
+    "Ls1.1 (91E0*) Vŕbovo-topoľové nížinné lužné lesy",
+    "Ls3.5.1 Sucho a kyslomilné dubové lesy",
+    "biotop európskeho významu",
+    "biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "topoľ",
+    "dub",
+    "čerešňa",
+    "lieska",
+    "breza"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o vydanie súhlasu na zničenie časti biotopov európskeho a národného významu v k. ú. Kostoľany nad Hornádom a Tepličany. Zásah je vyvolaný výstavbou cyklotrasy Eurovelo 11 a zahŕňa výrub drevín a terénne úpravy na celkovej ploche biotopov presahujúcej 1500 m2.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "1536/2",
+        "NATIONALSI": "SKUEV4010",
+        "SITETITLE_": "Dolný tok Hornádu"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-01-15 23:30:44",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': None, 'cisla': ['638/4', '638/5', '639/9', '639/10', '639/18', '639/19', '639/20', '639/21']}' v katastrálnom území 'Kostoľany nad Hornádom' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-01-15 23:30:44",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Družstevná pri Hornáde', 'katastralne_uzemia': [{'nazov': 'Kostoľany nad Hornádom', 'parcely': [{'typ': None, 'cisla': ['638/4', '638/5', '639/9', '639/10', '639/18', '639/19', '639/20', '639/21']}]}, {'nazov': 'Tepličany', 'parcely': [{'typ': None, 'cisla': ['1536/2', '1720/3', '1720/20']}]}], 'nazov_lokality': 'Eurovelo 11'}"
+  },
+  {
+    "date": "2026-01-15 23:30:51",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'E', 'cisla': ['1536/2', '1720/3', '1720/20']}' v katastrálnom území 'Tepličany' sa našli dáta v oboch typoch katastra C aj E."
+  },
+  {
+    "date": "2026-01-15 23:30:51",
+    "type": "warning",
+    "text": "Nejednoznačne zadané katastrálne územie 'Tepličany' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne."
+  }
+]

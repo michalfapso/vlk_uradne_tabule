@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2025/002641-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 21-dní od zverejnenia zámeru na webovom sídle ministerstva (MŽP SR) alebo zverejnenia oznámenia obcou"
+  },
+  "ziadatel_navrhovatel": "Nové Polovice s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Vranov nad Topľou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čemerné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1825/7",
+              "1825/8",
+              "1825/9",
+              "1825/10"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Lomnica Sever"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba rodinných domov",
+    "výstavba bytových domov",
+    "výstavba cesty",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba energetického diela",
+    "odňatie poľnohospodárskej pôdy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania EIA pre projekt výstavby rodinných a bytových domov 'IBV LOMNICA SEVER' v k.ú. Čemerné. Zámer zahŕňa výstavbu 59 rodinných domov, 5 bytových domov, materskej školy a súvisiacej infraštruktúry na poľnohospodárskej pôde.",
+  "zasiahnute_chranene_uzemia": {}
+}

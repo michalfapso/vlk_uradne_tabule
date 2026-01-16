@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-HC-OSZP-2026/000065-006",
+  "cislo_rozhodnutia": "OU-HC-OSZP-2026/000065-006",
+  "datum_dokumentu": "2026-01-14",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Obec Sasinkovo",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Sasinkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sasinkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "212/43",
+              "212/42",
+              "212/31",
+              "212/11",
+              "292/1",
+              "215/5",
+              "215/9",
+              "290/6"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "822/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Sasinkovo – vodný zdroj a vodojem"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba energetického diela",
+    "výstavba oplotenia",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o predĺžení platnosti povolenia na uskutočnenie vodnej stavby „Sasinkovo – vodný zdroj a vodojem“ v obci Sasinkovo o dva roky. Stavba zahŕňa nový vodný zdroj, zemný vodojem, elektrickú prípojku a oplotenie na parcelách registra C a E v katastrálnom území Sasinkovo.",
+  "zasiahnute_chranene_uzemia": {}
+}

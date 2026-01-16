@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/003643-003/1-Va",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": "2026-01-15",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Združenie pre rozvoj a budovanie komunity obec Karlová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Karlová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Karlová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "166/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Karlová"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "rozšírenie verejného vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/ibv-tri-duby-karlova",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "24/2006 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Zverejnenie informácie o podanej žiadosti na stavebné povolenie pre rozšírenie verejného vodovodu v rámci projektu IBV Karlová v obci Karlová. Dokument odkazuje na predchádzajúce právoplatné rozhodnutie zo zisťovacieho konania EIA dostupné na Enviroportáli.",
+  "zasiahnute_chranene_uzemia": {}
+}

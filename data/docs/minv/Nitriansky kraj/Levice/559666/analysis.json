@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/004102",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Podlužany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podlužany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Občiansky zákonník",
+      "zakon_cislo": "40/1964 Zb."
+    },
+    {
+      "zakon_nazov": "o združovaní občanov",
+      "zakon_cislo": "83/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín rastúcich za hranicami zastavaného územia v k.ú. Podlužany. Združenia s predmetom činnosti ochrana prírody môžu potvrdiť záujem byť zúčastnenou osobou do 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "MCHU": [
+      {
+        "parcel_label": "Podlužany",
+        "NATIONALSI": "1104",
+        "SITETITLE_": "PR Kusá hora"
+      }
+    ]
+  }
+}

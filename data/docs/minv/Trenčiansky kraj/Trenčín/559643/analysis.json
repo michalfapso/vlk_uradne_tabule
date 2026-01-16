@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-13",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Trenčianske Teplice",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčianske Teplice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Teplice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2176/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "cintorín v meste Trenčianske Teplice"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "tuja západná",
+    "čerešňa vtáčia",
+    "javor mliečny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 66 kusov drevín (tuja západná, čerešňa vtáčia, javor mliečny) na cintoríne v Trenčianskych Tepliciach z dôvodu poškodzovania hrobových miest a plánovanej obnovy porastu.",
+  "zasiahnute_chranene_uzemia": {}
+}

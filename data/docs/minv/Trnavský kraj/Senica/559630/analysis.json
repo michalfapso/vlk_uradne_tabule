@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2026/005972-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-14",
+  "datum_zverejnenia": "2026-01-14",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "REMING CONSULT a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Kuklov, Kúty",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kuklov",
+        "parcely": []
+      },
+      {
+        "nazov": "Kúty",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Železničná trať Devínska Nová Ves – štátna hranica SR/ČR"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "modernizácia železničnej trate"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín v katastrálnych územiach Kuklov a Kúty. Výrub je plánovaný mimo zastavaného územia z dôvodu modernizácie železničnej trate Devínska Nová Ves – štátna hranica SR/ČR."
+}

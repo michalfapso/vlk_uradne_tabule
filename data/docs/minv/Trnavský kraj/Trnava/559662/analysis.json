@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-01-15",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MH Teplárenský holding, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5774/162",
+              "5774/21",
+              "5774/158",
+              "5774/159",
+              "5774/157",
+              "5774/1",
+              "9066/2",
+              "9066/1",
+              "9066/6",
+              "9066/7",
+              "5680/861",
+              "5772/10",
+              "5720/1",
+              "5702",
+              "5689/5",
+              "5686/9",
+              "9065",
+              "5686/1",
+              "10077/53",
+              "10077/48",
+              "10077/29",
+              "5682/1",
+              "9045/1",
+              "10072/1",
+              "5680/518",
+              "10073/1",
+              "9045/9",
+              "10074"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1234/2",
+              "1312/1",
+              "1312/2",
+              "1311/2",
+              "1311/3",
+              "1271/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Koniarekova a Zavarská ulica"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba energetického diela",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Správny súdny poriadok",
+      "zakon_cislo": "162/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre zámer rozšírenia horúcovodnej siete v Trnave na uliciach Koniarekova a Zavarská. Účelom je napojenie areálov VUJE, ŽOS Trnava a nákupného centra Domino na centrálne zásobovanie teplom.",
+  "zasiahnute_chranene_uzemia": {}
+}

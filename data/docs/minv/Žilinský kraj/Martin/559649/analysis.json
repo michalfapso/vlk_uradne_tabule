@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/003643-003/2-Va",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-15",
+  "datum_zverejnenia": "2026-01-15",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Združenie pre rozvoj a budovanie komunity obec Karlová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Karlová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Karlová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "166/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV KARLOVÁ"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "rozšírenie verejného vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/ibv-tri-duby-karlova",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Martin zverejňuje informáciu o doručenej žiadosti na vydanie stavebného povolenia pre stavbu 'IBV KARLOVÁ - SO-02 Rozšírenie verejného vodovodu' v katastrálnom území Karlová. Dokument odkazuje na súvisiace zisťovacie konanie EIA zverejnené na Enviroportáli.",
+  "zasiahnute_chranene_uzemia": {}
+}
