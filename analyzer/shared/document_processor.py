@@ -13,6 +13,7 @@ import re
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md_func # Alias to avoid conflict
 import tempfile
+import time
 
 # Importujeme ostatné zdieľané moduly
 from log_handler import log_status
@@ -230,6 +231,9 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
     source = doc_data['source']
     original_data = doc_data['original_data']
 
+    start_total = time.time()
+    timers = {}
+
     doc_id = get_doc_id(doc_url)
     if not doc_id:
         log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Nepodarilo sa získať doc_id pre URL: {doc_url}")
@@ -285,6 +289,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
     try:
         invalidate_files = False
 
+        t0 = time.time()
         txt_filepath = os.path.join(output_dir, "text.txt")
         if invalidate_files or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
             invalidate_files = True
@@ -338,8 +343,9 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             print(f'Loading text doc from {txt_filepath}...')
             with open(txt_filepath, 'r', encoding='utf-8') as f:
                 text_content = f.read()
+        timers['download_and_text'] = time.time() - t0
 
-
+        t0 = time.time()
         laws_filepath = os.path.join(output_dir, "laws.txt")
         laws_excerpts = ''
         if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
@@ -359,8 +365,9 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             with open(laws_filepath, 'r', encoding='utf-8') as f:
                 laws_excerpts = f.read()
         laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
+        timers['laws_excerpts'] = time.time() - t0
 
-
+        t0 = time.time()
         analysis_json_filepath = os.path.join(output_dir, "analysis.json")
         if invalidate_files or not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
             invalidate_files = True
@@ -396,6 +403,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             print(f'Loading from {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
                 analysis_data = json.load(f)
+        timers['llm_analysis'] = time.time() - t0
 
 
         def process_analysis_data(analysis_data, status_filepath, invalidate_files):
@@ -449,6 +457,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             return None
         
         analysis_data_changed = False
+        t0 = time.time()
         if isinstance(analysis_data, dict):
             analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
             analysis_data_changed = analysis_data is not None
@@ -458,12 +467,20 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 if updated_item is not None:
                     analysis_data[i] = updated_item
                     analysis_data_changed = True
+        timers['gis_processing'] = time.time() - t0
 
         if analysis_data_changed:
             invalidate_files = True
             print(f'Updating analysis JSON at {analysis_json_filepath}...')
             with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
                 json.dump(analysis_data, f, indent=2, ensure_ascii=False)
+
+        total_time = time.time() - start_total
+        print(f"\n--- Časy spracovania dokumentu {doc_id} ---")
+        for step, duration in timers.items():
+            print(f"  {step:20}: {duration:6.2f} s")
+        print(f"  {'CELKOVÝ ČAS':20}: {total_time:6.2f} s")
+        print(f"------------------------------------------")
 
         print(f"Dokument {doc_id} bol úspešne spracovaný.")
         return True
