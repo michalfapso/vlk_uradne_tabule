@@ -18,6 +18,9 @@ def date_str_to_iso(s):
     Konvertuje reťazec s dátumom na ISO formát (YYYY-MM-DD).
     Skúša viacero bežných formátov: "d. m. yyyy", "d.m.yyyy", "d.m. yyyy".
     """
+    if s is None:
+        return None
+
     # Zoznam formátov na vyskúšanie, od najčastejšieho/najprísnejšieho po menej časté
     INPUT_DATE_FORMATS = [
         "%d. %m. %Y", # Pôvodný formát (napr. "30. 4. 2025")

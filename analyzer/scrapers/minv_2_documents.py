@@ -190,20 +190,9 @@ def scrape_district_environmental_board(kraj, okres, district_url):
                     full_cell_text = document_name_cell.get_text(strip=True)
                     document_name = link.get_text(strip=True)
 
-                    # Extract date from the text before the link's text, using '|' as a potential separator
-                    date_str = None
-                    link_text_index = full_cell_text.find(document_name)
-                    if link_text_index > 0: # Check if link text is found *and* there's text before it
-                        potential_date_part = full_cell_text[:link_text_index].strip()
-                        # Remove trailing '|' if present
-                        if potential_date_part.endswith('|'):
-                            potential_date_part = potential_date_part[:-1].strip()
-                        # Basic check if it looks like a date (can be improved with regex if needed)
-                        if is_potential_date_str(potential_date_part): # Simple heuristic
-                            date_str = potential_date_part
-                        # Alternative simpler split if structure is consistent:
-                        # parts = full_cell_text.split('|', 1)
-                        # if len(parts) > 1: date_str = parts[0].strip()
+                    # Extract date from the cell text using regex (more robust than link text index)
+                    date_match = DATE_REGEX.search(full_cell_text)
+                    date_str = date_match.group(0) if date_match else None
 
 
                     relative_url = link.get('href')
