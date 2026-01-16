@@ -363,12 +363,13 @@ def main(input_json_file, output_json_file):
                         okres_data['url_tabule'] = board_url
                         okres_data['dokumenty_zivotne_prostredie'] = district_environmental_data
                         okres_data.pop('error', None) # Remove error key if it existed
-                        print(f"Okres {okres_name} úspešne spracovaný (zdroj: {board_url}).") # Pridaná informácia o zdroji
+                        print(f"Okres {okres_name} úspešne spracovaný (zdroj: {board_url}).", flush=True) # Pridaná informácia o zdroji
 
                     except (requests.exceptions.RequestException, requests.exceptions.HTTPError, ValueError) as e:
                         # Catch specific errors from scraping function (network, HTTP, parsing structure)
                         error_message = f"Chyba pri spracovaní (pokus {attempt + 1}): {type(e).__name__} - {e}"
-                        print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
+                        sys.stdout.flush()
+                        print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr, flush=True)
                         # Store the error message
                         okres_data['error'] = error_message
                         okres_data['url_tabule'] = None
@@ -379,7 +380,8 @@ def main(input_json_file, output_json_file):
                     except Exception as e:
                         # Catch any other unexpected errors during scraping
                         error_message = f"Neočakávaná chyba pri spracovaní (pokus {attempt + 1}): {type(e).__name__} - {e}"
-                        print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr)
+                        sys.stdout.flush()
+                        print(f"CHYBA: Okres {okres_name} - {error_message}", file=sys.stderr, flush=True)
                         okres_data['error'] = error_message
                         okres_data['url_tabule'] = None
                         okres_data['dokumenty_zivotne_prostredie'] = []
