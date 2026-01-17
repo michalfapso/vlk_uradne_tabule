@@ -51,7 +51,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" == "workflow_run" ]; then
             echo "Downloading artifacts from triggering run ${{ github.event.workflow_run.id }}"
-            gh run download ${{ github.event.workflow_run.id }} -n scraped-data -D data/scraped
+            gh run download ${{ github.event.workflow_run.id }} -n scraped-data -D data/scraped --clobber
           else
             # Find last successful scrape run
             echo "Finding last successful 'Scrape Data' run..."
@@ -62,7 +62,7 @@ jobs:
               rm -f data/scraped/minzp_1_regions.json
               rm -f data/scraped/minzp_2_documents.json
               echo "Downloading scraped-data from run $RUN_ID"
-              gh run download $RUN_ID -n scraped-data -D data/scraped
+              gh run download $RUN_ID -n scraped-data -D data/scraped --clobber
             else
               echo "No successful scrape run found."
               exit 1
@@ -99,7 +99,7 @@ jobs:
           
           if [ -n "$RUN_ID" ]; then
             echo "Downloading GIS artifact from run $RUN_ID"
-            gh run download $RUN_ID -n gis-geojson-files -D . || echo "Artifact not found or download failed"
+            gh run download $RUN_ID -n gis-geojson-files -D . --clobber || echo "Artifact not found or download failed"
             find . -name "gis.geojson"
           else
             echo "No previous successful run found."
