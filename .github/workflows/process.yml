@@ -50,10 +50,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" == "workflow_run" ]; then
-            rm -f data/scraped/minv_1_regions.json
-            rm -f data/scraped/minv_2_documents.json
-            rm -f data/scraped/minzp_1_regions.json
-            rm -f data/scraped/minzp_2_documents.json
+            rm -f data/scraped/*.json
             echo "Downloading artifacts from triggering run ${{ github.event.workflow_run.id }}"
             gh run download ${{ github.event.workflow_run.id }} -n scraped-data -D data/scraped
           else
@@ -61,10 +58,7 @@ jobs:
             echo "Finding last successful 'Scrape Data' run..."
             RUN_ID=$(gh run list --workflow "scrape.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
             if [ -n "$RUN_ID" ]; then
-              rm -f data/scraped/minv_1_regions.json
-              rm -f data/scraped/minv_2_documents.json
-              rm -f data/scraped/minzp_1_regions.json
-              rm -f data/scraped/minzp_2_documents.json
+              rm -f data/scraped/*.json
               echo "Downloading scraped-data from run $RUN_ID"
               gh run download $RUN_ID -n scraped-data -D data/scraped
             else
