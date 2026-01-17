@@ -94,10 +94,13 @@ def main():
     print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
     # --- 4. Filtrovanie podľa dátumu ---
-    DAYS_OLD_THRESHOLD = 2
+    DAYS_OLD_THRESHOLD = 5
     print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
-    ten_days_ago = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
+    threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
     documents_to_process = []
+    
+    newest_date = None
+    
     for doc in new_documents:
         date_str = doc.get('original_data', {}).get('datum')
         if not date_str:
@@ -106,7 +109,10 @@ def main():
         try:
             doc_date = datetime.strptime(date_str, '%Y-%m-%d')
             
-            # process_specific_doc_id = '555665' # Use for testing specific document:
+            if newest_date is None or doc_date > newest_date:
+                newest_date = doc_date
+            
+            # process_specific_doc_id = '556753' # Use for testing specific document:
             process_specific_doc_id = None
 
             do_process_doc = False
@@ -114,13 +120,18 @@ def main():
                 doc_id = get_doc_id(doc['url'])
                 do_process_doc = doc_id == process_specific_doc_id
             else:
-                do_process_doc = doc_date >= ten_days_ago
+                do_process_doc = doc_date >= threshold_date
             if do_process_doc:
                 documents_to_process.append(doc)
         except (ValueError, TypeError):
             documents_to_process.append(doc) # Spracujeme, ak je formát dátumu neplatný
     
-    print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.")
+    newest_info = ""
+    if newest_date:
+        days_diff = (datetime.now() - newest_date).days
+        newest_info = f" (Najnovší dokument je z {newest_date.strftime('%Y-%m-%d')}, čo je pred {days_diff} dňami)"
+    
+    print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.{newest_info}")
     
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
