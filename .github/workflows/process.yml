@@ -34,6 +34,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup WARP
+        uses: fscarmen/warp-on-actions@v1.1
+
       - name: Setup Analyzer Environment
         uses: ./.github/actions/analyzer-setup
 
