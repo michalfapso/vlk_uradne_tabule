@@ -28,6 +28,7 @@ class CadastralZoningReferenceParcels:
 def _make_request(method, url, caller_name, headers, **kwargs):
     retry_delays = [5, 10, 30, 60, 120]  # Delays in seconds for retries
     for attempt, delay in enumerate(retry_delays + [None]):
+        t0 = time.time()
         try:
             print(f'{caller_name}() request {method} url:', url)
             if method.upper() == 'GET':
@@ -37,10 +38,13 @@ def _make_request(method, url, caller_name, headers, **kwargs):
             else:
                 raise ValueError("Unsupported HTTP method")
             response.raise_for_status()
+
             print('response:', response)
+            print(f'{caller_name}() request duration: {time.time() - t0:.2f} s')
             # print('response:', response.text)
             return response.json()
         except requests.exceptions.HTTPError as e:
+            print(f'{caller_name}() request duration: {time.time() - t0:.2f} s')
             if e.response.status_code == 500 and delay is not None:
                 print(f"Server vrátil chybu 500. Opakujem pokus o {delay} sekúnd... (Pokus {attempt + 1}/{len(retry_delays)})", file=sys.stderr)
                 time.sleep(delay)
@@ -49,9 +53,18 @@ def _make_request(method, url, caller_name, headers, **kwargs):
             if e.response:
                 print(f"Odpoveď servera: {e.response.text}", file=sys.stderr)
             return None  # Non-500 error or retries exhausted
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            print(f'{caller_name}() request duration: {time.time() - t0:.2f} s')
+            if delay is not None:
+                print(f"{caller_name}() Chyba spojenia/timeout: {e}. Opakujem pokus o {delay} sekúnd... (Pokus {attempt + 1}/{len(retry_delays)})", file=sys.stderr, flush=True)
+                time.sleep(delay)
+                continue
+            print(f"{caller_name}() Chyba pri sťahovaní dát (všetky pokusy zlyhali): {e}", file=sys.stderr, flush=True)
+            return None
         except requests.exceptions.RequestException as e:
-            print(f"{caller_name}() Chyba pri sťahovaní dát: {e}", file=sys.stderr)
-            return None  # Other request exception
+            print(f'{caller_name}() request duration: {time.time() - t0:.2f} s')
+            print(f"{caller_name}() Neočakávaná chyba pri sťahovaní dát: {e}", file=sys.stderr, flush=True)
+            return None
     return None
 
 def _merge_gdfs(gdfs: List[gpd.GeoDataFrame]) -> gpd.GeoDataFrame | None:
@@ -142,7 +155,7 @@ def get_geometry_of_cadastral_zone_parcels(zoningReferenceParcelsList: List[Cada
         next_url = requests.Request('GET', configs[cad_type]['url'], params=params).prepare().url
 
         while next_url:
-            data = _make_request('GET', next_url, 'get_geometry_of_cadastral_zone_parcels', headers=headers, timeout=90)
+            data = _make_request('GET', next_url, 'get_geometry_of_cadastral_zone_parcels', headers=headers, timeout=10)
             # print('get_geometry_of_cadastral_zone_parcels() data:', data)
             if data is None:
                 print('get_geometry_of_cadastral_zone_parcels() data is None')
@@ -222,7 +235,7 @@ def get_parcels_by_nationalCadastralReference(national_references: list[str]) ->
     next_url = requests.Request('GET', base_url, params=params).prepare().url
 
     while next_url:
-        data = _make_request('GET', next_url, 'get_parcels_by_nationalCadastralReference', headers=headers, timeout=90)
+        data = _make_request('GET', next_url, 'get_parcels_by_nationalCadastralReference', headers=headers, timeout=10)
         if data is None:
             return None # Request failed
 
@@ -459,7 +472,7 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
 
     features = []
     url = requests.Request('GET', configs[cadastralType]['url'], params=params).prepare().url
-    data = _make_request('GET', url, 'get_cadastral_zone', headers=headers, timeout=90)
+    data = _make_request('GET', url, 'get_cadastral_zone', headers=headers, timeout=10)
     print('get_cadastral_zone() data:', data)
     if data is None:
         return None
