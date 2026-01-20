@@ -6,6 +6,7 @@ on:
 
 # Set permissions needed for the actions
 permissions:
+  contents: write # Needed to checkout the repository
   pages: write # Needed to deploy to GitHub Pages
   id-token: write # Needed for the Deploy Pages action (OIDC)
 
