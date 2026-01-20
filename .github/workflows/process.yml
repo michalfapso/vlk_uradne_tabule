@@ -7,6 +7,13 @@ on:
       download_artifact_locally:
         type: boolean
         default: false
+    outputs:
+      data_changed:
+        description: "Whether any data changes were committed"
+        value: ${{ jobs.process.outputs.data_changed }}
+      new_commit_sha:
+        description: "The SHA of the new commit if changes were pushed"
+        value: ${{ jobs.process.outputs.new_commit_sha }}
   workflow_run:
     workflows: ["Scrape Data"]
     types:
