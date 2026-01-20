@@ -133,6 +133,12 @@ def main():
     
     print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.{newest_info}")
     
+    #------------------
+    # Just for testing:
+    MAX_DOCS = 3
+    documents_to_process = documents_to_process[:MAX_DOCS]
+    print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
+    #------------------
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
         json.dump(unified_new, f, indent=2, ensure_ascii=False)
