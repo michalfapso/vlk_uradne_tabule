@@ -18,6 +18,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROTECTED_AREAS_DATA_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'data', 'protected_areas')
 CADASTER_DATA_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'data', 'cadaster')
 
+PROXY_URL = os.environ.get('GIS_PROXY_URL', '')
+PROXY_AUTH = os.environ.get('GIS_PROXY_AUTH', '')
+
 @dataclass
 class CadastralZoningReferenceParcels:
     """Represents a request for parcels within a single cadastral zone."""
@@ -27,14 +30,31 @@ class CadastralZoningReferenceParcels:
 
 def _make_request(method, url, caller_name, headers, **kwargs):
     retry_delays = [5, 10, 30, 60, 120]  # Delays in seconds for retries
+    
+    use_proxy = 'skgeodesy.sk' in url and PROXY_URL
+    if use_proxy:
+        if headers is None:
+            headers = {}
+        headers = headers.copy()
+        headers['X-Proxy-Auth'] = PROXY_AUTH
+        
+        # We pass the original full URL as a parameter to the proxy
+        params = kwargs.get('params', {}).copy()
+        params['url'] = url
+        kwargs['params'] = params
+        
+        request_url = PROXY_URL
+    else:
+        request_url = url
+
     for attempt, delay in enumerate(retry_delays + [None]):
         t0 = time.time()
         try:
-            print(f'{caller_name}() request {method} url:', url)
+            print(f'{caller_name}() request {method} url:', url, '(via proxy)' if use_proxy else '')
             if method.upper() == 'GET':
-                response = requests.get(url, headers=headers, **kwargs)
+                response = requests.get(request_url, headers=headers, **kwargs)
             elif method.upper() == 'POST':
-                response = requests.post(url, headers=headers, **kwargs)
+                response = requests.post(request_url, headers=headers, **kwargs)
             else:
                 raise ValueError("Unsupported HTTP method")
             response.raise_for_status()
