@@ -1,0 +1,46 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-01-21",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Pohronská Polhora",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pohronská Polhora",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "ochranné pásmo 110kV vedenia VN 7910, 7909, 7908"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín v ochrannom pásme 110kV elektrického vedenia v katastrálnom území Pohronská Polhora. Výrub realizuje spoločnosť Stredoslovenská distribučná, a. s. za účelom zaistenia bezpečnej prevádzky energetických zariadení."
+}

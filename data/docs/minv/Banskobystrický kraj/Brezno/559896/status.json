@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2026-01-20 23:07:19",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu 559896 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=559896): HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?format=geojson&polygon_geojson=1&accept-language=sk&q=ochrann%C3%A9%20p%C3%A1smo%20110kV%20vedenia%20VN%207910,%207909,%207908,%20Pohronsk%C3%A1%20Polhora (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9d4416d150>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
+  }
+]

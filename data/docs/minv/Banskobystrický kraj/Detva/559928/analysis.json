@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2026/000341",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-01-20",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 26.01.2026"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Detva",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Detva",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10400/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "13256"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na výrub drevín na pozemku v k. ú. Detva. Žiadateľom je fyzická osoba a záujem o účasť v konaní je potrebné potvrdiť do 26.01.2026.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "10400/1",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      },
+      {
+        "parcel_label": "13256",
+        "NATIONALSI": "SKCHVU022",
+        "SITETITLE_": "Poľana"
+      }
+    ]
+  }
+}
