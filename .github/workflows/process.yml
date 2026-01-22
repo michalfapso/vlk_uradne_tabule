@@ -51,64 +51,25 @@ jobs:
           name: scraped-data
           path: data/scraped
 
+      - name: Clean Scraped Data Directory
+        if: inputs.download_artifact_locally != true
+        run: rm -f data/scraped/*.json
+
       - name: Download Scraped Data (Remote)
-        if: inputs.download_artifact_locally == false
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ "${{ github.event_name }}" == "workflow_run" ]; then
-            rm -f data/scraped/*.json
-            echo "Downloading artifacts from triggering run ${{ github.event.workflow_run.id }}"
-            gh run download ${{ github.event.workflow_run.id }} -n scraped-data -D data/scraped
-          else
-            # Find last successful scrape run
-            echo "Finding last successful 'Scrape Data' run..."
-            RUN_ID=$(gh run list --workflow "scrape.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
-            if [ -n "$RUN_ID" ]; then
-              rm -f data/scraped/*.json
-              echo "Downloading scraped-data from run $RUN_ID"
-              gh run download $RUN_ID -n scraped-data -D data/scraped
-            else
-              echo "No successful scrape run found."
-              exit 1
-            fi
-          fi
+        if: inputs.download_artifact_locally != true
+        uses: ./.github/actions/download-workflow-artifact
+        with:
+          workflows: "scrape.yml"
+          run_id: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.id || '' }}
+          artifact: "scraped-data"
+          path: "data/scraped"
 
       - name: Download previous GIS data
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Find the last successful run ID for THIS workflow to get previous GIS files
-          # Note: We look for 'process.yml' runs now.
-          # If running as part of daily-scrape-analyze-deploy.yml, we should look for THAT workflow's history?
-          # Or just look for any successful run that produced gis-geojson-files?
-          # Actually, if we are in daily-scrape-analyze-deploy.yml, we might want to download from IT.
-          # But daily-scrape-analyze-deploy.yml calls this workflow.
-          # The artifact is uploaded by THIS workflow.
-          # So we should look for runs of the workflow that uploaded the artifact.
-          # If this is a reusable workflow, the run is associated with the CALLER workflow (daily...).
-          # So we should search for successful runs of 'daily-scrape-analyze-deploy.yml' OR 'process.yml'.
-          
-          # Let's try to find the last run of EITHER workflow that was successful.
-          # Or simpler: just try to find 'daily-scrape-analyze-deploy.yml' first, then 'process.yml'.
-          
-          echo "Looking for previous GIS data..."
-          
-          # Try daily workflow first
-          RUN_ID=$(gh run list --workflow "daily-scrape-analyze-deploy.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
-          
-          if [ -z "$RUN_ID" ]; then
-             # Try process workflow
-             RUN_ID=$(gh run list --workflow "process.yml" --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')
-          fi
-          
-          if [ -n "$RUN_ID" ]; then
-            echo "Downloading GIS artifact from run $RUN_ID"
-            gh run download $RUN_ID -n gis-geojson-files -D . || echo "Artifact not found or download failed"
-            find . -name "gis.geojson"
-          else
-            echo "No previous successful run found."
-          fi
+        uses: ./.github/actions/download-workflow-artifact
+        with:
+          workflows: "daily-scrape-analyze-deploy.yml process.yml"
+          artifact: "gis-geojson-files"
+          path: "."
         continue-on-error: true
 
       - name: Run Document Processing

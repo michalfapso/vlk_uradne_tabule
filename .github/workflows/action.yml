@@ -1,0 +1,61 @@
+name: 'Download Workflow Artifact'
+description: 'Downloads an artifact from a specific run or the latest successful run of specified workflows'
+inputs:
+  workflows:
+    description: 'Space-separated list of workflow filenames to check for latest run'
+    required: false
+  run_id:
+    description: 'Specific run ID to download from. If provided, workflows input is ignored.'
+    required: false
+  artifact:
+    description: 'Name of the artifact to download'
+    required: true
+  path:
+    description: 'Destination path for the artifact'
+    required: false
+    default: '.'
+runs:
+  using: "composite"
+  steps:
+    - name: Download artifact
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        INPUT_WORKFLOWS: ${{ inputs.workflows }}
+        INPUT_RUN_ID: ${{ inputs.run_id }}
+        INPUT_ARTIFACT: ${{ inputs.artifact }}
+        INPUT_PATH: ${{ inputs.path }}
+      run: |
+        RUN_ID="$INPUT_RUN_ID"
+        
+        if [ -z "$RUN_ID" ]; then
+          echo "Searching for latest run among workflows: $INPUT_WORKFLOWS"
+          LATEST_ID=""
+          LATEST_DATE=""
+          
+          for wf in $INPUT_WORKFLOWS; do
+            # Fetch ID and createdAt
+            DATA=$(gh run list --workflow "$wf" --branch main --status success --limit 1 --json databaseId,createdAt --jq 'if .[0] then .[0] | "\(.databaseId) \(.createdAt)" else "" end')
+            
+            if [ -n "$DATA" ]; then
+              read -r ID DATE <<< "$DATA"
+              echo "Found run $ID at $DATE for $wf"
+              
+              if [ -z "$LATEST_DATE" ] || [[ "$DATE" > "$LATEST_DATE" ]]; then
+                LATEST_DATE="$DATE"
+                LATEST_ID="$ID"
+              fi
+            fi
+          done
+          
+          RUN_ID="$LATEST_ID"
+        fi
+        
+        if [ -n "$RUN_ID" ]; then
+          echo "Downloading artifact '$INPUT_ARTIFACT' from run $RUN_ID to '$INPUT_PATH'"
+          mkdir -p "$INPUT_PATH"
+          gh run download "$RUN_ID" -n "$INPUT_ARTIFACT" -D "$INPUT_PATH"
+        else
+          echo "No suitable run found."
+          exit 1
+        fi

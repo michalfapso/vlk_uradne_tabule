@@ -24,10 +24,11 @@ jobs:
           ref: ${{ inputs.ref || github.ref }}
 
       - name: Download GIS GeoJSON files artifact
-        uses: actions/download-artifact@v4
+        uses: ./.github/actions/download-workflow-artifact
         with:
-          name: gis-geojson-files
-          path: .
+          workflows: "daily-scrape-analyze-deploy.yml process.yml"
+          artifact: "gis-geojson-files"
+          path: "."
         continue-on-error: true # Don't fail if artifact doesn't exist (e.g. manual run)
 
       - name: Set up Node.js
