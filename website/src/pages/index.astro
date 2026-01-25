@@ -182,7 +182,10 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                 console.log('docDir:', docDir, ' kraj:', doc.kraj, ' okres:', doc.okres);
                 const statusFilePath   = path.resolve(docDir, 'status.json');
                 const analysisFilePath = path.resolve(docDir, 'analysis.json');
-                const lawsFilePath = path.resolve(docDir, 'laws.txt');
+                const lawsFilePath     = path.resolve(docDir, 'laws.txt');
+                const gisFilePath      = path.resolve(docDir, 'gis.geojson');
+
+                doc.hasGis = fs.existsSync(gisFilePath);
 
                 console.log('doc:', doc);
                 try {
@@ -214,7 +217,7 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                         doc.laws = fs.readFileSync(lawsFilePath, 'utf-8');
                     }
                 } catch (error) {
-                    appendErrorToStatus(doc, `Failed to load/parse analysis from ${analysisFilePath}: ${error.message}`);
+                    appendErrorToStatus(doc, `Failed to load/parse laws from ${lawsFilePath}: ${error.message}`);
                 }
             } else {
                 appendErrorToStatus(doc, `Could not determine document ID from URL: ${doc.url}`);

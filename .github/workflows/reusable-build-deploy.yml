@@ -43,9 +43,7 @@ jobs:
         working-directory: ./website
 
       - name: Copy Data to Public
-        run: |
-          mkdir -p ./website/public/data
-          cp -r ./data/docs ./website/public/data/ || true
+        run: bash ./analyzer/prepare_website_data.sh
 
       - name: Build Astro Site
         run: npm run build
