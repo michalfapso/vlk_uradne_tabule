@@ -94,7 +94,7 @@ def main():
     print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
     # --- 4. Filtrovanie podľa dátumu ---
-    DAYS_OLD_THRESHOLD = 1
+    DAYS_OLD_THRESHOLD = 5
     print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
     threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
     documents_to_process = []
