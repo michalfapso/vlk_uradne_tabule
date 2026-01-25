@@ -62,10 +62,6 @@
     "url": "/?okresne-urady-klientske-centra&kraj=2",
     "okresy": [
       {
-        "nazov": "Bratislava-Zlaté Piesky",
-        "url": "/?okresne-urady-klientske-centra&urad=81"
-      },
-      {
         "nazov": "Bratislava",
         "url": "/?okresne-urady-klientske-centra&urad=1"
       },
@@ -80,6 +76,10 @@
       {
         "nazov": "Senec",
         "url": "/?okresne-urady-klientske-centra&urad=4"
+      },
+      {
+        "nazov": "Styla",
+        "url": "/?okresne-urady-klientske-centra&urad=81"
       }
     ]
   },
