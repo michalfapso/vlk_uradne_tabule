@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-01-27 22:01:15",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': None, 'cisla': ['1384']}' v katastrálnom území 'Podkonice' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-01-27 22:01:15",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Priechod, Podkonice', 'katastralne_uzemia': [{'nazov': 'Priechod', 'parcely': [{'typ': 'E', 'cisla': ['961', '987']}]}, {'nazov': 'Podkonice', 'parcely': [{'typ': None, 'cisla': ['1384']}]}], 'nazov_lokality': 'Brvnište'}"
+  }
+]

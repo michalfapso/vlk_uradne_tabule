@@ -1,0 +1,190 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-01",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Správa Národného parku Nízke Tatry",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Priechod, Podkonice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Priechod",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "961/1",
+              "961/2",
+              "961/3",
+              "961/4",
+              "961/5",
+              "987/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Podkonice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1348"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1620"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Brvnište"
+  },
+  "typ_dokumentu": "Program starostlivosti",
+  "typ_zasahu": [
+    "obnovná ťažba",
+    "asanačná ťažba",
+    "účelový výber",
+    "výchova porastov",
+    "transfer cyklámenu",
+    "inštalácia netopierích búdok",
+    "vytváranie liahnísk obojživelníkov",
+    "odstraňovanie inváznych druhov"
+  ],
+  "typ_uzemia": [
+    "Chránený areál",
+    "Územie európskeho významu",
+    "SKUEV",
+    "NATURA 2000",
+    "4. stupeň ochrany",
+    "ochranné pásmo Národného parku Nízke Tatry",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "cyklámen purpurový fatranský",
+    "poniklec prostredný",
+    "kunka žltobruchá",
+    "podkovár malý",
+    "uchaňa čierna",
+    "netopier obyčajný",
+    "netopier veľkouchý",
+    "fúzač alpský",
+    "skokan hnedý",
+    "ropucha bradavičnatá",
+    "vretenica severná",
+    "slepúch lámavý",
+    "mlok horský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Nariadenie vlády Slovenskej republiky, ktorým sa ustanovuje národný zoznam území európskeho významu",
+      "zakon_cislo": "451/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška Krajského úradu životného prostredia v Banskej Bystrici, ktorou sa vyhlasuje chránený areál Brvnište",
+      "zakon_cislo": "6/2006"
+    }
+  ],
+  "zhrnutie": "Aktualizovaný program starostlivosti o CHA Brvnište (SKUEV0298) v okrese Banská Bystrica na roky 2026 – 2036. Dokument navrhuje manažmentové opatrenia vrátane účelovej a asanačnej ťažby, monitoringu a ochrany vzácnych druhov ako cyklámen fatranský, fuzáč alpský a rôznych druhov netopierov v 4. stupni ochrany.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "961/1",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "987/1",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "961/5",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "961/4",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "961/3",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "961/2",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "1348",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      },
+      {
+        "parcel_label": "1620",
+        "NATIONALSI": "SKUEV0298",
+        "SITETITLE_": "Brvnište"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "961/1",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "987/1",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "961/5",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "961/4",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "961/3",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "961/2",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "1348",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      },
+      {
+        "parcel_label": "1620",
+        "NATIONALSI": "1137",
+        "SITETITLE_": "CHA Brvnište"
+      }
+    ]
+  }
+}
