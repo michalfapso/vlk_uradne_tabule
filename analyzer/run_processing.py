@@ -94,7 +94,7 @@ def main():
     print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
     # --- 4. Filtrovanie podľa dátumu ---
-    DAYS_OLD_THRESHOLD = 5
+    DAYS_OLD_THRESHOLD = 1
     print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
     threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
     documents_to_process = []
@@ -135,9 +135,10 @@ def main():
     
     #------------------
     # Just for testing:
-    MAX_DOCS = 3
-    documents_to_process = documents_to_process[:MAX_DOCS]
-    print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
+    #
+    # MAX_DOCS = 3
+    # documents_to_process = documents_to_process[:MAX_DOCS]
+    # print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
     #------------------
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
