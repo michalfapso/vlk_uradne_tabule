@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-02-26 22:04:21",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': None, 'cisla': ['165B0', '187_0', '188_1', '192B0', '193A0', '203A0', '263_1']}' v katastrálnom území 'Jasenie' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-02-26 22:04:21",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Jasenie', 'katastralne_uzemia': [{'nazov': 'Jasenie', 'parcely': [{'typ': None, 'cisla': ['165B0', '187_0', '188_1', '192B0', '193A0', '203A0', '263_1']}]}], 'nazov_lokality': 'lesný celok Jasenie'}"
+  },
+  {
+    "date": "2026-02-26 22:04:24",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

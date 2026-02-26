@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/008515",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Košťany nad Turcom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Košťany nad Turcom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "527/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Tok Beliansky"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín z dôvodov podľa osobitných predpisov v obci Košťany nad Turcom na brehu toku Beliansky. Do konania sa podľa dokumentu nemožno prihlásiť, nakoľko sa neuskutočňuje v zmysle zákona o správnom konaní.",
+  "zasiahnute_chranene_uzemia": {}
+}

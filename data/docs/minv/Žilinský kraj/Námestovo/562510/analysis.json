@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/007345",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Breza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Breza",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "16094/2",
+              "16092/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci výrubu drevín v katastrálnom území Breza na parcelách registra E. Verejnosť a združenia môžu potvrdiť svoj záujem byť účastníkom konania v lehote 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "16092/1",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      },
+      {
+        "parcel_label": "16094/2",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      }
+    ]
+  }
+}

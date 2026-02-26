@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "00-IL-OSZP-2026/0006",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-25",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "POVAŽSKÁ VODÁRENSKÁ SPOLOČNOSŤ, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Dubnica nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dubnica nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3755/30"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "v blízkosti domu č. 116/16 a pri garážach"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba vodnej stavby",
+    "oprava havarijného stavu verejného vodovodu"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo verejného vodovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o regulácii v sieťových odvetviach",
+      "zakon_cislo": "276/2001 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 4 kusov smrekov v obci Dubnica nad Váhom na parcele C 3755/30. Výrub je odôvodnený opravou havarijného stavu verejného vodovodu v jeho ochrannom pásme.",
+  "zasiahnute_chranene_uzemia": {}
+}

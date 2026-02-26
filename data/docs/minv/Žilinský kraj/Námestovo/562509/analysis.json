@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/005844-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskoršie na ústnom pojednávaní dňa 18. 03. 2026"
+  },
+  "ziadatel_navrhovatel": "MG DEVELOPMENT SIGMA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Zákamenné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zákamenné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5771/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Nižná Okálka"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "zriadenie vodnej stavby",
+    "odber podzemných vôd",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "vypúšťanie splaškových odpadových vôd do povrchových vôd",
+    "areálový rozvod vody",
+    "areálový požiarny vodovod",
+    "areálová splašková kanalizácia",
+    "areálová dažďová kanalizácia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia",
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre súbor vodných stavieb (kanalizácia, vodovody) v rámci projektu Obchodné a polyfunkčné centrum Nižná Okálka v obci Zákamenné. Stavba zahŕňa povolenia na odber podzemných vôd a vypúšťanie odpadových vôd v ochrannom pásme vodárenského zdroja.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "5771/1",
+        "NATIONALSI": "SKCHVU008",
+        "SITETITLE_": "Horná Orava"
+      }
+    ]
+  }
+}

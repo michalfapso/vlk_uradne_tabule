@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2026/012875",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní t.j. do: 9.3.2026"
+  },
+  "ziadatel_navrhovatel": "Pivodová Karolína",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Gabčíkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gabčíkovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6142/46"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci udelenia súhlasu na výrub drevín v katastrálnom území Gabčíkovo na parcele č. 6142/46 pre žiadateľku Karolínu Pivodovú.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "6142/46",
+        "NATIONALSI": "SKCHVU007",
+        "SITETITLE_": "Dunajské luhy"
+      }
+    ]
+  }
+}

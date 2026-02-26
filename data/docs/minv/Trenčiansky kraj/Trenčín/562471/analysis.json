@@ -1,0 +1,58 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/015022-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "GEMTEC, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Brezová pod Bradlom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezová pod Bradlom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2712/1",
+              "2712/2",
+              "2713",
+              "2714/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Štverník"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "zmena stavu mokrade",
+    "výstavba rodinného domu",
+    "zaústenie dažďovej kanalizácie"
+  ],
+  "typ_uzemia": [
+    "mokraď",
+    "CHKO Záhorie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na zmenu stavu mokrade (vodný tok Štverník) v obci Brezová pod Bradlom kvôli výstavbe rodinného domu a zaústeniu dažďovej kanalizácie. Verejnosť a združenia sa môžu prihlásiť do konania v lehote 5 pracovných dní od zverejnenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-ML-OSZP-2026/000321",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "AGROMECH, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Palota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Palota",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie hospodárskych zvierat na voľných ležoviskách",
+    "ustajnenie hospodárskych zvierat mimo stavieb"
+  ],
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Východné Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a ustajnenie hospodárskych zvierat (nad 30 DJ) pre AGROMECH, s.r.o. v obci Palota. Činnosť má prebiehať v CHKO Východné Karpaty v 2. stupni ochrany.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Palota",
+        "NATIONALSI": "SKUEV0387",
+        "SITETITLE_": "Beskyd"
+      },
+      {
+        "parcel_label": "Palota",
+        "NATIONALSI": "SKUEV4054",
+        "SITETITLE_": "Palotské lúky"
+      },
+      {
+        "parcel_label": "Palota",
+        "NATIONALSI": "SKUEV0761",
+        "SITETITLE_": "Vydranka"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Palota",
+        "NATIONALSI": "633",
+        "SITETITLE_": "NPR Palotská jedlina"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Palota",
+        "NATIONALSI": "SKCHVU011",
+        "SITETITLE_": "Laborecká vrchovina"
+      }
+    ]
+  }
+}

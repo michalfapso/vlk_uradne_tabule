@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/007168-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 18. 03. 2026"
+  },
+  "ziadatel_navrhovatel": "Obec Zákamenné",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Zákamenné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zákamenné",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6535/1",
+              "5363/1",
+              "6539",
+              "6538",
+              "6536",
+              "6537",
+              "6532/1",
+              "6533",
+              "6534",
+              "6374/2",
+              "5748/1",
+              "6444/1",
+              "6444/4",
+              "6535/2",
+              "6570/1",
+              "6557",
+              "6558"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "73091/152",
+              "3040/6",
+              "73091/301",
+              "5896/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Oravice"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba kanalizácie"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre líniovú stavbu rozšírenia vodovodu a kanalizácie v obci Zákamenné, lokalita Oravice. Ústne pojednávanie spojené s miestnym zisťovaním je nariadené na 18. 03. 2026.",
+  "zasiahnute_chranene_uzemia": {}
+}

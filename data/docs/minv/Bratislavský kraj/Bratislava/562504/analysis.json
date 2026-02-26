@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP1-2026/442683/SME",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "FilmCraft s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Devínska Nová Ves",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3466/6",
+              "3466/5",
+              "3466/10",
+              "3466/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výroba filmových záberov",
+    "povolenie výnimiek",
+    "vydanie súhlasov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania na základe žiadosti spoločnosti FilmCraft s.r.o. o povolenie výnimiek a súhlasov pre plánovanú výrobu filmových záberov v k. ú. Devínska Nová Ves na parcelách registra C.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "3466/5",
+        "NATIONALSI": "SKUEV0280",
+        "SITETITLE_": "Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/6",
+        "NATIONALSI": "SKUEV0280",
+        "SITETITLE_": "Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/11",
+        "NATIONALSI": "SKUEV0280",
+        "SITETITLE_": "Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/10",
+        "NATIONALSI": "SKUEV0280",
+        "SITETITLE_": "Devínska Kobyla"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "3466/5",
+        "NATIONALSI": "32",
+        "SITETITLE_": "NPR Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/6",
+        "NATIONALSI": "32",
+        "SITETITLE_": "NPR Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/11",
+        "NATIONALSI": "32",
+        "SITETITLE_": "NPR Devínska Kobyla"
+      },
+      {
+        "parcel_label": "3466/10",
+        "NATIONALSI": "32",
+        "SITETITLE_": "NPR Devínska Kobyla"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2026/004023-0033428/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-25",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "počas trvania konania až do jeho právoplatného ukončenia"
+  },
+  "ziadatel_navrhovatel": "Východoslovenský ústav srdcových a cievnych chorôb, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice II",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Terasa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3/12",
+              "3/28",
+              "3/60",
+              "3/63",
+              "3/72",
+              "3/73",
+              "3/74",
+              "3/80",
+              "3/81",
+              "3/87",
+              "3/106",
+              "3/283",
+              "3/955"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál VÚSCH"
+  },
+  "typ_dokumentu": "Oznámenie o zverejnení žiadosti o stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/dostavba-vusch-iii-etapa",
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o dôveryhodných službách pre elektronické transakcie na vnútornom trhu",
+      "zakon_cislo": "272/2016 Z. z."
+    },
+    {
+      "zakon_nazov": "Vyhláška o spôsobe vyhotovenia a náležitostiach listinného rovnopisu elektronického úradného dokumentu",
+      "zakon_cislo": "85/2018 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o zverejnení žiadosti o stavebné povolenie pre vodné stavby (vodovody a kanalizácie) v rámci projektu 'Dostavba VÚSCH – III. Etapa' v Košiciach, k. ú. Terasa. Navrhovaná činnosť podľa výsledkov zisťovacieho konania nepodlieha ďalšiemu posudzovaniu vplyvov na životné prostredie (EIA).",
+  "zasiahnute_chranene_uzemia": {}
+}

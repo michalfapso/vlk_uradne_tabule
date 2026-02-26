@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2026/005142-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 27.03.2026"
+  },
+  "ziadatel_navrhovatel": "Obec Radvanovce",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Radvanovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Radvanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Medzianky",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci predĺženia platnosti stavebného povolenia pre stavbu 'Výstavba vodovodu v obci Radvanovce'. Konanie sa týka katastrálnych území Radvanovce a Medzianky, pričom námietky je možné uplatniť do 27.03.2026.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Radvanovce",
+        "NATIONALSI": "SKUEV0324",
+        "SITETITLE_": "Radvanovské skalky"
+      },
+      {
+        "parcel_label": "Medzianky",
+        "NATIONALSI": "SKUEV0325",
+        "SITETITLE_": "Medzianske skalky"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Radvanovce",
+        "NATIONALSI": "656",
+        "SITETITLE_": "CHA Radvanovské skalky"
+      },
+      {
+        "parcel_label": "Medzianky",
+        "NATIONALSI": "611",
+        "SITETITLE_": "CHA Medzianske skalky"
+      }
+    ]
+  }
+}

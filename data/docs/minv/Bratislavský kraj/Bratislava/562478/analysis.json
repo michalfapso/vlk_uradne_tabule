@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-BA-OOP3-2026/435519-003",
+  "cislo_rozhodnutia": "OU-BA-OOP3-2026/435519-003",
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-25",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 2 mesiacov od oznámenia tohto rozhodnutia (lehota na podanie správnej žaloby)"
+  },
+  "ziadatel_navrhovatel": "MTS SVK Development 10, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava II",
+    "obec": "Bratislava - Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružinov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "15187/1",
+              "15187/2",
+              "15187/3",
+              "15187/4",
+              "15187/5",
+              "15187/6",
+              "15187/7",
+              "15187/8",
+              "15187/9",
+              "15187/10",
+              "15187/11",
+              "22185",
+              "22187",
+              "22188",
+              "22191/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytný súbor Teslova"
+  },
+  "typ_dokumentu": "Rozhodnutie o odvolaní",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "búracie práce",
+    "sanácia environmentálnej záťaže",
+    "výsadba stromov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytny-subor-teslova",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "správny poriadok",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o odvolaní, ktorým Okresný úrad Bratislava potvrdil, že projekt Obytný súbor Teslova v Ružinove sa nebude ďalej posudzovať podľa zákona EIA. Zámer zahŕňa výstavbu 12 bytových domov, búranie areálu bývalých práčovní Inprokom a sanáciu historickej environmentálnej záťaže (chemická čistiareň).",
+  "zasiahnute_chranene_uzemia": {}
+}

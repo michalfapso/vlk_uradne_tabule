@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/002975-006",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2026/002975-0013181/2026",
+  "datum_dokumentu": "2026-02-23",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Ing. Michaela Conorto, Ruben Conorto a Mgr. Katarína Letková",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Horný Pial",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horný Pial",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "247/1",
+              "874",
+              "864/3",
+              "864/10",
+              "864/11",
+              "864/12",
+              "864/13",
+              "864/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Stavebné povolenie",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie na rozšírenie vodovodu v obci Horný Pial pre 5 rodinných domov. Stavba sa realizuje v území s 1. stupňom ochrany na parcelách registra E a zahŕňa výstavbu rozvádzacieho potrubia a prípojok s dôrazom na ochranu drevín a existujúcich inžinierskych sietí.",
+  "zasiahnute_chranene_uzemia": {}
+}

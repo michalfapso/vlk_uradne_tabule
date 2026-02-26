@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OHS-111",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-10",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA, s.r.o. (v zastúpení Slovenská elektrizačná prenosová sústava, a.s.)",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Handlová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Handlová",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Lelovce",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "Hájna Brezina, Lány, Hrabiny, Píly, Podháje, Mihalová, Obory, Vavrovo, Matusfkov vrch"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia",
+    "okliesňovanie stromov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002"
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012"
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti ENZA, s.r.o. o nevyhnutnom výrube náletových drevín v ochrannom pásme elektrických vedení (V271 a iné) v katastrálnom území Handlová a Horné Lelovce. Výrub sa realizuje vo verejnom záujme na zaistenie bezpečnej prevádzky energetických zariadení v zmysle zákona o energetike.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Handlová",
+        "NAZOV_UEV": "Biely kameň",
+        "KOD_UEV": "SKUEV0871"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NAZOV_UEV": "Biely kameň",
+        "KOD_UEV": "SKUEV0871"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NAZOV_UEV": "Biely kameň",
+        "KOD_UEV": "SKUEV0871"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "SKUEV0871",
+        "SITETITLE_": "Biely kameň"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "SKUEV4031",
+        "SITETITLE_": "Handlovské lúky"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "213",
+        "SITETITLE_": "PR Biely kameň"
+      },
+      {
+        "parcel_label": "Handlová",
+        "NATIONALSI": "1347",
+        "SITETITLE_": "PR Pralesy Slovenska-Veľký Grič"
+      }
+    ]
+  }
+}

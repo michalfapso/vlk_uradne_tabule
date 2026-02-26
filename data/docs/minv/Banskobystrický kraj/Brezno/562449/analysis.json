@@ -1,0 +1,59 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy Slovenskej republiky, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Jasenie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenie",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "165B0",
+              "187_0",
+              "188_1",
+              "192B0",
+              "193A0",
+              "203A0",
+              "263_1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "lesný celok Jasenie"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "asanačná ťažba",
+    "ťažba dreva"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "zámer zonácie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci asanačnej ťažby v lesnom celku Jasenie (NP Nízke Tatry). Činnosť sa týka viacerých lesných porastov a môže ovplyvniť podmienky ochrany v rámci navrhovanej zonácie národného parku."
+}

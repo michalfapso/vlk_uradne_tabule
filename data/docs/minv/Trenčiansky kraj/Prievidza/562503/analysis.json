@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-PD-OSZP-2026/004531-004",
+  "cislo_rozhodnutia": "OU-PD-OSZP-2026/004531-0015659/2026",
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Mesto Prievidza",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prievidza",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "417/6",
+              "417/7",
+              "418/1",
+              "480",
+              "788/16",
+              "788/17"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Rekonštrukcia ľahkoatletického štadióna na ulici S. Chalupku"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o predĺžení platnosti stavebného povolenia pre vodnú stavbu (vonkajší vodovod a kanalizácia) v rámci rekonštrukcie ľahkoatletického štadióna v Prievidzi. Platnosť pôvodného povolenia sa predlžuje o dva roky z dôvodu priebehu verejného obstarávania na zhotoviteľa.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2026/001923-007",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2026/001923-007",
+  "datum_dokumentu": "2026-02-11",
+  "datum_zverejnenia": "2026-02-25",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "odvolanie v lehote do 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "NCD s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Kostolné Kračany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostolné Kračany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "31"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "9/1",
+              "10/1",
+              "11/3",
+              "333/1",
+              "333/48",
+              "333/49",
+              "333/50",
+              "333/35",
+              "11/3-7",
+              "333/47-81",
+              "9/1-9",
+              "10/1-8"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Kostolné Kračany"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie verejného vodovodu",
+    "rozšírenie verejnej kanalizácie"
+  ],
+  "typ_uzemia": [
+    "chránená vodohospodárska oblasť"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd",
+      "zakon_cislo": "305/2018 Z. z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "o pozemných komunikáciách (cestný zákon)",
+      "zakon_cislo": "135/1961 Zb."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pamiatkového fondu",
+      "zakon_cislo": "49/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie na rozšírenie verejného vodovodu a kanalizácie pre 37 rodinných domov v obci Kostolné Kračany (lokalita IBV). Stavba sa realizuje v chránenej vodohospodárskej oblasti a vyžaduje si archeologický výskum a dodržanie podmienok ochrany prírody.",
+  "zasiahnute_chranene_uzemia": {}
+}

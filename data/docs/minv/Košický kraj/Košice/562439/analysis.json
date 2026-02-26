@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZPI-2026/023",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "TOWERCOM, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Streda nad Bodrogom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Streda nad Bodrogom",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "PR Tarbucka"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "typ_zasahu": [
+    "vjazd a státie s motorovými vozidlami"
+  ],
+  "typ_uzemia": [
+    "PR Tarbucka",
+    "Prírodná rezervácia",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti spoločnosti TOWERCOM, a. s. o povolenie výnimky na vjazd a státie motorových vozidiel v Prírodnej rezervácii Tarbucka v katastrálnom území Streda nad Bodrogom.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      },
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "692",
+        "SITETITLE_": "PR Tarbucka"
+      },
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "692",
+        "SITETITLE_": "PR Tarbucka"
+      },
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "691",
+        "SITETITLE_": "NPR Tajba"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      },
+      {
+        "parcel_label": "Streda nad Bodrogom",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      }
+    ]
+  }
+}

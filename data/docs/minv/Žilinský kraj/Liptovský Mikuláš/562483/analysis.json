@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "SVP 4257/2026/3",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-23",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ráztoky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "261/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Parížovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Liptovská Mara"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovinatého porastu",
+    "vyčistenie územia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ čierny",
+    "vŕba krehká",
+    "vŕba rakytová",
+    "jelša sivá",
+    "čremcha obyčajná",
+    "krovinatý porast"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "vodný zákon",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "124/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o bezpečnosti a ochrane zdravia pri práci",
+      "zakon_cislo": "125/2006 Z. z."
+    }
+  ],
+  "zhrnutie": "SVP oznamuje výrub 3 ks topoľov čiernych a odstránenie 2500 m2 krovinatého porastu (vŕba, jelša, čremcha) na brehoch nádrže Liptovská Mara v k.ú. Ráztoky a Parížovce. Dôvodom je bezpečnosť osôb, ochrana majetku pred poškodením a zamedzenie vzniku nelegálnych skládok.",
+  "zasiahnute_chranene_uzemia": {}
+}

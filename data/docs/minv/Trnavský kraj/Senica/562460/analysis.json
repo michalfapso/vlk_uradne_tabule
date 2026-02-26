@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2026/008473-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Domov sociálnych služieb pre dospelých v Moravskom Svätom Jáne",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Moravský Svätý Ján",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moravský Svätý Ján",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "7022/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub 5 ks drevín na parcele registra C č. 7022/1 v k. ú. Moravský Svätý Ján. Dôvodom výrubu v extraviláne obce je zlý zdravotný stav drevín.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "7022/1",
+        "NATIONALSI": "SKUEV0125",
+        "SITETITLE_": "Gajarské alúvium Moravy"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "7022/1",
+        "NATIONALSI": "SKCHVU016",
+        "SITETITLE_": "Záhorské Pomoravie"
+      }
+    ]
+  }
+}

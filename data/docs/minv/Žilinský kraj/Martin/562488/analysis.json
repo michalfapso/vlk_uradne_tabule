@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/008516",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Turany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Turany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3669/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "tok Studenenc"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube drevín z dôvodov podľa osobitných predpisov v katastrálnom území Turany na toku Studenenc (rkm 3,600 – 3,900). Do konania sa podľa dokumentu nemožno prihlásiť.",
+  "zasiahnute_chranene_uzemia": {}
+}

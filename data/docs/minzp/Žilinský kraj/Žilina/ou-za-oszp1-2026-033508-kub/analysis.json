@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/033508-Kub",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy Slovenskej republiky, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "LC Brusno"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "vykonávanie činnosti v rozpore s podmienkami ochrany"
+  ],
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Oznámenie o začatí konania vo veci určenia podmienok na vykonávanie činností v lokalite LC Brusno, ktoré môžu byť v rozpore s podmienkami ochrany Národného parku Nízke Tatry v súvislosti s jeho novou zonáciou a programom starostlivosti.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+        "NATIONALSI": "SKUEV0303",
+        "SITETITLE_": "Alúvium Hrona"
+      },
+      {
+        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}
