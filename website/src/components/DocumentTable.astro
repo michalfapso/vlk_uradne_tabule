@@ -25,7 +25,7 @@ console.log("allDocuments:", allDocuments);
 const toggleButtonId = `${id}-toggle-summaries-btn`;
 const countLabelId = `${id}-count-label`;
 
-const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (VN |elektrického )?vedenia)";
+const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (\\d+ kV |VN |elektrického )?vedenia)";
 const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
 
 const totalCount = allDocuments.length;
