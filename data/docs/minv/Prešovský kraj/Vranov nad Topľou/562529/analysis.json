@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-VT-OSZP-2026/004927",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 30.03.2026"
+  },
+  "ziadatel_navrhovatel": "Obec Slovenská Kajňa",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Vranov nad Topľou",
+    "obec": "Slovenská Kajňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slovenská Kajňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "335",
+              "466/1",
+              "349/50",
+              "349/3",
+              "349/37",
+              "347/4",
+              "347/7",
+              "346/8",
+              "346/9",
+              "347/9",
+              "223",
+              "303",
+              "269/1",
+              "491/3",
+              "491/9",
+              "491/2",
+              "491/10",
+              "299/1",
+              "309/1",
+              "309/2",
+              "103/1",
+              "101",
+              "99",
+              "98",
+              "96",
+              "94",
+              "95",
+              "93",
+              "92"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "87/4",
+              "718/1",
+              "718/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ulica Slnečná, Ulica Lesná, Ulica Hlavná"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci rozšírenia splaškovej gravitačnej kanalizácie v obci Slovenská Kajňa na uliciach Slnečná, Lesná a Hlavná, s napojením na ČOV Benkovce.",
+  "zasiahnute_chranene_uzemia": {}
+}

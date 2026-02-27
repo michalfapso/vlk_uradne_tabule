@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2026/001818-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskoršie pri ústnom pojednávaní dňa 21.04.2026"
+  },
+  "ziadatel_navrhovatel": "Obec Janovce",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Janovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Janovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "312/3",
+              "312/4",
+              "312/5",
+              "275/6",
+              "269/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV Janovce"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na povolenie užívania vodnej stavby „Rozšírenie verejného vodovodu“ v rámci projektu „IBV Janovce“. Ústne pojednávanie spojené s miestnym zisťovaním je naplánované na 21. apríla 2026 v obci Janovce.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "Z-O-000382'1'1-2025",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-16",
+  "datum_zverejnenia": "2026-02-18",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Nitrica, Horné Vestenice, Dolné Vestenice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nitrica",
+        "parcely": []
+      },
+      {
+        "nazov": "Horné Vestenice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Vestenice",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "VN linka č. 172"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub porastov"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon ktorým sa mení a dopĺňa zákon č. 543/2002 Z.z. o ochrane prírody a krajiny",
+      "zakon_cislo": "506/2013 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube porastov v ochrannom pásme VN vedenia č. 172 v katastrálnych územiach Nitrica, Horné Vestenice a Dolné Vestenice. Výrub je plánovaný na obdobie február - marec 2026 na základe havarijného protokolu v súvislosti so správou energetických zariadení.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Horné Vestenice",
+        "NATIONALSI": "SKUEV0128",
+        "SITETITLE_": "Rokoš"
+      },
+      {
+        "parcel_label": "Horné Vestenice",
+        "NATIONALSI": "SKUEV0128",
+        "SITETITLE_": "Rokoš"
+      },
+      {
+        "parcel_label": "Dolné Vestenice",
+        "NATIONALSI": "SKUEV0883",
+        "SITETITLE_": "Nitrické vrchy"
+      },
+      {
+        "parcel_label": "Dolné Vestenice",
+        "NATIONALSI": "SKUEV0128",
+        "SITETITLE_": "Rokoš"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Nitra",
+        "NATIONALSI": "174",
+        "SITETITLE_": "PP Nitriansky dolomitový lom"
+      },
+      {
+        "parcel_label": "Nitra",
+        "NATIONALSI": "1378",
+        "SITETITLE_": "Nitrianska hradná jaskyňa"
+      },
+      {
+        "parcel_label": "Dolné Vestenice",
+        "NATIONALSI": "112",
+        "SITETITLE_": "PP Nitrica"
+      },
+      {
+        "parcel_label": "Dolné Vestenice",
+        "NATIONALSI": "804",
+        "SITETITLE_": "PR Jankov vŕšok"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "Horné Vestenice",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Horné Vestenice",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      },
+      {
+        "parcel_label": "Dolné Vestenice",
+        "NATIONALSI": "SKCHVU028",
+        "SITETITLE_": "Strážovské vrchy"
+      }
+    ]
+  }
+}

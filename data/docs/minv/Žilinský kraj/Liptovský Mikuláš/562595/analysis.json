@@ -1,0 +1,117 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2026/003149-003",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2026/003149-0008467/2026",
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (doručuje sa verejnou vyhláškou, kde doručenie nastáva 15. dňom od vyvesenia)"
+  },
+  "ziadatel_navrhovatel": "Tatry mountain resorts, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Demänovská Dolina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Demänovská Dolina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2918/45",
+              "2921/516",
+              "2918/46",
+              "2918/61",
+              "2918/47",
+              "2921/369",
+              "2921/401",
+              "2921/563",
+              "2921/418",
+              "2921/17",
+              "2921/264"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "stredisko Chopok sever, Jasná, Zjazdová trať č. 15 (Luková - Otupné), Biela Púť, Zadná voda"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozvody zasnežovania",
+    "výroba technického snehu",
+    "doplnenie rozvodu zasnežovania",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo II. stupňa vodárenských zdrojov",
+    "ochranné pásmo III. stupňa vodárenských zdrojov",
+    "ochranné pásmo pozdĺž vodných tokov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "borovica horská",
+    "jarabina vtáčia",
+    "smrek obyčajný",
+    "bylinná vegetácia",
+    "drevinová vegetácia"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o energetike",
+      "zakon_cislo": "251/2012 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o vydaní stavebného a vodoprávneho povolenia pre Tatry mountain resorts, a. s. na realizáciu rozvodov zasnežovania na zjazdovej trati č. 15 (Luková - Otupné) v Demänovskej Doline. Projekt zasahuje do ochranných pásiem vodárenských zdrojov a ukladá podmienky pre ochranu pôdy pred eróziou a zachovanie okolitej drevinovej vegetácie (borovica horská, jarabina, smrek).",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "2921/401",
+        "NATIONALSI": "SKUEV0302",
+        "SITETITLE_": "Ďumbierske Tatry"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "2921/401",
+        "NATIONALSI": "SKCHVU018",
+        "SITETITLE_": "Nízke Tatry"
+      }
+    ]
+  }
+}

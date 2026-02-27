@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-02-27 22:37:45",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': []}' v katastrálnom území 'Boleráz' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-02-27 22:37:45",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Šelpice, Boleráz', 'katastralne_uzemia': [{'nazov': 'Šelpice', 'parcely': []}, {'nazov': 'Klčovany', 'parcely': []}, {'nazov': 'Boleráz', 'parcely': []}], 'nazov_lokality': 'obvod dráhy'}"
+  }
+]

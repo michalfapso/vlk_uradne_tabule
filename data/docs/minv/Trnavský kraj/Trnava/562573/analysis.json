@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/061760",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Šelpice, Boleráz",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šelpice",
+        "parcely": []
+      },
+      {
+        "nazov": "Klčovany",
+        "parcely": []
+      },
+      {
+        "nazov": "Boleráz",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "obvod dráhy"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o dráhach",
+      "zakon_cislo": "513/2009 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznámili plánovaný výrub drevín v obvode dráhy v katastrálnych územiach Šelpice, Klčovany a Boleráz. Ide o oznámenie podľa § 47 ods. 7 zákona o ochrane prírody, na ktoré sa nevzťahujú všeobecné predpisy o správnom konaní a nie je možné voči nemu podať odvolanie.",
+  "zasiahnute_chranene_uzemia": {}
+}

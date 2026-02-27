@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2026/005231",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP š.p., Povodie dolného Váhu, o.z.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Topoľnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Topoľnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2100"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vodný tok Derňa"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie kríkových porastov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "pajaseň",
+    "vŕba biela"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub 10 ks inváznych drevín pajaseň a 8 ks vŕby bielej na brehu vodného toku Derňa v k. ú. Topoľnica. Zásah bude prebiehať v rokoch 2026 – 2027 mimo vegetačného obdobia z dôvodu zlého zdravotného stavu drevín a ohrozenia okolia.",
+  "zasiahnute_chranene_uzemia": {}
+}

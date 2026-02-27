@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-02-27 22:35:32",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['1721/58', '1279/3']}' v katastrálnom území 'Giraltovce' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-02-27 22:35:32",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/58', '1279/3']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2026-02-27 22:35:32",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "OU-SB-OSZP-2026/000904-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 7 dní odo dňa doručenia tohto listu"
+  },
+  "ziadatel_navrhovatel": "Obec Rožkovany",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Sabinov",
+    "obec": "Rožkovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rožkovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "952/2",
+              "582/14",
+              "582/95",
+              "582/148"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Obytná zóna Jeruzalem"
+  },
+  "typ_dokumentu": "Výzva",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oboznámenie s podkladmi rozhodnutia a výzva na vyjadrenie v konaní o povolení vodnej stavby (splašková kanalizácia a prípojky) pre obec Rožkovany v lokalite Jeruzalem. Účastníci majú 7 dní od doručenia na predloženie námietok pred vydaním stavebného povolenia.",
+  "zasiahnute_chranene_uzemia": {}
+}

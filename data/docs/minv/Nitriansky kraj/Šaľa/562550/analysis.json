@@ -1,0 +1,60 @@
+{
+  "cislo_konania_spisu": "OU-SA-OSZP-2026/003123-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Šaľa",
+    "obec": "Šaľa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaľa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1475/5"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1819/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Murgašova ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Breza"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub 1 ks brezy na Murgašovej ulici v Šali. Dôvodom výrubu je poškodzovanie statiky oplotenia a chodníka koreňmi stromu.",
+  "zasiahnute_chranene_uzemia": {}
+}

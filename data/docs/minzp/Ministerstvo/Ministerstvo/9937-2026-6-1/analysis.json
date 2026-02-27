@@ -1,0 +1,52 @@
+{
+  "cislo_konania_spisu": "9937/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ministerstvo obrany SR",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "fasáda budovy v správe Ministerstva obrany SR"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "odstránenie hniezd chránených živočíchov"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "belorítka obyčajná (Delichon urbicum)",
+    "sokol myšiar (Falco tinnunculus)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Žiadosť Ministerstva obrany SR o povolenie výnimky na odstránenie hniezd belorítky obyčajnej a sokola myšiara z fasády budovy v k. ú. Trenčín. Verejnosť môže písomne alebo elektronicky potvrdiť záujem o účasť v konaní v lehote 5 pracovných dní.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Trenčín",
+        "NATIONALSI": "SKUEV0397",
+        "SITETITLE_": "Váh pri Zamarovciach"
+      }
+    ]
+  }
+}

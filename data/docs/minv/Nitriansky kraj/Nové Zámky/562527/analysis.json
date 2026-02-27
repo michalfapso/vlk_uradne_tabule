@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/004428-097",
+  "cislo_rozhodnutia": "OU-NZ-OSZP-2026/004428-097",
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa oznámenia záverečného stanoviska"
+  },
+  "ziadatel_navrhovatel": "ShredCo j.s.a.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky",
+    "okres": "Nové Zámky",
+    "obec": "Šurany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šurany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3388/1",
+              "3388/4",
+              "3388/5",
+              "3388/16",
+              "3388/17"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Priemyselný areál mesta Šurany"
+  },
+  "typ_dokumentu": "Záverečné stanovisko",
+  "typ_zasahu": [
+    "výstavba budovy",
+    "zhodnocovanie vybitých lítium-iónových batérií",
+    "mechanické spracovanie",
+    "separácia elektrolytu",
+    "nakladanie s nebezpečnými odpadmi",
+    "výstavba haly"
+  ],
+  "typ_uzemia": [
+    "1. stupeň",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o prevencii závažných priemyselných havárií",
+      "zakon_cislo": "128/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "zakon_cislo": "39/2013 Z. z."
+    }
+  ],
+  "zhrnutie": "Záverečné stanovisko súhlasiace s vybudovaním prevádzky na mechanické spracovanie a zhodnocovanie LI-ION batérií (najmä z elektromobilov) v priemyselnom areáli Šurany. Projekt sa nerealizuje v chránenom území a nepredpokladá negatívny vplyv na biodiverzitu, pričom stanovuje prísne monitorovacie podmienky pre emisie (HF, HCl, VOC) a hluk v blízkosti obytnej zástavby.",
+  "zasiahnute_chranene_uzemia": {}
+}

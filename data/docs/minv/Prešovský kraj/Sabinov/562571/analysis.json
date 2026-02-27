@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-SB-OSZP-2026/000903-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-02-27",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 dní odo dňa doručenia tohto listu"
+  },
+  "ziadatel_navrhovatel": "Obec Rožkovany",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Sabinov",
+    "obec": "Rožkovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rožkovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "952/2",
+              "582/14",
+              "582/34",
+              "582/95",
+              "582/148"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "obytná zóna Jeruzalem"
+  },
+  "typ_dokumentu": "Oboznámenie s podkladmi rozhodnutia pred jeho vydaním a výzva na vyjadrenie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oboznámenie s podkladmi rozhodnutia vo veci vydania stavebného povolenia pre vodnú stavbu verejný vodovod a prípojky v obci Rožkovany, lokalita Jeruzalem. Projekt sa týka technickej infraštruktúry pre obytnú zónu IBV na parcelách registra C v katastrálnom území Rožkovany.",
+  "zasiahnute_chranene_uzemia": {}
+}

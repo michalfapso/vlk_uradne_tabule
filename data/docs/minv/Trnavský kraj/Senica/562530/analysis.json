@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2026/004758-016",
+  "cislo_rozhodnutia": "OU-SE-OSZP-2026/004758-0010993/2026",
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-02-26",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Syráreň Havran, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Senica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1412/81",
+              "14105/68",
+              "14105/187",
+              "14105/189",
+              "14105/190",
+              "14105/193",
+              "14105/69",
+              "14105/78",
+              "14108/7",
+              "14110/53",
+              "1410/45",
+              "1666/3",
+              "1665/48",
+              "1665/8",
+              "1665/47",
+              "1663/6",
+              "1663/4",
+              "1667/5",
+              "1667/8",
+              "1725/3",
+              "1725/1",
+              "1726/1",
+              "2609/81",
+              "1601/1",
+              "2600",
+              "2599/9",
+              "2599/14"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1591/2",
+              "1580/38",
+              "1587/31",
+              "1567/42",
+              "1567/13",
+              "1567/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Syráreň Havran, ČOV Senica"
+  },
+  "typ_dokumentu": "Rozhodnutie vo veci zastavenia konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "odvedenie priemyselných odpadových vôd"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "stromová aleja",
+    "vzrastlé stromy"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o e-Governmente",
+      "zakon_cislo": "305/2013 Z. z."
+    }
+  ],
+  "zhrnutie": "Okresný úrad Senica zastavil konanie o stavebnom zámere na odvedenie priemyselných odpadových vôd zo Syrárne Havran do ČOV Senica. Rozhodnutie bolo vydané z dôvodu nedoloženia dokladu o právnom vzťahu k pozemku parcela E-KN 1567/12 v k.ú. Senica a pretrvávajúceho nesúhlasu vlastníčky tohto pozemku.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/013342-002",
+  "cislo_rozhodnutia": "OU-NZ-OSZP-2015/15267-05-Hl",
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní od doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Štúrovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štúrovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "644",
+              "645",
+              "980/1",
+              "1090",
+              "4573/1",
+              "913"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Štúrovo vodovod Orgovánová a Javorová ulica"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba vodnej stavby"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia pre vodnú stavbu 'Štúrovo vodovod Orgovánová a Javorová ulica' v katastrálnom území Štúrovo. Účastníci môžu uplatniť námietky do 7 pracovných dní od doručenia oznámenia verejnou vyhláškou.",
+  "zasiahnute_chranene_uzemia": {}
+}
