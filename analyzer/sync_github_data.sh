@@ -43,10 +43,11 @@ fi
 
 if [ -n "$GIS_RUN_ID" ]; then
     echo "Sťahujem 'gis-geojson-files' z behu $GIS_RUN_ID..."
-    gh run download "$GIS_RUN_ID" -n gis-geojson-files -D "$BASE_DIR" --clobber
+    gh run download "$GIS_RUN_ID" -n gis-geojson-files -D "$DOCS_DIR" --clobber
 else
     echo "Upozornenie: Nenašiel sa žiadny úspešný beh produkujúci 'gis-geojson-files'."
 fi
 
 echo "--- Synchronizácia dokončená ---"
 echo "Dáta sú pripravené v data/scraped a data/docs."
+

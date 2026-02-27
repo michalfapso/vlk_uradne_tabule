@@ -69,7 +69,7 @@ jobs:
         with:
           workflows: "daily-scrape-analyze-deploy.yml process.yml"
           artifact: "gis-geojson-files"
-          path: "."
+          path: "data/docs"
         continue-on-error: true
 
       - name: Run Document Processing

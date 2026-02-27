@@ -28,7 +28,7 @@ jobs:
         with:
           workflows: "daily-scrape-analyze-deploy.yml process.yml"
           artifact: "gis-geojson-files"
-          path: "."
+          path: "data/docs"
         continue-on-error: true # Don't fail if artifact doesn't exist (e.g. manual run)
 
       - name: Set up Node.js
