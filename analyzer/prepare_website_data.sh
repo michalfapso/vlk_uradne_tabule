@@ -16,6 +16,10 @@ mkdir -p "$WEBSITE_PUBLIC_DATA_DIR"
 if [ -d "$DOCS_DIR" ]; then
     # Používame -print0 a read -d '' na bezpečné spracovanie mien súborov s medzerami
     #find "$DOCS_DIR" -mindepth 4 -maxdepth 4 -type d -print0 | while IFS= read -r -d '' dir; do
+    echo "gis.geojson files:"
+    find "$DOCS_DIR" -type f -name 'gis.geojson'
+
+    echo "Copying gis.geojson files to $WEBSITE_PUBLIC_DATA_DIR"
     find "$DOCS_DIR" -type f -name 'gis.geojson' -print0 | while IFS= read -r -d '' f_geojson; do
         dir=$(dirname "$f_geojson")
         docid=$(basename "$dir")
