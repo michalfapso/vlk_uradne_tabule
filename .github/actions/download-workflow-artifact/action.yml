@@ -29,6 +29,15 @@ runs:
         RUN_ID="$INPUT_RUN_ID"
         
         if [ -z "$RUN_ID" ]; then
+          # First check if the artifact exists in the current run
+          echo "Checking if artifact '$INPUT_ARTIFACT' exists in current run (${{ github.run_id }})..."
+          if gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq ".artifacts[].name" | grep -qx "$INPUT_ARTIFACT"; then
+            echo "Found artifact '$INPUT_ARTIFACT' in current run."
+            RUN_ID="${{ github.run_id }}"
+          fi
+        fi
+
+        if [ -z "$RUN_ID" ]; then
           echo "Searching for latest run among workflows: $INPUT_WORKFLOWS"
           LATEST_ID=""
           LATEST_DATE=""
