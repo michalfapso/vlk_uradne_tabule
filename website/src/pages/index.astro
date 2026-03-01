@@ -183,6 +183,7 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                 const statusFilePath   = path.resolve(docDir, 'status.json');
                 const analysisFilePath = path.resolve(docDir, 'analysis.json');
                 const lawsFilePath     = path.resolve(docDir, 'laws.txt');
+                const logFilePath      = path.resolve(docDir, 'log.txt');
                 const gisFilePath      = path.resolve(docDir, 'gis.geojson');
 
                 doc.hasGis = fs.existsSync(gisFilePath);
@@ -218,6 +219,14 @@ function enrichFlattenedDocumentsWithAnalysis(flatDocs, dataSubdir) {
                     }
                 } catch (error) {
                     appendErrorToStatus(doc, `Failed to load/parse laws from ${lawsFilePath}: ${error.message}`);
+                }
+
+                try {
+                    if (fs.existsSync(logFilePath)) {
+                        doc.log = fs.readFileSync(logFilePath, 'utf-8');
+                    }
+                } catch (error) {
+                    appendErrorToStatus(doc, `Failed to load log from ${logFilePath}: ${error.message}`);
                 }
             } else {
                 appendErrorToStatus(doc, `Could not determine document ID from URL: ${doc.url}`);

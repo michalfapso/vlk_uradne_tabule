@@ -43,3 +43,21 @@ def log_status(status_filepath: str, level: str, msg: str):
             json.dump(data, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"[CRITICAL]: Failed to write to status file {status_filepath}: {e}", file=sys.stderr)
+
+class Tee:
+    def __init__(self, original_stream, log_file):
+        self.original_stream = original_stream
+        self.log_file = log_file
+
+    def write(self, data):
+        self.original_stream.write(data)
+        if self.log_file and not self.log_file.closed:
+            self.log_file.write(data)
+
+    def flush(self):
+        self.original_stream.flush()
+        if self.log_file and not self.log_file.closed:
+            self.log_file.flush()
+
+    def __getattr__(self, attr):
+        return getattr(self.original_stream, attr)

@@ -16,8 +16,9 @@ import tempfile
 import time
 
 # Importujeme ostatné zdieľané moduly
-from log_handler import log_status
+from log_handler import log_status, Tee
 from get_doc_id import get_doc_id
+
 from pdf_to_txt import extract_text_from_pdf
 from llm_analyzer import analyze_text_document
 from law_references import get_law_excerpts_for_text
@@ -278,216 +279,229 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Chyba pri vytváraní adresára {output_dir}: {e}")
         return False
 
-    if output_dir_tmp:
-        os.replace(orig_file_tmp, os.path.join(output_dir, os.path.basename(orig_file_tmp)))
-        output_dir_tmp.cleanup()
-    
-    status_filepath = os.path.join(output_dir, "status.json")
-    if os.path.exists(status_filepath):
-        os.remove(status_filepath)
+    log_filepath = os.path.join(output_dir, "log.txt")
+    log_file = open(log_filepath, 'a', encoding='utf-8')
+    old_stdout = sys.stdout
+    old_stderr = sys.stderr
+    sys.stdout = Tee(old_stdout, log_file)
+    sys.stderr = Tee(old_stderr, log_file)
 
     try:
-        invalidate_files = False
-
-        t0 = time.time()
-        txt_filepath = os.path.join(output_dir, "text.txt")
-        if invalidate_files or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
-            invalidate_files = True
-            # Search for an existing original file
-            existing_orig_files = glob.glob(os.path.join(output_dir, 'orig.*'))
-            if existing_orig_files:
-                orig_file = existing_orig_files[0]
-                print(f"Orig doc already downloaded: {orig_file}")
-            else:
-                orig_file = download_document(doc_url, output_dir, 'orig')
-
-            if not orig_file:
-                raise RuntimeError("Stiahnutie zlyhalo.")
-            
-            # Converting document to text
-            if orig_file.lower().endswith('.zip'):
-                extracted_dir = os.path.join(output_dir, "extracted")
-                if os.path.exists(extracted_dir):
-                    shutil.rmtree(extracted_dir)
-                os.makedirs(extracted_dir)
-                with zipfile.ZipFile(orig_file, 'r') as zip_ref:
-                    zip_ref.extractall(extracted_dir)
-                
-                all_texts = []
-                for root, _, files in os.walk(extracted_dir):
-                    for name in files:
-                        try:
-                            file_path = os.path.join(root, name)
-                            all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path, source, status_filepath)}")
-                        except Exception as e:
-                            log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
-                text_content = "\n\n".join(all_texts)
-            else:
-                text_content = _convert_to_text(orig_file, source, status_filepath)
-
-            text_content = text_content.strip()
-            
-            if source == 'minzp':
-                # Dokumenty z minzp.sk majú okrem dokumentu aj popis, tak ho pridáme na začiatok
-                text_content = f"{original_data.get('popis', '')}\n\n{text_content}"
-
-            text_content = f"Kraj: {kraj}\nOkres: {okres}\n\n{text_content}"
-
-            if not text_content:
-                raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
+        if output_dir_tmp:
+            os.replace(orig_file_tmp, os.path.join(output_dir, os.path.basename(orig_file_tmp)))
+            output_dir_tmp.cleanup()
         
-            print(f'Saving text doc to {txt_filepath}...')
-            with open(txt_filepath, 'w', encoding='utf-8') as f:
-                f.write(text_content)
-        else:
-            print(f'Loading text doc from {txt_filepath}...')
-            with open(txt_filepath, 'r', encoding='utf-8') as f:
-                text_content = f.read()
-        timers['download_and_text'] = time.time() - t0
+        status_filepath = os.path.join(output_dir, "status.json")
+        if os.path.exists(status_filepath):
+            os.remove(status_filepath)
 
-        t0 = time.time()
-        laws_filepath = os.path.join(output_dir, "laws.txt")
-        laws_excerpts = ''
-        if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
-            invalidate_files = True
-            try:
-                laws_excerpts = get_law_excerpts_for_text(text_content)
-                if laws_excerpts:
-                    print(f'Saving laws to {laws_filepath}...')
-                    with open(laws_filepath, 'w', encoding='utf-8') as f:
-                        f.write(laws_excerpts)
-            except Exception as e:
-                traceback.print_exc(file=sys.stderr)
-                log_status(status_filepath, "warning", f"Nepodarilo sa získať znenia zákonov pre dokument: {e}")
-                laws_excerpts = ""
-        else:
-            print(f'Loading laws from {laws_filepath}...')
-            with open(laws_filepath, 'r', encoding='utf-8') as f:
-                laws_excerpts = f.read()
-        laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
-        timers['laws_excerpts'] = time.time() - t0
+        try:
+            invalidate_files = False
 
-        t0 = time.time()
-        analysis_json_filepath = os.path.join(output_dir, "analysis.json")
-        if invalidate_files or not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
-            invalidate_files = True
-            analysis_input_text = text_content + "\n\n" + laws_excerpts
-            analysis_data = None
-            analysis_result_str = None
-
-            for attempt in range(3):
-                print(f"Pokus o LLM analýzu {attempt + 1}/3...")
-                try:
-                    analysis_result_str = analyze_text_document(analysis_input_text)
-                    if not analysis_result_str:
-                        print("LLM analýza vrátila prázdny výsledok.")
-                        continue
-                    analysis_data = json.loads(analysis_result_str)
-                    print("LLM analýza úspešná, získaný platný JSON.")
-                    break  # Úspech, vyskočíme z cyklu
-                except json.JSONDecodeError as e:
-                    print(f"Pokus {attempt + 1} zlyhal: LLM nevrátil platný JSON. Chyba: {e}")
-                    analysis_data = None  # Resetujeme v prípade chyby
-
-            if analysis_data is None:
-                raise RuntimeError("LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.")
-
-            analysis_txt_filepath = os.path.join(output_dir, "analysis.txt")
-            print(f'Saving analysis to {analysis_txt_filepath}...')
-            with open(analysis_txt_filepath, 'w', encoding='utf-8') as f:
-                f.write(analysis_result_str)
-            print(f'Saving analysis to {analysis_json_filepath}...')
-            with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
-                json.dump(analysis_data, f, indent=2, ensure_ascii=False)
-        else:
-            print(f'Loading from {analysis_json_filepath}...')
-            with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
-                analysis_data = json.load(f)
-        timers['llm_analysis'] = time.time() - t0
-
-
-        def process_analysis_data(analysis_data, status_filepath, invalidate_files):
-            # Return analysis_data when modified, else None
-            gis_filepath = os.path.join(output_dir, "gis.geojson")
-            if invalidate_files or not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
+            t0 = time.time()
+            txt_filepath = os.path.join(output_dir, "text.txt")
+            if invalidate_files or not os.path.exists(txt_filepath) or os.path.getsize(txt_filepath) < 10:
                 invalidate_files = True
-                print(f'Getting geometry of parcel set...')
-                # print('analysis_data:', analysis_data)
-                place_info = analysis_data.get('miesto_realizacie', {})
-                print(f'place_info:{place_info}')
-                gdf_parcelset = None
-                if len(place_info.get('katastralne_uzemia', [])) > 0:
-                    gdf_parcelset = get_geometry_of_a_parcel_set(place_info, status_filepath) 
-
-                gdf_geoname = None
-                nazov_lokality = place_info.get('nazov_lokality', '')
-                print('nazov_lokality:', nazov_lokality)
-                if nazov_lokality:
-                    gdf_geoname = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
-                    print('gdf_geoname:', gdf_geoname)
-
-                print('gdf_parcelset:', gdf_parcelset)
-                print('gdf_geoname:', gdf_geoname)
-                gdf = None
-                if gdf_parcelset is not None and not gdf_parcelset.empty and gdf_geoname is not None and not gdf_geoname.empty:
-                    gdf = gdf_parcelset.overlay(gdf_geoname, how='intersection')
-                elif gdf_parcelset is not None and not gdf_parcelset.empty:
-                    gdf = gdf_parcelset
-                elif gdf_geoname is not None and not gdf_geoname.empty:
-                    gdf = gdf_geoname
+                # Search for an existing original file
+                existing_orig_files = glob.glob(os.path.join(output_dir, 'orig.*'))
+                if existing_orig_files:
+                    orig_file = existing_orig_files[0]
+                    print(f"Orig doc already downloaded: {orig_file}")
                 else:
-                    log_status(status_filepath, "warning", "Nepodarilo sa získať geometriu parcel set alebo geoname")
-                    return None
-                print(f'Saving geometry to {gis_filepath}...')
-                gdf_save_to_file(gdf, gis_filepath)
-            else:
-                print(f'Loading geometry from {gis_filepath}...')
-                gdf = gdf_load_from_file(gis_filepath)
+                    orig_file = download_document(doc_url, output_dir, 'orig')
 
-            if invalidate_files or 'zasiahnute_chranene_uzemia' not in analysis_data:
+                if not orig_file:
+                    raise RuntimeError("Stiahnutie zlyhalo.")
+                
+                # Converting document to text
+                if orig_file.lower().endswith('.zip'):
+                    extracted_dir = os.path.join(output_dir, "extracted")
+                    if os.path.exists(extracted_dir):
+                        shutil.rmtree(extracted_dir)
+                    os.makedirs(extracted_dir)
+                    with zipfile.ZipFile(orig_file, 'r') as zip_ref:
+                        zip_ref.extractall(extracted_dir)
+                    
+                    all_texts = []
+                    for root, _, files in os.walk(extracted_dir):
+                        for name in files:
+                            try:
+                                file_path = os.path.join(root, name)
+                                all_texts.append(f"--- Obsah súboru: {name} ---\n\n{_convert_to_text(file_path, source, status_filepath)}")
+                            except Exception as e:
+                                log_status(status_filepath, "warning", f"Nepodarilo sa konvertovať súbor '{name}' z archívu: {e}")
+                    text_content = "\n\n".join(all_texts)
+                else:
+                    text_content = _convert_to_text(orig_file, source, status_filepath)
+
+                text_content = text_content.strip()
+                
+                if source == 'minzp':
+                    # Dokumenty z minzp.sk majú okrem dokumentu aj popis, tak ho pridáme na začiatok
+                    text_content = f"{original_data.get('popis', '')}\n\n{text_content}"
+
+                text_content = f"Kraj: {kraj}\nOkres: {okres}\n\n{text_content}"
+
+                if not text_content:
+                    raise RuntimeError("Extrakcia textu vrátila prázdny obsah.")
+            
+                print(f'Saving text doc to {txt_filepath}...')
+                with open(txt_filepath, 'w', encoding='utf-8') as f:
+                    f.write(text_content)
+            else:
+                print(f'Loading text doc from {txt_filepath}...')
+                with open(txt_filepath, 'r', encoding='utf-8') as f:
+                    text_content = f.read()
+            timers['download_and_text'] = time.time() - t0
+
+            t0 = time.time()
+            laws_filepath = os.path.join(output_dir, "laws.txt")
+            laws_excerpts = ''
+            if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
                 invalidate_files = True
-                print('Intersections with protected areas...')
-                intersections = get_intersections_with_protected_areas(gdf, status_filepath)
-                print('intersections:', intersections)
-                analysis_data['zasiahnute_chranene_uzemia'] = intersections
-                return analysis_data
+                try:
+                    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    if laws_excerpts:
+                        print(f'Saving laws to {laws_filepath}...')
+                        with open(laws_filepath, 'w', encoding='utf-8') as f:
+                            f.write(laws_excerpts)
+                except Exception as e:
+                    traceback.print_exc(file=sys.stderr)
+                    log_status(status_filepath, "warning", f"Nepodarilo sa získať znenia zákonov pre dokument: {e}")
+                    laws_excerpts = ""
             else:
-                print('Intersections with protected areas already computed. Skipping...')
+                print(f'Loading laws from {laws_filepath}...')
+                with open(laws_filepath, 'r', encoding='utf-8') as f:
+                    laws_excerpts = f.read()
+            laws_excerpts = "# Znenie častí zákonov odkazovaných v dokumente\n\n" + laws_excerpts
+            timers['laws_excerpts'] = time.time() - t0
 
-            return None
-        
-        analysis_data_changed = False
-        t0 = time.time()
-        if isinstance(analysis_data, dict):
-            analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
-            analysis_data_changed = analysis_data is not None
-        elif isinstance(analysis_data, list):
-            for i, item in enumerate(analysis_data):
-                updated_item = process_analysis_data(item, status_filepath, invalidate_files)
-                if updated_item is not None:
-                    analysis_data[i] = updated_item
-                    analysis_data_changed = True
-        timers['gis_processing'] = time.time() - t0
+            t0 = time.time()
+            analysis_json_filepath = os.path.join(output_dir, "analysis.json")
+            if invalidate_files or not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
+                invalidate_files = True
+                analysis_input_text = text_content + "\n\n" + laws_excerpts
+                analysis_data = None
+                analysis_result_str = None
 
-        if analysis_data_changed:
-            invalidate_files = True
-            print(f'Updating analysis JSON at {analysis_json_filepath}...')
-            with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
-                json.dump(analysis_data, f, indent=2, ensure_ascii=False)
+                for attempt in range(3):
+                    print(f"Pokus o LLM analýzu {attempt + 1}/3...")
+                    try:
+                        analysis_result_str = analyze_text_document(analysis_input_text)
+                        if not analysis_result_str:
+                            print("LLM analýza vrátila prázdny výsledok.")
+                            continue
+                        analysis_data = json.loads(analysis_result_str)
+                        print("LLM analýza úspešná, získaný platný JSON.")
+                        break  # Úspech, vyskočíme z cyklu
+                    except json.JSONDecodeError as e:
+                        print(f"Pokus {attempt + 1} zlyhal: LLM nevrátil platný JSON. Chyba: {e}")
+                        analysis_data = None  # Resetujeme v prípade chyby
 
-        total_time = time.time() - start_total
-        print(f"\n--- Časy spracovania dokumentu {doc_id} ---")
-        for step, duration in timers.items():
-            print(f"  {step:20}: {duration:6.2f} s")
-        print(f"  {'CELKOVÝ ČAS':20}: {total_time:6.2f} s")
-        print(f"------------------------------------------")
+                if analysis_data is None:
+                    raise RuntimeError("LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.")
 
-        print(f"Dokument {doc_id} bol úspešne spracovaný.")
-        return True
+                analysis_txt_filepath = os.path.join(output_dir, "analysis.txt")
+                print(f'Saving analysis to {analysis_txt_filepath}...')
+                with open(analysis_txt_filepath, 'w', encoding='utf-8') as f:
+                    f.write(analysis_result_str)
+                print(f'Saving analysis to {analysis_json_filepath}...')
+                with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
+                    json.dump(analysis_data, f, indent=2, ensure_ascii=False)
+            else:
+                print(f'Loading from {analysis_json_filepath}...')
+                with open(analysis_json_filepath, 'r', encoding='utf-8') as f:
+                    analysis_data = json.load(f)
+            timers['llm_analysis'] = time.time() - t0
 
-    except Exception as e:
-        error_message = f"Zlyhalo spracovanie dokumentu {doc_id} ({doc_url}): {e}"
-        print(error_message, file=sys.stderr)
-        traceback.print_exc(file=sys.stderr)
-        log_status(status_filepath, "error", error_message)
-        return False
+
+            def process_analysis_data(analysis_data, status_filepath, invalidate_files):
+                # Return analysis_data when modified, else None
+                gis_filepath = os.path.join(output_dir, "gis.geojson")
+                if invalidate_files or not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
+                    invalidate_files = True
+                    print(f'Getting geometry of parcel set...')
+                    # print('analysis_data:', analysis_data)
+                    place_info = analysis_data.get('miesto_realizacie', {})
+                    print(f'place_info:{place_info}')
+                    gdf_parcelset = None
+                    if len(place_info.get('katastralne_uzemia', [])) > 0:
+                        gdf_parcelset = get_geometry_of_a_parcel_set(place_info, status_filepath) 
+
+                    gdf_geoname = None
+                    nazov_lokality = place_info.get('nazov_lokality', '')
+                    print('nazov_lokality:', nazov_lokality)
+                    if nazov_lokality:
+                        gdf_geoname = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                        print('gdf_geoname:', gdf_geoname)
+
+                    print('gdf_parcelset:', gdf_parcelset)
+                    print('gdf_geoname:', gdf_geoname)
+                    gdf = None
+                    if gdf_parcelset is not None and not gdf_parcelset.empty and gdf_geoname is not None and not gdf_geoname.empty:
+                        gdf = gdf_parcelset.overlay(gdf_geoname, how='intersection')
+                    elif gdf_parcelset is not None and not gdf_parcelset.empty:
+                        gdf = gdf_parcelset
+                    elif gdf_geoname is not None and not gdf_geoname.empty:
+                        gdf = gdf_geoname
+                    else:
+                        log_status(status_filepath, "warning", "Nepodarilo sa získať geometriu parcel set alebo geoname")
+                        return None
+                    print(f'Saving geometry to {gis_filepath}...')
+                    gdf_save_to_file(gdf, gis_filepath)
+                else:
+                    print(f'Loading geometry from {gis_filepath}...')
+                    gdf = gdf_load_from_file(gis_filepath)
+
+                if invalidate_files or 'zasiahnute_chranene_uzemia' not in analysis_data:
+                    invalidate_files = True
+                    print('Intersections with protected areas...')
+                    intersections = get_intersections_with_protected_areas(gdf, status_filepath)
+                    print('intersections:', intersections)
+                    analysis_data['zasiahnute_chranene_uzemia'] = intersections
+                    return analysis_data
+                else:
+                    print('Intersections with protected areas already computed. Skipping...')
+
+                return None
+            
+            analysis_data_changed = False
+            t0 = time.time()
+            if isinstance(analysis_data, dict):
+                analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+                analysis_data_changed = analysis_data is not None
+            elif isinstance(analysis_data, list):
+                for i, item in enumerate(analysis_data):
+                    updated_item = process_analysis_data(item, status_filepath, invalidate_files)
+                    if updated_item is not None:
+                        analysis_data[i] = updated_item
+                        analysis_data_changed = True
+            timers['gis_processing'] = time.time() - t0
+
+            if analysis_data_changed:
+                invalidate_files = True
+                print(f'Updating analysis JSON at {analysis_json_filepath}...')
+                with open(analysis_json_filepath, 'w', encoding='utf-8') as f:
+                    json.dump(analysis_data, f, indent=2, ensure_ascii=False)
+
+            total_time = time.time() - start_total
+            print(f"\n--- Časy spracovania dokumentu {doc_id} ---")
+            for step, duration in timers.items():
+                print(f"  {step:20}: {duration:6.2f} s")
+            print(f"  {'CELKOVÝ ČAS':20}: {total_time:6.2f} s")
+            print(f"------------------------------------------")
+
+            print(f"Dokument {doc_id} bol úspešne spracovaný.")
+            return True
+
+        except Exception as e:
+            error_message = f"Zlyhalo spracovanie dokumentu {doc_id} ({doc_url}): {e}"
+            print(error_message, file=sys.stderr)
+            traceback.print_exc(file=sys.stderr)
+            log_status(status_filepath, "error", error_message)
+            return False
+    finally:
+        sys.stdout = old_stdout
+        sys.stderr = old_stderr
+        log_file.close()
+

@@ -432,6 +432,25 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                             "<strong>Objekt analýzy nie je dostupný.</strong>";
                     }
 
+                    if (data.log) {
+                        const detailsElement =
+                            document.createElement("details");
+                        const summaryElement =
+                            document.createElement("summary");
+                        summaryElement.style.cursor = "pointer";
+                        summaryElement.style.fontWeight = "bold";
+                        summaryElement.textContent = "Log analýzy";
+                        detailsElement.appendChild(summaryElement);
+
+                        const preElement = document.createElement("pre");
+                        preElement.style.whiteSpace = "pre-wrap";
+                        preElement.style.wordBreak = "break-all";
+                        preElement.style.marginTop = "5px";
+                        preElement.textContent = data.log;
+                        detailsElement.appendChild(preElement);
+                        summaryContainer.appendChild(detailsElement);
+                    }
+
                     // Add the summary text (if any) before the details element
                     const summaryTextNode = document.createElement("div");
                     summaryTextNode.innerHTML = summaryHtml;
