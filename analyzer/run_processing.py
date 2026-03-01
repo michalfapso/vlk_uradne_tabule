@@ -84,62 +84,65 @@ def main():
     minv_old = load_json_file(os.path.join(scraped_data_dir, 'minv_2_documents_old.json'), default=[])
     minzp_old = load_json_file(os.path.join(scraped_data_dir, 'minzp_2_documents_old.json'), default=[])
 
-    # --- 3. Agregácia a Diffing ---
-    print("Agregujem dáta a hľadám nové dokumenty...")
+    # --- 3. Agregácia a Výber dokumentov ---
+    print("Agregujem staré a nové dáta...")
     unified_new = aggregate_and_transform(minv_new, minzp_new)
     unified_old = aggregate_and_transform(minv_old, minzp_old)
-    
-    old_urls = {doc['url'] for doc in unified_old}
-    new_documents = [doc for doc in unified_new if doc['url'] not in old_urls]
-    print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
-    # --- 4. Filtrovanie podľa dátumu ---
-    DAYS_OLD_THRESHOLD = 1
-    print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
-    threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
+    # Nastavenie pre spracovanie konkrétneho dokumentu (ak nie je None, hľadá sa v nových aj starých dátach)
+    # PROCESS_SPECIFIC_DOC_ID = '562558' 
+    PROCESS_SPECIFIC_DOC_ID = None
+
     documents_to_process = []
-    
-    newest_date = None
-    
-    for doc in new_documents:
-        date_str = doc.get('original_data', {}).get('datum')
-        if not date_str:
-            documents_to_process.append(doc) # Spracujeme, ak nemá dátum
-            continue
-        try:
-            doc_date = datetime.strptime(date_str, '%Y-%m-%d')
-            
-            if newest_date is None or doc_date > newest_date:
-                newest_date = doc_date
-            
-            # process_specific_doc_id = '556753' # Use for testing specific document:
-            process_specific_doc_id = None
+    if PROCESS_SPECIFIC_DOC_ID:
+        print(f"Hľadám konkrétny dokument s ID {PROCESS_SPECIFIC_DOC_ID} v nových aj starých dátach...")
+        # Pri spracovaní konkrétneho ID hľadáme v oboch množinách (nové aj staré)
+        documents_to_process = [
+            doc for doc in (unified_new + unified_old)
+            if get_doc_id(doc['url']) == PROCESS_SPECIFIC_DOC_ID
+        ]
+        print(f"Nájdených {len(documents_to_process)} dokumentov s ID {PROCESS_SPECIFIC_DOC_ID}.")
+        newest_info = ""
+    else:
+        # --- 4. Diffing a Filtrovanie podľa dátumu ---
+        old_urls = {doc['url'] for doc in unified_old}
+        new_documents = [doc for doc in unified_new if doc['url'] not in old_urls]
+        print(f"Nájdených {len(new_documents)} nových dokumentov (podľa URL).")
 
-            do_process_doc = False
-            if process_specific_doc_id:
-                doc_id = get_doc_id(doc['url'])
-                do_process_doc = doc_id == process_specific_doc_id
-            else:
-                do_process_doc = doc_date >= threshold_date
-            if do_process_doc:
-                documents_to_process.append(doc)
-        except (ValueError, TypeError):
-            documents_to_process.append(doc) # Spracujeme, ak je formát dátumu neplatný
+        DAYS_OLD_THRESHOLD = 1
+        print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
+        threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
+        
+        newest_date = None
+        for doc in new_documents:
+            date_str = doc.get('original_data', {}).get('datum')
+            if not date_str:
+                documents_to_process.append(doc) # Spracujeme, ak nemá dátum
+                continue
+            try:
+                doc_date = datetime.strptime(date_str, '%Y-%m-%d')
+                if newest_date is None or doc_date > newest_date:
+                    newest_date = doc_date
+                
+                if doc_date >= threshold_date:
+                    documents_to_process.append(doc)
+            except (ValueError, TypeError):
+                documents_to_process.append(doc) # Spracujeme, ak je formát dátumu neplatný
+        
+        newest_info = ""
+        if newest_date:
+            days_diff = (datetime.now() - newest_date).days
+            newest_info = f" (Najnovší dokument je z {newest_date.strftime('%Y-%m-%d')}, čo je pred {days_diff} dňami)"
+        
+        print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.{newest_info}")
     
-    newest_info = ""
-    if newest_date:
-        days_diff = (datetime.now() - newest_date).days
-        newest_info = f" (Najnovší dokument je z {newest_date.strftime('%Y-%m-%d')}, čo je pred {days_diff} dňami)"
-    
-    print(f"Nájdených {len(documents_to_process)} nových dokumentov na spracovanie starých max {DAYS_OLD_THRESHOLD} dní.{newest_info}")
-    
-    #------------------
-    # Just for testing:
-    #
-    # MAX_DOCS = 3
-    # documents_to_process = documents_to_process[:MAX_DOCS]
-    # print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
-    #------------------
+        #------------------
+        # Just for testing:
+        #
+        # MAX_DOCS = 3
+        # documents_to_process = documents_to_process[:MAX_DOCS]
+        # print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
+        #------------------
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
         json.dump(unified_new, f, indent=2, ensure_ascii=False)
