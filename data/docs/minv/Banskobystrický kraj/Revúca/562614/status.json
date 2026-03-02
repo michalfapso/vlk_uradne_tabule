@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-03-02 19:19:17",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['893/35']}' v katastrálnom území 'Muráň' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-03-02 19:19:17",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Muráň', 'katastralne_uzemia': [{'nazov': 'Muráň', 'parcely': [{'typ': 'C', 'cisla': ['893/35']}]}], 'nazov_lokality': None}"
+  },
+  {
+    "date": "2026-03-02 19:19:17",
+    "type": "warning",
+    "text": "Nepodarilo sa získať geometriu parcel set alebo geoname"
+  }
+]

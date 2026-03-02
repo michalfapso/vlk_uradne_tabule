@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2026/002723-010",
+  "cislo_rozhodnutia": "OU-TV-OSZP-2026/002723-010",
+  "datum_dokumentu": "2026-02-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní od oznámenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Malá Tŕňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malá Tŕňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "249/1",
+              "158"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "832/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "rozšírenie vodovodu",
+    "výstavba vodovodu",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "belorítka domová (Delichon urbicum)",
+    "dáždovník obyčajný (Apus apus)",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z.z."
+    },
+    {
+      "zakon_nazov": "o energetike",
+      "zakon_cislo": "251/2012 Z.z."
+    },
+    {
+      "zakon_nazov": "o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z.z."
+    },
+    {
+      "zakon_nazov": "o cestnej premávke",
+      "zakon_cislo": "8/2009 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnych poplatkoch",
+      "zakon_cislo": "145/1995 Z.z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie na rozšírenie vodovodu v obci Malá Tŕňa pre VVS, a.s. Rozhodnutie ukladá povinnosť chrániť povrchové a podzemné vody, existujúce dreviny a hniezda chránených vtákov (belorítka, dáždovník) počas realizácie prác.",
+  "zasiahnute_chranene_uzemia": {}
+}

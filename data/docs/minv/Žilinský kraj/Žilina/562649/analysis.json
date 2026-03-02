@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2026/034970-002",
+  "cislo_rozhodnutia": "OU-ZA-OSZP3-2025/073746-005",
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Konská",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Konská",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Konská",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2069/1",
+              "2114",
+              "2117/2",
+              "2117/1",
+              "2070/1",
+              "2104/5",
+              "2318/1",
+              "2318/3",
+              "2083/1",
+              "2085/1",
+              "2086/4",
+              "2230/1",
+              "204/20",
+              "204/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška - Oprava chyby v písaní",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o oprave zrejmej chyby v písaní v pôvodnom stavebnom povolení na rozšírenie verejnej kanalizácie a vodovodu v obci Konská. Oprava sa týka spresnenia zoznamu dotknutých parcelných čísiel v katastrálnom území Konská.",
+  "zasiahnute_chranene_uzemia": {}
+}

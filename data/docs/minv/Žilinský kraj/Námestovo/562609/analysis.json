@@ -1,0 +1,48 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/007371-002",
+  "cislo_rozhodnutia": "OU-NO-OSZP-2024/008580-004",
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Oravská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Novoť",
+    "katastralne_uzemia": [],
+    "nazov_lokality": "Mastruľa II"
+  },
+  "typ_dokumentu": "Verejná vyhláška - oznámenie o oprave chýb v písaní a iných zrejmých nesprávností",
+  "typ_zasahu": [
+    "ochranné pásma vodárenského zdroja"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o oprave zrejmej nesprávnosti v právoplatnom rozhodnutí o určení ochranných pásiem vodárenského zdroja Mastruľa II v obci Novoť. Oprava sa týka nesprávne uvedenej jednotky plochy ochranného pásma II. stupňa, kde sa hektáre nahrádzajú metrami štvorcovými."
+}

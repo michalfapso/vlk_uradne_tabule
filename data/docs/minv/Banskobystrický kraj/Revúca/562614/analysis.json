@@ -1,0 +1,49 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2026/000665",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-03-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Muráň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Muráň",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "893/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na výrub 2 ks drevín na parcele C-KN 893/35 v katastrálnom území Muráň."
+}

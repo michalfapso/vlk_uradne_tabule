@@ -1,0 +1,56 @@
+{
+  "cislo_konania_spisu": "VTIR-2026/224-1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-18",
+  "datum_zverejnenia": "2026-02-19",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Trenčianske vodárne a kanalizácie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1706/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "ulica J. Zemana"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Čerešňa",
+    "Jaseň",
+    "Ibištek sýrsky"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube troch drevín (čerešňa, jaseň, ibištek) v Trenčíne na ulici J. Zemana z dôvodu poškodzovania verejnej kanalizácie. Výrub sa realizuje v zákonnej lehote bez potreby súhlasu orgánu ochrany prírody, nakoľko povinnosť vyplýva z osobitného predpisu.",
+  "zasiahnute_chranene_uzemia": {}
+}

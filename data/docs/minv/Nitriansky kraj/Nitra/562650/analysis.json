@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSZP3-2026/003069-003",
+  "cislo_rozhodnutia": "OU-NR-OSZP3-2026/003069-0030563/2026",
+  "datum_dokumentu": "2026-03-02",
+  "datum_zverejnenia": "2026-03-02",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Mesto Nitra",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Nitra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nitra",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2202/1",
+              "2265/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ulica Hollého"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "úprava jednotnej kanalizácie",
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "chránené druhy rastlín",
+    "chránené druhy živočíchov"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2002 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení na vybudovanie vodnej stavby v rámci akcie 'Reorganizácia ulice Hollého' v Nitre. Projekt zahŕňa úpravu kanalizácie a preložky vodovodov, pričom dokument upozorňuje na možný vynútený výrub drevín a ochranu národnej kultúrnej pamiatky (oplotenia) v dotknutej lokalite.",
+  "zasiahnute_chranene_uzemia": {}
+}

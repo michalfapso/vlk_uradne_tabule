@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2025/501731-015",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2025/501731-015",
+  "datum_dokumentu": "2025-12-18",
+  "datum_zverejnenia": "2025-12-19",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "MTS SVK Development 10, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružinov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "15187/1",
+              "15187/2",
+              "15187/3",
+              "15187/4",
+              "15187/5",
+              "15187/6",
+              "15187/7",
+              "15187/8",
+              "15187/9",
+              "15187/10",
+              "15187/11",
+              "22185",
+              "22187",
+              "22188",
+              "22191/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Areál Inprokom"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba bytových domov",
+    "búracie práce",
+    "sanácia environmentálnej záťaže",
+    "výrub drevín",
+    "výstavba podzemnej garáže",
+    "vrt studne",
+    "odber podzemných vôd"
+  ],
+  "typ_uzemia": [
+    "1. stupeň územnej ochrany",
+    "ochranné pásmo letiska",
+    "ochranné pásmo radaru"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Ailanthus altissima (pahýľ voňavý)",
+    "Negundo aceroides (javorovec jaseňolistý)"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytny-subor-teslova",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o geologických prácach (geologický zákon)",
+      "zakon_cislo": "569/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "o územnom plánovaní",
+      "zakon_cislo": "200/2022 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko určuje, že projekt obytného súboru Teslova v Bratislave-Ružinove sa nebude posudzovať podľa zákona EIA. Zámer zahŕňa búracie práce, sanáciu environmentálnej záťaže bývalých čistiarní a výstavbu 12 bytových domov, pričom dôjde k výrubu 36 stromov v území s prvým stupňom ochrany.",
+  "zasiahnute_chranene_uzemia": {}
+}

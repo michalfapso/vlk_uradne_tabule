@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/003408-008-Va",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "VODAKO s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Vrútky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrútky",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "3354/8",
+              "3354/7",
+              "3354/9",
+              "3352/23",
+              "3352/24",
+              "3352/25",
+              "3352/26",
+              "4398/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Vrútky – ul. Karvaša a Bláhovca"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "zakon_cislo": "442/2022 Z. z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania pre stavbu rozšírenia verejného vodovodu v meste Vrútky na ulici Karvaša a Bláhovca za účelom zásobovania 10 rodinných domov vodou. Stavebníkom je spoločnosť VODAKO s.r.o. a v konaní bola stanovená 7-dňová lehota na podávanie námietok.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "4398/7",
+        "NATIONALSI": "SKCHVU013",
+        "SITETITLE_": "Malá Fatra"
+      }
+    ]
+  }
+}

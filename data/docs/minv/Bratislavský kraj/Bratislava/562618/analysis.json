@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/236910",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2026/236910-031",
+  "datum_dokumentu": "2026-02-17",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia (lehota na odvolanie)"
+  },
+  "ziadatel_navrhovatel": "Slovenský zväz záhradkárov – Základná organizácia 4-28 Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Devínska Nová Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Devínska Nová Ves",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2882/10",
+              "2882/12",
+              "2882/27",
+              "2882/28",
+              "2882/30",
+              "2882/31",
+              "3099/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "4199",
+              "4206/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Pod Srdcom"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "výstavba vodovodu",
+    "rekonštrukcia vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o dodatočnom povolení a povolení na užívanie vodnej stavby 'Rekonštrukcia jestvujúceho vodovodu' v lokalite Pod Srdcom, k. ú. Devínska Nová Ves. Stavba slúži na zásobovanie záhradkárskych objektov pitnou vodou a je zrealizovaná z HDPE potrubia v celkovej dĺžke 256,71 m.",
+  "zasiahnute_chranene_uzemia": {}
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-03-02 19:27:37",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['506/2-506/31', '513/18-513/26', '526/18-526/30']}' v katastrálnom území 'Modrová' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-03-02 19:27:37",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Modrová', 'katastralne_uzemia': [{'nazov': 'Modrová', 'parcely': [{'typ': 'C', 'cisla': ['506/2-506/31', '513/18-513/26', '526/18-526/30']}]}], 'nazov_lokality': 'Pod Tŕním'}"
+  }
+]

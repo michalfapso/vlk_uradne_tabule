@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2026/002202-005",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2026/002202-0007527/2026",
+  "datum_dokumentu": "2026-02-24",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa jeho doručenia (odvolanie proti rozhodnutiu)"
+  },
+  "ziadatel_navrhovatel": "Ing. Matúš Frankovský a spol.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Lazisko",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lazisko",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "264/16",
+              "264/18",
+              "264/19",
+              "264/20",
+              "264/21",
+              "264/22",
+              "264/31",
+              "264/32",
+              "264/33",
+              "264/34",
+              "264/35",
+              "250/113",
+              "250/114",
+              "250/115",
+              "246/14-16",
+              "264/19-30"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Rozhodnutie o vydaní stavebného povolenia na vodné stavby",
+  "typ_zasahu": [
+    "výstavba vodovodu",
+    "výstavba vodnej stavby",
+    "zemné práce",
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo vodných tokov",
+    "ochranné pásmo vodárenského zdroja",
+    "ochranné pásmo VN vedenia",
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "zlatobyľ kanadská (Solidago canadensis)",
+    "pohánkovec japonský (Falopia japonica)",
+    "chránené druhy (rastlina, živočích)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o odpadoch",
+      "zakon_cislo": "79/2015 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o elektronických komunikáciách",
+      "zakon_cislo": "452/2021 Z. z."
+    }
+  ],
+  "zhrnutie": "Stavebné povolenie na rozšírenie verejného vodovodu pre osem rodinných domov v obci Lazisko. Dokument ukladá podmienky pre ochranu drevín, zamedzenie šírenia inváznych rastlín a dodržanie ochranného pásma vodných tokov pri zemných prácach.",
+  "zasiahnute_chranene_uzemia": {}
+}

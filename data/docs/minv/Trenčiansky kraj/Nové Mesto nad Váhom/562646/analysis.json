@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Správa ciest Trenčianskeho samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5890/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Ulica Bzinská"
+  },
+  "typ_dokumentu": "Oznámenie o vyrúbaní dreviny",
+  "typ_zasahu": [
+    "výrub drevín",
+    "vysekávanie krovia"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": null,
+      "zakon_cislo": "35/1984 Zb."
+    }
+  ],
+  "zhrnutie": "Správa ciest TSK oznamuje výrub 10 stromov a 800 m2 krovitých porastov v Novom Meste nad Váhom na ulici Bzinská. Účelom výrubu je sanácia svahu cesty III/1230, ktorý sa zosúva v dôsledku zaťaženia dopravou.",
+  "zasiahnute_chranene_uzemia": {}
+}

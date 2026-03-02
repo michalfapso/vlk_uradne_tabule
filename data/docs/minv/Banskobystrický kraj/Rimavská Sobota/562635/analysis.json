@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/007533",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-26",
+  "datum_zverejnenia": "2026-03-02",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej orgánom ochrany prírody podľa § 82 ods. 7, ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik, Povodie Hrona, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Drienčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Drienčany",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": "vodný tok Blh"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub brehového porastu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Informácia o začatí konania vo veci oznámenia o výrube drevín a brehového porastu v k. ú. Drienčany pri vodnom toku Blh. Výrub podal Slovenský vodohospodársky podnik z dôvodu údržby koryta a plánuje ho realizovať v mimovegetačnom období roku 2026.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Drienčany",
+        "NATIONALSI": "SKUEV0366",
+        "SITETITLE_": "Drienčanský kras"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Drienčany",
+        "NATIONALSI": "1136",
+        "SITETITLE_": "PP Malá Drienčanská jaskyňa"
+      },
+      {
+        "parcel_label": "Drienčany",
+        "NATIONALSI": "1136",
+        "SITETITLE_": "OP PP Malá Drienčanská jaskyňa"
+      }
+    ]
+  }
+}

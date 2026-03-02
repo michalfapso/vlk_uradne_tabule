@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/001243-035",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2026/001243-035",
+  "datum_dokumentu": "2026-02-10",
+  "datum_zverejnenia": "2026-02-10",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "IBV Tematínska s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1270/1",
+              "1270/21",
+              "1270/31",
+              "1270/32",
+              "1282/1",
+              "1278/1",
+              "1279/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "IBV TEMATÍNSKA"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba technickej a dopravnej infraštruktúry",
+    "výstavba ciest",
+    "výstavba chodníkov",
+    "výstavba vodovodu",
+    "výstavba kanalizácie",
+    "výstavba dažďovej kanalizácie",
+    "výrub drevín",
+    "odstránenie inváznych nepôvodných druhov rastlín",
+    "terénne úpravy"
+  ],
+  "typ_uzemia": [
+    "1. stupeň",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "invázne nepôvodné druhy rastlín",
+    "dreviny",
+    "živočíchy",
+    "avifauna"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/ibv-tematinska",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane ovzdušia",
+      "zakon_cislo": "146/2023 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "zakon_cislo": "355/2007 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/2025 Z. z."
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania pre projekt IBV Tematínska v Novom Meste nad Váhom, ktorý zahŕňa výstavbu infraštruktúry pre 116 rodinných domov. Okresný úrad určil, že činnosť sa nebude posudzovať podľa zákona EIA za predpokladu dodržania opatrení na ochranu vôd, ovzdušia, elimináciu hluku a odstránenie inváznych druhov.",
+  "zasiahnute_chranene_uzemia": {}
+}

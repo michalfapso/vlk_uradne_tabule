@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2026/004167-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-25",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 dní od dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Kľušov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Kľušov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kľušov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3255/3",
+              "3255/4",
+              "3255/5",
+              "3247/7",
+              "3247/8",
+              "4144"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Verejná vyhláška",
+  "typ_zasahu": [
+    "výstavba vodovodu"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia pre vodnú stavbu „Rozšírenie verejného vodovodu v obci Kľušov“, vetva „V2“. Dokument informuje o upustení od ústneho pojednávania a stanovuje lehotu na vyjadrenie účastníkov.",
+  "zasiahnute_chranene_uzemia": {}
+}

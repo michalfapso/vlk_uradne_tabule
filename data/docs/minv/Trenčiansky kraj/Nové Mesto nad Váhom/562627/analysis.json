@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/001387-027",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2026/001387-027",
+  "datum_dokumentu": "2026-02-05",
+  "datum_zverejnenia": "2026-02-05",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "ZaRea Invest, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Kočovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rakoľuby",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4723/1",
+              "4726/1",
+              "4728/4",
+              "4730/5",
+              "4794/1",
+              "4794/2",
+              "4794/3",
+              "4795/150",
+              "4795/151",
+              "4795/152",
+              "4866",
+              "5103/1",
+              "5103/2",
+              "5232/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2-4794/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Beckov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4714"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "4714/16"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Dlhé Diely"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "typ_zasahu": [
+    "výstavba cesty",
+    "výstavba kanalizácie",
+    "výstavba vodovodu",
+    "výstavba energetického diela",
+    "výstavba oplotenia",
+    "výrub drevín",
+    "úprava vodného toku"
+  ],
+  "typ_uzemia": [
+    "1. stupeň ochrany",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "invázne nepôvodné druhy rastlín",
+    "dreviny",
+    "živočíchy"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia-sea/informacny-system",
+  "zakony": [
+    {
+      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
+      "zakon_cislo": "24/2006 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z. z."
+    },
+    {
+      "zakon_nazov": "o vodách",
+      "zakon_cislo": "364/2004 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane pred povodňami",
+      "zakon_cislo": "7/2010 Z. z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/2025 Z. z."
+    },
+    {
+      "zakon_nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "zakon_cislo": "150/2019 Z. z."
+    },
+    {
+      "zakon_nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "zakon_cislo": "220/2004 Z. z."
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko zo zisťovacieho konania (EIA) pre projekt „IBV TOP DLHÉ DIELY“ v k.ú. Rakoľuby a Beckov, ktorý zahŕňa prípravu územia pre 32 rodinných domov s kompletnou infraštruktúrou. Rozhodlo sa, že sa zámer nebude posudzovať, pričom boli určené opatrenia na protihlukovú ochranu, protipovodňovú ochranu pri Rybníckom potoku, ochranu drevín a zamedzenie šírenia inváznych rastlín.",
+  "zasiahnute_chranene_uzemia": {}
+}

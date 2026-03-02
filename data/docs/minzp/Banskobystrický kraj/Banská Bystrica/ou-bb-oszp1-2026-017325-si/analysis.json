@@ -1,0 +1,739 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2026-017325-SI",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-02",
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "nazov_lokality": "CHKO Štiavnické vrchy"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "vjazd a státie motorových vozidiel",
+    "výstavba energetického diela",
+    "rozšírenie VN vedenia"
+  ],
+  "typ_uzemia": [
+    "CHKO Štiavnické vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    },
+    {
+      "zakon_nazov": "o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    }
+  ],
+  "zhrnutie": "Oznámenie o žiadosti o povolenie na vjazd a státie motorových vozidiel v CHKO Štiavnické vrchy v súvislosti s realizáciou stavby rozšírenia VN vedenia (Žarnovica - Nová Baňa). Verejnosť a ochranárske združenia môžu vyjadriť záujem o účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "zasiahnute_chranene_uzemia": {
+    "5st_konsUEV": [
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Sitno",
+        "KOD_UEV": "SKUEV0216"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Hodrušská hornatina",
+        "KOD_UEV": "SKUEV0263"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Klokoč",
+        "KOD_UEV": "SKUEV0264"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Klokoč",
+        "KOD_UEV": "SKUEV0264"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Klokoč",
+        "KOD_UEV": "SKUEV0264"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Klokoč",
+        "KOD_UEV": "SKUEV0264"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Skalka",
+        "KOD_UEV": "SKUEV0266"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Skalka",
+        "KOD_UEV": "SKUEV0266"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Skalka",
+        "KOD_UEV": "SKUEV0266"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Skalka",
+        "KOD_UEV": "SKUEV0266"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Skalka",
+        "KOD_UEV": "SKUEV0266"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NAZOV_UEV": "Suť",
+        "KOD_UEV": "SKUEV0265"
+      }
+    ],
+    "UEV": [
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0258",
+        "SITETITLE_": "Tlstý vrch"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0259",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0262",
+        "SITETITLE_": "Čajkovské bralie"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0015",
+        "SITETITLE_": "Dolná Bukovina"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0216",
+        "SITETITLE_": "Sitno"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0263",
+        "SITETITLE_": "Hodrušská hornatina"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0266",
+        "SITETITLE_": "Skalka"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0947",
+        "SITETITLE_": "Stredný tok Hrona"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0264",
+        "SITETITLE_": "Klokoč"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "SKUEV0265",
+        "SITETITLE_": "Suť"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "444",
+        "SITETITLE_": "PP Krupinské bralce"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "416",
+        "SITETITLE_": "PP Sixova stráň"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "56",
+        "SITETITLE_": "PR Jabloňovský Roháč"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "258",
+        "SITETITLE_": "PR Holik"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1331",
+        "SITETITLE_": "PR Pralesy Slovenska-Sitno"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "413",
+        "SITETITLE_": "NPR Sitno"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "259",
+        "SITETITLE_": "PR Holý vrch"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "809",
+        "SITETITLE_": "PR Krivín"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1022",
+        "SITETITLE_": "PP Putikov vršok"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1125",
+        "SITETITLE_": "PR Gajdošovo"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1295",
+        "SITETITLE_": "PR Pralesy Slovenska-Drastvica"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "203",
+        "SITETITLE_": "CHA Arboretum Kysihýbeľ"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1023",
+        "SITETITLE_": "PR Kojatín"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "221",
+        "SITETITLE_": "CHA Banskoštiavnická botanická záhrada"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1041",
+        "SITETITLE_": "CHA Michalské rašelinisko"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "298",
+        "SITETITLE_": "NPR Kašivárová"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "832",
+        "SITETITLE_": "PR Kamenný jarok"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "490",
+        "SITETITLE_": "PP Žakýlske pleso"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "297",
+        "SITETITLE_": "PR Kamenné more"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1278",
+        "SITETITLE_": "PR Pralesy Slovenska-Balov grúň"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "222",
+        "SITETITLE_": "PR Bralce"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "439",
+        "SITETITLE_": "PR Szabóova skala"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1282",
+        "SITETITLE_": "PR Pralesy Slovenska-Brdo"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "883",
+        "SITETITLE_": "PP Kapitulské bralá"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1291",
+        "SITETITLE_": "PR Pralesy Slovenska-Demian"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1283",
+        "SITETITLE_": "PR Pralesy Slovenska-Brvenné"
+      },
+      {
+        "parcel_label": "Chránená krajinná oblasť Štiavnické vrchy, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+        "NATIONALSI": "1340",
+        "SITETITLE_": "PR Pralesy Slovenska-Suť"
+      }
+    ]
+  }
+}

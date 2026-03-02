@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": "OU-VK-OSZP-2026/002849",
+  "cislo_rozhodnutia": "OU-VK-OSZP-2024/002614-013",
+  "datum_dokumentu": "2026-02-24",
+  "datum_zverejnenia": "2026-02-24",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "obec Balog nad Ipľom",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Veľký Krtíš",
+    "obec": "Balog nad Ipľom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Balog nad Ipľom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1371",
+              "1374/1",
+              "4905",
+              "4904",
+              "4616",
+              "549",
+              "554",
+              "1384/2",
+              "1385/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2119/13",
+              "2119/17",
+              "2116/16",
+              "2234/2",
+              "428/5",
+              "2234/1",
+              "2258/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "Balog nad Ipľom, Splašková kanalizácia – ulica Hlavná, ulica Športová"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_zasahu": [
+    "výstavba kanalizácie",
+    "vodná stavba"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o vodách (vodný zákon)",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o priestupkoch",
+      "zakon_cislo": "372/1990 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
+      "zakon_cislo": "71/1967 Zb."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "25/2025 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o predĺžení platnosti stavebného povolenia pre vodnú stavbu „Splašková kanalizácia – ulica Hlavná, ulica Športová“ v obci Balog nad Ipľom. Žiadosť podala obec z dôvodu nezačatia prác pre nedostatok finančných prostriedkov.",
+  "zasiahnute_chranene_uzemia": {
+    "CHVU": [
+      {
+        "parcel_label": "428/5",
+        "NATIONALSI": "SKCHVU021",
+        "SITETITLE_": "Poiplie"
+      }
+    ]
+  }
+}
