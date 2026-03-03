@@ -331,7 +331,7 @@ def _fetch_law_text_node(reference: dict, law_registry: dict, laws_dir: str) -> 
     if not zakon_id:
         # original_ref_str = reference.get('str', '(text referencie nebol zachytený)')
         # law_text_in_ref = reference.get('zakon_refname', '(text zákona nebol špecifikovaný alebo rozpoznaný)')
-        # print(f"Chyba: Nebol nájdený kľúč zákona pre referenciu '{original_ref_str}'. Text zákona v referencii: '{law_text_in_ref}'.")
+        print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
         return current_block_texts, []
 
     law_entry = law_registry.get(zakon_id)
@@ -591,67 +591,29 @@ def get_law_excerpts_for_text(text: str) -> str:
                     break
 
         laws = laws.strip()
-        print('laws_count:', laws_count)
-        # print('laws:', laws)
+        if DEBUG: print('laws_count:', laws_count)
+        # if DEBUG: print('laws:', laws)
     return laws
 
 # --- Príklad použitia ---
 if __name__ == "__main__":
     import argparse
+    import sys
 
     parser = argparse.ArgumentParser(description="Testuje extrakciu odkazov na zákony z textu.")
     parser.add_argument(
-        "input_text",
+        "input",
         type=str,
-        nargs='?',  # Znamená 0 alebo 1 argument. Ak 0, použije sa default.
-        help="Text dokumentu na analýzu. Ak nie je zadaný, použije sa predvolený testovací text.",
-        default="""
-Kraj: Bratislavský kraj
-Okres: Bratislava
-
-Správne konanie na úseku ochrany prírody a krajiny 
- 
-  
-         V súlade s ustanovením § 82 ods. (7) zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov (ďalej len „zákon“) Okresný
-úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných zložiek životného prostredia kraja informuje o začatých
-správnych konaniach, v ktorých môžu byť dotknuté záujmy ochrany prírody a krajiny chránené týmto zákonom. 
-         V zmysle § 82 ods. (3) zákona, združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny
-podľa § 2 ods. (1) zákona, a ktoré a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa odseku 7, sa považuje
-za zúčastnenú osobu. 
-         Podľa § 82 ods. (6) zákona, združenie podľa odseku 3 uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo 
-organizácie, meno a priezvisko osoby oprávnenej konať v jeho mene. K oznámeniu združenie pripojí stanovy, ktoré preukazujú, že jeho predmetom 
-činnosti je ochrana prírody a krajiny podľa odseku 3. 
-        Podanie urobené v elektronickej podobe bez autorizácie podľa osobitného predpisu o elektronickej podobe výkonu verejnej moci treba do 3
-pracovných dní doplniť buď v listinnej podobe, v elektronickej podobe autorizované podľa osobitného predpisu o elektronickej podobe výkonu verejnej
-moci alebo ústne do zápisnice v zmysle § 19 ods. (1) zákona č. 71/1967 Zb. o správnom konaní (správny poriadok) v znení neskorších predpisov. Správny
-orgán v zmysle uvedeného ustanovenia na dodatočné doplnenie podania nevyzýva.  
-  
-Začaté správne konanie: 
-Poradové 
-číslo 
-Spisová značka konania 
-Dátum 
-zverejnenia 
-informácie 
-o začatom 
-konaní 
-Lehota na 
-potvrdenie 
-záujmu 
-byť zúčastnenou 
-osobou 
-Predmet konania 
-1. 
-OU-BA-OSZP1-2025/565037/SME 26. 11. 2025 5 pracovných dní 
-Žiadosť Ivony Jankovičovej o povolenie výnimky zo zakázanej činnosti 
-ustanovenej v § 13 ods. (1) písm. a) zákona č. 543/2002 Z. z. o ochrane 
-prírody a krajiny v znení neskorších predpisov na státie s motorovým 
-vozidlom v CHKO Malé Karpaty na p. č. 3575/1 v k. ú. Devínska Nová Ves, 
-za účelom prístupu k pozemkom
-    """
+        help="Cesta k súboru s textom, '-' pre stdin.",
+        default=None,
     )
     args = parser.parse_args()
-    dokument_na_analyzu = args.input_text
+
+    if args.input == '-':
+        dokument_na_analyzu = sys.stdin.read()
+    else:
+        with open(args.input, 'r', encoding='utf-8') as f:
+            dokument_na_analyzu = f.read()
 
     laws = get_law_excerpts_for_text(dokument_na_analyzu)
     print(laws)
