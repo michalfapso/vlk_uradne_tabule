@@ -505,3 +505,8 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         sys.stderr = old_stderr
         log_file.close()
 
+        print('log exists:', os.path.exists(log_filepath), ' filepath:', log_filepath)
+        with open(log_filepath, 'r', encoding='utf-8') as f:
+            log_content = f.read()
+            print('log content lines:', len(log_content.splitlines()))
+
