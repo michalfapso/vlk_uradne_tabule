@@ -1,6 +1,7 @@
 import json
 import re
 import os
+import sys
 
 # --- DEBUG FLAG ---
 DEBUG = False
@@ -598,7 +599,6 @@ def get_law_excerpts_for_text(text: str) -> str:
 # --- Príklad použitia ---
 if __name__ == "__main__":
     import argparse
-    import sys
 
     parser = argparse.ArgumentParser(description="Testuje extrakciu odkazov na zákony z textu.")
     parser.add_argument(
