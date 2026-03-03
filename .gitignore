@@ -1,7 +1,1 @@
 analyzer/.venv
-# data/docs/
-data/docs/**/gis.geojson
-data/docs/**/orig.*
-data/scraped/unified_new.json
-data/scraped/unified_old.json
-data/scraped/documents_to_process.json
