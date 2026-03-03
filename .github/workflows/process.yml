@@ -40,6 +40,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: true
+          token: ${{ secrets.GH_PAT || github.token }}
 
       - name: Setup Analyzer Environment
         uses: ./.github/actions/analyzer-setup
@@ -64,14 +66,6 @@ jobs:
           artifact: "scraped-data"
           path: "data/scraped"
 
-      - name: Download previous GIS data
-        uses: ./.github/actions/download-workflow-artifact
-        with:
-          workflows: "daily-scrape-analyze-deploy.yml process.yml"
-          artifact: "gis-geojson-files"
-          path: "data/docs"
-        continue-on-error: true
-
       - name: Run Document Processing
         id: processing
         run: python -u analyzer/run_processing.py
@@ -80,23 +74,8 @@ jobs:
           GIS_PROXY_URL: ${{ secrets.GIS_PROXY_URL }}
           GIS_PROXY_AUTH: ${{ secrets.GIS_PROXY_AUTH }}
 
-      - name: Upload unified_new artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: unified
-          path: |
-            data/scraped/unified_new.json
-            data/scraped/unified_old.json
-            data/scraped/documents_to_process.json
-
       - name: Prune old GIS files
         run: python -u analyzer/prune_gis_files.py
-
-      - name: Upload GIS GeoJSON files artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: gis-geojson-files
-          path: data/docs/**/gis.geojson
 
       - name: Archive data for diffing in the next run
         run: |
@@ -106,14 +85,27 @@ jobs:
       - name: Commit and Push Data Changes
         id: commit_step
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 1. Commit and push in the data submodule
+          cd data
+          git add .
           if git diff-index --quiet HEAD --; then
-            echo "No data changes detected to commit."
-            echo "data_changed=false" >> $GITHUB_OUTPUT
+            echo "No changes in data submodule."
           else
             git commit -m "data: Daily update ($(date +%Y-%m-%d))"
+            git push origin HEAD:main
+          fi
+          cd ..
+          
+          # 2. Commit and push the updated submodule pointer in the main repo
+          git add data
+          if git diff-index --quiet HEAD --; then
+            echo "No data changes detected to commit (pointer unchanged)."
+            echo "data_changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "data: Update submodule pointer ($(date +%Y-%m-%d))"
             git pull --rebase origin main
             git push origin main
             NEW_SHA=$(git rev-parse HEAD)
@@ -121,3 +113,6 @@ jobs:
             echo "data_changed=true" >> $GITHUB_OUTPUT
             echo "Data changes committed and pushed."
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
+

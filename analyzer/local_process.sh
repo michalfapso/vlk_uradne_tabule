@@ -8,6 +8,10 @@ set -e
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 BASE_DIR="$SCRIPT_DIR/.."
 
+# 0. Synchronizácia dát (voliteľné, ak chceš začať s najnovšími dátami z GitHubu)
+echo "Synchronizujem dáta..."
+bash "$SCRIPT_DIR/sync_github_data.sh"
+
 # 1. Aktivácia prostredia (ak existuje)
 if [ -d "$SCRIPT_DIR/.venv" ]; then
     source "$SCRIPT_DIR/.venv/bin/activate"
