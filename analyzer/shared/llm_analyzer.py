@@ -2,6 +2,7 @@ import litellm
 import os
 import traceback
 import sys
+import json
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROMPT_FILEPATH = os.path.join(SCRIPT_DIR, "analyze_text_document_prompt.md")
@@ -25,6 +26,24 @@ def analyze_text_document(text_content: str):
             response_format={ "type": "json_object" }, # Požiadame o JSON výstup
             # reasoning_effort="medium"
         )
+
+        # Log cost and token usage
+        cost = litellm.completion_cost(completion_response=response)
+        print(f"LLM_cost: {json.dumps({'cost': cost})}")
+        
+        usage = response.usage
+        usage_info = {
+            "input": getattr(usage, "prompt_tokens", 0),
+            "output": getattr(usage, "completion_tokens", 0),
+            "total": getattr(usage, "total_tokens", 0)
+        }
+        # Add cached tokens if available
+        if hasattr(usage, "prompt_tokens_details") and usage.prompt_tokens_details:
+             usage_info["cached"] = getattr(usage.prompt_tokens_details, "cached_tokens", 0)
+        elif hasattr(usage, "cache_read_input_tokens"):
+             usage_info["cached"] = usage.cache_read_input_tokens
+        
+        print(f"LLM_tokens: {json.dumps(usage_info)}")
 
         # Extrahuj obsah odpovede (mal by to byť JSON string)
         analysis_result_str = response.choices[0].message.content

@@ -9,6 +9,7 @@ import litellm
 import base64
 import io
 import traceback
+import json
 
 # Constants
 MIN_TEXT_LENGTH_THRESHOLD = 32
@@ -67,6 +68,24 @@ def process_images_with_llm(images):
 
     print(f"Info: Sending {len(images)} page images to {LLM_MODEL} for OCR.", file=sys.stderr)
     response = litellm.completion(model=LLM_MODEL, messages=messages)
+
+    # Log cost and token usage
+    cost = litellm.completion_cost(completion_response=response)
+    print(f"LLM_cost: {json.dumps({'cost': cost})}")
+    
+    usage = response.usage
+    usage_info = {
+        "input": getattr(usage, "prompt_tokens", 0),
+        "output": getattr(usage, "completion_tokens", 0),
+        "total": getattr(usage, "total_tokens", 0)
+    }
+    # Add cached tokens if available
+    if hasattr(usage, "prompt_tokens_details") and usage.prompt_tokens_details:
+            usage_info["cached"] = getattr(usage.prompt_tokens_details, "cached_tokens", 0)
+    elif hasattr(usage, "cache_read_input_tokens"):
+            usage_info["cached"] = usage.cache_read_input_tokens
+    
+    print(f"LLM_tokens: {json.dumps(usage_info)}")
     # Get raw text and strip leading/trailing whitespace
     llm_text_raw = response.choices[0].message.content.strip()
     # Remove potential markdown fences
