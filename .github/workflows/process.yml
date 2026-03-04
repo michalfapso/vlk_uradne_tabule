@@ -74,8 +74,8 @@ jobs:
           GIS_PROXY_URL: ${{ secrets.GIS_PROXY_URL }}
           GIS_PROXY_AUTH: ${{ secrets.GIS_PROXY_AUTH }}
 
-      - name: Prune old GIS files
-        run: python -u analyzer/prune_gis_files.py
+      #- name: Prune old GIS files
+      #  run: python -u analyzer/prune_gis_files.py
 
       - name: Archive data for diffing in the next run
         run: |

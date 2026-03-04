@@ -26,8 +26,8 @@ echo "Spúšťam spracovanie dokumentov..."
 python -u "$SCRIPT_DIR/run_processing.py"
 
 # 4. Prerezanie starých GIS súborov
-echo "Premazávam staré GIS súbory..."
-python -u "$SCRIPT_DIR/prune_gis_files.py"
+#echo "Premazávam staré GIS súbory..."
+#python -u "$SCRIPT_DIR/prune_gis_files.py"
 
 # 5. Príprava dát pre webstránku
 echo "Pripravujem dáta pre webstránku..."
