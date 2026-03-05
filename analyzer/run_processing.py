@@ -159,9 +159,9 @@ def main():
         #------------------
         # Just for testing:
         #
-        MAX_DOCS = 1
-        documents_to_process = documents_to_process[:MAX_DOCS]
-        print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
+        # MAX_DOCS = 1
+        # documents_to_process = documents_to_process[:MAX_DOCS]
+        # print(f'Kvôli testovaniu spracujem iba {len(documents_to_process)} dokumentov.')
         #------------------
     
     with open(f'{scraped_data_dir}/unified_new.json', 'w', encoding='utf-8') as f:
