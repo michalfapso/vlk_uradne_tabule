@@ -46,6 +46,12 @@ Ak chcete spúšťať analýzu lokálne, postupujte podľa týchto krokov:
 ## TODO
 
 ### 1. AI Analýza a Filtrovanie (Efektivita)
+*   "Rozhodnutia" môžeme úplne ignorovať a také dokumenty ani nespracovávať.
+*   Dôležité frázy sú "povolenie výnimky", "udelenie súhlasu".
+*   Z dokumentov vytiahnuť a potom aj v tabuľke používateľom vypísať čísla všetkých zákonov a paragrafov priamo spomínaných v dokumente.
+*   Premyslieť aj archiváciu pôvodných dokumentov (kvôli prípadným súdom ideálne originálny dokument, ktorý bol zverejnený, nielen prevedený na text). Využije sa tak raz za 5-10 rokov, keď treba nejaký dokument dohľadať v historii.
+*   Na konci roka analýza dokumentov, koľko bolo žiadaných rôznych typov výnimiek počas roka v rôznych typoch územií. Možno pre tieto analýzy by bolo dobré sledovať aj "rozhodnutia", aby sme ich vedeli spárovať so žiadosťami o výnimky.
+*   Monitorovať aj stránky lesných úradov ohľadom PSoL (lesný úrad Košice, Prešov, Žilina, Trenčín)
 *   **Smart Pre-filtrovanie:** Zavedenie rýchleho a lacného "pre-filtra" (napr. pomocou menšieho LLM modelu alebo na základe pevných pravidiel), ktorý vyradí zjavne nedôležité dokumenty ešte pred spustením nákladnejšej a pomalšej hlavnej analýzy.
     *   Príklady nedôležitých dokumentov: "držba a preprava neživého jedinca chráneného živočícha", "organizovanie športového podujatia, bežecké preteky", "organizácia podujatia" (docid:9995-2026-6-1, ou-bb-oszp1-2026-017470, ou-bb-oszp1-2026-017324-si).
 *   **Označovanie podozrivých dokumentov a iteratívny feedback:**
