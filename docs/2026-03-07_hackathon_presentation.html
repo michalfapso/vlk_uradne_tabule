@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="sk">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Hackathon Presentation - Monitoring úradných tabúľ ŽP</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/white.min.css">
+
+		<style>
+			:root {
+				--r-main-font-size: 32px;
+				--r-heading-text-transform: none;
+			}
+			.logo-vlk {
+				width: 400px;
+				margin-bottom: 50px;
+			}
+			.tech-list {
+				list-style: none !important;
+				text-align: center !important;
+				margin: 0 !important;
+			}
+			.tech-list li {
+				margin: 10px 0;
+				font-weight: bold;
+			}
+			.todo-list {
+				text-align: left !important;
+				display: inline-block;
+			}
+			.screenshot {
+				max-height: 500px !important;
+				border: 1px solid #ddd;
+				box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			}
+            strong {
+                color: #900;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<!-- Slide 1: Title -->
+				<section>
+					<img src="logo_VLK_s_textom_crop.svg" alt="VLK Logo" class="logo-vlk">
+					<h2>Monitorovanie úradných tabúľ ŽP</h2>
+					<p style="color: #666;">Open Data Heroes Hackathon 2026</p>
+				</section>
+
+				<!-- Slide 2: Súčasný stav -->
+				<section>
+					<h2>Prečo</h2>
+					<ul>
+						<li><strong>2%</strong> SR skutočne chránené</li>
+						<li>úrady udeľujú <strong>výnimky</strong> na zásahy</li>
+						<li>cca <strong>20</strong> dokumentov denne</li>
+					</ul>
+				</section>
+
+				<!-- Slide 2: Súčasný stav -->
+				<section>
+					<h2>Súčasný stav projektu</h2>
+                    <img src="screenshot.jpg" alt="Web Interface Screenshot" class="screenshot">
+					<p><small><a href="https://michalfapso.github.io/vlk_uradne_tabule/">michalfapso.github.io/vlk_uradne_tabule/</a></small></p>
+				</section>
+
+				<!-- Slide 3: Technológie -->
+				<section>
+					<h2>Použité technológie</h2>
+					<ul class="tech-list">
+						<li>Python + LiteLLM</li>
+						<li>Astro + Tailwind CSS</li>
+						<li>GitHub Actions</li>
+						<li>GitHub Pages</li>
+					</ul>
+				</section>
+
+				<!-- Slide 4: TODO -->
+				<section>
+					<h2>TODO</h2>
+					<ul class="todo-list">
+						<li>Analýza</li>
+                        <ul>
+                            <li>AI</li>
+                            <li>GIS</li>
+                            <li>Zákony</li>
+                        </ul>
+						<li>Užívateľská zóna</li>
+                        <li>Interaktívne mapy</li>
+						<li>Generovanie listov</li>
+					</ul>
+					<div style="margin-top: 50px;">
+						<p>
+							<small>
+								<svg aria-hidden="true" focusable="false" class="octicon octicon-mark-github" viewBox="0 0 24 24" width="32" height="32" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path></svg>
+								<a href="https://github.com/michalfapso/vlk_uradne_tabule">github.com/michalfapso/vlk_uradne_tabule</a>
+							</small>
+						</p>
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				center: true,
+				transition: 'slide',
+                transitionSpeed: 'fast',
+			});
+		</script>
+	</body>
+</html>
