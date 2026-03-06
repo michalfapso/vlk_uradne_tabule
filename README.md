@@ -49,6 +49,7 @@ Ak chcete spúšťať analýzu lokálne, postupujte podľa týchto krokov:
 *   "Rozhodnutia" môžeme úplne ignorovať a také dokumenty ani nespracovávať.
 *   Dôležité frázy sú "povolenie výnimky", "udelenie súhlasu".
 *   Z dokumentov vytiahnuť a potom aj v tabuľke používateľom vypísať čísla všetkých zákonov a paragrafov priamo spomínaných v dokumente.
+*   Ak dokument odkazuje na zákon 543/2002 [§ 13](https://www.zakonypreludi.sk/zz/2002-543/znenie-20260101#p13) ... [§ 16](https://www.zakonypreludi.sk/zz/2002-543/znenie-20260101#p16), kde sú definované zákazy podľa stupňov ochrany, môžeme počítať s tým, že sa žiada zásah do stupňa ochrany podľa odkazovaného paragrafu.
 *   Premyslieť aj archiváciu pôvodných dokumentov (kvôli prípadným súdom ideálne originálny dokument, ktorý bol zverejnený, nielen prevedený na text). Využije sa tak raz za 5-10 rokov, keď treba nejaký dokument dohľadať v historii.
 *   Na konci roka analýza dokumentov, koľko bolo žiadaných rôznych typov výnimiek počas roka v rôznych typoch územií. Možno pre tieto analýzy by bolo dobré sledovať aj "rozhodnutia", aby sme ich vedeli spárovať so žiadosťami o výnimky.
 *   Monitorovať aj stránky lesných úradov ohľadom PSoL (lesný úrad Košice, Prešov, Žilina, Trenčín)
