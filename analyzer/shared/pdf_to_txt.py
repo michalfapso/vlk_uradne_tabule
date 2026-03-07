@@ -121,7 +121,7 @@ def extract_text_from_jpg(jpg_path):
     except litellm.exceptions.APIConnectionError as e:
         raise RuntimeError(f"LLM Error: Could not connect to the API. {e}")
 
-def extract_text_from_pdf(pdf_path):
+def extract_text_from_pdf(pdf_path, MAX_PAGES_TO_PROCESS_VIA_LLM=5):
     """
     Extracts text content from a PDF file.
     If the extracted text is shorter than MIN_TEXT_LENGTH_THRESHOLD,
@@ -141,7 +141,7 @@ def extract_text_from_pdf(pdf_path):
             print(f"Info: Fitz extracted text is {reason}. Falling back to LLM OCR.", file=sys.stderr)
             
             images = []
-            for page_num in range(doc.page_count):
+            for page_num in range(min(MAX_PAGES_TO_PROCESS_VIA_LLM, doc.page_count)):
                 page = doc.load_page(page_num)
                 # Render page to an image (pixmap)
                 pix = page.get_pixmap(dpi=IMAGE_DPI)
