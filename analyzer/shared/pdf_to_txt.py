@@ -151,7 +151,11 @@ def extract_text_from_pdf(pdf_path, MAX_PAGES_TO_PROCESS_VIA_LLM=5):
                 base64_image = base64.b64encode(img_bytes).decode('utf-8')
                 images.append({'mime_type': f'image/{IMAGE_FORMAT}', 'data': base64_image})
 
-            return process_images_with_llm(images)
+            text = process_images_with_llm(images)
+            if (doc.page_count > MAX_PAGES_TO_PROCESS_VIA_LLM):
+                text += "\n\n"
+                text += f"Originál tohto dokumentu obsahuje ďalších {doc.page_count - MAX_PAGES_TO_PROCESS_VIA_LLM} strán, ktoré ale neboli prevedené do textu."
+            return text
         else:
             print("text extracted via fitz")
             return text.strip()
