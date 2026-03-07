@@ -313,6 +313,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 if not orig_file:
                     raise RuntimeError("Stiahnutie zlyhalo.")
                 
+                print('Converting document to text...')
                 # Converting document to text
                 if orig_file.lower().endswith('.zip'):
                     extracted_dir = os.path.join(output_dir, "extracted")
@@ -358,13 +359,16 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             laws_filepath = os.path.join(output_dir, "laws.txt")
             laws_excerpts = ''
             if invalidate_files or not os.path.exists(laws_filepath) or os.path.getsize(laws_filepath) < 10:
-                invalidate_files = True
+                print('Getting law excerpts...')
                 try:
                     laws_excerpts = get_law_excerpts_for_text(text_content)
                     if laws_excerpts:
                         print(f'Saving laws to {laws_filepath}...')
                         with open(laws_filepath, 'w', encoding='utf-8') as f:
                             f.write(laws_excerpts)
+                            invalidate_files = True # When re-processing the same document, invalidate it only when law excerpts were found
+                    else:
+                        print('No law excerpts found.')
                 except Exception as e:
                     traceback.print_exc(file=sys.stderr)
                     log_status(status_filepath, "warning", f"Nepodarilo sa získať znenia zákonov pre dokument: {e}")
@@ -424,9 +428,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     # print('analysis_data:', analysis_data)
                     place_info = analysis_data.get('miesto_realizacie', {})
                     print(f'place_info:{place_info}')
-                    gdf_parcelset = None
-                    if len(place_info.get('katastralne_uzemia', [])) > 0:
-                        gdf_parcelset = get_geometry_of_a_parcel_set(place_info, status_filepath) 
+                    gdf_parcelset, ps_source_type = get_geometry_of_a_parcel_set(place_info, status_filepath)
 
                     gdf_geoname = None
                     nazov_lokality = place_info.get('nazov_lokality', '')
@@ -438,12 +440,16 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     print('gdf_parcelset:', gdf_parcelset)
                     print('gdf_geoname:', gdf_geoname)
                     gdf = None
+                    source_type = None
                     if gdf_parcelset is not None and not gdf_parcelset.empty and gdf_geoname is not None and not gdf_geoname.empty:
                         gdf = gdf_parcelset.overlay(gdf_geoname, how='intersection')
+                        source_type = ps_source_type
                     elif gdf_parcelset is not None and not gdf_parcelset.empty:
                         gdf = gdf_parcelset
+                        source_type = ps_source_type
                     elif gdf_geoname is not None and not gdf_geoname.empty:
                         gdf = gdf_geoname
+                        source_type = 'GEONAME'
                     else:
                         log_status(status_filepath, "warning", "Nepodarilo sa získať geometriu parcel set alebo geoname")
                         return None
@@ -452,13 +458,21 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                 else:
                     print(f'Loading geometry from {gis_filepath}...')
                     gdf = gdf_load_from_file(gis_filepath)
+                    source_type = analysis_data.get('gis', {}).get('source_type') or analysis_data.get('source_type')
 
-                if invalidate_files or 'zasiahnute_chranene_uzemia' not in analysis_data:
+                if invalidate_files or 'gis' not in analysis_data or 'zasiahnute_chranene_uzemia' not in analysis_data['gis']:
                     invalidate_files = True
                     print('Intersections with protected areas...')
                     intersections = get_intersections_with_protected_areas(gdf, status_filepath)
                     print('intersections:', intersections)
-                    analysis_data['zasiahnute_chranene_uzemia'] = intersections
+                    analysis_data['gis'] = {
+                        'zasiahnute_chranene_uzemia': intersections,
+                        'source_type': source_type
+                    }
+                    # Keep old key for backward compatibility if needed, but the user asked to move it.
+                    # Given the request "I'd like to nest it under", I'll remove the old one.
+                    if 'zasiahnute_chranene_uzemia' in analysis_data:
+                        del analysis_data['zasiahnute_chranene_uzemia']
                     return analysis_data
                 else:
                     print('Intersections with protected areas already computed. Skipping...')

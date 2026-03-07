@@ -498,7 +498,7 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
         return None
 
     if "features" in data and data["features"]:
-        print('get_cadastral_zone() found features:', data["features"])
+        print('get_cadastral_zone() features retrieved successfully')
         features.extend(data["features"])
     if not features:
         print(f"Pre zadané nationalCadastralZoningReference nebolo nájdené žiadne katastrálne územie. Response: {data}", file=sys.stderr)
@@ -515,7 +515,7 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
     return final_gdf
 
 
-def get_geometry_of_a_parcel_set(data: dict, status_filepath: str):
+def get_geometry_of_a_parcel_set(data: dict, status_filepath: str) -> tuple[gpd.GeoDataFrame | None, str | None]:
     """
     Finds geometry for each parcel in the input object.
 
@@ -523,97 +523,133 @@ def get_geometry_of_a_parcel_set(data: dict, status_filepath: str):
         data: An object with cadastral areas and parcel numbers.
 
     Returns:
-        The same object with geometry added to each parcel number.
+        A tuple (GeoDataFrame, source_type).
     """
     # kraj  = data['kraj' ] if 'kraj'  in data else None
     print('data:', data)
     kraj  = data.get('kraj')
     okres = data.get('okres')
     obec  = data.get('obec')
-    if isinstance(obec, List):
+    if isinstance(obec, list):
         obec = ", ".join(obec)
 
     gdf = None
+    source_type = None
     katastralne_uzemia = data.get('katastralne_uzemia', [])
+
+    # Option 1 & 2: Try PARCELA or KATASTRALNE_UZEMIE (based on provided KU list)
     if katastralne_uzemia:
         all_gdfs = []
+        any_parcels_requested = False
+        any_parcels_found = False
+
         for ku in katastralne_uzemia:
             ku_name = ku.get('nazov')
             print(f'ku_name:{ku_name} obec:{obec} okres:{okres} kraj:{kraj}')
-            nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(ku_name, obec, okres, kraj)
+            try:
+                nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(ku_name, obec, okres, kraj)
+            except Exception as e:
+                log_status(status_filepath, "error", str(e))
+                continue
+                
             print('nationalCadastralZoningReferences:', nationalCadastralZoningReferences)
 
             if not nationalCadastralZoningReferences:
                 log_status(status_filepath, "error", f"Nenašlo sa žiadne katastrálne územie pre zadané parametre kraj:'{kraj}', okres:'{okres}', obec:'{obec}', katastrálne územie:'{ku_name}'")
+                continue
 
-            def get_gdfs(ku, nationalCadastralZoningReferences):
-                ku_gdfs = []
-                for nationalCadastralZoningReference in nationalCadastralZoningReferences:
-                    parcely = ku.get('parcely', [])
-                    if not parcely:
-                        parcely = [{"typ": "C", "cisla": []}] # If no parcels specified, request the whole cadastral zone
-                    for parcel_set in parcely:
-                        parcel_type = parcel_set.get('typ') or ''
-                        parcel_types = ['E'] if 'E' in parcel_type.upper() else ['C'] if 'C' in parcel_type.upper() else ['C', 'E']
-                        parcel_types_valid_count = 0
-                        for parcel_type in parcel_types:
-                            request_for_ref: List[CadastralZoningReferenceParcels] = []
-                            request_for_ref.append(CadastralZoningReferenceParcels(
-                                nationalCadastralZoningReference=nationalCadastralZoningReference,
-                                cadasterType=parcel_type,
-                                parcelLabels=parcel_set.get('cisla', [])
-                            ))
-                            gdf_for_ref = get_geometry_of_cadastral_zone_parcels(request_for_ref)
-                            if gdf_for_ref is not None and not gdf_for_ref.empty:
-                                ku_gdfs.append(gdf_for_ref)
-                                parcel_set['typ'] = parcel_type
-                                parcel_types_valid_count += 1
+            parcely = ku.get('parcely', [])
+            ku_has_parcels = False
+            if parcely:
+                for p in parcely:
+                    if p.get('cisla'):
+                        ku_has_parcels = True
+                        any_parcels_requested = True
+                        break
 
-                        if parcel_types_valid_count == 0:
-                            log_status(status_filepath, "warning", f"Pre parcelu '{parcel_set}' v katastrálnom území '{ku_name}' sa nenašli dáta v katastri.")
-                        if parcel_types_valid_count > 1:
-                            log_status(status_filepath, "warning", f"Pre parcelu '{parcel_set}' v katastrálnom území '{ku_name}' sa našli dáta v oboch typoch katastra C aj E.")
+            # Inner function to get GDFs for a specific KU
+            def get_ku_gdfs(ku, references, is_parcel_request):
+                found_gdfs = []
+                found_any = False
+                parcely_list = ku.get('parcely', [])
+                if not parcely_list:
+                    parcely_list = [{"typ": "C", "cisla": []}] # Fetch whole zone
 
-                if len(ku_gdfs) > 1:
-                    log_status(status_filepath, "warning", f"Nejednoznačne zadané katastrálne územie '{ku_name}' - našli sa k nemu {len(ku_gdfs)} zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.")
-                if not ku_gdfs:
-                    log_status(status_filepath, "error", f"Nenašli sa žiadne parcely pre zadané parametre: {data}")
-                return ku_gdfs
+                for ref in references:
+                    for parcel_set in parcely_list:
+                        p_labels = parcel_set.get('cisla', [])
+                        p_type_raw = parcel_set.get('typ') or ''
+                        p_types = ['E'] if 'E' in p_type_raw.upper() else ['C'] if 'C' in p_type_raw.upper() else ['C', 'E']
+                        
+                        valid_count = 0
+                        for p_type in p_types:
+                            request = [CadastralZoningReferenceParcels(
+                                nationalCadastralZoningReference=ref,
+                                cadasterType=p_type,
+                                parcelLabels=p_labels
+                            )]
+                            gdf_res = get_geometry_of_cadastral_zone_parcels(request)
+                            if gdf_res is not None and not gdf_res.empty:
+                                found_gdfs.append(gdf_res)
+                                valid_count += 1
+                                found_any = True
+                        
+                        if is_parcel_request and valid_count == 0:
+                             log_status(status_filepath, "warning", f"Pre parcelu '{parcel_set}' v KU '{ku_name}' sa nenašli dáta.")
+
+                return found_gdfs, found_any
+
+            ku_gdfs, ku_found = get_ku_gdfs(ku, nationalCadastralZoningReferences, ku_has_parcels)
             
-            ku_gdfs = get_gdfs(ku, nationalCadastralZoningReferences)
-            print('ku_gdfs:', ku_gdfs)
-            if not ku_gdfs:
+            # If failed and had parcels, try normalizing them once
+            if not ku_found and ku_has_parcels:
                 changed = False
                 for parcel_set in ku.get('parcely', []):
-                    original_cisla = parcel_set.get('cisla', [])
-                    # Normalize parcel numbers by removing prefixes like '1-'
-                    normalized_cisla = [re.sub(r'^.*\-', '', pn) for pn in original_cisla]
-                    if original_cisla != normalized_cisla:
+                    orig = parcel_set.get('cisla', [])
+                    norm = [re.sub(r'^.*\-', '', pn) for pn in orig]
+                    if orig != norm:
                         changed = True
-                        parcel_set['cisla'] = normalized_cisla
-
+                        parcel_set['cisla'] = norm
                 if changed:
-                    ku_gdfs = get_gdfs(ku, nationalCadastralZoningReferences)
+                    ku_gdfs, ku_found = get_ku_gdfs(ku, nationalCadastralZoningReferences, True)
 
-            all_gdfs.extend(ku_gdfs)
+            if ku_found:
+                all_gdfs.extend(ku_gdfs)
+                if ku_has_parcels:
+                    any_parcels_found = True
 
-        gdf = _merge_gdfs(all_gdfs)
-    else:
-        nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(None, obec, okres, kraj)
-        request: List[CadastralZoningReferenceParcels] = []
-        for nationalCadastralZoningReference in nationalCadastralZoningReferences:
-            request.append(CadastralZoningReferenceParcels(
-                nationalCadastralZoningReference=nationalCadastralZoningReference,
-                cadasterType='C',
-                parcelLabels=[]
-            ))
-        gdf = get_geometry_of_cadastral_zone_parcels(request)
+        if all_gdfs:
+            gdf = _merge_gdfs(all_gdfs)
+            if any_parcels_found:
+                source_type = 'PARCELA'
+            else:
+                source_type = 'KATASTRALNE_UZEMIE'
+
+    # Option 3: Fallback to OBEC (using OGC zones for the whole municipality)
+    if (gdf is None or gdf.empty) and obec:
+        print(f"Fallback to OBEC: {obec}")
+        try:
+            nationalCadastralZoningReferences = get_nationalCadastralZoningReferences(None, obec, okres, kraj)
+            if nationalCadastralZoningReferences:
+                request = []
+                for ref in nationalCadastralZoningReferences:
+                    request.append(CadastralZoningReferenceParcels(
+                        nationalCadastralZoningReference=ref,
+                        cadasterType='C',
+                        parcelLabels=[]
+                    ))
+                gdf = get_geometry_of_cadastral_zone_parcels(request)
+                if gdf is not None and not gdf.empty:
+                    source_type = 'OBEC'
+        except Exception as e:
+            print(f"Fallback to OBEC failed: {e}")
 
     if gdf is None or gdf.empty:
-        print("No geometries were found, so no file will be saved.", file=sys.stderr)
-        return None
+        print("No geometries were found.", file=sys.stderr)
+        return None, None
 
-    return gdf
+    return gdf, source_type
+
 
 def get_geometry_of_a_geoname(nazov_lokality: str, obec: str, okres: str, kraj: str, status_filepath: str) -> gpd.GeoDataFrame | None:
     """
@@ -807,13 +843,14 @@ def test_get_geometry_of_a_parcel_set():
     # test_data = {'kraj': 'Žilinský Kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [], 'nazov_lokality': 'Územný plán mesta Liptovský Mikuláš – Zmeny a doplnky č. 7'}
     # test_data = {'kraj': None, 'okres': 'Žarnovica', 'obec': 'Nová Baňa, Brehy, Rudno nad Hronom, Voznica', 'katastralne_uzemia': [{'nazov': 'Brehy', 'parcely': [{'typ': None, 'cisla': ['1215/1', '1215/2', '1216/1', '1442/1', '1448/6', '1437', '1438/1', '1438/2', '1438/3', '1439/2', '1442/2', '1445', '1446', '1447', '1448/1', '1448/5', '1448/2', '1139', '1143', '1144', '1156', '1341/3', '1461/12', '1448/7']}]}, {'nazov': 'Nová Baňa', 'parcely': [{'typ': None, 'cisla': ['1349/1', '1348', '1349', '1349/2', '1355', '1356', '5104/3', '6492/24', '6492/26', '30000', '1595/1', '5314', '1341/32', '1357']}]}, {'nazov': 'Rudno nad Hronom', 'parcely': [{'typ': None, 'cisla': ['400/6', '400/8', '461/4', '461/7', '481/6', '241/2', '241/3', '242/3', '242/2', '243/1', '246/1', '244', '245/4', '257/1', '258', '261/1', '261/2', '262', '263/1', '264', '266/2', '351/2', '354', '367/2', '366/2', '368/1', '368/2', '461/2', '769/3', '769/4', '771', '239', '352', '854/3', '857/2', '259', '349/1', '257/2', '349/2', '417/10', '60/1', '351/3', '353', '366/11', '858/1', '853/2', '366/1', '871', '869/2', '886/2', '461/1', '461/2', '461/3', '882/3']}]}, {'nazov': 'Voznica', 'parcely': [{'typ': None, 'cisla': ['427', '430', '440/2', '461/2', '310', '312', '327', '728/3', '728/9']}]}], 'nazov_lokality': 'ochrannom pásme/pod elektrickým vedením VN č. 305_k20'}
     # test_data = {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Dudikovany', 'parcely': [{'typ': 'C-KN', 'cisla': ['1115', '1114', '1151']}]}, {'nazov': 'Padarovce', 'parcely': [{'typ': 'C-KN', 'cisla': ['837', '893', '894', '921', '924', '925', '926', '1030', '896']}]}, {'nazov': 'Drienčany', 'parcely': [{'typ': 'C-KN', 'cisla': ['824', '825', '826']}]}, {'nazov': 'Ostrany', 'parcely': [{'typ': 'E-KN', 'cisla': ['272/45']}]}, {'nazov': 'Vyšný Blh', 'parcely': [{'typ': 'C-KN', 'cisla': ['3218']}]}], 'nazov_lokality': None}
-    test_data = {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'NPR Sivec'}
+    # test_data = {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'NPR Sivec'}
+    test_data = {'kraj': None, 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [], 'nazov_lokality': None}
 
-    gdf = get_geometry_of_a_parcel_set(test_data, '/tmp/status.json')
+    gdf, source_type = get_geometry_of_a_parcel_set(test_data, '/tmp/status.json')
     if gdf is None or gdf.empty:
         print('No geometries found.')
         return
-    print('gdf columns:', gdf.columns)
+    print(f'gdf columns ({source_type}):', gdf.columns)
     columns_to_print = [col for col in ['label', 'nationalCadastralReference', 'areaValue'] if col in gdf.columns]
     if columns_to_print:
         print(gdf[columns_to_print])

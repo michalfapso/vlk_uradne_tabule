@@ -25,7 +25,7 @@ console.log("allDocuments:", allDocuments);
 const toggleButtonId = `${id}-toggle-summaries-btn`;
 const countLabelId = `${id}-count-label`;
 
-const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (\\d+ kV |VN |elektrického )?vedenia)";
+const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (\\d+ kV |VN |elektrického )?vedenia|podujatia|držba|preprava)";
 const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
 
 const totalCount = allDocuments.length;
@@ -353,11 +353,11 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                         summaryHtml += "<br>";
                     }
 
-                    if (data.analyza && data.analyza.zasiahnute_chranene_uzemia) {
+                    const intersections = data.analyza?.gis?.zasiahnute_chranene_uzemia || data.analyza?.zasiahnute_chranene_uzemia;
+                    if (intersections) {
                         summaryHtml += `<b>Zasiahnuté chránené územia (podľa GIS analýzy):</b><br>`;
-                        const uzemia = data.analyza.zasiahnute_chranene_uzemia;
                         summaryHtml += `<ul class="list-dics">`;
-                        for (const [typ, typ_uzemia] of Object.entries(uzemia)) {
+                        for (const [typ, typ_uzemia] of Object.entries(intersections)) {
                             summaryHtml += `<li><b>${typ}</b>`;
                             summaryHtml += `<ul class="list-dics">`;
                             typ_uzemia.forEach((uzemie) => {
@@ -542,10 +542,19 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                             const value_str = Array.isArray(value)
                                 ? value.join(", ")
                                 : value || "N/A";
-                            console.log('zasiahnute_chranene_uzemia:', cell.getData().analyza.zasiahnute_chranene_uzemia);
-                            if (cell.getData().analyza.zasiahnute_chranene_uzemia != null)
+                            
+                            const analyza = cell.getData().analyza;
+                            const intersections = analyza?.gis?.zasiahnute_chranene_uzemia || analyza?.zasiahnute_chranene_uzemia;
+                            const source_type = analyza?.gis?.source_type;
+
+                            if (intersections != null)
                             {
-                                return `${value_str}<br/>GIS:` + (Object.keys(cell.getData().analyza.zasiahnute_chranene_uzemia).join(", "));
+                                let res = `${value_str}<br/>GIS`;
+                                // if (source_type) {
+                                //     res += ` (${source_type})`;
+                                // }
+                                // res += `: ` + (Object.keys(intersections).join(", "));
+                                return res;
                             }
                             return value_str;
                         },
@@ -561,7 +570,13 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                             if (data.hasGis) {
                                 // Link to the flattened GeoJSON file
                                 // return `<a href="./data/${data.docId}/gis.geojson" target="_blank" title="Zobraziť GIS dáta (GeoJSON)">mapa</a>`;
-                                return `<a href="https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326" target="_blank" title="Zobraziť GIS dáta (GeoJSON)">mapa</a>`;
+                                const analyza = cell.getData().analyza;
+                                const source_type = analyza?.gis?.source_type;
+                                let text = "mapa";
+                                if (source_type) {
+                                    text += ` ${source_type}`;
+                                }
+                                return `<a href="https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326" target="_blank" title="Zobraziť GIS dáta (GeoJSON)">${text}</a>`;
                             }
                             return "-";
                         },
