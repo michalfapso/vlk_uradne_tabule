@@ -493,15 +493,15 @@ def get_cadastral_zone(nationalCadastralZoningReference: str, cadastralType: Lit
     features = []
     url = requests.Request('GET', configs[cadastralType]['url'], params=params).prepare().url
     data = _make_request('GET', url, 'get_cadastral_zone', headers=headers, timeout=10)
-    print('get_cadastral_zone() data:', data)
     if data is None:
+        print('get_cadastral_zone() response is None')
         return None
 
     if "features" in data and data["features"]:
         print('get_cadastral_zone() found features:', data["features"])
         features.extend(data["features"])
     if not features:
-        print("Pre zadané nationalCadastralZoningReference nebolo nájdené žiadne katastrálne územie.", file=sys.stderr)
+        print(f"Pre zadané nationalCadastralZoningReference nebolo nájdené žiadne katastrálne územie. Response: {data}", file=sys.stderr)
         return None
 
     properties_list = [f['properties'] for f in features]
