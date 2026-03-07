@@ -437,7 +437,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     gdf_parcelset, ps_source_type = get_geometry_of_a_parcel_set(place_info, status_filepath)
 
                     gdf_geoname = None
-                    nazov_lokality = place_info.get('nazov_lokality', '')
+                    nazov_lokality = place_info.get('nazov_lokality_norm') or place_info.get('nazov_lokality', '')
                     print('nazov_lokality:', nazov_lokality)
                     if (gdf_parcelset is None or gdf_parcelset.empty or ps_source_type != 'PARCELA') and nazov_lokality:
                         gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
