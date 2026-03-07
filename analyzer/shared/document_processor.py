@@ -22,7 +22,9 @@ from get_doc_id import get_doc_id
 from pdf_to_txt import extract_text_from_pdf
 from llm_analyzer import analyze_text_document
 from law_references import get_law_excerpts_for_text
-from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas, get_geometry_of_a_geoname
+from cadastral_parcels_ogc import get_geometry_of_a_parcel_set, gdf_save_to_file, gdf_load_from_file, get_intersections_with_protected_areas
+from gis_geocoding import get_geometry_of_a_geoname
+
 
 PANDOC_FORMAT_MAPPINGS = [
     ('.docx', 'docx'), ('.rtf', 'rtf'), ('.odt', 'odt'),
