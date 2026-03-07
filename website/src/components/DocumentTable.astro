@@ -373,7 +373,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                     }
                     
                     if (data.hasGis) {
-                        summaryHtml += `<b>GIS Dáta:</b> <a href="./data/${data.docId}/gis.geojson" target="_blank">Stiahnuť gis.geojson</a><br><br>`;
+                        summaryHtml += `<b>GIS Dáta:</b> ${data.analyza?.gis?.source_type} ${data.analyza?.gis?.geoname_query || ''} - <a href="./data/${data.docId}/gis.geojson" target="_blank">Stiahnuť gis.geojson</a><br><br>`;
                     }
 
                     if (data.laws) {

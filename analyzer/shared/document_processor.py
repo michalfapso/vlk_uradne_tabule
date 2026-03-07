@@ -423,6 +423,10 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
             def process_analysis_data(analysis_data, status_filepath, invalidate_files):
                 # Return analysis_data when modified, else None
+
+                if 'gis' not in analysis_data:
+                    analysis_data['gis'] = {}
+
                 gis_filepath = os.path.join(output_dir, "gis.geojson")
                 if invalidate_files or not os.path.exists(gis_filepath) or os.path.getsize(gis_filepath) < 10:
                     invalidate_files = True
@@ -435,9 +439,11 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     gdf_geoname = None
                     nazov_lokality = place_info.get('nazov_lokality', '')
                     print('nazov_lokality:', nazov_lokality)
-                    if nazov_lokality:
-                        gdf_geoname = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                    if (gdf_parcelset is None or gdf_parcelset.empty or ps_source_type != 'PARCELA') and nazov_lokality:
+                        gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
                         print('gdf_geoname:', gdf_geoname)
+                        print('geoname_query:', geoname_query)
+                        analysis_data['gis']['geoname_query'] = geoname_query
 
                     print('gdf_parcelset:', gdf_parcelset)
                     print('gdf_geoname:', gdf_geoname)
