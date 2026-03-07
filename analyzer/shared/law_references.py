@@ -332,7 +332,7 @@ def _fetch_law_text_node(reference: dict, law_registry: dict, laws_dir: str) -> 
     if not zakon_id:
         # original_ref_str = reference.get('str', '(text referencie nebol zachytený)')
         # law_text_in_ref = reference.get('zakon_refname', '(text zákona nebol špecifikovaný alebo rozpoznaný)')
-        print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+        print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['str'] if 'str' in reference else ''}' zákona '{reference['zakon_refname'] if 'zakon_refname' in reference else ''}'.", file=sys.stderr)
         return current_block_texts, []
 
     law_entry = law_registry.get(zakon_id)
