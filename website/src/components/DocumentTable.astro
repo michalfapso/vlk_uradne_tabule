@@ -28,7 +28,7 @@ const countLabelId = `${id}-count-label`;
 const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
 
 const totalCount = allDocuments.length;
-const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, defaultRegex)).length;
+const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, defaultRegex).important).length;
 ---
 
 {/* Component's HTML Structure */}
@@ -192,7 +192,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
             }
         };
 
-        let currentRegex = null;
+        let currentRegex = regexInput ? new RegExp(regexInput.value, "i") : null;
         let isRegexValid = true;
 
 
@@ -223,7 +223,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
 
             // Update counts
             if (countLabel && isRegexValid && currentRegex) {
-                const importantCount = documents.filter(d => window.isDataImportant(d, currentRegex)).length;
+                const importantCount = documents.filter(d => window.isDataImportant(d, currentRegex).important).length;
                 const totalCount = documents.length;
                 countLabel.textContent = `(${importantCount}/${totalCount})`;
             }
@@ -236,7 +236,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
 
                 if (isRegexValid && currentRegex) {
                     table.setFilter((data) => {
-                        return window.isDataImportant(data, currentRegex);
+                        return window.isDataImportant(data, currentRegex).important;
                     });
                 } else {
                     // If regex is invalid or empty, and checkbox is checked, show all (effectively no "unimportant" items defined)
@@ -250,7 +250,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                     const rowElement = row.getElement();
                     const rowData = row.getData();
 
-                    if (window.isDataImportant(rowData, currentRegex)) {
+                    if (window.isDataImportant(rowData, currentRegex).important) {
                         rowElement.classList.remove("less-important-row");
                     } else {
                         rowElement.classList.add("less-important-row");
@@ -337,6 +337,10 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                     if (data.analyza) {
                         summaryHtml += `<b>Zhrnutie:</b> ${data.analyza?.zhrnutie || "Bez zhrnutia textu."}<br><br>`;
                     }
+
+                    const importance = window.isDataImportant(data, currentRegex);
+                    summaryHtml += `<b>Dôležitý:</b> ${importance.important ? "áno" : "nie"} - ${importance.reason}<br><br>`;
+
                     if (data.popis) {
                         summaryHtml += `<b>Popis (originál z úradnej tabule):</b> ${data.popis || "Bez popisu."}<br><br>`;
                     }
@@ -552,10 +556,10 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                             if (intersections != null)
                             {
                                 let res = `${value_str}<br/>GIS`;
-                                // if (source_type) {
-                                //     res += ` (${source_type})`;
-                                // }
-                                // res += `: ` + (Object.keys(intersections).join(", "));
+                                if (source_type) {
+                                    res += ` (${source_type})`;
+                                }
+                                res += `: ` + (Object.keys(intersections).join(", "));
                                 return res;
                             }
                             return value_str;
