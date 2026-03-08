@@ -90,18 +90,24 @@ def main():
     unified_old = aggregate_and_transform(minv_old, minzp_old)
 
     # Nastavenie pre spracovanie konkrétneho dokumentu (ak nie je None, hľadá sa v nových aj starých dátach)
-    # PROCESS_SPECIFIC_DOC_ID = '562558' 
-    PROCESS_SPECIFIC_DOC_ID = None
+    # PROCESS_SPECIFIC_DOC_IDS_old = ['ou-za-oszp1-2026-036550-buk', 'ou-bb-oszp1-2026-017755-si', '562994', '563021', '562910', '10061-2026-6-1', '562739', '562738', '562783', '562785', '562718', '9937-2026-6-1', '562558', '562557', '562674', 'ou-za-oszp1-2026-033508-kub', '9909-2026-6-1', '562510', '562460', '562479', '562494', '562493', '562491', '562495', '562635', '562449', '562526', '562439', '559962', '8542-2026-6-1']
+    # PROCESS_SPECIFIC_DOC_IDS_new = ['ou-bb-oszp1-2026-017755-si', '562994', '562971', '562718', '562738', '562736', '562785', 'ou-bb-oszp1-2026-017325-si', '562740', '562643', '562617', 'ou-za-oszp1-2026-034919-skv', '9937-2026-6-1', '562595', '562558', '562557', '562748', '562555', 'ou-za-oszp1-2026-033508-kub', '562510', '562460', '562479', '562495', '562459', '562467', '562449', '562526', '562439', '560347', '559962', '8542-2026-6-1', '559647', '559666', '559633', '559644']
+    # PROCESS_SPECIFIC_DOC_IDS = list(set(PROCESS_SPECIFIC_DOC_IDS_new) - set(PROCESS_SPECIFIC_DOC_IDS_old))
+    # PROCESS_SPECIFIC_DOC_IDS = ['562963']
+    # print('PROCESS_SPECIFIC_DOC_IDS:', PROCESS_SPECIFIC_DOC_IDS)
+    PROCESS_SPECIFIC_DOC_IDS = None
+
+    FORCE_DOCUMENTS_REPROCESSING = False # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
 
     documents_to_process = []
-    if PROCESS_SPECIFIC_DOC_ID:
-        print(f"Hľadám konkrétny dokument s ID {PROCESS_SPECIFIC_DOC_ID} v nových aj starých dátach...")
+    if PROCESS_SPECIFIC_DOC_IDS:
+        print(f"Hľadám konkrétny dokument s ID {PROCESS_SPECIFIC_DOC_IDS} v nových aj starých dátach...")
         # Pri spracovaní konkrétneho ID hľadáme v oboch množinách (nové aj staré)
         documents_to_process = [
             doc for doc in (unified_new + unified_old)
-            if get_doc_id(doc['url']) == PROCESS_SPECIFIC_DOC_ID
+            if get_doc_id(doc['url']) in PROCESS_SPECIFIC_DOC_IDS
         ]
-        print(f"Nájdených {len(documents_to_process)} dokumentov s ID {PROCESS_SPECIFIC_DOC_ID}.")
+        print(f"Nájdených {len(documents_to_process)} dokumentov s ID {PROCESS_SPECIFIC_DOC_IDS}.")
         newest_info = ""
     else:
         # --- 4. Diffing a Filtrovanie podľa dátumu (skenovaním systému súborov) ---
@@ -116,7 +122,7 @@ def main():
         new_documents = []
         for doc in (unified_new + unified_old):
             doc_id = get_doc_id(doc['url'])
-            if doc_id and doc_id not in existing_doc_ids:
+            if doc_id and doc_id not in existing_doc_ids or FORCE_DOCUMENTS_REPROCESSING:
                 new_documents.append(doc)
         # print('new_documents:', [get_doc_id(doc['url']) for doc in new_documents])
         
@@ -217,3 +223,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
