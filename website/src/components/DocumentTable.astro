@@ -393,7 +393,7 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                         summaryContainer.appendChild(detailsElement); // Append details element directly
                         summaryContainer.appendChild(
                             document.createElement("br"),
-                        ); // Append details element directly
+                        );
                     }
 
                     if (data.analyza) {
@@ -427,6 +427,9 @@ const initialImportantCount = allDocuments.filter(doc => isDataImportant(doc, de
                         }
                         detailsElement.appendChild(preElement);
                         summaryContainer.appendChild(detailsElement); // Append details element directly
+                        summaryContainer.appendChild(
+                            document.createElement("br"),
+                        );
                     } else {
                         summaryHtml +=
                             "<strong>Objekt analýzy nie je dostupný.</strong>";
