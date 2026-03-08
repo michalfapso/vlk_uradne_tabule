@@ -73,25 +73,25 @@ export const isDataImportant = (data, blacklistRegex) => {
     // 5. ŠPECIFICKÁ LOGIKA PRE JEDNOTLIVÉ ZÁUJMY LZ VLK
     
     // A. Zvieratá (odstrely/plašenie) a chémia sú priorita VŽDY (aj mimo CHÚ, aj v obciach)
-    if (kategorie.includes('ZIVOCICHY_USMRCOVANIE') || kategorie.includes('CHEMIA')) {
-        const kat = kategorie.filter(k => k === 'ZIVOCICHY_USMRCOVANIE' || k === 'CHEMIA').join(", ");
-        return { important: true, reason: "obsahuje prioritnú kategóriu (" + kat + ")" };
+    if (kategorie.includes('ZIVOCICHY_USMRCOVANIE')) {
+        const kat = kategorie.filter(k => k === 'ZIVOCICHY_USMRCOVANIE').join(", ");
+        return { important: true, reason: "obsahuje prioritnú kategóriu (ZIVOCICHY_USMRCOVANIE)" };
     }
 
     // B. Výruby a výstavba (napr. ciest)
-    if (kategorie.includes('LES_VYRUB') || kategorie.includes('VYSTAVBA_V_PRIRODE')) {
+    if (kategorie.includes('LES_VYRUB') || kategorie.includes('VYSTAVBA_V_PRIRODE') || kategorie.includes('CHEMIA')) {
         const jeVIntravilane = analyza.miesto_realizacie?.lokalita_zastavane_uzemie === true;
 
         // Ak sa jedná o výrub čisto v zastavanom území obce (záhrada, park, cintorín) 
         // a NEMÁ to vysoký stupeň ochrany (nie je to napr. UEV/CHVU priamo v obci) -> Zahodíme
         if (jeVIntravilane) {
-            return { important: false, reason: "výrub/výstavba v intraviláne" };
+            return { important: false, reason: "výrub/výstavba/chémia v intraviláne" };
         }
 
         // V ostatných prípadoch (extravilán, lesy, alebo významné CHÚ) -> Ponecháme
         return { 
-            important: jeVysokyStupenOchrany, 
-            reason: jeVysokyStupenOchrany ? "výrub/výstavba s vysokým stupňom ochrany" : "výrub/výstavba bez vysokého stupňa ochrany" 
+            important: jeVysokyStupenOchrany,
+            reason: jeVysokyStupenOchrany ? "výrub/výstavba/chémia s vysokým stupňom ochrany" : "výrub/výstavba/chémia bez vysokého stupňa ochrany" 
         };
     }
 
