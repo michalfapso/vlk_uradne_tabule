@@ -55,9 +55,6 @@ export const isDataImportant = (data, blacklistRegex) => {
     const obsahujeDolezitu = kategorie.some(k => doleziteKategorie.includes(k));
     const vsetkoJeBalast = kategorie.length > 0 && kategorie.every(k => balastneKategorie.includes(k));
 
-    // Ak LLM určil, že ide len o pasenie, potrubia alebo výskum (žiaden výrub/zvieratá/chémia), zahodíme to
-    if (vsetkoJeBalast) return { important: false, reason: "všetky kategórie sú balastné (" + kategorie.join(", ") + ")" };
-
     // 4. IDENTIFIKÁCIA CHRÁNENÝCH ÚZEMÍ (GIS + Text z dokumentu)
     const gis = analyza.gis?.zasiahnute_chranene_uzemia || data.zasiahnute_chranene_uzemia || {};
     const maPrienikSChranenymUzemim = Object.keys(gis).length > 0;
@@ -69,6 +66,9 @@ export const isDataImportant = (data, blacklistRegex) => {
     );
     const spominaChraneneUzemia = analyza.je_v_chranenom_uzemi === true;
     const jeNejakChranene = maPrienikSChranenymUzemim || spominaChraneneUzemia;
+
+    // Ak LLM určil, že ide len o pasenie, potrubia alebo výskum (žiaden výrub/zvieratá/chémia), zahodíme to
+    if (vsetkoJeBalast && !jeVysokyStupenOchrany) return { important: false, reason: "všetky kategórie sú balastné (" + kategorie.join(", ") + ") a nie je vysoký stupeň ochrany" };
 
     // 5. ŠPECIFICKÁ LOGIKA PRE JEDNOTLIVÉ ZÁUJMY LZ VLK
     
@@ -104,6 +104,10 @@ export const isDataImportant = (data, blacklistRegex) => {
     if (kategorie.length === 0 && jeNejakChranene) {
         return { important: true, reason: "žiadne kategórie od LLM, ale je v chránenom území" };
     }
+
+    // if (jeVysokyStupenOchrany) {
+    //     return { important: true, reason: "vysoký stupeň ochrany" };
+    // }
 
     // Ak to nepadlo do žiadnej dôležitej vetvy, radšej to zahodíme, aby sme minimalizovali balast
     return { important: false, reason: "nespadá do žiadnej dôležitej kategórie" };
