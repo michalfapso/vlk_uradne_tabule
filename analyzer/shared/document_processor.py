@@ -386,7 +386,9 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
             analysis_json_filepath = os.path.join(output_dir, "analysis.json")
             if invalidate_files or not os.path.exists(analysis_json_filepath) or os.path.getsize(analysis_json_filepath) < 10:
                 invalidate_files = True
-                analysis_input_text = text_content + "\n\n" + laws_excerpts
+                analysis_input_text = text_content
+                analysis_input_text += "\n\n---\n\nTu sú ešte znenia zákonov odkazovaných v dokumente, ale môžu tu byť aj ďalšie relevantné paragrafy:\n\n"
+                analysis_input_text += laws_excerpts
                 analysis_data = None
                 analysis_result_str = None
 

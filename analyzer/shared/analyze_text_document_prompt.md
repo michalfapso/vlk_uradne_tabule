@@ -78,7 +78,7 @@ Vráť *len* JSON s nasledujúcou štruktúrou. Neuvádzaj žiadny iný text pre
 *   `je_v_chranenom_uzemi`: Booleovská hodnota: `true`, ak je v dokumente explicitne spomenuté akékoľvek chránené územie (vrátane ochranných pásiem alebo CHVO) alebo stupeň ochrany > 0; `false`, ak nie je spomenuté nič o chránených územiach ani stupňoch ochrany. Ak informácia chýba, uveď `null`.
 *   `dotknute_zivocichy_rastliny`: Zoznam explicitne spomenutých chránených, ohrozených alebo inak významných živočíchov alebo rastlín, prípadne skupiny (napr. "bobor vodný", "vydra riečna", "ichtyofauna", "bentická fauna", "brehové porasty"). Ak nie sú uvedené, ponechaj prázdny zoznam `[]`.
 *   `odkaz_enviroportal`: URL adresa na enviroportal.sk, ak je v dokumente uvedená.
-*   `zakony`: Zoznam zákonov, ktoré sa vzťahujú na daný dokument. Ak nie sú uvedené, ponechaj prázdny zoznam `[]`. Pre každý zákon spomenutý v dokumente môžeš vyplniť polia: "zakon_nazov" (názov zákona) a "zakon_cislo" (číslo zákona).
+*   `zakony`: Zoznam zákonov, ktoré sa vzťahujú na daný dokument. Ak nie sú uvedené, ponechaj prázdny zoznam `[]`. Pre každý zákon spomenutý v dokumente môžeš vyplniť polia: "nazov" (názov zákona), "cislo" (číslo zákona) a "paragrafy" (pole paragrafov daného zákona spomenuté v texte, ale nepridávaj sem paragrafy, ktoré sú v zneniach zákonov pod dokumentom a nie sú súčasťou samotného dokumentu).
 *   `zhrnutie`: Stručné a výstižné zhrnutie dokumentu (max 2-3 vety) s dôrazom na typ zásahu, miesto (obec, lokalita) a spomenuté chránené územia/druhy, ak sú relevantné pre záujmy LZ VLK.
 
 **Pokyny pre model:**
