@@ -2,7 +2,7 @@
 // src/components/DocumentTable.astro
 import { TabulatorFull as Tabulator } from "tabulator-tables"; // Import here for type safety if needed, but primarily loaded client-side
 import { statusTypeToIcon } from "../scripts/statusTypeToIcon.js"; // Import utility function for status type to icon mapping
-import { isDataImportant } from "../scripts/documentAnalysis.js";
+import { DEFAULT_REGEX_STRING, isDataImportant } from "../scripts/documentAnalysis.js";
 
 const {
     id = "document-table", // Default ID
@@ -25,7 +25,6 @@ console.log("allDocuments:", allDocuments);
 const toggleButtonId = `${id}-toggle-summaries-btn`;
 const countLabelId = `${id}-count-label`;
 
-const DEFAULT_REGEX_STRING = "(kanaliz|vodovod|plynovod|výstavb|ochranné pásmo (\\d+ kV |VN |elektrického )?vedenia|podujatia|držba|preprava)";
 const defaultRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
 
 const totalCount = allDocuments.length;
