@@ -31,7 +31,7 @@ export const isDataImportant = (data, regex) => {
     const ucast_v_konani_povolena = data.analyza?.ucast_v_konani?.povolena === true || data.analyza?.ucast_v_konani?.povolena === null || data.analyza?.ucast_v_konani?.povolena === undefined;
     const intersections = data.analyza?.gis?.zasiahnute_chranene_uzemia || data.analyza?.zasiahnute_chranene_uzemia;
     const zasiahnute_chranene_uzemia = intersections === null || intersections === undefined || Object.keys(intersections).length > 0;
-    const je_rozhodnutie = data.analyza?.typ_dokumentu.toLowerCase().contains('rozhodnutie');
+    const je_rozhodnutie = data.analyza?.typ_dokumentu.toLowerCase().includes('rozhodnutie');
 
     // const gis_data_precise = !data.analyza?.gis || data.analyza?.gis?.source_type === 'PARCELA' || data.analyza?.gis?.source_type === 'GEONAME';
 
