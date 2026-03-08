@@ -10,19 +10,14 @@ const {
 } = Astro.props;
 
 // --- Príprava dát (moved inside component) ---
-// Sploštenie vnorenej štruktúry dát do jedného poľa dokumentov
-// This assumes the input 'data' prop has the same structure as the original JSON import
 const allDocuments =
     data.map((doc) => ({
-        // Add optional chaining
-        ...doc, // Pôvodné vlastnosti dokumentu (datum, nazov, url, analyza)
-        has_analysis: !!doc.analyza, // Pridanie príznaku pre jednoduchšiu kontrolu v šablóne
+        ...doc,
+        has_analysis: !!doc.analyza,
         datum_display: doc.analyza?.datum_zverejnenia || doc.datum,
-    })) || []; // Default to empty array if documents are missing
+    })) || [];
 
-console.log("allDocuments:", allDocuments);
-
-// Generate unique ID for the toggle button to avoid conflicts if multiple tables are on the page
+// Generate unique ID for the toggle button
 const toggleButtonId = `${id}-toggle-summaries-btn`;
 const countLabelId = `${id}-count-label`;
 
@@ -36,26 +31,13 @@ const allKraje = [...new Set(allDocuments.map(doc => doc.kraj).filter(Boolean))]
 const allOkresy = [...new Set(allDocuments.map(doc => doc.okres).filter(Boolean))].sort();
 ---
 
-{/* Component's HTML Structure */}
-<div
-    class="document-table-container bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200"
->
+<div class="document-table-container bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200 min-h-[200px]">
     <div class="flex flex-wrap gap-x-6 gap-y-3 mb-4 items-center text-sm">
-        <button
-            id={toggleButtonId}
-            class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-3 rounded-lg transition-colors text-xs sm:text-sm"
-            >Rozbaliť/Zabaliť všetky</button
-        >
-        <label
-            for={`${id}-important-only`}
-            class="flex items-center cursor-pointer"
-        >
-            <input
-                type="checkbox"
-                id={`${id}-important-only`}
-                checked
-                class="mr-2 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-            />
+        <button id={toggleButtonId} class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-3 rounded-lg transition-colors text-xs sm:text-sm">
+            Rozbaliť/Zabaliť všetky
+        </button>
+        <label for={`${id}-important-only`} class="flex items-center cursor-pointer">
+            <input type="checkbox" id={`${id}-important-only`} checked class="mr-2 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
             Iba dôležité <span id={countLabelId} class="ml-1 text-gray-600">({initialImportantCount}/{totalCount})</span>
         </label>
 
@@ -76,59 +58,25 @@ const allOkresy = [...new Set(allDocuments.map(doc => doc.okres).filter(Boolean)
         </div>
 
         <label for={`${id}-regex-filter`} class="flex items-center">
-            Regex pre nedôležité: <input
-                type="text"
-                id={`${id}-regex-filter`}
-                value={DEFAULT_REGEX_STRING}
-                class="ml-2 p-1 border border-gray-300 rounded-md w-48 focus:ring-blue-500 focus:border-blue-500"
-            />
+            Regex pre nedôležité: <input type="text" id={`${id}-regex-filter`} value={DEFAULT_REGEX_STRING} class="ml-2 p-1 border border-gray-300 rounded-md w-48 focus:ring-blue-500 focus:border-blue-500" />
         </label>
     </div>
-    {
-        allDocuments.length === 0 ? (
-            <p class="text-gray-500 italic">
-                Neboli nájdené žiadne dokumenty zodpovedajúce kritériám.
-            </p>
-        ) : (
-            <div id={id} class="text-sm" />
-        )
-    }
+    { allDocuments.length === 0 ? <p class="text-gray-500 italic">Neboli nájdené žiadne dokumenty.</p> : <div id={id} class="text-sm border-none shadow-none" /> }
 </div>
 
-{
-    /* Tabulator CSS (npm package imports are implicitly global as per Astro docs) */
-}
 <style>
     @import "tabulator-tables/dist/css/tabulator.min.css";
 </style>
 
-{/* Script to load Tabulator onto the window object */}
 <script>
-    // Import Tabulator from the installed package
     import { TabulatorFull as Tabulator } from "tabulator-tables";
-    // Make Tabulator available globally ONLY IF IT ISN'T ALREADY
-    // This prevents errors if multiple components try to load it,
-    // though ideally this is handled at a higher level (e.g., layout)
-    if (!window.Tabulator) {
-        window.Tabulator = Tabulator;
-        console.log("[DocumentTable] Tabulator loaded onto window.");
-    } else {
-        console.log("[DocumentTable] Tabulator already exists on window.");
-    }
-
-    import { statusTypeToIcon } from "../scripts/statusTypeToIcon.js"; // Import the utility function
+    if (!window.Tabulator) { window.Tabulator = Tabulator; }
+    import { statusTypeToIcon } from "../scripts/statusTypeToIcon.js";
     import { isDataImportant } from "../scripts/documentAnalysis.js";
-
-    // Make statusTypeToIcon available globally
-    if (!window.statusTypeToIcon) {
-        window.statusTypeToIcon = statusTypeToIcon;
-    }
-    if (!window.isDataImportant) {
-        window.isDataImportant = isDataImportant;
-    }
+    if (!window.statusTypeToIcon) { window.statusTypeToIcon = statusTypeToIcon; }
+    if (!window.isDataImportant) { window.isDataImportant = isDataImportant; }
 </script>
 
-{/* Inline script for Tabulator initialization */}
 <script
     define:vars={{
         tableId: id,
@@ -143,68 +91,40 @@ const allOkresy = [...new Set(allDocuments.map(doc => doc.okres).filter(Boolean)
     is:inline
 >
     document.addEventListener("DOMContentLoaded", () => {
-        // Ensure Tabulator is available
-        if (!window.Tabulator) {
-            // Fallback/retry logic could be added here if needed,
-            // but for a simple case, just logging the error might suffice.
-            // Or, if Tabulator is loaded asynchronously, listen for a custom event
-            // that signals its availability on `window`.
-            console.error(
-                `[DocumentTable ${tableId}] Tabulator class not found on window object.`,
-            );
-            // Optionally wait a bit more or listen for a custom event if loading is complex
-            return;
-        }
+        if (!window.Tabulator) return;
 
         const documents = tableData;
-        console.log("documents:", documents);
         const container = document.getElementById(tableId);
         const toggleBtn = document.getElementById(btnId);
-        const importantOnlyCheckbox = document.getElementById(
-            importantOnlyCheckboxId,
-        );
+        const importantOnlyCheckbox = document.getElementById(importantOnlyCheckboxId);
         const regexInput = document.getElementById(regexInputId);
         const krajFilter = document.getElementById(krajFilterId);
         const okresFilter = document.getElementById(okresFilterId);
         const countLabel = document.getElementById(countLabelId);
-        let table = null; // Deklarujeme 'table' tu, inicializujeme na null
+        let table = null;
 
-        if (!container) {
-            console.error(
-                `[DocumentTable ${tableId}] Container element #${tableId} not found.`,
-            );
-            return;
-        }
+        if (!container) return;
 
-        // Sorter function for fields that might be arrays, strings, null, or undefined
-        const arrayOrStringSorter = (
-            a,
-            b,
-            aRow,
-            bRow,
-            column,
-            dir,
-            sorterParams,
-        ) => {
-            // a and b are the raw values from the field (e.g., analyza.typ_zasahu)
-            let strA, strB;
-
-            const processValue = (val) => {
-                if (Array.isArray(val)) {
-                    return val.join(", "); // Join array elements into a string
-                }
-                if (val === null || typeof val === "undefined") {
-                    return ""; // Treat null/undefined as empty string for sorting
-                }
-                return String(val); // Ensure it's a string for comparison
-            };
-
-            strA = processValue(a);
-            strB = processValue(b);
-
-            // Perform case-insensitive comparison using localeCompare
-            return strA.localeCompare(strB, undefined, { sensitivity: "base" });
+        // --- Basic Scroll Preservation ---
+        const preserveScroll = (fn) => {
+            const oldHeight = document.documentElement.scrollHeight;
+            const oldY = window.scrollY;
+            fn();
+            const newHeight = document.documentElement.scrollHeight;
+            if (oldHeight > newHeight) {
+                const diff = oldHeight - newHeight;
+                document.body.style.paddingBottom = diff + "px";
+                window.scrollTo(0, oldY);
+            }
         };
+
+        window.addEventListener("scroll", () => {
+            if (parseInt(document.body.style.paddingBottom || "0", 10) > 0) {
+                if (window.scrollY + window.innerHeight < document.documentElement.scrollHeight - 100) {
+                    document.body.style.paddingBottom = "0px";
+                }
+            }
+        });
 
         const categoryColors = {
             'LES_VYRUB': 'bg-green-700 text-white',
@@ -218,488 +138,206 @@ const allOkresy = [...new Set(allDocuments.map(doc => doc.okres).filter(Boolean)
             'INE': 'bg-gray-300 text-gray-800'
         };
 
-        // Funkcia na formátovanie dátumu (musíme ju definovať aj na klientovi)
-        const formatClientDate = (dateString) => {
-            if (!dateString) return "N/A";
-            try {
-                const date = new Date(dateString);
-                return date.toLocaleDateString("sk-SK");
-            } catch (e) {
-                console.error("Chyba pri formátovaní dátumu:", dateString, e);
-                return "Neplatný dátum";
-            }
-        };
+        const formatDate = (s) => s ? new Date(s).toLocaleDateString("sk-SK") : "N/A";
+        let currentRegex = new RegExp(regexInput.value, "i");
 
-        let currentRegex = regexInput ? new RegExp(regexInput.value, "i") : null;
-        let isRegexValid = true;
-
-        // Function to apply the filter based on checkbox and regex input
         const applyFilter = () => {
-            if (!importantOnlyCheckbox || !regexInput || !table) {
-                console.warn(
-                    `[DocumentTable ${tableId}] Filter elements or table not found.`,
-                );
-                return;
-            }
-
-            const regexString = regexInput.value;
-            try {
-                currentRegex = new RegExp(regexString, "i"); // 'i' for case-insensitive
-                isRegexValid = true;
-                regexInput.style.borderColor = ""; // Reset border color on success
-            } catch (e) {
-                console.error(
-                    `[DocumentTable ${tableId}] Invalid regex: ${regexString}`,
-                    e,
-                );
-                isRegexValid = false;
-                currentRegex = null; // Clear invalid regex
-                regexInput.style.borderColor = "red"; // Indicate invalid regex
-            }
-
-            const selectedKraj = krajFilter?.value;
-            const selectedOkres = okresFilter?.value;
-
-            // Update counts
-            if (countLabel && isRegexValid && currentRegex) {
-                const filteredByRegion = documents.filter(d => {
-                    const matchKraj = !selectedKraj || d.kraj === selectedKraj;
-                    const matchOkres = !selectedOkres || d.okres === selectedOkres;
-                    return matchKraj && matchOkres;
+            if (!table) return;
+            try { currentRegex = new RegExp(regexInput.value, "i"); } catch(e) {}
+            
+            if (countLabel) {
+                const filtered = documents.filter(d => {
+                    const mk = !krajFilter.value || d.kraj === krajFilter.value;
+                    const mo = !okresFilter.value || d.okres === okresFilter.value;
+                    return mk && mo;
                 });
-                const importantCount = filteredByRegion.filter(d => window.isDataImportant(d, currentRegex).important).length;
-                const totalCount = filteredByRegion.length;
-                countLabel.textContent = `(${importantCount}/${totalCount})`;
+                const imp = filtered.filter(d => window.isDataImportant(d, currentRegex).important).length;
+                countLabel.textContent = `(${imp}/${filtered.length})`;
             }
 
             table.setFilter((data) => {
-                const matchKraj = !selectedKraj || data.kraj === selectedKraj;
-                const matchOkres = !selectedOkres || data.okres === selectedOkres;
-                
-                if (!matchKraj || !matchOkres) return false;
-
-                if (importantOnlyCheckbox.checked) {
-                    return window.isDataImportant(data, currentRegex).important;
-                }
-                return true;
+                const mk = !krajFilter.value || data.kraj === krajFilter.value;
+                const mo = !okresFilter.value || data.okres === okresFilter.value;
+                if (!mk || !mo) return false;
+                return importantOnlyCheckbox.checked ? window.isDataImportant(data, currentRegex).important : true;
             });
+        };
 
-            // Use a small timeout to ensure Tabulator has updated visible rows before applying styling
-            setTimeout(() => {
-                table.getRows("active").forEach((row) => {
+        if (documents.length > 0) {
+            table = new window.Tabulator(container, {
+                data: documents,
+                layout: "fitColumns",
+                responsiveLayout: "collapse",
+                pagination: "local",
+                paginationSize: 100,
+                initialSort: [{ column: "datum_display", dir: "desc" }],
+                rowFormatter: function (row) {
                     const el = row.getElement();
-                    if (!el) return;
-                    const isImportant = window.isDataImportant(row.getData(), currentRegex).important;
-                    if (!importantOnlyCheckbox.checked && !isImportant) {
+                    const d = row.getData();
+                    const a = d.analyza || {};
+                    const imp = window.isDataImportant(d, currentRegex).important;
+
+                    if (!importantOnlyCheckbox.checked && !imp) {
                         el.classList.add("less-important-row");
                     } else {
                         el.classList.remove("less-important-row");
                     }
-                });
-            }, 10);
-        };
 
-        // Inicializácia Tabulatora
-        if (documents.length > 0) {
-            const fn_tooltip = function (cell) {
-                // cell: Tabulator cell component
-                // cell.target: The actual HTML element the mouse is over
+                    const summary = document.createElement("div");
+                    summary.className = "row-summary";
+                    summary.style.display = "none";
+                    summary.style.padding = "20px";
+                    summary.style.backgroundColor = "#ffffff";
+                    summary.style.borderTop = "2px solid #3b82f6";
 
-                // Find the closest ancestor (or self) of cell.target that has the class 'tabulator-cell'
-                let elementToMeasure = cell.target.closest(".tabulator-cell");
-
-                // If closest() didn't find it (e.g., cell.target is not inside a .tabulator-cell,
-                // or the DOM structure is unexpected), fall back to the cell's root element.
-                if (!elementToMeasure) {
-                    console.warn(
-                        `[fn_tooltip] '.tabulator-cell' not found via cell.target.closest(). Falling back to cell.getElement(). Target:`,
-                        cell.target,
-                    );
-                    elementToMeasure = cell.getElement(); // This is the cell's main DOM element.
-                }
-
-                // Debugging logs (updated)
-                // console.log('[fn_tooltip] Tabulator cell component:', cell);
-                // console.log('[fn_tooltip] Event target (original element):', cell.target);
-                // console.log('[fn_tooltip] Element selected for measurement:', elementToMeasure);
-
-                if (elementToMeasure) {
-                    // Now, elementToMeasure is the '.tabulator-cell' (or the element assumed to be it).
-                    // Perform the scrollWidth vs clientWidth check on this element.
-                    // console.log(`[fn_tooltip] Measuring ${elementToMeasure.className} - scrollWidth: ${elementToMeasure.scrollWidth}, clientWidth: ${elementToMeasure.clientWidth}`);
-                    if (
-                        elementToMeasure.scrollWidth >
-                        elementToMeasure.clientWidth
-                    ) {
-                        // If it overflows, return the outerText of the original event target (cell.target),
-                        // consistent with the original function's behavior for the tooltip content.
-                        return cell.target.outerText;
-                    }
-                } else {
-                    // This should be rare, meaning neither closest() nor getElement() yielded a valid element.
-                    console.error(
-                        "[fn_tooltip] Could not determine element to measure, even after fallback. Cell:",
-                        cell,
-                    );
-                }
-                return ""; // In all other cases (no overflow, element not found), return an empty string for no tooltip.
-            };
-
-            let allSummariesVisible = false; // Stav pre hromadné zobrazenie/skrytie
-            // Priradíme inštanciu Tabulatora k premennej 'table' deklarovanej vyššie
-            table = new window.Tabulator(`#${tableId}`, {
-                // Use the dynamic ID
-                data: documents,
-                // height: "600",
-                height: "100%",
-                maxHeight: "100%",
-                layout: "fitDataStretch",
-                responsiveLayout: "collapse",
-                pagination: "local",
-                paginationSize: 100,
-                paginationSizeSelector: [10, 20, 50, 100, 200, 500],
-                initialSort: [
-                    { column: "datum_display", dir: "desc" }, // Sort by our custom date column
-                ],
-                rowFormatter: function (row) {
-                    var element = row.getElement();
-                    var data = row.getData();
-                    const analyza = data.analyza || {};
-
-                    // Styling for unimportant rows
-                    const isImportant = window.isDataImportant(data, currentRegex).important;
-                    if (!importantOnlyCheckbox.checked && !isImportant) {
-                        element.classList.add("less-important-row");
-                    } else {
-                        element.classList.remove("less-important-row");
-                    }
-
-                    var summaryContainer = document.createElement("div");
-                    summaryContainer.className = "row-summary";
-                    summaryContainer.style.display = "none";
-                    summaryContainer.style.padding = "20px";
-                    summaryContainer.style.borderTop = "2px solid #3b82f6";
-                    summaryContainer.style.backgroundColor = "#ffffff";
-
-                    // BLOCK A: Zhrnutie
-                    const blockA = document.createElement("div");
-                    blockA.className = "mb-6 pb-4 border-b border-gray-100";
-                    blockA.innerHTML = `
-                        <h3 class="text-lg font-bold text-blue-900 mb-2">Zhrnutie analýzy</h3>
-                        <p class="text-gray-800 leading-relaxed mb-4">${analyza.zhrnutie || "Bez zhrnutia."}</p>
-                        <div class="flex gap-4">
-                            <a href="${data.url}" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
-                                <span class="mr-2">📄</span> Otvoriť pôvodný dokument
-                            </a>
-                            ${data.hasGis ? `<a href="https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326" target="_blank" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors">
-                                <span class="mr-2">🗺️</span> Zobraziť na mape
-                            </a>` : ''}
-                        </div>
-                    `;
-                    summaryContainer.appendChild(blockA);
-
-                    // Middle section with 2 columns
-                    const middleSection = document.createElement("div");
-                    middleSection.className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-6";
-
-                    // BLOCK B: Úradné detaily
-                    const blockB = document.createElement("div");
-                    blockB.className = "space-y-3";
-                    
-                    const zakonyHtml = (analyza.zakony || []).map(z => `<li>${z.nazov} (${z.cislo}${z.paragrafy ? `, § ${z.paragrafy.join(", ")}` : ""})</li>`).join("");
-
-                    blockB.innerHTML = `
-                        <h4 class="font-bold text-gray-700 uppercase text-xs tracking-wider border-b border-gray-200 pb-1 mb-2">Úradné detaily</h4>
-                        <div class="grid grid-cols-3 gap-2">
-                            <div class="text-gray-500 font-medium">Typ:</div><div class="col-span-2">${analyza.typ_dokumentu || "N/A"}</div>
-                            <div class="text-gray-500 font-medium">Číslo spisu:</div><div class="col-span-2 font-mono">${analyza.cislo_konania_spisu || "N/A"}</div>
-                            <div class="text-gray-500 font-medium">Žiadateľ:</div><div class="col-span-2 font-semibold text-blue-800">${analyza.ziadatel_navrhovatel || "N/A"}</div>
-                            <div class="text-gray-500 font-medium">Dotknuté druhy:</div><div class="col-span-2 italic">${(analyza.dotknute_zivocichy_rastliny || []).join(", ") || "neuvedené"}</div>
-                        </div>
-                        ${zakonyHtml ? `<div class="mt-3"><div class="text-gray-500 font-medium mb-1">Príslušné zákony:</div><ul class="list-disc list-inside text-xs space-y-1">${zakonyHtml}</ul></div>` : ""}
-                    `;
-                    middleSection.appendChild(blockB);
-
-                    // BLOCK C: Lokalizácia & GIS
-                    const blockC = document.createElement("div");
-                    blockC.className = "space-y-3";
-                    
-                    const kuHtml = (analyza.miesto_realizacie?.katastralne_uzemia || []).map(ku => {
-                        const parcely = ku.parcely?.map(p => `${p.typ}-KN: ${p.cisla.join(", ")}`).join("; ") || "";
-                        return `<li><b>${ku.nazov}</b>${parcely ? ` (parcely ${parcely})` : ""}</li>`;
-                    }).join("");
-
-                    const intersections = analyza.gis?.zasiahnute_chranene_uzemia || analyza.zasiahnute_chranene_uzemia;
-                    let intersectionsHtml = "";
-                    if (intersections) {
-                        intersectionsHtml = `<ul class="list-none space-y-1">`;
-                        for (const [typ, uzemia] of Object.entries(intersections)) {
-                            intersectionsHtml += `<li><span class="inline-block px-1.5 py-0.5 bg-blue-100 text-blue-800 rounded text-[10px] font-bold mr-2">${typ}</span> ${uzemia.map(u => u.SITETITLE_ || u.SITENAME || u.nazov || u.NAME).join(", ")}</li>`;
-                        }
-                        intersectionsHtml += `</ul>`;
-                    }
-
-                    blockC.innerHTML = `
-                        <h4 class="font-bold text-gray-700 uppercase text-xs tracking-wider border-b border-gray-200 pb-1 mb-2">Lokalizácia & GIS</h4>
-                        <div class="space-y-3">
-                            <div><div class="text-gray-500 font-medium mb-1">Katastrálne územia a parcely:</div><ul class="text-sm list-disc list-inside">${kuHtml || "neuvedené"}</ul></div>
-                            ${intersectionsHtml ? `<div><div class="text-gray-500 font-medium mb-1">Zasiahnuté územia:</div><div class="text-xs">${intersectionsHtml}</div></div>` : ""}
-                            ${data.hasGis ? `<div class="mt-2"><a href="./data/${data.docId}/gis.geojson" target="_blank" class="text-xs text-blue-600 underline">Stiahnuť gis.geojson</a></div>` : ""}
-                        </div>
-                    `;
-                    middleSection.appendChild(blockC);
-                    summaryContainer.appendChild(middleSection);
-
-                    // BLOCK D: Debug / Dev
-                    const blockD = document.createElement("div");
-                    blockD.className = "mt-8 pt-4 border-t border-dashed border-gray-300";
-                    
                     const createAccordion = (title, content, isPre = false) => {
-                        const details = document.createElement("details");
-                        details.className = "group text-xs text-gray-500 mb-2";
-                        const summary = document.createElement("summary");
-                        summary.className = "cursor-pointer hover:text-gray-800 font-medium list-none flex items-center";
-                        summary.innerHTML = `<span class="mr-2 transform transition-transform group-open:rotate-90">▶</span> ${title}`;
-                        details.appendChild(summary);
-                        
+                        const det = document.createElement("details");
+                        det.className = "group text-xs text-gray-500 mb-2";
+                        det.innerHTML = `<summary class="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center"><span class="mr-2 transform transition-transform group-open:rotate-90">▶</span> ${title}</summary>`;
                         const inner = document.createElement(isPre ? "pre" : "div");
                         inner.className = "mt-2 p-3 bg-gray-50 rounded border border-gray-200 overflow-x-auto";
-                        if (isPre) {
-                            inner.style.whiteSpace = "pre-wrap";
-                            inner.style.wordBreak = "break-all";
-                        }
+                        if (isPre) { inner.style.whiteSpace = "pre-wrap"; inner.style.wordBreak = "break-all"; }
                         inner.textContent = typeof content === "string" ? content : JSON.stringify(content, null, 2);
-                        details.appendChild(inner);
-                        return details;
+                        det.appendChild(inner);
+                        
+                        det.addEventListener("toggle", () => {
+                            preserveScroll(() => {
+                                // We don't need recalcHeight if CSS forces auto height
+                                applyFilter();
+                            });
+                        });
+                        
+                        return det;
                     };
 
-                    blockD.appendChild(document.createTextNode("Debug sekcia:"));
-                    const importance = window.isDataImportant(data, currentRegex);
-                    const importanceDiv = document.createElement("div");
-                    importanceDiv.className = "text-xs text-gray-500 mb-2 flex items-center";
-                    // Padding to match the accordion arrow space (span mr-2 is about 20px)
-                    importanceDiv.innerHTML = `<span class="inline-block w-4"></span> Dôležitosť: ${importance.important ? "Áno" : "Nie"} Dôvod: ${importance.reason}`;
-                    blockD.appendChild(importanceDiv);
-                    
-                    if (data.laws) blockD.appendChild(createAccordion("Znenia zákonov odkazovaných v dokumente", data.laws));
-                    if (data.analyza) blockD.appendChild(createAccordion("Kompletná analýza (JSON)", data.analyza, true));
-                    if (data.log) blockD.appendChild(createAccordion("Log analýzy / Chyby", data.log, true));
-                    if (data.status) blockD.appendChild(createAccordion("Status správy", data.status.map(s => `${s.date} [${s.type}] ${s.text}`).join("\n"), true));
+                    summary.innerHTML = `
+                        <div class="mb-6 pb-4 border-b border-gray-100">
+                            <h3 class="text-lg font-bold text-blue-900 mb-2">Zhrnutie analýzy</h3>
+                            <p class="text-gray-800 leading-relaxed mb-4">${a.zhrnutie || "Bez zhrnutia."}</p>
+                            <div class="flex gap-4">
+                                <a href="${d.url}" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer text-sm">📄 Pôvodný dokument</a>
+                                ${d.hasGis ? `<a href="https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${d.docId}/gis.geojson&ext_crs=EPSG:4326" target="_blank" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer text-sm">🗺️ Mapa</a>` : ''}
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                            <div class="space-y-3">
+                                <h4 class="font-bold text-gray-700 uppercase text-xs border-b border-gray-200 pb-1 mb-2">Úradné detaily</h4>
+                                <div class="grid grid-cols-3 gap-1 text-sm">
+                                    <div class="text-gray-500">Typ:</div><div class="col-span-2">${a.typ_dokumentu || "N/A"}</div>
+                                    <div class="text-gray-500">Číslo:</div><div class="col-span-2 font-mono">${a.cislo_konania_spisu || "N/A"}</div>
+                                    <div class="text-gray-500">Žiadateľ:</div><div class="col-span-2 font-semibold text-blue-800">${a.ziadatel_navrhovatel || "N/A"}</div>
+                                    <div class="text-gray-500">Druhy:</div><div class="col-span-2 italic text-xs">${(a.dotknute_zivocichy_rastliny || []).join(", ") || "N/A"}</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <h4 class="font-bold text-gray-700 uppercase text-xs border-b border-gray-200 pb-1 mb-2">Lokalizácia</h4>
+                                <div class="text-sm">
+                                    <div class="text-gray-500 mb-1 font-medium">Katastrálne územia:</div>
+                                    <ul class="list-disc list-inside text-xs">${(a.miesto_realizacie?.katastralne_uzemia || []).map(ku => `<li><b>${ku.nazov}</b> (${ku.parcely?.map(p => `${p.typ}-KN: ${p.cisla.join(", ")}`).join("; ") || ""})</li>`).join("") || "N/A"}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
 
-                    summaryContainer.appendChild(blockD);
-                    element.appendChild(summaryContainer);
+                    const debug = document.createElement("div");
+                    debug.className = "mt-8 pt-4 border-t border-dashed border-gray-300";
+                    debug.innerHTML = `<div class="text-xs text-gray-500 my-2"><span class="inline-block w-4"></span> <b>Dôležitosť: ${imp ? "Áno" : "Nie"}</b> (Dôvod: ${window.isDataImportant(d, currentRegex).reason})</div>`;
+                    if (d.laws) debug.appendChild(createAccordion("Znenia zákonov", d.laws));
+                    if (d.analyza) debug.appendChild(createAccordion("JSON analýza", d.analyza, true));
+                    if (d.log) debug.appendChild(createAccordion("Log / Chyby", d.log, true));
+                    
+                    summary.appendChild(debug);
+                    el.appendChild(summary);
                 },
                 columns: [
-                    {
-                        title: "Lehota / Dátum",
-                        field: "datum_display",
-                        width: 140,
-                        tooltip: fn_tooltip,
-                        formatter: (cell) => {
-                            const data = cell.getData();
-                            const analyza = data.analyza || {};
-                            const lehota = analyza.ucast_v_konani?.lehota_na_vyjadrenie;
-                            const datum_zverej = analyza.datum_zverejnenia || data.datum;
-                            
-                            let html = `<div class="font-medium text-gray-600">${formatClientDate(datum_zverej)}</div>`;
-                            if (lehota) {
-                                // If it's a short deadline (contains "do 5" or "do 7"), highlight it
-                                const isUrgent = /do\s+[1-7]\b/.test(lehota);
-                                html += `<div class="text-[10px] leading-tight mt-1 ${isUrgent ? 'text-red-600 font-bold' : 'text-gray-500'}">${lehota}</div>`;
-                            }
-                            return html;
-                        },
-                    },
-                    {
-                        title: "Kategória",
-                        field: "analyza.kategorie_vlk",
-                        width: 130,
-                        headerSort: false,
-                        formatter: (cell) => {
-                            const val = cell.getValue();
-                            if (!val || !Array.isArray(val)) return "-";
-                            return `<div class="flex flex-wrap gap-1">${val.map(cat => {
-                                const colorClass = categoryColors[cat] || 'bg-gray-200 text-gray-700';
-                                return `<span class="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${colorClass}">${cat}</span>`;
-                            }).join('')}</div>`;
+                    { title: "Lehota / Dátum", field: "datum_display", width: 140, formatter: (c) => {
+                        const d = c.getData();
+                        const l = d.analyza?.ucast_v_konani?.lehota_na_vyjadrenie;
+                        const u = /do\s+[1-7]\b/.test(l);
+                        return `<div class="font-medium text-gray-600">${formatDate(c.getValue())}</div>` +
+                                `${l ? `<div class="text-[10px] leading-tight mt-1 ${u ? 'text-red-600 font-bold' : 'text-gray-500'}">${l}</div>` : ""}`;
+                    }},
+                    { title: "Kategória", field: "analyza.kategorie_vlk", width: 130, formatter: (c) => {
+                        const v = c.getValue();
+                        if (!Array.isArray(v)) return "-";
+                        return `<div class="flex flex-wrap gap-1">${v.map(cat => `<span class="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase ${categoryColors[cat] || 'bg-gray-200 text-gray-700'}">${cat}</span>`).join('')}</div>`;
+                    }},
+                    { title: "Zásah a Rozsah", field: "analyza.typ_zasahu", width: 300, formatter: (c) => {
+                        const a = c.getData().analyza;
+                        if (!a) return "-";
+                        return `<div class="font-medium text-gray-800">${Array.isArray(a.typ_zasahu) ? a.typ_zasahu.join(", ") : (a.typ_zasahu || "-")}</div>
+                                ${a.rozsah_zasahu ? `<div class="text-[11px] text-gray-500 italic mt-0.5">${a.rozsah_zasahu}</div>` : ""}`;
+                    }},
+                    { title: "Lokalita", field: "analyza.miesto_realizacie.obec", width: 150, formatter: (c) => {
+                        const m = c.getData().analyza?.miesto_realizacie;
+                        if (!m) return "-";
+                        return `<div class="font-bold text-gray-900">${m.obec || ""}</div>
+                                ${m.nazov_lokality_norm ? `<div class="text-[11px] text-gray-600 leading-tight">(${m.nazov_lokality_norm})</div>` : ""}`;
+                    }},
+                    { title: "Ochrana", width: 120, formatter: (c) => {
+                        const a = c.getData().analyza || {};
+                        const g = a.gis?.zasiahnute_chranene_uzemia || a.zasiahnute_chranene_uzemia;
+                        let b = [];
+                        if (g) {
+                            if (g['5st_konsUEV']) b.push(`<span class="px-1 py-0.5 bg-red-700 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">5. STUPEŇ!</span>`);
+                            if (g['MCHU']) b.push(`<span class="px-1 py-0.5 bg-red-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">MCHU</span>`);
+                            if (g['UEV'] || g['CHVU']) b.push(`<span class="px-1 py-0.5 bg-green-700 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">Natura 2000</span>`);
                         }
-                    },
-                    {
-                        title: "Zásah a Rozsah",
-                        field: "analyza.typ_zasahu",
-                        width: 320,
-                        tooltip: fn_tooltip,
-                        formatter: (cell) => {
-                            const data = cell.getData().analyza;
-                            if (!data) return "-";
-                            const typ = Array.isArray(data.typ_zasahu) ? data.typ_zasahu.join(", ") : data.typ_zasahu;
-                            const rozsah = data.rozsah_zasahu;
-                            if (!typ) return "-";
-                            return `<div class="font-medium text-gray-800">${typ}</div>${rozsah ? `<div class="text-[11px] text-gray-500 italic mt-0.5">${rozsah}</div>` : ""}`;
-                        }
-                    },
-                    {
-                        title: "Lokalita",
-                        field: "analyza.miesto_realizacie.obec",
-                        width: 160,
-                        tooltip: fn_tooltip,
-                        formatter: (cell) => {
-                            const m = cell.getData().analyza?.miesto_realizacie;
-                            if (!m) return "-";
-                            return `<div class="font-bold text-gray-900">${m.obec || ""}</div>${m.nazov_lokality_norm ? `<div class="text-[11px] text-gray-600 leading-tight">(${m.nazov_lokality_norm})</div>` : ""}`;
-                        }
-                    },
-                    {
-                        title: "Ochrana",
-                        field: "analyza.gis.zasiahnute_chranene_uzemia",
-                        width: 130,
-                        headerSort: false,
-                        formatter: (cell) => {
-                            const data = cell.getData();
-                            const analyza = data.analyza || {};
-                            const gis = analyza.gis?.zasiahnute_chranene_uzemia || analyza.zasiahnute_chranene_uzemia;
-                            const isIntravilan = analyza.miesto_realizacie?.lokalita_zastavane_uzemie === true;
-                            
-                            let badges = [];
-                            if (gis) {
-                                if (gis['5st_konsUEV']) badges.push(`<span class="px-1 py-0.5 bg-red-700 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">5. STUPEŇ!</span>`);
-                                if (gis['MCHU']) badges.push(`<span class="px-1 py-0.5 bg-red-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">MCHU</span>`);
-                                if (gis['UEV'] || gis['CHVU']) badges.push(`<span class="px-1 py-0.5 bg-green-700 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">Natura 2000</span>`);
-                            }
-                            
-                            const typUzemia = analyza.typ_uzemia;
-                            if (Array.isArray(typUzemia) && typUzemia.some(t => t.toLowerCase().includes("chko") || t.toLowerCase().includes("národný park"))) {
-                                badges.push(`<span class="px-1 py-0.5 bg-green-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">[CHKO/NP]</span>`);
-                            }
-
-                            if (isIntravilan) badges.push(`<span class="px-1 py-0.5 bg-gray-400 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">Intravilán</span>`);
-                            
-                            return `<div class="flex flex-col items-start">${badges.join('') || "-"}</div>`;
-                        }
-                    },
-                    {
-                        title: "Žiadateľ",
-                        field: "analyza.ziadatel_navrhovatel",
-                        width: 200,
-                        tooltip: fn_tooltip,
-                        formatter: (cell) => `<div class="font-medium text-gray-800 break-words whitespace-normal leading-tight">${cell.getValue() || "-"}</div>`
-                    },
-                    {
-                        title: "Zákony",
-                        field: "analyza.zakony",
-                        minWidth: 200,
-                        tooltip: fn_tooltip,
-                        formatter: (cell) => {
-                            const zakony = cell.getValue();
-                            if (!zakony || !Array.isArray(zakony)) return "-";
-                            return `<div class="font-medium text-gray-800 break-words whitespace-normal leading-tight">${zakony.map(z => `<div>${z.cislo}${z.paragrafy ? ` (§ ${z.paragrafy.join(", ")})` : ""}</div>`).join('')}</div>`;
-                        },
-                    },
+                        if (Array.isArray(a.typ_uzemia) && a.typ_uzemia.some(t => /chko|národný park/i.test(t))) b.push(`<span class="px-1 py-0.5 bg-green-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">CHKO/NP</span>`);
+                        if (a.miesto_realizacie?.lokalita_zastavane_uzemie) b.push(`<span class="px-1 py-0.5 bg-gray-400 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block">Intravilán</span>`);
+                        return `<div class="flex flex-col items-start">${b.join('') || "-"}</div>`;
+                    }},
+                    { title: "Žiadateľ", field: "analyza.ziadatel_navrhovatel", width: 180, formatter: (c) => `<div class="font-medium text-gray-800 break-words whitespace-normal leading-tight">${c.getValue() || "-"}</div>` },
+                    { title: "Zákony", field: "analyza.zakony", minWidth: 150, formatter: (c) => {
+                        const z = c.getValue();
+                        if (!Array.isArray(z)) return "-";
+                        return `<div class="font-medium text-gray-800 break-words whitespace-normal leading-tight">${z.map(l => `<div>${l.cislo}${l.paragrafy ? ` (§ ${l.paragrafy.join(", ")})` : ""}</div>`).join('')}</div>`;
+                    }},
                 ],
             });
 
-            // Apply initial filter based on default checkbox state and regex value
             applyFilter();
 
-            table.on("rowClick", function (e, row) {
-                // Check if the click originated from within the summary container or its children
-                const targetElement = e.target;
-                if (targetElement.closest(".row-summary")) {
-                    return; // Do nothing if the click was inside the summary area
-                }
-
-                const summaryContainer = row
-                    .getElement()
-                    .querySelector(".row-summary");
-                if (summaryContainer) {
-                    const isHidden = summaryContainer.style.display === "none";
-                    
-                    // Save current scroll position
-                    const scrollY = window.scrollY;
-                    const rowElement = row.getElement();
-                    
-                    // Stabilize table height to prevent jump
-                    const tableElement = table.element;
-                    const originalMinHeight = tableElement.style.minHeight;
-                    tableElement.style.minHeight = tableElement.offsetHeight + "px";
-
-                    summaryContainer.style.display = isHidden ? "block" : "none";
-                    
-                    // Notify Tabulator about the height change
-                    try {
-                        row.recalcHeight();
-                    } catch (err) {
-                        console.error("Error recalcing row height:", err);
-                    }
-                    
-                    // Restore scroll position to prevent jump
-                    window.scrollTo(0, scrollY);
-                    
-                    // Cleanup stabilization
-                    setTimeout(() => {
-                        tableElement.style.minHeight = originalMinHeight;
-                    }, 100);
-
-                    // If expanding, ensure the row stays in view
-                    if (isHidden) {
-                        requestAnimationFrame(() => {
-                            const rect = rowElement.getBoundingClientRect();
-                            if (rect.bottom > window.innerHeight) {
-                                rowElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                            }
-                        });
-                    }
+            table.on("rowClick", (e, row) => {
+                if (!row) return;
+                const target = e.target;
+                if (target && target.closest(".row-summary")) return;
+                
+                const el = row.getElement();
+                if (!el) return;
+                const summary = el.querySelector(".row-summary");
+                if (summary) {
+                    preserveScroll(() => {
+                        summary.style.display = summary.style.display === "none" ? "block" : "none";
+                        applyFilter();
+                        // try { row.recalcHeight(); } catch(e){}
+                        // table.redraw(true);
+                    });
                 }
             });
 
-            // Add event listeners for filtering controls
-            if (importantOnlyCheckbox) {
-                importantOnlyCheckbox.addEventListener("change", applyFilter);
-            }
-            if (regexInput) {
-                regexInput.addEventListener("input", applyFilter);
-            }
-            if (krajFilter) {
-                krajFilter.addEventListener("change", () => {
-                    // When Kraj changes, we might want to update Okres list, but for now just filter
-                    applyFilter();
-                });
-            }
-            if (okresFilter) {
-                okresFilter.addEventListener("change", applyFilter);
-            }
+            importantOnlyCheckbox.addEventListener("change", applyFilter);
+            regexInput.addEventListener("input", applyFilter);
+            krajFilter.addEventListener("change", applyFilter);
+            okresFilter.addEventListener("change", applyFilter);
 
-            // Funkcionalita pre tlačidlo na hromadné zobrazenie/skrytie
             if (toggleBtn) {
                 toggleBtn.addEventListener("click", () => {
                     allSummariesVisible = !allSummariesVisible;
-                    
-                    table.blockRedraw();
-                    try {
-                        table.getRows().forEach((row) => {
-                            const summaryContainer = row.getElement().querySelector(".row-summary");
-                            if (summaryContainer) {
-                                summaryContainer.style.display = allSummariesVisible ? "block" : "none";
-                                row.recalcHeight();
+                    preserveScroll(() => {
+                        table.getRows("active").forEach(r => {
+                            const el = r.getElement();
+                            if(!el) return;
+                            const s = el.querySelector(".row-summary");
+                            if (s) {
+                                s.style.display = allSummariesVisible ? "block" : "none";
+                                try { r.recalcHeight(); } catch(e){}
                             }
                         });
-                    } finally {
-                        table.restoreRedraw();
-                    }
-
-                    toggleBtn.textContent = allSummariesVisible
-                        ? "Zabaliť všetky"
-                        : "Rozbaliť všetky";
+                    });
+                    toggleBtn.textContent = allSummariesVisible ? "Zabaliť všetky" : "Rozbaliť všetky";
                 });
-            } else {
-                console.warn(
-                    `[DocumentTable ${tableId}] Toggle button #${btnId} not found.`,
-                );
             }
-        } else {
-            // Optional: Handle case where container exists but no documents to show
-            // container.innerHTML = '<p>Žiadne dokumenty na zobrazenie.</p>';
-            if (toggleBtn) toggleBtn.style.display = "none"; // Hide button if no data
         }
     });
 </script>
@@ -755,3 +393,4 @@ const allOkresy = [...new Set(allDocuments.map(doc => doc.okres).filter(Boolean)
         @apply opacity-50 !important;
     }
 </style>
+
