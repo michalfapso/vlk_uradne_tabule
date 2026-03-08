@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify as md_func # Alias to avoid conflict
 import tempfile
 import time
+from datetime import datetime
 
 # Importujeme ostatné zdieľané moduly
 from log_handler import log_status, Tee
@@ -289,6 +290,7 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
     sys.stderr = Tee(old_stderr, log_file)
 
     try:
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] processing document '{output_dir}'")
         if output_dir_tmp:
             os.replace(orig_file_tmp, os.path.join(output_dir, os.path.basename(orig_file_tmp)))
             output_dir_tmp.cleanup()
