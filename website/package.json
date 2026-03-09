@@ -10,10 +10,16 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
+    "@astrojs/vue": "^5.1.4",
+    "@nanostores/vue": "^1.1.0",
     "@tailwindcss/vite": "^4.1.10",
     "astro": "^5.7.10",
+    "convex": "^1.32.0",
+    "convex-vue": "^0.0.5",
     "marked": "^15.0.12",
-    "tabulator-tables": "^6.3.1"
+    "nanostores": "^1.1.1",
+    "tabulator-tables": "^6.3.1",
+    "vue": "^3.5.30"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",
