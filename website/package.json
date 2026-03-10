@@ -10,19 +10,21 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
-    "@astrojs/vue": "^5.1.4",
+    "@astrojs/react": "^5.0.0",
     "@convex-dev/auth": "^0.0.91",
-    "@nanostores/vue": "^1.1.0",
-    "@primevue/themes": "^4.5.4",
+    "@nanostores/react": "^1.0.0",
     "@tailwindcss/vite": "^4.1.10",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "astro": "^5.7.10",
     "convex": "^1.32.0",
-    "convex-vue": "^0.1.5",
     "marked": "^15.0.12",
     "nanostores": "^1.1.1",
-    "primevue": "^4.5.4",
-    "tabulator-tables": "^6.3.1",
-    "vue": "^3.5.30"
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.7",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tabulator-tables": "^6.3.1"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",

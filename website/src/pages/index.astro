@@ -2,8 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import OkresyStatus from '../components/OkresyStatus.astro';
 import DocumentTable from '../components/DocumentTable.astro';
-import ConvexClientProvider from '../components/ConvexClientProvider.vue';
-import AuthSection from '../components/AuthSection.vue';
+import Header from '../components/Header';
 // Import dát vygenerovaných Python skriptom
 // import data from '../../../data/minv/4_diff_analysis.json';
 
@@ -357,7 +356,7 @@ console.log('data:', JSON.stringify(data, null, 2));
 
 <Layout title={pageTitle}>
     <div class="flex justify-end p-4 bg-gray-50 border-b">
-        <AuthSection client:load />
+        <Header client:load />
     </div>
     <main class="space-y-8 p-4 sm:p-6 lg:p-8">
             <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">{pageTitle}</h1>
