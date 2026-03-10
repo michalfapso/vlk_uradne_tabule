@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import OkresyStatus from '../components/OkresyStatus.astro';
 import DocumentTable from '../components/DocumentTable.astro';
+import ConvexClientProvider from '../components/ConvexClientProvider.vue';
+import AuthSection from '../components/AuthSection.vue';
 // Import dát vygenerovaných Python skriptom
 // import data from '../../../data/minv/4_diff_analysis.json';
 
@@ -354,32 +356,35 @@ console.log('data:', JSON.stringify(data, null, 2));
 ---
 
 <Layout title={pageTitle}>
-    <main class="space-y-8">
-        <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">{pageTitle}</h1>
+    <div class="flex justify-end p-4 bg-gray-50 border-b">
+        <AuthSection client:load />
+    </div>
+    <main class="space-y-8 p-4 sm:p-6 lg:p-8">
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800">{pageTitle}</h1>
 
-        {/* Collapsible element for the prompt */}
-        <div class="bg-white mt-2 p-4 sm:p-6 rounded-lg shadow-md border border-gray-200">
-            <details class="group">
-                <summary class="flex justify-start items-center cursor-pointer text-sm font-semibold text-gray-800 hover:text-blue-600">
-                    <span class="transform transition-transform duration-200 group-open:rotate-90 text-gray-500">&#9654;</span>
-                    <span class="pl-2">Zobraziť inštrukcie použité pre analýzu dokumentov pomocou AI</span>
-                </summary>
-                <div class="mt-4 prose prose-sm max-w-none text-gray-700 bg-gray-50 p-4 rounded-md border">
-                    {/* Render the HTML content directly. */}
-                    <Fragment set:html={promptHtml} />
-                </div>
-            </details>
-        </div>
+            {/* Collapsible element for the prompt */}
+            <div class="bg-white mt-2 p-4 sm:p-6 rounded-lg shadow-md border border-gray-200">
+                <details class="group">
+                    <summary class="flex justify-start items-center cursor-pointer text-sm font-semibold text-gray-800 hover:text-blue-600">
+                        <span class="transform transition-transform duration-200 group-open:rotate-90 text-gray-500">&#9654;</span>
+                        <span class="pl-2">Zobraziť inštrukcie použité pre analýzu dokumentov pomocou AI</span>
+                    </summary>
+                    <div class="mt-4 prose prose-sm max-w-none text-gray-700 bg-gray-50 p-4 rounded-md border">
+                        {/* Render the HTML content directly. */}
+                        <Fragment set:html={promptHtml} />
+                    </div>
+                </details>
+            </div>
 
-        <OkresyStatus
-            data={minv_okresyStatusData} {/* OkresyStatus now receives a flat list of status messages */}
-        />
-        {/* Use the component, passing the processed flat data */}
-        <DocumentTable
-            id="env-documents-table" {/* Optional: Provide a specific ID */}
-            data={data}              {/* Pass the flattened, filtered, and enriched data */}
-            title={pageTitle}
-        />
-        {/* You could potentially add another DocumentTable here with different data/props */}
-    </main>
-</Layout>
+            <OkresyStatus
+                data={minv_okresyStatusData}
+            />
+            {/* Use the component, passing the processed flat data */}
+            <DocumentTable
+                id="env-documents-table"
+                data={data}
+                title={pageTitle}
+            />
+            {/* You could potentially add another DocumentTable here with different data/props */}
+        </main>
+    </Layout>
