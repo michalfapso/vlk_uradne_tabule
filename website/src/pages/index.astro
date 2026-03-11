@@ -2,7 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import OkresyStatus from '../components/OkresyStatus.astro';
 import DocumentTable from '../components/DocumentTable.astro';
-import Header from '../components/Header';
+import DocumentGrid from '../components/DocumentGrid.tsx';
+import Header from '../components/Header.tsx';
 // Import dát vygenerovaných Python skriptom
 // import data from '../../../data/minv/4_diff_analysis.json';
 
@@ -40,7 +41,7 @@ const promptFilePath = path.resolve(
 let promptHtml = '';
 try {
     const promptMarkdown = fs.readFileSync(promptFilePath, 'utf-8');
-    promptHtml = marked.parse(promptMarkdown); // Convert markdown to HTML
+    promptHtml = await marked.parse(promptMarkdown); // Convert markdown to HTML
 } catch (error) {
     console.error(`Error reading or parsing prompt file ${promptFilePath}:`, error);
     promptHtml = `<p class="text-red-500">Chyba pri načítaní alebo spracovaní súboru s promptom: ${error.message}</p>`;
@@ -378,12 +379,18 @@ console.log('data:', JSON.stringify(data, null, 2));
             <OkresyStatus
                 data={minv_okresyStatusData}
             />
-            {/* Use the component, passing the processed flat data */}
+            {/* New PrimeReact based table */}
+            <DocumentGrid
+                initialData={data}
+                client:load
+            />
+            {/* Old Tabulator based table
             <DocumentTable
                 id="env-documents-table"
                 data={data}
                 title={pageTitle}
             />
+            */}
             {/* You could potentially add another DocumentTable here with different data/props */}
         </main>
     </Layout>
