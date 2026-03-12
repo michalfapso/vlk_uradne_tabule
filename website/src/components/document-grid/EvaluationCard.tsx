@@ -8,21 +8,27 @@ export const EvaluationCard = ({
   row, 
   onTagChange, 
   isPending, 
-  isAuthenticated 
+  isAuthenticated,
+  highlightedDocId,
+  onLinkClick
 }: { 
   row: any, 
   onTagChange: (docId: string, datum: string, newTag: string | null, currentTag: string | null) => void,
   isPending: boolean,
-  isAuthenticated: boolean
+  isAuthenticated: boolean,
+  highlightedDocId: string | null,
+  onLinkClick: (docId: string) => void
 }) => {
   const data = row.original;
   const a = data.analyza || {};
   const isExpanded = row.getIsExpanded();
   const borderColorClass = getBorderColorClass(data);
+  const isHighlighted = data.docId === highlightedDocId;
 
   return (
     <div 
-      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full cursor-pointer ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
+      id={`doc-${data.docId}`}
+      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full cursor-pointer ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50' : ''} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
       onClick={() => row.toggleExpanded()}
     >
       <div className={`p-4 transition-all duration-700 ${isPending ? 'py-0' : 'py-4'}`}>
@@ -52,6 +58,7 @@ export const EvaluationCard = ({
             {/* Ochrana Badges */}
             {a.gis?.zasiahnute_chranene_uzemia?.['5st_konsUEV'] && <span className="px-1.5 py-0.5 bg-red-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">5. STUPEŇ!</span>}
             {(a.gis?.zasiahnute_chranene_uzemia?.['UEV'] || a.gis?.zasiahnute_chranene_uzemia?.['CHVU']) && <span className="px-1.5 py-0.5 bg-green-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">Natura 2000</span>}
+            
             {data.hasGis && (
               <a 
                 href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`}
@@ -83,10 +90,11 @@ export const EvaluationCard = ({
       
       {isExpanded && (
         <div className="bg-gray-50 border-t border-gray-200 animate-in slide-in-from-top duration-200">
-          <ExpandedRowContent row={row} />
+          <ExpandedRowContent row={row} onLinkClick={onLinkClick} />
         </div>
       )}
     </div>
   );
 };
+
 

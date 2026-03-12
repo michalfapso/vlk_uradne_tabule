@@ -54,12 +54,16 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
   const [krajFilter, setKrajFilter] = useState<string | null>(null);
   const [okresFilter, setOkresFilter] = useState<string | null>(null);
   const [regexString] = useState(DEFAULT_REGEX_STRING);
+  const [highlightedDocId, setHighlightedDocId] = useState<string | null>(null);
 
   // Local state for delayed hiding and undo
   const [pendingHides, setPendingHides] = useState<Record<string, boolean>>({});
   const [lastAction, setLastAction] = useState<{ docId: string, datum: string, oldTag: string | null } | null>(null);
   const [showUndo, setShowUndo] = useState(false);
+  const [showCopyToast, setShowCopyToast] = useState(false);
   const undoTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const copyToastTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const hasScrolledInitial = useRef(false);
 
   const allKraje = useMemo(() => [...new Set(initialData.map(doc => doc.kraj).filter(Boolean))].sort(), [initialData]);
   const allOkresy = useMemo(() => {
@@ -101,12 +105,13 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     if (importantOnly) {
       return docs.filter(d => {
         if (pendingHides[d.docId]) return true;
+        if (d.docId === highlightedDocId) return true;
         return d.isImportant;
       });
     }
 
     return docs;
-  }, [initialData, userTags, importantOnly, krajFilter, okresFilter, regexString, pendingHides]);
+  }, [initialData, userTags, importantOnly, krajFilter, okresFilter, regexString, pendingHides, highlightedDocId]);
 
   // Handle pendingHides cleanup in a separate effect to avoid infinite loop
   useEffect(() => {
@@ -211,6 +216,52 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       console.error("Failed to undo tag:", error);
     }
   };
+
+  const handleLinkClick = (docId: string) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set('docId', docId);
+    window.history.pushState({}, '', url);
+    
+    setHighlightedDocId(docId);
+    setExpanded(prev => ({ ...prev, [docId]: true }));
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(url.toString()).then(() => {
+      setShowCopyToast(true);
+      if (copyToastTimerRef.current) clearTimeout(copyToastTimerRef.current);
+      copyToastTimerRef.current = setTimeout(() => setShowCopyToast(false), 3000);
+    });
+
+    // Scroll to the document
+    setTimeout(() => {
+      const element = document.getElementById(`doc-${docId}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
+
+  // Initial load handling
+  useEffect(() => {
+    if (hasScrolledInitial.current) return;
+    
+    const params = new URLSearchParams(window.location.search);
+    const docId = params.get('docId');
+    if (docId) {
+      setHighlightedDocId(docId);
+      setExpanded(prev => ({ ...prev, [docId]: true }));
+      
+      // Delay scroll to allow for data loading and expansion rendering
+      const timer = setTimeout(() => {
+        const element = document.getElementById(`doc-${docId}`);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          hasScrolledInitial.current = true;
+        }
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [initialData]);
 
   const columns = useMemo<ColumnDef<any>[]>(() => [
     {
@@ -396,7 +447,12 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         toggleAllExpanded={() => table.toggleAllRowsExpanded()}
       />
 
-      <DesktopTable table={table} pendingHides={pendingHides} />
+      <DesktopTable 
+        table={table} 
+        pendingHides={pendingHides} 
+        highlightedDocId={highlightedDocId}
+        onLinkClick={handleLinkClick}
+      />
 
       <div className="xl:hidden flex flex-col">
         {table.getRowModel().rows.map(row => (
@@ -406,6 +462,8 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
             onTagChange={onTagChange}
             isPending={!!pendingHides[row.original.docId]}
             isAuthenticated={isAuthenticated}
+            highlightedDocId={highlightedDocId}
+            onLinkClick={handleLinkClick}
           />
         ))}
       </div>
@@ -417,6 +475,15 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         onUndo={handleUndo} 
         onClose={() => setShowUndo(false)} 
       />
+
+      {showCopyToast && (
+        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 animate-in fade-in slide-in-from-bottom-4 duration-300">
+          <div className="bg-gray-900 text-white px-6 py-3 rounded-full shadow-2xl flex items-center gap-3 border border-gray-700">
+            <span className="text-blue-400">🔗</span>
+            <span className="text-sm font-medium text-gray-100">Odkaz na dokument bol skopírovaný</span>
+          </div>
+        </div>
+      )}
 
       {table.getRowModel().rows.length === 0 && (
         <EmptyState onClearFilters={() => {

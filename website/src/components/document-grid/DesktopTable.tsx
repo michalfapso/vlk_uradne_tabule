@@ -6,9 +6,11 @@ import { getBorderColorClass } from './utils';
 interface DesktopTableProps {
   table: Table<any>;
   pendingHides: Record<string, boolean>;
+  highlightedDocId: string | null;
+  onLinkClick: (docId: string) => void;
 }
 
-export const DesktopTable = ({ table, pendingHides }: DesktopTableProps) => {
+export const DesktopTable = ({ table, pendingHides, highlightedDocId, onLinkClick }: DesktopTableProps) => {
   const columnsCount = table.getVisibleLeafColumns().length;
 
   return (
@@ -41,15 +43,17 @@ export const DesktopTable = ({ table, pendingHides }: DesktopTableProps) => {
               const isPending = pendingHides[row.original.docId];
               const data = row.original;
               const borderColorClass = getBorderColorClass(data);
+              const isHighlighted = data.docId === highlightedDocId;
 
               return (
                 <React.Fragment key={row.id}>
                   <tr 
-                    className={`border-b border-gray-100 transition-all duration-700 cursor-pointer border-l-4 ${borderColorClass} ${row.getIsExpanded() ? 'bg-blue-50/50' : 'hover:bg-gray-50'} ${!data.isImportant && !isPending ? 'opacity-60 grayscale-[0.4]' : ''} ${isPending ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+                    id={`doc-${data.docId}`}
+                    className={`border-b border-gray-100 transition-all duration-700 cursor-pointer border-l-4 ${borderColorClass} ${row.getIsExpanded() ? 'bg-blue-50/50' : 'hover:bg-gray-50'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50 shadow-inner' : ''} ${!data.isImportant && !isPending ? 'opacity-60 grayscale-[0.4]' : ''} ${isPending ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
                     onClick={() => row.toggleExpanded()}
                   >
                     {row.getVisibleCells().map(cell => (
-                      <td key={cell.id} className="p-0 align-top">
+                      <td key={cell.id} className="p-0 align-top relative">
                         <div className={`p-3 transition-all duration-700 ${isPending ? 'max-h-0 py-0 opacity-0 overflow-hidden' : ''}`}>
                           {flexRender(cell.column.columnDef.cell, cell.getContext())}
                         </div>
@@ -59,7 +63,7 @@ export const DesktopTable = ({ table, pendingHides }: DesktopTableProps) => {
                   {row.getIsExpanded() && !isPending && (
                     <tr>
                       <td colSpan={columnsCount} className="p-0 border-b border-gray-200">
-                        <ExpandedRowContent row={row} />
+                        <ExpandedRowContent row={row} onLinkClick={onLinkClick} />
                       </td>
                     </tr>
                   )}
@@ -72,3 +76,4 @@ export const DesktopTable = ({ table, pendingHides }: DesktopTableProps) => {
     </div>
   );
 };
+
