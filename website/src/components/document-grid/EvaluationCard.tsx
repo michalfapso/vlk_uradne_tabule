@@ -22,7 +22,7 @@ export const EvaluationCard = ({
 
   return (
     <div 
-      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full cursor-pointer ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 max-h-[1000px] mb-4'} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''}`}
+      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full cursor-pointer ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
       onClick={() => row.toggleExpanded()}
     >
       <div className={`p-4 transition-all duration-700 ${isPending ? 'py-0' : 'py-4'}`}>

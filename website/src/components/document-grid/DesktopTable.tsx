@@ -50,7 +50,7 @@ export const DesktopTable = ({ table, pendingHides }: DesktopTableProps) => {
                   >
                     {row.getVisibleCells().map(cell => (
                       <td key={cell.id} className="p-0 align-top">
-                        <div className={`p-3 transition-all duration-700 ${isPending ? 'max-h-0 py-0 opacity-0 overflow-hidden' : 'max-h-[200px]'}`}>
+                        <div className={`p-3 transition-all duration-700 ${isPending ? 'max-h-0 py-0 opacity-0 overflow-hidden' : ''}`}>
                           {flexRender(cell.column.columnDef.cell, cell.getContext())}
                         </div>
                       </td>
