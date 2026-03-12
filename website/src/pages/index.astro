@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import OkresyStatus from '../components/OkresyStatus.astro';
 import DocumentTable from '../components/DocumentTable.astro';
 import DocumentGrid from '../components/DocumentGrid.tsx';
+import TanStackDocumentGrid from '../components/TanStackDocumentGrid.tsx';
 import Header from '../components/Header.tsx';
 // Import dát vygenerovaných Python skriptom
 // import data from '../../../data/minv/4_diff_analysis.json';
@@ -379,11 +380,17 @@ console.log('data:', JSON.stringify(data, null, 2));
             <OkresyStatus
                 data={minv_okresyStatusData}
             />
-            {/* New PrimeReact based table */}
+            {/* New TanStack Table based grid */}
+            <TanStackDocumentGrid
+                initialData={data}
+                client:load
+            />
+            {/* Old PrimeReact based table
             <DocumentGrid
                 initialData={data}
                 client:load
             />
+            */}
             {/* Old Tabulator based table
             <DocumentTable
                 id="env-documents-table"
