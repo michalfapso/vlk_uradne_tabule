@@ -10,7 +10,7 @@ export const ExpandedRowContent = ({
   const data = row.original;
   const a = data.analyza || {};
   return (
-    <div className="p-4 bg-gray-50 border-t-2 border-blue-500 shadow-inner w-full" onClick={e => e.stopPropagation()}>
+    <div className="p-4 bg-gray-50 shadow-inner w-full" onClick={e => e.stopPropagation()}>
       <div className="mb-6 pb-4 border-b border-gray-200">
         <div className="flex items-center gap-2 mb-2">
           <button
