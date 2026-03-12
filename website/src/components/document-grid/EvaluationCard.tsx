@@ -36,7 +36,7 @@ export const EvaluationCard = ({
                 currentTag={data.myTag} 
                 onTagChange={onTagChange}
                 isPending={isPending}
-                hideLabel={true} 
+                labelSide={true} 
               />
             </div>
           )}
