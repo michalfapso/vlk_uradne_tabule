@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import {
   useReactTable,
   getCoreRowModel,
@@ -23,10 +23,10 @@ interface DocumentGridProps {
 }
 
 const tagOptions = [
-  { label: 'Bez značky', value: null },
-  { label: 'Nedôležité', value: 'nedôležité' },
-  { label: 'Dôležité', value: 'dôležité' },
-  { label: 'Vstupujeme do konania', value: 'vstupujeme do správneho konania' }
+  { label: 'Bez značky', value: null, icon: '✖', color: 'text-gray-400', border: 'border-gray-300' },
+  { label: 'Nedôležité', value: 'nedôležité', icon: '📁', color: 'text-gray-500', border: 'border-gray-500' },
+  { label: 'Dôležité', value: 'dôležité', icon: '⭐', color: 'text-yellow-500', border: 'border-yellow-500' },
+  { label: 'Vstupujeme', value: 'vstupujeme do správneho konania', icon: '✅', color: 'text-green-600', border: 'border-green-600' }
 ];
 
 const categoryColors: Record<string, string> = {
@@ -42,6 +42,274 @@ const categoryColors: Record<string, string> = {
 };
 
 const formatDate = (s: string) => s ? new Date(s).toLocaleDateString("sk-SK") : "N/A";
+
+const TagActionBar = ({ 
+  docId, 
+  datum, 
+  currentTag, 
+  onTagChange, 
+  isPending, 
+  hideLabel = false 
+}: { 
+  docId: string, 
+  datum: string, 
+  currentTag: string | null, 
+  onTagChange: (docId: string, datum: string, newTag: string | null, currentTag: string | null) => void,
+  isPending: boolean,
+  hideLabel?: boolean 
+}) => {
+  const activeOption = tagOptions.find(opt => opt.value === currentTag) || tagOptions[0];
+
+  return (
+    <div className={`flex items-center gap-2 ${isPending ? 'animate-pulse bg-yellow-50 rounded p-1' : ''}`}>
+      <div className="flex items-center gap-1">
+        {tagOptions.map(opt => (
+          <button
+            key={opt.label}
+            onClick={(e) => {
+              e.stopPropagation();
+              onTagChange(docId, datum, opt.value, currentTag);
+            }}
+            title={opt.label}
+            className={`w-7 h-7 flex items-center justify-center rounded-md border transition-all hover:scale-110 ${currentTag === opt.value ? `bg-white shadow-sm border-blue-400 scale-110` : 'bg-gray-50 border-gray-200 opacity-60 hover:opacity-100'}`}
+          >
+            <span className={`text-sm ${opt.color}`}>{opt.icon}</span>
+          </button>
+        ))}
+      </div>
+      {!hideLabel && (
+        <div className="text-[9px] font-bold text-gray-500 uppercase px-1 whitespace-nowrap">
+          {currentTag ? activeOption.label : 'Bez značky'}
+        </div>
+      )}
+    </div>
+  );
+};
+
+const ExpandedRowContent = ({ row }: { row: any }) => {
+  const data = row.original;
+  const a = data.analyza || {};
+  return (
+    <div className="p-4 bg-gray-50 border-t-2 border-blue-500 shadow-inner w-full" onClick={e => e.stopPropagation()}>
+      <div className="mb-6 pb-4 border-b border-gray-200">
+        <h3 className="text-lg font-bold text-blue-900 mb-2">Zhrnutie analýzy</h3>
+        <p className="text-gray-800 leading-relaxed mb-4">{a.zhrnutie || "Bez zhrnutia."}</p>
+        <div className="flex flex-wrap gap-4">
+          <a href={data.url} target="_blank" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">📄 Pôvodný dokument</a>
+          {data.hasGis && (
+            <a href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`} target="_blank" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">🗺️ Mapa</a>
+          )}
+        </div>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+        <div className="space-y-3">
+          <h4 className="font-bold text-gray-700 uppercase text-xs border-b border-gray-300 pb-1 mb-2">Úradné detaily</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-1 text-sm">
+            <div className="text-gray-500">Typ:</div><div className="col-span-2">{a.typ_dokumentu || "N/A"}</div>
+            <div className="text-gray-500">Číslo:</div><div className="col-span-2 font-mono text-xs">{a.cislo_konania_spisu || "N/A"}</div>
+            <div className="text-gray-500">Žiadateľ:</div><div className="col-span-2 font-semibold text-blue-800">{a.ziadatel_navrhovatel || "N/A"}</div>
+            <div className="text-gray-500">Druhy:</div><div className="col-span-2 italic text-xs">{(a.dotknute_zivocichy_rastliny || []).join(", ") || "N/A"}</div>
+            <div className="text-gray-500">Dôležitosť:</div>
+            <div className="col-span-2">
+              <div className="mb-1 flex items-center gap-2">
+                <span className={`font-bold ${
+                  data.myTag === 'vstupujeme do správneho konania' ? "text-green-600" :
+                  data.isImportant ? "text-red-600" : "text-gray-500"
+                }`}>
+                  {data.isImportant ? "Áno" : "Nie"}
+                </span>
+                {data.myTag && (
+                  <span className={`text-[10px] px-1.5 py-0.5 rounded font-bold uppercase ${
+                    data.myTag === 'vstupujeme do správneho konania' ? 'bg-green-100 text-green-800' :
+                    data.myTag === 'dôležité' ? 'bg-yellow-100 text-yellow-800' :
+                    'bg-gray-100 text-gray-800'
+                  }`}>
+                    Vlastná značka: {data.myTag}
+                  </span>
+                )}
+              </div>
+              <div className="text-[10px] text-gray-400 font-normal leading-tight">
+                Auto-detekcia: <span className={data.isImportantSystem ? "font-bold text-red-400" : ""}>{data.isImportantSystem ? "Dôležité" : "Nedôležité"}</span> ({data.importanceReason})
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="space-y-3">
+          <h4 className="font-bold text-gray-700 uppercase text-xs border-b border-gray-300 pb-1 mb-2">Lokalizácia</h4>
+          <div className="text-sm">
+            <div className="grid grid-cols-3 gap-x-2 gap-y-1">
+              <div className="text-gray-500">Kraj:</div><div className="col-span-2">{a.miesto_realizacie?.kraj || "-"}</div>
+              <div className="text-gray-500">Okres:</div><div className="col-span-2">{a.miesto_realizacie?.okres || "-"}</div>
+              <div className="text-gray-500">Obec:</div><div className="col-span-2 font-bold">{a.miesto_realizacie?.obec || "-"}</div>
+              <div className="text-gray-500">Lokalita:</div><div className="col-span-2">{a.miesto_realizacie?.nazov_lokality || "-"}</div>
+              <div className="text-gray-500">Intravilán:</div><div className="col-span-2">{a.miesto_realizacie?.lokalita_zastavane_uzemie ? "Áno" : "Nie"}</div>
+            </div>
+            <div className="mt-2">
+              <div className="text-gray-500 mb-1 font-medium">Katastrálne územia:</div>
+              <ul className="list-disc list-inside text-xs space-y-1">
+                {(a.miesto_realizacie?.katastralne_uzemia || []).map((ku: any, idx: number) => (
+                  <li key={idx}>
+                    <b>{ku.nazov}</b> ({ku.parcely?.map((p: any) => `${p.typ}-KN: ${p.cisla.join(", ")}`).join("; ") || ""})
+                  </li>
+                ))}
+                {(!a.miesto_realizacie?.katastralne_uzemia || a.miesto_realizacie.katastralne_uzemia.length === 0) && <li>N/A</li>}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="space-y-2">
+        {data.status && Array.isArray(data.status) && data.status.length > 0 && (
+          <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-orange-200">
+            <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center text-orange-700">
+              <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Status / Spracovanie ({data.status.length})
+            </summary>
+            <div className="mt-2 space-y-1">
+              {data.status.map((s: any, idx: number) => (
+                <div key={idx} className={`p-2 rounded border ${s.type === 'error' ? 'bg-red-50 border-red-100 text-red-800' : s.type === 'warning' ? 'bg-yellow-50 border-yellow-100 text-yellow-800' : 'bg-blue-50 border-blue-100 text-blue-800'}`}>
+                  <span className="font-mono text-[10px] opacity-60 mr-2">{s.date}</span>
+                  <span className="font-bold uppercase text-[9px] mr-2">[{s.type}]</span>
+                  {s.text}
+                </div>
+              ))}
+            </div>
+          </details>
+        )}
+
+        {data.laws && (
+          <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
+            <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
+              <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Znenia zákonov
+            </summary>
+            <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all font-mono text-[11px]">
+              {data.laws}
+            </pre>
+          </details>
+        )}
+
+        {data.log && (
+          <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
+            <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
+              <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Log
+            </summary>
+            <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all text-[10px] font-mono">
+              {data.log}
+            </pre>
+          </details>
+        )}
+
+        {data.analyza && (
+          <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
+            <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
+              <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> JSON analýza
+            </summary>
+            <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all text-[10px] font-mono">
+              {JSON.stringify(data.analyza, null, 2)}
+            </pre>
+          </details>
+        )}
+      </div>
+    </div>
+  );
+};
+
+const EvaluationCard = ({ 
+  row, 
+  onTagChange, 
+  isPending, 
+  isAuthenticated 
+}: { 
+  row: any, 
+  onTagChange: (docId: string, datum: string, newTag: string | null, currentTag: string | null) => void,
+  isPending: boolean,
+  isAuthenticated: boolean
+}) => {
+  const data = row.original;
+  const a = data.analyza || {};
+  const isExpanded = row.getIsExpanded();
+
+  // Determine color for the side stripe/border
+  let borderColorClass = data.isImportant ? 'border-l-red-600' : 'border-l-gray-300';
+  if (data.myTag === 'vstupujeme do správneho konania') {
+    borderColorClass = 'border-l-green-600';
+  } else if (data.myTag === 'nedôležité') {
+    borderColorClass = 'border-l-gray-300';
+  } else if (data.myTag === 'dôležité') {
+    borderColorClass = 'border-l-red-600';
+  }
+
+  return (
+    <div 
+      className={`bg-white rounded-xl shadow-md border-l-4 mb-4 overflow-hidden transition-all duration-700 w-full ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0' : 'opacity-100 max-h-[1000px]'} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''}`}
+      onClick={() => row.toggleExpanded()}
+    >
+      <div className={`p-4 transition-all duration-700 ${isPending ? 'py-0' : 'py-4'}`}>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-3">
+          <div className="text-xs font-bold text-gray-500 uppercase whitespace-nowrap">{formatDate(data.datum_display)}</div>
+          {isAuthenticated && (
+            <div onClick={e => e.stopPropagation()}>
+              <TagActionBar 
+                docId={data.docId} 
+                datum={data.datum_display} 
+                currentTag={data.myTag} 
+                onTagChange={onTagChange}
+                isPending={isPending}
+                hideLabel={true} 
+              />
+            </div>
+          )}
+          <div className="flex flex-wrap gap-1">
+            {(a.kategorie_vlk || []).map((cat: string, idx: number) => (
+              <span key={idx} className={`px-1.5 py-0.5 rounded text-[8px] font-bold uppercase ${categoryColors[cat] || 'bg-gray-200 text-gray-700'}`}>
+                {cat}
+              </span>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-1">
+            {/* Ochrana Badges */}
+            {a.gis?.zasiahnute_chranene_uzemia?.['5st_konsUEV'] && <span className="px-1.5 py-0.5 bg-red-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">5. STUPEŇ!</span>}
+            {(a.gis?.zasiahnute_chranene_uzemia?.['UEV'] || a.gis?.zasiahnute_chranene_uzemia?.['CHVU']) && <span className="px-1.5 py-0.5 bg-green-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">Natura 2000</span>}
+            {data.hasGis && (
+              <a 
+                href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`}
+                target="_blank"
+                onClick={(e) => e.stopPropagation()}
+                className="px-1.5 py-0.5 bg-blue-100 text-blue-800 border border-blue-200 rounded text-[8px] font-bold uppercase shadow-sm hover:bg-blue-200 transition-colors cursor-pointer no-underline"
+              >
+                🗺️ MAPA
+              </a>
+            )}
+          </div>
+        </div>
+        
+        <h4 className="text-sm font-bold text-gray-900 mb-2 leading-snug line-clamp-2">
+          {Array.isArray(a.typ_zasahu) ? a.typ_zasahu.join(", ") : (a.typ_zasahu || data.nazov || "-")}
+        </h4>
+
+        {/* Wider screens inside mobile view (labels/values on same line) */}
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-x-6 gap-y-2 text-[11px] mb-1">
+          <div className="flex items-center gap-2">
+            <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Lokalita:</span>
+            <span className="font-bold text-gray-800">{a.miesto_realizacie?.obec || "-"}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Žiadateľ:</span>
+            <span className="font-medium text-blue-800 line-clamp-1">{a.ziadatel_navrhovatel || "-"}</span>
+          </div>
+        </div>
+      </div>
+      
+      {isExpanded && (
+        <div className="bg-gray-50 border-t border-gray-200 animate-in slide-in-from-top duration-200">
+          <ExpandedRowContent row={row} />
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default function TanStackDocumentGrid({ initialData }: DocumentGridProps) {
   return (
@@ -64,6 +332,12 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
   const [okresFilter, setOkresFilter] = useState<string | null>(null);
   const [regexString, setRegexString] = useState(DEFAULT_REGEX_STRING);
 
+  // Local state for delayed hiding and undo
+  const [pendingHides, setPendingHides] = useState<Record<string, boolean>>({});
+  const [lastAction, setLastAction] = useState<{ docId: string, datum: string, oldTag: string | null } | null>(null);
+  const [showUndo, setShowUndo] = useState(false);
+  const undoTimerRef = useRef<NodeJS.Timeout | null>(null);
+
   const allKraje = useMemo(() => [...new Set(initialData.map(doc => doc.kraj).filter(Boolean))].sort(), [initialData]);
   const allOkresy = useMemo(() => {
     const filteredDocs = krajFilter ? initialData.filter(d => d.kraj === krajFilter) : initialData;
@@ -82,12 +356,14 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       const tagEntry = userTags.find((t: any) => t.docId === doc.docId);
       const importance = isDataImportant(doc, blacklistRegex);
       const isImportantSystem = importance.important;
+      const myTag = tagEntry?.tag || null;
       
       return {
         ...doc,
-        myTag: tagEntry?.tag || null,
+        myTag,
         datum_display: doc.analyza?.datum_zverejnenia || doc.datum,
-        isImportant: isImportantSystem || tagEntry?.tag === 'dôležité' || tagEntry?.tag === 'vstupujeme do správneho konania',
+        isImportant: myTag ? (myTag === 'dôležité' || myTag === 'vstupujeme do správneho konania') : isImportantSystem,
+        isImportantSystem,
         importanceReason: importance.reason
       };
     });
@@ -100,13 +376,38 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     }
 
     if (importantOnly) {
-      return docs.filter(d => d.isImportant);
+      return docs.filter(d => {
+        // If it's pending hide, keep it visible for now
+        if (pendingHides[d.docId]) return true;
+        return d.isImportant;
+      });
     }
 
     return docs;
-  }, [initialData, userTags, importantOnly, krajFilter, okresFilter, regexString]);
+  }, [initialData, userTags, importantOnly, krajFilter, okresFilter, regexString, pendingHides]);
 
-  const onTagChange = async (docId: string, datum: string, newTag: string | null) => {
+  const onTagChange = async (docId: string, datum: string, newTag: string | null, currentTag: string | null) => {
+    // Save for undo
+    setLastAction({ docId, datum, oldTag: currentTag });
+    setShowUndo(true);
+    if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+    undoTimerRef.current = setTimeout(() => setShowUndo(false), 5000);
+
+    // Check if we should delay hiding
+    const doc = dataWithTags.find(d => d.docId === docId);
+    const wouldBeHidden = importantOnly && doc && doc.isImportant && (newTag === 'nedôležité' || newTag === null);
+    
+    if (wouldBeHidden) {
+      setPendingHides(prev => ({ ...prev, [docId]: true }));
+      setTimeout(() => {
+        setPendingHides(prev => {
+          const next = { ...prev };
+          delete next[docId];
+          return next;
+        });
+      }, 2000);
+    }
+
     try {
       await setTagMutation({
         docId: docId,
@@ -115,6 +416,31 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       });
     } catch (error) {
       console.error("Failed to set tag:", error);
+    }
+  };
+
+  const handleUndo = async () => {
+    if (!lastAction) return;
+    const { docId, datum, oldTag } = lastAction;
+    
+    try {
+      await setTagMutation({
+        docId: docId,
+        tag: oldTag || "",
+        docDate: datum || new Date().toISOString()
+      });
+      
+      // Clear pending hide ONLY after mutation is successful
+      setPendingHides(prev => {
+        const next = { ...prev };
+        delete next[docId];
+        return next;
+      });
+
+      setLastAction(null);
+      setShowUndo(false);
+    } catch (error) {
+      console.error("Failed to undo tag:", error);
     }
   };
 
@@ -127,15 +453,13 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         const rowData = info.row.original;
         return (
           <div onClick={(e) => e.stopPropagation()}>
-            <select
-              value={rowData.myTag || ''}
-              onChange={(e) => onTagChange(rowData.docId, rowData.datum_display, e.target.value)}
-              className="w-full text-[11px] border border-gray-300 rounded px-1 py-1 bg-white hover:border-blue-400 transition-colors outline-none"
-            >
-              {tagOptions.map(opt => (
-                <option key={opt.label} value={opt.value || ''}>{opt.label}</option>
-              ))}
-            </select>
+            <TagActionBar 
+              docId={rowData.docId} 
+              datum={rowData.datum_display} 
+              currentTag={rowData.myTag} 
+              onTagChange={onTagChange}
+              isPending={!!pendingHides[rowData.docId]}
+            />
           </div>
         );
       },
@@ -285,182 +609,6 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     getRowId: row => row.docId,
   });
 
-  const renderExpandedRow = (row: any) => {
-    const data = row.original;
-    const a = data.analyza || {};
-    return (
-      <div className="p-4 bg-gray-50 border-t-2 border-blue-500 shadow-inner w-full" onClick={e => e.stopPropagation()}>
-        <div className="mb-6 pb-4 border-b border-gray-200">
-          <h3 className="text-lg font-bold text-blue-900 mb-2">Zhrnutie analýzy</h3>
-          <p className="text-gray-800 leading-relaxed mb-4">{a.zhrnutie || "Bez zhrnutia."}</p>
-          <div className="flex flex-wrap gap-4">
-            <a href={data.url} target="_blank" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">📄 Pôvodný dokument</a>
-            {data.hasGis && (
-              <a href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`} target="_blank" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">🗺️ Mapa</a>
-            )}
-          </div>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
-          <div className="space-y-3">
-            <h4 className="font-bold text-gray-700 uppercase text-xs border-b border-gray-300 pb-1 mb-2">Úradné detaily</h4>
-            <div className="grid grid-cols-3 gap-x-2 gap-y-1 text-sm">
-              <div className="text-gray-500">Typ:</div><div className="col-span-2">{a.typ_dokumentu || "N/A"}</div>
-              <div className="text-gray-500">Číslo:</div><div className="col-span-2 font-mono text-xs">{a.cislo_konania_spisu || "N/A"}</div>
-              <div className="text-gray-500">Žiadateľ:</div><div className="col-span-2 font-semibold text-blue-800">{a.ziadatel_navrhovatel || "N/A"}</div>
-              <div className="text-gray-500">Druhy:</div><div className="col-span-2 italic text-xs">{(a.dotknute_zivocichy_rastliny || []).join(", ") || "N/A"}</div>
-              <div className="text-gray-500">Dôležitosť:</div><div className="col-span-2"><span className={data.isImportant ? "font-bold text-red-600" : "text-gray-500"}>{data.isImportant ? "Áno" : "Nie"}</span> <span className="text-[10px] text-gray-400 font-normal">({data.importanceReason})</span></div>
-            </div>
-          </div>
-          <div className="space-y-3">
-            <h4 className="font-bold text-gray-700 uppercase text-xs border-b border-gray-300 pb-1 mb-2">Lokalizácia</h4>
-            <div className="text-sm">
-              <div className="grid grid-cols-3 gap-x-2 gap-y-1">
-                <div className="text-gray-500">Kraj:</div><div className="col-span-2">{a.miesto_realizacie?.kraj || "-"}</div>
-                <div className="text-gray-500">Okres:</div><div className="col-span-2">{a.miesto_realizacie?.okres || "-"}</div>
-                <div className="text-gray-500">Obec:</div><div className="col-span-2 font-bold">{a.miesto_realizacie?.obec || "-"}</div>
-                <div className="text-gray-500">Lokalita:</div><div className="col-span-2">{a.miesto_realizacie?.nazov_lokality || "-"}</div>
-                <div className="text-gray-500">Intravilán:</div><div className="col-span-2">{a.miesto_realizacie?.lokalita_zastavane_uzemie ? "Áno" : "Nie"}</div>
-              </div>
-              <div className="mt-2">
-                <div className="text-gray-500 mb-1 font-medium">Katastrálne územia:</div>
-                <ul className="list-disc list-inside text-xs space-y-1">
-                  {(a.miesto_realizacie?.katastralne_uzemia || []).map((ku: any, idx: number) => (
-                    <li key={idx}>
-                      <b>{ku.nazov}</b> ({ku.parcely?.map((p: any) => `${p.typ}-KN: ${p.cisla.join(", ")}`).join("; ") || ""})
-                    </li>
-                  ))}
-                  {(!a.miesto_realizacie?.katastralne_uzemia || a.miesto_realizacie.katastralne_uzemia.length === 0) && <li>N/A</li>}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="space-y-2">
-          {data.status && Array.isArray(data.status) && data.status.length > 0 && (
-            <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-orange-200">
-              <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center text-orange-700">
-                <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Status / Spracovanie ({data.status.length})
-              </summary>
-              <div className="mt-2 space-y-1">
-                {data.status.map((s: any, idx: number) => (
-                  <div key={idx} className={`p-2 rounded border ${s.type === 'error' ? 'bg-red-50 border-red-100 text-red-800' : s.type === 'warning' ? 'bg-yellow-50 border-yellow-100 text-yellow-800' : 'bg-blue-50 border-blue-100 text-blue-800'}`}>
-                    <span className="font-mono text-[10px] opacity-60 mr-2">{s.date}</span>
-                    <span className="font-bold uppercase text-[9px] mr-2">[{s.type}]</span>
-                    {s.text}
-                  </div>
-                ))}
-              </div>
-            </details>
-          )}
-
-          {data.laws && (
-            <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
-              <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
-                <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Znenia zákonov
-              </summary>
-              <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all font-mono text-[11px]">
-                {data.laws}
-              </pre>
-            </details>
-          )}
-
-          {data.log && (
-            <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
-              <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
-                <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> Log
-              </summary>
-              <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all text-[10px] font-mono">
-                {data.log}
-              </pre>
-            </details>
-          )}
-
-          {data.analyza && (
-            <details className="group text-xs text-gray-500 bg-white p-2 rounded border border-gray-200">
-              <summary className="cursor-pointer hover:text-gray-800 font-medium list-none flex items-center">
-                <span className="mr-2 transform transition-transform group-open:rotate-90">▶</span> JSON analýza
-              </summary>
-              <pre className="mt-2 p-3 bg-gray-50 rounded border border-gray-100 overflow-x-auto whitespace-pre-wrap break-all text-[10px] font-mono">
-                {JSON.stringify(data.analyza, null, 2)}
-              </pre>
-            </details>
-          )}
-        </div>
-      </div>
-    );
-  };
-
-  const EvaluationCard = ({ row }: { row: any }) => {
-    const data = row.original;
-    const a = data.analyza || {};
-    const isExpanded = row.getIsExpanded();
-
-    return (
-      <div 
-        className={`bg-white rounded-xl shadow-md border-l-4 mb-4 overflow-hidden transition-all w-full ${data.isImportant ? 'border-l-red-600' : 'border-l-gray-300 opacity-80 grayscale-[0.3]'}`}
-        onClick={() => row.toggleExpanded()}
-      >
-        <div className="p-4">
-          {isAuthenticated && (
-            <div className="mb-3" onClick={e => e.stopPropagation()}>
-              <select
-                value={data.myTag || ''}
-                onChange={(e) => onTagChange(data.docId, data.datum_display, e.target.value)}
-                className="w-full text-xs border border-blue-200 rounded-lg px-2 py-2 bg-blue-50 font-bold text-blue-800 focus:ring-2 focus:ring-blue-500 outline-none"
-              >
-                {tagOptions.map(opt => (
-                  <option key={opt.label} value={opt.value || ''}>{opt.label}</option>
-                ))}
-              </select>
-            </div>
-          )}
-
-          <div className="flex justify-between items-start mb-2">
-            <div className="text-xs font-bold text-gray-500 uppercase">{formatDate(data.datum_display)}</div>
-            <div className="flex flex-wrap gap-1 justify-end max-w-[60%]">
-              {(a.kategorie_vlk || []).map((cat: string, idx: number) => (
-                <span key={idx} className={`px-1.5 py-0.5 rounded text-[8px] font-bold uppercase ${categoryColors[cat] || 'bg-gray-200 text-gray-700'}`}>
-                  {cat}
-                </span>
-              ))}
-            </div>
-          </div>
-          
-          <h4 className="text-sm font-bold text-gray-900 mb-2 leading-snug line-clamp-2">
-            {Array.isArray(a.typ_zasahu) ? a.typ_zasahu.join(", ") : (a.typ_zasahu || data.nazov || "-")}
-          </h4>
-
-          {/* Wider screens inside mobile view (labels/values on same line) */}
-          <div className="flex flex-col sm:flex-row sm:flex-wrap gap-x-6 gap-y-2 text-[11px] mb-3">
-            <div className="flex items-center gap-2">
-              <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Lokalita:</span>
-              <span className="font-bold text-gray-800">{a.miesto_realizacie?.obec || "-"}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Žiadateľ:</span>
-              <span className="font-medium text-blue-800 line-clamp-1">{a.ziadatel_navrhovatel || "-"}</span>
-            </div>
-            <div className="flex flex-wrap items-center gap-1 sm:ml-auto pt-1 sm:pt-0">
-              {/* Ochrana Badges for Mobile */}
-              {a.gis?.zasiahnute_chranene_uzemia?.['5st_konsUEV'] && <span className="px-1.5 py-0.5 bg-red-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">5. STUPEŇ!</span>}
-              {(a.gis?.zasiahnute_chranene_uzemia?.['UEV'] || a.gis?.zasiahnute_chranene_uzemia?.['CHVU']) && <span className="px-1.5 py-0.5 bg-green-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">Natura 2000</span>}
-              {data.hasGis && <span className="px-1.5 py-0.5 bg-blue-100 text-blue-800 border border-blue-200 rounded text-[8px] font-bold uppercase shadow-sm">🗺️ MAPA</span>}
-              {data.status && Array.isArray(data.status) && data.status.some((s: any) => s.type === 'error') && <span className="px-1.5 py-0.5 bg-red-100 text-red-600 border border-red-200 rounded text-[8px] font-bold uppercase shadow-sm">⚠️ CHYBY</span>}
-            </div>
-          </div>
-        </div>
-        
-        {isExpanded && (
-          <div className="bg-gray-50 border-t border-gray-200 animate-in slide-in-from-top duration-200">
-            {renderExpandedRow(row)}
-          </div>
-        )}
-      </div>
-    );
-  };
-
   return (
     <div className="document-grid-container flex flex-col gap-4 mb-8 font-sans">
       {/* Controls */}
@@ -548,36 +696,59 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
               ))}
             </thead>
             <tbody>
-              {table.getRowModel().rows.map(row => (
-                <React.Fragment key={row.id}>
-                  <tr 
-                    className={`border-b border-gray-100 transition-colors cursor-pointer ${row.getIsExpanded() ? 'bg-blue-50/50' : 'hover:bg-gray-50'} ${!row.original.isImportant ? 'opacity-60 grayscale-[0.4]' : ''}`}
-                    onClick={() => row.toggleExpanded()}
-                  >
-                    {row.getVisibleCells().map(cell => (
-                      <td key={cell.id} className="p-3 align-top">
-                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                      </td>
-                    ))}
-                  </tr>
-                  {row.getIsExpanded() && (
-                    <tr>
-                      <td colSpan={columns.length} className="p-0 border-b border-gray-200">
-                        {renderExpandedRow(row)}
-                      </td>
+              {table.getRowModel().rows.map(row => {
+                const isPending = pendingHides[row.original.docId];
+                const data = row.original;
+                
+                // Determine color for the side stripe/border
+                let borderColorClass = data.isImportant ? 'border-l-red-600' : 'border-l-gray-300';
+                if (data.myTag === 'vstupujeme do správneho konania') {
+                  borderColorClass = 'border-l-green-600';
+                } else if (data.myTag === 'nedôležité') {
+                  borderColorClass = 'border-l-gray-300';
+                } else if (data.myTag === 'dôležité') {
+                  borderColorClass = 'border-l-red-600';
+                }
+
+                return (
+                  <React.Fragment key={row.id}>
+                    <tr 
+                      className={`border-b border-gray-100 transition-all duration-700 cursor-pointer border-l-4 ${borderColorClass} ${row.getIsExpanded() ? 'bg-blue-50/50' : 'hover:bg-gray-50'} ${!data.isImportant && !isPending ? 'opacity-60 grayscale-[0.4]' : ''} ${isPending ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+                      onClick={() => row.toggleExpanded()}
+                    >
+                      {row.getVisibleCells().map(cell => (
+                        <td key={cell.id} className="p-0 align-top">
+                          <div className={`p-3 transition-all duration-700 ${isPending ? 'max-h-0 py-0 opacity-0 overflow-hidden' : 'max-h-[200px]'}`}>
+                            {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                          </div>
+                        </td>
+                      ))}
                     </tr>
-                  )}
-                </React.Fragment>
-              ))}
+                    {row.getIsExpanded() && !isPending && (
+                      <tr>
+                        <td colSpan={columns.length} className="p-0 border-b border-gray-200">
+                          <ExpandedRowContent row={row} />
+                        </td>
+                      </tr>
+                    )}
+                  </React.Fragment>
+                );
+              })}
             </tbody>
           </table>
         </div>
       </div>
 
       {/* Mobile View (now shown up to xl breakpoint) */}
-      <div className="xl:hidden flex flex-col gap-4">
+      <div className="xl:hidden flex flex-col">
         {table.getRowModel().rows.map(row => (
-          <EvaluationCard key={row.id} row={row} />
+          <EvaluationCard 
+            key={row.id} 
+            row={row} 
+            onTagChange={onTagChange}
+            isPending={!!pendingHides[row.original.docId]}
+            isAuthenticated={isAuthenticated}
+          />
         ))}
       </div>
 
@@ -652,6 +823,27 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         </select>
       </div>
 
+      {/* Undo Toast */}
+      {showUndo && lastAction && (
+        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 animate-in fade-in slide-in-from-bottom-4 duration-300">
+          <div className="bg-gray-900 text-white px-6 py-3 rounded-full shadow-2xl flex items-center gap-4 border border-gray-700">
+            <span className="text-sm font-medium">Zmena značky uložená</span>
+            <button 
+              onClick={handleUndo}
+              className="bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full transition-colors uppercase tracking-wider"
+            >
+              Späť
+            </button>
+            <button 
+              onClick={() => setShowUndo(false)}
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+
       {table.getRowModel().rows.length === 0 && (
         <div className="text-center py-20 bg-white rounded-xl shadow-inner border border-dashed border-gray-300">
           <div className="text-4xl mb-4">🔍</div>
@@ -672,3 +864,4 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     </div>
   );
 }
+
