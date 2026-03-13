@@ -26,7 +26,13 @@ export const ExpandedRowContent = ({
         <div className="flex flex-wrap gap-4">
           <a href={data.url} target="_blank" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">📄 Pôvodný dokument</a>
           {data.hasGis && (
-            <a href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`} target="_blank" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer text-sm no-underline transition-colors shadow-sm">🗺️ Mapa</a>
+            <a 
+              href={`https://michalfapso.github.io/vlk_zonacia_tanap/?ext_url=https://michalfapso.github.io/vlk_uradne_tabule/data/${data.docId}/gis.geojson&ext_crs=EPSG:4326`} 
+              target="_blank" 
+              className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer text-sm no-underline transition-colors shadow-sm"
+            >
+              🗺️ Mapa{a.gis?.source_type ? ` (${a.gis.source_type === 'KATASTRALNE_UZEMIE' ? 'KU' : a.gis.source_type})` : ""}
+            </a>
           )}
         </div>
       </div>

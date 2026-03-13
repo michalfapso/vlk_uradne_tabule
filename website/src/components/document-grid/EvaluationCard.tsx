@@ -28,10 +28,10 @@ export const EvaluationCard = ({
   return (
     <div 
       id={`doc-${data.docId}`}
-      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full cursor-pointer ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50' : ''} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
+      className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50' : ''} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
       onClick={() => row.toggleExpanded()}
     >
-      <div className={`p-4 transition-all duration-700 ${isPending ? 'py-0' : 'py-4'}`}>
+      <div className={`p-4 cursor-pointer transition-all duration-700 ${isPending ? 'py-0' : 'py-4'}`}>
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-3">
           <div className="text-xs font-bold text-gray-500 uppercase whitespace-nowrap">{formatDate(data.datum_display)}</div>
           {isAuthenticated && (
@@ -56,8 +56,19 @@ export const EvaluationCard = ({
 
           <div className="flex flex-wrap items-center gap-1">
             {/* Ochrana Badges */}
+            {a.gis?.source_type && (
+              <span className="px-1.5 py-0.5 bg-gray-600 text-white rounded text-[8px] font-bold uppercase shadow-sm">
+                {a.gis.source_type === 'KATASTRALNE_UZEMIE' ? 'KU' : a.gis.source_type}
+              </span>
+            )}
             {a.gis?.zasiahnute_chranene_uzemia?.['5st_konsUEV'] && <span className="px-1.5 py-0.5 bg-red-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">5. STUPEŇ!</span>}
             {(a.gis?.zasiahnute_chranene_uzemia?.['UEV'] || a.gis?.zasiahnute_chranene_uzemia?.['CHVU']) && <span className="px-1.5 py-0.5 bg-green-700 text-white rounded text-[8px] font-bold uppercase shadow-sm">Natura 2000</span>}
+            {Array.isArray(a.typ_uzemia) && a.typ_uzemia.some((t: string) => /chko|národný park/i.test(t)) && (
+              <span className="px-1.5 py-0.5 bg-green-600 text-white rounded text-[8px] font-bold uppercase shadow-sm">CHKO/NP</span>
+            )}
+            {a.miesto_realizacie?.lokalita_zastavane_uzemie && (
+              <span className="px-1.5 py-0.5 bg-gray-400 text-white rounded text-[8px] font-bold uppercase shadow-sm">Intravilán</span>
+            )}
             
             {data.hasGis && (
               <a 
@@ -85,6 +96,18 @@ export const EvaluationCard = ({
             <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Žiadateľ:</span>
             <span className="font-medium text-blue-800 line-clamp-1">{a.ziadatel_navrhovatel || "-"}</span>
           </div>
+          {a.zakony && Array.isArray(a.zakony) && a.zakony.length > 0 && (
+            <div className="flex items-center gap-2">
+              <span className="text-gray-500 text-[9px] uppercase font-bold tracking-tighter whitespace-nowrap">Zákony:</span>
+              <span className="font-medium text-gray-800">
+                {a.zakony.map((l: any, idx: number) => (
+                  <span key={idx}>
+                    {idx > 0 && ", "}{l.cislo}{l.paragrafy ? ` (§ ${l.paragrafy.join(", ")})` : ""}
+                  </span>
+                ))}
+              </span>
+            </div>
+          )}
         </div>
       </div>
       

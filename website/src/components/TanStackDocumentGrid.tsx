@@ -357,6 +357,11 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         const a = rowData.analyza || {};
         const g = a.gis?.zasiahnute_chranene_uzemia || a.zasiahnute_chranene_uzemia;
         const badges = [];
+        const sourceType = a.gis?.source_type;
+        if (sourceType) {
+          const displayType = sourceType === 'KATASTRALNE_UZEMIE' ? 'KU' : sourceType;
+          badges.push(<span key="source-type" className="px-1.5 py-0.5 bg-gray-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block shadow-sm">{displayType}</span>);
+        }
         if (g) {
           if (g['5st_konsUEV']) badges.push(<span key="5st" className="px-1.5 py-0.5 bg-red-700 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block shadow-sm">5. STUPEŇ!</span>);
           if (g['MCHU']) badges.push(<span key="mchu" className="px-1.5 py-0.5 bg-red-600 text-white rounded text-[9px] font-bold uppercase mb-1 inline-block shadow-sm">MCHU</span>);
