@@ -2,6 +2,7 @@ Analyzuj text dokumentu z úradnej tabule okresného úradu životného prostred
 
 Vráť *len* JSON s nasledujúcou štruktúrou. Neuvádzaj žiadny iný text pred ani po JSON objekte.
 
+```
 {
   "cislo_konania_spisu": "...",
   "cislo_rozhodnutia": "...",
@@ -49,6 +50,7 @@ Vráť *len* JSON s nasledujúcou štruktúrou. Neuvádzaj žiadny iný text pre
   ],
   "zhrnutie": "..."
 }
+```
 
 Popis polí a pravidlá extrakcie:
 
