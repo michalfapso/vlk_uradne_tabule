@@ -48,7 +48,7 @@ export const DesktopTable = ({ table, pendingHides, highlightedDocId, onLinkClic
               return (
                 <React.Fragment key={row.id}>
                   <tr 
-                    id={`doc-${data.docId}`}
+                    id={`doc-row-${data.docId}`}
                     className={`border-b border-gray-100 transition-all duration-700 cursor-pointer border-l-4 ${borderColorClass} ${row.getIsExpanded() ? 'bg-blue-50/50' : 'hover:bg-gray-50'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50 shadow-inner' : ''} ${!data.isImportant && !isPending ? 'opacity-60 grayscale-[0.4]' : ''} ${isPending ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
                     onClick={() => row.toggleExpanded()}
                   >
@@ -76,4 +76,5 @@ export const DesktopTable = ({ table, pendingHides, highlightedDocId, onLinkClic
     </div>
   );
 };
+
 

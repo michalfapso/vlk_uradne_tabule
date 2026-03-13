@@ -27,7 +27,7 @@ export const EvaluationCard = ({
 
   return (
     <div 
-      id={`doc-${data.docId}`}
+      id={`doc-card-${data.docId}`}
       className={`bg-white rounded-xl shadow-md border-l-4 overflow-hidden transition-all duration-700 w-full ${borderColorClass} ${isPending ? 'opacity-0 max-h-0 mb-0 pointer-events-none' : 'opacity-100 mb-4'} ${isHighlighted ? 'ring-2 ring-blue-500 ring-inset bg-blue-50' : ''} ${!data.isImportant && !isPending ? 'grayscale-[0.3]' : ''} ${isExpanded ? 'max-h-none' : 'max-h-[1000px]'}`}
       onClick={() => row.toggleExpanded()}
     >

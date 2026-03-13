@@ -223,7 +223,7 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     window.history.pushState({}, '', url);
     
     setHighlightedDocId(docId);
-    setExpanded(prev => ({ ...prev, [docId]: true }));
+    setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
     
     // Copy to clipboard
     navigator.clipboard.writeText(url.toString()).then(() => {
@@ -234,34 +234,16 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
 
     // Scroll to the document
     setTimeout(() => {
-      const element = document.getElementById(`doc-${docId}`);
+      const element = [
+        document.getElementById(`doc-row-${docId}`),
+        document.getElementById(`doc-card-${docId}`)
+      ].find(el => el && el.offsetParent !== null);
+
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
-    }, 100);
+    }, 500);
   };
-
-  // Initial load handling
-  useEffect(() => {
-    if (hasScrolledInitial.current) return;
-    
-    const params = new URLSearchParams(window.location.search);
-    const docId = params.get('docId');
-    if (docId) {
-      setHighlightedDocId(docId);
-      setExpanded(prev => ({ ...prev, [docId]: true }));
-      
-      // Delay scroll to allow for data loading and expansion rendering
-      const timer = setTimeout(() => {
-        const element = document.getElementById(`doc-${docId}`);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          hasScrolledInitial.current = true;
-        }
-      }, 500);
-      return () => clearTimeout(timer);
-    }
-  }, [initialData]);
 
   const columns = useMemo<ColumnDef<any>[]>(() => [
     {
@@ -432,6 +414,73 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     getRowCanExpand: () => true,
     getRowId: row => row.docId,
   });
+
+  // Handle URL-linked document and initial load
+  useEffect(() => {
+    if (initialData.length === 0) return;
+    
+    const params = new URLSearchParams(window.location.search);
+    const docId = params.get('docId');
+    if (!docId) return;
+
+    // 1. Automatic "Important Only" Toggle
+    if (importantOnly) {
+      const doc = initialData.find(d => d.docId === docId);
+      if (doc) {
+        let blacklistRegex: RegExp | null = null;
+        try {
+          blacklistRegex = new RegExp(regexString, "i");
+        } catch (e) {}
+        
+        const tagEntry = userTags.find((t: any) => t.docId === docId);
+        const myTag = tagEntry?.tag || null;
+        const importance = isDataImportant(doc, blacklistRegex);
+        const isImportant = myTag ? (myTag === 'dôležité' || myTag === 'vstupujeme do správneho konania') : importance.important;
+
+        if (!isImportant) {
+          setImportantOnly(false);
+          return; // Wait for re-render
+        }
+      }
+    }
+
+    // 2. Ensure it's expanded and highlighted
+    if (highlightedDocId !== docId) {
+      setHighlightedDocId(docId);
+    }
+    const isExpanded = expanded === true || (typeof expanded === 'object' && expanded[docId]);
+    if (!isExpanded) {
+      setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
+    }
+
+    // 3. Jump to correct page
+    const allFilteredRows = table.getFilteredRowModel().rows;
+    const rowIndex = allFilteredRows.findIndex(r => r.original.docId === docId);
+    if (rowIndex !== -1) {
+      const pageSize = table.getState().pagination.pageSize;
+      const targetPage = Math.floor(rowIndex / pageSize);
+      if (table.getState().pagination.pageIndex !== targetPage) {
+        table.setPageIndex(targetPage);
+        return; // Wait for page change to render
+      }
+    }
+
+    // 4. Scroll to it once it's rendered
+    if (!hasScrolledInitial.current) {
+      const timer = setTimeout(() => {
+        const element = [
+          document.getElementById(`doc-row-${docId}`),
+          document.getElementById(`doc-card-${docId}`)
+        ].find(el => el && el.offsetParent !== null);
+
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          hasScrolledInitial.current = true;
+        }
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [initialData, userTags, importantOnly, table, highlightedDocId, expanded, regexString]);
 
   return (
     <div className="document-grid-container flex flex-col gap-4 mb-8 font-sans">
