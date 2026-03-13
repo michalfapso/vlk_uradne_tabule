@@ -17,9 +17,13 @@ export default defineConfig({
   // Make sure this matches your repository name!
   base: '/vlk_uradne_tabule/',
   integrations: [tailwind(), react()],
+  devToolbar: {
+    enabled: false
+  },
   vite: {
     ssr: {
       noExternal: ['primereact']
     }
   }
 });
+
