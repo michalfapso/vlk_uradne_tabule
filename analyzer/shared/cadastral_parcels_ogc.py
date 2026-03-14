@@ -409,11 +409,11 @@ def _get_nationalCadastralZoningReferences(katastralneUzemie, obec=None, okres=N
         # 1. Skúsime odstrániť obec/okres z názvu katastrálneho územia (existujúca logika)
         if katastralneUzemie is not None:
             if obec is not None:
-                katastralneUzemie2 = re.sub(r'^' + re.escape(obec) + r'\s*-\s*', '', katastralneUzemie, flags=re.IGNORECASE)
+                katastralneUzemie2 = re.sub(r'^' + re.escape(obec) + r'\s*[-–]\s*', '', katastralneUzemie, flags=re.IGNORECASE)
                 if katastralneUzemie2 != katastralneUzemie:
                     return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
             if okres is not None:
-                katastralneUzemie2 = re.sub(r'^' + re.escape(okres) + r'\s*-\s*', '', katastralneUzemie, flags=re.IGNORECASE)
+                katastralneUzemie2 = re.sub(r'^' + re.escape(okres) + r'\s*[-–]\s*', '', katastralneUzemie, flags=re.IGNORECASE)
                 if katastralneUzemie2 != katastralneUzemie:
                     return _get_nationalCadastralZoningReferences(katastralneUzemie2, obec, okres, kraj)
 
@@ -606,7 +606,7 @@ def get_geometry_of_a_parcel_set(data: dict, status_filepath: str) -> tuple[gpd.
                 changed = False
                 for parcel_set in ku.get('parcely', []):
                     orig = parcel_set.get('cisla', [])
-                    norm = [re.sub(r'^.*\-', '', pn) for pn in orig]
+                    norm = [re.sub(r'^.*[\-–]', '', pn) for pn in orig]
                     if orig != norm:
                         changed = True
                         parcel_set['cisla'] = norm
