@@ -64,6 +64,7 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
   const undoTimerRef = useRef<NodeJS.Timeout | null>(null);
   const copyToastTimerRef = useRef<NodeJS.Timeout | null>(null);
   const hasScrolledInitial = useRef(false);
+  const lastExpandedDocIdRef = useRef<string | null>(null);
 
   const allKraje = useMemo(() => [...new Set(initialData.map(doc => doc.kraj).filter(Boolean))].sort(), [initialData]);
   const allOkresy = useMemo(() => {
@@ -224,6 +225,7 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     
     setHighlightedDocId(docId);
     setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
+    lastExpandedDocIdRef.current = docId;
     
     // Copy to clipboard
     navigator.clipboard.writeText(url.toString()).then(() => {
@@ -421,7 +423,10 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     
     const params = new URLSearchParams(window.location.search);
     const docId = params.get('docId');
-    if (!docId) return;
+    if (!docId) {
+      lastExpandedDocIdRef.current = null;
+      return;
+    }
 
     // 1. Automatic "Important Only" Toggle
     if (importantOnly) {
@@ -444,16 +449,22 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       }
     }
 
-    // 2. Ensure it's expanded and highlighted
+    // 2. Ensure it's highlighted
     if (highlightedDocId !== docId) {
       setHighlightedDocId(docId);
     }
-    const isExpanded = expanded === true || (typeof expanded === 'object' && expanded[docId]);
-    if (!isExpanded) {
-      setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
+
+    // 3. Auto-expand only if this is a new docId from URL
+    // This allows the user to manually collapse it later.
+    if (lastExpandedDocIdRef.current !== docId) {
+      const isExpanded = expanded === true || (typeof expanded === 'object' && expanded[docId]);
+      if (!isExpanded) {
+        setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
+      }
+      lastExpandedDocIdRef.current = docId;
     }
 
-    // 3. Jump to correct page
+    // 4. Jump to correct page
     const allFilteredRows = table.getFilteredRowModel().rows;
     const rowIndex = allFilteredRows.findIndex(r => r.original.docId === docId);
     if (rowIndex !== -1) {
