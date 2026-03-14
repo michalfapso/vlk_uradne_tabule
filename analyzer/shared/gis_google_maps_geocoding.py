@@ -6,7 +6,7 @@ def get_google_maps_geocoding(lokalita_text, api_key=None):
         api_key = os.environ.get("GOOGLE_GEOCODING_API_KEY")
     
     if not api_key:
-        # print("Warning: GOOGLE_GEOCODING_API_KEY not set")
+        print("Warning: GOOGLE_GEOCODING_API_KEY not set")
         return None
 
     # Pridáme "Slovensko" pre lepšiu presnosť, prípadne môžeš pridať aj okres/kraj z JSONu
