@@ -97,7 +97,7 @@ def main():
     # print('PROCESS_SPECIFIC_DOC_IDS:', PROCESS_SPECIFIC_DOC_IDS)
     PROCESS_SPECIFIC_DOC_IDS = None
 
-    FORCE_DOCUMENTS_REPROCESSING = False # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
+    FORCE_DOCUMENTS_REPROCESSING = True # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
 
     documents_to_process = []
     if PROCESS_SPECIFIC_DOC_IDS:
