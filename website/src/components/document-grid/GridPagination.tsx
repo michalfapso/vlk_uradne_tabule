@@ -69,7 +69,7 @@ export const GridPagination = ({ table }: GridPaginationProps) => {
         }}
         className="ml-2 text-xs font-bold bg-gray-50 border border-gray-200 rounded-lg p-1.5 outline-none"
       >
-        {[20, 50, 100].map(pageSize => (
+        {[10, 20, 50, 100].map(pageSize => (
           <option key={pageSize} value={pageSize}>
             Zobraziť {pageSize}
           </option>

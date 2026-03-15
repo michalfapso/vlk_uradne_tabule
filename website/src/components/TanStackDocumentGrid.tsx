@@ -219,14 +219,19 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
   };
 
   const handleLinkClick = (docId: string) => {
+    console.log('[handleLinkClick] Copy-link clicked for docId:', docId, 'Current page:', table.getState().pagination.pageIndex);
     const url = new URL(window.location.href);
     url.searchParams.set('docId', docId);
     window.history.pushState({}, '', url);
-    
+    console.log('[handleLinkClick] URL updated:', url.toString());
+
     setHighlightedDocId(docId);
     setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
-    lastExpandedDocIdRef.current = docId;
-    
+    console.log('[handleLinkClick] Set to expand docId and highlight');
+
+    // Mark that we've handled scrolling so the effect doesn't try to scroll to a different page
+    hasScrolledInitial.current = true;
+
     // Copy to clipboard
     navigator.clipboard.writeText(url.toString()).then(() => {
       setShowCopyToast(true);
@@ -234,7 +239,7 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       copyToastTimerRef.current = setTimeout(() => setShowCopyToast(false), 3000);
     });
 
-    // Scroll to the document
+    // Scroll to the document on the current page
     setTimeout(() => {
       const element = [
         document.getElementById(`doc-row-${docId}`),
@@ -242,7 +247,12 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
       ].find(el => el && el.offsetParent !== null);
 
       if (element) {
+        console.log('[handleLinkClick] Scroll timer fired, scrolling to element');
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        console.log('[handleLinkClick] Element not found on current page, may need page navigation');
+        // Reset the flag so the effect can try to navigate and scroll
+        hasScrolledInitial.current = false;
       }
     }, 500);
   };
@@ -420,9 +430,11 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
   // Handle URL-linked document and initial load
   useEffect(() => {
     if (initialData.length === 0) return;
-    
+
     const params = new URLSearchParams(window.location.search);
     const docId = params.get('docId');
+    console.log('[useEffect-url-handler] Effect triggered. docId from URL:', docId, 'lastExpandedDocIdRef:', lastExpandedDocIdRef.current);
+
     if (!docId) {
       lastExpandedDocIdRef.current = null;
       return;
@@ -436,13 +448,16 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         try {
           blacklistRegex = new RegExp(regexString, "i");
         } catch (e) {}
-        
+
         const tagEntry = userTags.find((t: any) => t.docId === docId);
         const myTag = tagEntry?.tag || null;
         const importance = isDataImportant(doc, blacklistRegex);
         const isImportant = myTag ? (myTag === 'dôležité' || myTag === 'vstupujeme do správneho konania') : importance.important;
 
         if (!isImportant) {
+          console.log('[useEffect-url-handler] Document not important, turning off importantOnly filter');
+          // Reset scroll flag so we can re-evaluate page position after filter changes
+          hasScrolledInitial.current = false;
           setImportantOnly(false);
           return; // Wait for re-render
         }
@@ -451,45 +466,103 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
 
     // 2. Ensure it's highlighted
     if (highlightedDocId !== docId) {
+      console.log('[useEffect-url-handler] Setting highlightedDocId to:', docId);
       setHighlightedDocId(docId);
     }
 
-    // 3. Auto-expand only if this is a new docId from URL
+    // 3. Auto-expand and page navigation — only for new docId from URL
     // This allows the user to manually collapse it later.
+    console.log('[useEffect-url-handler] Checking if new docId:', lastExpandedDocIdRef.current, '!==', docId, '?', lastExpandedDocIdRef.current !== docId);
     if (lastExpandedDocIdRef.current !== docId) {
+      console.log('[useEffect-url-handler] This is a new docId, processing...');
+
+      // Clear default sorting when processing URL docId so document position isn't affected by sort order
+      if (sorting.length > 0) {
+        console.log('[useEffect-url-handler] Clearing default sort to find document in natural order');
+        setSorting([]);
+        return; // Wait for sort change to re-render
+      }
+
+      // Log sort and pagination state
+      const sortingState = table.getState().sorting;
+      const paginationState = table.getState().pagination;
+      console.log('[useEffect-url-handler] Current sort state:', sortingState);
+      console.log('[useEffect-url-handler] Current pagination state:', paginationState);
+
+      // 3a. Jump to correct page first
+      const allFilteredRows = table.getFilteredRowModel().rows;
+      console.log('[useEffect-url-handler] Total filtered rows:', allFilteredRows.length);
+      console.log('[useEffect-url-handler] First 3 docIds in filtered list:', allFilteredRows.slice(0, 3).map(r => r.original.docId));
+      console.log('[useEffect-url-handler] Last 3 docIds in filtered list:', allFilteredRows.slice(-3).map(r => r.original.docId));
+      const rowIndex = allFilteredRows.findIndex(r => r.original.docId === docId);
+      console.log('[useEffect-url-handler] Found docId at rowIndex:', rowIndex);
+
+      if (rowIndex !== -1) {
+        console.log('[useEffect-url-handler] Document at rowIndex:', allFilteredRows[rowIndex]?.original?.docId);
+        const pageSize = table.getState().pagination.pageSize;
+        const currentPageIndex = table.getState().pagination.pageIndex;
+        const targetPage = Math.floor(rowIndex / pageSize);
+        console.log('[useEffect-url-handler] Page calculation - rowIndex:', rowIndex, 'pageSize:', pageSize, 'currentPage:', currentPageIndex, 'targetPage:', targetPage);
+
+        // Show documents at the expected range on target page
+        const startIdx = targetPage * pageSize;
+        const endIdx = startIdx + pageSize;
+        console.log(`[useEffect-url-handler] Documents at indices ${startIdx}-${endIdx} in filtered list:`,
+          allFilteredRows.slice(startIdx, endIdx).map(r => r.original.docId));
+
+        const visibleDocIds = table.getRowModel().rows.map(r => r.original.docId);
+        console.log('[useEffect-url-handler] Visible rows on current page:', visibleDocIds);
+        const docIdIsVisible = visibleDocIds.includes(docId);
+
+        if (currentPageIndex !== targetPage || !docIdIsVisible) {
+          console.log('[useEffect-url-handler] Navigating to page:', targetPage, '(docIdVisible:', docIdIsVisible, ')');
+          table.setPageIndex(targetPage);
+          return; // Wait for page change to render
+        } else {
+          console.log('[useEffect-url-handler] Already on correct page with docId visible');
+        }
+      } else {
+        console.log('[useEffect-url-handler] DocId not found in filtered rows');
+      }
+
+      // 3b. Auto-expand
       const isExpanded = expanded === true || (typeof expanded === 'object' && expanded[docId]);
+      console.log('[useEffect-url-handler] isExpanded:', isExpanded);
       if (!isExpanded) {
+        console.log('[useEffect-url-handler] Expanding docId:', docId);
         setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
       }
+      console.log('[useEffect-url-handler] Setting lastExpandedDocIdRef to:', docId);
       lastExpandedDocIdRef.current = docId;
+    } else {
+      console.log('[useEffect-url-handler] DocId already processed, skipping');
     }
 
-    // 4. Jump to correct page
-    const allFilteredRows = table.getFilteredRowModel().rows;
-    const rowIndex = allFilteredRows.findIndex(r => r.original.docId === docId);
-    if (rowIndex !== -1) {
-      const pageSize = table.getState().pagination.pageSize;
-      const targetPage = Math.floor(rowIndex / pageSize);
-      if (table.getState().pagination.pageIndex !== targetPage) {
-        table.setPageIndex(targetPage);
-        return; // Wait for page change to render
-      }
-    }
-
-    // 4. Scroll to it once it's rendered
+    // 4. Scroll to it once it's rendered (only if not already handled by handleLinkClick)
     if (!hasScrolledInitial.current) {
+      console.log('[useEffect-url-handler] Setting up scroll timer');
       const timer = setTimeout(() => {
-        const element = [
-          document.getElementById(`doc-row-${docId}`),
-          document.getElementById(`doc-card-${docId}`)
-        ].find(el => el && el.offsetParent !== null);
+        console.log('[useEffect-url-handler] Scroll timer fired, looking for element');
+        const rowElement = document.getElementById(`doc-row-${docId}`);
+        const cardElement = document.getElementById(`doc-card-${docId}`);
+        console.log('[useEffect-url-handler] rowElement found:', !!rowElement, 'offsetParent:', rowElement?.offsetParent);
+        console.log('[useEffect-url-handler] cardElement found:', !!cardElement, 'offsetParent:', cardElement?.offsetParent);
+
+        const element = [rowElement, cardElement].find(el => el && el.offsetParent !== null);
 
         if (element) {
+          console.log('[useEffect-url-handler] Found element, scrolling to it');
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
           hasScrolledInitial.current = true;
+        } else {
+          console.log('[useEffect-url-handler] Element not found. Available elements with docId in DOM:',
+            Array.from(document.querySelectorAll(`[id*="${docId}"]`)).map(el => ({ id: el.id, visible: el.offsetParent !== null }))
+          );
         }
       }, 500);
       return () => clearTimeout(timer);
+    } else {
+      console.log('[useEffect-url-handler] Scroll already handled by handleLinkClick, skipping');
     }
   }, [initialData, userTags, importantOnly, table, highlightedDocId, expanded, regexString]);
 
