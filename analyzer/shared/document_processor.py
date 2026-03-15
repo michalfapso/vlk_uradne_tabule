@@ -282,6 +282,25 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
         log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Chyba pri vytváraní adresára {output_dir}: {e}")
         return False
 
+    # Write meta.json if it doesn't already exist
+    meta_path = os.path.join(output_dir, 'meta.json')
+    if not os.path.exists(meta_path):
+        meta_data = {
+            "url": doc_data['url'],
+            "source": doc_data['source'],
+            "datum": doc_data['original_data'].get('datum'),
+            "nazov": doc_data['original_data'].get('nazov'),
+            "kraj": kraj,
+            "okres": okres,
+            "kategoria": doc_data['original_data'].get('kategoria')
+        }
+        try:
+            with open(meta_path, 'w', encoding='utf-8') as f:
+                json.dump(meta_data, f, indent=2, ensure_ascii=False)
+        except IOError as e:
+            log_status(os.path.join(base_docs_dir, 'status.json'), "error", f"Chyba pri zápise meta.json {meta_path}: {e}")
+            return False
+
     log_filepath = os.path.join(output_dir, "log.txt")
     log_file = open(log_filepath, 'a', encoding='utf-8')
     old_stdout = sys.stdout

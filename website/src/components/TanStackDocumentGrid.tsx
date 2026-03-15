@@ -220,10 +220,10 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
 
   const handleLinkClick = (docId: string) => {
     console.log('[handleLinkClick] Copy-link clicked for docId:', docId, 'Current page:', table.getState().pagination.pageIndex);
-    const url = new URL(window.location.href);
-    url.searchParams.set('docId', docId);
-    window.history.pushState({}, '', url);
-    console.log('[handleLinkClick] URL updated:', url.toString());
+    // Copy link to static page: /doc/{docId}/
+    // Note: GitHub Pages base path is /vlk_uradne_tabule/
+    const url = `${window.location.origin}/vlk_uradne_tabule/doc/${docId}/`;
+    console.log('[handleLinkClick] URL for clipboard:', url);
 
     setHighlightedDocId(docId);
     setExpanded(prev => (typeof prev === 'object' ? { ...prev, [docId]: true } : { [docId]: true }));
@@ -233,7 +233,7 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
     hasScrolledInitial.current = true;
 
     // Copy to clipboard
-    navigator.clipboard.writeText(url.toString()).then(() => {
+    navigator.clipboard.writeText(url).then(() => {
       setShowCopyToast(true);
       if (copyToastTimerRef.current) clearTimeout(copyToastTimerRef.current);
       copyToastTimerRef.current = setTimeout(() => setShowCopyToast(false), 3000);
