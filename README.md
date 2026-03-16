@@ -132,6 +132,7 @@ Ak chcete spúšťať analýzu lokálne, postupujte podľa týchto krokov:
       ```
 * [ ] "zasiahnute_chranene_uzemia" niekedy obsahujú duplikáty, treba prečistiť analysis.json a aj to opraviť v kóde.
 * [ ] "zasiahnute_chranene_uzemia" teraz obsahujú len "parcel_label", čo je iba číslo parcely. Malo by tam byť aj katastrálne územie a C/E. Ale zároveň to nemusí byť parcela, ale celé katastrálne územie alebo geoname.
+* [ ] JPRL: Zistiť, či by sme vedeli získať GIS polygón aj pre tieto JPRL. Niektoré dokumenty totiž uvádzajú JPRL namiesto katastrálnych parciel. Napr. "...v prípade lesného porastu JPRL 134A1, 154A0, 199_1, 243A1, 243A2, 119_1 na lesnom celku Pohorelá." 
 
 ### 5. Analýza referencovaných zákonov
 * [ ] Vytiahnuť skript `analyzer/shared/law_references.py` do samostatného repozitára, aby sa dal ľahšie použiť aj v iných externých projektoch.
