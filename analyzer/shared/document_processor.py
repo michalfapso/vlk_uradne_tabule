@@ -378,6 +378,8 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
                     text_content = f.read()
             timers['download_and_text'] = time.time() - t0
 
+            # invalidate_files = True # TESTING ONLY
+
             t0 = time.time()
             laws_filepath = os.path.join(output_dir, "laws.txt")
             laws_excerpts = ''
@@ -446,6 +448,8 @@ def process_document(doc_data: dict, base_docs_dir: str) -> bool:
 
             def process_analysis_data(analysis_data, status_filepath, invalidate_files):
                 # Return analysis_data when modified, else None
+
+                invalidate_files = True # TESTING ONLY
 
                 if 'gis' not in analysis_data:
                     analysis_data['gis'] = {}
