@@ -43,7 +43,7 @@ export const DocumentDetailView = ({
           }}
           hasGis={data?.hasGis || false}
           tagUI={
-            isAuthenticated?.value ? (
+            isAuthenticated ? (
               <div onClick={e => e.stopPropagation()}>
                 <TagActionBar
                   docId={docId}
