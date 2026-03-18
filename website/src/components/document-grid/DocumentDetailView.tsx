@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStore } from '@nanostores/react';
 import { $isAuthenticated } from '../../stores/authStore';
 import { DocumentCardSummary } from './DocumentCardSummary';
@@ -6,28 +6,54 @@ import { ExpandedRowContent } from './ExpandedRowContent';
 import { TagActionBar } from './TagActionBar';
 import { getBorderColorClass } from './utils';
 
+interface AnalyzaData {
+  kategorie_vlk?: string[];
+  typ_zasahu?: string[];
+  typ_dokumentu?: string;
+  cislo_konania_spisu?: string;
+  ziadatel_navrhovatel?: string;
+  zakony?: Array<{ cislo: string; paragrafy?: string[] }>;
+  gis?: {
+    source_type?: string;
+    zasiahnute_chranene_uzemia?: Record<string, any>;
+  };
+  typ_uzemia?: string[];
+  miesto_realizacie?: Record<string, any>;
+  myTag?: string | null;
+  zhrnutie?: string;
+  dotknute_zivocichy_rastliny?: string[];
+  [key: string]: any; // Allow other properties
+}
+
 interface DocumentDetailViewProps {
   docId: string;
   datum_display: string;
   data: {
-    analyza?: any;
+    analyza?: AnalyzaData;
     nazov?: string;
     url?: string;
     hasGis: boolean;
   };
-  isAuthenticated: boolean;
 }
 
 export const DocumentDetailView = ({
   docId,
   datum_display,
-  data,
-  isAuthenticated: initialAuth
+  data
 }: DocumentDetailViewProps) => {
   const isAuthenticated = useStore($isAuthenticated);
   const [currentTag, setCurrentTag] = useState<string | null>(data?.analyza?.myTag || null);
+  const [borderColorClass, setBorderColorClass] = useState<string>(getBorderColorClass(data?.analyza || {}));
 
-  const borderColorClass = getBorderColorClass(data?.analyza || {});
+  // Sync tag state when props change
+  useEffect(() => {
+    setCurrentTag(data?.analyza?.myTag || null);
+  }, [data?.analyza?.myTag]);
+
+  // Recalculate border color when tag changes
+  useEffect(() => {
+    setBorderColorClass(getBorderColorClass(data?.analyza || {}));
+  }, [currentTag, data?.analyza]);
 
   return (
     <div
@@ -77,7 +103,9 @@ export const DocumentDetailView = ({
           onLinkClick={(docId) => {
             // Copy link to clipboard
             const url = `/doc/${docId}`;
-            navigator.clipboard.writeText(url);
+            navigator.clipboard.writeText(url).catch((err) => {
+              console.error('Failed to copy link:', err);
+            });
           }}
         />
       </div>
