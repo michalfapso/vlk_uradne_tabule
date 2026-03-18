@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useStore } from 'nanostores/react';
+import { useStore } from '@nanostores/react';
 import { $isAuthenticated } from '../../stores/authStore';
 import { DocumentCardSummary } from './DocumentCardSummary';
 import { ExpandedRowContent } from './ExpandedRowContent';
