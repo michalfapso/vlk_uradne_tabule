@@ -42,12 +42,12 @@ website/src/components/document-grid/
 │   └── No changes to collapse behavior
 └── ...other components
 
-website/src/components/
+website/src/components/document-grid/
 ├── DocumentDetailView.tsx (NEW - React island for [docId].astro)
 │   ├── Uses: DocumentCardSummary + DocumentDetail
 │   ├── Always shows expanded details
-│   ├── Wraps in ConvexClientProvider
-│   └── Shows TagActionBar when authenticated
+│   ├── Wraps in ConvexClientProvider (parent wrapper in [docId].astro)
+│   └── Shows TagActionBar inline in card header when authenticated
 
 website/src/pages/
 └── doc/[docId].astro (UPDATED)
@@ -70,11 +70,19 @@ interface Props {
   docId: string;
   datum_display: string;
   data: {
-    analyza?: any;
+    analyza?: {
+      kategorie_vlk?: string[];
+      typ_zasahu?: string[];
+      miesto_realizacie?: Record<string, any>;
+      ziadatel_navrhovatel?: string;
+      zakony?: Array<{ cislo: string; paragrafy?: string[] }>;
+      gis?: Record<string, any>;
+      typ_uzemia?: string[];
+    };
     nazov?: string;
   };
   hasGis: boolean;
-  tagUI?: ReactNode; // Optional slot for tag section
+  tagUI?: ReactNode; // Optional slot for tag section (TagActionBar)
 }
 ```
 
@@ -151,7 +159,7 @@ interface Props {
 <Layout>
   <div class="flex items-center justify-between mb-4">
     <h1>Document Details</h1>
-    <a href="/index.astro">← Back to Documents</a>
+    <a href="/">← Back to Documents</a>
   </div>
 
   <div class="max-w-[1200px] mx-auto">
@@ -179,8 +187,9 @@ interface Props {
 ### [docId].astro Render Path
 1. `getStaticPaths()` generates static routes for each document
 2. For each document, extract: `docId`, `datum_display`, `meta`, `analysis`
-3. Determine `isAuthenticated` (client-side check via Astro context or default to false for SSG)
-4. Pass data to `DocumentDetailView` island
+3. Set `isAuthenticated = false` at build time (static pages are pre-rendered, auth is always client-side)
+4. Pass data to `DocumentDetailView` island with `client:load`
+5. At runtime, `DocumentDetailView` calls `useStore($isAuthenticated)` to check actual auth state and show/hide `TagActionBar`
 
 ### DocumentDetailView Runtime
 1. `useStore($isAuthenticated)` checks auth state
@@ -224,7 +233,15 @@ interface Props {
 
 ---
 
-## 7. Styling & CSS
+## 7. TagActionBar Integration
+
+**Visual Placement:** TagActionBar appears inline in the card header (first row, after the date display, before category badges). This matches its position in the grid's mobile card view.
+
+**Implementation:** DocumentCardSummary accepts an optional `tagUI` slot where DocumentDetailView injects `<TagActionBar />`. TagActionBar is wrapped in `onClick={(e) => e.stopPropagation()}` to prevent card interactions.
+
+---
+
+## 8. Styling & CSS
 
 No new CSS needed. Reuse existing Tailwind classes from EvaluationCard:
 - `.border-l-4` for left border (color-coded by importance)
@@ -241,12 +258,24 @@ No new CSS needed. Reuse existing Tailwind classes from EvaluationCard:
 - [ ] Detail page ([docId].astro): shows full expanded content (no collapse)
 - [ ] Authenticated user: can set tags on detail page
 - [ ] Unauthenticated user: tag controls hidden
-- [ ] Navigation: link back to index.astro works
+- [ ] Navigation: link back to index.astro (/) works
+- [ ] Tag mutation succeeds and detail page updates
+- [ ] Tag mutation fails gracefully (error feedback)
+- [ ] Convex auth state syncs correctly between pages
+- [ ] getStaticPaths handles documents with missing metadata (no crash)
 
 ### Visual Regression
 - [ ] Card styling identical between grid and detail page
 - [ ] Badge rendering matches exactly
 - [ ] No layout shifts when expanded content loads
+- [ ] TagActionBar appears in correct position (after date, before badges)
+- [ ] Max-width container centers correctly on wide screens
+
+### Edge Cases
+- [ ] Document with no analysis data still renders
+- [ ] Document with no GIS data doesn't show MAPA badge
+- [ ] Very long applicant names don't break layout
+- [ ] Missing kategorie_vlk doesn't render empty badge list
 
 ---
 
@@ -255,8 +284,8 @@ No new CSS needed. Reuse existing Tailwind classes from EvaluationCard:
 **Risk:** Breaking grid expand/collapse during DocumentCard refactor.
 **Mitigation:** Extract DocumentCardSummary carefully; keep expand/collapse logic untouched. Test grid thoroughly before moving to Phase 3.
 
-**Risk:** [docId].astro needs Convex bundle for tags.
-**Mitigation:** Only load DocumentDetailView with `client:load` when `isAuthenticated` (requires runtime check). Fallback to static-only view for unauthenticated users if bundle size is a concern.
+**Risk:** [docId].astro needs Convex bundle for tags, which increases page bundle size.
+**Mitigation:** Always use `client:load` for DocumentDetailView (conditional loading based on auth isn't feasible in SSG). The Convex client is already loaded in index.astro, so users visiting both pages will have it cached. Consider `client:idle` if performance testing shows it's necessary.
 
 ---
 
