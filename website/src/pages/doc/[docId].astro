@@ -26,6 +26,18 @@ export async function getStaticPaths() {
         return null;
     }
 
+    // Helper function to safely read text files
+    function readTextSafe(filePath: string) {
+        try {
+            if (fs.existsSync(filePath)) {
+                return fs.readFileSync(filePath, 'utf-8');
+            }
+        } catch (error) {
+            console.error(`Error reading ${filePath}:`, error);
+        }
+        return null;
+    }
+
     // Define __dirname inside the function
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = path.dirname(__filename);
@@ -60,11 +72,15 @@ export async function getStaticPaths() {
             // Read the files
             const meta = readJsonSafe(metaPath);
             const analysis = readJsonSafe(analysisPath);
+            const logPath = path.resolve(dirPath, 'log.txt');
+            const log = readTextSafe(logPath);
+            const statusPath = path.resolve(dirPath, 'status.json');
+            const status = readJsonSafe(statusPath);
 
             // Add to paths array
             paths.push({
                 params: { docId },
-                props: { docId, dirPath, meta, analysis }
+                props: { docId, dirPath, meta, analysis, log, status }
             });
 
             docIdToPathMap.set(docId, dirPath);
@@ -84,9 +100,11 @@ interface Props {
     dirPath: string;
     meta: any;
     analysis: any;
+    log: string | null;
+    status: any;
 }
 
-const { docId, dirPath, meta, analysis } = Astro.props;
+const { docId, dirPath, meta, analysis, log, status } = Astro.props;
 
 // Determine the page title
 const pageTitle = meta?.nazov || analysis?.cislo_konania_spisu || docId;
@@ -103,7 +121,9 @@ const documentData = {
   analyza: analysis || {},
   nazov: meta?.nazov || null,
   url: meta?.url || null,
-  hasGis
+  hasGis,
+  log,
+  status
 };
 ---
 

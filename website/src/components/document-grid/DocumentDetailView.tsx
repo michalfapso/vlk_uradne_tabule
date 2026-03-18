@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useStore } from '@nanostores/react';
 import { $isAuthenticated } from '../../stores/authStore';
 import { DocumentCardSummary } from './DocumentCardSummary';
 import { DocumentDetail } from './DocumentDetail';
 import { TagActionBar } from './TagActionBar';
 import { getBorderColorClass } from './utils';
+import { isDataImportant, DEFAULT_REGEX_STRING } from '../../scripts/documentAnalysis.js';
 
 interface AnalyzaData {
   kategorie_vlk?: string[];
@@ -33,6 +34,8 @@ interface DocumentDetailViewProps {
     nazov?: string;
     url?: string;
     hasGis: boolean;
+    log?: string | null;
+    status?: any;
   };
 }
 
@@ -45,6 +48,25 @@ export const DocumentDetailView = ({
   const [currentTag, setCurrentTag] = useState<string | null>(data?.analyza?.myTag || null);
   const [borderColorClass, setBorderColorClass] = useState<string>(getBorderColorClass(data?.analyza || {}));
 
+  // Calculate importance properties
+  const importanceData = useMemo(() => {
+    let blacklistRegex: RegExp | null = null;
+    try {
+      blacklistRegex = new RegExp(DEFAULT_REGEX_STRING, "i");
+    } catch (e) {
+      console.error("Invalid regex:", e);
+    }
+
+    const importance = isDataImportant(data, blacklistRegex);
+    const isImportantSystem = importance.important;
+
+    return {
+      isImportant: currentTag ? (currentTag === 'dôležité' || currentTag === 'vstupujeme do správneho konania') : isImportantSystem,
+      isImportantSystem,
+      importanceReason: importance.reason
+    };
+  }, [data, currentTag]);
+
   // Sync tag state when props change
   useEffect(() => {
     setCurrentTag(data?.analyza?.myTag || null);
@@ -52,8 +74,9 @@ export const DocumentDetailView = ({
 
   // Recalculate border color when tag changes
   useEffect(() => {
-    setBorderColorClass(getBorderColorClass(data?.analyza || {}));
-  }, [currentTag, data?.analyza]);
+    const dataWithImportance = { ...data?.analyza, ...importanceData };
+    setBorderColorClass(getBorderColorClass(dataWithImportance));
+  }, [currentTag, data?.analyza, importanceData]);
 
   return (
     <div
@@ -94,10 +117,15 @@ export const DocumentDetailView = ({
             original: {
               docId,
               datum_display,
-              ...data?.analyza,
+              analyza: data?.analyza,
               url: data?.url,
               hasGis: data?.hasGis,
-              myTag: currentTag
+              log: data?.log,
+              status: data?.status,
+              myTag: currentTag,
+              isImportant: importanceData.isImportant,
+              isImportantSystem: importanceData.isImportantSystem,
+              importanceReason: importanceData.importanceReason
             }
           }}
           onLinkClick={(docId) => {
