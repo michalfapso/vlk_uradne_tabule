@@ -27,7 +27,7 @@ import {
   GridPagination,
   UndoToast,
   EmptyState,
-  DesktopTable,
+  DocumentTable,
 } from './document-grid';
 
 interface DocumentGridProps {
@@ -585,9 +585,9 @@ function DocumentGridContent({ initialData }: DocumentGridProps) {
         toggleAllExpanded={() => table.toggleAllRowsExpanded()}
       />
 
-      <DesktopTable 
-        table={table} 
-        pendingHides={pendingHides} 
+      <DocumentTable
+        table={table}
+        pendingHides={pendingHides}
         highlightedDocId={highlightedDocId}
         onLinkClick={handleLinkClick}
       />

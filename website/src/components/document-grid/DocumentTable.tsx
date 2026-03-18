@@ -10,7 +10,7 @@ interface DesktopTableProps {
   onLinkClick: (docId: string) => void;
 }
 
-export const DesktopTable = ({ table, pendingHides, highlightedDocId, onLinkClick }: DesktopTableProps) => {
+export const DocumentTable = ({ table, pendingHides, highlightedDocId, onLinkClick }: DesktopTableProps) => {
   const columnsCount = table.getVisibleLeafColumns().length;
 
   return (

@@ -7,4 +7,4 @@ export * from './GridControls';
 export * from './GridPagination';
 export * from './UndoToast';
 export * from './EmptyState';
-export * from './DesktopTable';
+export * from './DocumentTable';
