@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import glob from 'glob';
 import { fileURLToPath } from 'node:url';
+import { DocumentDetailView } from '../../components/document-grid/DocumentDetailView.tsx';
+import ConvexClientProvider from '../../components/ConvexClientProvider.tsx';
 
 // Export getStaticPaths function to generate static routes for all documents
 export async function getStaticPaths() {
@@ -94,152 +96,40 @@ const originalUrl = meta?.url || null;
 // Check if GIS data exists
 const gisPath = path.resolve(dirPath, 'gis.geojson');
 const hasGis = fs.existsSync(gisPath);
+
+// Extract datum_display (used for tagging)
+const datum_display = meta?.datum || analysis?.datum_dokumentu || 'N/A';
+
+// Construct data object for DocumentDetailView
+const documentData = {
+  analyza: analysis || {},
+  nazov: meta?.nazov || null,
+  url: meta?.url || null,
+  hasGis: fs.existsSync(gisPath)
+};
 ---
 
 <Layout title={`Document: ${docId}`}>
-    <div class="container p-4 max-w-4xl mx-auto">
-        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-            {/* Document Header */}
-            <h1 class="text-3xl font-bold text-gray-900 mb-4">
-                {pageTitle}
-            </h1>
+  <ConvexClientProvider>
+    <div class="container p-4 max-w-[1200px] mx-auto">
+      {/* Navigation Header */}
+      <div class="flex items-center justify-between mb-6">
+        <h1 class="text-2xl font-bold text-gray-900">Document Details</h1>
+        <a
+          href="/"
+          class="inline-flex items-center px-3 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+        >
+          ← Back to Documents
+        </a>
+      </div>
 
-            {/* Basic Metadata */}
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-gray-700">
-                <div>
-                    <p class="font-semibold text-gray-600">Document ID:</p>
-                    <p class="text-gray-900">{docId}</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-gray-600">Date:</p>
-                    <p class="text-gray-900">{datum}</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-gray-600">Region (Kraj):</p>
-                    <p class="text-gray-900">{kraj}</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-gray-600">District (Okres):</p>
-                    <p class="text-gray-900">{okres}</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-gray-600">Source:</p>
-                    <p class="text-gray-900">{source}</p>
-                </div>
-                {hasGis && (
-                    <div>
-                        <p class="font-semibold text-gray-600">GIS Data:</p>
-                        <p class="text-green-600">✓ Available</p>
-                    </div>
-                )}
-            </div>
-
-            {/* Original URL Link */}
-            {originalUrl && (
-                <div class="mb-6">
-                    <a
-                        href={originalUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-                    >
-                        Open Original Document
-                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            )}
-        </div>
-
-        {/* Analysis Data Section */}
-        {analysis && (
-            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                <h2 class="text-2xl font-bold text-gray-900 mb-4">Analysis Details</h2>
-
-                {/* Key fields from analysis */}
-                <div class="space-y-4 mb-6">
-                    {analysis.cislo_konania_spisu && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Case Number:</p>
-                            <p class="text-gray-900">{analysis.cislo_konania_spisu}</p>
-                        </div>
-                    )}
-
-                    {analysis.ziadatel_navrhovatel && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Applicant / Proposer:</p>
-                            <p class="text-gray-900">{analysis.ziadatel_navrhovatel}</p>
-                        </div>
-                    )}
-
-                    {analysis.typ_dokumentu && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Document Type:</p>
-                            <p class="text-gray-900">{analysis.typ_dokumentu}</p>
-                        </div>
-                    )}
-
-                    {analysis.lehoty_na_vyjadrenie && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Comment Deadline:</p>
-                            <p class="text-gray-900">{analysis.lehoty_na_vyjadrenie}</p>
-                        </div>
-                    )}
-
-                    {analysis.typ_zasahu && analysis.typ_zasahu.length > 0 && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Type of Intervention:</p>
-                            <ul class="list-disc list-inside text-gray-900">
-                                {analysis.typ_zasahu.map((typ) => (
-                                    <li key={typ}>{typ}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    )}
-
-                    {analysis.zhrnutie && (
-                        <div>
-                            <p class="font-semibold text-gray-600">Summary:</p>
-                            <p class="text-gray-900 whitespace-pre-wrap">{analysis.zhrnutie}</p>
-                        </div>
-                    )}
-                </div>
-
-                {/* Full JSON for reference */}
-                <details class="group">
-                    <summary class="flex items-center cursor-pointer font-semibold text-gray-700 hover:text-blue-600 p-2 bg-gray-50 rounded border border-gray-200">
-                        <span class="transform transition-transform duration-200 group-open:rotate-90 text-gray-500">▶</span>
-                        <span class="ml-2">View Full Analysis JSON</span>
-                    </summary>
-                    <div class="mt-4 p-4 bg-gray-50 border border-gray-200 rounded overflow-auto">
-                        <pre class="text-xs text-gray-800 whitespace-pre-wrap break-words">{JSON.stringify(analysis, null, 2)}</pre>
-                    </div>
-                </details>
-            </div>
-        )}
-
-        {/* Meta Data Section */}
-        {meta && (
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-2xl font-bold text-gray-900 mb-4">Metadata</h2>
-                <details class="group">
-                    <summary class="flex items-center cursor-pointer font-semibold text-gray-700 hover:text-blue-600 p-2 bg-gray-50 rounded border border-gray-200">
-                        <span class="transform transition-transform duration-200 group-open:rotate-90 text-gray-500">▶</span>
-                        <span class="ml-2">View Metadata JSON</span>
-                    </summary>
-                    <div class="mt-4 p-4 bg-gray-50 border border-gray-200 rounded overflow-auto">
-                        <pre class="text-xs text-gray-800 whitespace-pre-wrap break-words">{JSON.stringify(meta, null, 2)}</pre>
-                    </div>
-                </details>
-            </div>
-        )}
-
-        {/* No data fallback */}
-        {!analysis && !meta && (
-            <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-                <p class="text-yellow-800">No detailed information available for this document.</p>
-            </div>
-        )}
+      {/* DocumentDetailView Component */}
+      <DocumentDetailView
+        client:load
+        docId={docId}
+        datum_display={datum_display}
+        data={documentData}
+      />
     </div>
+  </ConvexClientProvider>
 </Layout>
