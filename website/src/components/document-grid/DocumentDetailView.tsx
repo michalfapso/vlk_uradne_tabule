@@ -7,36 +7,10 @@ import { TagActionBar } from './TagActionBar';
 import { getBorderColorClass } from './utils';
 import { isDataImportant, DEFAULT_REGEX_STRING } from '../../scripts/documentAnalysis.js';
 
-interface AnalyzaData {
-  kategorie_vlk?: string[];
-  typ_zasahu?: string[];
-  typ_dokumentu?: string;
-  cislo_konania_spisu?: string;
-  ziadatel_navrhovatel?: string;
-  zakony?: Array<{ cislo: string; paragrafy?: string[] }>;
-  gis?: {
-    source_type?: string;
-    zasiahnute_chranene_uzemia?: Record<string, any>;
-  };
-  typ_uzemia?: string[];
-  miesto_realizacie?: Record<string, any>;
-  myTag?: string | null;
-  zhrnutie?: string;
-  dotknute_zivocichy_rastliny?: string[];
-  [key: string]: any; // Allow other properties
-}
-
 interface DocumentDetailViewProps {
   docId: string;
   datum_display: string;
-  data: {
-    analyza?: AnalyzaData;
-    nazov?: string;
-    url?: string;
-    hasGis: boolean;
-    log?: string | null;
-    status?: any;
-  };
+  data: Record<string, any>;
 }
 
 export const DocumentDetailView = ({
@@ -115,17 +89,9 @@ export const DocumentDetailView = ({
         <DocumentDetail
           row={{
             original: {
-              docId,
-              datum_display,
-              analyza: data?.analyza,
-              url: data?.url,
-              hasGis: data?.hasGis,
-              log: data?.log,
-              status: data?.status,
+              ...data,
               myTag: currentTag,
-              isImportant: importanceData.isImportant,
-              isImportantSystem: importanceData.isImportantSystem,
-              importanceReason: importanceData.importanceReason
+              ...importanceData
             }
           }}
           onLinkClick={(docId) => {
