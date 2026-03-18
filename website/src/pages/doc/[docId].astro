@@ -1,9 +1,14 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+// Node.js utilities
 import fs from 'node:fs';
 import path from 'node:path';
-import glob from 'glob';
 import { fileURLToPath } from 'node:url';
+import glob from 'glob';
+
+// Astro
+import Layout from '../../layouts/Layout.astro';
+
+// React
 import { DocumentDetailView } from '../../components/document-grid/DocumentDetailView.tsx';
 import ConvexClientProvider from '../../components/ConvexClientProvider.tsx';
 
@@ -86,13 +91,6 @@ const { docId, dirPath, meta, analysis } = Astro.props;
 // Determine the page title
 const pageTitle = meta?.nazov || analysis?.cislo_konania_spisu || docId;
 
-// Extract metadata
-const datum = meta?.datum || analysis?.datum_dokumentu || 'N/A';
-const kraj = meta?.kraj || analysis?.miesto_realizacie?.kraj || 'N/A';
-const okres = meta?.okres || analysis?.miesto_realizacie?.okres || 'N/A';
-const source = meta?.source || 'Unknown';
-const originalUrl = meta?.url || null;
-
 // Check if GIS data exists
 const gisPath = path.resolve(dirPath, 'gis.geojson');
 const hasGis = fs.existsSync(gisPath);
@@ -105,19 +103,20 @@ const documentData = {
   analyza: analysis || {},
   nazov: meta?.nazov || null,
   url: meta?.url || null,
-  hasGis: fs.existsSync(gisPath)
+  hasGis
 };
 ---
 
-<Layout title={`Document: ${docId}`}>
+<Layout title={pageTitle ? `${pageTitle} - Úradné Tabule` : `Document: ${docId}`}>
   <ConvexClientProvider>
-    <div class="container p-4 max-w-[1200px] mx-auto">
+    <div class="p-4 max-w-[1200px] mx-auto">
       {/* Navigation Header */}
       <div class="flex items-center justify-between mb-6">
         <h1 class="text-2xl font-bold text-gray-900">Document Details</h1>
         <a
           href="/"
           class="inline-flex items-center px-3 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+          aria-label="Return to document list"
         >
           ← Back to Documents
         </a>
