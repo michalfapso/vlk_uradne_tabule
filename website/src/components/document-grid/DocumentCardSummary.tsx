@@ -60,11 +60,7 @@ export const DocumentCardSummary = ({
       <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-3">
         <div className="text-xs font-bold text-gray-500 uppercase whitespace-nowrap">{formatDate(datum_display)}</div>
 
-        {tagUI && (
-          <div onClick={e => e.stopPropagation()}>
-            {tagUI}
-          </div>
-        )}
+        {tagUI}
 
         <div className="flex flex-wrap gap-1">
           {(a.kategorie_vlk || []).map((cat: string) => (
