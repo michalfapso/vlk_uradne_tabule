@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const ExpandedRowContent = ({ 
-  row, 
-  onLinkClick 
-}: { 
-  row: any, 
-  onLinkClick: (docId: string) => void 
+export const DocumentDetail = ({
+  row,
+  onLinkClick
+}: {
+  row: any,
+  onLinkClick: (docId: string) => void
 }) => {
   const data = row.original;
   const a = data.analyza || {};

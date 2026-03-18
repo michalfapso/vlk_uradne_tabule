@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useStore } from '@nanostores/react';
 import { $isAuthenticated } from '../../stores/authStore';
 import { DocumentCardSummary } from './DocumentCardSummary';
-import { ExpandedRowContent } from './ExpandedRowContent';
+import { DocumentDetail } from './DocumentDetail';
 import { TagActionBar } from './TagActionBar';
 import { getBorderColorClass } from './utils';
 
@@ -89,7 +89,7 @@ export const DocumentDetailView = ({
 
       {/* Always render expanded content */}
       <div className="bg-gray-50 border-t border-gray-200">
-        <ExpandedRowContent
+        <DocumentDetail
           row={{
             original: {
               docId,

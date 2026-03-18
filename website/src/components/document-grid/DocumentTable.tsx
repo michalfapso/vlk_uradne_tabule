@@ -1,6 +1,6 @@
 import React from 'react';
 import { flexRender, type Table } from '@tanstack/react-table';
-import { ExpandedRowContent } from './ExpandedRowContent';
+import { DocumentDetail } from './DocumentDetail';
 import { getBorderColorClass } from './utils';
 
 interface DesktopTableProps {
@@ -63,7 +63,7 @@ export const DocumentTable = ({ table, pendingHides, highlightedDocId, onLinkCli
                   {row.getIsExpanded() && !isPending && (
                     <tr>
                       <td colSpan={columnsCount} className="p-0 border-b border-gray-200">
-                        <ExpandedRowContent row={row} onLinkClick={onLinkClick} />
+                        <DocumentDetail row={row} onLinkClick={onLinkClick} />
                       </td>
                     </tr>
                   )}

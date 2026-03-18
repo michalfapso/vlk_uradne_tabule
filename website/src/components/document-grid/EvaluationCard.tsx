@@ -1,6 +1,6 @@
 import React from 'react';
 import { TagActionBar } from './TagActionBar';
-import { ExpandedRowContent } from './ExpandedRowContent';
+import { DocumentDetail } from './DocumentDetail';
 import { DocumentCardSummary } from './DocumentCardSummary';
 import { getBorderColorClass } from './utils';
 
@@ -58,7 +58,7 @@ export const EvaluationCard = ({
       
       {isExpanded && (
         <div className="bg-gray-50 border-t border-gray-200 animate-in slide-in-from-top duration-200">
-          <ExpandedRowContent row={row} onLinkClick={onLinkClick} />
+          <DocumentDetail row={row} onLinkClick={onLinkClick} />
         </div>
       )}
     </div>
