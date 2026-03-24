@@ -144,12 +144,17 @@ Add a header bar to the document detail page matching the main page pattern, wit
 3. **TagActionBar visibility** - Verify TagActionBar is only visible in DocumentDetail section when authenticated
 4. **Tag functionality** - Verify tag selection immediately affects "Dôležitosť:" field display (overrides auto-detection)
 5. **Navigation** - Verify back button successfully navigates to home page
-6. **React island isolation** - Verify Header and DocumentDetailView are separate React islands that don't cause console errors
-7. **Responsive design** - Test on mobile/tablet:
+6. **React island isolation** - Verify Header and DocumentDetailView are separate React islands that don't cause console errors related to providers
+7. **Critical: Auth state sync across islands**
+   - Sign in via AuthSection button
+   - Verify TagActionBar appears instantly in DocumentDetailView (no page reload)
+   - Verify no duplicate provider warnings in browser console
+   - Sign out and verify TagActionBar disappears instantly
+   - This validates that nanostores sync and singleton Convex client work correctly
+8. **Responsive design** - Test on mobile/tablet:
    - Header items should maintain layout (flex justify-between)
    - Back button text should fit or truncate gracefully
    - AuthSection should remain accessible and clickable
-8. **Auth state persistence** - Verify authentication state from Header is accessible to DocumentDetailView across page navigation
 
 ## Files to Modify
 
