@@ -11,6 +11,7 @@ import Layout from '../../layouts/Layout.astro';
 // React
 import { DocumentDetailView } from '../../components/document-grid/DocumentDetailView.tsx';
 import ConvexClientProvider from '../../components/ConvexClientProvider.tsx';
+import Header from '../../components/Header.tsx';
 
 // Export getStaticPaths function to generate static routes for all documents
 export async function getStaticPaths() {
@@ -128,19 +129,22 @@ const documentData = {
 ---
 
 <Layout title={pageTitle ? `${pageTitle} - Úradné Tabule` : `Document: ${docId}`}>
+  {/* Header bar with navigation - separate React island */}
+  <div class="flex justify-between items-center p-4 bg-gray-50 border-b">
+    <a
+      href="/"
+      class="inline-flex items-center px-3 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+      aria-label="Return to document list"
+    >
+      ← Back to Documents
+    </a>
+    <Header client:load />
+  </div>
+
+  {/* Main content */}
   <ConvexClientProvider>
     <div class="p-4 max-w-[1200px] mx-auto">
-      {/* Navigation Header */}
-      <div class="flex items-center justify-between mb-6">
-        <h1 class="text-2xl font-bold text-gray-900">Document Details</h1>
-        <a
-          href="/"
-          class="inline-flex items-center px-3 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
-          aria-label="Return to document list"
-        >
-          ← Back to Documents
-        </a>
-      </div>
+      <h1 class="text-2xl font-bold text-gray-900 mb-6">Document Details</h1>
 
       {/* DocumentDetailView Component */}
       <DocumentDetailView
