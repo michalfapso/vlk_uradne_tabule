@@ -44,7 +44,19 @@ Current structure (lines 130-154):
 </Layout>
 ```
 
-- [ ] **Step 2: Compare with index.astro header pattern**
+- [ ] **Step 2: Verify necessary imports**
+
+Check: `website/src/pages/doc/[docId].astro` (lines 1-15)
+
+Ensure these imports exist:
+- `import Layout from '../../layouts/Layout.astro';` ✓ (line 9)
+- `import { DocumentDetailView } from '../../components/document-grid/DocumentDetailView.tsx';` ✓ (line 12)
+- `import ConvexClientProvider from '../../components/ConvexClientProvider.tsx';` ✓ (line 13)
+
+**Need to add** (if not present):
+- `import Header from '../../components/Header.tsx';`
+
+- [ ] **Step 3: Compare with index.astro header pattern**
 
 Open: `website/src/pages/index.astro` (lines 360-362)
 
@@ -55,7 +67,7 @@ Note the pattern:
 </div>
 ```
 
-No explicit ConvexClientProvider wrapping - Header is a separate React island.
+Header is a separate React island. Its internal ConvexClientProvider combines with DocumentDetailView's wrapper - both use the same singleton Convex client, so auth state syncs via nanostores.
 
 - [ ] **Step 3: Verify Header and AuthSection components work correctly**
 
@@ -254,9 +266,11 @@ git commit -m "test: verify AuthSection integration and auth state sync"
 ## Notes for Implementation
 
 **Critical Points:**
-1. **React islands must remain separate** - Header and DocumentDetailView are different Astro islands. This is correct and required.
-2. **Singleton Convex client handles auth state** - All providers on the page share the same Convex client instance, so auth state syncs automatically.
-3. **Nanostores bridges islands** - AuthSection updates `$isAuthenticated` store, which DocumentDetailView reads. This enables TagActionBar visibility sync.
+1. **React islands must remain separate** - Header and DocumentDetailView are different Astro islands with separate React roots. This is correct and required.
+2. **Singleton Convex client architecture** - Both ConvexClientProvider instances (Header's internal and main content's wrapper) use the SAME singleton Convex client instance (`const convex = new ConvexReactClient(convexUrl)` from ConvexClientProvider.tsx). This ensures all providers on the page share the same auth context.
+3. **Dual sync mechanism** - Auth state syncs via:
+   - **Synchronous:** Singleton Convex client ensures both islands see the same auth context
+   - **Observable:** AuthSection updates `$isAuthenticated` nanostores atom, which DocumentDetailView reads via `useStore()` hook
 4. **No component logic changes needed** - Header, AuthSection, DocumentDetailView work as-is. This is purely a structural change to [docId].astro.
 
 **Testing Approach:**
