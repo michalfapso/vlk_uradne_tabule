@@ -10,7 +10,6 @@ import Layout from '../../layouts/Layout.astro';
 
 // React
 import { DocumentDetailView } from '../../components/document-grid/DocumentDetailView.tsx';
-import ConvexClientProvider from '../../components/ConvexClientProvider.tsx';
 import Header from '../../components/Header.tsx';
 
 // Export getStaticPaths function to generate static routes for all documents
@@ -141,18 +140,16 @@ const documentData = {
     <Header client:load />
   </div>
 
-  {/* Main content */}
-  <ConvexClientProvider>
-    <div class="p-4 max-w-[1200px] mx-auto">
-      <h1 class="text-2xl font-bold text-gray-900 mb-6">Document Details</h1>
+  {/* Main content - no ConvexClientProvider, uses auth from Header's provider */}
+  <div class="p-4 max-w-[1200px] mx-auto">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">Document Details</h1>
 
-      {/* DocumentDetailView Component */}
-      <DocumentDetailView
-        client:load
-        docId={docId}
-        datum_display={datum_display}
-        data={documentData}
-      />
-    </div>
-  </ConvexClientProvider>
+    {/* DocumentDetailView Component */}
+    <DocumentDetailView
+      client:load
+      docId={docId}
+      datum_display={datum_display}
+      data={documentData}
+    />
+  </div>
 </Layout>
