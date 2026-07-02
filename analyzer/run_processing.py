@@ -95,7 +95,7 @@ def main():
     # PROCESS_SPECIFIC_DOC_IDS = list(set(PROCESS_SPECIFIC_DOC_IDS_new) - set(PROCESS_SPECIFIC_DOC_IDS_old))
     # PROCESS_SPECIFIC_DOC_IDS = ['563350']
     # print('PROCESS_SPECIFIC_DOC_IDS:', PROCESS_SPECIFIC_DOC_IDS)
-    # PROCESS_SPECIFIC_DOC_IDS = None
+    PROCESS_SPECIFIC_DOC_IDS = None
 
     FORCE_DOCUMENTS_REPROCESSING = False # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
 
