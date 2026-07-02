@@ -61,7 +61,6 @@ jobs:
         if: inputs.download_artifact_locally != true
         uses: ./.github/actions/download-workflow-artifact
         with:
-          workflows: "scrape.yml"
           run_id: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.id || '' }}
           artifact: "scraped-data"
           path: "data/scraped"

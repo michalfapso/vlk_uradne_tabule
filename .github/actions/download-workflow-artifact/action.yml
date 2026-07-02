@@ -1,11 +1,8 @@
 name: 'Download Workflow Artifact'
-description: 'Downloads an artifact from a specific run or the latest successful run of specified workflows'
+description: 'Downloads an artifact from a specific run, the current run, or the latest non-expired artifact with that name in the repo'
 inputs:
-  workflows:
-    description: 'Space-separated list of workflow filenames to check for latest run'
-    required: false
   run_id:
-    description: 'Specific run ID to download from. If provided, workflows input is ignored.'
+    description: 'Specific run ID to download from. If provided, skips auto-detection.'
     required: false
   artifact:
     description: 'Name of the artifact to download'
@@ -21,50 +18,35 @@ runs:
       shell: bash
       env:
         GH_TOKEN: ${{ github.token }}
-        INPUT_WORKFLOWS: ${{ inputs.workflows }}
         INPUT_RUN_ID: ${{ inputs.run_id }}
         INPUT_ARTIFACT: ${{ inputs.artifact }}
         INPUT_PATH: ${{ inputs.path }}
       run: |
         RUN_ID="$INPUT_RUN_ID"
-        
+
         if [ -z "$RUN_ID" ]; then
-          # First check if the artifact exists in the current run
           echo "Checking if artifact '$INPUT_ARTIFACT' exists in current run (${{ github.run_id }})..."
           if gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq ".artifacts[].name" | grep -qx "$INPUT_ARTIFACT"; then
-            echo "Found artifact '$INPUT_ARTIFACT' in current run."
+            echo "Found artifact in current run."
             RUN_ID="${{ github.run_id }}"
           fi
         fi
 
         if [ -z "$RUN_ID" ]; then
-          echo "Searching for latest run among workflows: $INPUT_WORKFLOWS"
-          LATEST_ID=""
-          LATEST_DATE=""
-          
-          for wf in $INPUT_WORKFLOWS; do
-            # Fetch ID and createdAt
-            DATA=$(gh run list --workflow "$wf" --branch main --status success --limit 1 --json databaseId,createdAt --jq 'if .[0] then .[0] | "\(.databaseId) \(.createdAt)" else "" end')
-            
-            if [ -n "$DATA" ]; then
-              read -r ID DATE <<< "$DATA"
-              echo "Found run $ID at $DATE for $wf"
-              
-              if [ -z "$LATEST_DATE" ] || [[ "$DATE" > "$LATEST_DATE" ]]; then
-                LATEST_DATE="$DATE"
-                LATEST_ID="$ID"
-              fi
-            fi
-          done
-          
-          RUN_ID="$LATEST_ID"
+          echo "Searching for latest non-expired '$INPUT_ARTIFACT' artifact in repository..."
+          DATA=$(gh api "repos/${{ github.repository }}/actions/artifacts?name=$INPUT_ARTIFACT&per_page=5" \
+            --jq '[.artifacts[] | select(.expired == false)] | if length > 0 then .[0] | "\(.workflow_run.id) \(.created_at)" else "" end')
+          if [ -n "$DATA" ]; then
+            read -r RUN_ID ARTIFACT_DATE <<< "$DATA"
+            echo "Found artifact created at $ARTIFACT_DATE in run $RUN_ID."
+          fi
         fi
-        
+
         if [ -n "$RUN_ID" ]; then
           echo "Downloading artifact '$INPUT_ARTIFACT' from run $RUN_ID to '$INPUT_PATH'"
           mkdir -p "$INPUT_PATH"
           gh run download "$RUN_ID" -n "$INPUT_ARTIFACT" -D "$INPUT_PATH"
         else
-          echo "No suitable run found."
+          echo "No suitable artifact found."
           exit 1
         fi
