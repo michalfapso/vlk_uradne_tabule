@@ -83,8 +83,10 @@ def get_geometry_of_a_geoname(nazov_lokality: str, obec: str, okres: str, kraj: 
     # Try to normalize the location name via google geocoding API
     normalized = get_google_maps_geocoding(f"{nazov_lokality}, {obec}, {okres}, {kraj}, Slovensko")
     print('normalized:', normalized)
+    if normalized is None:
+        return None, None
     normalized_geoname = normalized['formatted_address']
-        
+
     gdf, q = get_url(normalized_geoname)
     if gdf is not None:
         return gdf, q
