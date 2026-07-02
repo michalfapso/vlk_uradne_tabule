@@ -93,11 +93,11 @@ def main():
     # PROCESS_SPECIFIC_DOC_IDS_old = ['ou-za-oszp1-2026-036550-buk', 'ou-bb-oszp1-2026-017755-si', '562994', '563021', '562910', '10061-2026-6-1', '562739', '562738', '562783', '562785', '562718', '9937-2026-6-1', '562558', '562557', '562674', 'ou-za-oszp1-2026-033508-kub', '9909-2026-6-1', '562510', '562460', '562479', '562494', '562493', '562491', '562495', '562635', '562449', '562526', '562439', '559962', '8542-2026-6-1']
     # PROCESS_SPECIFIC_DOC_IDS_new = ['ou-bb-oszp1-2026-017755-si', '562994', '562971', '562718', '562738', '562736', '562785', 'ou-bb-oszp1-2026-017325-si', '562740', '562643', '562617', 'ou-za-oszp1-2026-034919-skv', '9937-2026-6-1', '562595', '562558', '562557', '562748', '562555', 'ou-za-oszp1-2026-033508-kub', '562510', '562460', '562479', '562495', '562459', '562467', '562449', '562526', '562439', '560347', '559962', '8542-2026-6-1', '559647', '559666', '559633', '559644']
     # PROCESS_SPECIFIC_DOC_IDS = list(set(PROCESS_SPECIFIC_DOC_IDS_new) - set(PROCESS_SPECIFIC_DOC_IDS_old))
-    PROCESS_SPECIFIC_DOC_IDS = ['563350']
+    # PROCESS_SPECIFIC_DOC_IDS = ['563350']
     # print('PROCESS_SPECIFIC_DOC_IDS:', PROCESS_SPECIFIC_DOC_IDS)
     # PROCESS_SPECIFIC_DOC_IDS = None
 
-    FORCE_DOCUMENTS_REPROCESSING = True # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
+    FORCE_DOCUMENTS_REPROCESSING = False # Má spracovať dokument aj keď už je preňho vytvorený adresár a teda už bol aspoň do nejakej miery spracovaný predtým?
 
     documents_to_process = []
     if PROCESS_SPECIFIC_DOC_IDS:
@@ -128,7 +128,7 @@ def main():
         
         print(f"Nájdených {len(new_documents)} nových dokumentov (ich docid zatiaľ nebolo spracované).")
 
-        DAYS_OLD_THRESHOLD = 4
+        DAYS_OLD_THRESHOLD = 1
         print(f"Filtrujem nové dokumenty podľa dátumu (max {DAYS_OLD_THRESHOLD} dní staré)...")
         threshold_date = datetime.now() - timedelta(days=DAYS_OLD_THRESHOLD)
         
