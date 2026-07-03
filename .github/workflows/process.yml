@@ -72,6 +72,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GIS_PROXY_URL: ${{ secrets.GIS_PROXY_URL }}
           GIS_PROXY_AUTH: ${{ secrets.GIS_PROXY_AUTH }}
+          GOOGLE_GEOCODING_API_KEY: ${{ secrets.GOOGLE_GEOCODING_API_KEY }}
 
       #- name: Prune old GIS files
       #  run: python -u analyzer/prune_gis_files.py
