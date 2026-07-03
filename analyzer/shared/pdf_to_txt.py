@@ -13,8 +13,8 @@ import json
 
 # Constants
 MIN_TEXT_LENGTH_THRESHOLD = 32
-LLM_MODEL = "gemini/gemini-3-flash-preview"
-# LLM_MODEL = "gemini/gemini-2.5-flash"
+# LLM_MODEL = "gemini/gemini-3-flash-preview"
+LLM_MODEL = "gemini/gemini-2.5-flash-lite"
 # LLM_MODEL = "gemini/gemini-3-pro-preview"
 # LLM_MODEL = "gemini/gemini-2.5-pro" # Lepsie pre rukou pisane dokumenty
 IMAGE_FORMAT = "png" # Format for image conversion
