@@ -42,6 +42,8 @@ jobs:
       - name: Build Astro Site
         run: npm run build
         working-directory: ./website
+        env:
+          PUBLIC_CONVEX_URL: ${{ secrets.PUBLIC_CONVEX_URL }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
