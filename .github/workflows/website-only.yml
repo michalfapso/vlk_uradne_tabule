@@ -13,3 +13,4 @@ permissions:
 jobs:
   call-build-deploy:
     uses: ./.github/workflows/reusable-build-deploy.yml
+    secrets: inherit

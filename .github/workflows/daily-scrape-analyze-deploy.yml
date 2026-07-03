@@ -29,5 +29,6 @@ jobs:
     needs: process
     if: needs.process.outputs.data_changed == 'true'
     uses: ./.github/workflows/reusable-build-deploy.yml
+    secrets: inherit
     with:
       ref: ${{ needs.process.outputs.new_commit_sha }}
