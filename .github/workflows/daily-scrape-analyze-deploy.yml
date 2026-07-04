@@ -2,8 +2,8 @@ name: Daily Scrape, Analyze, and Deploy
 
 on:
   # Schedule the workflow to run daily at 20:00 UTC
-  # schedule:
-  #   - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
+  schedule:
+    - cron: '0 18 * * *' # UTC timezone (18:00 UTC = 20:00 CEST)
 
   # Allow manual triggering of the workflow from the GitHub Actions tab
   workflow_dispatch: {}
