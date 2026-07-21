@@ -4,7 +4,14 @@ import re
 import sys
 from datetime import datetime
 
-_REDACT_PATTERN = re.compile(r'(?i)([\?&]key=)[A-Za-z0-9_\-]{20,}')
+_URL_PATTERN = re.compile(r'https?://\S+')
+_QUERY_PARAM_PATTERN = re.compile(r'([\?&][^=&\s]+)=[^&\s\'"]+')
+
+def _redact_url_params(text):
+    def _redact(m):
+        return _QUERY_PARAM_PATTERN.sub(r'\1=***', m.group(0))
+    return _URL_PATTERN.sub(_redact, text)
+
 
 def log_status(status_filepath: str, level: str, msg: str):
     """Logs a message to stderr and appends it to a JSON status file."""
@@ -55,7 +62,7 @@ class Tee:
     def write(self, data):
         self.original_stream.write(data)
         if self.log_file and not self.log_file.closed:
-            self.log_file.write(_REDACT_PATTERN.sub(r'\1***', data))
+            self.log_file.write(_redact_url_params(data))
 
     def flush(self):
         self.original_stream.flush()

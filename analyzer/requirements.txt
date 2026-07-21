@@ -83,6 +83,7 @@ traits==7.0.2
 typer-slim==0.20.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
+pytest>=7.0
 tzdata==2025.2
 Unidecode==1.4.0
 urllib3==2.5.0
