@@ -1,7 +1,10 @@
 import os
 import json
+import re
 import sys
 from datetime import datetime
+
+_REDACT_PATTERN = re.compile(r'(?i)([\?&]key=)[A-Za-z0-9_\-]{20,}')
 
 def log_status(status_filepath: str, level: str, msg: str):
     """Logs a message to stderr and appends it to a JSON status file."""
@@ -52,7 +55,7 @@ class Tee:
     def write(self, data):
         self.original_stream.write(data)
         if self.log_file and not self.log_file.closed:
-            self.log_file.write(data)
+            self.log_file.write(_REDACT_PATTERN.sub(r'\1***', data))
 
     def flush(self):
         self.original_stream.flush()
